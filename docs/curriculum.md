@@ -1,12 +1,11 @@
 # Topics and learning guide
 
-The collection contains **477 cards in 52 topics**, with 6–13 cards per topic. Every topic is available in English and Russian, in Browse, flashcards, and hard mode. The material covers beginner vocabulary and grammar; it is not a complete A1 course.
+The collection contains **400 cards in 34 topics**, with 6–19 cards per topic. Every topic is available in English and Russian, in Browse, flashcards, and hard mode. The material covers beginner vocabulary and grammar; it is not a complete A1 course.
 
 ## Numbers
 
 - Numbers 0–10
-- Numbers 11–20
-- Tens through 100
+- Numbers 11–20 and tens through 100
 - Compound numbers, including examples through 101
 
 ## Conversations
@@ -47,18 +46,15 @@ The collection contains **477 cards in 52 topics**, with 6–13 cards per topic.
 - Connecting words and time
 - Small words with different meanings — η/ή, δεν/όχι, πάντα, ακόμα/ακόμη, μήπως, με
 
-## Present-tense verbs
+## Verbs
 
-Each verb has its own topic with all six persons. Practice both individual forms and their use in phrases.
+**Everyday verbs / Основные глаголы** contains one card per verb, using the first-person singular (“I”) form:
 
 | Verb | Meaning |
 | --- | --- |
-| είμαι | be |
-| λέγομαι | be called |
 | κάνω | do / make |
 | πίνω | drink |
 | αρχίζω | begin |
-| τραγουδώ | sing |
 | μένω | live / stay |
 | θέλω | want |
 | περιμένω | wait |
@@ -76,7 +72,17 @@ Each verb has its own topic with all six persons. Practice both individual forms
 | πληρώνω | pay |
 | αγοράζω | buy |
 
-These Greek forms mean “I am,” “I drink,” and so on. Modern Greek does not use an ordinary infinitive in the same way as English or Russian dictionary forms.
+**Verb endings: six persons / Спряжение: шесть лиц** practices three verbs, from short to long:
+
+- μένω — I live / stay
+- διαβάζω — I read / study lessons
+- καταλαβαίνω — I understand
+
+Each has cards for I, you (informal), he/she/it, we, you (plural/polite), and they: 18 cards in total. The first-person cards share progress with the everyday-verbs topic.
+
+**Είμαι**, **λέγομαι**, and **τραγουδώ** have separate grammar topics for their different patterns. Sentence examples for the everyday verbs appear in the relevant classroom, phone, location, and other topics.
+
+These Greek forms mean “I do,” “I drink,” and so on. Modern Greek does not use an ordinary infinitive in the same way as English or Russian dictionary forms.
 
 ## Choosing your practice
 

@@ -14,7 +14,7 @@ void main() {
   VocabularyCard card(String deckId, String id) =>
       deck(deckId).cards.firstWhere((c) => c.id == id);
 
-  test('September photos are covered across vocabulary and phrase topics', () {
+  test('core vocabulary and everyday phrases remain available', () {
     final answers = greekDecks
         .expand((d) => d.cards)
         .expand((c) => [c.greek, ...c.alternatives])
@@ -89,46 +89,40 @@ void main() {
     }
   });
 
-  test('each new verb covers all six persons and optional subject pronouns', () {
-    // Independent lesson examples catch a skipped person or a wrong ending.
-    const expected = {
-      'live': 'μένω μένεις μένει μένουμε μένετε μένουν',
-      'want': 'θέλω θέλεις θέλει θέλουμε θέλετε θέλουν',
-      'wait': 'περιμένω περιμένεις περιμένει περιμένουμε περιμένετε περιμένουν',
-      'have': 'έχω έχεις έχει έχουμε έχετε έχουν',
-      'read': 'διαβάζω διαβάζεις διαβάζει διαβάζουμε διαβάζετε διαβάζουν',
-      'write': 'γράφω γράφεις γράφει γράφουμε γράφετε γράφουν',
-      'open': 'ανοίγω ανοίγεις ανοίγει ανοίγουμε ανοίγετε ανοίγουν',
-      'close': 'κλείνω κλείνεις κλείνει κλείνουμε κλείνετε κλείνουν',
-      'learn': 'μαθαίνω μαθαίνεις μαθαίνει μαθαίνουμε μαθαίνετε μαθαίνουν',
-      'study':
-          'σπουδάζω σπουδάζεις σπουδάζει σπουδάζουμε σπουδάζετε σπουδάζουν',
-      'know': 'ξέρω ξέρεις ξέρει ξέρουμε ξέρετε ξέρουν',
-      'understand':
-          'καταλαβαίνω καταλαβαίνεις καταλαβαίνει καταλαβαίνουμε καταλαβαίνετε καταλαβαίνουν',
-      'finish':
-          'τελειώνω τελειώνεις τελειώνει τελειώνουμε τελειώνετε τελειώνουν',
-      'work': 'δουλεύω δουλεύεις δουλεύει δουλεύουμε δουλεύετε δουλεύουν',
-      'pay': 'πληρώνω πληρώνεις πληρώνει πληρώνουμε πληρώνετε πληρώνουν',
-      'buy': 'αγοράζω αγοράζεις αγοράζει αγοράζουμε αγοράζετε αγοράζουν',
-    };
-    const ids = ['i', 'you', 'he', 'we', 'you-plural', 'they'];
-    const subjects = ['εγώ', 'εσύ', 'αυτός', 'εμείς', 'εσείς', 'αυτοί'];
-    for (final entry in expected.entries) {
-      final forms = entry.value.split(' ');
-      for (var i = 0; i < forms.length; i++) {
-        final c = card('${entry.key}-present', ids[i]);
-        expect(matcher.matches(forms[i], c), isTrue);
-        expect(matcher.matches('${subjects[i]} ${forms[i]}', c), isTrue);
-        expect(matcher.matches(forms[(i + 1) % 6], c), isFalse);
-        expect(matcher.matches(GreekText.searchKey(forms[i]), c), isFalse);
+  test(
+    'the three representative verbs cover six persons and subject pronouns',
+    () {
+      // Independent lesson examples catch a skipped person or a wrong ending.
+      const expected = {
+        'live': 'μένω μένεις μένει μένουμε μένετε μένουν',
+        'read': 'διαβάζω διαβάζεις διαβάζει διαβάζουμε διαβάζετε διαβάζουν',
+        'understand':
+            'καταλαβαίνω καταλαβαίνεις καταλαβαίνει καταλαβαίνουμε καταλαβαίνετε καταλαβαίνουν',
+      };
+      const ids = ['i', 'you', 'he', 'we', 'you-plural', 'they'];
+      const subjects = ['εγώ', 'εσύ', 'αυτός', 'εμείς', 'εσείς', 'αυτοί'];
+      for (final entry in expected.entries) {
+        final forms = entry.value.split(' ');
+        for (var i = 0; i < forms.length; i++) {
+          final c = card(
+            'present-conjugation',
+            '${entry.key}-present.${ids[i]}',
+          );
+          expect(matcher.matches(forms[i], c), isTrue);
+          expect(matcher.matches('${subjects[i]} ${forms[i]}', c), isTrue);
+          expect(matcher.matches(forms[(i + 1) % 6], c), isFalse);
+          expect(matcher.matches(GreekText.searchKey(forms[i]), c), isFalse);
+        }
+        expect(
+          matcher.matches(
+            '${forms.last}ε',
+            card('present-conjugation', '${entry.key}-present.they'),
+          ),
+          isTrue,
+        );
       }
-      expect(
-        matcher.matches('${forms.last}ε', card('${entry.key}-present', 'they')),
-        isTrue,
-      );
-    }
-  });
+    },
+  );
 
   test(
     'article gender, noun cases and grammatical stress stay significant',
@@ -202,7 +196,7 @@ void main() {
 
   test('new number and spelling variants keep their own required accents', () {
     for (final (deckId, id, correct, wrong) in [
-      ('numbers-11-20', 'number-16', 'δεκάξι', 'δεκαξι'),
+      ('numbers-11-100', 'numbers-11-20.number-16', 'δεκάξι', 'δεκαξι'),
       ('numbers-compound', 'number-87', 'ογδόντα επτά', 'ογδόντα επτα'),
       ('numbers-compound', 'number-98', 'ενενήντα οχτώ', 'ενενηντα οχτώ'),
       ('numbers-compound', 'number-101', 'εκατόν ένα', 'εκατό ένα'),
@@ -232,26 +226,21 @@ void main() {
     },
   );
 
-  test(
-    'adding lessons preserves an existing verb review and starts new cards due',
-    () async {
-      final previous = ReviewSchedule(level: 3, dueAt: DateTime.utc(2099));
-      final store = MemoryProgressStore()
-        ..records['start-present.typing.i'] = previous;
-      final progress = LearningProgress(store);
-      await progress.load(greekDecks);
-      expect(progress.learned(deck('start-present'), StudyMode.typing), 1);
-      expect(
-        progress
-            .dueCards(deck('start-present'), StudyMode.typing)
-            .map((c) => c.id),
-        contains('lesson-always-nine'),
-      );
-      expect(
-        progress.dueCards(deck('live-present'), StudyMode.typing).length,
-        deck('live-present').cards.length,
-      );
-      expect(store.records['start-present.typing.i'], same(previous));
-    },
-  );
+  test('grouped topics preserve old reviews and keep new cards due', () async {
+    final previous = ReviewSchedule(level: 3, dueAt: DateTime.utc(2099));
+    final store = MemoryProgressStore()
+      ..records['start-present.typing.i'] = previous;
+    final progress = LearningProgress(store);
+    await progress.load(greekDecks);
+    expect(progress.learned(deck('basic-verbs'), StudyMode.typing), 1);
+    expect(
+      progress.dueCards(deck('small-words'), StudyMode.typing).map((c) => c.id),
+      contains('start-present.lesson-always-nine'),
+    );
+    expect(
+      progress.dueCards(deck('present-conjugation'), StudyMode.typing).length,
+      deck('present-conjugation').cards.length,
+    );
+    expect(store.records['start-present.typing.i'], same(previous));
+  });
 }

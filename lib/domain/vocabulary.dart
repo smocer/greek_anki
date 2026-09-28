@@ -10,6 +10,7 @@ class VocabularyCard {
     this.explanation,
     this.alternatives = const [],
     this.acceptedAnswers = const [],
+    this.reviewIdentity,
   });
 
   final String id;
@@ -22,6 +23,17 @@ class VocabularyCard {
   // Valid full phrasings (for example, an optional subject pronoun) need not
   // crowd the displayed spelling alternatives on a revealed card.
   final List<String> acceptedAnswers;
+  // A card keeps its review history when displayed in a different topic.
+  final ReviewIdentity? reviewIdentity;
+}
+
+class ReviewIdentity {
+  const ReviewIdentity({required this.deckId, required this.cardId});
+
+  final String deckId;
+  final String cardId;
+
+  String key(StudyMode mode) => '$deckId.${mode.name}.$cardId';
 }
 
 class VocabularyDeck {

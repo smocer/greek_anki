@@ -162,8 +162,8 @@ void main() {
       tester.platformDispatcher.textScaleFactorTestValue = 1.5;
       addTearDown(tester.platformDispatcher.clearTextScaleFactorTestValue);
       for (final (deckId, cardId) in [
-        ('study-present', 'kostas-university'),
-        ('have-present', 'not-phone-yet'),
+        ('everyday-places', 'study-present.kostas-university'),
+        ('phone-conversations', 'have-present.not-phone-yet'),
       ]) {
         final deck = greekDecks.firstWhere((d) => d.id == deckId);
         final card = deck.cards.firstWhere((c) => c.id == cardId);

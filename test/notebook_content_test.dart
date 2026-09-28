@@ -16,10 +16,10 @@ void main() {
   VocabularyCard card(String deckId, String cardId) =>
       deck(deckId).cards.firstWhere((card) => card.id == cardId);
 
-  test('small bilingual topics have stable unique IDs and usable answers', () {
+  test('bilingual topics have stable unique IDs and usable answers', () {
     expect(greekDecks.map((d) => d.id).toSet().length, greekDecks.length);
     for (final deck in greekDecks) {
-      expect(deck.cards.length, inInclusiveRange(6, 15), reason: deck.id);
+      expect(deck.cards, isNotEmpty, reason: deck.id);
       expect(
         deck.cards.map((c) => c.id).toSet().length,
         deck.cards.length,
@@ -190,33 +190,23 @@ void main() {
     },
   );
 
-  test(
-    'six-person drills cover each studied verb, including genuine variants',
-    () {
-      for (final id in [
-        'be-present',
-        'called-present',
-        'do-present',
-        'drink-present',
-        'start-present',
-        'sing-present',
-      ]) {
-        expect(deck(id).cards.take(6).length, 6);
-      }
-      expect(matcher.matches('τραγουδάω', card('sing-present', 'i')), isTrue);
-      expect(matcher.matches('τραγουδάμε', card('sing-present', 'we')), isTrue);
-      expect(
-        matcher.matches('εγώ τραγουδάω', card('sing-present', 'i')),
-        isTrue,
-      );
-      expect(matcher.matches('τραγουδάς', card('sing-present', 'i')), isFalse);
-      expect(card('numbers-11-20', 'number-17').greek, 'δεκαεφτά');
-      expect(
-        matcher.matches('δεκαεπτά', card('numbers-11-20', 'number-17')),
-        isTrue,
-      );
-    },
-  );
+  test('distinct grammar drills keep their forms and genuine variants', () {
+    for (final id in ['be-present', 'called-present', 'sing-present']) {
+      expect(deck(id).cards.take(6).length, 6);
+    }
+    expect(matcher.matches('τραγουδάω', card('sing-present', 'i')), isTrue);
+    expect(matcher.matches('τραγουδάμε', card('sing-present', 'we')), isTrue);
+    expect(matcher.matches('εγώ τραγουδάω', card('sing-present', 'i')), isTrue);
+    expect(matcher.matches('τραγουδάς', card('sing-present', 'i')), isFalse);
+    expect(card('numbers-11-100', 'numbers-11-20.number-17').greek, 'δεκαεφτά');
+    expect(
+      matcher.matches(
+        'δεκαεπτά',
+        card('numbers-11-100', 'numbers-11-20.number-17'),
+      ),
+      isTrue,
+    );
+  });
 
   test(
     'v1 number progress loads with new topics; modes and topics stay independent',

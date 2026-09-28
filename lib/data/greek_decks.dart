@@ -10,7 +10,9 @@ import 'decks/neighbours.dart';
 import 'decks/addresses_nearby.dart';
 import 'decks/living_places.dart';
 import 'decks/numbers_compound.dart';
-import 'decks/numbers_tens.dart';
+import '../domain/vocabulary.dart';
+import 'deck_composition.dart';
+import 'decks/verb_topics.dart';
 import 'decks/buy_present.dart';
 import 'decks/pay_present.dart';
 import 'decks/work_present.dart';
@@ -28,7 +30,7 @@ import 'decks/wait_present.dart';
 import 'decks/want_present.dart';
 import 'decks/live_present.dart';
 import 'decks/numbers_0_10.dart';
-import 'decks/numbers_11_20.dart';
+import 'decks/numbers_11_100.dart';
 import 'decks/greetings.dart';
 import 'decks/how_are_you.dart';
 import 'decks/introductions.dart';
@@ -51,13 +53,15 @@ import 'decks/start_present.dart';
 import 'decks/sing_present.dart';
 import 'decks/location.dart';
 
-// Keep deck and card IDs stable: saved reviews use both.
-const greekDecks = [
+// Grouping changes do not change the review identity of an existing card.
+final greekDecks = List<VocabularyDeck>.unmodifiable([
   numbers0To10Deck,
-  numbers1120Deck,
+  numbers11To100Deck,
   greetingsDeck,
   howAreYouDeck,
-  introductionsDeck,
+  withExtraCards(introductionsDeck, [
+    ...cardsFrom(writePresentDeck, ids: const ['write-name']),
+  ]),
   subjectPronounsDeck,
   bePresentDeck,
   calledPresentDeck,
@@ -67,42 +71,75 @@ const greekDecks = [
   possessionDeck,
   namesVocativeDeck,
   formsOfAddressDeck,
-  classroomObjectsDeck,
-  classroomPhrasesDeck,
-  questionsDeck,
-  smallWordsDeck,
-  doPresentDeck,
-  drinkPresentDeck,
-  startPresentDeck,
+  withExtraCards(classroomObjectsDeck, [
+    ...cardsFrom(doPresentDeck, ids: const ['i-exercise']),
+    ...cardsFrom(closePresentDeck, ids: const ['close-book']),
+    ...cardsFrom(openPresentDeck, ids: const ['open-books']),
+    ...cardsFrom(readPresentDeck, ids: const ['read-my-book', 'read-page']),
+    ...cardsFrom(wantPresentDeck, ids: const ['want-book']),
+    ...cardsFrom(buyPresentDeck, ids: const ['buy-books']),
+  ]),
+  withExtraCards(classroomPhrasesDeck, [
+    ...cardsFrom(knowPresentDeck, ids: const ['know-english', 'not-know-say']),
+    ...cardsFrom(
+      learnPresentDeck,
+      ids: const ['learn-greek', 'learning-question'],
+    ),
+    ...cardsFrom(
+      understandPresentDeck,
+      ids: const ['understand-say', 'we-not-understand'],
+    ),
+  ]),
+  withExtraCards(questionsDeck, [
+    ...cardsFrom(doPresentDeck, ids: const ['you-do-what']),
+    ...cardsFrom(drinkPresentDeck, ids: const ['you-drink-what']),
+    ...cardsFrom(waitPresentDeck, ids: const ['wait-what']),
+    ...cardsFrom(workPresentDeck, ids: const ['where-work']),
+    ...cardsFrom(wantPresentDeck, ids: const ['children-want']),
+  ]),
+  withExtraCards(smallWordsDeck, [
+    ...cardsFrom(
+      finishPresentDeck,
+      ids: const ['they-finish-lesson', 'lesson-finishes'],
+    ),
+    ...cardsFrom(
+      startPresentDeck,
+      ids: const ['we-start-now', 'lesson-starts', 'lesson-always-nine'],
+    ),
+  ]),
+  basicVerbsDeck,
+  presentConjugationDeck,
   singPresentDeck,
   locationDeck,
-  livePresentDeck,
-  wantPresentDeck,
-  waitPresentDeck,
-  havePresentDeck,
-  readPresentDeck,
-  writePresentDeck,
-  openPresentDeck,
-  closePresentDeck,
-  learnPresentDeck,
-  studyPresentDeck,
-  knowPresentDeck,
-  understandPresentDeck,
-  finishPresentDeck,
-  workPresentDeck,
-  payPresentDeck,
-  buyPresentDeck,
-  numbersTensDeck,
   numbersCompoundDeck,
-  livingPlacesDeck,
+  withExtraCards(livingPlacesDeck, [
+    ...cardsFrom(livePresentDeck, ids: const ['ask-live', 'we-here']),
+  ]),
   addressesNearbyDeck,
   neighboursDeck,
-  phoneConversationsDeck,
+  withExtraCards(phoneConversationsDeck, [
+    ...cardsFrom(havePresentDeck, ids: const ['have-phone', 'not-phone-yet']),
+    ...cardsFrom(writePresentDeck, ids: const ['write-mum']),
+  ]),
   hereThereNegationDeck,
-  everydayPlacesDeck,
+  withExtraCards(everydayPlacesDeck, [
+    ...cardsFrom(closePresentDeck, ids: const ['bank-closes']),
+    ...cardsFrom(openPresentDeck, ids: const ['bank-opens']),
+    ...cardsFrom(
+      studyPresentDeck,
+      ids: const ['kostas-university', 'at-university'],
+    ),
+    ...cardsFrom(workPresentDeck, ids: const ['work-bank']),
+    ...cardsFrom(buyPresentDeck, ids: const ['buy-supermarket']),
+    ...cardsFrom(payPresentDeck, ids: const ['pay-now', 'pay-bill']),
+  ]),
   moreGreetingsDeck,
-  smallTalkRepliesDeck,
-  petsHomeDeck,
+  withExtraCards(smallTalkRepliesDeck, [
+    ...cardsFrom(waitPresentDeck, ids: const ['wait-maria']),
+  ]),
+  withExtraCards(petsHomeDeck, [
+    ...cardsFrom(drinkPresentDeck, ids: const ['i-water']),
+  ]),
   diminutivesDeck,
   lessonConnectorsDeck,
-];
+]);

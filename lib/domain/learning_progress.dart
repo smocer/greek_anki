@@ -14,7 +14,7 @@ class LearningProgress extends ChangeNotifier {
   final Map<String, ReviewSchedule> _records = {};
 
   String _key(VocabularyDeck deck, StudyMode mode, VocabularyCard card) =>
-      '${deck.id}.${mode.name}.${card.id}';
+      card.reviewIdentity?.key(mode) ?? '${deck.id}.${mode.name}.${card.id}';
 
   Future<void> load(List<VocabularyDeck> decks) async {
     final loaded = <String, ReviewSchedule>{};
