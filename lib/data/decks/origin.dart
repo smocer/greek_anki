@@ -240,5 +240,229 @@ const originDeck = VocabularyDeck(
 
       acceptedAnswers: ['Εγώ είμαι από την Κύπρο.'],
     ),
+    VocabularyCard(
+      id: 'from-lebanon',
+      prompt: LocalizedText(en: 'From Lebanon', ru: 'Из Ливана'),
+      meaning: LocalizedText(
+        en: 'Include the article where shown in the phrase.',
+        ru: 'Используйте артикль, если он входит в выражение.',
+      ),
+      greek: 'από τον Λίβανο',
+      pronunciation: LocalizedText(
+        en: 'a-PO ton LI-va-no',
+        ru: 'а-ПО тон ЛИ-ва-но',
+      ),
+      explanation: LocalizedText(
+        en: 'Από takes the accusative. Masculine -ος loses final ς in the accusative.',
+        ru: 'В русском «из» требует родительного, в греческом από — винительного. Ливан и Λίβανος — мужского рода. Ο Λίβανος → τον Λίβανο: убираем -ς.',
+      ),
+    ),
+    VocabularyCard(
+      id: 'from-france',
+      prompt: LocalizedText(en: 'From France', ru: 'Из Франции'),
+      meaning: LocalizedText(
+        en: 'Include the article where shown in the phrase.',
+        ru: 'Используйте артикль, если он входит в выражение.',
+      ),
+      greek: 'από την Γαλλία',
+      pronunciation: LocalizedText(
+        en: 'a-PO tin gha-LI-a',
+        ru: 'а-ПО тин га-ЛИ-а',
+      ),
+      explanation: LocalizedText(
+        en: 'Από takes the accusative. Feminine: η Γαλλία → την Γαλλία; the noun keeps its form.',
+        ru: 'В русском «из» требует родительного, в греческом από — винительного. Женский род, как в русском. Но «Франция → из Франции», а Γαλλία после από не меняется.',
+      ),
+      alternatives: ['από τη Γαλλία'],
+    ),
+    VocabularyCard(
+      id: 'from-argentina',
+      prompt: LocalizedText(en: 'From Argentina', ru: 'Из Аргентины'),
+      meaning: LocalizedText(
+        en: 'Include the article where shown in the phrase.',
+        ru: 'Используйте артикль, если он входит в выражение.',
+      ),
+      greek: 'από την Αργεντινή',
+      pronunciation: LocalizedText(
+        en: 'a-PO tin ar-yen-di-NI',
+        ru: 'а-ПО тин ар-йэн-ди-НИ',
+      ),
+      explanation: LocalizedText(
+        en: 'Από takes the accusative. Feminine, with final stress: η Αργεντινή → την Αργεντινή.',
+        ru: 'В русском «из» требует родительного, в греческом από — винительного. Женский род, как «Аргентина». В греческом ударение в конце: Αργεντινή; после από меняется артикль.',
+      ),
+    ),
+    VocabularyCard(
+      id: 'from-morocco',
+      prompt: LocalizedText(en: 'From Morocco', ru: 'Из Марокко'),
+      meaning: LocalizedText(
+        en: 'Include the article where shown in the phrase.',
+        ru: 'Используйте артикль, если он входит в выражение.',
+      ),
+      greek: 'από το Μαρόκο',
+      pronunciation: LocalizedText(
+        en: 'a-PO to ma-RO-ko',
+        ru: 'а-ПО то ма-РО-ко',
+      ),
+      explanation: LocalizedText(
+        en: 'Από takes the accusative. Neuter and indeclinable: το Μαρόκο remains the same after από.',
+        ru: 'В русском «из» требует родительного, в греческом από — винительного. Как русское название «Марокко», греческое Μαρόκο не склоняется. Средний род: το Μαρόκο, από το Μαρόκο.',
+      ),
+    ),
+    VocabularyCard(
+      id: 'from-burundi',
+      prompt: LocalizedText(en: 'From Burundi', ru: 'Из Бурунди'),
+      meaning: LocalizedText(
+        en: 'Include the article where shown in the phrase.',
+        ru: 'Используйте артикль, если он входит в выражение.',
+      ),
+      greek: 'από το Μπουρούντι',
+      pronunciation: LocalizedText(
+        en: 'a-PO to bu-RUN-di',
+        ru: 'а-ПО то бу-РУН-ди',
+      ),
+      explanation: LocalizedText(
+        en: 'Από takes the accusative. Neuter and indeclinable. Initial μπ represents b.',
+        ru: 'В русском «из» требует родительного, в греческом από — винительного. Το Μπουρούντι — средний род, слово не склоняется. Μπ в начале передаёт «б». После από: το Μπουρούντι.',
+      ),
+    ),
+    VocabularyCard(
+      id: 'from-afghanistan',
+      prompt: LocalizedText(en: 'From Afghanistan', ru: 'Из Афганистана'),
+      meaning: LocalizedText(
+        en: 'Include the article where shown in the phrase.',
+        ru: 'Используйте артикль, если он входит в выражение.',
+      ),
+      greek: 'από το Αφγανιστάν',
+      pronunciation: LocalizedText(
+        en: 'a-PO to af-gha-ni-STAN',
+        ru: 'а-ПО то аф-га-ни-СТАН',
+      ),
+      explanation: LocalizedText(
+        en: 'Από takes the accusative. Neuter and indeclinable despite the final consonant.',
+        ru: 'В русском «из» требует родительного, в греческом από — винительного. Афганистан в русском мужского рода, в греческом среднего: το Αφγανιστάν. Слово не склоняется.',
+      ),
+    ),
+    VocabularyCard(
+      id: 'from-israel',
+      prompt: LocalizedText(en: 'From Israel', ru: 'Из Израиля'),
+      meaning: LocalizedText(
+        en: 'Include the article where shown in the phrase.',
+        ru: 'Используйте артикль, если он входит в выражение.',
+      ),
+      greek: 'από το Ισραήλ',
+      pronunciation: LocalizedText(
+        en: 'a-PO to iz-ra-IL',
+        ru: 'а-ПО то из-ра-ИЛ',
+      ),
+      explanation: LocalizedText(
+        en: 'Από takes the accusative. Neuter and indeclinable: το Ισραήλ.',
+        ru: 'В русском «из» требует родительного, в греческом από — винительного. Израиль в русском мужского рода, το Ισραήλ — среднего. В «из Израиля» греческое название не меняется: από το Ισραήλ.',
+      ),
+    ),
+    VocabularyCard(
+      id: 'from-egypt',
+      prompt: LocalizedText(en: 'From Egypt', ru: 'Из Египта'),
+      meaning: LocalizedText(
+        en: 'Include the article where shown in the phrase.',
+        ru: 'Используйте артикль, если он входит в выражение.',
+      ),
+      greek: 'από την Αίγυπτο',
+      pronunciation: LocalizedText(
+        en: 'a-PO tin E-yip-to',
+        ru: 'а-ПО тин Э-йип-то',
+      ),
+      explanation: LocalizedText(
+        en: 'Από takes the accusative. Feminine despite -ος: η Αίγυπτος → την Αίγυπτο.',
+        ru: 'В русском «из» требует родительного, в греческом από — винительного. Египет в русском мужского рода, η Αίγυπτος — женского. В винительном убираем -ς: την Αίγυπτο.',
+      ),
+    ),
+    VocabularyCard(
+      id: 'from-usa',
+      prompt: LocalizedText(
+        en: 'From USA (use the Greek abbreviation)',
+        ru: 'Из США (греческая аббревиатура)',
+      ),
+      meaning: LocalizedText(
+        en: 'Include the article where shown in the phrase.',
+        ru: 'Используйте артикль, если он входит в выражение.',
+      ),
+      greek: 'από τις ΗΠΑ',
+      pronunciation: LocalizedText(
+        en: 'a-PO tis I-ta pi AL-fa',
+        ru: 'а-ПО тис И-та пи АЛ-фа',
+      ),
+      explanation: LocalizedText(
+        en: 'Από takes the accusative. ΗΠΑ abbreviates Ηνωμένες Πολιτείες Αμερικής. Feminine plural: οι → τις; the pronunciation guide spells out the letters.',
+        ru: 'В русском «из» требует родительного, в греческом από — винительного. ΗΠΑ — Ηνωμένες Πολιτείες Αμερικής, США. Женский род, множественное число: οι → τις. В подсказке произношения названы буквы Η, Π, Α.',
+      ),
+    ),
+    VocabularyCard(
+      id: 'from-italy',
+      prompt: LocalizedText(en: 'From Italy', ru: 'Из Италии'),
+      meaning: LocalizedText(
+        en: 'Include the article where shown in the phrase.',
+        ru: 'Используйте артикль, если он входит в выражение.',
+      ),
+      greek: 'από την Ιταλία',
+      pronunciation: LocalizedText(
+        en: 'a-PO tin i-ta-LI-a',
+        ru: 'а-ПО тин и-та-ЛИ-а',
+      ),
+      explanation: LocalizedText(
+        en: 'Από takes the accusative. Feminine: η Ιταλία → την Ιταλία.',
+        ru: 'В русском «из» требует родительного, в греческом από — винительного. Женский род, как в русском, но ударение на -λί-: Ιταλία. «Из Италии»: από την Ιταλία.',
+      ),
+    ),
+    VocabularyCard(
+      id: 'from-china',
+      prompt: LocalizedText(en: 'From China', ru: 'Из Китая'),
+      meaning: LocalizedText(
+        en: 'Include the article where shown in the phrase.',
+        ru: 'Используйте артикль, если он входит в выражение.',
+      ),
+      greek: 'από την Κίνα',
+      pronunciation: LocalizedText(en: 'a-PO tin KI-na', ru: 'а-ПО тин КИ-на'),
+      explanation: LocalizedText(
+        en: 'Από takes the accusative. China is feminine in Greek: η Κίνα.',
+        ru: 'В русском «из» требует родительного, в греческом από — винительного. Китай в русском мужского рода, η Κίνα — женского. «Из Китая»: από την Κίνα; существительное не меняет форму.',
+      ),
+    ),
+    VocabularyCard(
+      id: 'from-denmark',
+      prompt: LocalizedText(en: 'From Denmark', ru: 'Из Дании'),
+      meaning: LocalizedText(
+        en: 'Include the article where shown in the phrase.',
+        ru: 'Используйте артикль, если он входит в выражение.',
+      ),
+      greek: 'από την Δανία',
+      pronunciation: LocalizedText(
+        en: 'a-PO tin dha-NI-a',
+        ru: 'а-ПО тин да-НИ-а',
+      ),
+      explanation: LocalizedText(
+        en: 'Από takes the accusative. Feminine with stress on -νί-: η Δανία → την Δανία.',
+        ru: 'В русском «из» требует родительного, в греческом από — винительного. Род совпадает с русским, ударение — нет: Δανία, на -νί-. После από винительный, хотя русское «из Дании» — родительный.',
+      ),
+      alternatives: ['από τη Δανία'],
+    ),
+    VocabularyCard(
+      id: 'from-bulgaria',
+      prompt: LocalizedText(en: 'From Bulgaria', ru: 'Из Болгарии'),
+      meaning: LocalizedText(
+        en: 'Include the article where shown in the phrase.',
+        ru: 'Используйте артикль, если он входит в выражение.',
+      ),
+      greek: 'από την Βουλγαρία',
+      pronunciation: LocalizedText(
+        en: 'a-PO tin vul-gha-RI-a',
+        ru: 'а-ПО тин вул-га-РИ-а',
+      ),
+      explanation: LocalizedText(
+        en: 'Από takes the accusative. Feminine: η Βουλγαρία → την Βουλγαρία. Β is pronounced v.',
+        ru: 'В русском «из» требует родительного, в греческом από — винительного. Женский род, как в русском. Но β читается «в», ου — «у»: Βουλγαρία. «Из Болгарии»: από την Βουλγαρία.',
+      ),
+      alternatives: ['από τη Βουλγαρία'],
+    ),
   ],
 );

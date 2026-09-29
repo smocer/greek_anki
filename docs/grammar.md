@@ -16,6 +16,9 @@ English and Russian explanations accompany the vocabulary and grammatical forms.
 - **Reading, learning, and studying:** διαβάζω covers reading and studying or revising lessons; μαθαίνω means acquiring knowledge or skills, or finding something out; σπουδάζω normally refers to higher or specialist education.
 - **Diminutives:** compare -άκι with Russian -ик/-очк-/-ёнок, while learning the whole Greek form and its neuter article το. Not every noun forms a diminutive simply by adding άκι.
 - **Familiar roots and names:** βιβλίο and «библиотека», αριθμός and «арифметика», Πέτρος/Пётр, Αλέξανδρος/Александр, and Κωνσταντίνος/Константин can help with memory. Familiarity does not guarantee identical pronunciation or meaning.
+- **Noun gender:** common endings help, but ο Κώστας is masculine, το γράμμα is neuter, and η οδός is feminine. Place names such as η Πάφος, η Λεμεσός, and η Αίγυπτος are feminine despite -ος. Russian grammatical gender is not a reliable guide: «море» → η θάλασσα, «солнце» → ο ήλιος, «школа» → το σχολείο.
+- **Seeing someone or something:** βλέπω takes a direct object in the accusative, like Russian «вижу кого? что?». Compare ο Γιώργος → βλέπω τον Γιώργο, η εικόνα → βλέπω την εικόνα, and το τρένο → βλέπω το τρένο. Greek neuter nouns retain the same form even for people: το παιδί → βλέπω το παιδί, whereas Russian «ребёнок → ребёнка» changes.
+- **Plural country names:** οι ΗΠΑ uses a feminine plural article. After από or σε, use τις: από τις ΗΠΑ / στις ΗΠΑ. The abbreviation itself does not change.
 
 ## Spelling, stress, and pronunciation
 

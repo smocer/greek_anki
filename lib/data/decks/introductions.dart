@@ -193,5 +193,22 @@ const introductionsDeck = VocabularyDeck(
       ),
       greek: 'Λέγομαι Γιώργος.',
     ),
+    VocabularyCard(
+      id: 'name',
+      prompt: LocalizedText(
+        en: 'Name (with the article)',
+        ru: 'Имя (с артиклем)',
+      ),
+      meaning: LocalizedText(
+        en: 'Include the article where shown in the phrase.',
+        ru: 'Используйте артикль, если он входит в выражение.',
+      ),
+      greek: 'το όνομα',
+      pronunciation: LocalizedText(en: 'to O-no-ma', ru: 'то О-но-ма'),
+      explanation: LocalizedText(
+        en: 'Neuter in -μα: το όνομα. With my, the phrase is το όνομά μου, with an extra accent.',
+        ru: 'Имя и το όνομα — среднего рода. Сравните το όνομα и το όνομά μου «моё имя»: перед μου появляется дополнительное ударение.',
+      ),
+    ),
   ],
 );

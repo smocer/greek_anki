@@ -265,5 +265,92 @@ const livingPlacesDeck = VocabularyDeck(
       ),
       alternatives: ['Τα παιδιά μένουνε στην Κίνα τώρα.'],
     ),
+    VocabularyCard(
+      id: 'live-thessaloniki',
+      prompt: LocalizedText(
+        en: 'I live in Thessaloniki.',
+        ru: 'Я живу в Салониках.',
+      ),
+      meaning: LocalizedText(
+        en: 'Include the article where shown in the phrase.',
+        ru: 'Используйте артикль, если он входит в выражение.',
+      ),
+      greek: 'Μένω στην Θεσσαλονίκη.',
+      pronunciation: LocalizedText(
+        en: 'ME-no stin the-sa-lo-NI-ki',
+        ru: 'МЭ-но стин тэ-са-ло-НИ-ки',
+      ),
+      explanation: LocalizedText(
+        en: 'Η Θεσσαλονίκη is feminine singular. Greek uses the accusative after σε.',
+        ru: '«Салоники» в русском — множественное число, η Θεσσαλονίκη в греческом — женский род, единственное число.',
+      ),
+      alternatives: ['Μένω στη Θεσσαλονίκη.'],
+      acceptedAnswers: [
+        'Εγώ μένω στην Θεσσαλονίκη.',
+        'Εγώ μένω στη Θεσσαλονίκη.',
+      ],
+    ),
+    VocabularyCard(
+      id: 'live-paphos',
+      prompt: LocalizedText(en: 'I live in Paphos.', ru: 'Я живу в Пафосе.'),
+      meaning: LocalizedText(
+        en: 'Include the article where shown in the phrase.',
+        ru: 'Используйте артикль, если он входит в выражение.',
+      ),
+      greek: 'Μένω στην Πάφο.',
+      pronunciation: LocalizedText(
+        en: 'ME-no stin PA-fo',
+        ru: 'МЭ-но стин ПА-фо',
+      ),
+      explanation: LocalizedText(
+        en: 'Η Πάφος → στην Πάφο: this feminine place name loses final ς in the accusative.',
+        ru: 'Η Πάφος — женский род. В винительном Πάφο без -ς: στην Πάφο. Русское «в Пафосе» — предложный.',
+      ),
+      acceptedAnswers: ['Εγώ μένω στην Πάφο.'],
+    ),
+    VocabularyCard(
+      id: 'live-limassol',
+      prompt: LocalizedText(
+        en: 'I live in Limassol.',
+        ru: 'Я живу в Лимасоле.',
+      ),
+      meaning: LocalizedText(
+        en: 'Include the article where shown in the phrase.',
+        ru: 'Используйте артикль, если он входит в выражение.',
+      ),
+      greek: 'Μένω στην Λεμεσό.',
+      pronunciation: LocalizedText(
+        en: 'ME-no stin le-me-SO',
+        ru: 'МЭ-но стин лэ-мэ-СО',
+      ),
+      explanation: LocalizedText(
+        en: 'Η Λεμεσός → στην Λεμεσό: a feminine place name ending in -ός.',
+        ru: 'Η Λεμεσός — женский род, хотя «Лимасол» в русском мужского рода. В винительном: Λεμεσό, без -ς.',
+      ),
+      alternatives: ['Μένω στη Λεμεσό.'],
+      acceptedAnswers: ['Εγώ μένω στην Λεμεσό.', 'Εγώ μένω στη Λεμεσό.'],
+    ),
+    VocabularyCard(
+      id: 'live-new-york',
+      prompt: LocalizedText(
+        en: 'I live in New York.',
+        ru: 'Я живу в Нью-Йорке.',
+      ),
+      meaning: LocalizedText(
+        en: 'Include the article where shown in the phrase.',
+        ru: 'Используйте артикль, если он входит в выражение.',
+      ),
+      greek: 'Μένω στην Νέα Υόρκη.',
+      pronunciation: LocalizedText(
+        en: 'ME-no stin NE-a i-OR-ki',
+        ru: 'МЭ-но стин НЭ-а и-ОР-ки',
+      ),
+      explanation: LocalizedText(
+        en: 'Η Νέα Υόρκη is feminine. Keep the two words and both stress marks.',
+        ru: 'Η Νέα Υόρκη — женский род. В греческом два слова и два ударения; русский «Нью-Йорк» мужского рода.',
+      ),
+      alternatives: ['Μένω στη Νέα Υόρκη.'],
+      acceptedAnswers: ['Εγώ μένω στην Νέα Υόρκη.', 'Εγώ μένω στη Νέα Υόρκη.'],
+    ),
   ],
 );

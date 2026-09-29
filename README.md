@@ -2,7 +2,7 @@
 
 **[Open Greek Anki](https://smocer.github.io/greek_anki/)**
 
-Learn modern Greek with **400 cards across 34 focused beginner topics**, English and Russian explanations, and two practice modes.
+Learn modern Greek with **500 cards across 40 focused beginner topics**, English and Russian explanations, and two practice modes.
 
 Works in a browser on iPhone, iPad, Android, and desktop. No account or subscription is needed. Open the link in Safari or Chrome and add it to your home screen for a convenient shortcut.
 
@@ -22,7 +22,9 @@ Missed cards return after two other cards when possible. A session ends when eve
 
 ## Topics and explanations
 
-Practice numbers, introductions, greetings, countries, residence, addresses, phone conversations, classroom language, neighbours, pets, and basic grammar. Learn 19 everyday verbs in their “I” forms. A separate six-person drill uses μένω, διαβάζω, and καταλαβαίνω. Είμαι, λέγομαι, and τραγουδώ have their own grammar topics. Sentence examples appear alongside the relevant vocabulary.
+Practice numbers, introductions, greetings, countries, residence, addresses, phone conversations, classroom language, neighbours, pets, transport, shops, culture, nature, and basic grammar. Learn 20 everyday verbs in their “I” forms. A separate six-person drill uses μένω, διαβάζω, and καταλαβαίνω. Είμαι, λέγομαι, and τραγουδώ have their own grammar topics. Sentence examples appear alongside the relevant vocabulary.
+
+Focused drills practise noun gender with ο / η / το, location with στον / στην / στο, origin with από, and direct objects with βλέπω. In the gender drill, complete the given Greek noun with its article and type both words.
 
 Russian explanations use familiar comparisons such as ты/Вы, cases, gender, possession, and shared word roots, while explaining differences between the languages. Pronunciation guides are approximate aids; use the Greek spelling as your reference.
 

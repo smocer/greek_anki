@@ -43,6 +43,21 @@ const numbersCompoundDeck = VocabularyDeck(
       ),
     ),
     VocabularyCard(
+      id: 'number-28',
+      prompt: LocalizedText(en: '28', ru: '28'),
+      meaning: LocalizedText(
+        en: 'Translate into Greek.',
+        ru: 'Переведите на греческий.',
+      ),
+      greek: 'είκοσι οκτώ',
+      pronunciation: LocalizedText(en: 'I-ko-si ok-TO', ru: 'И-ко-си ок-ТО'),
+      explanation: LocalizedText(
+        en: 'Write the tens and units separately, with both stress marks. Also accepted: είκοσι οχτώ.',
+        ru: 'Как в русском, десятки и единицы пишутся раздельно. У каждого слова своё ударение. Также принимается: είκοσι οχτώ.',
+      ),
+      alternatives: ['είκοσι οχτώ'],
+    ),
+    VocabularyCard(
       id: 'number-29',
       prompt: LocalizedText(en: '29', ru: '29'),
       meaning: LocalizedText(
@@ -72,6 +87,24 @@ const numbersCompoundDeck = VocabularyDeck(
       ),
     ),
     VocabularyCard(
+      id: 'number-39',
+      prompt: LocalizedText(en: '39', ru: '39'),
+      meaning: LocalizedText(
+        en: 'Translate into Greek.',
+        ru: 'Переведите на греческий.',
+      ),
+      greek: 'τριάντα εννέα',
+      pronunciation: LocalizedText(
+        en: 'tri-AN-da e-NE-a',
+        ru: 'три-АН-да э-НЭ-а',
+      ),
+      explanation: LocalizedText(
+        en: 'Write the tens and units separately, with both stress marks. Also accepted: τριάντα εννιά.',
+        ru: 'Как в русском, десятки и единицы пишутся раздельно. У каждого слова своё ударение. Также принимается: τριάντα εννιά.',
+      ),
+      alternatives: ['τριάντα εννιά'],
+    ),
+    VocabularyCard(
       id: 'number-43',
       prompt: LocalizedText(en: '43', ru: '43'),
       meaning: LocalizedText(
@@ -87,6 +120,42 @@ const numbersCompoundDeck = VocabularyDeck(
         en: 'Forty + three, in the counting form.',
         ru: 'Τρία — форма для счёта и среднего рода; с мужским/женским будет τρεις.',
       ),
+    ),
+    VocabularyCard(
+      id: 'number-47',
+      prompt: LocalizedText(en: '47', ru: '47'),
+      meaning: LocalizedText(
+        en: 'Translate into Greek.',
+        ru: 'Переведите на греческий.',
+      ),
+      greek: 'σαράντα εφτά',
+      pronunciation: LocalizedText(
+        en: 'sa-RAN-da ef-TA',
+        ru: 'са-РАН-да эф-ТА',
+      ),
+      explanation: LocalizedText(
+        en: 'Write the tens and units separately, with both stress marks. Also accepted: σαράντα επτά.',
+        ru: 'Как в русском, десятки и единицы пишутся раздельно. У каждого слова своё ударение. Также принимается: σαράντα επτά.',
+      ),
+      alternatives: ['σαράντα επτά'],
+    ),
+    VocabularyCard(
+      id: 'number-49',
+      prompt: LocalizedText(en: '49', ru: '49'),
+      meaning: LocalizedText(
+        en: 'Translate into Greek.',
+        ru: 'Переведите на греческий.',
+      ),
+      greek: 'σαράντα εννέα',
+      pronunciation: LocalizedText(
+        en: 'sa-RAN-da e-NE-a',
+        ru: 'са-РАН-да э-НЭ-а',
+      ),
+      explanation: LocalizedText(
+        en: 'Write the tens and units separately, with both stress marks. Also accepted: σαράντα εννιά.',
+        ru: 'Как в русском, десятки и единицы пишутся раздельно. У каждого слова своё ударение. Также принимается: σαράντα εννιά.',
+      ),
+      alternatives: ['σαράντα εννιά'],
     ),
     VocabularyCard(
       id: 'number-54',
@@ -140,6 +209,24 @@ const numbersCompoundDeck = VocabularyDeck(
       ),
     ),
     VocabularyCard(
+      id: 'number-77',
+      prompt: LocalizedText(en: '77', ru: '77'),
+      meaning: LocalizedText(
+        en: 'Translate into Greek.',
+        ru: 'Переведите на греческий.',
+      ),
+      greek: 'εβδομήντα εφτά',
+      pronunciation: LocalizedText(
+        en: 'ev-dho-MIN-da ef-TA',
+        ru: 'эв-до-МИН-да эф-ТА',
+      ),
+      explanation: LocalizedText(
+        en: 'Write the tens and units separately, with both stress marks. Also accepted: εβδομήντα επτά.',
+        ru: 'Как в русском, десятки и единицы пишутся раздельно. У каждого слова своё ударение. Также принимается: εβδομήντα επτά.',
+      ),
+      alternatives: ['εβδομήντα επτά'],
+    ),
+    VocabularyCard(
       id: 'number-87',
       prompt: LocalizedText(en: '87', ru: '87'),
       meaning: LocalizedText(
@@ -156,6 +243,24 @@ const numbersCompoundDeck = VocabularyDeck(
         ru: 'Основной вариант 7 — εφτά; επτά также принимается внутри составного числа.',
       ),
       alternatives: ['ογδόντα επτά'],
+    ),
+    VocabularyCard(
+      id: 'number-89',
+      prompt: LocalizedText(en: '89', ru: '89'),
+      meaning: LocalizedText(
+        en: 'Translate into Greek.',
+        ru: 'Переведите на греческий.',
+      ),
+      greek: 'ογδόντα εννέα',
+      pronunciation: LocalizedText(
+        en: 'ogh-DHON-da e-NE-a',
+        ru: 'ог-ДОН-да э-НЭ-а',
+      ),
+      explanation: LocalizedText(
+        en: 'Write the tens and units separately, with both stress marks. Also accepted: ογδόντα εννιά.',
+        ru: 'Как в русском, десятки и единицы пишутся раздельно. У каждого слова своё ударение. Также принимается: ογδόντα εννιά.',
+      ),
+      alternatives: ['ογδόντα εννιά'],
     ),
     VocabularyCard(
       id: 'number-98',

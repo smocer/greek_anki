@@ -133,5 +133,190 @@ const locationDeck = VocabularyDeck(
       ),
       greek: 'στο βιβλίο',
     ),
+    VocabularyCard(
+      id: 'at-port',
+      prompt: LocalizedText(en: 'At the port', ru: 'В порту'),
+      meaning: LocalizedText(
+        en: 'Include the article where shown in the phrase.',
+        ru: 'Используйте артикль, если он входит в выражение.',
+      ),
+      greek: 'στο λιμάνι',
+      pronunciation: LocalizedText(en: 'sto li-MA-ni', ru: 'сто ли-МА-ни'),
+      explanation: LocalizedText(
+        en: 'το λιμάνι → στο λιμάνι. Σε joins the accusative article; the phrase describes location.',
+        ru: 'Средний род, хотя «порт» в русском мужского рода. После σε используем винительный, даже когда отвечаем на «где?».',
+      ),
+    ),
+    VocabularyCard(
+      id: 'in-metro',
+      prompt: LocalizedText(en: 'In the metro', ru: 'В метро'),
+      meaning: LocalizedText(
+        en: 'Include the article where shown in the phrase.',
+        ru: 'Используйте артикль, если он входит в выражение.',
+      ),
+      greek: 'στο μετρό',
+      pronunciation: LocalizedText(en: 'sto me-TRO', ru: 'сто мэ-ТРО'),
+      explanation: LocalizedText(
+        en: 'το μετρό → στο μετρό. Σε joins the accusative article; the phrase describes location.',
+        ru: 'Средний род и несклоняемое слово, как русское «метро». После σε используем винительный, даже когда отвечаем на «где?».',
+      ),
+    ),
+    VocabularyCard(
+      id: 'at-stop',
+      prompt: LocalizedText(en: 'At the bus stop', ru: 'На остановке'),
+      meaning: LocalizedText(
+        en: 'Include the article where shown in the phrase.',
+        ru: 'Используйте артикль, если он входит в выражение.',
+      ),
+      greek: 'στην στάση',
+      pronunciation: LocalizedText(en: 'stin STA-si', ru: 'стин СТА-си'),
+      explanation: LocalizedText(
+        en: 'η στάση → στην στάση. Σε joins the accusative article; the phrase describes location.',
+        ru: 'Женский род, как «остановка». Винительный артикль την с σε даёт στην. После σε используем винительный, даже когда отвечаем на «где?».',
+      ),
+      alternatives: ['στη στάση'],
+    ),
+    VocabularyCard(
+      id: 'in-square',
+      prompt: LocalizedText(en: 'In the town square', ru: 'На площади'),
+      meaning: LocalizedText(
+        en: 'Include the article where shown in the phrase.',
+        ru: 'Используйте артикль, если он входит в выражение.',
+      ),
+      greek: 'στην πλατεία',
+      pronunciation: LocalizedText(en: 'stin pla-TI-a', ru: 'стин пла-ТИ-а'),
+      explanation: LocalizedText(
+        en: 'η πλατεία → στην πλατεία. Σε joins the accusative article; the phrase describes location.',
+        ru: 'Женский род. Русское «на» здесь передаётся предлогом σε. После σε используем винительный, даже когда отвечаем на «где?».',
+      ),
+    ),
+    VocabularyCard(
+      id: 'at-bakery',
+      prompt: LocalizedText(en: 'At the bakery', ru: 'В пекарне'),
+      meaning: LocalizedText(
+        en: 'Include the article where shown in the phrase.',
+        ru: 'Используйте артикль, если он входит в выражение.',
+      ),
+      greek: 'στον φούρνο',
+      pronunciation: LocalizedText(en: 'ston FUR-no', ru: 'стон ФУР-но'),
+      explanation: LocalizedText(
+        en: 'ο φούρνος → στον φούρνο. Σε joins the accusative article; the phrase describes location.',
+        ru: 'Мужской винительный: φούρνος → φούρνο. Русская «пекарня» — женского рода. После σε используем винительный, даже когда отвечаем на «где?».',
+      ),
+    ),
+    VocabularyCard(
+      id: 'at-pharmacy',
+      prompt: LocalizedText(en: 'At the pharmacy', ru: 'В аптеке'),
+      meaning: LocalizedText(
+        en: 'Include the article where shown in the phrase.',
+        ru: 'Используйте артикль, если он входит в выражение.',
+      ),
+      greek: 'στο φαρμακείο',
+      pronunciation: LocalizedText(
+        en: 'sto far-ma-KI-o',
+        ru: 'сто фар-ма-КИ-о',
+      ),
+      explanation: LocalizedText(
+        en: 'το φαρμακείο → στο φαρμακείο. Σε joins the accusative article; the phrase describes location.',
+        ru: 'Средний род: το → στο. Русская «аптека» — женского рода. После σε используем винительный, даже когда отвечаем на «где?».',
+      ),
+    ),
+    VocabularyCard(
+      id: 'at-museum',
+      prompt: LocalizedText(en: 'At the museum', ru: 'В музее'),
+      meaning: LocalizedText(
+        en: 'Include the article where shown in the phrase.',
+        ru: 'Используйте артикль, если он входит в выражение.',
+      ),
+      greek: 'στο μουσείο',
+      pronunciation: LocalizedText(en: 'sto mu-SI-o', ru: 'сто му-СИ-о'),
+      explanation: LocalizedText(
+        en: 'το μουσείο → στο μουσείο. Σε joins the accusative article; the phrase describes location.',
+        ru: 'Средний род, несмотря на мужской род русского «музей». После σε используем винительный, даже когда отвечаем на «где?».',
+      ),
+    ),
+    VocabularyCard(
+      id: 'at-restaurant',
+      prompt: LocalizedText(en: 'At the restaurant', ru: 'В ресторане'),
+      meaning: LocalizedText(
+        en: 'Include the article where shown in the phrase.',
+        ru: 'Используйте артикль, если он входит в выражение.',
+      ),
+      greek: 'στο εστιατόριο',
+      pronunciation: LocalizedText(
+        en: 'sto e-stia-TO-ri-o',
+        ru: 'сто э-стья-ТО-ри-о',
+      ),
+      explanation: LocalizedText(
+        en: 'το εστιατόριο → στο εστιατόριο. Σε joins the accusative article; the phrase describes location.',
+        ru: 'Средний род: το + σε → στο, существительное не меняется. После σε используем винительный, даже когда отвечаем на «где?».',
+      ),
+    ),
+    VocabularyCard(
+      id: 'at-hotel',
+      prompt: LocalizedText(en: 'At the hotel', ru: 'В отеле'),
+      meaning: LocalizedText(
+        en: 'Include the article where shown in the phrase.',
+        ru: 'Используйте артикль, если он входит в выражение.',
+      ),
+      greek: 'στο ξενοδοχείο',
+      pronunciation: LocalizedText(
+        en: 'sto kse-no-dho-KHI-o',
+        ru: 'сто ксэ-но-до-ХИ-о',
+      ),
+      explanation: LocalizedText(
+        en: 'το ξενοδοχείο → στο ξενοδοχείο. Σε joins the accusative article; the phrase describes location.',
+        ru: 'В русском «в отеле» — предложный, в греческом — винительный после σε. После σε используем винительный, даже когда отвечаем на «где?».',
+      ),
+    ),
+    VocabularyCard(
+      id: 'at-sea',
+      prompt: LocalizedText(en: 'At the sea / seaside', ru: 'На море'),
+      meaning: LocalizedText(
+        en: 'Include the article where shown in the phrase.',
+        ru: 'Используйте артикль, если он входит в выражение.',
+      ),
+      greek: 'στην θάλασσα',
+      pronunciation: LocalizedText(en: 'stin THA-la-sa', ru: 'стин ТА-ла-са'),
+      explanation: LocalizedText(
+        en: 'η θάλασσα → στην θάλασσα. Σε joins the accusative article; the phrase describes location.',
+        ru: 'Море — средний род, η θάλασσα — женский. Поэтому στην, не στο. После σε используем винительный, даже когда отвечаем на «где?».',
+      ),
+      alternatives: ['στη θάλασσα'],
+    ),
+    VocabularyCard(
+      id: 'at-hospital',
+      prompt: LocalizedText(en: 'At the hospital', ru: 'В больнице'),
+      meaning: LocalizedText(
+        en: 'Include the article where shown in the phrase.',
+        ru: 'Используйте артикль, если он входит в выражение.',
+      ),
+      greek: 'στο νοσοκομείο',
+      pronunciation: LocalizedText(
+        en: 'sto no-so-ko-MI-o',
+        ru: 'сто но-со-ко-МИ-о',
+      ),
+      explanation: LocalizedText(
+        en: 'το νοσοκομείο → στο νοσοκομείο. Σε joins the accusative article; the phrase describes location.',
+        ru: 'Греческий средний род: στο νοσοκομείο. Род русского слова «больница» здесь не помогает. После σε используем винительный, даже когда отвечаем на «где?».',
+      ),
+    ),
+    VocabularyCard(
+      id: 'at-cinema',
+      prompt: LocalizedText(en: 'At the cinema', ru: 'В кинотеатре'),
+      meaning: LocalizedText(
+        en: 'Include the article where shown in the phrase.',
+        ru: 'Используйте артикль, если он входит в выражение.',
+      ),
+      greek: 'στον κινηματογράφο',
+      pronunciation: LocalizedText(
+        en: 'ston ki-ni-ma-TO-ghra-fo',
+        ru: 'стон ки-ни-ма-ТО-гра-фо',
+      ),
+      explanation: LocalizedText(
+        en: 'ο κινηματογράφος → στον κινηματογράφο. Σε joins the accusative article; the phrase describes location.',
+        ru: 'Мужской род: ο → στον; в винительном κινηματογράφος теряет -ς. После σε используем винительный, даже когда отвечаем на «где?».',
+      ),
+    ),
   ],
 );

@@ -20,6 +20,7 @@ import 'finish_present.dart';
 import 'work_present.dart';
 import 'pay_present.dart';
 import 'buy_present.dart';
+import 'see_present.dart';
 
 const everydayVerbSources = [
   doPresentDeck,
@@ -41,6 +42,7 @@ const everydayVerbSources = [
   workPresentDeck,
   payPresentDeck,
   buyPresentDeck,
+  seePresentDeck,
 ];
 
 final basicVerbsDeck = VocabularyDeck(

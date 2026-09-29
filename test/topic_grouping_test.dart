@@ -42,6 +42,7 @@ void main() {
       'δουλεύω',
       'πληρώνω',
       'αγοράζω',
+      'βλέπω',
     ]);
     expect(basics.cards.every((c) => c.reviewIdentity!.cardId == 'i'), isTrue);
     final drill = deck('present-conjugation');

@@ -1,3 +1,9 @@
+import 'decks/transport_streets.dart';
+import 'decks/shops_services.dart';
+import 'decks/culture_dining.dart';
+import 'decks/nature_geography.dart';
+import 'decks/noun_gender.dart';
+import 'decks/seeing_objects.dart';
 import 'decks/lesson_connectors.dart';
 import 'decks/diminutives.dart';
 import 'decks/pets_home.dart';
@@ -68,6 +74,8 @@ final greekDecks = List<VocabularyDeck>.unmodifiable([
   countriesDeck,
   originDeck,
   articlesCasesDeck,
+  nounGenderDeck,
+  seeingObjectsDeck,
   possessionDeck,
   namesVocativeDeck,
   formsOfAddressDeck,
@@ -122,6 +130,10 @@ final greekDecks = List<VocabularyDeck>.unmodifiable([
     ...cardsFrom(writePresentDeck, ids: const ['write-mum']),
   ]),
   hereThereNegationDeck,
+  transportStreetsDeck,
+  shopsServicesDeck,
+  cultureDiningDeck,
+  natureGeographyDeck,
   withExtraCards(everydayPlacesDeck, [
     ...cardsFrom(closePresentDeck, ids: const ['bank-closes']),
     ...cardsFrom(openPresentDeck, ids: const ['bank-opens']),

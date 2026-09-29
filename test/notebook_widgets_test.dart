@@ -164,6 +164,10 @@ void main() {
       for (final (deckId, cardId) in [
         ('everyday-places', 'study-present.kostas-university'),
         ('phone-conversations', 'have-present.not-phone-yet'),
+        ('noun-gender', 'egypt'),
+        ('seeing-objects', 'picture'),
+        ('origin', 'from-afghanistan'),
+        ('culture-dining', 'cinema'),
       ]) {
         final deck = greekDecks.firstWhere((d) => d.id == deckId);
         final card = deck.cards.firstWhere((c) => c.id == cardId);

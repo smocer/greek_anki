@@ -1,6 +1,6 @@
 # Topics and learning guide
 
-The collection contains **400 cards in 34 topics**, with 6–19 cards per topic. Every topic is available in English and Russian, in Browse, flashcards, and hard mode. The material covers beginner vocabulary and grammar; it is not a complete A1 course.
+The collection contains **500 cards in 40 topics**, with 5–26 cards per topic. Every topic is available in English and Russian, in Browse, flashcards, and hard mode. The material covers beginner vocabulary and grammar; it is not a complete A1 course.
 
 ## Numbers
 
@@ -27,6 +27,12 @@ The collection contains **400 cards in 34 topics**, with 6–19 cards per topic.
 - Addresses and nearby places — exact location, near/far, streets, and addresses
 - Here, there, and not here — είμαι, δεν, home, airport, and με + accusative
 - Everyday places — airport, bank, university, and supermarket
+- Transport and streets — port, metro, bus, train, stop, square, and street
+- Shops and services — school, pharmacy, kiosk, hospital, bakery, shop, and hotel
+- Culture and eating out — cinema, museum, theatre, restaurant, and tavern
+- Nature and geography — sea, sun, sky, Europe, Asia, America, and Africa
+
+Country vocabulary includes masculine, feminine, neuter, and plural examples, with matching origin phrases: ο Λίβανος → από τον Λίβανο, η Αίγυπτος → από την Αίγυπτο, το Μαρόκο → από το Μαρόκο, οι ΗΠΑ → από τις ΗΠΑ. Residence examples include Thessaloniki, Paphos, Limassol, and New York.
 
 ## Classroom language and questions
 
@@ -38,6 +44,8 @@ The collection contains **400 cards in 34 topics**, with 6–19 cards per topic.
 
 - Subject pronouns — gender, number, and εσύ / εσείς
 - Articles and basic cases — nominative, accusative, genitive, and plurals
+- Noun gender: ο / η / το — complete a Greek noun with its article; common endings and exceptions such as η Κύπρος and η οδός
+- I see…: the accusative — βλέπω τον Γιώργο / την εικόνα / το τρένο; practise the person or thing seen
 - My, your, our — possession in phrases
 - Greek names — subject and direct-address forms
 - Neighbours — noun cases and plurals
@@ -71,6 +79,7 @@ The collection contains **400 cards in 34 topics**, with 6–19 cards per topic.
 | δουλεύω | work |
 | πληρώνω | pay |
 | αγοράζω | buy |
+| βλέπω | see |
 
 **Verb endings: six persons / Спряжение: шесть лиц** practices three verbs, from short to long:
 

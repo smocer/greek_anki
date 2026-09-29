@@ -188,5 +188,39 @@ const classroomObjectsDeck = VocabularyDeck(
       ),
       greek: 'τα παιδιά',
     ),
+    VocabularyCard(
+      id: 'picture',
+      prompt: LocalizedText(
+        en: 'Picture / image (with the article)',
+        ru: 'Картинка / изображение (с артиклем)',
+      ),
+      meaning: LocalizedText(
+        en: 'Include the article where shown in the phrase.',
+        ru: 'Используйте артикль, если он входит в выражение.',
+      ),
+      greek: 'η εικόνα',
+      pronunciation: LocalizedText(en: 'i i-KO-na', ru: 'и и-КО-на'),
+      explanation: LocalizedText(
+        en: 'Εικόνα is an image or picture, not only a religious icon. Accusative: την εικόνα.',
+        ru: 'Родственно слову «икона», но εικόνα — любое изображение или картинка. Женский род: η εικόνα → την εικόνα.',
+      ),
+    ),
+    VocabularyCard(
+      id: 'letter',
+      prompt: LocalizedText(
+        en: 'Letter (message or alphabet symbol) (with the article)',
+        ru: 'Письмо / буква (с артиклем)',
+      ),
+      meaning: LocalizedText(
+        en: 'Include the article where shown in the phrase.',
+        ru: 'Используйте артикль, если он входит в выражение.',
+      ),
+      greek: 'το γράμμα',
+      pronunciation: LocalizedText(en: 'to GHRA-ma', ru: 'то ГРА-ма'),
+      explanation: LocalizedText(
+        en: 'Γράμμα means a letter of the alphabet or a written message. It is neuter in -μα.',
+        ru: 'Сравните «грамота»: γράμμα — буква или письмо. Средний род, хотя «буква» в русском женского рода. Винительный тоже το γράμμα.',
+      ),
+    ),
   ],
 );
