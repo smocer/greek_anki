@@ -182,11 +182,11 @@ class _StudyScreenState extends State<StudyScreen> {
                   duration: const Duration(milliseconds: 220),
                   child: revealed
                       ? _RevealedCard(
-                          key: ValueKey('${_session.current.id}-answer'),
+                          key: ValueKey('${_session.currentKey}-answer'),
                           card: _session.current,
                         )
                       : _QuestionCard(
-                          key: ValueKey('${_session.current.id}-question'),
+                          key: ValueKey('${_session.currentKey}-question'),
                           card: _session.current,
                         ),
                 ),
