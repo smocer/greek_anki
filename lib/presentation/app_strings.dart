@@ -1,6 +1,7 @@
 import 'package:flutter/widgets.dart';
 
 import '../domain/app_language.dart';
+import '../domain/vocabulary_category.dart';
 
 extension LocalizedContext on BuildContext {
   AppStrings get strings => AppStrings.of(this);
@@ -26,6 +27,61 @@ class AppStrings {
     'Немного практики — надолго в памяти.',
   );
   String get languageLabel => _pick('Learning language', 'Язык обучения');
+  String get alphabetTitle => _pick('Alphabets', 'Алфавит');
+  String get grammarTitle => _pick('Grammar', 'Грамматика');
+  String get grammarIntro => _pick(
+    'Modern Greek reference · Rules, examples and conjugation tables. Start with είμαι, then explore verbs, noun cases and prepositions.',
+    'Справочник современного греческого · Правила, примеры и таблицы. Начните с είμαι, затем изучайте глаголы, падежи и предлоги.',
+  );
+  String get grammarTableHint => _pick(
+    'Swipe tables sideways to see all forms.',
+    'Прокрутите таблицы вбок, чтобы увидеть все формы.',
+  );
+  String get listen => _pick('Listen', 'Слушать');
+  String get letterPairs => _pick('Letter pairs', 'Сочетания');
+  String get letterPairsIntro => _pick(
+    'Two letters, a new sound. Listen to the example words. A diaeresis (ϊ, ϋ) separates vowel pairs: αϊ and οϊ are read separately.',
+    'Две буквы — новое звучание. Слушайте примеры. Две точки (ϊ, ϋ) разделяют гласные: αϊ и οϊ читаются раздельно.',
+  );
+  String get audioError => _pick(
+    'Could not play audio. Please try again.',
+    'Не удалось воспроизвести звук. Попробуйте ещё раз.',
+  );
+  String get pauseStrokes => _pick('Pause', 'Пауза');
+  String get resumeStrokes => _pick('Continue', 'Продолжить');
+  String get pronunciationHelp =>
+      _pick('Pronunciation guide', 'О произношении');
+  String get alphabetIntro => _pick(
+    '24 letters · Tap a letter to learn how to write it.',
+    '24 буквы · Нажмите на букву, чтобы увидеть, как её писать.',
+  );
+  String get alphabetSound =>
+      _pick('Sound in words (IPA)', 'Звук в словах (МФА)');
+  String get alphabetName => _pick('Letter name', 'Название буквы');
+  String get alphabetNotes => _pick(
+    'Modern Greek pronunciation. CAPITALS mark stress in the reading guide. '
+        'DH = th in “this”; TH = th in “think”; GH is a voiced, continuous sound. '
+        'γ, κ and χ become softer before /e/ and /i/. '
+        'Letter combinations can change the sound; σ can sound /z/ before voiced consonants. '
+        'ς is the form of σ used at the end of a word.',
+    'Современное греческое произношение. ЗАГЛАВНЫЕ обозначают ударение в подсказке. '
+        'DH = th в английском “this”; TH = th в “think”; GH — звонкий щелевой звук. '
+        'γ, κ и χ смягчаются перед /e/ и /i/. '
+        'Сочетания букв могут менять звук; σ может звучать как /z/ перед звонкими согласными. '
+        'ς — форма σ в конце слова.',
+  );
+  String get strokeOrder => _pick('Stroke order', 'Порядок штрихов');
+  String get handwritingNote => _pick(
+    'One suggested handwriting style. Follow the numbered starting points and the moving pen. Other handwriting styles are also valid.',
+    'Один из вариантов написания. Следуйте номерам начала штрихов и движению пера. Возможны и другие варианты.',
+  );
+  String get uppercase => _pick('Uppercase', 'Заглавная');
+  String get lowercase => _pick('Lowercase', 'Строчная');
+  String get finalSigma => _pick('Final ς', 'Конечная ς');
+  String get replayStrokes => _pick('Replay', 'Повторить');
+  String get nextStroke => _pick('Next stroke', 'Следующий штрих');
+  String strokeProgress(int current, int total) =>
+      _pick('Stroke $current / $total', 'Штрих $current / $total');
   String get languageSaveError => _pick(
     'Could not save the language. Please try again.',
     'Не удалось сохранить язык. Попробуйте ещё раз.',
@@ -70,7 +126,46 @@ class AppStrings {
         'Для открытия или обновления приложения нужен интернет.',
   );
   String get close => _pick('Close', 'Закрыть');
-  String get firstWords => _pick('Current topic', 'Текущая тема');
+  String get firstWords => _pick('Current category', 'Текущая категория');
+  String get chooseCategory => _pick('Choose a category', 'Выбрать категорию');
+  String get chooseLabel => _pick('Choose a label', 'Выбрать метку');
+  String get chooseTopicLabel => _pick('Choose a topic', 'Выбрать тему');
+  String get useCategory => _pick('Use this category', 'Выбрать эту категорию');
+  String get vocabularyPreview =>
+      _pick('Vocabulary preview', 'Предпросмотр слов');
+  String wordCount(int count) => _pick('$count words', '$count слов');
+  String get additionPeriod => _pick('Added', 'Добавлено');
+  String periodTitle(VocabularyPeriod period) => switch (period) {
+    VocabularyPeriod.all => _pick('All words', 'Все слова'),
+    VocabularyPeriod.thisWeek => _pick('This week', 'На этой неделе'),
+    VocabularyPeriod.lastWeek => _pick('Last week', 'На прошлой неделе'),
+    VocabularyPeriod.earlier => _pick('Earlier', 'Ранее'),
+  };
+  String get sourceExample => _pick('Source', 'Источник');
+  String wordCategoryHint(int count) => _pick(
+    'Words from sentences and vocabulary · Practice uses $count source cards.',
+    'Слова из предложений и словаря · Для практики: $count исходных карточек.',
+  );
+  String get searchVocabulary =>
+      _pick('Search words or translations', 'Поиск слов или перевода');
+  String get noWords => _pick(
+    'No matching words in this category',
+    'В этой категории нет подходящих слов',
+  );
+  String get latestWeek =>
+      _pick('Latest addition week', 'Последняя неделя добавления');
+  String get previousWeek =>
+      _pick('Previous addition week', 'Предыдущая неделя добавления');
+  String get olderWeeks => _pick('Earlier / undated', 'Ранее / без даты');
+  String get unknownWeek =>
+      _pick('Addition date unknown', 'Дата добавления неизвестна');
+  String weekOf(String date) => date == '2026-09-28'
+      ? _pick('Week of 9.28 and before', 'Неделя с 28.09 и ранее')
+      : _pick('Week of $date', 'Неделя с $date');
+  String get categoryHint => _pick(
+    'Newest additions first · Topic also includes phrases and sentences.',
+    'Новые добавления сверху · В темах также есть фразы и предложения.',
+  );
   String get topics => _pick('Topics', 'Темы');
   String chooseTopic(int count) =>
       _pick('Choose a topic · $count', 'Выбрать тему · $count');

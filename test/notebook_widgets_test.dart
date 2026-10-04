@@ -40,20 +40,24 @@ void main() {
       ),
     );
     await tester.pumpAndSettle();
-    await tapVisible(tester, 'Выбрать тему · ${greekDecks.length}');
+    await tapVisible(tester, 'Выбрать категорию');
     expect(find.byType(TopicPicker), findsOneWidget);
     await tester.enterText(
       find.byKey(const ValueKey('topic-search')),
       'несуществующая тема',
     );
     await tester.pumpAndSettle();
-    expect(find.text('Подходящих тем нет'), findsOneWidget);
-    await tester.enterText(
-      find.byKey(const ValueKey('topic-search')),
-      'откуда',
-    );
+    expect(find.text('В этой категории нет подходящих слов'), findsOneWidget);
+    await tester.tap(find.byKey(const ValueKey('category-topic')));
     await tester.pumpAndSettle();
+    await tester.scrollUntilVisible(
+      find.text('Откуда вы?'),
+      240,
+      scrollable: find.byType(Scrollable).last,
+    );
     await tester.tap(find.text('Откуда вы?'));
+    await tester.pumpAndSettle();
+    await tester.tap(find.byKey(const ValueKey('use-category')));
     await tester.pumpAndSettle();
     expect(find.byType(TopicPicker), findsNothing);
     expect(find.text('Откуда вы?'), findsOneWidget);

@@ -1,0 +1,2577 @@
+{
+  "numbers-0-10.number-0": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "numeral"
+    ]
+  },
+  "numbers-0-10.number-1": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "numeral"
+    ]
+  },
+  "numbers-0-10.number-2": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "numeral"
+    ]
+  },
+  "numbers-0-10.number-3": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "numeral"
+    ]
+  },
+  "numbers-0-10.number-4": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "numeral"
+    ]
+  },
+  "numbers-0-10.number-5": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "numeral"
+    ]
+  },
+  "numbers-0-10.number-6": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "numeral"
+    ]
+  },
+  "numbers-0-10.number-7": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "numeral"
+    ]
+  },
+  "numbers-0-10.number-8": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "numeral"
+    ]
+  },
+  "numbers-0-10.number-9": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "numeral"
+    ]
+  },
+  "numbers-0-10.number-10": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "numeral"
+    ]
+  },
+  "numbers-11-20.number-11": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "numeral"
+    ]
+  },
+  "numbers-11-20.number-12": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "numeral"
+    ]
+  },
+  "numbers-11-20.number-13": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "numeral"
+    ]
+  },
+  "numbers-11-20.number-14": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "numeral"
+    ]
+  },
+  "numbers-11-20.number-15": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "numeral"
+    ]
+  },
+  "numbers-11-20.number-16": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "numeral"
+    ]
+  },
+  "numbers-11-20.number-17": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "numeral"
+    ]
+  },
+  "numbers-11-20.number-18": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "numeral"
+    ]
+  },
+  "numbers-11-20.number-19": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "numeral"
+    ]
+  },
+  "numbers-11-20.number-20": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "numeral"
+    ]
+  },
+  "numbers-tens.number-30": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "numeral"
+    ]
+  },
+  "numbers-tens.number-40": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "numeral"
+    ]
+  },
+  "numbers-tens.number-50": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "numeral"
+    ]
+  },
+  "numbers-tens.number-60": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "numeral"
+    ]
+  },
+  "numbers-tens.number-70": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "numeral"
+    ]
+  },
+  "numbers-tens.number-80": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "numeral"
+    ]
+  },
+  "numbers-tens.number-90": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "numeral"
+    ]
+  },
+  "numbers-tens.number-100": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "numeral"
+    ]
+  },
+  "greetings.hello-informal": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "greetings.hello-polite": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "greetings.morning": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "greetings.evening": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "greetings.night": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "greetings.goodbye": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "interjection"
+    ]
+  },
+  "greetings.thanks": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "verb"
+    ]
+  },
+  "greetings.please": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "verb"
+    ]
+  },
+  "greetings.sorry": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "interjection"
+    ]
+  },
+  "greetings.nice-meeting": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "verb"
+    ]
+  },
+  "greetings.see-you": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "greetings.see-tomorrow": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "how-are-you.doing-informal": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "how-are-you.doing-polite": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "how-are-you.being-informal": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "how-are-you.being-polite": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "how-are-you.fine": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "adverb"
+    ]
+  },
+  "how-are-you.very-well": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "how-are-you.just-fine": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "how-are-you.so-so": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "how-are-you.not-well": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "how-are-you.fine-thanks": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "how-are-you.and-you": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "how-are-you.and-you-polite": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "introductions.ask-name": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "introductions.ask-name-polite": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "introductions.called-george": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "introductions.called-maria": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "introductions.i-george": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "introductions.i-maria": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "introductions.you-name": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "pronoun"
+    ]
+  },
+  "introductions.you-name-polite": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "pronoun"
+    ]
+  },
+  "introductions.name-mine": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "introductions.called-passive": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "introductions.name": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun"
+    ]
+  },
+  "write-present.write-name": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "subject-pronouns.i": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "pronoun"
+    ]
+  },
+  "subject-pronouns.you": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "pronoun"
+    ]
+  },
+  "subject-pronouns.he": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "pronoun"
+    ]
+  },
+  "subject-pronouns.she": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "pronoun"
+    ]
+  },
+  "subject-pronouns.it": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "pronoun"
+    ]
+  },
+  "subject-pronouns.we": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "pronoun"
+    ]
+  },
+  "subject-pronouns.you-plural": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "pronoun"
+    ]
+  },
+  "subject-pronouns.they-male": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "pronoun"
+    ]
+  },
+  "subject-pronouns.they-female": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "pronoun"
+    ]
+  },
+  "subject-pronouns.they-neuter": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "pronoun"
+    ]
+  },
+  "be-present.i-am": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "verb"
+    ]
+  },
+  "be-present.you-are": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "verb"
+    ]
+  },
+  "be-present.he-is": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "verb"
+    ]
+  },
+  "be-present.we-are": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "verb"
+    ]
+  },
+  "be-present.you-are-polite": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "verb"
+    ]
+  },
+  "be-present.they-are": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "verb"
+    ]
+  },
+  "be-present.i-here": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "be-present.she-here": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "be-present.not-here": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "be-present.we-here": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "called-present.i-called": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "verb"
+    ]
+  },
+  "called-present.you-called": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "verb"
+    ]
+  },
+  "called-present.he-called": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "verb"
+    ]
+  },
+  "called-present.we-called": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "verb"
+    ]
+  },
+  "called-present.you-called-polite": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "verb"
+    ]
+  },
+  "called-present.they-called": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "verb"
+    ]
+  },
+  "countries.russia": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun"
+    ]
+  },
+  "countries.iraq": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun"
+    ]
+  },
+  "countries.greece": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun"
+    ]
+  },
+  "countries.cyprus": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun"
+    ]
+  },
+  "countries.ukraine": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun"
+    ]
+  },
+  "countries.canada": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun"
+    ]
+  },
+  "countries.england": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun"
+    ]
+  },
+  "countries.germany": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun"
+    ]
+  },
+  "countries.lebanon": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun"
+    ]
+  },
+  "countries.france": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun"
+    ]
+  },
+  "countries.argentina": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun"
+    ]
+  },
+  "countries.morocco": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun"
+    ]
+  },
+  "countries.burundi": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun"
+    ]
+  },
+  "countries.afghanistan": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun"
+    ]
+  },
+  "countries.israel": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun"
+    ]
+  },
+  "countries.egypt": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun"
+    ]
+  },
+  "countries.usa": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun"
+    ]
+  },
+  "countries.italy": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun"
+    ]
+  },
+  "countries.china": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun"
+    ]
+  },
+  "countries.denmark": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun"
+    ]
+  },
+  "countries.bulgaria": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun"
+    ]
+  },
+  "origin.ask-origin": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "origin.ask-origin-polite": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "origin.from-russia": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "origin.from-iraq": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "origin.from-greece": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "origin.from-cyprus": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "origin.from-ukraine": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "origin.from-canada": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "origin.from-england": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "origin.from-germany": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "origin.i-from-russia": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "origin.i-from-iraq": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "origin.i-from-cyprus": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "origin.from-lebanon": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "origin.from-france": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "origin.from-argentina": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "origin.from-morocco": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "origin.from-burundi": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "origin.from-afghanistan": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "origin.from-israel": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "origin.from-egypt": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "origin.from-usa": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "origin.from-italy": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "origin.from-china": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "origin.from-denmark": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "origin.from-bulgaria": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "articles-cases.friend-nom": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun"
+    ]
+  },
+  "articles-cases.friend-acc": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun"
+    ]
+  },
+  "articles-cases.friend-gen": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun"
+    ]
+  },
+  "articles-cases.female-friend-nom": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun"
+    ]
+  },
+  "articles-cases.female-friend-acc": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun"
+    ]
+  },
+  "articles-cases.female-friend-gen": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun"
+    ]
+  },
+  "articles-cases.book-nom": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun"
+    ]
+  },
+  "articles-cases.book-acc": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun"
+    ]
+  },
+  "articles-cases.book-gen": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun"
+    ]
+  },
+  "articles-cases.friends-nom": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun"
+    ]
+  },
+  "articles-cases.friends-acc": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun"
+    ]
+  },
+  "articles-cases.books-plural": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun"
+    ]
+  },
+  "noun-gender.george": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun",
+      "article"
+    ]
+  },
+  "noun-gender.kostas": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun",
+      "article"
+    ]
+  },
+  "noun-gender.john": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun",
+      "article"
+    ]
+  },
+  "noun-gender.maria": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun",
+      "article"
+    ]
+  },
+  "noun-gender.eleni": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun",
+      "article"
+    ]
+  },
+  "noun-gender.train": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun",
+      "article"
+    ]
+  },
+  "noun-gender.child": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun",
+      "article"
+    ]
+  },
+  "noun-gender.letter": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun",
+      "article"
+    ]
+  },
+  "noun-gender.cyprus": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun",
+      "article"
+    ]
+  },
+  "noun-gender.paphos": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun",
+      "article"
+    ]
+  },
+  "noun-gender.limassol": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun",
+      "article"
+    ]
+  },
+  "noun-gender.street": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun",
+      "article"
+    ]
+  },
+  "noun-gender.egypt": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun",
+      "article"
+    ]
+  },
+  "seeing-objects.george": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "seeing-objects.kostas": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "seeing-objects.john": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "seeing-objects.maria": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "seeing-objects.eleni": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "seeing-objects.picture": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "seeing-objects.train": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "seeing-objects.child": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "seeing-objects.letter": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "possession.my-book": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "possession.your-book": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "possession.his-book": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "possession.her-book": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "possession.our-book": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "possession.your-book-polite": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "possession.their-book": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "possession.my-name": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "possession.your-name": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "possession.your-name-polite": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "names-vocative.george-name": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun"
+    ]
+  },
+  "names-vocative.george-call": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun"
+    ]
+  },
+  "names-vocative.peter-name": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun"
+    ]
+  },
+  "names-vocative.peter-call": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun"
+    ]
+  },
+  "names-vocative.john-name": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun"
+    ]
+  },
+  "names-vocative.john-call": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun"
+    ]
+  },
+  "names-vocative.constantine-name": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun"
+    ]
+  },
+  "names-vocative.constantine-call": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun"
+    ]
+  },
+  "names-vocative.alexander-name": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun"
+    ]
+  },
+  "names-vocative.alexander-call": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun"
+    ]
+  },
+  "forms-of-address.sir-noun": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun"
+    ]
+  },
+  "forms-of-address.sir-address": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun"
+    ]
+  },
+  "forms-of-address.madam-noun": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun"
+    ]
+  },
+  "forms-of-address.madam-address": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun"
+    ]
+  },
+  "forms-of-address.friend-noun": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun"
+    ]
+  },
+  "forms-of-address.friend-address": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun"
+    ]
+  },
+  "forms-of-address.female-friend-address": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun"
+    ]
+  },
+  "forms-of-address.guys-address": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun"
+    ]
+  },
+  "classroom-objects.book": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun"
+    ]
+  },
+  "classroom-objects.page": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun"
+    ]
+  },
+  "classroom-objects.exercise": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun"
+    ]
+  },
+  "classroom-objects.example": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun"
+    ]
+  },
+  "classroom-objects.number": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun"
+    ]
+  },
+  "classroom-objects.break": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun"
+    ]
+  },
+  "classroom-objects.notebook": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun"
+    ]
+  },
+  "classroom-objects.pencil": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun"
+    ]
+  },
+  "classroom-objects.pen": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun"
+    ]
+  },
+  "classroom-objects.board": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun"
+    ]
+  },
+  "classroom-objects.child": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun"
+    ]
+  },
+  "classroom-objects.children": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun"
+    ]
+  },
+  "classroom-objects.picture": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun"
+    ]
+  },
+  "classroom-objects.letter": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun"
+    ]
+  },
+  "do-present.i-exercise": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "close-present.close-book": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "open-present.open-books": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "read-present.read-my-book": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "read-present.read-page": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "want-present.want-book": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "buy-present.buy-books": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "classroom-phrases.come": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "classroom-phrases.come-word": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "verb"
+    ]
+  },
+  "classroom-phrases.come-polite": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "verb"
+    ]
+  },
+  "classroom-phrases.lets-go": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "verb"
+    ]
+  },
+  "classroom-phrases.meaning": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "classroom-phrases.dont-know": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "classroom-phrases.dont-understand": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "classroom-phrases.slower": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "classroom-phrases.repeat": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "classroom-phrases.say-greek": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "classroom-phrases.open-book": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "classroom-phrases.for-example": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "know-present.know-english": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "know-present.not-know-say": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "learn-present.learn-greek": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "learn-present.learning-question": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "understand-present.understand-say": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "understand-present.we-not-understand": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "questions.what": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "pronoun"
+    ]
+  },
+  "questions.who-man": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "pronoun"
+    ]
+  },
+  "questions.who-woman": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "pronoun"
+    ]
+  },
+  "questions.which-neuter": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "pronoun"
+    ]
+  },
+  "questions.where": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "adverb"
+    ]
+  },
+  "questions.where-from": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "questions.how": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "adverb"
+    ]
+  },
+  "questions.when": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "adverb"
+    ]
+  },
+  "questions.why": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "adverb"
+    ]
+  },
+  "questions.how-much": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "adverb"
+    ]
+  },
+  "questions.how-many": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "do-present.you-do-what": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "drink-present.you-drink-what": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "wait-present.wait-what": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "work-present.where-work": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "want-present.children-want": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "small-words.and": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "conjunction"
+    ]
+  },
+  "small-words.also": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "adverb"
+    ]
+  },
+  "small-words.but": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "conjunction"
+    ]
+  },
+  "small-words.because": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "conjunction"
+    ]
+  },
+  "small-words.here": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "adverb"
+    ]
+  },
+  "small-words.there": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "adverb"
+    ]
+  },
+  "small-words.today": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "adverb"
+    ]
+  },
+  "small-words.tomorrow": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "adverb"
+    ]
+  },
+  "small-words.now": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "adverb"
+    ]
+  },
+  "small-words.yes": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "small-words.no": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "finish-present.they-finish-lesson": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "finish-present.lesson-finishes": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "start-present.we-start-now": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "start-present.lesson-starts": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "start-present.lesson-always-nine": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "do-present.i": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "verb"
+    ]
+  },
+  "drink-present.i": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "verb"
+    ]
+  },
+  "start-present.i": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "verb"
+    ]
+  },
+  "live-present.i": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "verb"
+    ]
+  },
+  "want-present.i": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "verb"
+    ]
+  },
+  "wait-present.i": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "verb"
+    ]
+  },
+  "have-present.i": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "verb"
+    ]
+  },
+  "read-present.i": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "verb"
+    ]
+  },
+  "write-present.i": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "verb"
+    ]
+  },
+  "open-present.i": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "verb"
+    ]
+  },
+  "close-present.i": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "verb"
+    ]
+  },
+  "learn-present.i": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "verb"
+    ]
+  },
+  "study-present.i": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "verb"
+    ]
+  },
+  "know-present.i": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "verb"
+    ]
+  },
+  "understand-present.i": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "verb"
+    ]
+  },
+  "finish-present.i": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "verb"
+    ]
+  },
+  "work-present.i": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "verb"
+    ]
+  },
+  "pay-present.i": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "verb"
+    ]
+  },
+  "buy-present.i": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "verb"
+    ]
+  },
+  "see-present.i": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "verb"
+    ]
+  },
+  "live-present.you": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "verb"
+    ]
+  },
+  "live-present.he": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "verb"
+    ]
+  },
+  "live-present.we": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "verb"
+    ]
+  },
+  "live-present.you-plural": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "verb"
+    ]
+  },
+  "live-present.they": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "verb"
+    ]
+  },
+  "read-present.you": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "verb"
+    ]
+  },
+  "read-present.he": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "verb"
+    ]
+  },
+  "read-present.we": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "verb"
+    ]
+  },
+  "read-present.you-plural": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "verb"
+    ]
+  },
+  "read-present.they": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "verb"
+    ]
+  },
+  "understand-present.you": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "verb"
+    ]
+  },
+  "understand-present.he": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "verb"
+    ]
+  },
+  "understand-present.we": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "verb"
+    ]
+  },
+  "understand-present.you-plural": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "verb"
+    ]
+  },
+  "understand-present.they": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "verb"
+    ]
+  },
+  "sing-present.i": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "verb"
+    ]
+  },
+  "sing-present.you": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "verb"
+    ]
+  },
+  "sing-present.he": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "verb"
+    ]
+  },
+  "sing-present.we": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "verb"
+    ]
+  },
+  "sing-present.you-plural": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "verb"
+    ]
+  },
+  "sing-present.they": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "verb"
+    ]
+  },
+  "sing-present.why-sing": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "location.in-russia": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "location.in-iraq": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "location.in-cyprus": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "location.in-greece": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "location.in-canada": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "location.at-school": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "location.in-class": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "location.in-book": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "location.at-port": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "location.in-metro": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "location.at-stop": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "location.in-square": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "location.at-bakery": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "location.at-pharmacy": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "location.at-museum": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "location.at-restaurant": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "location.at-hotel": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "location.at-sea": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "location.at-hospital": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "location.at-cinema": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "numbers-compound.number-21": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "numeral"
+    ]
+  },
+  "numbers-compound.number-23": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "numeral"
+    ]
+  },
+  "numbers-compound.number-28": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "numeral"
+    ]
+  },
+  "numbers-compound.number-29": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "numeral"
+    ]
+  },
+  "numbers-compound.number-32": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "numeral"
+    ]
+  },
+  "numbers-compound.number-39": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "numeral"
+    ]
+  },
+  "numbers-compound.number-43": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "numeral"
+    ]
+  },
+  "numbers-compound.number-47": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "numeral"
+    ]
+  },
+  "numbers-compound.number-49": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "numeral"
+    ]
+  },
+  "numbers-compound.number-54": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "numeral"
+    ]
+  },
+  "numbers-compound.number-65": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "numeral"
+    ]
+  },
+  "numbers-compound.number-76": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "numeral"
+    ]
+  },
+  "numbers-compound.number-77": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "numeral"
+    ]
+  },
+  "numbers-compound.number-87": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "numeral"
+    ]
+  },
+  "numbers-compound.number-89": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "numeral"
+    ]
+  },
+  "numbers-compound.number-98": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "numeral"
+    ]
+  },
+  "numbers-compound.number-101": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "numeral"
+    ]
+  },
+  "living-places.live-greece": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "living-places.live-athens": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "living-places.live-kypseli": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "living-places.live-piraeus": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "living-places.live-pasalimani": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "living-places.live-nicosia": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "living-places.live-latsia": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "living-places.live-strovolos": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "living-places.live-kalamaria": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "living-places.live-kaisariani": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "living-places.live-filothei": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "living-places.live-goudi": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "living-places.live-china": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "living-places.live-thessaloniki": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "living-places.live-paphos": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "living-places.live-limassol": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "living-places.live-new-york": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "live-present.ask-live": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "live-present.we-here": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "addresses-nearby.ask-live-polite": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "addresses-nearby.where-exactly": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "addresses-nearby.near": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "adverb"
+    ]
+  },
+  "addresses-nearby.near-what": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "addresses-nearby.near-here": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "addresses-nearby.near-home": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "addresses-nearby.far": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "adverb"
+    ]
+  },
+  "addresses-nearby.street": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun"
+    ]
+  },
+  "addresses-nearby.address": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun"
+    ]
+  },
+  "addresses-nearby.cycladon-address": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "addresses-nearby.mouson-address": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "addresses-nearby.pontou-address": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "addresses-nearby.kefallinias-address": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "neighbours.neighbour-subject": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun"
+    ]
+  },
+  "neighbours.neighbour-object": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun"
+    ]
+  },
+  "neighbours.neighbour-possession": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun"
+    ]
+  },
+  "neighbours.neighbours-subject": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun"
+    ]
+  },
+  "neighbours.neighbours-object": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun"
+    ]
+  },
+  "neighbours.female-neighbour": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun"
+    ]
+  },
+  "neighbours.female-neighbours": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun"
+    ]
+  },
+  "neighbours.we-neighbours": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "phone-conversations.answer-call": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "phone-conversations.phone-noun": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun"
+    ]
+  },
+  "phone-conversations.on-phone": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "phone-conversations.who-calling": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "phone-conversations.giannis-there": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "phone-conversations.where-giannis": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "phone-conversations.this-maria": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun"
+    ]
+  },
+  "phone-conversations.my-phone": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "phone-conversations.your-phone": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "phone-conversations.your-phone-polite": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "phone-conversations.number-intro": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "phone-conversations.have-phone-polite": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "have-present.have-phone": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "have-present.not-phone-yet": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "write-present.write-mum": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "here-there-negation.he-not-here": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "here-there-negation.where-you": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "here-there-negation.not-airport": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "here-there-negation.i-home": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "here-there-negation.home-with-julia": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "here-there-negation.giannis-airport": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "here-there-negation.they-not-near": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "here-there-negation.we-there": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "transport-streets.port": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun"
+    ]
+  },
+  "transport-streets.metro": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun"
+    ]
+  },
+  "transport-streets.bus": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun"
+    ]
+  },
+  "transport-streets.train": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun"
+    ]
+  },
+  "transport-streets.stop": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun"
+    ]
+  },
+  "transport-streets.square": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun"
+    ]
+  },
+  "transport-streets.street": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun"
+    ]
+  },
+  "shops-services.school": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun"
+    ]
+  },
+  "shops-services.pharmacy": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun"
+    ]
+  },
+  "shops-services.kiosk": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun"
+    ]
+  },
+  "shops-services.hospital": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun"
+    ]
+  },
+  "shops-services.bakery": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun"
+    ]
+  },
+  "shops-services.shop": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun"
+    ]
+  },
+  "shops-services.hotel": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun"
+    ]
+  },
+  "culture-dining.cinema": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun"
+    ]
+  },
+  "culture-dining.museum": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun"
+    ]
+  },
+  "culture-dining.theatre": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun"
+    ]
+  },
+  "culture-dining.restaurant": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun"
+    ]
+  },
+  "culture-dining.tavern": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun"
+    ]
+  },
+  "nature-geography.sea": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun"
+    ]
+  },
+  "nature-geography.sun": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun"
+    ]
+  },
+  "nature-geography.sky": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun"
+    ]
+  },
+  "nature-geography.europe": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun"
+    ]
+  },
+  "nature-geography.asia": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun"
+    ]
+  },
+  "nature-geography.america": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun"
+    ]
+  },
+  "nature-geography.africa": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun"
+    ]
+  },
+  "everyday-places.airport": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun"
+    ]
+  },
+  "everyday-places.at-airport": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "everyday-places.bank": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun"
+    ]
+  },
+  "everyday-places.at-bank": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "everyday-places.university": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun"
+    ]
+  },
+  "everyday-places.at-university": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "everyday-places.supermarket": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun"
+    ]
+  },
+  "everyday-places.at-supermarket": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "close-present.bank-closes": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "open-present.bank-opens": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "study-present.kostas-university": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "study-present.at-university": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "work-present.work-bank": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "buy-present.buy-supermarket": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "pay-present.pay-now": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "pay-present.pay-bill": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "more-greetings.hello-short": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "interjection"
+    ]
+  },
+  "more-greetings.polite-greeting": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "verb"
+    ]
+  },
+  "more-greetings.cheerful-greeting": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "more-greetings.good-evening-farewell": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "more-greetings.bye-familiar": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "more-greetings.see-soon": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "small-talk-replies.how-going": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "small-talk-replies.whats-happening": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "small-talk-replies.whats-new": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "small-talk-replies.same": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "adjective"
+    ]
+  },
+  "small-talk-replies.not-so-well": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "small-talk-replies.fairly-well": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "adverb"
+    ]
+  },
+  "small-talk-replies.terrible": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "adverb"
+    ]
+  },
+  "small-talk-replies.surprise": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "interjection"
+    ]
+  },
+  "small-talk-replies.how-panagiotis": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "wait-present.wait-maria": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "pets-home.dog": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun"
+    ]
+  },
+  "pets-home.dog-object": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun"
+    ]
+  },
+  "pets-home.dog-genitive": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun"
+    ]
+  },
+  "pets-home.dogs": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun"
+    ]
+  },
+  "pets-home.male-cat": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun"
+    ]
+  },
+  "pets-home.cat": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun"
+    ]
+  },
+  "pets-home.cat-object": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun"
+    ]
+  },
+  "pets-home.house": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun"
+    ]
+  },
+  "pets-home.house-genitive": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun"
+    ]
+  },
+  "pets-home.houses": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun"
+    ]
+  },
+  "pets-home.have-dog": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "drink-present.i-water": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "diminutives.little-dog": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun"
+    ]
+  },
+  "diminutives.little-cat": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun"
+    ]
+  },
+  "diminutives.little-house": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun"
+    ]
+  },
+  "diminutives.little-child": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun"
+    ]
+  },
+  "diminutives.little-water": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun"
+    ]
+  },
+  "diminutives.little-coffee": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun"
+    ]
+  },
+  "lesson-connectors.or": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "conjunction"
+    ]
+  },
+  "lesson-connectors.feminine-article": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "article"
+    ]
+  },
+  "lesson-connectors.not": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "lesson-connectors.always": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "adverb"
+    ]
+  },
+  "lesson-connectors.still-yet": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "adverb"
+    ]
+  },
+  "lesson-connectors.perhaps": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  },
+  "lesson-connectors.with": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "preposition"
+    ]
+  },
+  "lesson-connectors.dog-or-cat": {
+    "addedWeek": "2026-09-28",
+    "labels": []
+  }
+}

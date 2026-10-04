@@ -18,7 +18,7 @@ class StudySession extends ChangeNotifier {
     if (cards.isEmpty) {
       throw ArgumentError('A session needs at least one card.');
     }
-    if (cards.map((card) => card.id).toSet().length != cards.length) {
+    if (cards.map(_cardKey).toSet().length != cards.length) {
       throw ArgumentError('Card IDs must be unique within a session.');
     }
   }
@@ -28,6 +28,8 @@ class StudySession extends ChangeNotifier {
   final List<VocabularyCard> _queue;
   final GreekAnswer _answerMatcher;
   final Set<String> _seen = {};
+  String _cardKey(VocabularyCard card) =>
+      card.reviewIdentity?.key(mode) ?? card.id;
   int _completed = 0;
   int _firstTryCorrect = 0;
   int _repetitions = 0;
@@ -35,6 +37,7 @@ class StudySession extends ChangeNotifier {
   bool? _typedCorrect;
 
   VocabularyCard get current => _queue.first;
+  String get currentKey => _cardKey(current);
   bool get isComplete => _queue.isEmpty;
   int get completed => _completed;
   int get firstTryCorrect => _firstTryCorrect;
@@ -75,7 +78,7 @@ class StudySession extends ChangeNotifier {
   void advance({required bool correct}) {
     if (isComplete || _phase != CardPhase.answer) return;
     final card = _queue.removeAt(0);
-    if (_seen.add(card.id) && correct) _firstTryCorrect++;
+    if (_seen.add(_cardKey(card)) && correct) _firstTryCorrect++;
     if (correct) {
       _completed++;
     } else {

@@ -12,7 +12,8 @@ Works in a browser on iPhone, iPad, Android, and desktop. No account or subscrip
 - **Flashcards:** recall the Greek word, phrase, or grammatical form, reveal the answer and pronunciation, then choose **Again** or **Got it**.
 - **Hard mode:** type the answer using the built-in Greek keyboard or your device keyboard. The built-in keyboard includes stressed vowels: ά, έ, ή, ί, ό, ύ, ώ.
 - **Browse / Все слова:** read a topic's vocabulary, pronunciation guides, accepted variants, and grammar explanations.
-- Search topics by title or vocabulary in English, Russian, or Greek. Stress marks are optional in search.
+- **Choose a category → Choose a label:** select Topic for the original 40 topics, or browse words by noun, verb, adjective, adverb, pronoun, article, preposition, conjunction, numeral, or interjection. Words are extracted from sentences and shown with source examples and translations. Search matching words before choosing a category; practice uses their original source cards. Stress marks are optional in search. New vocabulary receives automatic word tags when running the [vocabulary sync](docs/vocabulary_metadata.md).
+- Words are ordered by their addition week, newest first. Green marks the latest recorded addition week, yellow the previous recorded addition week, and black earlier or undated entries. Every addition in a Monday–Sunday week shares one timestamp. Existing cards were backfilled from their first recorded source-file date in Git; all are in the week of 2026-09-28.
 
 In hard mode, stress marks must be in the correct positions. Missing, misplaced, or extra stress is incorrect. Articles, word boundaries, and grammatical endings matter. Capitalization and sentence punctuation are optional. Use Greek letters, not Latin transliterations.
 

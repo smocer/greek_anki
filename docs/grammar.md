@@ -37,6 +37,13 @@ English and Russian explanations accompany the vocabulary and grammatical forms.
 
 ## Grammar references
 
+- [Centre for the Greek Language: είμαι and έχω conjugation](https://www.pyli.greeklanguage.gr/index.php?catid=69&id=612&option=com_content&tid=15&view=article)
+- [Centre for the Greek Language: article declension](https://www.pyli.greeklanguage.gr/index.php?catid=69&id=612&option=com_content&tid=46&view=article)
+- [Centre for the Greek Language: tense and aspect overview](https://www.greek-language.gr/digitalResources/modern_greek/tools/lexica/glossology_edu/iframe.html?heading=2&id=180)
+
+- [Greek school spelling dictionary: letter combinations and sounds](https://ebooks.edu.gr/ebooks/v/html/8547/2354/Orthografiko-Lexiko_D-E-ST-Dimotikou_html-apli/indexd_00.html)
+- [Centre for the Greek Language: pronunciation and phonetic transcription](https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/phonetic.html)
+
 - [Centre for the Greek Language: prepositions and case](https://www.greek-language.gr/digitalResources/modern_greek/tools/lexica/glossology_edu/iframe.html?heading=4&id=119)
 - [Centre for the Greek Language: meanings of prepositions](https://www.greek-language.gr/digitalResources/modern_greek/tools/lexica/glossology_edu/iframe.html?heading=5&id=119)
 - [Triantafyllidis Modern Greek Grammar](https://www.greek-language.gr/greekLang/files/document/modern_greek/grammatiki.triantafyllidi.pdf)
