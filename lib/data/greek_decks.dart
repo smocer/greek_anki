@@ -18,6 +18,7 @@ import 'decks/living_places.dart';
 import 'decks/numbers_compound.dart';
 import '../domain/vocabulary.dart';
 import 'deck_composition.dart';
+import 'vocabulary_metadata.dart';
 import 'decks/verb_topics.dart';
 import 'decks/buy_present.dart';
 import 'decks/pay_present.dart';
@@ -60,7 +61,7 @@ import 'decks/sing_present.dart';
 import 'decks/location.dart';
 
 // Grouping changes do not change the review identity of an existing card.
-final greekDecks = List<VocabularyDeck>.unmodifiable([
+final authoredGreekDecks = List<VocabularyDeck>.unmodifiable([
   numbers0To10Deck,
   numbers11To100Deck,
   greetingsDeck,
@@ -155,3 +156,7 @@ final greekDecks = List<VocabularyDeck>.unmodifiable([
   diminutivesDeck,
   lessonConnectorsDeck,
 ]);
+
+final greekDecks = List<VocabularyDeck>.unmodifiable(
+  authoredGreekDecks.map(withVocabularyMetadata),
+);

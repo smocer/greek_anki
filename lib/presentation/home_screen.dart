@@ -4,7 +4,10 @@ import '../domain/learning_progress.dart';
 import '../domain/app_updates.dart';
 import '../domain/app_language.dart';
 import '../domain/vocabulary.dart';
+import '../domain/vocabulary_category.dart';
 import 'study_screen.dart';
+import 'alphabet_screen.dart';
+import 'grammar_screen.dart';
 import 'topic_picker.dart';
 import 'app_strings.dart';
 import 'language_switch.dart';
@@ -30,8 +33,9 @@ class HomeScreen extends StatefulWidget {
 }
 
 class _HomeScreenState extends State<HomeScreen> with WidgetsBindingObserver {
-  int _deckIndex = 0;
-  VocabularyDeck get _deck => widget.decks[_deckIndex];
+  VocabularyDeck? _selectedDeck;
+  VocabularyLabel _label = VocabularyLabel.topic;
+  VocabularyDeck get _deck => _selectedDeck ?? widget.decks.first;
 
   @override
   void initState() {
@@ -65,18 +69,27 @@ class _HomeScreenState extends State<HomeScreen> with WidgetsBindingObserver {
     if (mounted) setState(() {});
   }
 
-  Future<void> _chooseTopic() async {
-    final id = await showModalBottomSheet<String>(
+  Future<void> _chooseCategory() async {
+    final selected = await showModalBottomSheet<VocabularyDeck>(
       context: context,
       isScrollControlled: true,
       showDragHandle: true,
       useSafeArea: true,
-      builder: (_) => TopicPicker(decks: widget.decks, selectedId: _deck.id),
+      builder: (_) => TopicPicker(
+        decks: widget.decks,
+        selectedId: _deck.id,
+        selectedLabel: _label,
+        selectedPeriod: _deck.period,
+      ),
     );
-    if (!mounted || id == null) return;
-    setState(
-      () => _deckIndex = widget.decks.indexWhere((deck) => deck.id == id),
-    );
+    if (!mounted || selected == null) return;
+    setState(() {
+      _selectedDeck = selected;
+      _label = VocabularyLabel.values.firstWhere(
+        (label) => selected.id == 'category-${label.name}',
+        orElse: () => VocabularyLabel.topic,
+      );
+    });
   }
 
   @override
@@ -113,11 +126,6 @@ class _HomeScreenState extends State<HomeScreen> with WidgetsBindingObserver {
                     const Expanded(
                       child: Eyebrow('Greek Anki', color: Palette.ink),
                     ),
-                    const SizedBox(width: 8),
-                    Text(
-                      'Ελληνικά',
-                      style: TextStyle(color: Palette.muted, fontSize: 13),
-                    ),
                   ],
                 ),
                 const SizedBox(height: 20),
@@ -125,9 +133,60 @@ class _HomeScreenState extends State<HomeScreen> with WidgetsBindingObserver {
                 if (widget.updates case final updates?)
                   WebUpdateNotice(updates: updates),
                 const SizedBox(height: 24),
-                Text(
-                  context.strings.headline,
-                  style: Theme.of(context).textTheme.headlineLarge,
+                Row(
+                  children: [
+                    Expanded(
+                      child: FittedBox(
+                        fit: BoxFit.scaleDown,
+                        alignment: Alignment.centerLeft,
+                        child: Text(
+                          context.strings.headline,
+                          style: Theme.of(context).textTheme.headlineLarge,
+                        ),
+                      ),
+                    ),
+                    const SizedBox(width: 16),
+                    Column(
+                      mainAxisSize: MainAxisSize.min,
+                      children: [
+                        OutlinedButton.icon(
+                          style: OutlinedButton.styleFrom(
+                            backgroundColor: Palette.lime,
+                            fixedSize: const Size(128, 44),
+                            textStyle: const TextStyle(fontSize: 13),
+                            side: const BorderSide(color: Palette.ink),
+                            minimumSize: const Size(0, 44),
+                            padding: const EdgeInsets.symmetric(horizontal: 12),
+                          ),
+                          onPressed: () => Navigator.of(context).push(
+                            MaterialPageRoute<void>(
+                              builder: (_) => const AlphabetScreen(),
+                            ),
+                          ),
+                          icon: const Icon(Icons.menu_book_outlined, size: 18),
+                          label: const Text('Alphabets'),
+                        ),
+                        const SizedBox(height: 8),
+                        OutlinedButton.icon(
+                          style: OutlinedButton.styleFrom(
+                            backgroundColor: Palette.softGreen,
+                            fixedSize: const Size(128, 44),
+                            textStyle: const TextStyle(fontSize: 13),
+                            side: const BorderSide(color: Palette.ink),
+                            minimumSize: const Size(0, 44),
+                            padding: const EdgeInsets.symmetric(horizontal: 12),
+                          ),
+                          onPressed: () => Navigator.of(context).push(
+                            MaterialPageRoute<void>(
+                              builder: (_) => const GrammarScreen(),
+                            ),
+                          ),
+                          icon: const Icon(Icons.school_outlined, size: 18),
+                          label: const Text('Grammar'),
+                        ),
+                      ],
+                    ),
+                  ],
                 ),
                 const SizedBox(height: 12),
                 Text(
@@ -137,11 +196,10 @@ class _HomeScreenState extends State<HomeScreen> with WidgetsBindingObserver {
                 const SizedBox(height: 28),
                 if (widget.decks.length > 1) ...[
                   OutlinedButton.icon(
-                    onPressed: _chooseTopic,
+                    onPressed: _chooseCategory,
+                    key: const ValueKey('choose-category'),
                     icon: const Icon(Icons.grid_view_rounded, size: 19),
-                    label: Text(
-                      context.strings.chooseTopic(widget.decks.length),
-                    ),
+                    label: Text(context.strings.chooseCategory),
                   ),
                   const SizedBox(height: 16),
                 ],
@@ -152,7 +210,11 @@ class _HomeScreenState extends State<HomeScreen> with WidgetsBindingObserver {
                     isScrollControlled: true,
                     showDragHandle: true,
                     useSafeArea: true,
-                    builder: (_) => VocabularySheet(deck: _deck),
+                    builder: (_) => VocabularySheet(
+                      deck: _deck,
+                      label: _label == VocabularyLabel.topic ? null : _label,
+                      catalogCards: VocabularyCatalog(widget.decks).cards,
+                    ),
                   ),
                 ),
                 const SizedBox(height: 28),

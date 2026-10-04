@@ -1,4 +1,5 @@
 import 'app_language.dart';
+import 'vocabulary_category.dart';
 
 class VocabularyCard {
   const VocabularyCard({
@@ -11,6 +12,9 @@ class VocabularyCard {
     this.alternatives = const [],
     this.acceptedAnswers = const [],
     this.reviewIdentity,
+    this.labels = const [],
+    this.addedWeek,
+    this.words = const [],
   });
 
   final String id;
@@ -25,6 +29,46 @@ class VocabularyCard {
   final List<String> acceptedAnswers;
   // A card keeps its review history when displayed in a different topic.
   final ReviewIdentity? reviewIdentity;
+  final List<VocabularyLabel> labels;
+  // ISO Monday date: all additions within the same week share this stamp.
+  final String? addedWeek;
+  final List<VocabularyToken> words;
+
+  VocabularyCard withMetadata({
+    List<VocabularyLabel>? labels,
+    String? addedWeek,
+    ReviewIdentity? reviewIdentity,
+    List<VocabularyToken>? words,
+  }) => VocabularyCard(
+    id: id,
+    prompt: prompt,
+    meaning: meaning,
+    greek: greek,
+    pronunciation: pronunciation,
+    explanation: explanation,
+    alternatives: alternatives,
+    acceptedAnswers: acceptedAnswers,
+    reviewIdentity: reviewIdentity ?? this.reviewIdentity,
+    labels: labels ?? this.labels,
+    addedWeek: addedWeek ?? this.addedWeek,
+    words: words ?? this.words,
+  );
+}
+
+class VocabularyToken {
+  const VocabularyToken({
+    required this.surface,
+    required this.lemma,
+    required this.labels,
+    required this.start,
+    required this.end,
+    this.addedWeek,
+    this.tag = '',
+  });
+  final String surface, lemma, tag;
+  final int start, end;
+  final List<VocabularyLabel> labels;
+  final String? addedWeek;
 }
 
 class ReviewIdentity {
@@ -44,6 +88,7 @@ class VocabularyDeck {
     required this.cover,
     required this.cards,
     this.note,
+    this.period = VocabularyPeriod.all,
   });
 
   final String id;
@@ -52,6 +97,7 @@ class VocabularyDeck {
   final String cover;
   final List<VocabularyCard> cards;
   final LocalizedText? note;
+  final VocabularyPeriod period;
 }
 
 enum StudyMode { flashcards, typing }

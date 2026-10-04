@@ -25,6 +25,8 @@ jobs:
       - run: flutter pub get
       - run: flutter analyze
       - run: flutter test
+      - name: Install vocabulary annotation test dependencies
+        run: python3 -m pip install -r tool/vocabulary_nlp_requirements.txt
       - run: python3 -m unittest discover -s tool -p 'test_*.py'
       - name: Build website
         run: python3 tool/build_web.py --base-href /greek_anki/

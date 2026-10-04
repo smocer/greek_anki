@@ -16,6 +16,9 @@ List<VocabularyCard> cardsFrom(VocabularyDeck source, {List<String>? ids}) {
         explanation: card.explanation,
         alternatives: card.alternatives,
         acceptedAnswers: card.acceptedAnswers,
+        labels: card.labels,
+        addedWeek: card.addedWeek,
+        words: card.words,
         reviewIdentity:
             card.reviewIdentity ??
             ReviewIdentity(deckId: source.id, cardId: card.id),

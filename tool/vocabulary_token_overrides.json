@@ -1,0 +1,30 @@
+{
+  "words": {
+    "καλημέρα": {"labels": ["interjection"], "lemma": "καλημέρα"},
+    "καλησπέρα": {"labels": ["interjection"], "lemma": "καλησπέρα"},
+    "καληνύχτα": {"labels": ["interjection"], "lemma": "καληνύχτα"},
+    "άντε": {"labels": ["interjection"], "lemma": "άντε"},
+    "αγγλικά": {"labels": ["noun"], "lemma": "αγγλικά"},
+    "ελληνικά": {"labels": ["noun"], "lemma": "ελληνικά"},
+    "πόντου": {"labels": ["noun"], "lemma": "πόντος"},
+    "πόσα": {"labels": ["pronoun"], "lemma": "πόσος"},
+    "λέω": {"labels": ["verb"], "lemma": "λέω"},
+    "λες": {"labels": ["verb"], "lemma": "λέω"},
+    "λέει": {"labels": ["verb"], "lemma": "λέω"},
+    "λέμε": {"labels": ["verb"], "lemma": "λέω"},
+    "λέτε": {"labels": ["verb"], "lemma": "λέω"},
+    "λένε": {"labels": ["verb"], "lemma": "λέω"},
+    "ανοίξτε": {"labels": ["verb"], "lemma": "ανοίγω"},
+    "επαναλάβετε": {"labels": ["verb"], "lemma": "επαναλαμβάνω"},
+    "πάει": {"labels": ["verb"], "lemma": "πάω"},
+    "πάμε": {"labels": ["verb"], "lemma": "πάω"},
+    "γίνεται": {"labels": ["verb"], "lemma": "γίνομαι"},
+    "μήπως": {"labels": [], "lemma": "μήπως"}
+  },
+  "cards": {
+    "small-talk-replies.surprise": {
+      "0": {"labels": ["interjection"], "lemma": "πω"},
+      "1": {"labels": ["interjection"], "lemma": "πω"}
+    }
+  }
+}

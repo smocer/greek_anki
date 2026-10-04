@@ -1,0 +1,9 @@
+Alphabet letter-name clips (native-name-*.mp3)
+Source: https://commons.wikimedia.org/wiki/File:Ell-AlphabitosUpload.ogg
+Original recording: CuteHappyBrute, 13 May 2008.
+Noise cleanup and EQ: RoB, 25 April 2010.
+License: Public domain, released worldwide by the copyright holder.
+Changes: split into 24 letter names at the pauses, mono 24 kHz MP3.
+All 24 clips preserve the original speaker's pronunciation and voice.
+
+Example words (pair-*.mp3): Microsoft el-GR-AthinaNeural synthesis.
