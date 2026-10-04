@@ -2,7 +2,7 @@
 
 **[Open Greek Anki](https://smocer.github.io/greek_anki/)**
 
-Learn modern Greek with **500 cards across 40 focused beginner topics**, English and Russian explanations, and two practice modes.
+Learn modern Greek with **572 topic cards across 41 beginner topics**, English and Russian explanations, and two practice modes. Cards shared between topics retain the same learning progress.
 
 Works in a browser on iPhone, iPad, Android, and desktop. No account or subscription is needed. Open the link in Safari or Chrome and add it to your home screen for a convenient shortcut.
 
@@ -12,8 +12,8 @@ Works in a browser on iPhone, iPad, Android, and desktop. No account or subscrip
 - **Flashcards:** recall the Greek word, phrase, or grammatical form, reveal the answer and pronunciation, then choose **Again** or **Got it**.
 - **Hard mode:** type the answer using the built-in Greek keyboard or your device keyboard. The built-in keyboard includes stressed vowels: ά, έ, ή, ί, ό, ύ, ώ.
 - **Browse / Все слова:** read a topic's vocabulary, pronunciation guides, accepted variants, and grammar explanations.
-- **Choose a category → Choose a label:** select Topic for the original 40 topics, or browse words by noun, verb, adjective, adverb, pronoun, article, preposition, conjunction, numeral, or interjection. Words are extracted from sentences and shown with source examples and translations. Search matching words before choosing a category; practice uses their original source cards. Stress marks are optional in search. New vocabulary receives automatic word tags when running the [vocabulary sync](docs/vocabulary_metadata.md).
-- Words are ordered by their addition week, newest first. Green marks the latest recorded addition week, yellow the previous recorded addition week, and black earlier or undated entries. Every addition in a Monday–Sunday week shares one timestamp. Existing cards were backfilled from their first recorded source-file date in Git; all are in the week of 2026-09-28.
+- **Choose a category → Choose a label:** select Topic for the 41 topics, or browse words by noun, verb, adjective, adverb, pronoun, article, preposition, conjunction, numeral, or interjection. Words are shown with source examples and translations. Search matching words before choosing a category; practice uses their original source cards. Stress marks are optional in search.
+- Words are ordered by their addition week, newest first. Green marks the latest recorded addition week, yellow the previous recorded addition week, and black earlier or undated entries. Every addition in a Monday–Sunday week shares one timestamp. See [Vocabulary categories and weeks](docs/vocabulary_metadata.md).
 
 In hard mode, stress marks must be in the correct positions. Missing, misplaced, or extra stress is incorrect. Articles, word boundaries, and grammatical endings matter. Capitalization and sentence punctuation are optional. Use Greek letters, not Latin transliterations.
 
@@ -26,6 +26,8 @@ Missed cards return after two other cards when possible. A session ends when eve
 Practice numbers, introductions, greetings, countries, residence, addresses, phone conversations, classroom language, neighbours, pets, transport, shops, culture, nature, and basic grammar. Learn 20 everyday verbs in their “I” forms. A separate six-person drill uses μένω, διαβάζω, and καταλαβαίνω. Είμαι, λέγομαι, and τραγουδώ have their own grammar topics. Sentence examples appear alongside the relevant vocabulary.
 
 Focused drills practise noun gender with ο / η / το, location with στον / στην / στο, origin with από, and direct objects with βλέπω. In the gender drill, complete the given Greek noun with its article and type both words.
+
+**Everyday nouns / Повседневные существительные** brings together 63 nouns for people, classroom objects, food, transport and places, including 31 new words. Nine additional cards practise cases and plurals with ο μαθητής, η τσάντα and το πρόβλημα. Existing words share progress with their original topics.
 
 Russian explanations use familiar comparisons such as ты/Вы, cases, gender, possession, and shared word roots, while explaining differences between the languages. Pronunciation guides are approximate aids; use the Greek spelling as your reference.
 

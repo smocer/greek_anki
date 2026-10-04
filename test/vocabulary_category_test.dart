@@ -225,7 +225,7 @@ void main() {
         }
       }
       final catalog = VocabularyCatalog(greekDecks);
-      expect(catalog.cards.length, 497);
+      expect(catalog.cards.length, 537);
       expect(
         catalog
             .category(VocabularyLabel.noun)

@@ -2573,5 +2573,245 @@
   "lesson-connectors.dog-or-cat": {
     "addedWeek": "2026-09-28",
     "labels": []
+  },
+  "everyday-nouns.teacher-male": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun"
+    ]
+  },
+  "everyday-nouns.teacher-female": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun"
+    ]
+  },
+  "everyday-nouns.subject-teacher-male": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun"
+    ]
+  },
+  "everyday-nouns.subject-teacher-female": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun"
+    ]
+  },
+  "everyday-nouns.school-student-male": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun"
+    ]
+  },
+  "everyday-nouns.school-student-female": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun"
+    ]
+  },
+  "everyday-nouns.university-student-male": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun"
+    ]
+  },
+  "everyday-nouns.university-student-female": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun"
+    ]
+  },
+  "everyday-nouns.girl": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun"
+    ]
+  },
+  "everyday-nouns.boy": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun"
+    ]
+  },
+  "everyday-nouns.marker": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun"
+    ]
+  },
+  "everyday-nouns.computer": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun"
+    ]
+  },
+  "everyday-nouns.bag": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun"
+    ]
+  },
+  "everyday-nouns.class": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun"
+    ]
+  },
+  "everyday-nouns.library": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun"
+    ]
+  },
+  "everyday-nouns.map": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun"
+    ]
+  },
+  "everyday-nouns.paper": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun"
+    ]
+  },
+  "everyday-nouns.lesson": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun"
+    ]
+  },
+  "everyday-nouns.problem": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun"
+    ]
+  },
+  "everyday-nouns.table": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun"
+    ]
+  },
+  "everyday-nouns.ball": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun"
+    ]
+  },
+  "everyday-nouns.lighter": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun"
+    ]
+  },
+  "everyday-nouns.cigarette": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun"
+    ]
+  },
+  "everyday-nouns.cheese-pie": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun"
+    ]
+  },
+  "everyday-nouns.chocolate": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun"
+    ]
+  },
+  "everyday-nouns.ice-cream": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun"
+    ]
+  },
+  "everyday-nouns.cake": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun"
+    ]
+  },
+  "everyday-nouns.watermelon": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun"
+    ]
+  },
+  "everyday-nouns.taxi": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun"
+    ]
+  },
+  "everyday-nouns.larnaca": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun"
+    ]
+  },
+  "everyday-nouns.nicosia": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun"
+    ]
+  },
+  "everyday-nouns.pupil-accusative": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun"
+    ]
+  },
+  "everyday-nouns.pupil-genitive": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun"
+    ]
+  },
+  "everyday-nouns.pupils": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun"
+    ]
+  },
+  "everyday-nouns.bag-accusative": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun"
+    ]
+  },
+  "everyday-nouns.bag-genitive": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun"
+    ]
+  },
+  "everyday-nouns.bags": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun"
+    ]
+  },
+  "everyday-nouns.problem-accusative": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun"
+    ]
+  },
+  "everyday-nouns.problem-genitive": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun"
+    ]
+  },
+  "everyday-nouns.problems": {
+    "addedWeek": "2026-09-28",
+    "labels": [
+      "noun"
+    ]
   }
 }

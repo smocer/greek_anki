@@ -3,6 +3,7 @@ import 'decks/shops_services.dart';
 import 'decks/culture_dining.dart';
 import 'decks/nature_geography.dart';
 import 'decks/noun_gender.dart';
+import 'decks/everyday_nouns.dart';
 import 'decks/seeing_objects.dart';
 import 'decks/lesson_connectors.dart';
 import 'decks/diminutives.dart';
@@ -155,6 +156,7 @@ final authoredGreekDecks = List<VocabularyDeck>.unmodifiable([
   ]),
   diminutivesDeck,
   lessonConnectorsDeck,
+  everydayNounsDeck,
 ]);
 
 final greekDecks = List<VocabularyDeck>.unmodifiable(

@@ -1,6 +1,6 @@
 # Topics and learning guide
 
-The collection contains **500 cards in 40 topics**, with 5–26 cards per topic. Every topic is available in English and Russian, in Browse, flashcards, and hard mode. The material covers beginner vocabulary and grammar; it is not a complete A1 course.
+The collection contains **572 topic cards in 41 topics**, representing 537 distinct practice cards. Shared cards keep the same progress across topics. Every topic is available in English and Russian, in Browse, flashcards, and hard mode. The material covers beginner vocabulary and grammar; it is not a complete A1 course.
 
 ## Numbers
 
@@ -42,6 +42,7 @@ Country vocabulary includes masculine, feminine, neuter, and plural examples, wi
 
 ## Words and basic grammar
 
+- Everyday nouns — 63 nouns with their articles, plus nine cards on cases and plurals
 - Subject pronouns — gender, number, and εσύ / εσείς
 - Articles and basic cases — nominative, accusative, genitive, and plurals
 - Noun gender: ο / η / το — complete a Greek noun with its article; common endings and exceptions such as η Κύπρος and η οδός
@@ -53,6 +54,17 @@ Country vocabulary includes masculine, feminine, neuter, and plural examples, wi
 - Small things: -άκι — σκυλάκι, γατάκι, σπιτάκι, παιδάκι, νεράκι, καφεδάκι
 - Connecting words and time
 - Small words with different meanings — η/ή, δεν/όχι, πάντα, ακόμα/ακόμη, μήπως, με
+
+**Everyday nouns / Повседневные существительные** combines familiar words with these additions:
+
+- People and education: ο δάσκαλος / η δασκάλα, ο καθηγητής / η καθηγήτρια, ο μαθητής / η μαθήτρια, ο φοιτητής / η φοιτήτρια, το κορίτσι, το αγόρι.
+- Objects and study: ο μαρκαδόρος, ο υπολογιστής, η τσάντα, η τάξη, η βιβλιοθήκη, ο χάρτης, το χαρτί, το μάθημα, το πρόβλημα, το τραπέζι, η μπάλα, ο αναπτήρας, το τσιγάρο.
+- Food: η τυρόπιτα, η σοκολάτα, το παγωτό, η τούρτα, το καρπούζι.
+- Transport and places: το ταξί, η Λάρνακα, η Λευκωσία.
+
+Learn the article with each noun. Greek gender can differ from Russian: το κορίτσι is neuter despite referring to a girl, and το πρόβλημα is neuter although «проблема» is feminine. Compare μαθητής (pupil) with φοιτητής (university student), χάρτης (map) with χαρτί (paper), and τάξη (class) with ταξί (taxi).
+
+The nine additional form cards practise τον μαθητή / του μαθητή / οι μαθητές, την τσάντα / της τσάντας / οι τσάντες, and το πρόβλημα / του προβλήματος / τα προβλήματα. Each prompt specifies the case or plural; the answer includes the article.
 
 ## Verbs
 
@@ -95,7 +107,7 @@ These Greek forms mean “I do,” “I drink,” and so on. Modern Greek does n
 
 ## Choosing your practice
 
-Select **Choose a topic / Выбрать тему**, search by topic or word, then choose flashcards or hard mode. **Browse / Все слова** opens the vocabulary reference with examples and explanations. During practice, explanations appear after you reveal or check the answer.
+Select **Choose a category / Выбрать категорию**, choose Topic and a topic or select a word class, then filter by addition week or search for vocabulary. Apply the selection and choose flashcards or hard mode. **Browse / Все слова** opens the vocabulary reference with examples and explanations. During practice, explanations appear after you reveal or check the answer.
 
 Hard mode requires the correct Greek letters, stress marks, words, articles, and endings. Capitalization and sentence punctuation are optional. Topic search accepts queries without stress marks. Listed variants and accepted optional subject pronouns are also valid answers.
 

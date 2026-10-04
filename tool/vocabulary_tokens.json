@@ -1,5 +1,5 @@
 {
-  "signature": "80b3fa3e60782231f25ce8a999442af8bccc686137ecd300ed90e87a2c7d0276",
+  "signature": "f0c07bb38636fcd115b5ba0e0064089da2fecfddf256d78dc0c8fd68bc663c45",
   "model": "el_core_news_sm-3.8.0",
   "cards": {
     "numbers-0-10.number-0": {
@@ -12730,6 +12730,1006 @@
           "tag": "NOUN",
           "start": 13,
           "end": 17
+        }
+      ]
+    },
+    "everyday-nouns.teacher-male": {
+      "greek": "ο δάσκαλος",
+      "tokens": [
+        {
+          "surface": "ο",
+          "lemma": "ο",
+          "labels": [
+            "article"
+          ],
+          "tag": "DET",
+          "start": 0,
+          "end": 1
+        },
+        {
+          "surface": "δάσκαλος",
+          "lemma": "δάσκαλος",
+          "labels": [
+            "noun"
+          ],
+          "tag": "NOUN",
+          "start": 2,
+          "end": 10
+        }
+      ]
+    },
+    "everyday-nouns.teacher-female": {
+      "greek": "η δασκάλα",
+      "tokens": [
+        {
+          "surface": "η",
+          "lemma": "ο",
+          "labels": [
+            "article"
+          ],
+          "tag": "DET",
+          "start": 0,
+          "end": 1
+        },
+        {
+          "surface": "δασκάλα",
+          "lemma": "δασκάλα",
+          "labels": [
+            "noun"
+          ],
+          "tag": "PROPN",
+          "start": 2,
+          "end": 9
+        }
+      ]
+    },
+    "everyday-nouns.subject-teacher-male": {
+      "greek": "ο καθηγητής",
+      "tokens": [
+        {
+          "surface": "ο",
+          "lemma": "ο",
+          "labels": [
+            "article"
+          ],
+          "tag": "DET",
+          "start": 0,
+          "end": 1
+        },
+        {
+          "surface": "καθηγητής",
+          "lemma": "καθηγητής",
+          "labels": [
+            "noun"
+          ],
+          "tag": "NOUN",
+          "start": 2,
+          "end": 11
+        }
+      ]
+    },
+    "everyday-nouns.subject-teacher-female": {
+      "greek": "η καθηγήτρια",
+      "tokens": [
+        {
+          "surface": "η",
+          "lemma": "ο",
+          "labels": [
+            "article"
+          ],
+          "tag": "DET",
+          "start": 0,
+          "end": 1
+        },
+        {
+          "surface": "καθηγήτρια",
+          "lemma": "καθηγήτριο",
+          "labels": [
+            "noun"
+          ],
+          "tag": "NOUN",
+          "start": 2,
+          "end": 12
+        }
+      ]
+    },
+    "everyday-nouns.school-student-male": {
+      "greek": "ο μαθητής",
+      "tokens": [
+        {
+          "surface": "ο",
+          "lemma": "ο",
+          "labels": [
+            "article"
+          ],
+          "tag": "DET",
+          "start": 0,
+          "end": 1
+        },
+        {
+          "surface": "μαθητής",
+          "lemma": "μαθητής",
+          "labels": [
+            "noun"
+          ],
+          "tag": "NOUN",
+          "start": 2,
+          "end": 9
+        }
+      ]
+    },
+    "everyday-nouns.school-student-female": {
+      "greek": "η μαθήτρια",
+      "tokens": [
+        {
+          "surface": "η",
+          "lemma": "ο",
+          "labels": [
+            "article"
+          ],
+          "tag": "DET",
+          "start": 0,
+          "end": 1
+        },
+        {
+          "surface": "μαθήτρια",
+          "lemma": "μαθήτριο",
+          "labels": [
+            "noun"
+          ],
+          "tag": "NOUN",
+          "start": 2,
+          "end": 10
+        }
+      ]
+    },
+    "everyday-nouns.university-student-male": {
+      "greek": "ο φοιτητής",
+      "tokens": [
+        {
+          "surface": "ο",
+          "lemma": "ο",
+          "labels": [
+            "article"
+          ],
+          "tag": "DET",
+          "start": 0,
+          "end": 1
+        },
+        {
+          "surface": "φοιτητής",
+          "lemma": "φοιτητής",
+          "labels": [
+            "noun"
+          ],
+          "tag": "NOUN",
+          "start": 2,
+          "end": 10
+        }
+      ]
+    },
+    "everyday-nouns.university-student-female": {
+      "greek": "η φοιτήτρια",
+      "tokens": [
+        {
+          "surface": "η",
+          "lemma": "ο",
+          "labels": [
+            "article"
+          ],
+          "tag": "DET",
+          "start": 0,
+          "end": 1
+        },
+        {
+          "surface": "φοιτήτρια",
+          "lemma": "φοιτήτρια",
+          "labels": [
+            "noun"
+          ],
+          "tag": "NOUN",
+          "start": 2,
+          "end": 11
+        }
+      ]
+    },
+    "everyday-nouns.girl": {
+      "greek": "το κορίτσι",
+      "tokens": [
+        {
+          "surface": "το",
+          "lemma": "ο",
+          "labels": [
+            "article"
+          ],
+          "tag": "DET",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "κορίτσι",
+          "lemma": "κορίτσι",
+          "labels": [
+            "noun"
+          ],
+          "tag": "ADV",
+          "start": 3,
+          "end": 10
+        }
+      ]
+    },
+    "everyday-nouns.boy": {
+      "greek": "το αγόρι",
+      "tokens": [
+        {
+          "surface": "το",
+          "lemma": "ο",
+          "labels": [
+            "article"
+          ],
+          "tag": "DET",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "αγόρι",
+          "lemma": "αγόρι",
+          "labels": [
+            "noun"
+          ],
+          "tag": "ADJ",
+          "start": 3,
+          "end": 8
+        }
+      ]
+    },
+    "everyday-nouns.marker": {
+      "greek": "ο μαρκαδόρος",
+      "tokens": [
+        {
+          "surface": "ο",
+          "lemma": "ο",
+          "labels": [
+            "article"
+          ],
+          "tag": "DET",
+          "start": 0,
+          "end": 1
+        },
+        {
+          "surface": "μαρκαδόρος",
+          "lemma": "μαρκαδόρος",
+          "labels": [
+            "noun"
+          ],
+          "tag": "NOUN",
+          "start": 2,
+          "end": 12
+        }
+      ]
+    },
+    "everyday-nouns.computer": {
+      "greek": "ο υπολογιστής",
+      "tokens": [
+        {
+          "surface": "ο",
+          "lemma": "ο",
+          "labels": [
+            "article"
+          ],
+          "tag": "DET",
+          "start": 0,
+          "end": 1
+        },
+        {
+          "surface": "υπολογιστής",
+          "lemma": "υπολογιστής",
+          "labels": [
+            "noun"
+          ],
+          "tag": "NOUN",
+          "start": 2,
+          "end": 13
+        }
+      ]
+    },
+    "everyday-nouns.bag": {
+      "greek": "η τσάντα",
+      "tokens": [
+        {
+          "surface": "η",
+          "lemma": "ο",
+          "labels": [
+            "article"
+          ],
+          "tag": "DET",
+          "start": 0,
+          "end": 1
+        },
+        {
+          "surface": "τσάντα",
+          "lemma": "τσάν",
+          "labels": [
+            "noun"
+          ],
+          "tag": "PROPN",
+          "start": 2,
+          "end": 8
+        }
+      ]
+    },
+    "everyday-nouns.class": {
+      "greek": "η τάξη",
+      "tokens": [
+        {
+          "surface": "η",
+          "lemma": "ο",
+          "labels": [
+            "article"
+          ],
+          "tag": "DET",
+          "start": 0,
+          "end": 1
+        },
+        {
+          "surface": "τάξη",
+          "lemma": "τάξη",
+          "labels": [
+            "noun"
+          ],
+          "tag": "NOUN",
+          "start": 2,
+          "end": 6
+        }
+      ]
+    },
+    "everyday-nouns.library": {
+      "greek": "η βιβλιοθήκη",
+      "tokens": [
+        {
+          "surface": "η",
+          "lemma": "ο",
+          "labels": [
+            "article"
+          ],
+          "tag": "DET",
+          "start": 0,
+          "end": 1
+        },
+        {
+          "surface": "βιβλιοθήκη",
+          "lemma": "βιβλιοθήκη",
+          "labels": [
+            "noun"
+          ],
+          "tag": "NOUN",
+          "start": 2,
+          "end": 12
+        }
+      ]
+    },
+    "everyday-nouns.map": {
+      "greek": "ο χάρτης",
+      "tokens": [
+        {
+          "surface": "ο",
+          "lemma": "ο",
+          "labels": [
+            "article"
+          ],
+          "tag": "DET",
+          "start": 0,
+          "end": 1
+        },
+        {
+          "surface": "χάρτης",
+          "lemma": "χάρτης",
+          "labels": [
+            "noun"
+          ],
+          "tag": "NOUN",
+          "start": 2,
+          "end": 8
+        }
+      ]
+    },
+    "everyday-nouns.paper": {
+      "greek": "το χαρτί",
+      "tokens": [
+        {
+          "surface": "το",
+          "lemma": "ο",
+          "labels": [
+            "article"
+          ],
+          "tag": "DET",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "χαρτί",
+          "lemma": "χαρτί",
+          "labels": [
+            "noun"
+          ],
+          "tag": "NOUN",
+          "start": 3,
+          "end": 8
+        }
+      ]
+    },
+    "everyday-nouns.lesson": {
+      "greek": "το μάθημα",
+      "tokens": [
+        {
+          "surface": "το",
+          "lemma": "ο",
+          "labels": [
+            "article"
+          ],
+          "tag": "DET",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "μάθημα",
+          "lemma": "μάθημα",
+          "labels": [
+            "noun"
+          ],
+          "tag": "NOUN",
+          "start": 3,
+          "end": 9
+        }
+      ]
+    },
+    "everyday-nouns.problem": {
+      "greek": "το πρόβλημα",
+      "tokens": [
+        {
+          "surface": "το",
+          "lemma": "ο",
+          "labels": [
+            "article"
+          ],
+          "tag": "DET",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "πρόβλημα",
+          "lemma": "πρόβλημα",
+          "labels": [
+            "noun"
+          ],
+          "tag": "NOUN",
+          "start": 3,
+          "end": 11
+        }
+      ]
+    },
+    "everyday-nouns.table": {
+      "greek": "το τραπέζι",
+      "tokens": [
+        {
+          "surface": "το",
+          "lemma": "εγώ",
+          "labels": [
+            "article"
+          ],
+          "tag": "PRON",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "τραπέζι",
+          "lemma": "τραπέζι",
+          "labels": [
+            "noun"
+          ],
+          "tag": "NOUN",
+          "start": 3,
+          "end": 10
+        }
+      ]
+    },
+    "everyday-nouns.ball": {
+      "greek": "η μπάλα",
+      "tokens": [
+        {
+          "surface": "η",
+          "lemma": "ο",
+          "labels": [
+            "article"
+          ],
+          "tag": "DET",
+          "start": 0,
+          "end": 1
+        },
+        {
+          "surface": "μπάλα",
+          "lemma": "μπάλα",
+          "labels": [
+            "noun"
+          ],
+          "tag": "PROPN",
+          "start": 2,
+          "end": 7
+        }
+      ]
+    },
+    "everyday-nouns.lighter": {
+      "greek": "ο αναπτήρας",
+      "tokens": [
+        {
+          "surface": "ο",
+          "lemma": "ο",
+          "labels": [
+            "article"
+          ],
+          "tag": "DET",
+          "start": 0,
+          "end": 1
+        },
+        {
+          "surface": "αναπτήρας",
+          "lemma": "αναπτήρας",
+          "labels": [
+            "noun"
+          ],
+          "tag": "NOUN",
+          "start": 2,
+          "end": 11
+        }
+      ]
+    },
+    "everyday-nouns.cigarette": {
+      "greek": "το τσιγάρο",
+      "tokens": [
+        {
+          "surface": "το",
+          "lemma": "ο",
+          "labels": [
+            "article"
+          ],
+          "tag": "DET",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "τσιγάρο",
+          "lemma": "τσιγάρο",
+          "labels": [
+            "noun"
+          ],
+          "tag": "PROPN",
+          "start": 3,
+          "end": 10
+        }
+      ]
+    },
+    "everyday-nouns.cheese-pie": {
+      "greek": "η τυρόπιτα",
+      "tokens": [
+        {
+          "surface": "η",
+          "lemma": "ο",
+          "labels": [
+            "article"
+          ],
+          "tag": "DET",
+          "start": 0,
+          "end": 1
+        },
+        {
+          "surface": "τυρόπιτα",
+          "lemma": "τυρόπιτα",
+          "labels": [
+            "noun"
+          ],
+          "tag": "NOUN",
+          "start": 2,
+          "end": 10
+        }
+      ]
+    },
+    "everyday-nouns.chocolate": {
+      "greek": "η σοκολάτα",
+      "tokens": [
+        {
+          "surface": "η",
+          "lemma": "ο",
+          "labels": [
+            "article"
+          ],
+          "tag": "DET",
+          "start": 0,
+          "end": 1
+        },
+        {
+          "surface": "σοκολάτα",
+          "lemma": "σοκολάτα",
+          "labels": [
+            "noun"
+          ],
+          "tag": "NOUN",
+          "start": 2,
+          "end": 10
+        }
+      ]
+    },
+    "everyday-nouns.ice-cream": {
+      "greek": "το παγωτό",
+      "tokens": [
+        {
+          "surface": "το",
+          "lemma": "ο",
+          "labels": [
+            "article"
+          ],
+          "tag": "DET",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "παγωτό",
+          "lemma": "παγωτό",
+          "labels": [
+            "noun"
+          ],
+          "tag": "NOUN",
+          "start": 3,
+          "end": 9
+        }
+      ]
+    },
+    "everyday-nouns.cake": {
+      "greek": "η τούρτα",
+      "tokens": [
+        {
+          "surface": "η",
+          "lemma": "ο",
+          "labels": [
+            "article"
+          ],
+          "tag": "DET",
+          "start": 0,
+          "end": 1
+        },
+        {
+          "surface": "τούρτα",
+          "lemma": "τούρτα",
+          "labels": [
+            "noun"
+          ],
+          "tag": "PRON",
+          "start": 2,
+          "end": 8
+        }
+      ]
+    },
+    "everyday-nouns.watermelon": {
+      "greek": "το καρπούζι",
+      "tokens": [
+        {
+          "surface": "το",
+          "lemma": "ο",
+          "labels": [
+            "article"
+          ],
+          "tag": "DET",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "καρπούζι",
+          "lemma": "καρπούζι",
+          "labels": [
+            "noun"
+          ],
+          "tag": "NOUN",
+          "start": 3,
+          "end": 11
+        }
+      ]
+    },
+    "everyday-nouns.taxi": {
+      "greek": "το ταξί",
+      "tokens": [
+        {
+          "surface": "το",
+          "lemma": "ο",
+          "labels": [
+            "article"
+          ],
+          "tag": "DET",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "ταξί",
+          "lemma": "ταξί",
+          "labels": [
+            "noun"
+          ],
+          "tag": "ADJ",
+          "start": 3,
+          "end": 7
+        }
+      ]
+    },
+    "everyday-nouns.larnaca": {
+      "greek": "η Λάρνακα",
+      "tokens": [
+        {
+          "surface": "η",
+          "lemma": "ο",
+          "labels": [
+            "article"
+          ],
+          "tag": "DET",
+          "start": 0,
+          "end": 1
+        },
+        {
+          "surface": "Λάρνακα",
+          "lemma": "λάρνακα",
+          "labels": [
+            "noun"
+          ],
+          "tag": "NOUN",
+          "start": 2,
+          "end": 9
+        }
+      ]
+    },
+    "everyday-nouns.nicosia": {
+      "greek": "η Λευκωσία",
+      "tokens": [
+        {
+          "surface": "η",
+          "lemma": "ο",
+          "labels": [
+            "article"
+          ],
+          "tag": "DET",
+          "start": 0,
+          "end": 1
+        },
+        {
+          "surface": "Λευκωσία",
+          "lemma": "λευκωσία",
+          "labels": [
+            "noun"
+          ],
+          "tag": "NOUN",
+          "start": 2,
+          "end": 10
+        }
+      ]
+    },
+    "everyday-nouns.pupil-accusative": {
+      "greek": "τον μαθητή",
+      "tokens": [
+        {
+          "surface": "τον",
+          "lemma": "ο",
+          "labels": [
+            "article"
+          ],
+          "tag": "DET",
+          "start": 0,
+          "end": 3
+        },
+        {
+          "surface": "μαθητή",
+          "lemma": "μαθητής",
+          "labels": [
+            "noun"
+          ],
+          "tag": "NOUN",
+          "start": 4,
+          "end": 10
+        }
+      ]
+    },
+    "everyday-nouns.pupil-genitive": {
+      "greek": "του μαθητή",
+      "tokens": [
+        {
+          "surface": "του",
+          "lemma": "ο",
+          "labels": [
+            "article"
+          ],
+          "tag": "DET",
+          "start": 0,
+          "end": 3
+        },
+        {
+          "surface": "μαθητή",
+          "lemma": "μαθητής",
+          "labels": [
+            "noun"
+          ],
+          "tag": "NOUN",
+          "start": 4,
+          "end": 10
+        }
+      ]
+    },
+    "everyday-nouns.pupils": {
+      "greek": "οι μαθητές",
+      "tokens": [
+        {
+          "surface": "οι",
+          "lemma": "ο",
+          "labels": [
+            "article"
+          ],
+          "tag": "DET",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "μαθητές",
+          "lemma": "μαθητής",
+          "labels": [
+            "noun"
+          ],
+          "tag": "NOUN",
+          "start": 3,
+          "end": 10
+        }
+      ]
+    },
+    "everyday-nouns.bag-accusative": {
+      "greek": "την τσάντα",
+      "tokens": [
+        {
+          "surface": "την",
+          "lemma": "ο",
+          "labels": [
+            "article"
+          ],
+          "tag": "DET",
+          "start": 0,
+          "end": 3
+        },
+        {
+          "surface": "τσάντα",
+          "lemma": "τσάντα",
+          "labels": [
+            "noun"
+          ],
+          "tag": "PROPN",
+          "start": 4,
+          "end": 10
+        }
+      ]
+    },
+    "everyday-nouns.bag-genitive": {
+      "greek": "της τσάντας",
+      "tokens": [
+        {
+          "surface": "της",
+          "lemma": "ο",
+          "labels": [
+            "article"
+          ],
+          "tag": "DET",
+          "start": 0,
+          "end": 3
+        },
+        {
+          "surface": "τσάντας",
+          "lemma": "τσάντα",
+          "labels": [
+            "noun"
+          ],
+          "tag": "NOUN",
+          "start": 4,
+          "end": 11
+        }
+      ]
+    },
+    "everyday-nouns.bags": {
+      "greek": "οι τσάντες",
+      "tokens": [
+        {
+          "surface": "οι",
+          "lemma": "ο",
+          "labels": [
+            "article"
+          ],
+          "tag": "DET",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "τσάντες",
+          "lemma": "τσάντης",
+          "labels": [
+            "noun"
+          ],
+          "tag": "NOUN",
+          "start": 3,
+          "end": 10
+        }
+      ]
+    },
+    "everyday-nouns.problem-accusative": {
+      "greek": "το πρόβλημα",
+      "tokens": [
+        {
+          "surface": "το",
+          "lemma": "ο",
+          "labels": [
+            "article"
+          ],
+          "tag": "DET",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "πρόβλημα",
+          "lemma": "πρόβλημα",
+          "labels": [
+            "noun"
+          ],
+          "tag": "NOUN",
+          "start": 3,
+          "end": 11
+        }
+      ]
+    },
+    "everyday-nouns.problem-genitive": {
+      "greek": "του προβλήματος",
+      "tokens": [
+        {
+          "surface": "του",
+          "lemma": "ο",
+          "labels": [
+            "article"
+          ],
+          "tag": "DET",
+          "start": 0,
+          "end": 3
+        },
+        {
+          "surface": "προβλήματος",
+          "lemma": "προβλήματος",
+          "labels": [
+            "noun"
+          ],
+          "tag": "NOUN",
+          "start": 4,
+          "end": 15
+        }
+      ]
+    },
+    "everyday-nouns.problems": {
+      "greek": "τα προβλήματα",
+      "tokens": [
+        {
+          "surface": "τα",
+          "lemma": "ο",
+          "labels": [
+            "article"
+          ],
+          "tag": "DET",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "surface": "προβλήματα",
+          "lemma": "πρόβλημα",
+          "labels": [
+            "noun"
+          ],
+          "tag": "NOUN",
+          "start": 3,
+          "end": 13
         }
       ]
     }
