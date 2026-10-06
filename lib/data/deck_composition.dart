@@ -12,6 +12,7 @@ List<VocabularyCard> cardsFrom(VocabularyDeck source, {List<String>? ids}) {
         prompt: card.prompt,
         meaning: card.meaning,
         greek: card.greek,
+        answerDisplay: card.answerDisplay,
         pronunciation: card.pronunciation,
         explanation: card.explanation,
         alternatives: card.alternatives,

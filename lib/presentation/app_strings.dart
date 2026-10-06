@@ -21,6 +21,18 @@ class AppStrings {
   String text(LocalizedText value) => value.resolve(language);
   String _pick(String en, String ru) => text(LocalizedText(en: en, ru: ru));
 
+  String get reference => _pick('Reference', 'Справочник');
+  String get grammarTables => _pick('Grammar tables', 'Грамматические таблицы');
+  String get practiceGroup => _pick('Practice group', 'Что учим');
+  String get filters => _pick('Filters', 'Фильтры');
+  String get clearFilters => _pick('Clear filters', 'Сбросить');
+  String get applyFilters => _pick('Apply filters', 'Применить');
+  String get themeFilter => _pick('Theme', 'Тема');
+  String get allThemes => _pick('All themes', 'Все темы');
+  String get sessionSize => _pick(
+    'Up to 15 cards per session · due cards first',
+    'До 15 карточек за раз · с учётом повторений',
+  );
   String get headline => _pick('Greek,\nby heart.', 'Греческий\nнаизусть.');
   String get tagline => _pick(
     'A little practice. A lasting memory.',
@@ -136,7 +148,7 @@ class AppStrings {
   String wordCount(int count) => _pick('$count words', '$count слов');
   String get additionPeriod => _pick('Added', 'Добавлено');
   String periodTitle(VocabularyPeriod period) => switch (period) {
-    VocabularyPeriod.all => _pick('All words', 'Все слова'),
+    VocabularyPeriod.all => _pick('All weeks', 'Все недели'),
     VocabularyPeriod.thisWeek => _pick('This week', 'На этой неделе'),
     VocabularyPeriod.lastWeek => _pick('Last week', 'На прошлой неделе'),
     VocabularyPeriod.earlier => _pick('Earlier', 'Ранее'),
@@ -278,8 +290,7 @@ class AppStrings {
     'Прогресс сохранён. Возвращайтесь завтра, чтобы ещё немного позаниматься.',
   );
   String get backToMyDeck => _pick('Back to my deck', 'К моей колоде');
-  String get practiceAllAgain =>
-      _pick('Practice all again', 'Повторить все карточки');
+  String get nextBatch => _pick('Next batch', 'Следующие карточки');
   String get space => _pick('space', 'пробел');
   String get delete => _pick('Delete', 'Удалить');
 

@@ -15,6 +15,7 @@ class VocabularyCard {
     this.labels = const [],
     this.addedWeek,
     this.words = const [],
+    this.answerDisplay,
   });
 
   final String id;
@@ -33,6 +34,9 @@ class VocabularyCard {
   // ISO Monday date: all additions within the same week share this stamp.
   final String? addedWeek;
   final List<VocabularyToken> words;
+  // Vocabulary may accept a bare noun while still teaching its article.
+  final String? answerDisplay;
+  String get displayedAnswer => answerDisplay ?? greek;
 
   VocabularyCard withMetadata({
     List<VocabularyLabel>? labels,
@@ -52,6 +56,7 @@ class VocabularyCard {
     labels: labels ?? this.labels,
     addedWeek: addedWeek ?? this.addedWeek,
     words: words ?? this.words,
+    answerDisplay: answerDisplay,
   );
 }
 

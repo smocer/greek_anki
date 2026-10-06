@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
 import '../domain/learning_progress.dart';
+import '../domain/curriculum.dart';
 import '../domain/study_session.dart';
 import '../domain/vocabulary.dart';
 import 'greek_keyboard.dart';
@@ -84,7 +85,11 @@ class _StudyScreenState extends State<StudyScreen> {
   void _restart() {
     _session.dispose();
     setState(() {
-      _session = StudySession(cards: widget.deck.cards, mode: widget.mode);
+      final due = widget.progress.dueCards(widget.deck, widget.mode);
+      _session = StudySession(
+        cards: sessionBatch(due.isEmpty ? widget.deck.cards : due),
+        mode: widget.mode,
+      );
       _answer.clear();
     });
   }
@@ -453,7 +458,7 @@ class _RevealedCard extends StatelessWidget {
       ),
       const SizedBox(height: 30),
       Text(
-        card.greek,
+        card.displayedAnswer,
         textAlign: TextAlign.center,
         style: TextStyle(
           color: Colors.white,
@@ -517,7 +522,7 @@ class _AnswerFeedback extends StatelessWidget {
           ),
           const SizedBox(height: 14),
           Text(
-            card.greek,
+            card.displayedAnswer,
             textAlign: TextAlign.center,
             style: TextStyle(
               fontSize: card.greek.length > 22 ? 27 : 34,
@@ -636,7 +641,7 @@ class _Completion extends StatelessWidget {
           const SizedBox(height: 10),
           TextButton(
             onPressed: onRestart,
-            child: Text(context.strings.practiceAllAgain),
+            child: Text(context.strings.nextBatch),
           ),
         ],
       ),

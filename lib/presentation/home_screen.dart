@@ -1,41 +1,41 @@
 import 'package:flutter/material.dart';
 
-import '../domain/learning_progress.dart';
-import '../domain/app_updates.dart';
 import '../domain/app_language.dart';
+import '../domain/app_updates.dart';
+import '../domain/curriculum.dart';
+import '../domain/learning_progress.dart';
 import '../domain/vocabulary.dart';
-import '../domain/vocabulary_category.dart';
-import 'study_screen.dart';
 import 'alphabet_screen.dart';
-import 'grammar_screen.dart';
-import 'topic_picker.dart';
 import 'app_strings.dart';
+import 'grammar_screen.dart';
 import 'language_switch.dart';
+import 'study_screen.dart';
 import 'theme.dart';
+import 'topic_picker.dart';
 import 'vocabulary_sheet.dart';
 import 'web_update_notice.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({
     super.key,
-    required this.decks,
+    required this.collections,
     required this.progress,
     required this.onLanguageChanged,
     this.updates,
   });
-  final List<VocabularyDeck> decks;
+  final List<LearningCollection> collections;
   final LearningProgress progress;
   final Future<void> Function(AppLanguage) onLanguageChanged;
   final AppUpdates? updates;
-
   @override
   State<HomeScreen> createState() => _HomeScreenState();
 }
 
 class _HomeScreenState extends State<HomeScreen> with WidgetsBindingObserver {
-  VocabularyDeck? _selectedDeck;
-  VocabularyLabel _label = VocabularyLabel.topic;
-  VocabularyDeck get _deck => _selectedDeck ?? widget.decks.first;
+  LearningSection _section = LearningSection.words;
+  late LearningCollection _collection = widget.collections.first;
+  CollectionSelection? _selection;
+  VocabularyDeck get _deck => _selection?.deck ?? _collection.deck;
 
   @override
   void initState() {
@@ -54,13 +54,19 @@ class _HomeScreenState extends State<HomeScreen> with WidgetsBindingObserver {
     if (state == AppLifecycleState.resumed) setState(() {});
   }
 
+  void _select(LearningCollection collection) => setState(() {
+    _collection = collection;
+    _section = collection.section;
+    _selection = null;
+  });
+
   Future<void> _start(StudyMode mode) async {
     final due = widget.progress.dueCards(_deck, mode);
     await Navigator.of(context).push(
       MaterialPageRoute<void>(
         builder: (_) => StudyScreen(
           deck: _deck,
-          cards: due.isEmpty ? _deck.cards : due,
+          cards: sessionBatch(due.isEmpty ? _deck.cards : due),
           mode: mode,
           progress: widget.progress,
         ),
@@ -69,28 +75,58 @@ class _HomeScreenState extends State<HomeScreen> with WidgetsBindingObserver {
     if (mounted) setState(() {});
   }
 
-  Future<void> _chooseCategory() async {
-    final selected = await showModalBottomSheet<VocabularyDeck>(
+  Future<void> _filter() async {
+    final selected = await showModalBottomSheet<CollectionSelection>(
       context: context,
       isScrollControlled: true,
       showDragHandle: true,
       useSafeArea: true,
-      builder: (_) => TopicPicker(
-        decks: widget.decks,
-        selectedId: _deck.id,
-        selectedLabel: _label,
-        selectedPeriod: _deck.period,
-      ),
+      builder: (_) =>
+          TopicPicker(collection: _collection, selection: _selection),
     );
-    if (!mounted || selected == null) return;
-    setState(() {
-      _selectedDeck = selected;
-      _label = VocabularyLabel.values.firstWhere(
-        (label) => selected.id == 'category-${label.name}',
-        orElse: () => VocabularyLabel.topic,
-      );
-    });
+    if (mounted && selected != null) setState(() => _selection = selected);
   }
+
+  void _reference() => showModalBottomSheet<void>(
+    context: context,
+    showDragHandle: true,
+    useSafeArea: true,
+    builder: (sheetContext) => Padding(
+      padding: const EdgeInsets.fromLTRB(16, 0, 16, 24),
+      child: Column(
+        mainAxisSize: MainAxisSize.min,
+        children: [
+          ListTile(
+            title: Text(context.strings.reference),
+            titleTextStyle: Theme.of(context).textTheme.titleLarge,
+          ),
+          for (final entry in [
+            (
+              context.strings.alphabetTitle,
+              Icons.menu_book_outlined,
+              const AlphabetScreen(),
+            ),
+            (
+              context.strings.grammarTables,
+              Icons.table_chart_outlined,
+              const GrammarScreen(),
+            ),
+          ])
+            ListTile(
+              leading: Icon(entry.$2),
+              title: Text(entry.$1),
+              trailing: const Icon(Icons.chevron_right),
+              onTap: () {
+                Navigator.pop(sheetContext);
+                Navigator.of(
+                  context,
+                ).push(MaterialPageRoute<void>(builder: (_) => entry.$3));
+              },
+            ),
+        ],
+      ),
+    ),
+  );
 
   @override
   Widget build(BuildContext context) => Scaffold(
@@ -101,167 +137,180 @@ class _HomeScreenState extends State<HomeScreen> with WidgetsBindingObserver {
           child: ListenableBuilder(
             listenable: widget.progress,
             builder: (context, _) => ListView(
-              padding: const EdgeInsets.fromLTRB(24, 20, 24, 24),
+              padding: const EdgeInsets.fromLTRB(24, 16, 24, 24),
               children: [
                 Row(
                   children: [
-                    Container(
-                      width: 38,
-                      height: 38,
-                      decoration: BoxDecoration(
-                        color: Palette.ink,
-                        borderRadius: BorderRadius.circular(12),
-                      ),
-                      alignment: Alignment.center,
-                      child: Text(
-                        'α',
-                        style: TextStyle(
-                          fontSize: 29,
-                          height: 1,
-                          color: Palette.lime,
-                        ),
-                      ),
-                    ),
-                    const SizedBox(width: 12),
                     const Expanded(
                       child: Eyebrow('Greek Anki', color: Palette.ink),
                     ),
+                    TextButton.icon(
+                      onPressed: _reference,
+                      icon: const Icon(Icons.menu_book_outlined, size: 18),
+                      label: Text(context.strings.reference),
+                    ),
                   ],
                 ),
-                const SizedBox(height: 20),
+                const SizedBox(height: 8),
                 LanguageSwitch(onChanged: widget.onLanguageChanged),
                 if (widget.updates case final updates?)
                   WebUpdateNotice(updates: updates),
                 const SizedBox(height: 24),
-                Row(
-                  children: [
-                    Expanded(
-                      child: FittedBox(
-                        fit: BoxFit.scaleDown,
-                        alignment: Alignment.centerLeft,
-                        child: Text(
-                          context.strings.headline,
-                          style: Theme.of(context).textTheme.headlineLarge,
-                        ),
-                      ),
-                    ),
-                    const SizedBox(width: 16),
-                    Column(
-                      mainAxisSize: MainAxisSize.min,
-                      children: [
-                        OutlinedButton.icon(
-                          style: OutlinedButton.styleFrom(
-                            backgroundColor: Palette.lime,
-                            fixedSize: const Size(128, 44),
-                            textStyle: const TextStyle(fontSize: 13),
-                            side: const BorderSide(color: Palette.ink),
-                            minimumSize: const Size(0, 44),
-                            padding: const EdgeInsets.symmetric(horizontal: 12),
-                          ),
-                          onPressed: () => Navigator.of(context).push(
-                            MaterialPageRoute<void>(
-                              builder: (_) => const AlphabetScreen(),
-                            ),
-                          ),
-                          icon: const Icon(Icons.menu_book_outlined, size: 18),
-                          label: const Text('Alphabets'),
-                        ),
-                        const SizedBox(height: 8),
-                        OutlinedButton.icon(
-                          style: OutlinedButton.styleFrom(
-                            backgroundColor: Palette.softGreen,
-                            fixedSize: const Size(128, 44),
-                            textStyle: const TextStyle(fontSize: 13),
-                            side: const BorderSide(color: Palette.ink),
-                            minimumSize: const Size(0, 44),
-                            padding: const EdgeInsets.symmetric(horizontal: 12),
-                          ),
-                          onPressed: () => Navigator.of(context).push(
-                            MaterialPageRoute<void>(
-                              builder: (_) => const GrammarScreen(),
-                            ),
-                          ),
-                          icon: const Icon(Icons.school_outlined, size: 18),
-                          label: const Text('Grammar'),
-                        ),
-                      ],
-                    ),
-                  ],
+                Text(
+                  context.strings.headline.replaceAll('\n', ' '),
+                  style: Theme.of(context).textTheme.headlineMedium,
                 ),
-                const SizedBox(height: 12),
+                const SizedBox(height: 6),
                 Text(
                   context.strings.tagline,
-                  style: TextStyle(color: Palette.muted),
+                  style: const TextStyle(color: Palette.muted),
                 ),
-                const SizedBox(height: 28),
-                if (widget.decks.length > 1) ...[
-                  OutlinedButton.icon(
-                    onPressed: _chooseCategory,
-                    key: const ValueKey('choose-category'),
-                    icon: const Icon(Icons.grid_view_rounded, size: 19),
-                    label: Text(context.strings.chooseCategory),
+                const SizedBox(height: 24),
+                Wrap(
+                  spacing: 8,
+                  runSpacing: 8,
+                  children: [
+                    for (final section in LearningSection.values)
+                      ChoiceChip(
+                        key: ValueKey('section-${section.name}'),
+                        label: Text(context.localize(section.title)),
+                        selected: _section == section,
+                        showCheckmark: false,
+                        onSelected: (_) => _select(
+                          widget.collections.firstWhere(
+                            (c) => c.section == section,
+                          ),
+                        ),
+                      ),
+                  ],
+                ),
+                const SizedBox(height: 16),
+                DropdownButtonFormField<String>(
+                  key: ValueKey('collection-${_section.name}'),
+                  initialValue: _collection.deck.id,
+                  isExpanded: true,
+                  decoration: InputDecoration(
+                    labelText: context.strings.practiceGroup,
                   ),
-                  const SizedBox(height: 16),
-                ],
-                _DeckCover(
-                  deck: _deck,
-                  onBrowse: () => showModalBottomSheet<void>(
-                    context: context,
-                    isScrollControlled: true,
-                    showDragHandle: true,
-                    useSafeArea: true,
-                    builder: (_) => VocabularySheet(
-                      deck: _deck,
-                      label: _label == VocabularyLabel.topic ? null : _label,
-                      catalogCards: VocabularyCatalog(widget.decks).cards,
-                    ),
+                  items: [
+                    for (final c in widget.collections.where(
+                      (c) => c.section == _section,
+                    ))
+                      DropdownMenuItem(
+                        value: c.deck.id,
+                        child: Text(
+                          context.localize(c.deck.title),
+                          overflow: TextOverflow.ellipsis,
+                        ),
+                      ),
+                  ],
+                  onChanged: (id) {
+                    if (id != null) {
+                      _select(
+                        widget.collections.firstWhere((c) => c.deck.id == id),
+                      );
+                    }
+                  },
+                ),
+                const SizedBox(height: 16),
+                Container(
+                  padding: const EdgeInsets.all(20),
+                  decoration: BoxDecoration(
+                    color: Palette.lime,
+                    borderRadius: BorderRadius.circular(24),
+                  ),
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Text(
+                        context.localize(_deck.subtitle),
+                        style: const TextStyle(fontSize: 15),
+                      ),
+                      const SizedBox(height: 10),
+                      Text(
+                        context.strings.cardCount(_deck.cards.length),
+                        style: const TextStyle(fontSize: 12),
+                      ),
+                      if (_selection != null)
+                        Padding(
+                          padding: const EdgeInsets.only(top: 6),
+                          child: Text(
+                            _selection!.description(context.strings),
+                            style: const TextStyle(fontSize: 12),
+                          ),
+                        ),
+                      const SizedBox(height: 8),
+                      Wrap(
+                        spacing: 12,
+                        children: [
+                          TextButton.icon(
+                            key: const ValueKey('choose-category'),
+                            onPressed: _filter,
+                            icon: const Icon(Icons.tune_rounded, size: 18),
+                            label: Text(context.strings.filters),
+                          ),
+                          TextButton.icon(
+                            onPressed: () => showModalBottomSheet<void>(
+                              context: context,
+                              isScrollControlled: true,
+                              showDragHandle: true,
+                              useSafeArea: true,
+                              builder: (_) => VocabularySheet(
+                                deck: _deck,
+                                catalogCards: widget.collections
+                                    .expand((c) => c.deck.cards)
+                                    .toList(),
+                              ),
+                            ),
+                            icon: const Icon(
+                              Icons.arrow_outward_rounded,
+                              size: 18,
+                            ),
+                            label: Text(context.strings.browse),
+                          ),
+                          if (_selection != null)
+                            TextButton(
+                              onPressed: () =>
+                                  setState(() => _selection = null),
+                              child: Text(context.strings.clearFilters),
+                            ),
+                        ],
+                      ),
+                    ],
                   ),
                 ),
-                const SizedBox(height: 28),
-                Eyebrow(context.strings.choosePractice),
-                const SizedBox(height: 14),
-                _ModeTile(
-                  title: context.strings.flashcards,
-                  description: context.strings.flashcardsDescription,
-                  icon: Icons.style_outlined,
-                  learned: widget.progress.learned(_deck, StudyMode.flashcards),
-                  due: widget.progress
-                      .dueCards(_deck, StudyMode.flashcards)
-                      .length,
-                  total: _deck.cards.length,
-                  onTap: () => _start(StudyMode.flashcards),
+                const SizedBox(height: 20),
+                Text(
+                  context.strings.sessionSize,
+                  style: const TextStyle(color: Palette.muted, fontSize: 12),
                 ),
                 const SizedBox(height: 12),
-                _ModeTile(
-                  title: context.strings.hardMode,
-                  description: context.strings.hardDescription,
-                  icon: Icons.edit_outlined,
-                  hard: true,
-                  learned: widget.progress.learned(_deck, StudyMode.typing),
-                  due: widget.progress.dueCards(_deck, StudyMode.typing).length,
-                  total: _deck.cards.length,
-                  onTap: () => _start(StudyMode.typing),
-                ),
-                const SizedBox(height: 22),
-                Row(
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  children: [
-                    Icon(
-                      Icons.check_circle_outline_rounded,
-                      size: 14,
-                      color: Palette.muted,
-                    ),
-                    SizedBox(width: 7),
-                    Flexible(
-                      child: Text(
-                        widget.updates == null
-                            ? context.strings.offlineFooter
-                            : context.strings.browserFooter,
-                        textAlign: TextAlign.center,
-                        style: TextStyle(fontSize: 12, color: Palette.muted),
-                      ),
-                    ),
-                  ],
+                for (final mode in StudyMode.values) ...[
+                  _ModeTile(
+                    title: mode == StudyMode.typing
+                        ? context.strings.hardMode
+                        : context.strings.flashcards,
+                    description: mode == StudyMode.typing
+                        ? context.strings.hardDescription
+                        : context.strings.flashcardsDescription,
+                    icon: mode == StudyMode.typing
+                        ? Icons.edit_outlined
+                        : Icons.style_outlined,
+                    hard: mode == StudyMode.typing,
+                    learned: widget.progress.learned(_deck, mode),
+                    due: widget.progress.dueCards(_deck, mode).length,
+                    total: _deck.cards.length,
+                    onTap: _deck.cards.isEmpty ? null : () => _start(mode),
+                  ),
+                  const SizedBox(height: 12),
+                ],
+                const SizedBox(height: 8),
+                Text(
+                  widget.updates == null
+                      ? context.strings.offlineFooter
+                      : context.strings.browserFooter,
+                  textAlign: TextAlign.center,
+                  style: const TextStyle(fontSize: 12, color: Palette.muted),
                 ),
                 if (widget.updates != null)
                   TextButton.icon(
@@ -274,7 +323,7 @@ class _HomeScreenState extends State<HomeScreen> with WidgetsBindingObserver {
                         ),
                         actions: [
                           TextButton(
-                            onPressed: () => Navigator.of(context).pop(),
+                            onPressed: () => Navigator.pop(context),
                             child: Text(context.strings.close),
                           ),
                         ],
@@ -291,75 +340,6 @@ class _HomeScreenState extends State<HomeScreen> with WidgetsBindingObserver {
           ),
         ),
       ),
-    ),
-  );
-}
-
-class _DeckCover extends StatelessWidget {
-  const _DeckCover({required this.deck, required this.onBrowse});
-  final VocabularyDeck deck;
-  final VoidCallback onBrowse;
-
-  @override
-  Widget build(BuildContext context) => Container(
-    padding: const EdgeInsets.fromLTRB(24, 22, 24, 18),
-    decoration: BoxDecoration(
-      color: Palette.lime,
-      borderRadius: BorderRadius.circular(28),
-    ),
-    child: Column(
-      crossAxisAlignment: CrossAxisAlignment.start,
-      children: [
-        Row(
-          children: [
-            Expanded(
-              child: Eyebrow(context.strings.firstWords, color: Palette.ink),
-            ),
-            const SizedBox(width: 8),
-            Text(
-              context.strings.cardCount(deck.cards.length),
-              style: const TextStyle(fontSize: 12),
-            ),
-          ],
-        ),
-        const SizedBox(height: 12),
-        Text(
-          deck.cover,
-          style: TextStyle(
-            fontSize: deck.cover.length <= 5 ? 68 : 40,
-            height: 1.12,
-            fontWeight: FontWeight.w400,
-            letterSpacing: deck.cover.length <= 5 ? -3 : -1,
-          ),
-        ),
-        const SizedBox(height: 14),
-        Text(
-          context.localize(deck.title),
-          style: Theme.of(context).textTheme.titleLarge,
-        ),
-        const SizedBox(height: 2),
-        Row(
-          children: [
-            Expanded(
-              child: Text(
-                context.localize(deck.subtitle),
-                style: const TextStyle(fontSize: 13),
-              ),
-            ),
-            TextButton(
-              onPressed: onBrowse,
-              child: Row(
-                mainAxisSize: MainAxisSize.min,
-                children: [
-                  Text(context.strings.browse),
-                  SizedBox(width: 4),
-                  Icon(Icons.arrow_outward_rounded, size: 17),
-                ],
-              ),
-            ),
-          ],
-        ),
-      ],
     ),
   );
 }
@@ -381,7 +361,7 @@ class _ModeTile extends StatelessWidget {
   final int learned;
   final int due;
   final int total;
-  final VoidCallback onTap;
+  final VoidCallback? onTap;
   final bool hard;
 
   @override

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 
-import 'data/greek_decks.dart';
+import 'data/learning_curriculum.dart';
 import 'data/app_updates.dart';
 import 'data/language_store.dart';
 import 'data/progress_store.dart';
@@ -44,7 +44,7 @@ class _GreekAnkiAppState extends State<GreekAnkiApp> {
     final language = await _languageStore.read();
     if (!mounted) return;
     setState(() => _language = language);
-    await _progress.load(greekDecks);
+    await _progress.load(learningDecks);
   }
 
   Future<void> _changeLanguage(AppLanguage language) async {
@@ -102,7 +102,7 @@ class _GreekAnkiAppState extends State<GreekAnkiApp> {
           );
         }
         return HomeScreen(
-          decks: greekDecks,
+          collections: learningCollections,
           progress: _progress,
           onLanguageChanged: _changeLanguage,
           updates: _updates,

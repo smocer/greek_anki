@@ -1,82 +1,41 @@
 import 'package:flutter/material.dart';
+import '../domain/curriculum.dart';
 import '../domain/vocabulary.dart';
 import '../domain/vocabulary_category.dart';
-import '../domain/greek_text.dart';
 import 'app_strings.dart';
-import 'theme.dart';
 import 'vocabulary_preview.dart';
 
+class CollectionSelection {
+  const CollectionSelection({required this.deck, this.theme, this.query = ''});
+  final VocabularyDeck deck;
+  final LearningTheme? theme;
+  final String query;
+  String description(AppStrings strings) => [
+    strings.periodTitle(deck.period),
+    if (theme != null) strings.text(theme!.title),
+    if (query.isNotEmpty) '“$query”',
+  ].join(' · ');
+}
+
 class TopicPicker extends StatefulWidget {
-  const TopicPicker({
-    super.key,
-    required this.decks,
-    required this.selectedId,
-    this.selectedLabel = VocabularyLabel.topic,
-    this.selectedPeriod = VocabularyPeriod.all,
-  });
-  final List<VocabularyDeck> decks;
-  final String selectedId;
-  final VocabularyLabel selectedLabel;
-  final VocabularyPeriod selectedPeriod;
+  const TopicPicker({super.key, required this.collection, this.selection});
+  final LearningCollection collection;
+  final CollectionSelection? selection;
   @override
   State<TopicPicker> createState() => _TopicPickerState();
 }
 
 class _TopicPickerState extends State<TopicPicker> {
-  late VocabularyLabel _label = widget.selectedLabel;
-  late VocabularyPeriod _period = widget.selectedPeriod;
-  late String _topicId =
-      widget.decks.any((deck) => deck.id == widget.selectedId)
-      ? widget.selectedId
-      : widget.decks.first.id;
-  final _search = TextEditingController();
-  String _query = '';
+  late VocabularyPeriod _period =
+      widget.selection?.deck.period ?? VocabularyPeriod.all;
+  late LearningTheme? _theme = widget.selection?.theme;
+  late final _search = TextEditingController(
+    text: widget.selection?.query ?? '',
+  );
   @override
   void dispose() {
     _search.dispose();
     super.dispose();
-  }
-
-  VocabularyDeck get _chosen => _label == VocabularyLabel.topic
-      ? widget.decks.firstWhere((deck) => deck.id == _topicId)
-      : VocabularyCatalog(widget.decks).category(_label);
-
-  bool _matches(VocabularyCard card) {
-    final terms = GreekText.searchKey(
-      [
-        card.prompt.en,
-        card.prompt.ru,
-        card.greek,
-        card.meaning.en,
-        card.meaning.ru,
-        ...card.alternatives,
-      ].join(' '),
-    );
-    return GreekText.searchKey(
-      _query,
-    ).split(RegExp(r'\s+')).every(terms.contains);
-  }
-
-  void _clearSearch() {
-    _query = '';
-    _search.clear();
-  }
-
-  bool _matchesWord(VocabularyWordEntry entry) {
-    final terms = GreekText.searchKey(
-      [
-        entry.word.surface,
-        entry.word.lemma,
-        for (final card in entry.sources) ...[
-          card.greek,
-          card.prompt.en,
-          card.prompt.ru,
-        ],
-      ].join(' '),
-    );
-    return GreekText.searchKey(
-      _query,
-    ).split(RegExp(r'\s+')).every(terms.contains);
   }
 
   @override
@@ -86,27 +45,12 @@ class _TopicPickerState extends State<TopicPicker> {
     minChildSize: .5,
     maxChildSize: .95,
     builder: (context, controller) {
-      final chosen = _chosen;
-      final catalog = VocabularyCatalog(widget.decks);
-      final now = DateTime.now();
-      final words = _label == VocabularyLabel.topic
-          ? null
-          : catalog
-                .words(_label)
-                .where(
-                  (word) =>
-                      _matchesWord(word) &&
-                      _period.includes(word.addedWeek, now),
-                )
-                .toList();
-      final visible = words == null
-          ? newestFirst(
-              chosen.cards.where(
-                (card) =>
-                    _matches(card) && _period.includes(card.addedWeek, now),
-              ),
-            )
-          : sourceCardsFor(words);
+      final deck = widget.collection.filter(
+        period: _period,
+        theme: _theme,
+        query: _search.text,
+        now: DateTime.now(),
+      );
       return Padding(
         padding: EdgeInsets.fromLTRB(
           24,
@@ -118,74 +62,40 @@ class _TopicPickerState extends State<TopicPicker> {
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
             Text(
-              context.strings.chooseCategory,
+              context.localize(deck.title),
               style: Theme.of(context).textTheme.headlineMedium,
             ),
             const SizedBox(height: 14),
             Expanded(
               child: VocabularyPreview(
-                cards: visible,
-                words: words,
-                weeks: words == null ? catalog.weeks : catalog.wordWeeks,
+                cards: deck.cards,
                 controller: controller,
+                weeks: additionWeeks(widget.collection.deck.cards),
                 header: Column(
                   crossAxisAlignment: CrossAxisAlignment.stretch,
                   children: [
-                    DropdownButtonFormField<VocabularyLabel>(
-                      key: const ValueKey('category-label'),
-                      initialValue: _label,
+                    DropdownButtonFormField<LearningTheme?>(
+                      key: const ValueKey('collection-theme'),
+                      initialValue: _theme,
                       isExpanded: true,
                       decoration: InputDecoration(
-                        labelText: context.strings.chooseLabel,
+                        labelText: context.strings.themeFilter,
                       ),
                       items: [
-                        for (final label in VocabularyLabel.values)
+                        DropdownMenuItem(
+                          value: null,
+                          child: Text(context.strings.allThemes),
+                        ),
+                        for (final theme in LearningTheme.values.where(
+                          widget.collection.availableThemes.contains,
+                        ))
                           DropdownMenuItem(
-                            value: label,
-                            child: Text(
-                              context.localize(labelTitle(label)),
-                              overflow: TextOverflow.ellipsis,
-                            ),
+                            value: theme,
+                            child: Text(context.localize(theme.title)),
                           ),
                       ],
-                      onChanged: (label) {
-                        if (label != null) {
-                          setState(() {
-                            _label = label;
-                            _clearSearch();
-                          });
-                        }
-                      },
+                      onChanged: (theme) => setState(() => _theme = theme),
                     ),
-                    if (_label == VocabularyLabel.topic) ...[
-                      const SizedBox(height: 12),
-                      DropdownButtonFormField<String>(
-                        key: const ValueKey('category-topic'),
-                        initialValue: _topicId,
-                        isExpanded: true,
-                        decoration: InputDecoration(
-                          labelText: context.strings.chooseTopicLabel,
-                        ),
-                        items: [
-                          for (final deck in widget.decks)
-                            DropdownMenuItem(
-                              value: deck.id,
-                              child: Text(
-                                context.localize(deck.title),
-                                overflow: TextOverflow.ellipsis,
-                              ),
-                            ),
-                        ],
-                        onChanged: (id) {
-                          if (id != null) {
-                            setState(() {
-                              _topicId = id;
-                              _clearSearch();
-                            });
-                          }
-                        },
-                      ),
-                    ],
                     const SizedBox(height: 12),
                     DropdownButtonFormField<VocabularyPeriod>(
                       key: const ValueKey('category-period'),
@@ -213,24 +123,10 @@ class _TopicPickerState extends State<TopicPicker> {
                         hintText: context.strings.searchVocabulary,
                         prefixIcon: const Icon(Icons.search_rounded),
                       ),
-                      onChanged: (query) =>
-                          setState(() => _query = query.trim()),
+                      onChanged: (_) => setState(() {}),
                     ),
                     const SizedBox(height: 14),
-                    Text(
-                      '${context.strings.vocabularyPreview} · ${words == null ? context.strings.cardCount(visible.length) : context.strings.wordCount(words.length)}',
-                      style: Theme.of(context).textTheme.titleMedium,
-                    ),
-                    const SizedBox(height: 5),
-                    Text(
-                      words == null
-                          ? context.strings.categoryHint
-                          : context.strings.wordCategoryHint(visible.length),
-                      style: const TextStyle(
-                        fontSize: 12,
-                        color: Palette.muted,
-                      ),
-                    ),
+                    Text(context.strings.cardCount(deck.cards.length)),
                     const SizedBox(height: 8),
                     const AdditionLegend(),
                   ],
@@ -240,21 +136,17 @@ class _TopicPickerState extends State<TopicPicker> {
             const SizedBox(height: 8),
             FilledButton(
               key: const ValueKey('use-category'),
-              onPressed: visible.isEmpty
+              onPressed: deck.cards.isEmpty
                   ? null
                   : () => Navigator.pop(
                       context,
-                      VocabularyDeck(
-                        id: chosen.id,
-                        title: chosen.title,
-                        subtitle: chosen.subtitle,
-                        cover: chosen.cover,
-                        note: chosen.note,
-                        period: _period,
-                        cards: visible,
+                      CollectionSelection(
+                        deck: deck,
+                        theme: _theme,
+                        query: _search.text,
                       ),
                     ),
-              child: Text(context.strings.useCategory),
+              child: Text(context.strings.applyFilters),
             ),
           ],
         ),

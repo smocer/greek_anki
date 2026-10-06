@@ -53,6 +53,10 @@ void main() {
     await tester.pumpAndSettle();
     expect(find.text('Flashcards'), findsOneWidget);
     expect(find.text('Hard mode'), findsOneWidget);
+    await tester.tap(find.byKey(const ValueKey('collection-words')));
+    await tester.pumpAndSettle();
+    await tester.tap(find.text('Numbers').last);
+    await tester.pumpAndSettle();
     await tester.tap(find.text('Browse'));
     await tester.pumpAndSettle();
     expect(find.text('μηδέν'), findsOneWidget);

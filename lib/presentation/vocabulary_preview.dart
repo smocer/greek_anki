@@ -119,7 +119,7 @@ class VocabularyPreview extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Text(
-                    entry?.word.surface ?? card.greek,
+                    entry?.word.surface ?? card.displayedAnswer,
                     style: TextStyle(
                       color: color,
                       fontSize: 21,

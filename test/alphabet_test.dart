@@ -141,6 +141,8 @@ void main() {
         ),
       );
       await tester.pumpAndSettle();
+      await tester.tap(find.text('Reference'));
+      await tester.pumpAndSettle();
       await tester.tap(find.text('Alphabets'));
       await tester.pumpAndSettle();
       expect(find.byType(AlphabetScreen), findsOneWidget);

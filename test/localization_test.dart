@@ -103,12 +103,16 @@ void main() {
       GreekAnkiApp(store: store, languageStore: language),
     );
     await tester.pumpAndSettle();
-    expect(find.text('Greek,\nby heart.'), findsOneWidget);
+    expect(find.text('Greek, by heart.'), findsOneWidget);
     await tester.tap(find.text('Русский'));
     await tester.pumpAndSettle();
-    expect(find.text('Греческий\nнаизусть.'), findsOneWidget);
+    expect(find.text('Греческий наизусть.'), findsOneWidget);
     expect(find.text('Карточки'), findsOneWidget);
-    expect(find.text('Повторить: 10 · Выучено: 1/11'), findsOneWidget);
+    await tester.tap(find.byKey(const ValueKey('collection-words')));
+    await tester.pumpAndSettle();
+    await tester.tap(find.text('Числа').last);
+    await tester.pumpAndSettle();
+    expect(find.text('Повторить: 45 · Выучено: 1/46'), findsOneWidget);
     expect(language.language, AppLanguage.russian);
     expect(store.records, records);
 
@@ -117,7 +121,11 @@ void main() {
       GreekAnkiApp(store: store, languageStore: language),
     );
     await tester.pumpAndSettle();
-    expect(find.text('Греческий\nнаизусть.'), findsOneWidget);
+    expect(find.text('Греческий наизусть.'), findsOneWidget);
+    await tester.tap(find.byKey(const ValueKey('collection-words')));
+    await tester.pumpAndSettle();
+    await tester.tap(find.text('Числа').last);
+    await tester.pumpAndSettle();
     await tester.tap(find.text('Все слова'));
     await tester.pumpAndSettle();
     expect(find.text('ми-ДЭН'), findsOneWidget);
@@ -195,12 +203,12 @@ void main() {
       find.text('Could not save the language. Please try again.'),
       findsOneWidget,
     );
-    expect(find.text('Greek,\nby heart.'), findsOneWidget);
+    expect(find.text('Greek, by heart.'), findsOneWidget);
     expect(language.language, AppLanguage.english);
     language.shouldFail = false;
     await tester.tap(find.text('Русский'));
     await tester.pumpAndSettle();
-    expect(find.text('Греческий\nнаизусть.'), findsOneWidget);
+    expect(find.text('Греческий наизусть.'), findsOneWidget);
   });
 
   testWidgets('Russian main menu remains usable on a narrow screen', (

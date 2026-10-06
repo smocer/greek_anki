@@ -98,7 +98,7 @@ class VocabularySheet extends StatelessWidget {
                       ),
                       const SizedBox(height: 8),
                       Text(
-                        card.greek,
+                        card.displayedAnswer,
                         style: TextStyle(
                           color: additionColor(
                             card.addedWeek,

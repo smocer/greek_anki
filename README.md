@@ -2,44 +2,41 @@
 
 **[Open Greek Anki](https://smocer.github.io/greek_anki/)**
 
-Learn modern Greek with **572 topic cards across 41 beginner topics**, English and Russian explanations, and two practice modes. Cards shared between topics retain the same learning progress.
+Learn modern Greek with English and Russian explanations. Works in a browser on iPhone, iPad, Android and desktop, without an account or subscription. Add the link to your home screen for a convenient shortcut.
 
-Works in a browser on iPhone, iPad, Android, and desktop. No account or subscription is needed. Open the link in Safari or Chrome and add it to your home screen for a convenient shortcut.
+## Choose what to learn
+
+- **Words:** nouns, verbs, pronouns, adjectives/adverbs, connecting words/prepositions and numbers. Practise individual meanings and spellings. Nouns use their base form; their article is optional in your answer and visible when you reveal it. Verbs use the first-person present.
+- **Phrases:** social conversations, classroom language and everyday situations, including phone conversations.
+- **Grammar:** articles/gender, noun forms/cases, verb forms, location/origin, possession and questions/negation. Practise using familiar vocabulary in different grammatical roles.
+- **Reference:** the alphabet, handwriting, sounds and grammar tables.
+
+Choose **Filters** to narrow a group by theme, addition week or an English, Russian or Greek search. Weekly additions join the existing groups. Search accepts Greek without accents. **Browse / Все слова** shows answers, pronunciation guides and explanations without quizzing you.
 
 ## Practice
 
-- **English / Русский:** switch the learning language from the main menu. Interface text, meanings, and pronunciation guides change together. Your language choice is saved; learning progress is shared across languages.
-- **Flashcards:** recall the Greek word, phrase, or grammatical form, reveal the answer and pronunciation, then choose **Again** or **Got it**.
-- **Hard mode:** type the answer using the built-in Greek keyboard or your device keyboard. The built-in keyboard includes stressed vowels: ά, έ, ή, ί, ό, ύ, ώ.
-- **Browse / Все слова:** read a topic's vocabulary, pronunciation guides, accepted variants, and grammar explanations.
-- **Choose a category → Choose a label:** select Topic for the 41 topics, or browse words by noun, verb, adjective, adverb, pronoun, article, preposition, conjunction, numeral, or interjection. Words are shown with source examples and translations. Search matching words before choosing a category; practice uses their original source cards. Stress marks are optional in search.
-- Words are ordered by their addition week, newest first. Green marks the latest recorded addition week, yellow the previous recorded addition week, and black earlier or undated entries. Every addition in a Monday–Sunday week shares one timestamp. See [Vocabulary categories and weeks](docs/vocabulary_metadata.md).
+**Flashcards:** recall the Greek answer, reveal it, then choose **Again** or **Got it**.
 
-In hard mode, stress marks must be in the correct positions. Missing, misplaced, or extra stress is incorrect. Articles, word boundaries, and grammatical endings matter. Capitalization and sentence punctuation are optional. Use Greek letters, not Latin transliterations.
+**Hard mode:** type using the built-in Greek keyboard or your device keyboard. Grammar prompts are entirely in English or Russian: translate the complete phrase. Greek answers and explanations appear only after checking. There are no Greek sentence hints or fill-in-the-blank prompts.
 
-Standard alternative spellings are accepted, including **εφτά / επτά**, **οκτώ / οχτώ**, and **εννέα / εννιά**. For 7, **εφτά** is shown first.
+Correct stress is required. Missing, misplaced or extra accents are incorrect. Capitalization and sentence punctuation are optional. Articles are optional for noun vocabulary; grammatical endings and articles remain part of phrase and grammar answers. Standard listed alternatives such as **εφτά / επτά**, **οκτώ / οχτώ** and **εννέα / εννιά** are accepted. The default for 7 is **εφτά**.
 
-Missed cards return after two other cards when possible. A session ends when every selected card has been recalled correctly. Grammar explanations appear after you reveal or check an answer.
+Sessions contain up to **15 cards**, sampled from due and new cards first. If none are due, you can practise a fresh sample from the group. Missed cards return after two other cards when possible. A session ends when its batch has been recalled correctly; another round selects a new batch.
 
-## Topics and explanations
+**English / Русский** switches the interface, translations, explanations and pronunciation guides together. Russian explanations compare familiar cases, ты/Вы, grammatical gender and word roots with their Greek counterparts. Pronunciation guides are approximate aids.
 
-Practice numbers, introductions, greetings, countries, residence, addresses, phone conversations, classroom language, neighbours, pets, transport, shops, culture, nature, and basic grammar. Learn 20 everyday verbs in their “I” forms. A separate six-person drill uses μένω, διαβάζω, and καταλαβαίνω. Είμαι, λέγομαι, and τραγουδώ have their own grammar topics. Sentence examples appear alongside the relevant vocabulary.
+## Progress
 
-Focused drills practise noun gender with ο / η / το, location with στον / στην / στο, origin with από, and direct objects with βλέπω. In the gender drill, complete the given Greek noun with its article and type both words.
+Flashcards and hard mode have separate review histories. Equivalent exercises retain their progress when regrouped. Learning a standalone word is tracked separately from using it in a grammar exercise. Previous article-required noun exercises do not automatically count as mastery of the new word-only cards; their saved records remain intact.
 
-**Everyday nouns / Повседневные существительные** brings together 63 nouns for people, classroom objects, food, transport and places, including 31 new words. Nine additional cards practise cases and plurals with ο μαθητής, η τσάντα and το πρόβλημα. Existing words share progress with their original topics.
+Successful due reviews are spaced by 1, 3, 7, 14, then 30 days. Forgetting a card resets its schedule. Practising early does not extend it.
 
-Russian explanations use familiar comparisons such as ты/Вы, cases, gender, possession, and shared word roots, while explaining differences between the languages. Pronunciation guides are approximate aids; use the Greek spelling as your reference.
-
-- [Topics and learning guide](docs/curriculum.md)
-- [Grammar notes and references](docs/grammar.md)
-
-## Progress and reviews
-
-Each practice mode has its own progress. The same card shares its review history wherever it appears. Due and new cards come first; when none are due, you can practice the whole topic again. Successful due reviews are spaced by 1, 3, 7, 14, then 30 days. Forgetting a card resets its schedule. Practicing early does not extend it.
-
-Progress is saved in the current browser or native app. It survives ordinary app updates, but does not sync between devices or browsers, and does not transfer automatically from the Android app to the website. Clearing the browser's website data or the native app's data removes that progress. Use the same browser or home-screen shortcut each time.
+Progress is saved in the current browser or native app. It survives ordinary updates, but does not sync across devices or browsers. Clearing website or app data removes it. Use the same browser or home-screen shortcut each time.
 
 The website needs internet to open or update. When an update is available, the main menu offers **Refresh app**. Practice sessions are never refreshed automatically. The native Android app also works offline.
+
+- [Learning guide](docs/curriculum.md)
+- [Vocabulary filters and weeks](docs/vocabulary_metadata.md)
+- [Grammar notes and references](docs/grammar.md)
 
 Greek Anki is an independent Anki-style learning app. It does not import Anki packages or sync with AnkiWeb.

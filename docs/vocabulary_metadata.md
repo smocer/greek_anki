@@ -1,19 +1,19 @@
-# Vocabulary categories and weeks
+# Vocabulary filters and weeks
 
-Choose **Topic** to study one of the 41 themed collections, or choose a word class such as Noun or Verb to explore vocabulary across topics.
+Start with **Words**, **Phrases** or **Grammar**, then choose a group. Use **Filters** to narrow the selection by theme, addition week or search text. The preview shows the actual cards that will be practised.
 
-Word categories show individual word forms with an example and its translation. For example, Κάνω την άσκηση. contains a verb, an article and a noun. Different forms of a word can appear separately. The translation belongs to the whole example, so it is not always a definition of the highlighted word alone.
-
-Practice uses the original cards containing the selected words. The same card keeps its review history wherever it appears. There are 537 distinct practice cards across 572 topic entries; familiar words in Everyday nouns share progress with their original topics.
+Word groups teach individual meanings, rather than asking you to translate the sentence where a word appeared. Verbs use their first-person present and nouns use their base form. Their inflected forms appear in grammar practice.
 
 ## Addition weeks
 
-Words and cards are grouped into Monday–Sunday addition weeks. You can choose This week, Last week, Earlier or All words. These filters refer to when vocabulary was added to the app, rather than when a lesson took place.
+Cards are grouped into Monday–Sunday addition weeks. Choose This week, Last week, Earlier or All weeks. These refer to when a learning item was added to the app, rather than the date a class took place.
 
-The latest recorded addition week is green, the previous recorded week is yellow, and older or undated entries are black. Colours are relative to the whole collection, so changing a filter does not change a week's colour. A week remains the latest recorded week until another batch is added in a later week.
+Moving an existing card into a larger group retains its addition week. New sentences have their own addition date, even when they use familiar words. New words join the existing vocabulary groups rather than creating another topic.
 
-Reusing a card in another topic does not change its addition week. A familiar word appearing in a new sentence also keeps its first recorded addition week. Thus a topic can contain both old and new vocabulary.
+The latest recorded week is green, the previous recorded week is yellow and earlier or undated entries are black. Within a group's filter preview, colours are relative to the unfiltered group.
 
 ## Search and practice
 
-Search accepts Greek without stress marks as well as words in English or Russian translations. Hard-mode answers still require the correct Greek spelling, stress, article and endings. Search matching does not relax the answer rules.
+Search accepts Greek without accents and words from English or Russian translations. Search does not relax hard-mode spelling rules. Noun vocabulary permits omitting the article; phrase and grammar exercises still require their articles and endings.
+
+Applying filters changes the practice pool. Each session samples up to 15 cards, prioritising cards due for review and new cards. Starting another round selects another batch. Matching exercises keep their existing progress, while word meaning and grammatical use are separate learning tasks.

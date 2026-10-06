@@ -62,9 +62,7 @@ void main() {
       }
     }
   });
-  testWidgets('home grammar button sits beside alphabet and opens be table', (
-    tester,
-  ) async {
+  testWidgets('reference opens the grammar tables', (tester) async {
     tester.view.physicalSize = const Size(360, 900);
     tester.view.devicePixelRatio = 1;
     addTearDown(tester.view.resetPhysicalSize);
@@ -76,17 +74,10 @@ void main() {
       ),
     );
     await tester.pumpAndSettle();
-    final alphabet = tester.getRect(
-      find.widgetWithText(OutlinedButton, 'Alphabets'),
-    );
-    final grammar = tester.getRect(
-      find.widgetWithText(OutlinedButton, 'Grammar'),
-    );
-    expect(grammar.left, alphabet.left);
-    expect(grammar.top, greaterThan(alphabet.bottom));
-    final headline = tester.getRect(find.text('Greek,\nby heart.'));
-    expect(alphabet.left, greaterThan(headline.right));
-    await tester.tap(find.text('Grammar'));
+    await tester.tap(find.text('Reference'));
+    await tester.pumpAndSettle();
+    expect(find.text('Alphabets'), findsOneWidget);
+    await tester.tap(find.text('Grammar tables'));
     await tester.pumpAndSettle();
     expect(find.byType(GrammarScreen), findsOneWidget);
     await tester.tap(find.text('Be · είμαι'));

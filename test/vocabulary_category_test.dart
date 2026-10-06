@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:greek_anki/app.dart';
 import 'package:greek_anki/data/greek_decks.dart';
+import 'package:greek_anki/data/learning_curriculum.dart';
+import 'package:greek_anki/domain/curriculum.dart';
 import 'package:greek_anki/domain/app_language.dart';
 import 'package:greek_anki/domain/vocabulary.dart';
 import 'package:greek_anki/domain/vocabulary_category.dart';
@@ -43,18 +45,22 @@ void main() {
         sample('older', older),
       ],
     );
-    VocabularyDeck? selected;
+    CollectionSelection? selected;
     await tester.pumpWidget(
       MaterialApp(
         home: Scaffold(
           body: Builder(
             builder: (context) => TextButton(
               onPressed: () async {
-                selected = await showModalBottomSheet<VocabularyDeck>(
+                selected = await showModalBottomSheet<CollectionSelection>(
                   context: context,
                   isScrollControlled: true,
-                  builder: (_) =>
-                      TopicPicker(decks: [deck], selectedId: deck.id),
+                  builder: (_) => TopicPicker(
+                    collection: LearningCollection(
+                      section: LearningSection.words,
+                      deck: deck,
+                    ),
+                  ),
                 );
               },
               child: const Text('Open'),
@@ -89,7 +95,7 @@ void main() {
           .map((card) => card.id),
       ['older'],
     );
-    await select('All words');
+    await select('All weeks');
     expect(
       tester
           .widget<VocabularyPreview>(find.byType(VocabularyPreview))
@@ -100,8 +106,8 @@ void main() {
     await select('Last week');
     await tester.tap(find.byKey(const ValueKey('use-category')));
     await tester.pumpAndSettle();
-    expect(selected!.cards.single.id, 'previous');
-    expect(selected!.period, VocabularyPeriod.lastWeek);
+    expect(selected!.deck.cards.single.id, 'previous');
+    expect(selected!.deck.period, VocabularyPeriod.lastWeek);
     expect(tester.takeException(), isNull);
   });
   test('period filters use calendar weeks including month boundaries', () {
@@ -310,10 +316,7 @@ void main() {
       await tester.ensureVisible(find.byKey(const ValueKey('choose-category')));
       await tester.tap(find.byKey(const ValueKey('choose-category')));
       await tester.pumpAndSettle();
-      await tester.tap(find.byKey(const ValueKey('category-label')));
-      await tester.pumpAndSettle();
-      await tester.tap(find.text('Noun').last);
-      await tester.pumpAndSettle();
+
       expect(find.byKey(const ValueKey('category-topic')), findsNothing);
       await tester.enterText(
         find.byKey(const ValueKey('topic-search')),
@@ -324,13 +327,7 @@ void main() {
         find.byType(VocabularyPreview),
       );
       expect(preview.cards, isNotEmpty);
-      expect(preview.words, isNotEmpty);
-      expect(
-        preview.words!.every(
-          (entry) => entry.word.labels.contains(VocabularyLabel.noun),
-        ),
-        isTrue,
-      );
+      expect(preview.words, isNull);
       expect(
         preview.cards.every(
           (card) => card.labels.contains(VocabularyLabel.noun),
@@ -342,7 +339,7 @@ void main() {
       expect(find.byType(TopicPicker), findsNothing);
       final home = tester.state(find.byType(HomeScreen));
       expect(home.mounted, isTrue);
-      expect(find.text('Noun'), findsOneWidget);
+      expect(find.text('Nouns'), findsOneWidget);
       expect(tester.takeException(), isNull);
     },
   );
@@ -362,14 +359,12 @@ void main() {
           home: Scaffold(
             body: Builder(
               builder: (context) => FilledButton(
-                onPressed: () => showModalBottomSheet<VocabularyDeck>(
+                onPressed: () => showModalBottomSheet<CollectionSelection>(
                   context: context,
                   isScrollControlled: true,
                   useSafeArea: true,
-                  builder: (_) => TopicPicker(
-                    decks: greekDecks,
-                    selectedId: greekDecks.first.id,
-                  ),
+                  builder: (_) =>
+                      TopicPicker(collection: learningCollections.first),
                 ),
                 child: const Text('Open'),
               ),
@@ -379,7 +374,7 @@ void main() {
       );
       await tester.tap(find.text('Open'));
       await tester.pumpAndSettle();
-      expect(find.byKey(const ValueKey('category-label')), findsOneWidget);
+      expect(find.byKey(const ValueKey('collection-theme')), findsOneWidget);
       expect(tester.takeException(), isNull);
     },
   );

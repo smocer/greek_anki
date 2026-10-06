@@ -40,7 +40,7 @@ void main() {
       ),
     );
     await tester.pumpAndSettle();
-    await tapVisible(tester, 'Выбрать категорию');
+    await tapVisible(tester, 'Фильтры');
     expect(find.byType(TopicPicker), findsOneWidget);
     await tester.enterText(
       find.byKey(const ValueKey('topic-search')),
@@ -48,40 +48,29 @@ void main() {
     );
     await tester.pumpAndSettle();
     expect(find.text('В этой категории нет подходящих слов'), findsOneWidget);
-    await tester.tap(find.byKey(const ValueKey('category-topic')));
-    await tester.pumpAndSettle();
-    await tester.scrollUntilVisible(
-      find.text('Откуда вы?'),
-      240,
-      scrollable: find.byType(Scrollable).last,
+    await tester.enterText(
+      find.byKey(const ValueKey('topic-search')),
+      'карандаш',
     );
-    await tester.tap(find.text('Откуда вы?'));
     await tester.pumpAndSettle();
     await tester.tap(find.byKey(const ValueKey('use-category')));
     await tester.pumpAndSettle();
     expect(find.byType(TopicPicker), findsNothing);
-    expect(find.text('Откуда вы?'), findsOneWidget);
     await tapVisible(tester, 'Все слова');
-    await tester.scrollUntilVisible(
-      find.text('από τη Ρωσία'),
-      240,
-      scrollable: find.byType(Scrollable).last,
-    );
-    final origin = greekDecks.firstWhere((d) => d.id == 'origin');
-    final card = origin.cards.firstWhere((c) => c.id == 'from-russia');
-    expect(find.text(card.explanation!.ru), findsOneWidget);
-    Navigator.of(tester.element(find.text('από τη Ρωσία'))).pop();
+    expect(find.text('το μολύβι'), findsOneWidget);
+    Navigator.of(tester.element(find.text('το μολύβι'))).pop();
     await tester.pumpAndSettle();
     await tester.scrollUntilVisible(
       find.text('English'),
-      -240,
+      -200,
       scrollable: find.byType(Scrollable).first,
     );
     await tapVisible(tester, 'English');
-    expect(find.text('Where are you from?'), findsOneWidget);
+    expect(find.text('Nouns'), findsOneWidget);
     await tapVisible(tester, 'Hard mode');
     expect(find.byType(StudyScreen), findsOneWidget);
-    expect(find.text('Where are you from?'), findsOneWidget);
+    expect(find.text('Pencil'), findsOneWidget);
+    expect(find.text('το μολύβι'), findsNothing);
     expect(find.byType(CardExplanation), findsNothing);
     expect(tester.takeException(), isNull);
   });
