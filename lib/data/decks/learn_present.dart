@@ -84,7 +84,7 @@ const learnPresentDeck = VocabularyDeck(
       id: 'you-plural',
       prompt: LocalizedText(
         en: 'You (polite/plural) learn',
-        ru: 'Вы / вы учитесь / осваиваете',
+        ru: 'Вы учитесь / осваиваете',
       ),
       meaning: LocalizedText(
         en: 'Translate into Greek.',

@@ -80,10 +80,7 @@ const drinkPresentDeck = VocabularyDeck(
     ),
     VocabularyCard(
       id: 'you-plural',
-      prompt: LocalizedText(
-        en: 'You (polite/plural) drink',
-        ru: 'Вы / вы пьёте',
-      ),
+      prompt: LocalizedText(en: 'You (polite/plural) drink', ru: 'Вы пьёте'),
       meaning: LocalizedText(
         en: 'Present tense; subject pronouns are optional.',
         ru: 'Настоящее время; личные местоимения необязательны.',

@@ -3,14 +3,14 @@ import '../../domain/vocabulary.dart';
 
 const possessionDeck = VocabularyDeck(
   id: 'possession',
-  title: LocalizedText(en: 'Whose is it?', ru: 'Чей? Чья? Чьё?'),
+  title: LocalizedText(en: 'Whose is it?', ru: 'Чей?'),
   subtitle: LocalizedText(
     en: 'My, your, his, her, our, their',
     ru: 'Мой, твой, его, её, наш, ваш, их',
   ),
   note: LocalizedText(
     en: 'These short possessives follow the noun. Μου itself does not change for the gender of the owned thing.',
-    ru: 'Краткое притяжательное местоимение стоит после существительного. Μου соответствует мой/моя/моё/мои, но само по родам не меняется.',
+    ru: 'Краткое притяжательное местоимение стоит после существительного. Μου — «мой»; форма не меняется по роду или числу предмета.',
   ),
   cover: 'Μου',
   cards: [
@@ -38,7 +38,7 @@ const possessionDeck = VocabularyDeck(
       pronunciation: LocalizedText(en: 'to viv-LI-o su', ru: 'то вив-ЛИ-о су'),
       explanation: LocalizedText(
         en: 'Σου is the informal singular possessive.',
-        ru: 'Σου = твой/твоя/твоё. Та же форма видна в γεια σου, но значение зависит от конструкции.',
+        ru: 'Σου — «твой»; форма не меняется по роду или числу предмета. Та же форма видна в γεια σου, но значение зависит от конструкции.',
       ),
       greek: 'το βιβλίο σου',
     ),
@@ -86,16 +86,13 @@ const possessionDeck = VocabularyDeck(
       ),
       explanation: LocalizedText(
         en: 'Μας is our regardless of the noun’s gender.',
-        ru: 'Μας — наш/наша/наше/наши; не согласуется по роду, в отличие от русского «наш».',
+        ru: 'Μας — «наш»; форма не меняется по роду или числу предмета.',
       ),
       greek: 'το βιβλίο μας',
     ),
     VocabularyCard(
       id: 'your-book-polite',
-      prompt: LocalizedText(
-        en: 'Your book (polite/plural)',
-        ru: 'Ваша / ваша книга',
-      ),
+      prompt: LocalizedText(en: 'Your book (polite/plural)', ru: 'Ваша книга'),
       meaning: LocalizedText(
         en: 'Include the article and the possessive.',
         ru: 'С артиклем и притяжательным местоимением.',
@@ -157,10 +154,7 @@ const possessionDeck = VocabularyDeck(
     ),
     VocabularyCard(
       id: 'your-name-polite',
-      prompt: LocalizedText(
-        en: 'Your name (polite/plural)',
-        ru: 'Ваше / ваше имя',
-      ),
+      prompt: LocalizedText(en: 'Your name (polite/plural)', ru: 'Ваше имя'),
       meaning: LocalizedText(
         en: 'Include the article and the possessive.',
         ru: 'С артиклем и притяжательным местоимением.',

@@ -35,7 +35,7 @@ const introductionsDeck = VocabularyDeck(
       id: 'ask-name-polite',
       prompt: LocalizedText(
         en: 'What is your name? (polite/plural)',
-        ru: 'Как Вас / вас зовут?',
+        ru: 'Как Вас зовут?',
       ),
       meaning: LocalizedText(
         en: 'Translate into Greek.',
@@ -143,7 +143,7 @@ const introductionsDeck = VocabularyDeck(
       id: 'you-name-polite',
       prompt: LocalizedText(
         en: 'And your name? (one word, polite/plural)',
-        ru: 'А Вас / вас? (одно слово)',
+        ru: 'А Вас? (одно слово)',
       ),
       meaning: LocalizedText(
         en: 'Translate into Greek.',

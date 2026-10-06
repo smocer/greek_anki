@@ -76,10 +76,7 @@ const havePresentDeck = VocabularyDeck(
     ),
     VocabularyCard(
       id: 'you-plural',
-      prompt: LocalizedText(
-        en: 'You (polite/plural) have',
-        ru: 'У Вас / у вас есть',
-      ),
+      prompt: LocalizedText(en: 'You (polite/plural) have', ru: 'У Вас есть'),
       meaning: LocalizedText(
         en: 'Translate into Greek.',
         ru: 'Переведите на греческий.',

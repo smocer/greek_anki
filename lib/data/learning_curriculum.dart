@@ -637,7 +637,7 @@ List<VocabularyCard> _possessionDrills() => [
             : owner.$1 == 'your-plural'
             ? ' (polite/plural)'
             : ''}',
-        'Это ${owner.$4[noun.russianGender]} ${noun.ru}.${owner.$1 == 'your-plural' ? ' (Вы / вы)' : ''}',
+        'Это ${owner.$4[noun.russianGender]} ${noun.ru}.',
         '${_demonstrativeSound(noun.demonstrative).en} I-ne ${noun.id == 'phone' ? 'to ti-LE-fo-NO' : noun.soundEn} ${owner.$5}',
         '${_demonstrativeSound(noun.demonstrative).ru} И-нэ ${noun.id == 'phone' ? 'то ти-ЛЭ-фо-НО' : noun.soundRu} ${owner.$6}',
         'The demonstrative and article follow the noun’s gender. The final possessive follows the owner.${noun.id == 'phone' ? ' Τηλέφωνό takes a second accent before the unstressed possessive.' : ''}',

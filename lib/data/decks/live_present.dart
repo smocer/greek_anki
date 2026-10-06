@@ -79,10 +79,7 @@ const livePresentDeck = VocabularyDeck(
     ),
     VocabularyCard(
       id: 'you-plural',
-      prompt: LocalizedText(
-        en: 'You (polite/plural) live',
-        ru: 'Вы / вы живёте',
-      ),
+      prompt: LocalizedText(en: 'You (polite/plural) live', ru: 'Вы живёте'),
       meaning: LocalizedText(
         en: 'Translate into Greek.',
         ru: 'Переведите на греческий.',

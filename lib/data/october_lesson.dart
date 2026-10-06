@@ -201,13 +201,13 @@ final octoberPhrases = [
     'pes mu',
     'пэс му',
     'Πες is the singular command of λέω, say. Μου means to me here, not my.',
-    'Πες — повелительное «скажи» от λέω. Μου здесь «мне» (кому?), а после существительного — «мой/моя/моё».',
+    'Πες — повелительное «скажи» от λέω. Μου здесь «мне» (кому?), а после существительного — «мой».',
   ),
   lessonCard(
     'tell-me-polite',
     'Πείτε μου.',
     'Tell me. (polite/plural)',
-    'Скажите мне. (Вы / вы)',
+    'Скажите мне.',
     'PI-te mu',
     'ПИ-тэ му',
     'The plural command is also used politely to one person.',
@@ -288,15 +288,8 @@ final octoberPhrases = [
 
 final possessiveWords = [
   for (final item in const [
-    ('my', 'μου', 'My (possessive)', 'Мой / моя / моё / мои', 'mu', 'му'),
-    (
-      'your',
-      'σου',
-      'Your (possessive, informal)',
-      'Твой / твоя / твоё / твои',
-      'su',
-      'су',
-    ),
+    ('my', 'μου', 'My (possessive)', 'Мой', 'mu', 'му'),
+    ('your', 'σου', 'Your (possessive, informal)', 'Твой', 'su', 'су'),
     (
       'his',
       'του',
@@ -306,19 +299,12 @@ final possessiveWords = [
       'ту',
     ),
     ('her', 'της', 'Her (possessive)', 'Её (принадлежит ей)', 'tis', 'тис'),
-    (
-      'our',
-      'μας',
-      'Our (possessive)',
-      'Наш / наша / наше / наши',
-      'mas',
-      'мас',
-    ),
+    ('our', 'μας', 'Our (possessive)', 'Наш', 'mas', 'мас'),
     (
       'your-plural',
       'σας',
       'Your (possessive, polite/plural)',
-      'Ваш / ваша / ваше / ваши (Вы / вы)',
+      'Ваш',
       'sas',
       'сас',
     ),
@@ -339,7 +325,7 @@ final possessiveWords = [
       item.$5,
       item.$6,
       'A possessive follows the noun and does not change with its gender: το βιβλίο ${item.$2}.',
-      'После существительного: το βιβλίο ${item.$2}. Форма зависит от владельца, а не рода предмета. В отличие от «мой/моя/моё», окончание не меняется.',
+      'После существительного: το βιβλίο ${item.$2}. Форма зависит от владельца и не меняется по роду или числу предмета.',
       label: VocabularyLabel.pronoun,
     ),
   lessonCard(
@@ -379,7 +365,7 @@ final possessiveWords = [
     'you-object-polite',
     'σας',
     'You (unstressed object, polite/plural)',
-    'Вас / вас (безударное дополнение)',
+    'Вас (безударное дополнение)',
     'sas',
     'сас',
     'Πώς σας λένε; is a polite or plural name question.',
@@ -401,7 +387,7 @@ final possessiveWords = [
     'you-emphatic-polite',
     'εσάς',
     'You (emphatic object, polite/plural)',
-    'Вас / вас (полная, ударная форма)',
+    'Вас (полная, ударная форма)',
     'e-SAS',
     'э-САС',
     'Εσάς; can ask for the other person’s name politely.',
@@ -412,15 +398,15 @@ final possessiveWords = [
 
 final demonstrativeWords = [
   for (final item in const [
-    ('masculine', 'αυτός', 'masculine', 'мужской род', 'af-TOS', 'аф-ТОС'),
-    ('feminine', 'αυτή', 'feminine', 'женский род', 'af-TI', 'аф-ТИ'),
-    ('neuter', 'αυτό', 'neuter', 'средний род', 'af-TO', 'аф-ТО'),
+    ('masculine', 'αυτός', 'masculine', 'Этот', 'af-TOS', 'аф-ТОС'),
+    ('feminine', 'αυτή', 'feminine', 'Эта', 'af-TI', 'аф-ТИ'),
+    ('neuter', 'αυτό', 'neuter', 'Это', 'af-TO', 'аф-ТО'),
   ])
     lessonCard(
       'this-${item.$1}',
       item.$2,
       'This (${item.$3}, pointing something out)',
-      'Этот / эта / это (${item.$4}, указываем на предмет)',
+      '${item.$4} (указываем на предмет)',
       item.$5,
       item.$6,
       'The form agrees with the Greek noun. The same word can also be a personal pronoun; context determines its meaning.',

@@ -184,7 +184,7 @@ const phoneConversationsDeck = VocabularyDeck(
       id: 'your-phone-polite',
       prompt: LocalizedText(
         en: 'Your phone number (polite/plural)',
-        ru: 'Ваш / ваш номер телефона',
+        ru: 'Ваш номер телефона',
       ),
       meaning: LocalizedText(
         en: 'Translate into Greek.',
@@ -224,7 +224,7 @@ const phoneConversationsDeck = VocabularyDeck(
       id: 'have-phone-polite',
       prompt: LocalizedText(
         en: 'Do you have a phone? (polite/plural)',
-        ru: 'У Вас / у вас есть телефон?',
+        ru: 'У Вас есть телефон?',
       ),
       meaning: LocalizedText(
         en: 'Translate into Greek.',

@@ -90,7 +90,7 @@ const understandPresentDeck = VocabularyDeck(
       id: 'you-plural',
       prompt: LocalizedText(
         en: 'You (polite/plural) understand',
-        ru: 'Вы / вы понимаете',
+        ru: 'Вы понимаете',
       ),
       meaning: LocalizedText(
         en: 'Translate into Greek.',

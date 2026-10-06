@@ -82,7 +82,7 @@ const startPresentDeck = VocabularyDeck(
       id: 'you-plural',
       prompt: LocalizedText(
         en: 'You (polite/plural) start',
-        ru: 'Вы / вы начинаете',
+        ru: 'Вы начинаете',
       ),
       meaning: LocalizedText(
         en: 'Present tense; subject pronouns are optional.',

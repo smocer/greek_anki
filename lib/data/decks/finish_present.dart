@@ -78,7 +78,7 @@ const finishPresentDeck = VocabularyDeck(
       id: 'you-plural',
       prompt: LocalizedText(
         en: 'You (polite/plural) finish',
-        ru: 'Вы / вы заканчиваете',
+        ru: 'Вы заканчиваете',
       ),
       meaning: LocalizedText(
         en: 'Translate into Greek.',

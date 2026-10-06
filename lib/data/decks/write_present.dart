@@ -76,10 +76,7 @@ const writePresentDeck = VocabularyDeck(
     ),
     VocabularyCard(
       id: 'you-plural',
-      prompt: LocalizedText(
-        en: 'You (polite/plural) write',
-        ru: 'Вы / вы пишете',
-      ),
+      prompt: LocalizedText(en: 'You (polite/plural) write', ru: 'Вы пишете'),
       meaning: LocalizedText(
         en: 'Translate into Greek.',
         ru: 'Переведите на греческий.',

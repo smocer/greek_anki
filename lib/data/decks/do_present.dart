@@ -80,10 +80,7 @@ const doPresentDeck = VocabularyDeck(
     ),
     VocabularyCard(
       id: 'you-plural',
-      prompt: LocalizedText(
-        en: 'You (polite/plural) do',
-        ru: 'Вы / вы делаете',
-      ),
+      prompt: LocalizedText(en: 'You (polite/plural) do', ru: 'Вы делаете'),
       meaning: LocalizedText(
         en: 'Present tense; subject pronouns are optional.',
         ru: 'Настоящее время; личные местоимения необязательны.',

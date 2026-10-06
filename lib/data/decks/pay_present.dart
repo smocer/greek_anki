@@ -76,10 +76,7 @@ const payPresentDeck = VocabularyDeck(
     ),
     VocabularyCard(
       id: 'you-plural',
-      prompt: LocalizedText(
-        en: 'You (polite/plural) pay',
-        ru: 'Вы / вы платите',
-      ),
+      prompt: LocalizedText(en: 'You (polite/plural) pay', ru: 'Вы платите'),
       meaning: LocalizedText(
         en: 'Translate into Greek.',
         ru: 'Переведите на греческий.',

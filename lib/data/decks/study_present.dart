@@ -90,7 +90,7 @@ const studyPresentDeck = VocabularyDeck(
       id: 'you-plural',
       prompt: LocalizedText(
         en: 'You (polite/plural) study at university',
-        ru: 'Вы / вы учитесь в вузе',
+        ru: 'Вы учитесь в вузе',
       ),
       meaning: LocalizedText(
         en: 'Translate into Greek.',

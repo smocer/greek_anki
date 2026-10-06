@@ -76,10 +76,7 @@ const buyPresentDeck = VocabularyDeck(
     ),
     VocabularyCard(
       id: 'you-plural',
-      prompt: LocalizedText(
-        en: 'You (polite/plural) buy',
-        ru: 'Вы / вы покупаете',
-      ),
+      prompt: LocalizedText(en: 'You (polite/plural) buy', ru: 'Вы покупаете'),
       meaning: LocalizedText(
         en: 'Translate into Greek.',
         ru: 'Переведите на греческий.',

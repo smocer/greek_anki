@@ -69,7 +69,7 @@ const howAreYouDeck = VocabularyDeck(
       id: 'being-polite',
       prompt: LocalizedText(
         en: 'How are you? (with “be”, polite/plural)',
-        ru: 'Как Вы? / Как вы? (через «быть»)',
+        ru: 'Как Вы? (через «быть»)',
       ),
       meaning: LocalizedText(
         en: 'Translate into Greek.',
@@ -198,7 +198,7 @@ const howAreYouDeck = VocabularyDeck(
       id: 'and-you-polite',
       prompt: LocalizedText(
         en: 'And you? (polite/plural subject)',
-        ru: 'А Вы? / А вы? (с «и»)',
+        ru: 'А Вы? (с «и»)',
       ),
       meaning: LocalizedText(
         en: 'Translate into Greek.',

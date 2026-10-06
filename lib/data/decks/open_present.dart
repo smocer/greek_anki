@@ -78,7 +78,7 @@ const openPresentDeck = VocabularyDeck(
       id: 'you-plural',
       prompt: LocalizedText(
         en: 'You (polite/plural) open',
-        ru: 'Вы / вы открываете',
+        ru: 'Вы открываете',
       ),
       meaning: LocalizedText(
         en: 'Translate into Greek.',

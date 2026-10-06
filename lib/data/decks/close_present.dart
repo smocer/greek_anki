@@ -78,7 +78,7 @@ const closePresentDeck = VocabularyDeck(
       id: 'you-plural',
       prompt: LocalizedText(
         en: 'You (polite/plural) close',
-        ru: 'Вы / вы закрываете',
+        ru: 'Вы закрываете',
       ),
       meaning: LocalizedText(
         en: 'Translate into Greek.',

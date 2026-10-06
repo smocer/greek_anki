@@ -35,7 +35,7 @@ const originDeck = VocabularyDeck(
       id: 'ask-origin-polite',
       prompt: LocalizedText(
         en: 'Where are you from? (polite/plural)',
-        ru: 'Откуда Вы / вы?',
+        ru: 'Откуда Вы?',
       ),
       meaning: LocalizedText(
         en: 'Translate into Greek.',

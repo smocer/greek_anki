@@ -48,22 +48,19 @@ const calledPresentDeck = VocabularyDeck(
     ),
     VocabularyCard(
       id: 'he-called',
-      prompt: LocalizedText(
-        en: 'He / she / it is called',
-        ru: 'Он / она / оно называется',
-      ),
+      prompt: LocalizedText(en: 'He is called', ru: 'Он называется'),
       meaning: LocalizedText(
         en: 'Use the λέγομαι conjugation; a subject pronoun is optional.',
         ru: 'Форма глагола λέγομαι; личное местоимение необязательно.',
       ),
       pronunciation: LocalizedText(en: 'LE-ghe-te', ru: 'ЛЭ-йе-тэ'),
       explanation: LocalizedText(
-        en: 'Also useful for things: πώς λέγεται; = what is it called?',
-        ru: 'Можно о предмете: πώς λέγεται; — «как это называется?». -ται здесь, не -τε.',
+        en: 'The verb form is the same for he, she and it. Also useful for things: πώς λέγεται; = what is it called?',
+        ru: 'Форма глагола одинакова для любого рода. Можно о предмете: πώς λέγεται; — «как это называется?». -ται здесь, не -τε.',
       ),
       greek: 'λέγεται',
 
-      acceptedAnswers: ['αυτός λέγεται', 'αυτή λέγεται', 'αυτό λέγεται'],
+      acceptedAnswers: ['αυτός λέγεται'],
     ),
     VocabularyCard(
       id: 'we-called',
@@ -85,7 +82,7 @@ const calledPresentDeck = VocabularyDeck(
       id: 'you-called-polite',
       prompt: LocalizedText(
         en: 'You are called (polite/plural)',
-        ru: 'Вы зовётесь / вы зовётесь',
+        ru: 'Вы зовётесь',
       ),
       meaning: LocalizedText(
         en: 'Use the λέγομαι conjugation; a subject pronoun is optional.',

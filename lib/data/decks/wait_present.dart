@@ -76,10 +76,7 @@ const waitPresentDeck = VocabularyDeck(
     ),
     VocabularyCard(
       id: 'you-plural',
-      prompt: LocalizedText(
-        en: 'You (polite/plural) wait',
-        ru: 'Вы / вы ждёте',
-      ),
+      prompt: LocalizedText(en: 'You (polite/plural) wait', ru: 'Вы ждёте'),
       meaning: LocalizedText(
         en: 'Translate into Greek.',
         ru: 'Переведите на греческий.',

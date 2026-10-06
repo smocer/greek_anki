@@ -80,10 +80,7 @@ const singPresentDeck = VocabularyDeck(
     ),
     VocabularyCard(
       id: 'you-plural',
-      prompt: LocalizedText(
-        en: 'You (polite/plural) sing',
-        ru: 'Вы / вы поёте',
-      ),
+      prompt: LocalizedText(en: 'You (polite/plural) sing', ru: 'Вы поёте'),
       meaning: LocalizedText(
         en: 'Present tense; subject pronouns are optional.',
         ru: 'Настоящее время; личные местоимения необязательны.',

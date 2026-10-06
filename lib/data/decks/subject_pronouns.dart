@@ -100,7 +100,7 @@ const subjectPronounsDeck = VocabularyDeck(
     ),
     VocabularyCard(
       id: 'you-plural',
-      prompt: LocalizedText(en: 'You (plural or polite)', ru: 'Вы / вы'),
+      prompt: LocalizedText(en: 'You (plural or polite)', ru: 'Вы'),
       meaning: LocalizedText(
         en: 'Subject pronoun only.',
         ru: 'Только местоимение в именительном падеже.',

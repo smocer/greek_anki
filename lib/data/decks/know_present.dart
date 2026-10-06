@@ -76,10 +76,7 @@ const knowPresentDeck = VocabularyDeck(
     ),
     VocabularyCard(
       id: 'you-plural',
-      prompt: LocalizedText(
-        en: 'You (polite/plural) know',
-        ru: 'Вы / вы знаете',
-      ),
+      prompt: LocalizedText(en: 'You (polite/plural) know', ru: 'Вы знаете'),
       meaning: LocalizedText(
         en: 'Translate into Greek.',
         ru: 'Переведите на греческий.',

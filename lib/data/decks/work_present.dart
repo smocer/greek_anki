@@ -76,10 +76,7 @@ const workPresentDeck = VocabularyDeck(
     ),
     VocabularyCard(
       id: 'you-plural',
-      prompt: LocalizedText(
-        en: 'You (polite/plural) work',
-        ru: 'Вы / вы работаете',
-      ),
+      prompt: LocalizedText(en: 'You (polite/plural) work', ru: 'Вы работаете'),
       meaning: LocalizedText(
         en: 'Translate into Greek.',
         ru: 'Переведите на греческий.',
@@ -140,7 +137,7 @@ const workPresentDeck = VocabularyDeck(
       id: 'where-work',
       prompt: LocalizedText(
         en: 'Where do you work? (polite/plural)',
-        ru: 'Где Вы / вы работаете?',
+        ru: 'Где Вы работаете?',
       ),
       meaning: LocalizedText(
         en: 'Translate into Greek.',

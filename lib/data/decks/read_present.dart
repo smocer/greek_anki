@@ -79,10 +79,7 @@ const readPresentDeck = VocabularyDeck(
     ),
     VocabularyCard(
       id: 'you-plural',
-      prompt: LocalizedText(
-        en: 'You (polite/plural) read',
-        ru: 'Вы / вы читаете',
-      ),
+      prompt: LocalizedText(en: 'You (polite/plural) read', ru: 'Вы читаете'),
       meaning: LocalizedText(
         en: 'Translate into Greek.',
         ru: 'Переведите на греческий.',

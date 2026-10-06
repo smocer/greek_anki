@@ -18,7 +18,7 @@ const addressesNearbyDeck = VocabularyDeck(
       id: 'ask-live-polite',
       prompt: LocalizedText(
         en: 'Where do you live? (polite/plural)',
-        ru: 'Где Вы / вы живёте?',
+        ru: 'Где Вы живёте?',
       ),
       meaning: LocalizedText(
         en: 'Translate into Greek.',

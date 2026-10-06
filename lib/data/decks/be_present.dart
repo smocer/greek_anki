@@ -80,10 +80,7 @@ const bePresentDeck = VocabularyDeck(
     ),
     VocabularyCard(
       id: 'you-are-polite',
-      prompt: LocalizedText(
-        en: 'You are (polite/plural)',
-        ru: 'Вы есть / вы есть',
-      ),
+      prompt: LocalizedText(en: 'You are (polite/plural)', ru: 'Вы есть'),
       meaning: LocalizedText(
         en: 'Present tense; subject pronouns may be omitted unless requested.',
         ru: 'Настоящее время; местоимение можно опустить, если не указано обратное.',
