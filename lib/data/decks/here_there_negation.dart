@@ -28,7 +28,7 @@ const hereThereNegationDeck = VocabularyDeck(
       pronunciation: LocalizedText(en: 'dhen I-ne e-DHO', ru: 'дэн И-нэ э-ДО'),
       explanation: LocalizedText(
         en: 'Είναι serves he/she/it; δεν makes the statement negative.',
-        ru: 'Русское «его нет» передаём δεν είναι «он не есть». Не используем όχι вместо отрицания перед глаголом.',
+        ru: 'Δεν είναι εδώ — «его здесь нет». Δεν отрицает глагол είναι; όχι служит самостоятельным ответом «нет».',
       ),
       acceptedAnswers: ['Αυτός δεν είναι εδώ.'],
     ),
@@ -102,7 +102,7 @@ const hereThereNegationDeck = VocabularyDeck(
       ),
       explanation: LocalizedText(
         en: 'Με takes the accusative; keep ν before τζ.',
-        ru: 'В русском «с Джулией» — творительный; в греческом με την Τζούλια — винительный. Перед τζ сохраняем ν.',
+        ru: 'В русском «с Джулией» — творительный; в греческом με την Τζούλια — винительный.',
       ),
       acceptedAnswers: ['Εγώ είμαι στο σπίτι με την Τζούλια.'],
     ),

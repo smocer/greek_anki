@@ -51,8 +51,8 @@ const lessonConnectorsDeck = VocabularyDeck(
     VocabularyCard(
       id: 'not',
       prompt: LocalizedText(
-        en: 'Not (before a present-tense verb)',
-        ru: 'Не (перед глаголом настоящего времени)',
+        en: 'Not (negating a verb)',
+        ru: 'Не (отрицание перед глаголом)',
       ),
       meaning: LocalizedText(
         en: 'Translate into Greek.',
@@ -61,8 +61,8 @@ const lessonConnectorsDeck = VocabularyDeck(
       greek: 'δεν',
       pronunciation: LocalizedText(en: 'dhen', ru: 'дэн'),
       explanation: LocalizedText(
-        en: 'Use δεν είμαι, δεν έχω. Δε is possible before some consonants.',
-        ru: 'Как «не» перед глаголом: δεν είμαι, δεν έχω. Перед некоторыми согласными бывает δε, но не перед гласной.',
+        en: 'Δεν negates verbs in more than one tense: δεν ξέρω, I do not know; δεν έγραψα, I did not write.',
+        ru: 'Как «не» перед глаголом: δεν ξέρω — «не знаю», δεν έγραψα — «не написал». Δεν не ограничивается настоящим временем.',
       ),
       alternatives: ['δε'],
     ),
@@ -143,7 +143,7 @@ const lessonConnectorsDeck = VocabularyDeck(
       ),
       explanation: LocalizedText(
         en: 'Ή is or; the following η is the feminine article.',
-        ru: 'Рядом стоят ή η: первое «или» с ударением, второе — артикль «кошка» без ударения.',
+        ru: 'Рядом стоят ή η: первое «или» с ударением, второе — артикль перед γάτα «кошка», без ударения.',
       ),
     ),
   ],

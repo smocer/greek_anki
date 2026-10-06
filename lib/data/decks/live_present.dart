@@ -9,7 +9,7 @@ const livePresentDeck = VocabularyDeck(
   ),
   subtitle: LocalizedText(
     en: 'Six persons + everyday sentences',
-    ru: 'Шесть лиц и фразы из жизни',
+    ru: 'Шесть форм и фразы из жизни',
   ),
   note: LocalizedText(
     en: 'Present endings: -ω, -εις, -ει, -ουμε, -ετε, -ουν(ε). Subject pronouns can be omitted. Μένω describes where you live or stay; use σε + article for the place.',

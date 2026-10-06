@@ -9,11 +9,11 @@ const understandPresentDeck = VocabularyDeck(
   ),
   subtitle: LocalizedText(
     en: 'Six persons + everyday sentences',
-    ru: 'Шесть лиц и фразы из жизни',
+    ru: 'Шесть форм и фразы из жизни',
   ),
   note: LocalizedText(
     en: 'Present endings: -ω, -εις, -ει, -ουμε, -ετε, -ουν(ε). Subject pronouns can be omitted. Keep stress on βαί; αι is one /e/ sound.',
-    ru: 'Как в русском живу/живёшь/живём, лицо видно по окончанию: -ω, -εις, -ει, -ουμε, -ετε, -ουν(ε). Местоимение обычно можно опустить. Во всех этих формах ударение на βαί: «вэ». Αι читается «э», а β — «в», не «б».',
+    ru: 'Как в русском живу/живёшь/живём, лицо видно по окончанию: -ω, -εις, -ει, -ουμε, -ετε, -ουν(ε). Местоимение обычно можно опустить. Ударение на βαί: «вэ». Αι читается «э», а β — «в», не «б».',
   ),
   cover: 'καταλαβαίνω',
   cards: [
@@ -28,7 +28,7 @@ const understandPresentDeck = VocabularyDeck(
       pronunciation: LocalizedText(en: 'ka-ta-la-VE-no', ru: 'ка-та-ла-ВЭ-но'),
       explanation: LocalizedText(
         en: 'First person singular. Keep stress on βαί; αι is one /e/ sound.',
-        ru: 'Первое лицо: я. Во всех этих формах ударение на βαί: «вэ». Αι читается «э», а β — «в», не «б».',
+        ru: 'Первое лицо: я. Ударение на βαί: «вэ». Αι читается «э», а β — «в», не «б».',
       ),
       acceptedAnswers: ['εγώ καταλαβαίνω'],
     ),
@@ -49,7 +49,7 @@ const understandPresentDeck = VocabularyDeck(
       ),
       explanation: LocalizedText(
         en: 'Second person singular, informal. Keep stress on βαί; αι is one /e/ sound.',
-        ru: 'Второе лицо: ты. Во всех этих формах ударение на βαί: «вэ». Αι читается «э», а β — «в», не «б».',
+        ru: 'Второе лицо: ты. Ударение на βαί: «вэ». Αι читается «э», а β — «в», не «б».',
       ),
       acceptedAnswers: ['εσύ καταλαβαίνεις'],
     ),
@@ -64,7 +64,7 @@ const understandPresentDeck = VocabularyDeck(
       pronunciation: LocalizedText(en: 'ka-ta-la-VE-ni', ru: 'ка-та-ла-ВЭ-ни'),
       explanation: LocalizedText(
         en: 'Third person singular, also she/it. Keep stress on βαί; αι is one /e/ sound.',
-        ru: 'Третье лицо: он; та же форма для она/оно. Во всех этих формах ударение на βαί: «вэ». Αι читается «э», а β — «в», не «б».',
+        ru: 'Третье лицо: он; та же форма для она/оно. Ударение на βαί: «вэ». Αι читается «э», а β — «в», не «б».',
       ),
       acceptedAnswers: ['αυτός καταλαβαίνει'],
     ),
@@ -82,7 +82,7 @@ const understandPresentDeck = VocabularyDeck(
       ),
       explanation: LocalizedText(
         en: 'First person plural. Keep stress on βαί; αι is one /e/ sound.',
-        ru: 'Первое лицо множественного числа: мы. Во всех этих формах ударение на βαί: «вэ». Αι читается «э», а β — «в», не «б».',
+        ru: 'Первое лицо множественного числа: мы. Ударение на βαί: «вэ». Αι читается «э», а β — «в», не «б».',
       ),
       acceptedAnswers: ['εμείς καταλαβαίνουμε'],
     ),
@@ -103,7 +103,7 @@ const understandPresentDeck = VocabularyDeck(
       ),
       explanation: LocalizedText(
         en: 'Second person plural or polite singular. Keep stress on βαί; αι is one /e/ sound.',
-        ru: 'Как русское вы/Вы: группа или вежливое обращение к одному. Во всех этих формах ударение на βαί: «вэ». Αι читается «э», а β — «в», не «б».',
+        ru: 'Как русское вы/Вы: группа или вежливое обращение к одному. Ударение на βαί: «вэ». Αι читается «э», а β — «в», не «б».',
       ),
       acceptedAnswers: ['εσείς καταλαβαίνετε'],
     ),
@@ -121,7 +121,7 @@ const understandPresentDeck = VocabularyDeck(
       ),
       explanation: LocalizedText(
         en: 'Third person plural. Keep stress on βαί; αι is one /e/ sound.',
-        ru: 'Третье лицо множественного числа: они. Во всех этих формах ударение на βαί: «вэ». Αι читается «э», а β — «в», не «б».',
+        ru: 'Третье лицо множественного числа: они. Ударение на βαί: «вэ». Αι читается «э», а β — «в», не «б».',
       ),
       alternatives: ['καταλαβαίνουνε'],
       acceptedAnswers: [
@@ -167,7 +167,7 @@ const understandPresentDeck = VocabularyDeck(
       ),
       explanation: LocalizedText(
         en: 'Keep ν in δεν before κ; -ουμε marks we.',
-        ru: 'Перед κ сохраняем ν в δεν. Окончание -ουμε обозначает «мы».',
+        ru: 'Δεν отрицает глагол, как «не» в русском. Окончание -ουμε обозначает «мы».',
       ),
       acceptedAnswers: ['Εμείς δεν καταλαβαίνουμε.'],
     ),

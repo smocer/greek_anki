@@ -79,7 +79,7 @@ const everydayPlacesDeck = VocabularyDeck(
       pronunciation: LocalizedText(en: 'stin TRA-pe-za', ru: 'стин ТРА-пэ-за'),
       explanation: LocalizedText(
         en: 'Σε + την = στην; keep ν before τ.',
-        ru: 'Η τράπεζα → στην τράπεζα. Перед τ артикль сохраняет ν.',
+        ru: 'Η τράπεζα → στην τράπεζα. После σε нужен винительный; род греческого слова — женский.',
       ),
     ),
     VocabularyCard(

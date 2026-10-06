@@ -44,7 +44,7 @@ const classroomPhrasesDeck = VocabularyDeck(
       pronunciation: LocalizedText(en: 'E-la', ru: 'Э-ла'),
       explanation: LocalizedText(
         en: 'Often used alone in speech.',
-        ru: 'Форма из тетради: έλα — обращение к одному на «ты».',
+        ru: 'Έλα — обращение к одному на «ты», как «подойди». Для группы или вежливого обращения — ελάτε.',
       ),
       greek: 'Έλα!',
     ),
@@ -172,7 +172,7 @@ const classroomPhrasesDeck = VocabularyDeck(
       id: 'say-greek',
       prompt: LocalizedText(
         en: 'How do we say it in Greek?',
-        ru: 'Как это сказать по-гречески? (через «мы говорим»)',
+        ru: 'Как это сказать по-гречески? (используйте глагол «говорить» в форме «мы»)',
       ),
       meaning: LocalizedText(
         en: 'Translate into Greek.',

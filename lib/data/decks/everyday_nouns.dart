@@ -79,7 +79,7 @@ const _newNouns = [
     pronunciation: LocalizedText(en: 'o DHAS-ka-los', ru: 'о ДАС-ка-лос'),
     explanation: LocalizedText(
       en: 'Masculine: ο δάσκαλος, not το. Female: η δασκάλα, with a different stress. Accusative: τον δάσκαλο; plural: οι δάσκαλοι.',
-      ru: 'Мужской род, как «учитель»: ο δάσκαλος, не το. Учительница — η δασκάλα, с другим ударением. «Вижу учителя»: τον δάσκαλο; «учителя»: οι δάσκαλοι. δ — межзубный звонкий звук, не совсем русское «д».',
+      ru: 'Δάσκαλος — учитель, особенно начальных классов; мужской род. Учительница — δασκάλα, с другим ударением. Δ произносится как th в английском this.',
     ),
     labels: [VocabularyLabel.noun],
   ),
@@ -94,7 +94,7 @@ const _newNouns = [
     pronunciation: LocalizedText(en: 'i dhas-KA-la', ru: 'и дас-КА-ла'),
     explanation: LocalizedText(
       en: 'Compare ο δάσκαλος / η δασκάλα. The stress moves. Accusative: την δασκάλα; genitive: της δασκάλας; plural: οι δασκάλες.',
-      ru: 'Как «учитель / учительница», но меняется и ударение: δάσκαλος / δασκάλα. «Вижу учительницу»: την δασκάλα; «книга учительницы»: το βιβλίο της δασκάλας. Множественное: οι δασκάλες.',
+      ru: 'Учительница, особенно начальных классов; женский род. Сравните ударение: δάσκαλος — учитель, δασκάλα — учительница.',
     ),
     labels: [VocabularyLabel.noun],
   ),
@@ -109,7 +109,7 @@ const _newNouns = [
     pronunciation: LocalizedText(en: 'o ka-thi-yi-TIS', ru: 'о ка-ти-йи-ТИС'),
     explanation: LocalizedText(
       en: 'A subject teacher, for example at secondary school, or a university professor. Accusative and genitive: τον / του καθηγητή. Female: η καθηγήτρια.',
-      ru: 'Преподаватель предмета в средней школе или вузе; не обязательно профессор по званию. «Вижу преподавателя»: τον καθηγητή; «книга преподавателя»: του καθηγητή. Женщина — η καθηγήτρια. θ произносится межзубно.',
+      ru: 'Преподаватель предмета в средней школе или вузе; не обязательно профессор по званию. Мужской род; преподавательница — καθηγήτρια. Θ — как th в think.',
     ),
     labels: [VocabularyLabel.noun],
   ),
@@ -127,7 +127,7 @@ const _newNouns = [
     ),
     explanation: LocalizedText(
       en: 'Female counterpart of καθηγητής. Accusative: την καθηγήτρια; genitive: της καθηγήτριας; plural: οι καθηγήτριες.',
-      ru: 'Как «преподаватель / преподавательница»: καθηγητής / καθηγήτρια. «Вижу преподавательницу»: την καθηγήτρια; «книга преподавательницы»: της καθηγήτριας. Множественное: οι καθηγήτριες.',
+      ru: 'Преподавательница; женский род. Сравните καθηγητής — преподаватель и καθηγήτρια — преподавательница.',
     ),
     labels: [VocabularyLabel.noun],
   ),
@@ -139,7 +139,7 @@ const _newNouns = [
     pronunciation: LocalizedText(en: 'o ma-thi-TIS', ru: 'о ма-ти-ТИС'),
     explanation: LocalizedText(
       en: 'A pupil or learner; a university student is φοιτητής. Accusative: τον μαθητή; genitive: του μαθητή; plural: οι μαθητές.',
-      ru: 'Ученик, учащийся; студент вуза — φοιτητής. Как «ученик → ученика», меняется форма: ο μαθητής → τον μαθητή. Родительный: του μαθητή; множественное: οι μαθητές. θ — межзубный звук.',
+      ru: 'Ученик, учащийся; мужской род. Студент вуза — φοιτητής. Θ — как th в английском think.',
     ),
     labels: [VocabularyLabel.noun],
   ),
@@ -151,7 +151,7 @@ const _newNouns = [
     pronunciation: LocalizedText(en: 'i ma-THI-tri-a', ru: 'и ма-ТИ-три-а'),
     explanation: LocalizedText(
       en: 'Compare μαθητής / μαθήτρια, pupil, with φοιτητής / φοιτήτρια, university student. Accusative: την μαθήτρια; plural: οι μαθήτριες.',
-      ru: 'Ученик / ученица: μαθητής / μαθήτρια. Для студентки вуза — φοιτήτρια. Винительный: την μαθήτρια; родительный: της μαθήτριας; множественное: οι μαθήτριες.',
+      ru: 'Ученица; женский род. Сравните μαθητής — ученик и μαθήτρια — ученица. Студентка вуза — φοιτήτρια.',
     ),
     labels: [VocabularyLabel.noun],
   ),
@@ -166,7 +166,7 @@ const _newNouns = [
     pronunciation: LocalizedText(en: 'o fi-ti-TIS', ru: 'о фи-ти-ТИС'),
     explanation: LocalizedText(
       en: 'A university student, unlike μαθητής, a pupil. The οι is pronounced /i/. Accusative: τον φοιτητή; genitive: του φοιτητή; plural: οι φοιτητές.',
-      ru: 'Именно студент вуза, а не школьник: как «студент» в отличие от «ученик». οι читается «и». Винительный: τον φοιτητή; родительный: του φοιτητή; множественное: οι φοιτητές.',
+      ru: 'Студент вуза; мужской род. Школьник — μαθητής. Сочетание οι читается «и».',
     ),
     labels: [VocabularyLabel.noun],
   ),
@@ -181,7 +181,7 @@ const _newNouns = [
     pronunciation: LocalizedText(en: 'i fi-TI-tri-a', ru: 'и фи-ТИ-три-а'),
     explanation: LocalizedText(
       en: 'Female counterpart of φοιτητής. Accusative: την φοιτήτρια; genitive: της φοιτήτριας; plural: οι φοιτήτριες.',
-      ru: 'Как «студент / студентка»: φοιτητής / φοιτήτρια. Винительный: την φοιτήτρια; родительный: της φοιτήτριας; множественное: οι φοιτήτριες. Не путайте с μαθήτρια — ученицей.',
+      ru: 'Студентка вуза; женский род. Сравните φοιτητής — студент и φοιτήτρια — студентка. Ученица — μαθήτρια.',
     ),
     labels: [VocabularyLabel.noun],
   ),
@@ -193,7 +193,7 @@ const _newNouns = [
     pronunciation: LocalizedText(en: 'to ko-RI-tsi', ru: 'то ко-РИ-ци'),
     explanation: LocalizedText(
       en: 'Grammatically neuter, even though it refers to a girl. Accusative stays το κορίτσι; plural: τα κορίτσια.',
-      ru: '«Девочка» — женский род в русском, но το κορίτσι — средний в греческом. Грамматический род и пол не одно и то же. Винительный совпадает с именительным; множественное: τα κορίτσια.',
+      ru: '«Девочка» — женский род в русском, но κορίτσι — средний в греческом. Грамматический род слова не обязательно совпадает с полом человека.',
     ),
     labels: [VocabularyLabel.noun],
   ),
@@ -205,7 +205,7 @@ const _newNouns = [
     pronunciation: LocalizedText(en: 'to a-GHO-ri', ru: 'то а-ГО-ри'),
     explanation: LocalizedText(
       en: 'Neuter, like παιδί and κορίτσι. Accusative stays το αγόρι; plural: τα αγόρια.',
-      ru: 'В русском «мальчик» мужского рода, в греческом το αγόρι — среднего, как παιδί и κορίτσι. Винительный: το αγόρι; множественное: τα αγόρια.',
+      ru: 'В русском «мальчик» мужского рода, а в греческом αγόρι — среднего, как παιδί и κορίτσι.',
     ),
     labels: [VocabularyLabel.noun],
   ),
@@ -220,7 +220,7 @@ const _newNouns = [
     pronunciation: LocalizedText(en: 'o mar-ka-DHO-ros', ru: 'о мар-ка-ДО-рос'),
     explanation: LocalizedText(
       en: 'Masculine. Accusative: τον μαρκαδόρο; plural: οι μαρκαδόροι. A board marker or felt-tip pen.',
-      ru: 'Мужской род, как «маркер». Винительный: τον μαρκαδόρο — конечное -ς исчезает. Множественное: οι μαρκαδόροι. δ — межзубный звонкий звук.',
+      ru: 'Мужской род, как русское «маркер». Ударение на δό; δ произносится как th в английском this.',
     ),
     labels: [VocabularyLabel.noun],
   ),
@@ -235,7 +235,7 @@ const _newNouns = [
     ),
     explanation: LocalizedText(
       en: 'Masculine noun in -τής, like μαθητής. Accusative: τον υπολογιστή; genitive: του υπολογιστή; plural: οι υπολογιστές.',
-      ru: 'Мужской род, как «компьютер». Окончание -τής склоняется как у μαθητής: τον υπολογιστή, του υπολογιστή, οι υπολογιστές. Перед ι буква γ звучит близко к «й».',
+      ru: 'Мужской род, как русское «компьютер». Перед ι буква γ звучит близко к «й». Ударение на последнем слоге.',
     ),
     labels: [VocabularyLabel.noun],
   ),
@@ -247,7 +247,7 @@ const _newNouns = [
     pronunciation: LocalizedText(en: 'i TSAN-da', ru: 'и ЦАН-да'),
     explanation: LocalizedText(
       en: 'Feminine. Accusative: την τσάντα; genitive: της τσάντας; plural: οι τσάντες. Initial τσ sounds /ts/.',
-      ru: 'Женский род, как «сумка». «Вижу сумку»: την τσάντα — слово не меняется, меняется артикль. «Ручка сумки»: της τσάντας; «сумки»: οι τσάντες. τσ звучит как «ц».',
+      ru: 'Женский род, как русское «сумка». Сочетание τσ звучит как «ц».',
     ),
     labels: [VocabularyLabel.noun],
   ),
@@ -259,7 +259,7 @@ const _newNouns = [
     pronunciation: LocalizedText(en: 'i TA-ksi', ru: 'и ТА-кси'),
     explanation: LocalizedText(
       en: 'Feminine; τάξη can mean a class, classroom or order. At/in class: στην τάξη. Plural: οι τάξεις. Do not confuse it with το ταξί, taxi.',
-      ru: 'В русском «класс» мужского рода, η τάξη — женского. «В классе»: στην τάξη; «классы»: οι τάξεις. Также означает «порядок». Не путайте с το ταξί: у такси ударение на последнем слоге.',
+      ru: '«Класс» мужского рода в русском, τάξη — женского в греческом. Также означает «порядок». Не путайте с ταξί — «такси», где ударение на последнем слоге.',
     ),
     labels: [VocabularyLabel.noun],
   ),
@@ -277,7 +277,7 @@ const _newNouns = [
     ),
     explanation: LocalizedText(
       en: 'A library or a bookcase. Accusative: την βιβλιοθήκη; genitive: της βιβλιοθήκης; plural: οι βιβλιοθήκες.',
-      ru: 'Родственное русскому «библиотека», но также «книжный шкаф». β звучит «в», θ — межзубный звук. Женский род: την βιβλιοθήκη, της βιβλιοθήκης; множественное: οι βιβλιοθήκες.',
+      ru: 'Знакомый корень, как в «библиотека»; также означает книжный шкаф. В греческом женский род. Β звучит «в», θ — как th в think.',
     ),
     labels: [VocabularyLabel.noun],
   ),
@@ -289,7 +289,7 @@ const _newNouns = [
     pronunciation: LocalizedText(en: 'o KHAR-tis', ru: 'о ХАР-тис'),
     explanation: LocalizedText(
       en: 'Masculine: ο χάρτης. Accusative and genitive: τον / του χάρτη; plural: οι χάρτες. Compare το χαρτί, paper.',
-      ru: '«Карта» женского рода, но ο χάρτης — мужского. Винительный и родительный: τον / του χάρτη; множественное: οι χάρτες. Не путайте с το χαρτί — бумагой: другое окончание и ударение.',
+      ru: '«Карта» женского рода, но χάρτης — мужского. Не путайте с χαρτί — «бумага»: другое окончание и ударение.',
     ),
     labels: [VocabularyLabel.noun],
   ),
@@ -304,7 +304,7 @@ const _newNouns = [
     pronunciation: LocalizedText(en: 'to khar-TI', ru: 'то хар-ТИ'),
     explanation: LocalizedText(
       en: 'Neuter. Accusative stays το χαρτί; genitive: του χαρτιού; plural: τα χαρτιά. A map is ο χάρτης.',
-      ru: '«Бумага» женского рода, το χαρτί — среднего. Винительный совпадает с именительным; родительный: του χαρτιού; множественное: τα χαρτιά. Карта — ο χάρτης, с ударением в начале.',
+      ru: '«Бумага» женского рода, χαρτί — среднего. Карта — χάρτης, с ударением в начале.',
     ),
     labels: [VocabularyLabel.noun],
   ),
@@ -319,7 +319,7 @@ const _newNouns = [
     pronunciation: LocalizedText(en: 'to MA-thi-ma', ru: 'то МА-ти-ма'),
     explanation: LocalizedText(
       en: 'Neuter in -μα, like πρόβλημα. Genitive: του μαθήματος; plural: τα μαθήματα. Related to μαθαίνω, I learn, and μαθητής, pupil.',
-      ru: '«Урок» мужского рода, но το μάθημα — среднего. Родительный: του μαθήματος; множественное: τα μαθήματα. Сравните μαθαίνω — учусь, узнаю; μαθητής — ученик. θ — межзубный звук.',
+      ru: '«Урок» мужского рода, μάθημα — среднего. Сравните μαθαίνω — учусь, узнаю; μαθητής — ученик. Θ — как th в think.',
     ),
     labels: [VocabularyLabel.noun],
   ),
@@ -331,7 +331,7 @@ const _newNouns = [
     pronunciation: LocalizedText(en: 'to PRO-vli-ma', ru: 'то ПРО-вли-ма'),
     explanation: LocalizedText(
       en: 'Neuter in -μα. Accusative stays το πρόβλημα; genitive: του προβλήματος; plural: τα προβλήματα. The stress moves in the longer forms.',
-      ru: 'Узнаётся русское «проблема», но β читается «в», а род — средний. Винительный: το πρόβλημα; родительный: του προβλήματος; множественное: τα προβλήματα. В длинных формах ударение смещается.',
+      ru: 'Узнаётся русское «проблема», но β читается «в», а греческое πρόβλημα — среднего рода.',
     ),
     labels: [VocabularyLabel.noun],
   ),
@@ -343,7 +343,7 @@ const _newNouns = [
     pronunciation: LocalizedText(en: 'to tra-PE-zi', ru: 'то тра-ПЭ-зи'),
     explanation: LocalizedText(
       en: 'Neuter; genitive: του τραπεζιού; plural: τα τραπέζια. Distinguish το τραπέζι, table, from η τράπεζα, bank.',
-      ru: 'Можно запомнить через «трапеза»: едим за столом. Но το τραπέζι — средний род, в отличие от «стол». Родительный: του τραπεζιού; множественное: τα τραπέζια. Не путайте с η τράπεζα — банком.',
+      ru: 'Можно запомнить через «трапеза»: едим за столом. Τραπέζι — среднего рода, в отличие от русского «стол». Не путайте с τράπεζα — «банк».',
     ),
     labels: [VocabularyLabel.noun],
   ),
@@ -355,7 +355,7 @@ const _newNouns = [
     pronunciation: LocalizedText(en: 'i BA-la', ru: 'и БА-ла'),
     explanation: LocalizedText(
       en: 'Feminine. Initial μπ sounds /b/. Accusative: την μπάλα; genitive: της μπάλας; plural: οι μπάλες.',
-      ru: '«Мяч» мужского рода, η μπάλα — женского. Начальное μπ читается «б». Винительный: την μπάλα; родительный: της μπάλας; множественное: οι μπάλες.',
+      ru: '«Мяч» мужского рода, μπάλα — женского. Начальное μπ читается «б».',
     ),
     labels: [VocabularyLabel.noun],
   ),
@@ -367,7 +367,7 @@ const _newNouns = [
     pronunciation: LocalizedText(en: 'o a-nap-TI-ras', ru: 'о а-нап-ТИ-рас'),
     explanation: LocalizedText(
       en: 'Masculine in -ας. Accusative and genitive: τον / του αναπτήρα; plural: οι αναπτήρες.',
-      ru: '«Зажигалка» женского рода, ο αναπτήρας — мужского. В винительном и родительном теряется -ς: τον / του αναπτήρα. Множественное: οι αναπτήρες.',
+      ru: '«Зажигалка» женского рода, αναπτήρας — мужского. Ударение на ή.',
     ),
     labels: [VocabularyLabel.noun],
   ),
@@ -379,7 +379,7 @@ const _newNouns = [
     pronunciation: LocalizedText(en: 'to tsi-GHA-ro', ru: 'то ци-ГА-ро'),
     explanation: LocalizedText(
       en: 'Neuter. Accusative stays το τσιγάρο; genitive: του τσιγάρου; plural: τα τσιγάρα.',
-      ru: '«Сигарета» женского рода, το τσιγάρο — среднего. τσ звучит как «ц». Родительный: του τσιγάρου; множественное: τα τσιγάρα; винительный совпадает с именительным.',
+      ru: '«Сигарета» женского рода, τσιγάρο — среднего. Τσ звучит как «ц».',
     ),
     labels: [VocabularyLabel.noun],
   ),
@@ -394,7 +394,7 @@ const _newNouns = [
     pronunciation: LocalizedText(en: 'i ti-RO-pi-ta', ru: 'и ти-РО-пи-та'),
     explanation: LocalizedText(
       en: 'Τυρί means cheese and πίτα means pie. Feminine: την τυρόπιτα; genitive: της τυρόπιτας; plural: οι τυρόπιτες.',
-      ru: 'Τυρί — сыр, πίτα — пирог: τυρόπιτα — пирог или пирожок с сыром. В греческом женский род. Винительный: την τυρόπιτα; родительный: της τυρόπιτας; множественное: οι τυρόπιτες.',
+      ru: 'Τυρί — сыр, πίτα — пирог: τυρόπιτα — пирог или пирожок с сыром. В греческом женский род.',
     ),
     labels: [VocabularyLabel.noun],
   ),
@@ -409,7 +409,7 @@ const _newNouns = [
     pronunciation: LocalizedText(en: 'i so-ko-LA-ta', ru: 'и со-ко-ЛА-та'),
     explanation: LocalizedText(
       en: 'Feminine: την σοκολάτα; genitive: της σοκολάτας; plural: οι σοκολάτες.',
-      ru: 'Легко узнать «шоколад», но род удобнее запомнить через «шоколадка»: η σοκολάτα. Винительный: την σοκολάτα; родительный: της σοκολάτας; множественное: οι σοκολάτες.',
+      ru: 'Легко узнать «шоколад», но греческое σοκολάτα женского рода. Запомнить род поможет русское «шоколадка».',
     ),
     labels: [VocabularyLabel.noun],
   ),
@@ -421,7 +421,7 @@ const _newNouns = [
     pronunciation: LocalizedText(en: 'to pa-gho-TO', ru: 'то па-го-ТО'),
     explanation: LocalizedText(
       en: 'Neuter. Accusative stays το παγωτό; genitive: του παγωτού; plural: τα παγωτά.',
-      ru: 'Средний род, как «мороженое». Винительный: το παγωτό; родительный: του παγωτού; множественное: τα παγωτά. Во всех этих формах ударение на последнем слоге.',
+      ru: 'Средний род, как русское «мороженое». Ударение на последнем слоге.',
     ),
     labels: [VocabularyLabel.noun],
   ),
@@ -433,7 +433,7 @@ const _newNouns = [
     pronunciation: LocalizedText(en: 'i TUR-ta', ru: 'и ТУР-та'),
     explanation: LocalizedText(
       en: 'A cake such as a birthday cake. Feminine: την τούρτα; genitive: της τούρτας; plural: οι τούρτες.',
-      ru: 'Похоже на «торт», но женского рода: η τούρτα. ου читается «у». Винительный: την τούρτα; родительный: της τούρτας; множественное: οι τούρτες.',
+      ru: 'Похоже на «торт», но греческое τούρτα женского рода. Ου читается «у».',
     ),
     labels: [VocabularyLabel.noun],
   ),
@@ -445,7 +445,7 @@ const _newNouns = [
     pronunciation: LocalizedText(en: 'to kar-PU-zi', ru: 'то кар-ПУ-зи'),
     explanation: LocalizedText(
       en: 'Neuter. Accusative stays το καρπούζι; genitive: του καρπουζιού; plural: τα καρπούζια.',
-      ru: '«Арбуз» мужского рода, το καρπούζι — среднего. Винительный совпадает с именительным; родительный: του καρπουζιού; множественное: τα καρπούζια. В родительном ударение смещается к концу.',
+      ru: '«Арбуз» мужского рода, καρπούζι — среднего. Ου читается «у», ударение на этом сочетании.',
     ),
     labels: [VocabularyLabel.noun],
   ),
@@ -457,7 +457,7 @@ const _newNouns = [
     pronunciation: LocalizedText(en: 'to ta-KSI', ru: 'то та-КСИ'),
     explanation: LocalizedText(
       en: 'Neuter and indeclinable: το ταξί, του ταξί, τα ταξί. Unlike τάξη, class, it is stressed on the final syllable.',
-      ru: 'Как русское «такси», среднего рода и не склоняется: το ταξί, του ταξί, τα ταξί. Меняется только артикль. Не путайте с η τάξη — классом; в ταξί ударение в конце.',
+      ru: 'Как русское «такси», среднего рода и не склоняется. Не путайте с τάξη — «класс»; в ταξί ударение в конце.',
     ),
     labels: [VocabularyLabel.noun],
   ),
@@ -472,7 +472,7 @@ const _newNouns = [
     pronunciation: LocalizedText(en: 'i LAR-na-ka', ru: 'и ЛАР-на-ка'),
     explanation: LocalizedText(
       en: 'Feminine place name. In Larnaca: στην Λάρνακα; from Larnaca: από την Λάρνακα; genitive: της Λάρνακας.',
-      ru: 'Женский род, как русское название. «В Ларнаке»: στην Λάρνακα; «из Ларнаки»: από την Λάρνακα. После σε и από в греческом винительный, хотя в русском в этих примерах другие падежи.',
+      ru: 'Λάρνακα — греческое название Ларнаки. Женский род, как в русском; ударение на первом слоге.',
     ),
     labels: [VocabularyLabel.noun],
   ),
@@ -487,7 +487,7 @@ const _newNouns = [
     pronunciation: LocalizedText(en: 'i lef-ko-SI-a', ru: 'и лэф-ко-СИ-а'),
     explanation: LocalizedText(
       en: 'Λευκωσία is the Greek name of Nicosia. Feminine: στην Λευκωσία, από την Λευκωσία; genitive: της Λευκωσίας. Here ευ sounds /ef/.',
-      ru: 'Греческое название Никосии — Λευκωσία, женский род. «В Никосии»: στην Λευκωσία; «из Никосии»: από την Λευκωσία. Здесь ευ перед κ читается «эф».',
+      ru: 'Греческое название Никосии — Λευκωσία, женский род. Ευ перед κ читается «эф».',
     ),
     labels: [VocabularyLabel.noun],
   ),

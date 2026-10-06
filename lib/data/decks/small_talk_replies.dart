@@ -80,13 +80,18 @@ const smallTalkRepliesDeck = VocabularyDeck(
       id: 'not-so-well',
       prompt: LocalizedText(
         en: 'Not so well. (with “and so”)',
-        ru: 'Не так уж хорошо. (с «и так»)',
+        ru: 'Не так уж хорошо. (устойчивый ответ о самочувствии)',
       ),
       meaning: LocalizedText(
         en: 'Translate into Greek.',
         ru: 'Переведите на греческий.',
       ),
       greek: 'Όχι και τόσο καλά.',
+      acceptedAnswers: [
+        'Όχι τόσο καλά.',
+        'Δεν είμαι και τόσο καλά.',
+        'Δεν είμαι τόσο καλά.',
+      ],
       pronunciation: LocalizedText(
         en: 'O-khi ke TO-so ka-LA',
         ru: 'О-хи кэ ТО-со ка-ЛА',
@@ -144,14 +149,14 @@ const smallTalkRepliesDeck = VocabularyDeck(
       pronunciation: LocalizedText(en: 'po po', ru: 'по по'),
       explanation: LocalizedText(
         en: 'An exclamation of surprise or dismay, not a literal reference to God.',
-        ru: 'Πω πω может выражать удивление или огорчение. Это не буквальное «о мой Бог», как подписано в тетради.',
+        ru: 'Πω πω выражает удивление или огорчение: «ого!», «вот это да!», иногда «ой-ой!». Перевод зависит от ситуации.',
       ),
     ),
     VocabularyCard(
       id: 'how-panagiotis',
       prompt: LocalizedText(
         en: 'How is Panagiotis? (using “does”)',
-        ru: 'Как дела у Панайотиса? (через «делает»)',
+        ru: 'Как дела у Панайотиса? (выражение с глаголом «делать»)',
       ),
       meaning: LocalizedText(
         en: 'Translate into Greek.',

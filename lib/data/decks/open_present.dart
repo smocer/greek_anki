@@ -6,7 +6,7 @@ const openPresentDeck = VocabularyDeck(
   title: LocalizedText(en: 'To open: ανοίγω', ru: 'Открывать: ανοίγω'),
   subtitle: LocalizedText(
     en: 'Six persons + everyday sentences',
-    ru: 'Шесть лиц и фразы из жизни',
+    ru: 'Шесть форм и фразы из жизни',
   ),
   note: LocalizedText(
     en: 'Present endings: -ω, -εις, -ει, -ουμε, -ετε, -ουν(ε). Subject pronouns can be omitted. Ανοίγω can mean open something or open for business.',
@@ -132,7 +132,7 @@ const openPresentDeck = VocabularyDeck(
       ),
       explanation: LocalizedText(
         en: 'The plural object is τα βιβλία; μας follows it.',
-        ru: '«Открываем что?» — винительный; у среднего рода τα βιβλία совпадает с именительным. Μας — «наши/свои».',
+        ru: '«Открываем что?» — винительный; у среднего рода τα βιβλία совпадает с именительным. Действующее лицо — «мы», поэтому «свои» здесь передаём через μας: τα βιβλία μας.',
       ),
       acceptedAnswers: ['Εμείς ανοίγουμε τα βιβλία μας.'],
     ),

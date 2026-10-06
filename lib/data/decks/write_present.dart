@@ -6,7 +6,7 @@ const writePresentDeck = VocabularyDeck(
   title: LocalizedText(en: 'To write: γράφω', ru: 'Писать: γράφω'),
   subtitle: LocalizedText(
     en: 'Six persons + everyday sentences',
-    ru: 'Шесть лиц и фразы из жизни',
+    ru: 'Шесть форм и фразы из жизни',
   ),
   note: LocalizedText(
     en: 'Present endings: -ω, -εις, -ει, -ουμε, -ετε, -ουν(ε). Subject pronouns can be omitted. The γραφ- root also appears in photograph and graphic.',
@@ -129,7 +129,7 @@ const writePresentDeck = VocabularyDeck(
       ),
       explanation: LocalizedText(
         en: 'The recipient uses σε + accusative; σας marks your (plural/polite).',
-        ru: 'Русское «кому? маме» — дательный; греческое στη μαμά — σε + винительный. Σας — «вашей».',
+        ru: 'Русское «кому? маме» — дательный; греческое στη μαμά — σε + винительный. Действующее лицо — «вы», поэтому «своей» здесь передаём через σας: στην μαμά σας.',
       ),
       alternatives: ['Γράφετε στην μαμά σας;'],
     ),
@@ -147,7 +147,7 @@ const writePresentDeck = VocabularyDeck(
       ),
       explanation: LocalizedText(
         en: 'Όνομά has an extra accent before the unstressed possessive μου.',
-        ru: 'Как в «своё имя», но с μου после слова. Το όνομά μου требует двух ударений.',
+        ru: 'Действующее лицо — «я», поэтому «своё» здесь передаём через μου. У όνομα ударение на третьем слоге от конца; перед μου добавляем второе: το όνομά μου.',
       ),
       acceptedAnswers: ['Εγώ γράφω το όνομά μου.'],
     ),

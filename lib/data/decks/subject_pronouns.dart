@@ -94,7 +94,7 @@ const subjectPronounsDeck = VocabularyDeck(
       pronunciation: LocalizedText(en: 'e-MIS', ru: 'э-МИС'),
       explanation: LocalizedText(
         en: 'First person plural subject.',
-        ru: 'Именительный «мы»; глагол είμαστε — «мы есть».',
+        ru: 'Εμείς — «мы» как подлежащее: εμείς είμαστε εδώ — «мы здесь». В греческом нужен глагол είμαστε.',
       ),
       greek: 'εμείς',
     ),

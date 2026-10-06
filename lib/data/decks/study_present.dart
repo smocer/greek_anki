@@ -9,7 +9,7 @@ const studyPresentDeck = VocabularyDeck(
   ),
   subtitle: LocalizedText(
     en: 'Six persons + everyday sentences',
-    ru: 'Шесть лиц и фразы из жизни',
+    ru: 'Шесть форм и фразы из жизни',
   ),
   note: LocalizedText(
     en: 'Present endings: -ω, -εις, -ει, -ουμε, -ετε, -ουν(ε). Subject pronouns can be omitted. Σπουδάζω normally refers to higher or specialist studies, not simply reading a lesson.',

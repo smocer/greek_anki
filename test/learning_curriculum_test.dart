@@ -61,6 +61,14 @@ void main() {
         isFalse,
       );
       expect(nouns.any((c) => c.greek == 'φίλο'), isFalse);
+      for (final noun in nouns) {
+        expect(noun.prompt.ru, isNot(contains('с артиклем')), reason: noun.id);
+        expect(
+          noun.prompt.ru,
+          isNot(contains('именительный')),
+          reason: noun.id,
+        );
+      }
       final beer = nouns.singleWhere((c) => c.greek == 'μπίρα');
       expect(matcher.matches('μπύρα', beer), isTrue);
       expect(matcher.matches('η μπύρα', beer), isTrue);
@@ -170,6 +178,13 @@ void main() {
       expect(matcher.matches('Αυτό είναι το τηλέφωνο του.', phone), isFalse);
       expect(matcher.matches('Αυτό είναι το τηλέφωνό του.', phone), isTrue);
       expect(deck('grammar-gender').cards.length, 12);
+      final nounForm = deck(
+        'grammar-nouns',
+      ).cards.singleWhere((c) => c.id == 'everyday-nouns.pupil-accusative');
+      expect(nounForm.meaning.ru, contains('только нужную форму'));
+      expect(nounForm.meaning.ru, contains('с артиклем'));
+      expect(matcher.matches('τον μαθητή', nounForm), isTrue);
+      expect(matcher.matches('Βλέπω τον μαθητή', nounForm), isFalse);
     },
   );
 

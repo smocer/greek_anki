@@ -6,7 +6,7 @@ const bePresentDeck = VocabularyDeck(
   title: LocalizedText(en: 'To be: είμαι', ru: 'Быть: είμαι'),
   subtitle: LocalizedText(
     en: 'Six persons and simple sentences',
-    ru: 'Шесть лиц и простые предложения',
+    ru: 'Шесть форм и простые предложения',
   ),
   note: LocalizedText(
     en: 'Unlike Russian, Greek normally keeps “be” in present-tense sentences: είμαι εδώ = я здесь.',
@@ -16,7 +16,7 @@ const bePresentDeck = VocabularyDeck(
   cards: [
     VocabularyCard(
       id: 'i-am',
-      prompt: LocalizedText(en: 'I am', ru: 'Я есть'),
+      prompt: LocalizedText(en: 'I am', ru: 'Быть — форма для «я»'),
       meaning: LocalizedText(
         en: 'Present tense; subject pronouns may be omitted unless requested.',
         ru: 'Настоящее время; местоимение можно опустить, если не указано обратное.',
@@ -24,7 +24,7 @@ const bePresentDeck = VocabularyDeck(
       pronunciation: LocalizedText(en: 'I-me', ru: 'И-мэ'),
       explanation: LocalizedText(
         en: 'First person singular. Εγώ is optional.',
-        ru: '«Я есть»: εγώ είμαι. В обычной речи εγώ можно опустить.',
+        ru: 'Είμαι — форма «быть» для «я»: είμαι εδώ — «я здесь». В греческом глагол нужен, хотя в русском его нет. Εγώ можно опустить.',
       ),
       greek: 'είμαι',
 
@@ -32,7 +32,10 @@ const bePresentDeck = VocabularyDeck(
     ),
     VocabularyCard(
       id: 'you-are',
-      prompt: LocalizedText(en: 'You are (informal)', ru: 'Ты есть'),
+      prompt: LocalizedText(
+        en: 'You are (informal)',
+        ru: 'Быть — форма для «ты»',
+      ),
       meaning: LocalizedText(
         en: 'Present tense; subject pronouns may be omitted unless requested.',
         ru: 'Настоящее время; местоимение можно опустить, если не указано обратное.',
@@ -48,7 +51,7 @@ const bePresentDeck = VocabularyDeck(
     ),
     VocabularyCard(
       id: 'he-is',
-      prompt: LocalizedText(en: 'He is', ru: 'Он есть'),
+      prompt: LocalizedText(en: 'He is', ru: 'Быть — форма для «он»'),
       meaning: LocalizedText(
         en: 'Present tense; subject pronouns may be omitted unless requested.',
         ru: 'Настоящее время; местоимение можно опустить, если не указано обратное.',
@@ -64,7 +67,7 @@ const bePresentDeck = VocabularyDeck(
     ),
     VocabularyCard(
       id: 'we-are',
-      prompt: LocalizedText(en: 'We are', ru: 'Мы есть'),
+      prompt: LocalizedText(en: 'We are', ru: 'Быть — форма для «мы»'),
       meaning: LocalizedText(
         en: 'Present tense; subject pronouns may be omitted unless requested.',
         ru: 'Настоящее время; местоимение можно опустить, если не указано обратное.',
@@ -72,7 +75,7 @@ const bePresentDeck = VocabularyDeck(
       pronunciation: LocalizedText(en: 'I-ma-ste', ru: 'И-ма-стэ'),
       explanation: LocalizedText(
         en: 'First person plural.',
-        ru: 'Εμείς είμαστε: «мы есть». Запомните -μαστε.',
+        ru: 'Είμαστε — форма «быть» для «мы»: είμαστε εδώ — «мы здесь». Εμείς можно опустить.',
       ),
       greek: 'είμαστε',
 
@@ -80,7 +83,10 @@ const bePresentDeck = VocabularyDeck(
     ),
     VocabularyCard(
       id: 'you-are-polite',
-      prompt: LocalizedText(en: 'You are (polite/plural)', ru: 'Вы есть'),
+      prompt: LocalizedText(
+        en: 'You are (polite/plural)',
+        ru: 'Быть — форма для «вы»',
+      ),
       meaning: LocalizedText(
         en: 'Present tense; subject pronouns may be omitted unless requested.',
         ru: 'Настоящее время; местоимение можно опустить, если не указано обратное.',
@@ -96,7 +102,7 @@ const bePresentDeck = VocabularyDeck(
     ),
     VocabularyCard(
       id: 'they-are',
-      prompt: LocalizedText(en: 'They are', ru: 'Они есть'),
+      prompt: LocalizedText(en: 'They are', ru: 'Быть — форма для «они»'),
       meaning: LocalizedText(
         en: 'Present tense; subject pronouns may be omitted unless requested.',
         ru: 'Настоящее время; местоимение можно опустить, если не указано обратное.',
@@ -104,7 +110,7 @@ const bePresentDeck = VocabularyDeck(
       pronunciation: LocalizedText(en: 'I-ne', ru: 'И-нэ'),
       explanation: LocalizedText(
         en: 'Same verb as he/she/it; context or a pronoun shows the number.',
-        ru: 'И «он есть», и «они есть» — είναι. Число понятно из контекста или местоимения.',
+        ru: 'Для «он здесь» и «они здесь» глагол один: είναι εδώ. Число понятно из контекста или местоимения.',
       ),
       greek: 'είναι',
 

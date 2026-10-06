@@ -6,11 +6,11 @@ const waitPresentDeck = VocabularyDeck(
   title: LocalizedText(en: 'To wait: περιμένω', ru: 'Ждать: περιμένω'),
   subtitle: LocalizedText(
     en: 'Six persons + everyday sentences',
-    ru: 'Шесть лиц и фразы из жизни',
+    ru: 'Шесть форм и фразы из жизни',
   ),
   note: LocalizedText(
     en: 'Present endings: -ω, -εις, -ει, -ουμε, -ετε, -ουν(ε). Subject pronouns can be omitted. Περιμένω keeps stress on μέ throughout these present forms.',
-    ru: 'Как в русском живу/живёшь/живём, лицо видно по окончанию: -ω, -εις, -ει, -ουμε, -ετε, -ουν(ε). Местоимение обычно можно опустить. Во всех этих формах ударение на μέ. Учите περιμένω отдельно от μένω «живу».',
+    ru: 'Как в русском живу/живёшь/живём, лицо видно по окончанию: -ω, -εις, -ει, -ουμε, -ετε, -ουν(ε). Местоимение обычно можно опустить. Ударение на μέ. Учите περιμένω отдельно от μένω «живу».',
   ),
   cover: 'περιμένω',
   cards: [
@@ -25,7 +25,7 @@ const waitPresentDeck = VocabularyDeck(
       pronunciation: LocalizedText(en: 'pe-ri-ME-no', ru: 'пэ-ри-МЭ-но'),
       explanation: LocalizedText(
         en: 'First person singular. Περιμένω keeps stress on μέ throughout these present forms.',
-        ru: 'Первое лицо: я. Во всех этих формах ударение на μέ. Учите περιμένω отдельно от μένω «живу».',
+        ru: 'Первое лицо: я. Ударение на μέ. Учите περιμένω отдельно от μένω «живу».',
       ),
       acceptedAnswers: ['εγώ περιμένω'],
     ),
@@ -40,7 +40,7 @@ const waitPresentDeck = VocabularyDeck(
       pronunciation: LocalizedText(en: 'pe-ri-ME-nis', ru: 'пэ-ри-МЭ-нис'),
       explanation: LocalizedText(
         en: 'Second person singular, informal. Περιμένω keeps stress on μέ throughout these present forms.',
-        ru: 'Второе лицо: ты. Во всех этих формах ударение на μέ. Учите περιμένω отдельно от μένω «живу».',
+        ru: 'Второе лицо: ты. Ударение на μέ. Учите περιμένω отдельно от μένω «живу».',
       ),
       acceptedAnswers: ['εσύ περιμένεις'],
     ),
@@ -55,7 +55,7 @@ const waitPresentDeck = VocabularyDeck(
       pronunciation: LocalizedText(en: 'pe-ri-ME-ni', ru: 'пэ-ри-МЭ-ни'),
       explanation: LocalizedText(
         en: 'Third person singular, also she/it. Περιμένω keeps stress on μέ throughout these present forms.',
-        ru: 'Третье лицо: он; та же форма для она/оно. Во всех этих формах ударение на μέ. Учите περιμένω отдельно от μένω «живу».',
+        ru: 'Третье лицо: он; та же форма для она/оно. Ударение на μέ. Учите περιμένω отдельно от μένω «живу».',
       ),
       acceptedAnswers: ['αυτός περιμένει'],
     ),
@@ -70,7 +70,7 @@ const waitPresentDeck = VocabularyDeck(
       pronunciation: LocalizedText(en: 'pe-ri-ME-nu-me', ru: 'пэ-ри-МЭ-ну-мэ'),
       explanation: LocalizedText(
         en: 'First person plural. Περιμένω keeps stress on μέ throughout these present forms.',
-        ru: 'Первое лицо множественного числа: мы. Во всех этих формах ударение на μέ. Учите περιμένω отдельно от μένω «живу».',
+        ru: 'Первое лицо множественного числа: мы. Ударение на μέ. Учите περιμένω отдельно от μένω «живу».',
       ),
       acceptedAnswers: ['εμείς περιμένουμε'],
     ),
@@ -85,7 +85,7 @@ const waitPresentDeck = VocabularyDeck(
       pronunciation: LocalizedText(en: 'pe-ri-ME-ne-te', ru: 'пэ-ри-МЭ-нэ-тэ'),
       explanation: LocalizedText(
         en: 'Second person plural or polite singular. Περιμένω keeps stress on μέ throughout these present forms.',
-        ru: 'Как русское вы/Вы: группа или вежливое обращение к одному. Во всех этих формах ударение на μέ. Учите περιμένω отдельно от μένω «живу».',
+        ru: 'Как русское вы/Вы: группа или вежливое обращение к одному. Ударение на μέ. Учите περιμένω отдельно от μένω «живу».',
       ),
       acceptedAnswers: ['εσείς περιμένετε'],
     ),
@@ -100,7 +100,7 @@ const waitPresentDeck = VocabularyDeck(
       pronunciation: LocalizedText(en: 'pe-ri-ME-nun', ru: 'пэ-ри-МЭ-нун'),
       explanation: LocalizedText(
         en: 'Third person plural. Περιμένω keeps stress on μέ throughout these present forms.',
-        ru: 'Третье лицо множественного числа: они. Во всех этих формах ударение на μέ. Учите περιμένω отдельно от μένω «живу».',
+        ru: 'Третье лицо множественного числа: они. Ударение на μέ. Учите περιμένω отдельно от μένω «живу».',
       ),
       alternatives: ['περιμένουνε'],
       acceptedAnswers: [
@@ -146,7 +146,7 @@ const waitPresentDeck = VocabularyDeck(
       ),
       explanation: LocalizedText(
         en: 'The object is accusative: η Μαρία → τη Μαρία.',
-        ru: 'Как «жду Марию»: имя — дополнение, η → τη. Перед μ обычно без конечного ν.',
+        ru: 'Имя — прямое дополнение: περιμένω την Μαρία — «жду Марию». В греческом падеж виден по артиклю, а форма Μαρία не меняется.',
       ),
       alternatives: ['Περιμένω την Μαρία.'],
       acceptedAnswers: ['Εγώ περιμένω τη Μαρία.', 'Εγώ περιμένω την Μαρία.'],

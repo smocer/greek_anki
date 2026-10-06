@@ -52,7 +52,7 @@ const neighboursDeck = VocabularyDeck(
       id: 'neighbour-possession',
       prompt: LocalizedText(
         en: 'Of the neighbour (male)',
-        ru: 'Соседа (чей? родительный)',
+        ru: 'Соседа (дом кого? родительный)',
       ),
       meaning: LocalizedText(
         en: 'Translate into Greek.',
@@ -62,7 +62,7 @@ const neighboursDeck = VocabularyDeck(
       pronunciation: LocalizedText(en: 'tu YI-to-na', ru: 'ту ЙИ-то-на'),
       explanation: LocalizedText(
         en: 'Genitive singular has the same noun ending as the accusative, but a different article.',
-        ru: 'Как «дом соседа»: родительный του γείτονα. Формы существительного совпали, артикли τον/του различаются.',
+        ru: 'Το σπίτι του γείτονα — «дом соседа». Родительный: του γείτονα. Формы существительного совпали, артикли τον/του различаются.',
       ),
     ),
     VocabularyCard(

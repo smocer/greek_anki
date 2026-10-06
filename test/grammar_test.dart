@@ -11,7 +11,7 @@ import 'support/memory_language_store.dart';
 import 'support/memory_progress_store.dart';
 
 void main() {
-  test('merged grammar keeps forms together with English table labels', () {
+  test('merged grammar keeps forms together with localized table labels', () {
     expect(greekGrammar.map((topic) => topic.id), [
       'be',
       'verbs',
@@ -22,15 +22,21 @@ void main() {
     ]);
     final verbs = greekGrammar
         .firstWhere((topic) => topic.id == 'verbs')
-        .tables
-        .single;
-    expect(verbs.rows.first, [
-      'I',
-      'γράφω',
+        .tables;
+    expect(verbs.first.rows.first, ['εγώ', 'γράφω', 'αγαπώ', 'μπορώ']);
+    expect(verbs.last.rows.first, [
+      'εγώ',
+      'έγραφα',
       'έγραψα',
+      'θα γράφω',
       'θα γράψω',
-      'αγαπώ',
-      'μπορώ',
+    ]);
+    expect(verbs.last.rows.last, [
+      'αυτοί / αυτές / αυτά',
+      'έγραφαν',
+      'έγραψαν',
+      'θα γράφουν',
+      'θα γράψουν',
     ]);
     final nouns = greekGrammar
         .firstWhere((topic) => topic.id == 'nouns')
@@ -49,12 +55,24 @@ void main() {
       'Accusative',
       'Vocative',
     ]);
+    expect(caseTables.map((table) => table.title.ru), [
+      'Именительный',
+      'Родительный',
+      'Винительный',
+      'Звательный',
+    ]);
     expect(caseTables[1].rows.first, ['ο φίλος', 'του φίλου', 'των φίλων']);
     expect(caseTables[2].rows.first, ['ο φίλος', 'τον φίλο', 'τους φίλους']);
     expect(caseTables[3].rows.first, ['ο φίλος', 'φίλε', 'φίλοι']);
     final greekLetters = RegExp(r'[\u0370-\u03ff]');
     for (final topic in greekGrammar) {
       for (final table in topic.tables) {
+        if (table.rowLabels != null) {
+          expect(table.rowLabels!.length, table.rows.length);
+          for (final label in table.rowLabels!) {
+            expect(label.ru, isNot(label.en));
+          }
+        }
         expect(greekLetters.hasMatch(table.title.en), isFalse);
         for (final header in table.headers) {
           expect(greekLetters.hasMatch(header.en), isFalse);
@@ -131,6 +149,18 @@ void main() {
             scrollable: find.byType(Scrollable).first,
           );
           expect(find.byType(DataTable), findsWidgets);
+          final table = topic.tables.first;
+          expect(find.text(table.title.resolve(language)), findsOneWidget);
+          for (final header in table.headers) {
+            expect(find.text(header.resolve(language)), findsWidgets);
+          }
+          for (final label in table.rowLabels ?? <LocalizedText>[]) {
+            expect(find.text(label.resolve(language)), findsWidgets);
+            final otherLanguage = language == AppLanguage.russian
+                ? AppLanguage.english
+                : AppLanguage.russian;
+            expect(find.text(label.resolve(otherLanguage)), findsNothing);
+          }
           expect(tester.takeException(), isNull, reason: topic.id);
         }
       },

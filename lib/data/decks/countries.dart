@@ -24,7 +24,7 @@ const countriesDeck = VocabularyDeck(
       pronunciation: LocalizedText(en: 'i ro-SI-a', ru: 'и ро-СИ-а'),
       explanation: LocalizedText(
         en: 'Feminine: η Ρωσία.',
-        ru: 'Женский род, как «Россия». Но артикль η — отдельное обязательное для этой карточки слово.',
+        ru: 'Ρωσία — женского рода, как русское «Россия». Артикль η помогает запомнить греческий род.',
       ),
       greek: 'η Ρωσία',
     ),

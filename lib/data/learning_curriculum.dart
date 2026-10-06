@@ -220,7 +220,7 @@ class CurriculumCatalog {
       'Possession',
       'Принадлежность',
       'Whose? · owner, gender and stress',
-      'Чей? · владелец, род и ударение',
+      'Чей? · принадлежность, род и ударение',
       'μου',
       [..._existing(possessionPractice), ..._possessionDrills()],
     ),
@@ -256,14 +256,19 @@ class CurriculumCatalog {
       title: LocalizedText(en: en, ru: ru),
       subtitle: LocalizedText(en: subtitleEn, ru: subtitleRu),
       cover: cover,
-      note: section == LearningSection.words
+      note: id == 'words-nouns'
           ? const LocalizedText(
               en: 'Learn the meaning and spelling. Noun answers may omit the article; the answer shows it to help you remember gender.',
               ru: 'Учите значение и написание. У существительных артикль можно не вводить; в ответе он показан для запоминания рода.',
             )
+          : section == LearningSection.words
+          ? const LocalizedText(
+              en: 'Learn the meaning and spelling of each word.',
+              ru: 'Учите значение и написание каждого слова.',
+            )
           : const LocalizedText(
-              en: 'Translate the complete prompt. In hard mode, the Greek answer and explanation appear only after checking.',
-              ru: 'Переведите фразу целиком. В сложном режиме греческий ответ и пояснение появятся только после проверки.',
+              en: 'Translate the word or phrase in the requested form. In hard mode, the Greek answer and explanation appear only after checking.',
+              ru: 'Переведите слово или фразу в указанной форме. В сложном режиме греческий ответ и пояснение появятся только после проверки.',
             ),
       cards: List.unmodifiable(
         cards.map(
@@ -272,7 +277,7 @@ class CurriculumCatalog {
                   card,
                   card.id,
                   prompt: _withoutGreekHints(card.prompt),
-                  meaning: translatePrompt,
+                  meaning: _withoutGreekHints(card.meaning),
                 )
               : card,
         ),
@@ -282,18 +287,8 @@ class CurriculumCatalog {
   );
 
   VocabularyCard _noun(VocabularyCard card, String key) {
-    final article = card.greek.split(' ').first;
     String bare(String value) =>
         value.replaceFirst(RegExp(r'^(ο|η|το|οι) '), '');
-    final gender = switch (article) {
-      'ο' => const LocalizedText(en: 'Masculine', ru: 'Мужской род'),
-      'η' => const LocalizedText(en: 'Feminine', ru: 'Женский род'),
-      'οι' => const LocalizedText(
-        en: 'Plural (feminine here)',
-        ru: 'Множественное число (здесь женский род)',
-      ),
-      _ => const LocalizedText(en: 'Neuter', ru: 'Средний род'),
-    };
     final override = _nounPrompts[key];
     String clean(String value) => value
         .replaceFirst(RegExp(r'^The '), '')
@@ -301,8 +296,13 @@ class CurriculumCatalog {
           RegExp(r' \((with (the |its )?article|subject|as a subject)\)'),
           '',
         )
-        .replaceAll(RegExp(r' \(с артиклем\)'), '')
-        .replaceAll(RegExp(r' \(подлежащее\)'), '');
+        .replaceAll(
+          RegExp(
+            r' \((именительный, с артиклем|с артиклем|подлежащее|кто\? именительный|что\? именительный|мужской род, кто\?|кто\? мужской род)\)',
+          ),
+          '',
+        )
+        .replaceAll('(уменьшительное, с артиклем)', '(уменьшительное)');
     return VocabularyCard(
       id: key,
       greek: bare(card.greek),
@@ -321,10 +321,7 @@ class CurriculumCatalog {
         en: card.pronunciation.en.replaceFirst(RegExp(r'^\S+ '), ''),
         ru: card.pronunciation.ru.replaceFirst(RegExp(r'^\S+ '), ''),
       ),
-      explanation: LocalizedText(
-        en: '${card.greek} · ${gender.en}. ${card.explanation?.en ?? ''}',
-        ru: '${card.greek} · ${gender.ru}. ${card.explanation?.ru ?? ''}',
-      ),
+      explanation: card.explanation,
       alternatives: card.alternatives.map(bare).toList(),
       acceptedAnswers: [card.greek, ...card.alternatives],
       reviewIdentity: ReviewIdentity(deckId: 'words-nouns', cardId: key),
@@ -585,17 +582,23 @@ const _practiceNouns = <_PracticeNoun>[
   ),
 ];
 
+String _greekGenderRu(_PracticeNoun noun) => switch (noun.demonstrative) {
+  'Αυτός' => 'мужской',
+  'Αυτή' => 'женский',
+  _ => 'средний',
+};
+
 List<VocabularyCard> _genderDrills() => [
   for (final noun in _practiceNouns)
     lessonCard(
       'gender-${noun.id}',
       '${noun.demonstrative} είναι ${noun.greek}.',
       'This is the ${noun.en}.',
-      'Это ${noun.ru}.',
+      'Это ${noun.ru}. (Используйте определённый артикль.)',
       '${_demonstrativeSound(noun.demonstrative).en} I-ne ${noun.soundEn}',
       '${_demonstrativeSound(noun.demonstrative).ru} И-нэ ${noun.soundRu}',
       'This agrees with the Greek noun: αυτός + ο, αυτή + η, αυτό + το. Include the article.',
-      'Русское «это» не меняется, а греческое согласуется с родом: αυτός + ο, αυτή + η, αυτό + το. Учитывайте греческий род, даже если русский другой.',
+      'В этой фразе русское «это» не меняется. Греческое ${noun.greek} — ${_greekGenderRu(noun)} род, поэтому ${noun.demonstrative.toLowerCase()} и артикль ${noun.greek.split(' ').first}. Род русского перевода может отличаться.',
       alternatives: noun.id == 'beer' ? ['Αυτή είναι η μπύρα.'] : [],
     ),
 ];
@@ -641,7 +644,7 @@ List<VocabularyCard> _possessionDrills() => [
         '${_demonstrativeSound(noun.demonstrative).en} I-ne ${noun.id == 'phone' ? 'to ti-LE-fo-NO' : noun.soundEn} ${owner.$5}',
         '${_demonstrativeSound(noun.demonstrative).ru} И-нэ ${noun.id == 'phone' ? 'то ти-ЛЭ-фо-НО' : noun.soundRu} ${owner.$6}',
         'The demonstrative and article follow the noun’s gender. The final possessive follows the owner.${noun.id == 'phone' ? ' Τηλέφωνό takes a second accent before the unstressed possessive.' : ''}',
-        'Αυτός/αυτή/αυτό и артикль зависят от рода предмета; ${owner.$2} — от владельца. Как «его сумка»: владелец мужчина, но сумка женского рода.${noun.id == 'phone' ? ' Перед безударным ${owner.$2} нужно второе ударение: τηλέφωνό ${owner.$2}.' : ''}',
+        '${noun.greek} — ${_greekGenderRu(noun)} род в греческом, поэтому ${noun.demonstrative.toLowerCase()} и ${noun.greek.split(' ').first}. ${owner.$2} означает «${owner.$4.first}» и стоит после существительного; его форма не зависит от рода или числа этого существительного.${noun.id == 'phone' ? ' У τηλέφωνο ударение на третьем слоге от конца, поэтому перед ${owner.$2} добавляем второе: τηλέφωνό ${owner.$2}.' : ''}',
       ),
   lessonCard(
     'her-number',

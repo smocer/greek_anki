@@ -6,7 +6,7 @@ const buyPresentDeck = VocabularyDeck(
   title: LocalizedText(en: 'To buy: αγοράζω', ru: 'Покупать: αγοράζω'),
   subtitle: LocalizedText(
     en: 'Six persons + everyday sentences',
-    ru: 'Шесть лиц и фразы из жизни',
+    ru: 'Шесть форм и фразы из жизни',
   ),
   note: LocalizedText(
     en: 'Present endings: -ω, -εις, -ει, -ουμε, -ετε, -ουν(ε). Subject pronouns can be omitted. Αγοράζω describes buying; πληρώνω describes paying.',

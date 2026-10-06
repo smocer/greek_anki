@@ -10,7 +10,7 @@ const originDeck = VocabularyDeck(
   ),
   note: LocalizedText(
     en: 'For origin, από takes the accusative: η → τη(ν), ο → τον, το → το. Feminine την loses ν before many consonants, including ρ and γ.',
-    ru: 'Для происхождения: από + винительный, в отличие от русского «из + родительный». Перед ρ и γ женский артикль обычно τη; перед гласной и κ — την.',
+    ru: 'Для происхождения: από + винительный, в отличие от русского «из + родительный». Артикли: ο → τον, η → την, το → το.',
   ),
   cover: 'Από πού;',
   cards: [
@@ -27,7 +27,7 @@ const originDeck = VocabularyDeck(
       pronunciation: LocalizedText(en: 'a-PO pu I-se', ru: 'а-ПО пу И-сэ'),
       explanation: LocalizedText(
         en: 'Πού is “where”; από πού is “from where.”',
-        ru: 'Είσαι — «ты есть». Русское «ты» не заменяет греческую связку: она нужна.',
+        ru: 'В «Откуда ты?» по-русски нет глагола, а по-гречески нужен είσαι — форма «быть» для «ты».',
       ),
       greek: 'Από πού είσαι;',
     ),
@@ -61,7 +61,7 @@ const originDeck = VocabularyDeck(
       ),
       explanation: LocalizedText(
         en: 'Ρωσία is accusative; feminine την normally loses ν before ρ.',
-        ru: '«Из России» — родительный в русском; από τη Ρωσία — винительный в греческом. Перед ρ обычно τη; учебный вариант την тоже принимается.',
+        ru: '«Из России» — родительный в русском; από την Ρωσία — винительный в греческом. Род слова не меняется; η становится την.',
       ),
       greek: 'από τη Ρωσία',
       alternatives: ['από την Ρωσία'],
@@ -93,7 +93,7 @@ const originDeck = VocabularyDeck(
       ),
       explanation: LocalizedText(
         en: 'Keep ν before the vowel in Ελλάδα.',
-        ru: 'Перед гласной сохраняем ν: την Ελλάδα. Женское существительное здесь внешне не меняется.',
+        ru: 'Η Ελλάδα → από την Ελλάδα. После από нужен винительный; само название страны сохраняет форму.',
       ),
       greek: 'από την Ελλάδα',
     ),
@@ -127,7 +127,7 @@ const originDeck = VocabularyDeck(
       ),
       explanation: LocalizedText(
         en: 'Keep ν before the vowel sound /u/.',
-        ru: 'Перед ου («у») сохраняется ν: την Ουκρανία.',
+        ru: 'Η Ουκρανία → από την Ουκρανία. У страны женский род; после από нужен винительный.',
       ),
       greek: 'από την Ουκρανία',
     ),
@@ -161,7 +161,7 @@ const originDeck = VocabularyDeck(
       ),
       explanation: LocalizedText(
         en: 'Feminine accusative; keep ν before α.',
-        ru: 'Η → την, потому что после από нужен винительный; перед α сохраняем ν.',
+        ru: 'Η Αγγλία → από την Αγγλία. После από нужен винительный: η заменяется на την.',
       ),
       greek: 'από την Αγγλία',
     ),
@@ -178,7 +178,7 @@ const originDeck = VocabularyDeck(
       ),
       explanation: LocalizedText(
         en: 'Feminine τη normally has no final ν before γ.',
-        ru: 'Перед γ в женском артикле обычно нет ν: τη Γερμανία. Вариант την принимается.',
+        ru: 'Η Γερμανία → από την Γερμανία. Как «из Германии», но в греческом после από нужен винительный.',
       ),
       greek: 'από τη Γερμανία',
       alternatives: ['από την Γερμανία'],
@@ -196,7 +196,7 @@ const originDeck = VocabularyDeck(
       ),
       explanation: LocalizedText(
         en: 'Combine the present copula with από + accusative.',
-        ru: 'В русском «есть» опущено. В греческом είμαι обязательно; артикль τη тоже часть конструкции.',
+        ru: 'В «Я из России» по-русски нет глагола. По-гречески нужен είμαι: είμαι από την Ρωσία.',
       ),
       greek: 'Είμαι από τη Ρωσία.',
       alternatives: ['Είμαι από την Ρωσία.'],

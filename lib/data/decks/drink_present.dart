@@ -24,7 +24,7 @@ const drinkPresentDeck = VocabularyDeck(
       pronunciation: LocalizedText(en: 'PI-no', ru: 'ПИ-но'),
       explanation: LocalizedText(
         en: 'First person singular. The stress stays on πί.',
-        ru: 'Первое лицо единственного числа: «я». Ударение остаётся на πί во всех этих формах.',
+        ru: 'Первое лицо единственного числа: «я». Ударение на πί; ι читается «и».',
       ),
       greek: 'πίνω',
 
@@ -40,7 +40,7 @@ const drinkPresentDeck = VocabularyDeck(
       pronunciation: LocalizedText(en: 'PI-nis', ru: 'ПИ-нис'),
       explanation: LocalizedText(
         en: 'Second person singular. The stress stays on πί.',
-        ru: 'Второе лицо единственного числа: «ты». Ударение остаётся на πί во всех этих формах.',
+        ru: 'Второе лицо единственного числа: «ты». Ударение на πί; ι читается «и».',
       ),
       greek: 'πίνεις',
 
@@ -56,7 +56,7 @@ const drinkPresentDeck = VocabularyDeck(
       pronunciation: LocalizedText(en: 'PI-ni', ru: 'ПИ-ни'),
       explanation: LocalizedText(
         en: 'Third person singular; also she or it. The stress stays on πί.',
-        ru: 'Третье лицо единственного числа; та же форма для «она/оно». Ударение остаётся на πί во всех этих формах.',
+        ru: 'Третье лицо единственного числа; та же форма для «она/оно». Ударение на πί; ι читается «и».',
       ),
       greek: 'πίνει',
 
@@ -72,7 +72,7 @@ const drinkPresentDeck = VocabularyDeck(
       pronunciation: LocalizedText(en: 'PI-nu-me', ru: 'ПИ-ну-мэ'),
       explanation: LocalizedText(
         en: 'First person plural. The stress stays on πί.',
-        ru: 'Первое лицо множественного числа: «мы». Ударение остаётся на πί во всех этих формах.',
+        ru: 'Первое лицо множественного числа: «мы». Ударение на πί; ι читается «и».',
       ),
       greek: 'πίνουμε',
 
@@ -88,7 +88,7 @@ const drinkPresentDeck = VocabularyDeck(
       pronunciation: LocalizedText(en: 'PI-ne-te', ru: 'ПИ-нэ-тэ'),
       explanation: LocalizedText(
         en: 'Plural, also polite singular. The stress stays on πί.',
-        ru: 'Форма «вы/Вы», как русское вежливое множественное число. Ударение остаётся на πί во всех этих формах.',
+        ru: 'Форма «вы/Вы», как русское вежливое множественное число. Ударение на πί; ι читается «и».',
       ),
       greek: 'πίνετε',
 
@@ -104,7 +104,7 @@ const drinkPresentDeck = VocabularyDeck(
       pronunciation: LocalizedText(en: 'PI-nun', ru: 'ПИ-нун'),
       explanation: LocalizedText(
         en: 'Third person plural. The stress stays on πί.',
-        ru: 'Третье лицо множественного числа: «они». Ударение остаётся на πί во всех этих формах.',
+        ru: 'Третье лицо множественного числа: «они». Ударение на πί; ι читается «и».',
       ),
       greek: 'πίνουν',
       alternatives: ['πίνουνε'],

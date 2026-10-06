@@ -6,7 +6,7 @@ const payPresentDeck = VocabularyDeck(
   title: LocalizedText(en: 'To pay: πληρώνω', ru: 'Платить: πληρώνω'),
   subtitle: LocalizedText(
     en: 'Six persons + everyday sentences',
-    ru: 'Шесть лиц и фразы из жизни',
+    ru: 'Шесть форм и фразы из жизни',
   ),
   note: LocalizedText(
     en: 'Present endings: -ω, -εις, -ει, -ουμε, -ετε, -ουν(ε). Subject pronouns can be omitted. Πληρώνω is pay money, not cry.',
@@ -114,7 +114,7 @@ const payPresentDeck = VocabularyDeck(
     ),
     VocabularyCard(
       id: 'pay-now',
-      prompt: LocalizedText(en: 'I pay now.', ru: 'Я плачу сейчас.'),
+      prompt: LocalizedText(en: 'I pay now.', ru: 'Я сейчас расплачиваюсь.'),
       meaning: LocalizedText(
         en: 'Translate into Greek.',
         ru: 'Переведите на греческий.',

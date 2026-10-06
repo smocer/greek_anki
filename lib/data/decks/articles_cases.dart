@@ -27,7 +27,7 @@ const articlesCasesDeck = VocabularyDeck(
       pronunciation: LocalizedText(en: 'o FI-los', ru: 'о ФИ-лос'),
       explanation: LocalizedText(
         en: 'Masculine nominative singular: ο + φίλος.',
-        ru: 'Ο φίλος — именительный: «друг». В отличие от русского меняется и артикль.',
+        ru: 'Φίλος — «друг», мужского рода. Женская форма — φίλη, «подруга».',
       ),
       greek: 'ο φίλος',
     ),
@@ -95,7 +95,7 @@ const articlesCasesDeck = VocabularyDeck(
       pronunciation: LocalizedText(en: 'ti FI-li', ru: 'ти ФИ-ли'),
       explanation: LocalizedText(
         en: 'The feminine noun stays φίλη; the article marks the accusative.',
-        ru: 'В русском «подруга → подругу», здесь существительное не меняется: η → τη. Перед φ обычно без ν.',
+        ru: 'В русском «подруга → подругу» меняется окончание; в греческом винительный виден по артиклю, а φίλη сохраняет форму.',
       ),
       greek: 'τη φίλη',
       alternatives: ['την φίλη'],

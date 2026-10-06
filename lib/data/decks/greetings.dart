@@ -153,7 +153,7 @@ const greetingsDeck = VocabularyDeck(
       id: 'nice-meeting',
       prompt: LocalizedText(
         en: 'Nice to meet you! (after an introduction)',
-        ru: 'Рад(а) знакомству! (через «обрадовался»)',
+        ru: 'Рад знакомству! (одно слово, буквально «обрадовался»)',
       ),
       meaning: LocalizedText(
         en: 'Translate into Greek.',

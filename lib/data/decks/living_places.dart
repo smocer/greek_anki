@@ -64,7 +64,7 @@ const livingPlacesDeck = VocabularyDeck(
       ),
       explanation: LocalizedText(
         en: 'Η Κυψέλη is feminine; ν remains before κ.',
-        ru: 'Район η Κυψέλη: женский род, поэтому στην, не στον. Перед κ сохраняется ν.',
+        ru: 'Район η Κυψέλη: женский род, поэтому στην, не στον.',
       ),
       acceptedAnswers: ['Εγώ μένω στην Κυψέλη.'],
     ),
@@ -121,7 +121,7 @@ const livingPlacesDeck = VocabularyDeck(
       ),
       explanation: LocalizedText(
         en: 'Nicosia is Λευκωσία in Greek; στη normally loses ν before λ.',
-        ru: 'Никосия по-гречески Λευκωσία. Перед λ обычно στη; вариант στην из тетради тоже принимается.',
+        ru: 'Никосия по-гречески Λευκωσία, женского рода: μένω στην Λευκωσία — «я живу в Никосии».',
       ),
       alternatives: ['Μένω στην Λευκωσία.'],
       acceptedAnswers: ['Εγώ μένω στη Λευκωσία.', 'Εγώ μένω στην Λευκωσία.'],
@@ -182,7 +182,7 @@ const livingPlacesDeck = VocabularyDeck(
       ),
       explanation: LocalizedText(
         en: 'Η Καλαμαριά is feminine; use στην before κ.',
-        ru: 'Η Καλαμαριά — женский род; σε + την = στην, ν перед κ сохраняется.',
+        ru: 'Η Καλαμαριά — женский род; σε + την = στην.',
       ),
       acceptedAnswers: ['Εγώ μένω στην Καλαμαριά.'],
     ),
@@ -221,7 +221,7 @@ const livingPlacesDeck = VocabularyDeck(
       ),
       explanation: LocalizedText(
         en: 'Η Φιλοθέη is feminine; στη usually loses ν before φ.',
-        ru: 'Перед φ обычно στη. В Φιλοθέη сочетание έη — два гласных, не один.',
+        ru: 'Φιλοθέη — женского рода: στην Φιλοθέη. Сочетание έη — два гласных, не один.',
       ),
       alternatives: ['Μένω στην Φιλοθέη.'],
       acceptedAnswers: ['Εγώ μένω στη Φιλοθέη.'],

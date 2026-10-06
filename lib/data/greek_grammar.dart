@@ -3,10 +3,13 @@ import '../domain/app_language.dart';
 LocalizedText _t(String en, String ru) => LocalizedText(en: en, ru: ru);
 
 class GrammarTable {
-  GrammarTable(this.title, this.headers, this.rows);
+  GrammarTable(this.title, this.headers, this.rows, {this.rowLabels});
   final LocalizedText title;
   final List<LocalizedText> headers;
   final List<List<String>> rows;
+
+  /// Localized first-column labels; Greek examples remain unchanged.
+  final List<LocalizedText>? rowLabels;
 }
 
 class GrammarTopic {
@@ -54,6 +57,7 @@ GrammarTable _verbs(
     for (var i = 0; i < 6; i++)
       [grammarPersons[i], for (final column in forms) column[i]],
   ],
+  rowLabels: _personLabels,
 );
 
 // Original beginner explanations and examples. Sources for the paradigms:
@@ -64,7 +68,7 @@ final _grammarTopics = <GrammarTopic>[
     _t('Be · είμαι', 'Быть · είμαι'),
     _t(
       'All six persons: present, past and future.',
-      'Все шесть лиц: настоящее, прошедшее и будущее.',
+      'Три лица в единственном и множественном числе: настоящее, прошедшее и будущее.',
     ),
     [
       _t(
@@ -77,7 +81,7 @@ final _grammarTopics = <GrammarTopic>[
       ),
       _t(
         'είμαι is irregular. Use ήμουν for past “was” and θα είμαι for future “will be”. Possession and noun cases belong to nouns and pronouns, not verb conjugation.',
-        'είμαι — неправильный глагол. Прошедшее «был» — ήμουν, будущее «буду» — θα είμαι. Принадлежность и падежи относятся к именам и местоимениям, а не к спряжению.',
+        'είμαι — неправильный глагол. Прошедшее «был» — ήμουν, будущее «буду» — θα είμαι. Принадлежность и падежи относятся к существительным и местоимениям, а не к спряжению.',
       ),
     ],
     [
@@ -150,16 +154,16 @@ final _grammarTopics = <GrammarTopic>[
     ),
     [
       _t(
-        'γράφω = I write; έγραψα = I wrote; θα γράψω = I will write. Use the past for an action that happened and the future for an action you will do.',
-        'γράφω = я пишу; έγραψα = я написал; θα γράψω = я напишу. Прошедшее — действие, которое произошло; будущее — действие, которое вы сделаете.',
+        'Aspect distinguishes a process or repetition from an action viewed as a whole: έγραφα = I was writing / used to write; έγραψα = I wrote; θα γράφω = I will be writing; θα γράψω = I will write (as a whole action).',
+        'Сравните: έγραφα — «писал» (процесс или повторение), έγραψα — «написал» (действие как целое); θα γράφω — «буду писать», θα γράψω — «напишу». Это помогает понять греческий вид, хотя он не во всём совпадает с русским совершенным и несовершенным видом.',
       ),
       _t(
-        'Common past endings: -α, -ες, -ε, -αμε, -ατε, -αν. Some verbs add έ- and move the stress: έγραψα, but γράψαμε. Learn the past form with each verb.',
-        'Частые окончания прошедшего: -α, -ες, -ε, -αμε, -ατε, -αν. У некоторых глаголов появляется έ- и меняется ударение: έγραψα, но γράψαμε. Учите прошедшую форму вместе с глаголом.',
+        'Common aorist endings (action viewed as a whole): -α, -ες, -ε, -αμε, -ατε, -αν. Some verbs add έ- and move the stress: έγραψα, but γράψαμε. Learn the past form with each verb.',
+        'Частые окончания аориста (действие как целое): -α, -ες, -ε, -αμε, -ατε, -αν. У некоторых глаголов появляется έ- и меняется ударение: έγραψα, но γράψαμε. Учите прошедшую форму вместе с глаголом.',
       ),
       _t(
-        'The future uses θα, but the verb may change: γράφω → θα γράψω; διαβάζω → θα διαβάσω; βλέπω → θα δω; πηγαίνω → θα πάω. Do not simply add θα to every present form.',
-        'Будущее образуется с θα, но глагол может измениться: γράφω → θα γράψω; διαβάζω → θα διαβάσω; βλέπω → θα δω; πηγαίνω → θα πάω. Не добавляйте θα к любой настоящей форме автоматически.',
+        'For a process or repetition, use θα with the present form: θα γράφω. For an action viewed as a whole, use the perfective stem: θα γράψω, θα διαβάσω, θα δω, θα πάω.',
+        'Для процесса или повторения используем θα с формой настоящего: θα γράφω — «буду писать». Для действия как целого нужна другая основа: θα γράψω — «напишу», θα διαβάσω — «прочитаю», θα δω — «увижу», θα πάω — «пойду».',
       ),
     ],
     [
@@ -188,8 +192,8 @@ final _grammarTopics = <GrammarTopic>[
     ),
     [
       _t(
-        'γράφω → γράφομαι: the subject receives the action. Το γράμμα γράφτηκε από τη Μαρία. = The letter was written by Maria. από introduces the agent.',
-        'γράφω → γράφομαι: действие направлено на подлежащее. Το γράμμα γράφτηκε από τη Μαρία. = Письмо написала Мария. από вводит исполнителя.',
+        'γράφω → γράφομαι: the subject receives the action. Το γράμμα γράφτηκε από την Μαρία. = The letter was written by Maria. από introduces the agent.',
+        'γράφω → γράφομαι: действие направлено на подлежащее. Το γράμμα γράφτηκε από την Μαρία. = Письмо было написано Марией. από вводит исполнителя.',
       ),
       _t(
         'Common present endings: -ομαι, -εσαι, -εται, -όμαστε, -εστε, -ονται. Past passive often uses -τηκα or -θηκα, but stems and stress vary by verb. Other passive conjugation groups also exist.',
@@ -210,8 +214,8 @@ final _grammarTopics = <GrammarTopic>[
         'Пассив · Три времени',
         [
           _t('Present', 'Настоящее'),
-          _t('Past', 'Прошедшее'),
-          _t('Future', 'Будущее'),
+          _t('Past · whole action', 'Прошедшее · действие целиком'),
+          _t('Future · whole action', 'Будущее · действие целиком'),
         ],
         [
           [
@@ -259,8 +263,8 @@ final _grammarTopics = <GrammarTopic>[
         'Ο φίλος βλέπει τον δάσκαλο. = Друг видит учителя. Το βιβλίο του φίλου. = Книга друга. Φίλε! = Друг! При обращении артикля обычно нет.',
       ),
       _t(
-        'την can lose final ν before some consonants: τη Μαρία, but την Άννα. Masculine τον retains ν in standard school spelling. Neuter nominative, accusative and vocative forms are identical.',
-        'την может терять конечное ν перед некоторыми согласными: τη Μαρία, но την Άννα. Мужское τον сохраняет ν в школьной орфографии. У среднего рода именительный, винительный и звательный совпадают.',
+        'Neuter nominative, accusative and vocative forms are identical: το βιβλίο, το βιβλίο, βιβλίο! The article is omitted in direct address.',
+        'У среднего рода именительный, винительный и звательный совпадают: το βιβλίο, το βιβλίο, βιβλίο! При обращении артикль опускается.',
       ),
     ],
     [
@@ -275,7 +279,7 @@ final _grammarTopics = <GrammarTopic>[
         [
           ['Nominative', 'ο / οι', 'η / οι', 'το / τα'],
           ['Genitive', 'του / των', 'της / των', 'του / των'],
-          ['Accusative', 'τον / τους', 'τη(ν) / τις', 'το / τα'],
+          ['Accusative', 'τον / τους', 'την / τις', 'το / τα'],
           ['Vocative', '— / —', '— / —', '— / —'],
         ],
       ),
@@ -327,22 +331,30 @@ final _grammarTopics = <GrammarTopic>[
     ),
     [
       _t(
-        'A genitive noun answers “whose?”: το βιβλίο του Νίκου = Nikos’s book; η τσάντα της Μαρίας = Maria’s bag. Both the article and noun change to the genitive.',
-        'Родительный отвечает на вопрос «чей?»: το βιβλίο του Νίκου = книга Никоса; η τσάντα της Μαρίας = сумка Марии. В родительном меняются и артикль, и существительное.',
+        'A genitive noun answers “whose?”: το βιβλίο του Νίκου = Nikos’s book; η τσάντα της Μαρίας = Maria’s bag. The article changes to the genitive; declinable nouns also change their ending.',
+        'Родительный можно сопоставить с русским «кого? чего?». Он в том числе показывает принадлежность: το βιβλίο του Νίκου — книга Никоса (чья книга?); η τσάντα της Μαρίας — сумка Марии. Артикль принимает форму родительного; окончание существительного меняется, если слово склоняется.',
       ),
       _t(
         'Short possessives follow the noun: μου, σου, του/της/του, μας, σας, τους. These forms identify the owner; they do not agree with the owned object. το σπίτι μου / τα σπίτια μου = my house / houses.',
-        'Краткие притяжательные формы стоят после имени: μου, σου, του/της/του, μας, σας, τους. Они указывают владельца, а не род и число предмета. το σπίτι μου / τα σπίτια μου = мой дом / мои дома.',
+        'Краткие притяжательные формы стоят после существительного: μου, σου, του, της, μας, σας, τους. Они указывают, к кому относится слово, и не меняются по роду или числу этого существительного: το σπίτι μου / τα σπίτια μου — мой дом / мои дома. Του относится к αυτός или αυτό; της — к αυτή; τους — к любому «они».',
       ),
       _t(
         'Emphasis: δικός μου / δική μου / δικό μου = mine. δικός agrees with the object: το δικό μου βιβλίο, η δική μου τσάντα. Add a second written stress when required: το μάθημά μου, το όνομά σου.',
-        'Выделение: δικός μου / δική μου / δικό μου = мой/моя/моё. δικός согласуется с предметом: το δικό μου βιβλίο, η δική μου τσάντα. При необходимости добавляется второе ударение: το μάθημά μου, το όνομά σου.',
+        'Для подчёркивания принадлежности: το δικό μου βιβλίο — именно моя книга; η δική μου τσάντα — именно моя сумка. Δικός меняется по роду греческого существительного, а μου остаётся тем же. Если у существительного ударение на третьем слоге от конца, перед краткой притяжательной формой добавляется ещё одно на последнем: το μάθημά μου, το όνομά σου. У βιβλίο ударение на втором слоге от конца, поэтому το βιβλίο μου — без второго ударения.',
+      ),
+      _t(
+        'Russian свой changes with the subject in these Greek constructions: διαβάζω το βιβλίο μου, διαβάζεις το βιβλίο σου, διαβάζουμε τα βιβλία μας.',
+        'Русское «свой» здесь передаём формой, которая соответствует действующему лицу: διαβάζω το βιβλίο μου — я читаю свою книгу; διαβάζεις το βιβλίο σου — ты читаешь свою книгу; διαβάζουμε τα βιβλία μας — мы читаем свои книги. Одной неизменной замены для «свой» в этих конструкциях нет.',
       ),
     ],
     [
       GrammarTable(
         _t('Possessive forms', 'Притяжательные формы'),
-        [_t('Owner', 'Владелец'), _t('Form', 'Форма'), _t('Example', 'Пример')],
+        [
+          _t('Refers to', 'К кому относится'),
+          _t('Form', 'Форма'),
+          _t('Example', 'Пример'),
+        ],
         [
           ['εγώ', 'μου', 'το βιβλίο μου'],
           ['εσύ', 'σου', 'το βιβλίο σου'],
@@ -351,6 +363,7 @@ final _grammarTopics = <GrammarTopic>[
           ['εσείς', 'σας', 'το βιβλίο σας'],
           ['αυτοί / αυτές / αυτά', 'τους', 'το βιβλίο τους'],
         ],
+        rowLabels: _personLabels,
       ),
     ],
   ),
@@ -396,12 +409,12 @@ final _grammarTopics = <GrammarTopic>[
     ),
     [
       _t(
-        'Most everyday prepositions take an accusative noun phrase: σε = in/to/at, από = from/by, με = with, για = for, χωρίς = without. The preposition itself does not change for gender or number; its article and noun do.',
-        'Большинство повседневных предлогов требуют винительного: σε = в/на/к, από = из/от, με = с, για = для, χωρίς = без. Предлог не меняется по роду и числу; меняются артикль и существительное.',
+        'Most everyday prepositions take an accusative noun phrase: σε = in/to/at, από = from/by, με = with, για = for, χωρίς = without. The preposition itself does not change. The article and declinable noun take the required case; the noun keeps its gender.',
+        'Большинство повседневных предлогов требуют винительного: σε = в/на/к, από = из/от, με = с, για = для, χωρίς = без. Предлог сам не изменяется. Артикль и склоняемое существительное принимают форму нужного падежа; род существительного остаётся прежним.',
       ),
       _t(
-        'σε + definite article contracts: στον, στην, στο; στους, στις, στα. Στο σχολείο. = At/to school. Από τη δουλειά. = From work. Με τους φίλους. = With the friends.',
-        'σε с определённым артиклем сливается: στον, στην, στο; στους, στις, στα. Στο σχολείο. = В школу/в школе. Από τη δουλειά. = С работы. Με τους φίλους. = С друзьями.',
+        'σε + definite article contracts: στον, στην, στο; στους, στις, στα. Στο σχολείο. = At/to school. Από την δουλειά. = From work. Με τους φίλους. = With the friends.',
+        'σε с определённым артиклем сливается: στον, στην, στο; στους, στις, στα. Στο σχολείο. = В школу/в школе. Από την δουλειά. = С работы. Με τους φίλους. = С друзьями.',
       ),
       _t(
         'Some formal prepositions take genitive: λόγω της βροχής = because of the rain; εκτός της πόλης = outside the city. Compound expressions have their own patterns: μπροστά από το σπίτι, κοντά στο σπίτι. Case depends on the expression.',
@@ -423,6 +436,11 @@ final _grammarTopics = <GrammarTopic>[
           ['Masculine', 'σε + τον → στον φίλο', 'σε + τους → στους φίλους'],
           ['Feminine', 'σε + την → στην πόρτα', 'σε + τις → στις πόρτες'],
           ['Neuter', 'σε + το → στο βιβλίο', 'σε + τα → στα βιβλία'],
+        ],
+        rowLabels: [
+          _t('Masculine', 'Мужской'),
+          _t('Feminine', 'Женский'),
+          _t('Neuter', 'Средний'),
         ],
       ),
     ],
@@ -473,7 +491,7 @@ const _nounPatterns = <String, List<String>>{
   'η φωνή · -η': [
     'η φωνή',
     'της φωνής',
-    'τη φωνή',
+    'την φωνή',
     'φωνή',
     'οι φωνές',
     'των φωνών',
@@ -513,14 +531,22 @@ const _nounPatterns = <String, List<String>>{
 };
 
 const _personLabels = [
-  'I',
-  'You · singular',
-  'He / She / It',
-  'We',
-  'You · plural / polite',
-  'They',
+  LocalizedText(en: 'I', ru: 'Я'),
+  LocalizedText(en: 'You · singular', ru: 'Ты'),
+  LocalizedText(en: 'He / She / It', ru: 'Он / Она / Оно'),
+  LocalizedText(en: 'We', ru: 'Мы'),
+  LocalizedText(
+    en: 'You · plural / polite',
+    ru: 'Вы · группа или вежливое обращение',
+  ),
+  LocalizedText(en: 'They', ru: 'Они'),
 ];
-const _caseLabels = ['Nominative', 'Genitive', 'Accusative', 'Vocative'];
+const _caseLabels = [
+  LocalizedText(en: 'Nominative', ru: 'Именительный'),
+  LocalizedText(en: 'Genitive', ru: 'Родительный'),
+  LocalizedText(en: 'Accusative', ru: 'Винительный'),
+  LocalizedText(en: 'Vocative', ru: 'Звательный'),
+];
 
 // Consolidate topics that teach the same forms, preserving their explanations.
 final greekGrammar = _mergeGrammar();
@@ -544,22 +570,24 @@ List<GrammarTopic> _mergeGrammar() {
       ),
       [...present.notes, ...pastFuture.notes],
       [
-        GrammarTable(
-          _t('Ordinary verbs · Three tenses', 'Обычные глаголы · Три времени'),
+        ...present.tables,
+        _verbs(
+          'Writing · Past and future',
+          'Писать · Прошедшее и будущее',
           [
-            _t('Person', 'Лицо'),
-            _t('Write · Present', 'Писать · Настоящее'),
-            _t('Write · Past', 'Писать · Прошедшее'),
-            _t('Write · Future', 'Писать · Будущее'),
-            _t('Love · Present', 'Любить · Настоящее'),
-            _t('Can · Present', 'Мочь · Настоящее'),
+            _t('Past · process / repetition', 'Писал · процесс / повторение'),
+            _t('Past · whole action', 'Написал · действие целиком'),
+            _t(
+              'Future · process / repetition',
+              'Буду писать · процесс / повторение',
+            ),
+            _t('Future · whole action', 'Напишу · действие целиком'),
           ],
           [
-            for (var i = 0; i < 6; i++)
-              [
-                ...pastFuture.tables.first.rows[i],
-                ...present.tables.first.rows[i].skip(2),
-              ],
+            ['έγραφα', 'έγραφες', 'έγραφε', 'γράφαμε', 'γράφατε', 'έγραφαν'],
+            ['έγραψα', 'έγραψες', 'έγραψε', 'γράψαμε', 'γράψατε', 'έγραψαν'],
+            [for (final form in _writePresent) 'θα $form'],
+            [for (final form in _writeFuture) 'θα $form'],
           ],
         ),
       ],
@@ -576,7 +604,7 @@ List<GrammarTopic> _mergeGrammar() {
       [
         for (var i = 0; i < 4; i++)
           GrammarTable(
-            LocalizedText.shared(_caseLabels[i]),
+            _caseLabels[i],
             [
               _t('Noun', 'Существительное'),
               _t('Singular', 'Единственное'),
@@ -597,15 +625,5 @@ List<GrammarTopic> _mergeGrammar() {
     topic('possession'),
     topic('prepositions'),
   ];
-  // Row labels explain grammatical roles; Greek remains in example forms.
-  for (final item in result) {
-    if (['be', 'verbs', 'passive', 'possession'].contains(item.id)) {
-      for (final table in item.tables) {
-        for (var i = 0; i < table.rows.length; i++) {
-          table.rows[i][0] = _personLabels[i];
-        }
-      }
-    }
-  }
   return result;
 }

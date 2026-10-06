@@ -67,7 +67,7 @@ const locationDeck = VocabularyDeck(
       pronunciation: LocalizedText(en: 'stin e-LA-dha', ru: 'стин э-ЛА-да'),
       explanation: LocalizedText(
         en: 'Keep ν before the vowel in Ελλάδα.',
-        ru: 'Перед гласной в Ελλάδα сохраняем ν: στην Ελλάδα.',
+        ru: 'Η Ελλάδα → στην Ελλάδα. Σε соединяется с артиклем винительного падежа την.',
       ),
       greek: 'στην Ελλάδα',
     ),
@@ -115,7 +115,7 @@ const locationDeck = VocabularyDeck(
       pronunciation: LocalizedText(en: 'stin TA-ksi', ru: 'стин ТА-кси'),
       explanation: LocalizedText(
         en: 'Η τάξη is feminine; keep ν before τ.',
-        ru: 'Η τάξη — женский род. Перед τ в артикле сохраняется ν.',
+        ru: 'Η τάξη — женский род: σε + την τάξη → στην τάξη.',
       ),
       greek: 'στην τάξη',
     ),

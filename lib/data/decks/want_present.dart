@@ -6,7 +6,7 @@ const wantPresentDeck = VocabularyDeck(
   title: LocalizedText(en: 'To want: θέλω', ru: 'Хотеть: θέλω'),
   subtitle: LocalizedText(
     en: 'Six persons + everyday sentences',
-    ru: 'Шесть лиц и фразы из жизни',
+    ru: 'Шесть форм и фразы из жизни',
   ),
   note: LocalizedText(
     en: 'Present endings: -ω, -εις, -ει, -ουμε, -ετε, -ουν(ε). Subject pronouns can be omitted. Θέλω follows the regular present endings. Θ is the sound in English thin.',

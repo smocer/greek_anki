@@ -30,7 +30,7 @@ const greekLetterPairs = [
       'pair-ei',
       'είμαι',
       'ˈime',
-      LocalizedText(en: 'I am', ru: 'я есть'),
+      LocalizedText(en: 'I am', ru: 'быть — форма для «я»'),
     ),
   ]),
   GreekLetterPair('οι', 'i', LocalizedText(en: 'Like ι.', ru: 'Как ι.'), [

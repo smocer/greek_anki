@@ -79,7 +79,7 @@ const nounGenderDeck = VocabularyDeck(
       pronunciation: LocalizedText(en: 'i ma-RI-a', ru: 'и ма-РИ-а'),
       explanation: LocalizedText(
         en: 'A feminine name in -α.',
-        ru: 'Как Мария в русском, Μαρία — женский род. Нужен артикль η.',
+        ru: 'Μαρία — женское имя, как русское «Мария»; в именительном используется артикль η.',
       ),
     ),
     VocabularyCard(

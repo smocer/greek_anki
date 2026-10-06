@@ -150,7 +150,7 @@ final octoberWords = [
     'wrong',
     'λάθος',
     'Wrong / a mistake',
-    'Неправильно / ошибка',
+    'Неверно (о правильности ответа в задании)',
     'LA-thos',
     'ЛА-тос',
     'As a noun: το λάθος, a mistake. In Σωστό ή λάθος; it means true or false / right or wrong.',
@@ -161,11 +161,11 @@ final octoberWords = [
     'correct',
     'σωστό',
     'Correct / right (neuter)',
-    'Правильно / верное (средний род)',
+    'Верно (о правильности ответа в задании)',
     'so-STO',
     'со-СТО',
     'Adjective forms: σωστός, σωστή, σωστό. The exercise label uses the neuter form.',
-    'Прилагательное меняется по роду: σωστός / σωστή / σωστό — как «верный / верная / верное». В заданиях: σωστό — «верно».',
+    'В задании σωστό означает «верно»: это форма среднего рода прилагательного σωστός. Не путайте с наречием σωστά — «правильно»: γράφω σωστά — «я пишу правильно».',
     label: VocabularyLabel.adjective,
   ),
   lessonCard(
@@ -290,15 +290,8 @@ final possessiveWords = [
   for (final item in const [
     ('my', 'μου', 'My (possessive)', 'Мой', 'mu', 'му'),
     ('your', 'σου', 'Your (possessive, informal)', 'Твой', 'su', 'су'),
-    (
-      'his',
-      'του',
-      'His / its (possessive)',
-      'Его (принадлежит ему)',
-      'tu',
-      'ту',
-    ),
-    ('her', 'της', 'Her (possessive)', 'Её (принадлежит ей)', 'tis', 'тис'),
+    ('his', 'του', 'His / its (possessive)', 'Его', 'tu', 'ту'),
+    ('her', 'της', 'Her (possessive)', 'Её', 'tis', 'тис'),
     ('our', 'μας', 'Our (possessive)', 'Наш', 'mas', 'мас'),
     (
       'your-plural',
@@ -308,14 +301,7 @@ final possessiveWords = [
       'sas',
       'сас',
     ),
-    (
-      'their',
-      'τους',
-      'Their (possessive, any gender)',
-      'Их (любой род владельцев)',
-      'tus',
-      'тус',
-    ),
+    ('their', 'τους', 'Their (possessive, any gender)', 'Их', 'tus', 'тус'),
   ])
     lessonCard(
       'possessive-${item.$1}',
@@ -325,7 +311,7 @@ final possessiveWords = [
       item.$5,
       item.$6,
       'A possessive follows the noun and does not change with its gender: το βιβλίο ${item.$2}.',
-      'После существительного: το βιβλίο ${item.$2}. Форма зависит от владельца и не меняется по роду или числу предмета.',
+      '${item.$2} — «${item.$4.toLowerCase()}». Ставится после существительного: το βιβλίο ${item.$2}. Указывает, к кому относится книга; не меняется по роду или числу существительного.',
       label: VocabularyLabel.pronoun,
     ),
   lessonCard(
@@ -398,9 +384,33 @@ final possessiveWords = [
 
 final demonstrativeWords = [
   for (final item in const [
-    ('masculine', 'αυτός', 'masculine', 'Этот', 'af-TOS', 'аф-ТОС'),
-    ('feminine', 'αυτή', 'feminine', 'Эта', 'af-TI', 'аф-ТИ'),
-    ('neuter', 'αυτό', 'neuter', 'Это', 'af-TO', 'аф-ТО'),
+    (
+      'masculine',
+      'αυτός',
+      'masculine',
+      'Этот',
+      'af-TOS',
+      'аф-ТОС',
+      'Мужской род: αυτός ο φίλος — «этот друг».',
+    ),
+    (
+      'feminine',
+      'αυτή',
+      'feminine',
+      'Эта',
+      'af-TI',
+      'аф-ТИ',
+      'Женский род: αυτή η τσάντα — «эта сумка».',
+    ),
+    (
+      'neuter',
+      'αυτό',
+      'neuter',
+      'Это',
+      'af-TO',
+      'аф-ТО',
+      'Средний род: αυτό το βιβλίο — «эта книга». По-гречески βιβλίο среднего рода, хотя по-русски «книга» женского.',
+    ),
   ])
     lessonCard(
       'this-${item.$1}',
@@ -410,7 +420,7 @@ final demonstrativeWords = [
       item.$5,
       item.$6,
       'The form agrees with the Greek noun. The same word can also be a personal pronoun; context determines its meaning.',
-      'Как русское «этот / эта / это», форма согласуется с родом существительного. Это те же формы, что «он / она / оно», но с указательным значением.',
+      '${item.$7} Выбираем форму по роду греческого существительного. Здесь это указательное местоимение.',
       label: VocabularyLabel.pronoun,
     ),
 ];

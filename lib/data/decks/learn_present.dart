@@ -9,7 +9,7 @@ const learnPresentDeck = VocabularyDeck(
   ),
   subtitle: LocalizedText(
     en: 'Six persons + everyday sentences',
-    ru: 'Шесть лиц и фразы из жизни',
+    ru: 'Шесть форм и фразы из жизни',
   ),
   note: LocalizedText(
     en: 'Present endings: -ω, -εις, -ει, -ουμε, -ετε, -ουν(ε). Subject pronouns can be omitted. Μαθαίνω means acquire knowledge or a skill; it can also mean find out.',

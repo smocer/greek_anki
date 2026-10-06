@@ -55,7 +55,7 @@ final basicVerbsDeck = VocabularyDeck(
   cover: 'κάνω · έχω',
   note: const LocalizedText(
     en: 'Learn each verb in the first-person singular: κάνω means I do, έχω means I have. The separate conjugation drill practices six persons with μένω, διαβάζω, and καταλαβαίνω. Είμαι, λέγομαι, and τραγουδώ have their own grammar topics.',
-    ru: 'Учим глаголы в первом лице единственного числа: κάνω — «я делаю», έχω — «у меня есть». Это формы «я», а не русские инфинитивы «делать» и «иметь». В отдельной тренировке спряжения — все шесть лиц μένω, διαβάζω и καταλαβαίνω. Для είμαι, λέγομαι и τραγουδώ есть отдельные грамматические темы.',
+    ru: 'Учим глаголы в первом лице единственного числа: κάνω — «я делаю», έχω — «у меня есть». Это формы «я», а не русские инфинитивы «делать» и «иметь». В отдельной тренировке спряжения — все шесть форм μένω, διαβάζω и καταλαβαίνω. Для είμαι, λέγομαι и τραγουδώ есть отдельные грамматические темы.',
   ),
   cards: List.unmodifiable([
     for (final source in everydayVerbSources)
@@ -74,7 +74,7 @@ final presentConjugationDeck = VocabularyDeck(
   id: 'present-conjugation',
   title: const LocalizedText(
     en: 'Verb endings: six persons',
-    ru: 'Спряжение: шесть лиц',
+    ru: 'Спряжение: шесть форм',
   ),
   subtitle: const LocalizedText(
     en: 'μένω · διαβάζω · καταλαβαίνω',

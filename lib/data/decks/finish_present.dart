@@ -6,7 +6,7 @@ const finishPresentDeck = VocabularyDeck(
   title: LocalizedText(en: 'To finish: τελειώνω', ru: 'Заканчивать: τελειώνω'),
   subtitle: LocalizedText(
     en: 'Six persons + everyday sentences',
-    ru: 'Шесть лиц и фразы из жизни',
+    ru: 'Шесть форм и фразы из жизни',
   ),
   note: LocalizedText(
     en: 'Present endings: -ω, -εις, -ει, -ουμε, -ετε, -ουν(ε). Subject pronouns can be omitted. Τελειώνω can mean finish something or come to an end.',

@@ -32,7 +32,7 @@ const questionsDeck = VocabularyDeck(
       id: 'who-man',
       prompt: LocalizedText(
         en: 'Who? / which? (masculine singular)',
-        ru: 'Кто? / который? (мужской род)',
+        ru: 'Кто? (о мужчине)',
       ),
       meaning: LocalizedText(
         en: 'Write the question word or phrase.',
@@ -41,7 +41,7 @@ const questionsDeck = VocabularyDeck(
       pronunciation: LocalizedText(en: 'pyos', ru: 'пьос'),
       explanation: LocalizedText(
         en: 'Use masculine ποιος when asking about a man or a masculine noun.',
-        ru: 'Ποιος — мужской род; в русском «кто» одинаково для мужчин и женщин.',
+        ru: 'Ποιος είναι; — «Кто он?». Ποιος также значит «какой»: ποιος φίλος; — «какой друг?». В русском «кто» не различает род.',
       ),
       greek: 'ποιος;',
     ),
@@ -49,7 +49,7 @@ const questionsDeck = VocabularyDeck(
       id: 'who-woman',
       prompt: LocalizedText(
         en: 'Who? / which? (feminine singular)',
-        ru: 'Кто? / которая? (женский род)',
+        ru: 'Кто? (о женщине)',
       ),
       meaning: LocalizedText(
         en: 'Write the question word or phrase.',
@@ -58,7 +58,7 @@ const questionsDeck = VocabularyDeck(
       pronunciation: LocalizedText(en: 'pya', ru: 'пья'),
       explanation: LocalizedText(
         en: 'Feminine counterpart of ποιος.',
-        ru: 'Ποια — женский род, например «кто она?». Не ставьте ударение на односложном слове.',
+        ru: 'Ποια είναι; — «Кто она?». Ποια также значит «какая»: ποια τσάντα; — «какая сумка?». Слово односложное, без ударения.',
       ),
       greek: 'ποια;',
     ),
@@ -66,7 +66,7 @@ const questionsDeck = VocabularyDeck(
       id: 'which-neuter',
       prompt: LocalizedText(
         en: 'Which? (neuter singular)',
-        ru: 'Которое? (средний род)',
+        ru: 'Какое? (средний род в греческом)',
       ),
       meaning: LocalizedText(
         en: 'Write the question word or phrase.',

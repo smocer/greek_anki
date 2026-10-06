@@ -6,7 +6,7 @@ const havePresentDeck = VocabularyDeck(
   title: LocalizedText(en: 'To have: έχω', ru: 'Иметь / у меня есть: έχω'),
   subtitle: LocalizedText(
     en: 'Six persons + everyday sentences',
-    ru: 'Шесть лиц и фразы из жизни',
+    ru: 'Шесть форм и фразы из жизни',
   ),
   note: LocalizedText(
     en: 'Present endings: -ω, -εις, -ει, -ουμε, -ετε, -ουν(ε). Subject pronouns can be omitted. Greek uses a conjugated have verb for possession.',

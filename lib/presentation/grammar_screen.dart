@@ -80,7 +80,7 @@ class GrammarTopicScreen extends StatelessWidget {
             const SizedBox(height: 12),
             for (final table in topic.tables) ...[
               Text(
-                table.title.en,
+                context.localize(table.title),
                 style: Theme.of(context).textTheme.titleLarge,
               ),
               const SizedBox(height: 12),
@@ -100,12 +100,21 @@ class GrammarTopicScreen extends StatelessWidget {
                     ),
                     columns: [
                       for (final header in table.headers)
-                        DataColumn(label: Text(header.en)),
+                        DataColumn(label: Text(context.localize(header))),
                     ],
                     rows: [
-                      for (final row in table.rows)
+                      for (var i = 0; i < table.rows.length; i++)
                         DataRow(
-                          cells: [for (final cell in row) DataCell(Text(cell))],
+                          cells: [
+                            for (var j = 0; j < table.rows[i].length; j++)
+                              DataCell(
+                                Text(
+                                  j == 0 && table.rowLabels != null
+                                      ? context.localize(table.rowLabels![i])
+                                      : table.rows[i][j],
+                                ),
+                              ),
+                          ],
                         ),
                     ],
                   ),

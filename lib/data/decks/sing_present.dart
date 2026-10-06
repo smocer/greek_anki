@@ -40,7 +40,7 @@ const singPresentDeck = VocabularyDeck(
       pronunciation: LocalizedText(en: 'tra-ghu-DHAS', ru: 'тра-гу-ДАС'),
       explanation: LocalizedText(
         en: 'Second person singular. This verb has common alternative present-tense forms.',
-        ru: 'Второе лицо единственного числа: «ты». Есть параллельные разговорные формы; они перечислены среди принимаемых ответов.',
+        ru: 'Форма для «ты»: τραγουδάς. Ударение на последнем слоге, окончание -άς.',
       ),
       greek: 'τραγουδάς',
 
@@ -88,7 +88,7 @@ const singPresentDeck = VocabularyDeck(
       pronunciation: LocalizedText(en: 'tra-ghu-DHA-te', ru: 'тра-гу-ДА-тэ'),
       explanation: LocalizedText(
         en: 'Plural, also polite singular. This verb has common alternative present-tense forms.',
-        ru: 'Форма «вы/Вы», как русское вежливое множественное число. Есть параллельные разговорные формы; они перечислены среди принимаемых ответов.',
+        ru: 'Форма для «вы» или вежливого «Вы»: τραγουδάτε. Окончание -άτε.',
       ),
       greek: 'τραγουδάτε',
 

@@ -38,7 +38,7 @@ const classroomObjectsDeck = VocabularyDeck(
       pronunciation: LocalizedText(en: 'i se-LI-dha', ru: 'и сэ-ЛИ-да'),
       explanation: LocalizedText(
         en: 'Feminine; plural οι σελίδες.',
-        ru: 'Женский род, как «страница». Множественное: οι σελίδες.',
+        ru: 'Женский род, как «страница». Ударение на λί; δ — как th в английском this.',
       ),
       greek: 'η σελίδα',
     ),
@@ -153,7 +153,7 @@ const classroomObjectsDeck = VocabularyDeck(
       pronunciation: LocalizedText(en: 'o PI-na-kas', ru: 'о ПИ-на-кас'),
       explanation: LocalizedText(
         en: 'Masculine; accusative τον πίνακα.',
-        ru: 'В греческом мужской род: ο πίνακας. Винительный — τον πίνακα, без -ς.',
+        ru: 'Πίνακας — мужского рода, хотя русское «доска» женского. Здесь имеется в виду доска в классе.',
       ),
       greek: 'ο πίνακας',
     ),
@@ -202,7 +202,7 @@ const classroomObjectsDeck = VocabularyDeck(
       pronunciation: LocalizedText(en: 'i i-KO-na', ru: 'и и-КО-на'),
       explanation: LocalizedText(
         en: 'Εικόνα is an image or picture, not only a religious icon. Accusative: την εικόνα.',
-        ru: 'Родственно слову «икона», но εικόνα — любое изображение или картинка. Женский род: η εικόνα → την εικόνα.',
+        ru: 'Родственно слову «икона», но εικόνα — любое изображение или картинка. В греческом женский род, как у русского «картинка».',
       ),
     ),
     VocabularyCard(
@@ -219,7 +219,7 @@ const classroomObjectsDeck = VocabularyDeck(
       pronunciation: LocalizedText(en: 'to GHRA-ma', ru: 'то ГРА-ма'),
       explanation: LocalizedText(
         en: 'Γράμμα means a letter of the alphabet or a written message. It is neuter in -μα.',
-        ru: 'Сравните «грамота»: γράμμα — буква или письмо. Средний род, хотя «буква» в русском женского рода. Винительный тоже το γράμμα.',
+        ru: 'Сравните «грамота»: γράμμα — буква или письмо. Средний род, хотя «буква» в русском женского рода.',
       ),
     ),
   ],

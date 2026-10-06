@@ -18,7 +18,7 @@ const howAreYouDeck = VocabularyDeck(
       id: 'doing-informal',
       prompt: LocalizedText(
         en: 'How are you? (with “do”, informal)',
-        ru: 'Как дела? (через «делаешь», на «ты»)',
+        ru: 'Как дела? (на «ты», выражение с глаголом «делать»)',
       ),
       meaning: LocalizedText(
         en: 'Translate into Greek.',
@@ -35,7 +35,7 @@ const howAreYouDeck = VocabularyDeck(
       id: 'doing-polite',
       prompt: LocalizedText(
         en: 'How are you? (with “do”, polite/plural)',
-        ru: 'Как у вас дела? (через «делаете»)',
+        ru: 'Как у вас дела? (выражение с глаголом «делать»)',
       ),
       meaning: LocalizedText(
         en: 'Translate into Greek.',
@@ -52,7 +52,7 @@ const howAreYouDeck = VocabularyDeck(
       id: 'being-informal',
       prompt: LocalizedText(
         en: 'How are you? (with “be”, informal)',
-        ru: 'Как ты? (через «быть»)',
+        ru: 'Как ты? (с глаголом «быть»)',
       ),
       meaning: LocalizedText(
         en: 'Translate into Greek.',
@@ -69,7 +69,7 @@ const howAreYouDeck = VocabularyDeck(
       id: 'being-polite',
       prompt: LocalizedText(
         en: 'How are you? (with “be”, polite/plural)',
-        ru: 'Как Вы? (через «быть»)',
+        ru: 'Как Вы? (с глаголом «быть»)',
       ),
       meaning: LocalizedText(
         en: 'Translate into Greek.',
@@ -180,7 +180,7 @@ const howAreYouDeck = VocabularyDeck(
       id: 'and-you',
       prompt: LocalizedText(
         en: 'And you? (informal subject)',
-        ru: 'А ты? (с «и»)',
+        ru: 'А ты? (с союзом перед местоимением)',
       ),
       meaning: LocalizedText(
         en: 'Translate into Greek.',
@@ -198,7 +198,7 @@ const howAreYouDeck = VocabularyDeck(
       id: 'and-you-polite',
       prompt: LocalizedText(
         en: 'And you? (polite/plural subject)',
-        ru: 'А Вы? (с «и»)',
+        ru: 'А Вы? (с союзом перед местоимением)',
       ),
       meaning: LocalizedText(
         en: 'Translate into Greek.',

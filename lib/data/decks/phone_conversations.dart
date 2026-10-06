@@ -70,7 +70,7 @@ const phoneConversationsDeck = VocabularyDeck(
       id: 'who-calling',
       prompt: LocalizedText(
         en: 'Who is on the phone? (using “is”)',
-        ru: 'Кто у телефона? (через «есть»)',
+        ru: 'Кто у телефона?',
       ),
       meaning: LocalizedText(
         en: 'Translate into Greek.',
@@ -83,7 +83,7 @@ const phoneConversationsDeck = VocabularyDeck(
       ),
       explanation: LocalizedText(
         en: 'An unknown caller is referred to in the third person: είναι.',
-        ru: 'Вопрос «кто?» требует είναι «он/она есть», не είσαι «ты есть». Ποιος обычно без ударения.',
+        ru: 'В «Кто у телефона?» подлежащее — ποιος, поэтому είναι (третье лицо), а не είσαι (форма для «ты»). Ποιος пишется без ударения.',
       ),
     ),
     VocabularyCard(
@@ -118,7 +118,7 @@ const phoneConversationsDeck = VocabularyDeck(
       ),
       explanation: LocalizedText(
         en: 'Πού asks for a place; the verb is third person singular.',
-        ru: 'Греческое «где он есть?» сохраняет είναι. Пишем πού с ударением.',
+        ru: 'В русском «Где Яннис?» нет глагола, а в греческом нужен είναι: Πού είναι ο Γιάννης; Вопросительное πού пишется с ударением.',
       ),
       acceptedAnswers: ['Ο Γιάννης πού είναι;'],
     ),

@@ -52,7 +52,7 @@ const petsHomeDeck = VocabularyDeck(
       id: 'dog-genitive',
       prompt: LocalizedText(
         en: 'Of the dog (masculine)',
-        ru: 'Пса (чей? родительный)',
+        ru: 'Пса (дом кого? родительный)',
       ),
       meaning: LocalizedText(
         en: 'Translate into Greek.',
@@ -62,7 +62,7 @@ const petsHomeDeck = VocabularyDeck(
       pronunciation: LocalizedText(en: 'tu SKI-lu', ru: 'ту СКИ-лу'),
       explanation: LocalizedText(
         en: 'Genitive changes -ος to -ου.',
-        ru: 'Как «дом пса»: родительный. Του σκύλου отличается от винительного τον σκύλο.',
+        ru: 'Το σπίτι του σκύλου — «дом пса»: родительный. Του σκύλου отличается от винительного τον σκύλο.',
       ),
     ),
     VocabularyCard(
@@ -162,7 +162,7 @@ const petsHomeDeck = VocabularyDeck(
       pronunciation: LocalizedText(en: 'tu spi-TYU', ru: 'ту спи-ТЬЮ'),
       explanation: LocalizedText(
         en: 'Neuter -ι often becomes -ιού in the genitive, with shifted stress.',
-        ru: 'Как «дверь дома»: του σπιτιού. В отличие от το σπίτι ударение переходит на конец.',
+        ru: 'Η πόρτα του σπιτιού — «дверь дома». Родительный: του σπιτιού. В отличие от το σπίτι ударение переходит на конец.',
       ),
     ),
     VocabularyCard(
@@ -186,7 +186,7 @@ const petsHomeDeck = VocabularyDeck(
       id: 'have-dog',
       prompt: LocalizedText(
         en: 'I have a dog. (masculine)',
-        ru: 'У меня есть собака. (мужской род)',
+        ru: 'У меня есть пёс.',
       ),
       meaning: LocalizedText(
         en: 'Translate into Greek.',

@@ -131,7 +131,7 @@ const doPresentDeck = VocabularyDeck(
       ),
       explanation: LocalizedText(
         en: 'Η άσκηση becomes την άσκηση as an object.',
-        ru: 'Как «делаю что?», винительный: η → την. Перед гласной сохраняем ν.',
+        ru: 'Как «делаю что?», винительный: η → την.',
       ),
       greek: 'Κάνω την άσκηση.',
 

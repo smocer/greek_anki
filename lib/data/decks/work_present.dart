@@ -6,7 +6,7 @@ const workPresentDeck = VocabularyDeck(
   title: LocalizedText(en: 'To work: δουλεύω', ru: 'Работать: δουλεύω'),
   subtitle: LocalizedText(
     en: 'Six persons + everyday sentences',
-    ru: 'Шесть лиц и фразы из жизни',
+    ru: 'Шесть форм и фразы из жизни',
   ),
   note: LocalizedText(
     en: 'Present endings: -ω, -εις, -ει, -ουμε, -ετε, -ουν(ε). Subject pronouns can be omitted. Εύ before a vowel sounds /ev/; ου sounds /u/.',

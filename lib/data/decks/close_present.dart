@@ -6,7 +6,7 @@ const closePresentDeck = VocabularyDeck(
   title: LocalizedText(en: 'To close: κλείνω', ru: 'Закрывать: κλείνω'),
   subtitle: LocalizedText(
     en: 'Six persons + everyday sentences',
-    ru: 'Шесть лиц и фразы из жизни',
+    ru: 'Шесть форм и фразы из жизни',
   ),
   note: LocalizedText(
     en: 'Present endings: -ω, -εις, -ει, -ουμε, -ετε, -ουν(ε). Subject pronouns can be omitted. Κλείνω is the opposite of ανοίγω; ει sounds /i/.',

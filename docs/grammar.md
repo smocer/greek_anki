@@ -5,10 +5,10 @@ English and Russian explanations accompany the vocabulary and grammatical forms.
 ## Russian connections and important distinctions
 
 - **Ты/Вы:** εσύ/εσείς and their verb forms distinguish informal singular from plural or polite address. Polite singular and plural share the same form, as in Russian. The ordinary subject pronoun is εσείς; σας has object and possessive uses.
-- **Cases:** compare ο γείτονας / τον γείτονα / του γείτονα and ο σκύλος / τον σκύλο / του σκύλου. Russian «кто? / кого? / чей?» helps explain their roles, but the endings and case choices do not match automatically.
-- **Origin:** Greek από takes the accusative in phrases such as από τη Ρωσία, από την Ελλάδα, από την Κύπρο, and από το Ιράκ. Russian «из России» uses the genitive. Before ρ, the usual spelling is τη; από την Ρωσία is also accepted in practice.
+- **Cases:** compare ο γείτονας / τον γείτονα / του γείτονα and ο σκύλος / τον σκύλο / του σκύλου. Russian «кто? / вижу кого? / дом кого?» helps explain their roles, but the endings and case choices do not match automatically.
+- **Origin:** Greek από takes the accusative in phrases such as από την Ρωσία, από την Ελλάδα, από την Κύπρο, and από το Ιράκ. Russian «из России» uses the genitive.
 - **Location and company:** Russian «в банке» uses the prepositional case and «с Джулией» the instrumental. Greek uses the accusative after σε and με: στην τράπεζα, με την Τζούλια.
-- **Articles, gender, and number:** Greek articles indicate gender and case; Russian has no articles. η Κύπρος is feminine, ο Καναδάς masculine, and το Ιράκ neuter. η Αθήνα is singular despite Russian «Афины». τα Λατσιά becomes στα Λατσιά. η Λευκωσία becomes στη Λευκωσία; στην Λευκωσία is also accepted in practice. Πειραιάς and Στρόβολος lose final ς after στον.
+- **Articles, gender, and number:** Greek articles indicate gender and case; Russian has no articles. η Κύπρος is feminine, ο Καναδάς masculine, and το Ιράκ neuter. η Αθήνα is singular despite Russian «Афины». τα Λατσιά becomes στα Λατσιά. η Λευκωσία becomes στην Λευκωσία. Πειραιάς and Στρόβολος lose final ς after στον.
 - **The present “to be”:** Greek normally retains είμαι/είσαι/είναι where Russian often omits «есть».
 - **Possession:** έχω often translates as Russian «у меня есть». The Greek verb changes with the person, unlike Russian «есть» in that construction. Δεν έχουμε corresponds naturally to «у нас нет». The forms μου/σου/σας are used in context, separately from εγώ/εσύ/εσείς.
 - **Naming:** Με λένε Γιώργο uses an accusative name; Λέγομαι Γιώργος and Είμαι ο Γιώργος use the nominative. Compare Με λένε… with «Меня зовут…», but Russian normally keeps the name nominative in «меня зовут Александр».
@@ -20,10 +20,13 @@ English and Russian explanations accompany the vocabulary and grammatical forms.
 - **Seeing someone or something:** βλέπω takes a direct object in the accusative, like Russian «вижу кого? что?». Compare ο Γιώργος → βλέπω τον Γιώργο, η εικόνα → βλέπω την εικόνα, and το τρένο → βλέπω το τρένο. Greek neuter nouns retain the same form even for people: το παιδί → βλέπω το παιδί, whereas Russian «ребёнок → ребёнка» changes.
 - **Plural country names:** οι ΗΠΑ uses a feminine plural article. After από or σε, use τις: από τις ΗΠΑ / στις ΗΠΑ. The abbreviation itself does not change.
 
+- **Russian «свой»:** these Greek constructions identify the person explicitly: διαβάζω το βιβλίο μου — «я читаю свою книгу»; διαβάζεις το βιβλίο σου — «ты читаешь свою книгу»; διαβάζουμε τα βιβλία μας — «мы читаем свои книги».
+- **Tense and aspect:** έγραφα / έγραψα roughly contrast «писал / написал»; θα γράφω / θα γράψω contrast «буду писать / напишу». Greek aspect and Russian perfective/imperfective are useful comparisons, not identical systems.
+
 ## Spelling, stress, and pronunciation
 
 - **Stress can distinguish words:** η is an article; ή means “or.” Hard mode distinguishes them.
-- **Possessive stress:** τηλέφωνό μου/σου/σας and όνομά μου need the extra stress mark.
+- **Possessive stress:** nouns stressed on the third syllable from the end take an extra final accent before a short possessive: τηλέφωνό μου, όνομά σου. βιβλίο μου needs no extra accent.
 - **Accepted alternatives:** δεκάξι / δεκαέξι, εννέα / εννιά, οκτώ / οχτώ, εφτά / επτά, plural -ουν / -ουνε, and ακόμα / ακόμη. Each form needs its correct stress. εφτά is shown first for 7, and the same preference is used for 17.
 - **Address numbers:** answers spell out the numbers in Greek. The built-in Greek keyboard includes the letters and stressed vowels needed for every primary answer; sentence punctuation is optional.
 - **Pronunciation guides:** Latin and Cyrillic spellings are approximate aids. Russian has no exact equivalents for θ, δ, and some γ sounds. Use the Greek spelling as your reference.

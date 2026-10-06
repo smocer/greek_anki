@@ -52,7 +52,7 @@ const introductionsDeck = VocabularyDeck(
       id: 'called-george',
       prompt: LocalizedText(
         en: 'My name is George. (with “they call me”)',
-        ru: 'Меня зовут Йоргос. (через «меня зовут»)',
+        ru: 'Меня зовут Йоргос. (используйте конструкцию «меня называют»)',
       ),
       meaning: LocalizedText(
         en: 'Translate into Greek.',
@@ -72,7 +72,7 @@ const introductionsDeck = VocabularyDeck(
       id: 'called-maria',
       prompt: LocalizedText(
         en: 'My name is Maria. (with “they call me”)',
-        ru: 'Меня зовут Мария. (через «меня зовут»)',
+        ru: 'Меня зовут Мария. (используйте конструкцию «меня называют»)',
       ),
       meaning: LocalizedText(
         en: 'Translate into Greek.',
@@ -84,7 +84,7 @@ const introductionsDeck = VocabularyDeck(
       ),
       explanation: LocalizedText(
         en: 'Μαρία has the same spelling in nominative and accusative.',
-        ru: 'В русском «Марию», а по-гречески Μαρία: винительный женского имени здесь совпадает с именительным.',
+        ru: 'В «Меня зовут Мария» русское имя стоит в именительном. В Με λένε Μαρία греческое имя — в винительном, но у Μαρία эти две формы совпадают.',
       ),
       greek: 'Με λένε Μαρία.',
     ),
@@ -92,7 +92,7 @@ const introductionsDeck = VocabularyDeck(
       id: 'i-george',
       prompt: LocalizedText(
         en: 'I am George. (use “be” and the article)',
-        ru: 'Я Йоргос. (через «быть», с артиклем)',
+        ru: 'Я Йоргос. (с глаголом «быть» и артиклем перед именем)',
       ),
       meaning: LocalizedText(
         en: 'Translate into Greek.',
@@ -109,7 +109,7 @@ const introductionsDeck = VocabularyDeck(
       id: 'i-maria',
       prompt: LocalizedText(
         en: 'I am Maria. (use “be” and the article)',
-        ru: 'Я Мария. (через «быть», с артиклем)',
+        ru: 'Я Мария. (с глаголом «быть» и артиклем перед именем)',
       ),
       meaning: LocalizedText(
         en: 'Translate into Greek.',
@@ -177,7 +177,7 @@ const introductionsDeck = VocabularyDeck(
       id: 'called-passive',
       prompt: LocalizedText(
         en: 'I am called George. (with λέγομαι)',
-        ru: 'Я зовусь Йоргос. (через λέγομαι)',
+        ru: 'Я зовусь Йоргос. (используйте глагол «зваться»)',
       ),
       meaning: LocalizedText(
         en: 'Translate into Greek.',

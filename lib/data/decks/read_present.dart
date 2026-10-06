@@ -9,7 +9,7 @@ const readPresentDeck = VocabularyDeck(
   ),
   subtitle: LocalizedText(
     en: 'Six persons + everyday sentences',
-    ru: 'Шесть лиц и фразы из жизни',
+    ru: 'Шесть форм и фразы из жизни',
   ),
   note: LocalizedText(
     en: 'Present endings: -ω, -εις, -ει, -ουμε, -ετε, -ουν(ε). Subject pronouns can be omitted. Διαβάζω means read, and also study/revise lessons; it is not limited to leisure reading.',
@@ -129,7 +129,7 @@ const readPresentDeck = VocabularyDeck(
       ),
       explanation: LocalizedText(
         en: 'Greek uses μου after the noun where Russian naturally uses свой.',
-        ru: 'Русское «свою» здесь передаётся μου после существительного: το βιβλίο μου.',
+        ru: 'Действующее лицо — «я», поэтому русское «свою» здесь передаём через μου: διαβάζω το βιβλίο μου. С «ты» было бы σου, с «мы» — μας.',
       ),
       acceptedAnswers: ['Εγώ διαβάζω το βιβλίο μου.'],
     ),
