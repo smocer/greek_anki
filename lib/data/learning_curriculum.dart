@@ -3,6 +3,7 @@ import '../domain/curriculum.dart';
 import '../domain/vocabulary.dart';
 import '../domain/vocabulary_category.dart';
 import 'curriculum_selections.dart';
+import 'family_lesson.dart';
 import 'greek_decks.dart';
 import 'october_lesson.dart';
 
@@ -48,6 +49,8 @@ class CurriculumCatalog {
           (c) => c.labels.contains(VocabularyLabel.noun),
         ))
           _noun(card, 'october-lesson.${card.id}'),
+        for (final card in familyNouns)
+          _noun(card, '$familyLessonId.${card.id}'),
       ],
     ),
     _collection(
@@ -61,6 +64,7 @@ class CurriculumCatalog {
       [
         ..._existing(verbWords),
         ...octoberWords.where((c) => c.labels.contains(VocabularyLabel.verb)),
+        ...familyVerbs,
       ],
     ),
     _collection(
@@ -71,7 +75,12 @@ class CurriculumCatalog {
       'People, questions and possession',
       'Лица, вопросы и принадлежность',
       'εγώ',
-      [..._existing(pronounWords), ...possessiveWords, ...demonstrativeWords],
+      [
+        ..._existing(pronounWords),
+        ...possessiveWords,
+        ...demonstrativeWords,
+        ...familyPronouns,
+      ],
     ),
     _collection(
       'words-descriptions',
@@ -83,6 +92,7 @@ class CurriculumCatalog {
       'ξανά',
       [
         ..._existing(descriptionWords),
+        ...familyDescriptions,
         ...octoberWords.where(
           (c) => c.labels.any(
             (l) =>
@@ -101,6 +111,7 @@ class CurriculumCatalog {
       'και',
       [
         ..._existing(connectingWords),
+        ...familyConnectors,
         lessonCard(
           'from-word',
           'από',
@@ -143,7 +154,13 @@ class CurriculumCatalog {
       'Greetings, introductions and small talk',
       'Приветствия, знакомство, как дела',
       'Γεια!',
-      _existing(socialPractice),
+      [
+        ..._existing(socialPractice),
+        ...familySocialPhrases,
+        ...familyNamingPractice,
+        ...familyPossessionPractice,
+        ...familyGenderPractice.where((c) => c.id.startsWith('family-i-')),
+      ],
     ),
     _collection(
       'phrases-classroom',
@@ -153,7 +170,11 @@ class CurriculumCatalog {
       'Ask, understand and learn',
       'Спрашивать, понимать и учиться',
       'Πες μου',
-      [..._existing(classroomPractice), ...octoberPhrases.take(3)],
+      [
+        ..._existing(classroomPractice),
+        ...octoberPhrases.take(3),
+        ...familyClassroomPhrases,
+      ],
     ),
     _collection(
       'phrases-everyday',
@@ -170,10 +191,10 @@ class CurriculumCatalog {
       LearningSection.grammar,
       'Articles & gender',
       'Артикли и род',
-      'This is… · twelve familiar nouns',
-      'Это… · двенадцать знакомых слов',
+      'Articles, this is… and adjective agreement',
+      'Артикли, «это…» и согласование прилагательных',
       'ο · η · το',
-      _genderDrills(),
+      [..._genderDrills(), ...familyGenderPractice],
     ),
     _collection(
       'grammar-nouns',
@@ -183,7 +204,11 @@ class CurriculumCatalog {
       'Subjects, objects, plurals and forms of address',
       'Подлежащее, дополнение, множественное число, обращения',
       'φίλος',
-      _existing(nounFormsPractice),
+      [
+        ..._existing(nounFormsPractice),
+        ...familyNamingPractice,
+        ...familyCasePractice,
+      ],
     ),
     _collection(
       'grammar-verbs',
@@ -222,7 +247,11 @@ class CurriculumCatalog {
       'Whose? · owner, gender and stress',
       'Чей? · принадлежность, род и ударение',
       'μου',
-      [..._existing(possessionPractice), ..._possessionDrills()],
+      [
+        ..._existing(possessionPractice),
+        ..._possessionDrills(),
+        ...familyPossessionPractice,
+      ],
     ),
     _collection(
       'grammar-questions',
@@ -232,7 +261,7 @@ class CurriculumCatalog {
       'Ask a question or say no',
       'Задать вопрос или сказать «нет»',
       'Πού;',
-      _existing(questionsPractice),
+      [..._existing(questionsPractice), ...familyQuestionPractice],
     ),
   ]);
 
@@ -288,7 +317,7 @@ class CurriculumCatalog {
 
   VocabularyCard _noun(VocabularyCard card, String key) {
     String bare(String value) =>
-        value.replaceFirst(RegExp(r'^(ο|η|το|οι) '), '');
+        value.replaceFirst(RegExp(r'^(ο|η|το|οι|τα) '), '');
     final override = _nounPrompts[key];
     String clean(String value) => value
         .replaceFirst(RegExp(r'^The '), '')
@@ -374,6 +403,23 @@ Set<LearningTheme> _themes(VocabularyCard card) {
       : card.reviewIdentity?.deckId ?? '';
   final key = card.id;
   final greek = card.greek;
+  if (familyThemeIds.contains(key.split('.').last) ||
+      const {
+        'october-lesson.mother',
+        'everyday-nouns.boy',
+        'everyday-nouns.girl',
+        'classroom-objects.child',
+        'classroom-objects.children',
+      }.contains(key)) {
+    return {LearningTheme.family, LearningTheme.people};
+  }
+  if (key == '$familyLessonId.family-coffeehouse') {
+    return {LearningTheme.food, LearningTheme.places};
+  }
+  if (key == '$familyLessonId.family-plant' ||
+      key == '$familyLessonId.family-photo') {
+    return {LearningTheme.home};
+  }
   final verbThemes = switch (source) {
     'drink-present' => {LearningTheme.food},
     'read-present' ||

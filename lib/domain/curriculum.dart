@@ -16,6 +16,7 @@ enum LearningSection {
 
 enum LearningTheme {
   people(LocalizedText(en: 'People', ru: 'Люди')),
+  family(LocalizedText(en: 'Family', ru: 'Семья')),
   classroom(LocalizedText(en: 'Classroom', ru: 'Учёба')),
   home(LocalizedText(en: 'Home & everyday life', ru: 'Дом и быт')),
   food(LocalizedText(en: 'Food & drink', ru: 'Еда и напитки')),

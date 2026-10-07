@@ -1,6 +1,7 @@
 import 'dart:math';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:greek_anki/data/learning_curriculum.dart';
+import 'package:greek_anki/data/family_lesson.dart';
 import 'package:greek_anki/data/october_lesson.dart';
 import 'package:greek_anki/domain/curriculum.dart';
 import 'package:greek_anki/domain/greek_answer.dart';
@@ -55,7 +56,11 @@ void main() {
       for (final answer in ['βιβλιο', 'βίβλιο', 'βιβλίου', 'η βιβλίο']) {
         expect(matcher.matches(answer, book), isFalse);
       }
-      expect(nouns.map((c) => c.greek).toSet().length, nouns.length);
+      // A word can have separately prompted senses, such as man and husband.
+      expect(
+        nouns.map((c) => (c.greek, c.prompt.en, c.prompt.ru)).toSet().length,
+        nouns.length,
+      );
       expect(
         nouns.any((c) => c.prompt.en.contains('Add the article')),
         isFalse,
@@ -177,7 +182,12 @@ void main() {
       ).cards.singleWhere((c) => c.id == 'possession-his-phone');
       expect(matcher.matches('Αυτό είναι το τηλέφωνο του.', phone), isFalse);
       expect(matcher.matches('Αυτό είναι το τηλέφωνό του.', phone), isTrue);
-      expect(deck('grammar-gender').cards.length, 12);
+      expect(
+        deck(
+          'grammar-gender',
+        ).cards.where((c) => c.id.startsWith('gender-')).length,
+        12,
+      );
       final nounForm = deck(
         'grammar-nouns',
       ).cards.singleWhere((c) => c.id == 'everyday-nouns.pupil-accusative');
@@ -228,7 +238,7 @@ void main() {
     final nouns = learningCollections.first;
     final now = DateTime(2026, 10, 6);
     final recent = nouns.filter(period: VocabularyPeriod.thisWeek, now: now);
-    expect(recent.cards.length, 9);
+    expect(recent.cards.length, 9 + familyNouns.length);
     final phone = nouns.filter(
       period: VocabularyPeriod.thisWeek,
       theme: LearningTheme.phone,

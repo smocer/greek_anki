@@ -61,7 +61,7 @@ final octoberWords = [
     'mother',
     'η μητέρα',
     'Mother',
-    'Мать / мама',
+    'Мать',
     'i mi-TE-ra',
     'и ми-ТЭ-ра',
     'Μητέρα is mother; μαμά is the familiar mum.',

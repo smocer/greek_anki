@@ -19,6 +19,9 @@ English and Russian explanations accompany the vocabulary and grammatical forms.
 - **Noun gender:** common endings help, but ο Κώστας is masculine, το γράμμα is neuter, and η οδός is feminine. Place names such as η Πάφος, η Λεμεσός, and η Αίγυπτος are feminine despite -ος. Russian grammatical gender is not a reliable guide: «море» → η θάλασσα, «солнце» → ο ήλιος, «школа» → το σχολείο.
 - **Seeing someone or something:** βλέπω takes a direct object in the accusative, like Russian «вижу кого? что?». Compare ο Γιώργος → βλέπω τον Γιώργο, η εικόνα → βλέπω την εικόνα, and το τρένο → βλέπω το τρένο. Greek neuter nouns retain the same form even for people: το παιδί → βλέπω το παιδί, whereas Russian «ребёнок → ребёнка» changes.
 - **Plural country names:** οι ΗΠΑ uses a feminine plural article. After από or σε, use τις: από τις ΗΠΑ / στις ΗΠΑ. The abbreviation itself does not change.
+- **Family relationships:** Greek πεθερός covers both Russian «свёкор» and «тесть»; πεθερά covers «свекровь» and «тёща». Context distinguishes γαμπρός as groom or son-in-law, and νύφη as bride or daughter-in-law. Γιος / κόρη name family relationships; αγόρι / κορίτσι mean boy / girl.
+- **Object pronouns and possession:** τον / την before λένε mean «его / её» as objects («кого называют?»). Του / της after a noun mean «его / её» as possessives: ο πατέρας του, η μητέρα της. In Τον λένε Γιώργο, the name is accusative and has no article.
+- **All:** όλοι refers to a masculine or mixed group; όλες is feminine plural, όλα neuter plural. Όλοι alone does not specify “we”: εμείς όλοι means «мы все». Όλα on its own can mean «всё».
 
 - **Russian «свой»:** these Greek constructions identify the person explicitly: διαβάζω το βιβλίο μου — «я читаю свою книгу»; διαβάζεις το βιβλίο σου — «ты читаешь свою книгу»; διαβάζουμε τα βιβλία μας — «мы читаем свои книги».
 - **Tense and aspect:** έγραφα / έγραψα roughly contrast «писал / написал»; θα γράφω / θα γράψω contrast «буду писать / напишу». Greek aspect and Russian perfective/imperfective are useful comparisons, not identical systems.
@@ -28,6 +31,7 @@ English and Russian explanations accompany the vocabulary and grammatical forms.
 - **Stress can distinguish words:** η is an article; ή means “or.” Hard mode distinguishes them.
 - **Possessive stress:** nouns stressed on the third syllable from the end take an extra final accent before a short possessive: τηλέφωνό μου, όνομά σου. βιβλίο μου needs no extra accent.
 - **Accepted alternatives:** δεκάξι / δεκαέξι, εννέα / εννιά, οκτώ / οχτώ, εφτά / επτά, plural -ουν / -ουνε, and ακόμα / ακόμη. Each form needs its correct stress. εφτά is shown first for 7, and the same preference is used for 17.
+- **Family spellings:** αδερφός / αδελφός, αδερφή / αδελφή, αδέρφια / αδέλφια, ξάδελφος / ξάδερφος and ξαδέλφη / ξαδέρφη are accepted. The masculine cousin stresses the first syllable; the feminine stresses the second.
 - **Address numbers:** answers spell out the numbers in Greek. The built-in Greek keyboard includes the letters and stressed vowels needed for every primary answer; sentence punctuation is optional.
 - **Pronunciation guides:** Latin and Cyrillic spellings are approximate aids. Russian has no exact equivalents for θ, δ, and some γ sounds. Use the Greek spelling as your reference.
 
@@ -57,3 +61,5 @@ English and Russian explanations accompany the vocabulary and grammatical forms.
 - [Greek school grammar: monotonic spelling, η/ή and stress](https://ebooks.edu.gr/ebooks/v/html/8547/2334/Grammatiki-Neas-Ellinikis-Glossas_A-B-G-Gymnasiou_html-apli/index_B_03.html)
 - [Greek school grammar: έχω](https://ebooks.edu.gr/ebooks/v/html/8547/2009/Grammatiki_D-EDimotikou_html-apli/index_C10b1.html)
 - [Centre for the Greek Language: diminutive vocabulary exercises](https://www.greek-language.gr/greekLang/files/document/word2text/lexil_p.1.pdf)
+- [Greek school dictionary: ξάδελφος and ξαδέλφη](https://www.greek-language.gr/digitalResources/modern_greek/education/lex_first_grade/search.html?lex=1&lq=%CE%9E)
+- [Centre for the Greek Language: αδελφός / αδερφός](https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/search.html?lq=%CE%B1%CE%B4%CE%B5%CE%BB%CF%86%CF%8C%CF%82)
