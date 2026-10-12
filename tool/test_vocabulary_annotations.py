@@ -15,7 +15,7 @@ class ImportAnnotationTest(unittest.TestCase):
         with tempfile.TemporaryDirectory() as temporary:
             root = Path(temporary)
             (root / 'tool').mkdir()
-            (root / 'lib/data').mkdir(parents=True)
+            (root / 'tool/legacy_data').mkdir(parents=True)
             cards = [{'source': 'new', 'sourceId': 'sentence', 'greek': 'Γράφω το βιβλίο.'}]
             metadata = {'new.sentence': {'labels': [], 'addedWeek': '2026-09-28'}}
             hints = {'γράφω': {'labels': ['verb']}, 'βιβλίο': {'labels': ['noun']}}
@@ -44,7 +44,7 @@ class ImportAnnotationTest(unittest.TestCase):
             dates = json.loads((root / 'tool/vocabulary_word_dates.json').read_text(encoding='utf-8'))
             self.assertEqual(dates['verb:γράφω'], '2026-09-28')
             self.assertEqual(dates['noun:βιβλίο'], '2026-09-28')
-            self.assertIn('VocabularyLabel.noun', (root / 'lib/data/vocabulary_words.dart').read_text(encoding='utf-8'))
+            self.assertIn('VocabularyLabel.noun', (root / 'tool/legacy_data/vocabulary_words.dart').read_text(encoding='utf-8'))
 
 
 if __name__ == '__main__':

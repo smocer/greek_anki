@@ -37,6 +37,7 @@ The website needs internet to open or update. When an update is available, the m
 
 - [Learning guide](docs/curriculum.md)
 - [Vocabulary filters and weeks](docs/vocabulary_metadata.md)
+- [Update the JSON dictionary / 更新词库](docs/dictionary.md)
 - [Grammar notes and references](docs/grammar.md)
 
 Greek Anki is an independent Anki-style learning app. It does not import Anki packages or sync with AnkiWeb.

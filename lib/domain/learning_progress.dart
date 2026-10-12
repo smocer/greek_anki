@@ -22,7 +22,16 @@ class LearningProgress extends ChangeNotifier {
       for (final mode in StudyMode.values) {
         for (final card in deck.cards) {
           final key = _key(deck, mode, card);
-          final record = await _store.read(key);
+          var record = await _store.read(key);
+          if (record == null) {
+            for (final alias in card.reviewAliases) {
+              final previous = await _store.read(alias.key(mode));
+              if (previous != null &&
+                  (record == null || previous.dueAt.isBefore(record.dueAt))) {
+                record = previous;
+              }
+            }
+          }
           if (record != null) loaded[key] = record;
         }
       }

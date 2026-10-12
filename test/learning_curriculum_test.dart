@@ -1,8 +1,7 @@
 import 'dart:math';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:greek_anki/data/learning_curriculum.dart';
-import 'package:greek_anki/data/family_lesson.dart';
-import 'package:greek_anki/data/october_lesson.dart';
+import '../tool/legacy_data/october_lesson.dart';
 import 'package:greek_anki/domain/curriculum.dart';
 import 'package:greek_anki/domain/greek_answer.dart';
 import 'package:greek_anki/domain/learning_progress.dart';
@@ -127,13 +126,17 @@ void main() {
             .map((c) => c.prompt.en)
             .toSet()
             .length,
-        2,
+        1,
       );
       for (final greek in ['αυτός', 'αυτή', 'αυτό']) {
         expect(
           pronouns.where((c) => c.greek == greek).length,
-          2,
-          reason: 'Personal and demonstrative meanings are both learnable.',
+          1,
+          reason: 'Personal and demonstrative meanings share one word card.',
+        );
+        expect(
+          pronouns.singleWhere((c) => c.greek == greek).senses,
+          hasLength(2),
         );
       }
       expect(
@@ -238,7 +241,8 @@ void main() {
     final nouns = learningCollections.first;
     final now = DateTime(2026, 10, 6);
     final recent = nouns.filter(period: VocabularyPeriod.thisWeek, now: now);
-    expect(recent.cards.length, 9 + familyNouns.length);
+    // Same-word family senses no longer create additional word cards.
+    expect(recent.cards.length, 37);
     final phone = nouns.filter(
       period: VocabularyPeriod.thisWeek,
       theme: LearningTheme.phone,
