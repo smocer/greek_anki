@@ -1,37 +1,44 @@
-# 更新词库
+# Updating the dictionary
 
-**每次新增单词，只提交一个新的 JSON 文件到 `assets/dictionary/additions/`。**
-例如 `assets/dictionary/additions/2026-10-12-food.json`。
-无需修改 `greek.json`、Dart 代码、`pubspec.yaml` 或文件清单。
-一个文件可以包含一个或多个单词，也可以包含短语和语法练习。
+**To add new words, submit a new JSON file in `assets/dictionary/additions/`.**
+For example: `assets/dictionary/additions/2026-10-12-food.json`.
+There is no need to edit `greek.json`, Dart code, `pubspec.yaml`, or a file manifest.
+One file can contain one or more words, phrases, or grammar exercises.
 
-应用自动发现目录里的所有 `.json` 文件，按文件名排序，然后把词条加入
-文件中指定的学习分组。`greek.json` 保留为基础词库；增量文件在加载时
-合并到内存中的完整词库，不会改写基础文件。不需要生成 Dart 代码或运行 NLP。
+The app discovers all `.json` files in the directory, sorts them by filename,
+and adds their entries to the specified learning collections. `greek.json`
+remains the base dictionary. Addition files are merged into the in-memory
+catalog when it loads, without changing the base file. No Dart generation or
+NLP processing is required.
 
-提交到 `main` 后，现有 GitHub Actions 会运行检查、构建并发布网页；
-浏览器刷新应用后使用新词库。原生 Android 应用需要重新打包安装才能
-取得更新后的内置词库。目前没有独立的在线词库下载机制。
+After changes reach `main`, the existing GitHub Actions workflow runs checks,
+builds the website, and publishes it. Refreshing the web app loads the updated
+dictionary. Native Android apps must be rebuilt and installed to receive the
+updated bundled content. There is currently no separate online dictionary download.
 
-## 基础词库结构
+## Base dictionary structure
 
-- `schemaVersion`：目前为 `1`。
-- `cards`：词条和练习定义。每个键是可被分组引用的唯一字符串。
-- `collections`：应用主页的学习分组，包括 `words`、`phrases`、`grammar`。
-  每组的 `deck.cards` 是词条键的数组，`themes` 按词条的 `id` 标注主题。
-- `decks`：原有来源主题，用于兼容原有分类和回归验证；主页使用
-  `collections`。新增主页词条不需要修改 `decks`。
+- `schemaVersion`: currently `1`.
+- `cards`: word and exercise definitions, each identified by a unique key that
+  collections can reference.
+- `collections`: the learning groups on the home screen, organized into `words`,
+  `phrases`, and `grammar`. Each collection's `deck.cards` lists card keys;
+  `themes` assigns themes using card IDs.
+- `decks`: the original source topics, retained for compatibility and regression
+  checks. The home screen uses `collections`. Adding entries to the home screen
+  does not require changes to `decks`.
 
-`cards` 中有些定义是同一个词的不同练习，例如单词本身和带冠词的语法练习。
-修改前应找到目标学习分组的 `deck.cards` 引用，再编辑对应定义。
-多个分组可以引用同一个定义，避免重复维护。
+Some definitions in `cards` are different exercises for the same word, such as
+vocabulary practice and a grammar exercise requiring its article. Before editing,
+follow the target collection's `deck.cards` references to the correct definition.
+Multiple collections can reference one definition to avoid maintaining duplicates.
 
-## 新增单词文件
+## Adding a new file
 
-1. 复制 [`new-words.example.json`](new-words.example.json) 到
-   `assets/dictionary/additions/`，使用新的文件名。文件放在此目录的第一层，
-   不要放进子文件夹。
-2. 修改词条内容。完整文件格式如下：
+1. Copy [`new-words.example.json`](new-words.example.json) into
+   `assets/dictionary/additions/` with a new filename. Place it directly in that
+   directory, not in a subdirectory.
+2. Update the entries. A complete example file is shown below:
 
 ```json
 {
@@ -52,71 +59,88 @@
 }
 ```
 
-3. **只提交这个新文件**。网页发布流程自动检查并发布合并后的词库。
+3. **Submit the new file.** The web publishing workflow validates and publishes
+   the merged dictionary.
 
-`collection` 指定已有分组，例如 `words-nouns`、`words-verbs`、
-`words-pronouns`、`words-descriptions`、`words-connectors`、`words-numbers`、
-`phrases-social`、`phrases-classroom`、`phrases-everyday`。语法分组可使用
-基础词库中的 `grammar-*` 分组 ID。未知分组会报错。
+`collection` identifies an existing learning group, such as `words-nouns`,
+`words-verbs`, `words-pronouns`, `words-descriptions`, `words-connectors`,
+`words-numbers`, `phrases-social`, `phrases-classroom`, or `phrases-everyday`.
+For grammar exercises, use a `grammar-*` collection ID from the base dictionary.
+Unknown collection IDs produce an error.
 
-文件可以任意命名。词条的 `id` 必须唯一，不要在不同文件中重复提交同一个
-ID。新增文件只追加词条，重复 ID、重复复习记录键或错误字段会阻止发布，
-不会静默覆盖旧词条。修改已经存在的词条时，编辑它所在的文件。
+Filenames are unrestricted. Each entry needs a unique `id`; do not reuse an ID
+across files. Addition files append entries. Duplicate IDs, conflicting review
+keys, or invalid fields fail validation instead of silently replacing existing
+content. To change an existing entry, edit the file that defines it.
 
-相同希腊语单词使用不同 ID 提交新含义时，会自动合并为一个单词定义：
-`senses` 保留各个含义，显示提示合并含义，词性标签、主题和说明取并集。
-同词属于多个词性时，多个分组引用同一个定义。匹配保留重音，`που` 与
-`πού` 不会合并。短语和语法练习保留各自的训练用途。
+When a new ID adds another meaning for the same Greek word, the entries are
+merged into one word definition. `senses` retains the individual meanings, the
+prompt combines them, and labels, themes, and explanations are combined. When a
+word belongs to multiple parts of speech, the collections share its definition.
+Matching preserves stress: `που` and `πού` are not merged. Phrase and grammar
+exercises retain their separate learning purposes.
 
-合并后的词条保留最早添加日期；`aliases` 记录旧词条 ID，`reviewAliases`
-保留旧复习记录键。已有主记录优先使用，主记录不存在时读取旧别名记录，
-之后的复习写入主记录。新含义请使用新的唯一 ID，避免覆盖已有内容。
+Merged entries retain the earliest addition date. `aliases` records the old
+card IDs, and `reviewAliases` retains the old review keys. An existing primary
+review record takes precedence; otherwise, a record is loaded from the old
+aliases. Subsequent reviews are saved under the primary key. Use a new, unique
+ID when adding a new meaning.
 
-## 字段规则
+## Field rules
 
-同义的阴阳形式使用相同的 `wordGroup`（例如 `teacher`），加载时自动合成
-一张卡。`prompt` 应使用不限定性别的含义。当前词库已合并 22 组；每张卡
-的 `forms` 保存各形式的 `greek`、`answerDisplay` 和 `pronunciation`，
-两种形式都能答对，旧卡 ID 和复习记录通过别名保留。
-以后提交已有形式的新含义会自动归入该卡；新增另一种性别拼写时，
-在新词条上填写相同的 `wordGroup` 即可。不要将含义不同的词设置为同一组。
-此规则只作用于单词，语法练习仍按题目要求判定阴阳形式。
+Masculine and feminine forms with the same meaning share a `wordGroup`, such as
+`teacher`, and are combined into one card when loaded. Use a gender-neutral
+meaning in `prompt`. The dictionary currently combines 22 such groups. Each
+card's `forms` stores the `greek`, `answerDisplay`, and `pronunciation` for each
+form. Either form is accepted, and aliases retain the old card IDs and review
+keys. New meanings for an existing form are automatically merged into that card.
+To add another gender form, assign the same `wordGroup` to the new entry. Do not
+group words with unrelated meanings. This applies only to vocabulary; grammar
+exercises still require the gender form specified by the prompt.
 
-新增文件中的必填词条字段为 `id`、`collection`、`prompt`、`greek`、
-`pronunciation`；日期可通过文件顶层的 `addedWeek` 统一指定，或在词条中
-单独指定。`meaning` 默认是“翻译成希腊语”。`reviewIdentity` 默认由
-`collection` 和 `id` 生成，重命名文件不会影响复习记录。所有本地化文本
-包含 `en` 和 `ru`；希腊语使用正常 Unicode 文本，并保留重音。
+Required entry fields in addition files are `id`, `collection`, `prompt`,
+`greek`, and `pronunciation`. Set `addedWeek` at the file level for all entries,
+or individually on each entry. `meaning` defaults to “Translate into Greek.”
+`reviewIdentity` defaults to the entry's `collection` and `id`, so renaming a
+file does not affect review history. All localized text includes both `en` and
+`ru`. Write Greek as normal Unicode text, retaining stress marks.
 
-可选字段包括 `explanation`、`answerDisplay`、`alternatives`、
-`acceptedAnswers`、`labels`、`addedWeek` 和 `words`。`alternatives` 是显示的
-替代拼写，`acceptedAnswers` 是额外接受的完整答案。新词条可省略 `words`，
-应用主页的词条、主题和分组不依赖自动分词。
+Optional fields include `explanation`, `answerDisplay`, `alternatives`,
+`acceptedAnswers`, `labels`, `addedWeek`, and `words`. `alternatives` contains
+spelling variants shown to the learner; `acceptedAnswers` contains additional
+accepted full answers. New entries can omit `words`: the home screen's
+vocabulary, themes, and collections do not depend on automatic tokenization.
 
-`words-nouns` 中的新增名词会自动接受带冠词和不带冠词的答案。
-例如模板中的 `greek: "αχλάδι"` 和 `answerDisplay: "το αχλάδι"`
-都能答对，无需在 `acceptedAnswers` 中重复填写。阴阳形式分别使用
-`forms` 中的 `greek` 和 `answerDisplay`，不要把带斜线的组合显示当作答案。
-只有词汇名词应用此规则；短语和语法练习仍要求指定的冠词，重音始终必填。
+New nouns in `words-nouns` automatically accept answers with or without their
+specified article. For example, the template's `greek: "αχλάδι"` and
+`answerDisplay: "το αχλάδι"` are both accepted without repeating them in
+`acceptedAnswers`. For grouped gender forms, each form's `greek` and
+`answerDisplay` are accepted separately; the combined display with a slash is
+not an answer. This rule applies only to noun vocabulary. Phrases and grammar
+exercises still require their specified articles, and stress remains mandatory.
 
-`addedWeek` 必须是该周星期一的 `YYYY-MM-DD` 日期，用于周筛选。
-`labels` 支持 `noun`、`verb`、`adjective`、`adverb`、`pronoun`、`article`、
-`preposition`、`conjunction`、`numeral`、`interjection`。
-主题支持 `people`、`family`、`classroom`、`home`、`food`、`places`、
-`travel`、`phone`、`time`、`conversation`。
+`addedWeek` must be the Monday of the relevant week in `YYYY-MM-DD` format. It is
+used by the weekly filters.
 
-**已有词条的 `reviewIdentity.deckId` 和 `reviewIdentity.cardId` 应保持不变。**
-复习记录使用这两个字段作为键。若已有增量词条需要更换 `collection`，
-显式保留原来的 `reviewIdentity`，以继续使用原复习记录。
-一个分组内的词条 `id` 不可重复。
+Supported `labels`: `noun`, `verb`, `adjective`, `adverb`, `pronoun`, `article`,
+`preposition`, `conjunction`, `numeral`, and `interjection`.
 
-## 检查与旧文件
+Supported themes: `people`, `family`, `classroom`, `home`, `food`, `places`,
+`travel`, `phone`, `time`, and `conversation`.
 
-可在本地运行 `flutter analyze` 和 `flutter test`。测试会读取词典文件，
-自动发现并合并所有增量文件，检查重复 ID、字段、日期和主题；
-格式错误会阻止网页发布。应用读取失败时显示
-现有的加载错误与重试界面。
+**Keep existing `reviewIdentity.deckId` and `reviewIdentity.cardId` values unchanged.**
+These fields form the key for saved review records. If an existing entry moves
+to another `collection`, explicitly retain its original `reviewIdentity` to
+preserve review history. Card IDs must be unique within a collection.
 
-旧 Dart 词库已移到 `tool/legacy_data/`，只用于历史回归测试和迁移工具，
-应用不会读取它。不要通过修改这些旧文件来更新词库。
-`tool/migrate_dictionary.dart` 是一次性导出工具；已有词典时会拒绝覆盖。
+## Validation and legacy files
+
+Run `flutter analyze` and `flutter test` locally. The tests read the dictionary,
+discover and merge addition files, and validate IDs, fields, dates, and themes.
+Invalid data blocks web publication. If loading fails in the app, the existing
+loading error and retry screen is shown.
+
+The old Dart dictionary lives in `tool/legacy_data/` and is used only by historical
+regression tests and migration tools. The app does not read it. Do not edit those
+files to update learning content. `tool/migrate_dictionary.dart` is a one-time
+export tool and refuses to overwrite an existing dictionary.
