@@ -21,7 +21,7 @@ void main() {
         (section) =>
             learningCollections.where((c) => c.section == section).length,
       ),
-      [6, 3, 6],
+      [7, 3, 6],
     );
     for (final collection in learningCollections) {
       final cards = collection.deck.cards;
@@ -259,7 +259,8 @@ void main() {
       'μολύβι',
     );
     expect(
-      nouns
+      learningCollections
+          .singleWhere((c) => c.deck.id == 'words-names')
           .filter(theme: LearningTheme.places, query: 'Russia', now: now)
           .cards
           .single

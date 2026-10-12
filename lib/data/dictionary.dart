@@ -73,7 +73,7 @@ class GreekDictionary {
         word['reviewIdentity'] ??= {'deckId': target, 'cardId': id};
         if (addedWeek != null) word['addedWeek'] ??= addedWeek;
         final card = reader.card(word, '$filename.$id');
-        if (target == 'words-nouns') {
+        if (target == 'words-nouns' || target == 'words-names') {
           word['acceptedAnswers'] = _nounAcceptedAnswers(card);
         }
         if (card.addedWeek == null) {

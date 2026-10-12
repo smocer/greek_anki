@@ -80,7 +80,7 @@ void main() {
           'χωρισμένη',
         ]),
       );
-      expect(learningCollections.length, 15);
+      expect(learningCollections.length, 16);
       for (final group in learningCollections) {
         for (final entry in group.deck.cards.where(
           (c) => c.id.contains('family-'),

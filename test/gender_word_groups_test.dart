@@ -9,14 +9,15 @@ void main() {
         .expand((c) => c.deck.cards)
         .where((c) => c.wordGroup != null)
         .toList();
-    expect(cards.map((c) => c.wordGroup).toSet().length, 22);
+    expect(cards.map((c) => c.wordGroup).toSet().length, 26);
+    // All 22 previously combined pairs still retain their saved review aliases.
+    expect(cards.where((c) => c.reviewAliases.isNotEmpty), hasLength(22));
     const matcher = GreekAnswer();
     for (final group in cards.map((c) => c.wordGroup).toSet()) {
       final matches = cards.where((c) => c.wordGroup == group).toList();
       expect(matches.length, 1, reason: group);
       final card = matches.single;
-      expect(card.forms.length, 2, reason: group);
-      expect(card.reviewAliases, isNotEmpty, reason: group);
+      expect(card.forms.length, greaterThanOrEqualTo(2), reason: group);
       for (final form in card.forms) {
         expect(matcher.matches(form.greek, card), isTrue, reason: form.greek);
         expect(

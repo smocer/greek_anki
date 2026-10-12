@@ -1,0 +1,929 @@
+{
+  "schemaVersion": 1,
+  "addedWeek": "2026-10-12",
+  "words": [
+    {
+      "id": "work-life-life",
+      "collection": "words-nouns",
+      "greek": "ζωή",
+      "prompt": {
+        "en": "Life",
+        "ru": "Жизнь"
+      },
+      "pronunciation": {
+        "en": "zo-I",
+        "ru": "зо-И"
+      },
+      "explanation": {
+        "en": "Feminine, like Russian жизнь. Related to ζω, “I live”.",
+        "ru": "Женский род, как у русского «жизнь». Связано с ζω — «я живу»."
+      },
+      "themes": [
+        "home"
+      ],
+      "labels": [
+        "noun"
+      ],
+      "answerDisplay": "η ζωή"
+    },
+    {
+      "id": "work-life-animal",
+      "collection": "words-nouns",
+      "greek": "ζώο",
+      "prompt": {
+        "en": "Animal",
+        "ru": "Животное"
+      },
+      "pronunciation": {
+        "en": "ZO-o",
+        "ru": "ЗО-о"
+      },
+      "explanation": {
+        "en": "Neuter, like Russian животное. Pronounce both vowels; stress the first.",
+        "ru": "Средний род, как «животное». Две гласные произносятся раздельно; ударение на первой: ЗО-о."
+      },
+      "themes": [
+        "home"
+      ],
+      "labels": [
+        "noun"
+      ],
+      "answerDisplay": "το ζώο"
+    },
+    {
+      "id": "work-life-trip",
+      "collection": "words-nouns",
+      "greek": "ταξίδι",
+      "prompt": {
+        "en": "Trip / journey",
+        "ru": "Поездка / путешествие"
+      },
+      "pronunciation": {
+        "en": "ta-KSI-dhi",
+        "ru": "та-КСИ-ди"
+      },
+      "explanation": {
+        "en": "Neuter. Compare ταξιδεύω, “I travel”; do not confuse ταξίδι with ταξί, “taxi”.",
+        "ru": "Средний род. Ταξιδεύω — «я путешествую». Не путайте ταξίδι с ταξί — «такси»."
+      },
+      "themes": [
+        "travel"
+      ],
+      "labels": [
+        "noun"
+      ],
+      "answerDisplay": "το ταξίδι"
+    },
+    {
+      "id": "work-life-greek-language",
+      "collection": "words-nouns",
+      "greek": "ελληνικά",
+      "prompt": {
+        "en": "Greek (language)",
+        "ru": "Греческий язык"
+      },
+      "pronunciation": {
+        "en": "e-li-ni-KA",
+        "ru": "э-ли-ни-КА"
+      },
+      "explanation": {
+        "en": "Language names such as τα ελληνικά use a neuter plural form. In μιλάω ελληνικά, the article is normally omitted.",
+        "ru": "Название языка — среднего рода во множественном числе: τα ελληνικά, хотя по-русски «греческий язык» — единственное число. Μιλάω ελληνικά — «я говорю по-гречески», без артикля."
+      },
+      "themes": [
+        "classroom"
+      ],
+      "labels": [
+        "noun"
+      ],
+      "answerDisplay": "τα ελληνικά"
+    },
+    {
+      "id": "work-life-cash-desk",
+      "collection": "words-nouns",
+      "greek": "ταμείο",
+      "prompt": {
+        "en": "Cash desk / checkout",
+        "ru": "Касса"
+      },
+      "pronunciation": {
+        "en": "ta-MI-o",
+        "ru": "та-МИ-о"
+      },
+      "explanation": {
+        "en": "Neuter. The place is το ταμείο; the person working there is ο ταμίας or η ταμίας.",
+        "ru": "Касса — το ταμείο, средний род. Кассир — ο ταμίας или η ταμίας."
+      },
+      "themes": [
+        "places"
+      ],
+      "labels": [
+        "noun"
+      ],
+      "answerDisplay": "το ταμείο"
+    },
+    {
+      "id": "work-life-manager",
+      "collection": "words-nouns",
+      "greek": "μάνατζερ",
+      "prompt": {
+        "en": "Manager",
+        "ru": "Менеджер"
+      },
+      "pronunciation": {
+        "en": "MA-na-dzer",
+        "ru": "МА-на-дзэр"
+      },
+      "explanation": {
+        "en": "A borrowing from English manager. The word does not change for a woman; the article does.",
+        "ru": "Заимствование из английского manager, как русское «менеджер». Слово не склоняется; ο — о мужчине, η — о женщине."
+      },
+      "themes": [
+        "people"
+      ],
+      "labels": [
+        "noun"
+      ],
+      "answerDisplay": "ο μάνατζερ / η μάνατζερ",
+      "wordGroup": "manager",
+      "forms": [
+        {
+          "greek": "μάνατζερ",
+          "answerDisplay": "ο μάνατζερ",
+          "pronunciation": {
+            "en": "MA-na-dzer",
+            "ru": "МА-на-дзэр"
+          }
+        },
+        {
+          "greek": "μάνατζερ",
+          "answerDisplay": "η μάνατζερ",
+          "pronunciation": {
+            "en": "MA-na-dzer",
+            "ru": "МА-на-дзэр"
+          }
+        }
+      ],
+      "alternatives": []
+    },
+    {
+      "id": "work-life-instructor",
+      "collection": "words-nouns",
+      "greek": "εκπαιδευτής",
+      "prompt": {
+        "en": "Instructor / trainer",
+        "ru": "Инструктор"
+      },
+      "pronunciation": {
+        "en": "ek-pe-dhef-TIS",
+        "ru": "эк-пэ-дэф-ТИС"
+      },
+      "explanation": {
+        "en": "A person who trains or instructs; the feminine form is εκπαιδεύτρια.",
+        "ru": "Тот, кто обучает практическим навыкам. Мужчина — εκπαιδευτής, женщина — εκπαιδεύτρια. Ευ перед τ произносится как «эф»."
+      },
+      "themes": [
+        "people",
+        "classroom"
+      ],
+      "labels": [
+        "noun"
+      ],
+      "answerDisplay": "ο εκπαιδευτής / η εκπαιδεύτρια",
+      "wordGroup": "instructor",
+      "forms": [
+        {
+          "greek": "εκπαιδευτής",
+          "answerDisplay": "ο εκπαιδευτής",
+          "pronunciation": {
+            "en": "ek-pe-dhef-TIS",
+            "ru": "эк-пэ-дэф-ТИС"
+          }
+        },
+        {
+          "greek": "εκπαιδεύτρια",
+          "answerDisplay": "η εκπαιδεύτρια",
+          "pronunciation": {
+            "en": "ek-pe-DHEF-tria",
+            "ru": "эк-пэ-ДЭФ-три-а"
+          }
+        }
+      ],
+      "alternatives": [
+        "εκπαιδεύτρια"
+      ]
+    },
+    {
+      "id": "work-life-police-officer",
+      "collection": "words-nouns",
+      "greek": "αστυνομικός",
+      "prompt": {
+        "en": "Police officer",
+        "ru": "Полицейский"
+      },
+      "pronunciation": {
+        "en": "a-sti-no-mi-KOS",
+        "ru": "а-сти-но-ми-КОС"
+      },
+      "explanation": {
+        "en": "The same noun is used for a man or a woman: ο αστυνομικός / η αστυνομικός.",
+        "ru": "Слово одинаковое для мужчины и женщины: ο αστυνομικός / η αστυνομικός. Меняется только артикль."
+      },
+      "themes": [
+        "people"
+      ],
+      "labels": [
+        "noun"
+      ],
+      "answerDisplay": "ο αστυνομικός / η αστυνομικός",
+      "wordGroup": "police-officer",
+      "forms": [
+        {
+          "greek": "αστυνομικός",
+          "answerDisplay": "ο αστυνομικός",
+          "pronunciation": {
+            "en": "a-sti-no-mi-KOS",
+            "ru": "а-сти-но-ми-КОС"
+          }
+        },
+        {
+          "greek": "αστυνομικός",
+          "answerDisplay": "η αστυνομικός",
+          "pronunciation": {
+            "en": "a-sti-no-mi-KOS",
+            "ru": "а-сти-но-ми-КОС"
+          }
+        }
+      ],
+      "alternatives": []
+    },
+    {
+      "id": "work-life-mobile-app-developer",
+      "collection": "words-nouns",
+      "greek": "προγραμματιστής εφαρμογών για κινητά",
+      "prompt": {
+        "en": "Mobile app developer",
+        "ru": "Разработчик мобильных приложений"
+      },
+      "pronunciation": {
+        "en": "pro-ghra-ma-ti-STIS e-far-mo-GHON ya ki-ni-TA",
+        "ru": "про-гра-ма-ти-СТИС э-фар-мо-ГОН я ки-ни-ТА"
+      },
+      "explanation": {
+        "en": "A software developer: εφαρμογών means “of applications”; για κινητά means “for mobile phones”. This wording distinguishes app development from mobile-device hardware engineering.",
+        "ru": "Разработчик программ, а не специалист по аппаратной части телефонов. Εφαρμογών — «приложений», родительный множественного числа; για κινητά — «для мобильных телефонов»."
+      },
+      "themes": [
+        "people",
+        "phone"
+      ],
+      "labels": [
+        "noun"
+      ],
+      "answerDisplay": "ο προγραμματιστής εφαρμογών για κινητά / η προγραμματίστρια εφαρμογών για κινητά",
+      "wordGroup": "mobile-app-developer",
+      "forms": [
+        {
+          "greek": "προγραμματιστής εφαρμογών για κινητά",
+          "answerDisplay": "ο προγραμματιστής εφαρμογών για κινητά",
+          "pronunciation": {
+            "en": "pro-ghra-ma-ti-STIS e-far-mo-GHON ya ki-ni-TA",
+            "ru": "про-гра-ма-ти-СТИС э-фар-мо-ГОН я ки-ни-ТА"
+          }
+        },
+        {
+          "greek": "προγραμματίστρια εφαρμογών για κινητά",
+          "answerDisplay": "η προγραμματίστρια εφαρμογών για κινητά",
+          "pronunciation": {
+            "en": "pro-ghra-ma-TIS-tria e-far-mo-GHON ya ki-ni-TA",
+            "ru": "про-гра-ма-ТИСТ-ри-а э-фар-мо-ГОН я ки-ни-ТА"
+          }
+        }
+      ],
+      "alternatives": [
+        "προγραμματίστρια εφαρμογών για κινητά"
+      ]
+    },
+    {
+      "id": "work-life-doctoral-student",
+      "collection": "words-nouns",
+      "greek": "διδακτορικός φοιτητής",
+      "prompt": {
+        "en": "Doctoral student / PhD candidate",
+        "ru": "Аспирант / аспирантка (PhD)"
+      },
+      "pronunciation": {
+        "en": "dhi-dha-kto-ri-KOS fi-ti-TIS",
+        "ru": "ди-да-кто-ри-КОС фи-ти-ТИС"
+      },
+      "explanation": {
+        "en": "Another expression for someone studying for a doctorate, not the degree itself. Compare υποψήφιος διδάκτορας.",
+        "ru": "Студент программы PhD; речь о человеке, а не о самой степени. Ещё одно выражение — υποψήφιος διδάκτορας. В женском роде меняются оба слова: διδακτορική φοιτήτρια."
+      },
+      "themes": [
+        "people",
+        "classroom"
+      ],
+      "labels": [
+        "noun"
+      ],
+      "answerDisplay": "ο διδακτορικός φοιτητής / η διδακτορική φοιτήτρια",
+      "wordGroup": "doctoral-student",
+      "forms": [
+        {
+          "greek": "διδακτορικός φοιτητής",
+          "answerDisplay": "ο διδακτορικός φοιτητής",
+          "pronunciation": {
+            "en": "dhi-dha-kto-ri-KOS fi-ti-TIS",
+            "ru": "ди-да-кто-ри-КОС фи-ти-ТИС"
+          }
+        },
+        {
+          "greek": "διδακτορική φοιτήτρια",
+          "answerDisplay": "η διδακτορική φοιτήτρια",
+          "pronunciation": {
+            "en": "dhi-dha-kto-ri-KI fi-TI-tria",
+            "ru": "ди-да-кто-ри-КИ фи-ТИ-три-а"
+          }
+        }
+      ],
+      "alternatives": [
+        "διδακτορική φοιτήτρια"
+      ]
+    },
+    {
+      "id": "work-life-physiotherapist-variant",
+      "collection": "words-nouns",
+      "greek": "φυσιοθεραπευτής",
+      "prompt": {
+        "en": "Physiotherapist / physical therapist",
+        "ru": "Физиотерапевт"
+      },
+      "pronunciation": {
+        "en": "fi-sio-the-ra-pef-TIS",
+        "ru": "фи-си-о-тэ-ра-пэф-ТИС"
+      },
+      "explanation": {
+        "en": "Φυσιοθεραπευτής and φυσικοθεραπευτής are both used; the feminine forms are φυσιοθεραπεύτρια and φυσικοθεραπεύτρια.",
+        "ru": "Допустимы φυσιοθεραπευτής и φυσικοθεραπευτής. Женские формы: φυσιοθεραπεύτρια и φυσικοθεραπεύτρια. Корень похож на русское «физиотерапия»."
+      },
+      "themes": [
+        "people"
+      ],
+      "labels": [
+        "noun"
+      ],
+      "answerDisplay": "ο φυσιοθεραπευτής / η φυσιοθεραπεύτρια",
+      "wordGroup": "physiotherapist",
+      "forms": [
+        {
+          "greek": "φυσιοθεραπευτής",
+          "answerDisplay": "ο φυσιοθεραπευτής",
+          "pronunciation": {
+            "en": "fi-sio-the-ra-pef-TIS",
+            "ru": "фи-си-о-тэ-ра-пэф-ТИС"
+          }
+        },
+        {
+          "greek": "φυσιοθεραπεύτρια",
+          "answerDisplay": "η φυσιοθεραπεύτρια",
+          "pronunciation": {
+            "en": "fi-sio-the-ra-PEF-tria",
+            "ru": "фи-си-о-тэ-ра-ПЭФ-три-а"
+          }
+        }
+      ],
+      "alternatives": [
+        "φυσιοθεραπεύτρια"
+      ]
+    },
+    {
+      "id": "work-life-think",
+      "collection": "words-verbs",
+      "greek": "νομίζω",
+      "prompt": {
+        "en": "I think / suppose",
+        "ru": "Я думаю / полагаю"
+      },
+      "pronunciation": {
+        "en": "no-MI-zo",
+        "ru": "но-МИ-зо"
+      },
+      "explanation": {
+        "en": "First-person present: having an opinion or supposing something.",
+        "ru": "Форма «я»: думаю, полагаю. Передаёт мнение или предположение."
+      },
+      "themes": [
+        "conversation"
+      ],
+      "labels": [
+        "verb"
+      ]
+    },
+    {
+      "id": "work-life-live",
+      "collection": "words-verbs",
+      "greek": "ζω",
+      "prompt": {
+        "en": "I live / am alive",
+        "ru": "Я живу (существую)"
+      },
+      "pronunciation": {
+        "en": "zo",
+        "ru": "зо"
+      },
+      "explanation": {
+        "en": "One syllable, so no written accent. Μένω usually describes where you live or stay. Δεν ζω means “I do not live”; “he does not live” is δεν ζει.",
+        "ru": "Односложное слово без знака ударения. Ζω — жить, быть живым; μένω обычно о месте жительства. Δεν ζω — «я не живу», а «он не живёт» — δεν ζει."
+      },
+      "themes": [
+        "home"
+      ],
+      "labels": [
+        "verb"
+      ]
+    },
+    {
+      "id": "work-life-look-for",
+      "collection": "words-verbs",
+      "greek": "ψάχνω",
+      "prompt": {
+        "en": "I look for / search",
+        "ru": "Я ищу"
+      },
+      "pronunciation": {
+        "en": "PSAH-no",
+        "ru": "ПСАХ-но"
+      },
+      "explanation": {
+        "en": "First-person present. Ψάχνω για δουλειά means “I am looking for a job”.",
+        "ru": "Форма «я». Ψ — сочетание «пс»: ПСАХ-но. Ψάχνω για δουλειά — «я ищу работу»."
+      },
+      "themes": [
+        "people"
+      ],
+      "labels": [
+        "verb"
+      ]
+    },
+    {
+      "id": "work-life-get-to-know",
+      "collection": "words-verbs",
+      "greek": "γνωρίζω",
+      "prompt": {
+        "en": "I meet / get to know someone",
+        "ru": "Я знакомлюсь"
+      },
+      "pronunciation": {
+        "en": "ghno-RI-zo",
+        "ru": "гно-РИ-зо"
+      },
+      "explanation": {
+        "en": "Also means “I know / am acquainted with”. Γνωρίζω κάποιον is knowing or meeting someone; σου γνωρίζω κάποιον means introducing someone to you.",
+        "ru": "Может значить «я знакомлюсь» или «я знаю, знаком с кем-то». Σου γνωρίζω κάποιον — «знакомлю тебя с кем-то»: значение зависит от того, кто кого знакомит."
+      },
+      "themes": [
+        "conversation",
+        "people"
+      ],
+      "labels": [
+        "verb"
+      ]
+    },
+    {
+      "id": "work-life-travel",
+      "collection": "words-verbs",
+      "greek": "ταξιδεύω",
+      "prompt": {
+        "en": "I travel",
+        "ru": "Я путешествую"
+      },
+      "pronunciation": {
+        "en": "ta-ksi-DHE-vo",
+        "ru": "та-кси-ДЭ-во"
+      },
+      "explanation": {
+        "en": "First-person present. The related noun is το ταξίδι, “trip”.",
+        "ru": "Форма «я». Ταξίδι — «поездка». Ευ перед гласной звучит как «эв»."
+      },
+      "themes": [
+        "travel"
+      ],
+      "labels": [
+        "verb"
+      ]
+    },
+    {
+      "id": "work-life-cook",
+      "collection": "words-verbs",
+      "greek": "μαγειρεύω",
+      "prompt": {
+        "en": "I cook",
+        "ru": "Я готовлю еду"
+      },
+      "pronunciation": {
+        "en": "ma-yi-RE-vo",
+        "ru": "ма-йи-РЭ-во"
+      },
+      "explanation": {
+        "en": "First-person present. Compare μάγειρας / μαγείρισσα, “cook” as a profession.",
+        "ru": "Форма «я». Здесь «готовлю» именно еду. Профессия «повар» — μάγειρας / μαγείρισσα."
+      },
+      "themes": [
+        "food",
+        "home"
+      ],
+      "labels": [
+        "verb"
+      ]
+    },
+    {
+      "id": "work-life-fill-in",
+      "collection": "words-verbs",
+      "greek": "συμπληρώνω",
+      "prompt": {
+        "en": "I fill in / complete",
+        "ru": "Я заполняю / дополняю"
+      },
+      "pronunciation": {
+        "en": "sim-pli-RO-no",
+        "ru": "сим-пли-РО-но"
+      },
+      "explanation": {
+        "en": "First-person present, often used in workbook instructions to fill in missing answers.",
+        "ru": "Форма «я»: заполняю, дополняю. В задании учебника — «заполните пропуски»."
+      },
+      "themes": [
+        "classroom"
+      ],
+      "labels": [
+        "verb"
+      ]
+    },
+    {
+      "id": "work-life-answer",
+      "collection": "words-verbs",
+      "greek": "απαντώ",
+      "prompt": {
+        "en": "I answer",
+        "ru": "Я отвечаю"
+      },
+      "pronunciation": {
+        "en": "a-pan-TO",
+        "ru": "а-пан-ТО"
+      },
+      "explanation": {
+        "en": "First-person present. Απαντάω is another common form.",
+        "ru": "Форма «я». Употребляется также απαντάω; оба варианта означают «я отвечаю»."
+      },
+      "themes": [
+        "classroom",
+        "conversation"
+      ],
+      "labels": [
+        "verb"
+      ],
+      "alternatives": [
+        "απαντάω"
+      ]
+    },
+    {
+      "id": "work-life-choose",
+      "collection": "words-verbs",
+      "greek": "διαλέγω",
+      "prompt": {
+        "en": "I choose",
+        "ru": "Я выбираю"
+      },
+      "pronunciation": {
+        "en": "dhia-LE-gho",
+        "ru": "дья-ЛЭ-го"
+      },
+      "explanation": {
+        "en": "First-person present. In an exercise heading, it asks the learner to choose an answer.",
+        "ru": "Форма «я». В заголовке упражнения это указание выбрать ответ."
+      },
+      "themes": [
+        "classroom"
+      ],
+      "labels": [
+        "verb"
+      ]
+    },
+    {
+      "id": "work-life-outside",
+      "collection": "words-descriptions",
+      "greek": "έξω",
+      "prompt": {
+        "en": "Outside",
+        "ru": "Снаружи"
+      },
+      "pronunciation": {
+        "en": "E-kso",
+        "ru": "Э-ксо"
+      },
+      "explanation": {
+        "en": "Έξω από means “outside of”.",
+        "ru": "Έξω από — «снаружи», «за пределами чего-либо»."
+      },
+      "themes": [
+        "places"
+      ],
+      "labels": [
+        "adverb"
+      ]
+    },
+    {
+      "id": "work-life-together",
+      "collection": "words-descriptions",
+      "greek": "μαζί",
+      "prompt": {
+        "en": "Together",
+        "ru": "Вместе"
+      },
+      "pronunciation": {
+        "en": "ma-ZI",
+        "ru": "ма-ЗИ"
+      },
+      "explanation": {
+        "en": "Μαζί με means “together with”.",
+        "ru": "Μαζί με — «вместе с». В греческом после με используется винительный, хотя по-русски после «с» — творительный."
+      },
+      "themes": [
+        "conversation"
+      ],
+      "labels": [
+        "adverb"
+      ]
+    },
+    {
+      "id": "work-life-okay",
+      "collection": "words-descriptions",
+      "greek": "εντάξει",
+      "prompt": {
+        "en": "Okay / all right",
+        "ru": "Ладно / в порядке"
+      },
+      "pronunciation": {
+        "en": "en-DA-ksi",
+        "ru": "эн-ДА-кси"
+      },
+      "explanation": {
+        "en": "A response meaning “okay”, or a description meaning “all right”.",
+        "ru": "В ответе — «ладно», «хорошо»; о состоянии — «в порядке». Не переводится буквально по частям."
+      },
+      "themes": [
+        "conversation"
+      ],
+      "labels": [
+        "adverb",
+        "interjection"
+      ]
+    },
+    {
+      "id": "work-life-very",
+      "collection": "words-descriptions",
+      "greek": "πολύ",
+      "prompt": {
+        "en": "Very / a lot",
+        "ru": "Очень / много"
+      },
+      "pronunciation": {
+        "en": "po-LI",
+        "ru": "по-ЛИ"
+      },
+      "explanation": {
+        "en": "An adverb: πολύ καλά means “very well”; ταξιδεύω πολύ means “I travel a lot”.",
+        "ru": "Наречие: πολύ καλά — «очень хорошо», ταξιδεύω πολύ — «я много путешествую». Пишется с υ на конце."
+      },
+      "themes": [
+        "conversation"
+      ],
+      "labels": [
+        "adverb"
+      ]
+    },
+    {
+      "id": "work-life-looking-for-work",
+      "collection": "phrases-everyday",
+      "greek": "Ψάχνω για δουλειά.",
+      "prompt": {
+        "en": "I am looking for a job.",
+        "ru": "Я ищу работу."
+      },
+      "pronunciation": {
+        "en": "PSAH-no ya dhu-LIA",
+        "ru": "ПСАХ-но я ду-ЛЯ"
+      },
+      "explanation": {
+        "en": "Για connects the search to its object; a general job takes no article here.",
+        "ru": "После ψάχνω можно использовать για. Здесь δουλειά без артикля: ищу работу вообще."
+      },
+      "themes": [
+        "people"
+      ],
+      "labels": []
+    },
+    {
+      "id": "work-life-tell-me-question",
+      "collection": "phrases-social",
+      "greek": "Δεν μου λες;",
+      "prompt": {
+        "en": "Tell me… (conversational question)",
+        "ru": "Скажи-ка… (разговорный вопрос)"
+      },
+      "pronunciation": {
+        "en": "dhen mu les",
+        "ru": "дэн му лэс"
+      },
+      "explanation": {
+        "en": "An idiomatic way to introduce a question, roughly “won’t you tell me…?”. It is not the command “do not tell me”.",
+        "ru": "Разговорное вступление к вопросу, примерно «скажи-ка…», «а не скажешь…?». Это не запрет «не говори мне»."
+      },
+      "themes": [
+        "conversation"
+      ],
+      "labels": [],
+      "alternatives": [
+        "Δε μου λες;"
+      ]
+    },
+    {
+      "id": "work-life-work-question-polite",
+      "collection": "phrases-social",
+      "greek": "Τι δουλειά κάνετε;",
+      "prompt": {
+        "en": "What do you do for work? (polite/plural)",
+        "ru": "Кем вы работаете?"
+      },
+      "pronunciation": {
+        "en": "ti dhu-LIA KA-ne-te",
+        "ru": "ти ду-ЛЯ КА-нэ-тэ"
+      },
+      "explanation": {
+        "en": "Κάνετε addresses several people or one person politely, like Russian вы.",
+        "ru": "Κάνετε — обращение на «вы»: к нескольким людям или вежливо к одному. Буквально «какую работу вы делаете?»."
+      },
+      "themes": [
+        "people",
+        "conversation"
+      ],
+      "labels": []
+    },
+    {
+      "id": "work-life-do-you-work",
+      "collection": "phrases-social",
+      "greek": "Δουλεύεις;",
+      "prompt": {
+        "en": "Do you work? (informal)",
+        "ru": "Ты работаешь?"
+      },
+      "pronunciation": {
+        "en": "dhu-LE-vis",
+        "ru": "ду-ЛЭ-вис"
+      },
+      "explanation": {
+        "en": "Second-person singular of δουλεύω.",
+        "ru": "Форма для «ты» от δουλεύω — «работаю»."
+      },
+      "themes": [
+        "people",
+        "conversation"
+      ],
+      "labels": []
+    },
+    {
+      "id": "work-life-do-you-work-polite",
+      "collection": "phrases-social",
+      "greek": "Δουλεύετε;",
+      "prompt": {
+        "en": "Do you work? (polite/plural)",
+        "ru": "Вы работаете?"
+      },
+      "pronunciation": {
+        "en": "dhu-LE-ve-te",
+        "ru": "ду-ЛЭ-вэ-тэ"
+      },
+      "explanation": {
+        "en": "Second-person plural, also used for polite singular address.",
+        "ru": "Форма для «вы»: множественное число или вежливое обращение к одному человеку."
+      },
+      "themes": [
+        "people",
+        "conversation"
+      ],
+      "labels": []
+    },
+    {
+      "id": "work-life-work-in-greece",
+      "collection": "phrases-everyday",
+      "greek": "Δουλεύω στην Ελλάδα.",
+      "prompt": {
+        "en": "I work in Greece.",
+        "ru": "Я работаю в Греции."
+      },
+      "pronunciation": {
+        "en": "dhu-LE-vo stin e-LA-dha",
+        "ru": "ду-ЛЭ-во стин э-ЛА-да"
+      },
+      "explanation": {
+        "en": "Στην combines σε and την. Greek uses the accusative after σε for a location.",
+        "ru": "Στην = σε + την. По-русски «в Греции» — предложный падеж, а после греческого σε используется винительный."
+      },
+      "themes": [
+        "people",
+        "places"
+      ],
+      "labels": []
+    },
+    {
+      "id": "work-life-i-am-doctor",
+      "collection": "phrases-everyday",
+      "greek": "Είμαι γιατρός.",
+      "prompt": {
+        "en": "I am a doctor.",
+        "ru": "Я врач."
+      },
+      "pronunciation": {
+        "en": "I-me ya-TROS",
+        "ru": "И-мэ я-ТРОС"
+      },
+      "explanation": {
+        "en": "The profession normally has no article after είμαι in a simple statement like this. Γιατρός can refer to a man or woman.",
+        "ru": "В таком сообщении профессия после είμαι обычно без артикля. Γιατρός подходит и для мужчины, и для женщины. В русском «я врач» глагол «быть» опускается, в греческом είμαι нужен."
+      },
+      "themes": [
+        "people"
+      ],
+      "labels": []
+    },
+    {
+      "id": "work-life-i-am-electrician",
+      "collection": "phrases-everyday",
+      "greek": "Είμαι ηλεκτρολόγος.",
+      "prompt": {
+        "en": "I am an electrician.",
+        "ru": "Я электрик."
+      },
+      "pronunciation": {
+        "en": "I-me i-lek-tro-LO-ghos",
+        "ru": "И-мэ и-лэк-тро-ЛО-гос"
+      },
+      "explanation": {
+        "en": "A profession after είμαι normally takes no article in this type of sentence.",
+        "ru": "Профессия после είμαι в таком предложении обычно без артикля: «я электрик». Не путайте с ηλεκτρολόγος μηχανικός — «инженер-электрик»."
+      },
+      "themes": [
+        "people"
+      ],
+      "labels": []
+    },
+    {
+      "id": "work-life-live-with-girlfriend",
+      "collection": "phrases-everyday",
+      "greek": "Μένω με την φίλη μου.",
+      "prompt": {
+        "en": "I live with my girlfriend.",
+        "ru": "Я живу со своей девушкой."
+      },
+      "pronunciation": {
+        "en": "ME-no me tin FI-li mu",
+        "ru": "МЭ-но мэ тин ФИ-ли му"
+      },
+      "explanation": {
+        "en": "Με takes the accusative: η φίλη → την φίλη. Here φίλη means girlfriend; it can also mean a female friend.",
+        "ru": "После με — винительный: η φίλη → την φίλη. По-русски «с девушкой» — творительный. В этом контексте φίλη — девушка; в другом контексте может быть подругой."
+      },
+      "themes": [
+        "family",
+        "home"
+      ],
+      "labels": [],
+      "acceptedAnswers": [
+        "Μένω με τη φίλη μου."
+      ]
+    },
+    {
+      "id": "work-life-outside-classroom",
+      "collection": "phrases-classroom",
+      "greek": "Έξω από την τάξη.",
+      "prompt": {
+        "en": "Outside the classroom.",
+        "ru": "За пределами класса."
+      },
+      "pronunciation": {
+        "en": "E-kso a-PO tin TA-ksi",
+        "ru": "Э-ксо а-ПО тин ТА-кси"
+      },
+      "explanation": {
+        "en": "Έξω από names a position outside something; από is followed by the accusative.",
+        "ru": "Έξω από — «за пределами», «снаружи». После από используется винительный: την τάξη."
+      },
+      "themes": [
+        "classroom",
+        "places"
+      ],
+      "labels": []
+    }
+  ]
+}

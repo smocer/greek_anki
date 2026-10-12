@@ -110,6 +110,27 @@ void main() {
     expect(matcher.matches(card.displayedAnswer, card), isFalse);
   });
 
+  test('names accept their authored article without relaxing accents', () {
+    final base = fixture();
+    base['collections'][0]['section'] = 'words';
+    base['collections'][0]['deck']['id'] = 'words-names';
+    final addition = newWords(id: 'athens');
+    final word = addition['words'][0];
+    word['collection'] = 'words-names';
+    word['greek'] = 'Αθήνα';
+    word['answerDisplay'] = 'η Αθήνα';
+    final card = GreekDictionary.merge(jsonEncode(base), {
+      'names.json': jsonEncode(addition),
+    }).learningDecks.single.cards.last;
+    const matcher = GreekAnswer();
+    for (final answer in ['Αθήνα', 'η Αθήνα']) {
+      expect(matcher.matches(answer, card), isTrue, reason: answer);
+    }
+    for (final answer in ['Αθηνα', 'Αθηνά', 'ο Αθήνα']) {
+      expect(matcher.matches(answer, card), isFalse, reason: answer);
+    }
+  });
+
   test('noun article adaptation does not relax grammar or phrase answers', () {
     for (final section in ['grammar', 'phrases']) {
       final base = fixture();

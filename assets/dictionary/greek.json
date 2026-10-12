@@ -56989,27 +56989,6 @@
           "words-nouns/classroom-objects.pen",
           "words-nouns/classroom-objects.pencil",
           "words-nouns/classroom-objects.picture",
-          "words-nouns/countries.afghanistan",
-          "words-nouns/countries.argentina",
-          "words-nouns/countries.bulgaria",
-          "words-nouns/countries.burundi",
-          "words-nouns/countries.canada",
-          "words-nouns/countries.china",
-          "words-nouns/countries.cyprus",
-          "words-nouns/countries.denmark",
-          "words-nouns/countries.egypt",
-          "words-nouns/countries.england",
-          "words-nouns/countries.france",
-          "words-nouns/countries.germany",
-          "words-nouns/countries.greece",
-          "words-nouns/countries.iraq",
-          "words-nouns/countries.israel",
-          "words-nouns/countries.italy",
-          "words-nouns/countries.lebanon",
-          "words-nouns/countries.morocco",
-          "words-nouns/countries.russia",
-          "words-nouns/countries.ukraine",
-          "words-nouns/countries.usa",
           "words-nouns/culture-dining.cinema",
           "words-nouns/culture-dining.museum",
           "words-nouns/culture-dining.restaurant",
@@ -57032,13 +57011,11 @@
           "words-nouns/everyday-nouns.computer",
           "words-nouns/everyday-nouns.girl",
           "words-nouns/everyday-nouns.ice-cream",
-          "words-nouns/everyday-nouns.larnaca",
           "words-nouns/everyday-nouns.lesson",
           "words-nouns/everyday-nouns.library",
           "words-nouns/everyday-nouns.lighter",
           "words-nouns/everyday-nouns.map",
           "words-nouns/everyday-nouns.marker",
-          "words-nouns/everyday-nouns.nicosia",
           "words-nouns/everyday-nouns.paper",
           "words-nouns/everyday-nouns.problem",
           "words-nouns/everyday-nouns.school-student-female",
@@ -57055,23 +57032,10 @@
           "words-nouns/forms-of-address.madam-noun",
           "words-nouns/forms-of-address.sir-noun",
           "words-nouns/introductions.name",
-          "words-nouns/names-vocative.alexander-name",
-          "words-nouns/names-vocative.constantine-name",
-          "words-nouns/names-vocative.george-name",
-          "words-nouns/names-vocative.john-name",
-          "words-nouns/names-vocative.peter-name",
-          "words-nouns/nature-geography.africa",
-          "words-nouns/nature-geography.america",
-          "words-nouns/nature-geography.asia",
-          "words-nouns/nature-geography.europe",
           "words-nouns/nature-geography.sea",
           "words-nouns/nature-geography.sky",
           "words-nouns/nature-geography.sun",
           "words-nouns/neighbours.female-neighbour",
-          "words-nouns/noun-gender.eleni",
-          "words-nouns/noun-gender.limassol",
-          "words-nouns/noun-gender.maria",
-          "words-nouns/noun-gender.paphos",
           "words-nouns/pets-home.cat",
           "words-nouns/pets-home.dog",
           "words-nouns/pets-home.house",
@@ -57176,69 +57140,6 @@
         "classroom-objects.picture": [
           "classroom"
         ],
-        "countries.afghanistan": [
-          "places"
-        ],
-        "countries.argentina": [
-          "places"
-        ],
-        "countries.bulgaria": [
-          "places"
-        ],
-        "countries.burundi": [
-          "places"
-        ],
-        "countries.canada": [
-          "places"
-        ],
-        "countries.china": [
-          "places"
-        ],
-        "countries.cyprus": [
-          "places"
-        ],
-        "countries.denmark": [
-          "places"
-        ],
-        "countries.egypt": [
-          "places"
-        ],
-        "countries.england": [
-          "places"
-        ],
-        "countries.france": [
-          "places"
-        ],
-        "countries.germany": [
-          "places"
-        ],
-        "countries.greece": [
-          "places"
-        ],
-        "countries.iraq": [
-          "places"
-        ],
-        "countries.israel": [
-          "places"
-        ],
-        "countries.italy": [
-          "places"
-        ],
-        "countries.lebanon": [
-          "places"
-        ],
-        "countries.morocco": [
-          "places"
-        ],
-        "countries.russia": [
-          "places"
-        ],
-        "countries.ukraine": [
-          "places"
-        ],
-        "countries.usa": [
-          "places"
-        ],
         "culture-dining.cinema": [
           "places"
         ],
@@ -57307,9 +57208,6 @@
         "everyday-nouns.ice-cream": [
           "food"
         ],
-        "everyday-nouns.larnaca": [
-          "places"
-        ],
         "everyday-nouns.lesson": [
           "classroom"
         ],
@@ -57324,9 +57222,6 @@
         ],
         "everyday-nouns.marker": [
           "classroom"
-        ],
-        "everyday-nouns.nicosia": [
-          "places"
         ],
         "everyday-nouns.paper": [
           "classroom"
@@ -57365,33 +57260,6 @@
         "introductions.name": [
           "conversation"
         ],
-        "names-vocative.alexander-name": [
-          "people"
-        ],
-        "names-vocative.constantine-name": [
-          "people"
-        ],
-        "names-vocative.george-name": [
-          "people"
-        ],
-        "names-vocative.john-name": [
-          "people"
-        ],
-        "names-vocative.peter-name": [
-          "people"
-        ],
-        "nature-geography.africa": [
-          "places"
-        ],
-        "nature-geography.america": [
-          "places"
-        ],
-        "nature-geography.asia": [
-          "places"
-        ],
-        "nature-geography.europe": [
-          "places"
-        ],
         "nature-geography.sea": [
           "places"
         ],
@@ -57399,18 +57267,6 @@
           "places"
         ],
         "nature-geography.sun": [
-          "places"
-        ],
-        "noun-gender.eleni": [
-          "conversation"
-        ],
-        "noun-gender.limassol": [
-          "places"
-        ],
-        "noun-gender.maria": [
-          "conversation"
-        ],
-        "noun-gender.paphos": [
           "places"
         ],
         "pets-home.dog": [
@@ -57631,6 +57487,173 @@
         "family-lesson.family-male-cousin": [
           "family",
           "people"
+        ]
+      }
+    },
+    {
+      "section": "words",
+      "deck": {
+        "id": "words-names",
+        "title": {
+          "en": "Names & places",
+          "ru": "Имена и названия"
+        },
+        "subtitle": {
+          "en": "People, countries and cities · articles optional",
+          "ru": "Имена людей, страны и города · артикли необязательны"
+        },
+        "cover": "Ελλάδα",
+        "note": {
+          "en": "Practise personal names and geographical names. Articles are optional; the revealed answer shows the article and explains the gender.",
+          "ru": "Имена людей и географические названия. Артикль можно не вводить; после ответа вы увидите его и пояснение о роде."
+        },
+        "cards": [
+          "words-nouns/countries.afghanistan",
+          "words-nouns/countries.argentina",
+          "words-nouns/countries.bulgaria",
+          "words-nouns/countries.burundi",
+          "words-nouns/countries.canada",
+          "words-nouns/countries.china",
+          "words-nouns/countries.cyprus",
+          "words-nouns/countries.denmark",
+          "words-nouns/countries.egypt",
+          "words-nouns/countries.england",
+          "words-nouns/countries.france",
+          "words-nouns/countries.germany",
+          "words-nouns/countries.greece",
+          "words-nouns/countries.iraq",
+          "words-nouns/countries.israel",
+          "words-nouns/countries.italy",
+          "words-nouns/countries.lebanon",
+          "words-nouns/countries.morocco",
+          "words-nouns/countries.russia",
+          "words-nouns/countries.ukraine",
+          "words-nouns/countries.usa",
+          "words-nouns/everyday-nouns.larnaca",
+          "words-nouns/everyday-nouns.nicosia",
+          "words-nouns/names-vocative.alexander-name",
+          "words-nouns/names-vocative.constantine-name",
+          "words-nouns/names-vocative.george-name",
+          "words-nouns/names-vocative.john-name",
+          "words-nouns/names-vocative.peter-name",
+          "words-nouns/nature-geography.africa",
+          "words-nouns/nature-geography.america",
+          "words-nouns/nature-geography.asia",
+          "words-nouns/nature-geography.europe",
+          "words-nouns/noun-gender.eleni",
+          "words-nouns/noun-gender.limassol",
+          "words-nouns/noun-gender.maria",
+          "words-nouns/noun-gender.paphos"
+        ]
+      },
+      "themes": {
+        "countries.afghanistan": [
+          "places"
+        ],
+        "countries.argentina": [
+          "places"
+        ],
+        "countries.bulgaria": [
+          "places"
+        ],
+        "countries.burundi": [
+          "places"
+        ],
+        "countries.canada": [
+          "places"
+        ],
+        "countries.china": [
+          "places"
+        ],
+        "countries.cyprus": [
+          "places"
+        ],
+        "countries.denmark": [
+          "places"
+        ],
+        "countries.egypt": [
+          "places"
+        ],
+        "countries.england": [
+          "places"
+        ],
+        "countries.france": [
+          "places"
+        ],
+        "countries.germany": [
+          "places"
+        ],
+        "countries.greece": [
+          "places"
+        ],
+        "countries.iraq": [
+          "places"
+        ],
+        "countries.israel": [
+          "places"
+        ],
+        "countries.italy": [
+          "places"
+        ],
+        "countries.lebanon": [
+          "places"
+        ],
+        "countries.morocco": [
+          "places"
+        ],
+        "countries.russia": [
+          "places"
+        ],
+        "countries.ukraine": [
+          "places"
+        ],
+        "countries.usa": [
+          "places"
+        ],
+        "everyday-nouns.larnaca": [
+          "places"
+        ],
+        "everyday-nouns.nicosia": [
+          "places"
+        ],
+        "names-vocative.alexander-name": [
+          "people"
+        ],
+        "names-vocative.constantine-name": [
+          "people"
+        ],
+        "names-vocative.george-name": [
+          "people"
+        ],
+        "names-vocative.john-name": [
+          "people"
+        ],
+        "names-vocative.peter-name": [
+          "people"
+        ],
+        "nature-geography.africa": [
+          "places"
+        ],
+        "nature-geography.america": [
+          "places"
+        ],
+        "nature-geography.asia": [
+          "places"
+        ],
+        "nature-geography.europe": [
+          "places"
+        ],
+        "noun-gender.eleni": [
+          "conversation"
+        ],
+        "noun-gender.limassol": [
+          "places"
+        ],
+        "noun-gender.maria": [
+          "conversation"
+        ],
+        "noun-gender.paphos": [
+          "places"
         ]
       }
     },

@@ -63,10 +63,14 @@ Multiple collections can reference one definition to avoid maintaining duplicate
    the merged dictionary.
 
 `collection` identifies an existing learning group, such as `words-nouns`,
-`words-verbs`, `words-pronouns`, `words-descriptions`, `words-connectors`,
+`words-names`, `words-verbs`, `words-pronouns`, `words-descriptions`, `words-connectors`,
 `words-numbers`, `phrases-social`, `phrases-classroom`, or `phrases-everyday`.
 For grammar exercises, use a `grammar-*` collection ID from the base dictionary.
 Unknown collection IDs produce an error.
+
+Use `words-nouns` for common nouns and `words-names` for personal names and
+geographical names (countries, cities and continents). Keep names used in
+phrases or grammar exercises in those exercises' existing collections.
 
 Filenames are unrestricted. Each entry needs a unique `id`; do not reuse an ID
 across files. Addition files append entries. Duplicate IDs, conflicting review
@@ -111,8 +115,8 @@ spelling variants shown to the learner; `acceptedAnswers` contains additional
 accepted full answers. New entries can omit `words`: the home screen's
 vocabulary, themes, and collections do not depend on automatic tokenization.
 
-New nouns in `words-nouns` automatically accept answers with or without their
-specified article. For example, the template's `greek: "αχλάδι"` and
+New nouns in `words-nouns` and names in `words-names` automatically accept answers
+with or without their specified article. For example, the template's `greek: "αχλάδι"` and
 `answerDisplay: "το αχλάδι"` are both accepted without repeating them in
 `acceptedAnswers`. For grouped gender forms, each form's `greek` and
 `answerDisplay` are accepted separately; the combined display with a slash is

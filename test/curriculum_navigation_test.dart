@@ -39,6 +39,42 @@ void main() {
 
   for (final language in AppLanguage.values) {
     testWidgets(
+      'names can be selected and studied separately (${language.name})',
+      (tester) async {
+        final russian = language == AppLanguage.russian;
+        await openApp(tester, language: language);
+        await tester.tap(find.byKey(const ValueKey('collection-words')));
+        await tester.pumpAndSettle();
+        await tapText(tester, russian ? 'Имена и названия' : 'Names & places');
+        await tapText(tester, russian ? 'Фильтры' : 'Filters');
+        await tester.enterText(
+          find.byKey(const ValueKey('topic-search')),
+          'Argentina',
+        );
+        await tester.pumpAndSettle();
+        expect(
+          tester
+              .widget<VocabularyPreview>(find.byType(VocabularyPreview))
+              .cards
+              .single
+              .greek,
+          'Αργεντινή',
+        );
+        await tester.tap(find.byKey(const ValueKey('use-category')));
+        await tester.pumpAndSettle();
+        await tapText(tester, russian ? 'Сложный режим' : 'Hard mode');
+        final input = tester.widget<TextField>(
+          find.byKey(const ValueKey('greek-answer')),
+        );
+        input.controller!.text = 'Αργεντινή';
+        await tester.pumpAndSettle();
+        await tapText(tester, russian ? 'Проверить' : 'Check answer');
+        expect(find.text('η Αργεντινή'), findsOneWidget);
+        expect(tester.takeException(), isNull);
+      },
+    );
+
+    testWidgets(
       'family filter finds alternate spelling and starts hard mode (${language.name})',
       (tester) async {
         final russian = language == AppLanguage.russian;
