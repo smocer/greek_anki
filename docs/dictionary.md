@@ -93,6 +93,12 @@ ID。新增文件只追加词条，重复 ID、重复复习记录键或错误字
 替代拼写，`acceptedAnswers` 是额外接受的完整答案。新词条可省略 `words`，
 应用主页的词条、主题和分组不依赖自动分词。
 
+`words-nouns` 中的新增名词会自动接受带冠词和不带冠词的答案。
+例如模板中的 `greek: "αχλάδι"` 和 `answerDisplay: "το αχλάδι"`
+都能答对，无需在 `acceptedAnswers` 中重复填写。阴阳形式分别使用
+`forms` 中的 `greek` 和 `answerDisplay`，不要把带斜线的组合显示当作答案。
+只有词汇名词应用此规则；短语和语法练习仍要求指定的冠词，重音始终必填。
+
 `addedWeek` 必须是该周星期一的 `YYYY-MM-DD` 日期，用于周筛选。
 `labels` 支持 `noun`、`verb`、`adjective`、`adverb`、`pronoun`、`article`、
 `preposition`、`conjunction`、`numeral`、`interjection`。

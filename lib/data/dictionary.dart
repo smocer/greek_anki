@@ -73,6 +73,9 @@ class GreekDictionary {
         word['reviewIdentity'] ??= {'deckId': target, 'cardId': id};
         if (addedWeek != null) word['addedWeek'] ??= addedWeek;
         final card = reader.card(word, '$filename.$id');
+        if (target == 'words-nouns') {
+          word['acceptedAnswers'] = _nounAcceptedAnswers(card);
+        }
         if (card.addedWeek == null) {
           reader.fail(filename, 'missing addedWeek for $id');
         }
@@ -173,6 +176,22 @@ class GreekDictionary {
       List.unmodifiable(collections),
     );
   }
+}
+
+List<String> _nounAcceptedAnswers(VocabularyCard card) {
+  final answers = {
+    card.greek,
+    ...card.alternatives,
+    ...card.acceptedAnswers,
+    // Grouped displays join forms with a slash; each form is a valid answer.
+    if (card.forms.isEmpty) card.displayedAnswer,
+    for (final form in card.forms) ...[form.greek, form.answerDisplay],
+  };
+  final article = RegExp(r'^(ο|η|το|οι|τα)\s+', caseSensitive: false);
+  return {
+    ...answers,
+    for (final answer in answers) answer.trim().replaceFirst(article, ''),
+  }.toList();
 }
 
 GreekDictionary? _dictionary;

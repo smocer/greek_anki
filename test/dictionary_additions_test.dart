@@ -5,6 +5,7 @@ import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:greek_anki/data/dictionary.dart';
 import 'package:greek_anki/domain/curriculum.dart';
+import 'package:greek_anki/domain/greek_answer.dart';
 import 'package:greek_anki/domain/learning_progress.dart';
 import 'package:greek_anki/domain/review_schedule.dart';
 import 'package:greek_anki/domain/vocabulary.dart';
@@ -44,6 +45,86 @@ class _Bundle extends CachingAssetBundle {
 
 void main() {
   TestWidgetsFlutterBinding.ensureInitialized();
+
+  test(
+    'documented noun template accepts its answer with or without the article',
+    () {
+      final dictionary = GreekDictionary.merge(
+        File(dictionaryAsset).readAsStringSync(),
+        {
+          'example.json': File(
+            'docs/new-words.example.json',
+          ).readAsStringSync(),
+        },
+      );
+      final card = dictionary.learningDecks
+          .singleWhere((deck) => deck.id == 'words-nouns')
+          .cards
+          .singleWhere((card) => card.id == 'pear-2026-10');
+      const matcher = GreekAnswer();
+      expect(matcher.matches(card.displayedAnswer, card), isTrue);
+      expect(matcher.matches('αχλάδι', card), isTrue);
+      for (final answer in ['η αχλάδι', 'το αχλαδι', 'αχλαδι', 'άχλαδι']) {
+        expect(matcher.matches(answer, card), isFalse, reason: answer);
+      }
+    },
+  );
+
+  test('noun forms and explicit alternatives retain optional articles', () {
+    final base = fixture();
+    base['collections'][0]['section'] = 'words';
+    base['collections'][0]['deck']['id'] = 'words-nouns';
+    final addition = newWords(id: 'cousin');
+    final word = addition['words'][0];
+    word['collection'] = 'words-nouns';
+    word['greek'] = 'ξάδελφος';
+    word['answerDisplay'] = 'ο ξάδελφος / η ξαδέλφη';
+    word['acceptedAnswers'] = ['ο ξάδερφος'];
+    word['forms'] = [
+      {
+        'greek': 'ξάδελφος',
+        'answerDisplay': 'ο ξάδελφος',
+        'pronunciation': {'en': 'KSA-dhel-fos', 'ru': 'КСА-дэл-фос'},
+      },
+      {
+        'greek': 'ξαδέλφη',
+        'answerDisplay': 'η ξαδέλφη',
+        'pronunciation': {'en': 'ksa-DHEL-fi', 'ru': 'кса-ДЭЛ-фи'},
+      },
+    ];
+    final card = GreekDictionary.merge(jsonEncode(base), {
+      'nouns.json': jsonEncode(addition),
+    }).learningDecks.single.cards.last;
+    const matcher = GreekAnswer();
+    for (final answer in [
+      'ξάδελφος',
+      'ο ξάδελφος',
+      'ξαδέλφη',
+      'η ξαδέλφη',
+      'ξάδερφος',
+      'ο ξάδερφος',
+    ]) {
+      expect(matcher.matches(answer, card), isTrue, reason: answer);
+    }
+    expect(matcher.matches('η ξάδελφος', card), isFalse);
+    expect(matcher.matches(card.displayedAnswer, card), isFalse);
+  });
+
+  test('noun article adaptation does not relax grammar or phrase answers', () {
+    for (final section in ['grammar', 'phrases']) {
+      final base = fixture();
+      base['collections'][0]['section'] = section;
+      final addition = newWords();
+      addition['words'][0]['greek'] = 'το αχλάδι';
+      addition['words'][0]['labels'] = ['noun'];
+      final card = GreekDictionary.merge(jsonEncode(base), {
+        'exercise.json': jsonEncode(addition),
+      }).learningDecks.single.cards.last;
+      const matcher = GreekAnswer();
+      expect(matcher.matches('το αχλάδι', card), isTrue);
+      expect(matcher.matches('αχλάδι', card), isFalse, reason: section);
+    }
+  });
 
   test('all checked-in addition files are bundled and merged', () async {
     final expected = Directory(dictionaryAdditionsDirectory)
