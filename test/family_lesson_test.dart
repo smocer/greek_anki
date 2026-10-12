@@ -1,5 +1,5 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:greek_anki/data/family_lesson.dart';
+import '../tool/legacy_data/family_lesson.dart';
 import 'package:greek_anki/data/learning_curriculum.dart';
 import 'package:greek_anki/domain/curriculum.dart';
 import 'package:greek_anki/domain/greek_answer.dart';
@@ -12,7 +12,10 @@ void main() {
       learningCollections.singleWhere((c) => c.deck.id == id);
   VocabularyCard card(String collectionId, String suffix) =>
       collection(collectionId).deck.cards.singleWhere(
-        (card) => card.id.split('.').last == 'family-$suffix',
+        (card) => [
+          card.id,
+          ...card.aliases,
+        ].any((id) => id.split('.').last == 'family-$suffix'),
       );
 
   test(
@@ -20,7 +23,7 @@ void main() {
     () {
       final nouns = collection('words-nouns').deck.cards;
       expect(
-        nouns.map((c) => c.greek),
+        nouns.expand((c) => [c.greek, ...c.forms.map((f) => f.greek)]),
         containsAll([
           'οικογένεια',
           'πατέρας',
@@ -59,11 +62,15 @@ void main() {
         contains('λέω'),
       );
       expect(
-        collection('words-pronouns').deck.cards.map((c) => c.greek),
+        collection(
+          'words-pronouns',
+        ).deck.cards.expand((c) => [c.greek, ...c.forms.map((f) => f.greek)]),
         containsAll(['τον', 'την', 'το', 'όλοι', 'όλες', 'όλα']),
       );
       expect(
-        collection('words-descriptions').deck.cards.map((c) => c.greek),
+        collection(
+          'words-descriptions',
+        ).deck.cards.expand((c) => [c.greek, ...c.forms.map((f) => f.greek)]),
         containsAll([
           'παντρεμένος',
           'παντρεμένη',
@@ -132,7 +139,7 @@ void main() {
     },
   );
 
-  test('different senses and pronoun roles have explicit separate prompts', () {
+  test('same-word senses share one card and retain old review aliases', () {
     for (final ids in [
       ('husband', 'man'),
       ('wife', 'woman'),
@@ -142,11 +149,9 @@ void main() {
       final first = card('words-nouns', ids.$1);
       final second = card('words-nouns', ids.$2);
       expect(first.greek, second.greek);
-      expect(first.prompt.ru, isNot(second.prompt.ru));
-      expect(
-        first.reviewIdentity!.key(StudyMode.typing),
-        isNot(second.reviewIdentity!.key(StudyMode.typing)),
-      );
+      expect(identical(first, second), isTrue);
+      expect(first.senses, hasLength(2));
+      expect(first.reviewAliases, isNotEmpty);
     }
     final him = card('words-pronouns', 'him-object');
     expect(him.prompt.ru, contains('его зовут'));

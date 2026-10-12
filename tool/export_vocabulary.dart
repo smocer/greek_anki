@@ -1,10 +1,10 @@
 import 'dart:convert';
 import 'dart:io';
-import 'package:greek_anki/data/greek_decks.dart';
-import 'package:greek_anki/data/decks/verb_topics.dart';
-import 'package:greek_anki/data/decks/be_present.dart';
-import 'package:greek_anki/data/decks/called_present.dart';
-import 'package:greek_anki/data/decks/sing_present.dart';
+import 'legacy_data/greek_decks.dart';
+import 'legacy_data/decks/verb_topics.dart';
+import 'legacy_data/decks/be_present.dart';
+import 'legacy_data/decks/called_present.dart';
+import 'legacy_data/decks/sing_present.dart';
 
 void main(List<String> args) {
   if (args.contains('--hints')) {

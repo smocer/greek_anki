@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "addedWeek": "2026-10-12",
+  "words": [
+    {
+      "id": "pear-2026-10",
+      "collection": "words-nouns",
+      "greek": "αχλάδι",
+      "answerDisplay": "το αχλάδι",
+      "prompt": {"en": "Pear", "ru": "Груша"},
+      "pronunciation": {"en": "a-HLA-dhi", "ru": "а-ХЛА-ди"},
+      "labels": ["noun"],
+      "themes": ["food"]
+    }
+  ]
+}

@@ -51,3 +51,6 @@ __pycache__/
 !.env.example
 *.p12
 *.mobileprovision
+
+# Project-local Flutter SDK
+.tooling/

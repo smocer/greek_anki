@@ -1,5 +1,9 @@
 # Vocabulary filters and weeks
 
+Vocabulary content and collection membership are maintained in
+`assets/dictionary/greek.json`, with new words added as individual JSON files in
+`assets/dictionary/additions/`. See [Updating the dictionary](dictionary.md).
+
 Start with **Words**, **Phrases** or **Grammar**, then choose a group. Use **Filters** to narrow the selection by theme, addition week or search text. The preview shows the actual cards that will be practised.
 
 Word groups teach individual meanings, rather than asking you to translate the sentence where a word appeared. Verbs use their first-person present and nouns use their base form. Their inflected forms appear in grammar practice.

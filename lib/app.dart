@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 
 import 'data/learning_curriculum.dart';
+import 'data/dictionary.dart';
 import 'data/app_updates.dart';
 import 'data/language_store.dart';
 import 'data/progress_store.dart';
@@ -41,6 +42,7 @@ class _GreekAnkiAppState extends State<GreekAnkiApp> {
   }
 
   Future<void> _load() async {
+    await loadGreekDictionary();
     final language = await _languageStore.read();
     if (!mounted) return;
     setState(() => _language = language);

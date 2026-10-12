@@ -1,0 +1,1393 @@
+{
+  "schemaVersion": 1,
+  "addedWeek": "2026-10-12",
+  "words": [
+    {
+      "id": "professions-subject-teacher-male",
+      "greek": "καθηγητής",
+      "answerDisplay": "ο καθηγητής / η καθηγήτρια",
+      "prompt": {
+        "en": "Subject teacher / professor",
+        "ru": "Преподаватель / преподавательница"
+      },
+      "pronunciation": {
+        "en": "ka-thi-yi-TIS / ka-thi-YI-tri-a",
+        "ru": "ка-ти-йи-ТИС / ка-ти-ЙИ-три-а"
+      },
+      "explanation": {
+        "en": "ο καθηγητής: masculine form. The article can be omitted in word practice.\n\nη καθηγήτρια: feminine form. The article can be omitted in word practice.",
+        "ru": "ο καθηγητής: мужской род. В тренировке слов артикль можно не вводить.\n\nη καθηγήτρια: женский род. В тренировке слов артикль можно не вводить."
+      },
+      "acceptedAnswers": [
+        "ο καθηγητής",
+        "η καθηγήτρια"
+      ],
+      "labels": [
+        "noun"
+      ],
+      "wordGroup": "professor",
+      "reviewIdentity": {
+        "deckId": "words-nouns",
+        "cardId": "professions-subject-teacher-male"
+      },
+      "senses": [
+        {
+          "en": "Subject teacher / professor",
+          "ru": "Преподаватель / преподавательница"
+        }
+      ],
+      "alternatives": [
+        "καθηγήτρια"
+      ],
+      "forms": [
+        {
+          "greek": "καθηγητής",
+          "answerDisplay": "ο καθηγητής",
+          "pronunciation": {
+            "en": "ka-thi-yi-TIS",
+            "ru": "ка-ти-йи-ТИС"
+          }
+        },
+        {
+          "greek": "καθηγήτρια",
+          "answerDisplay": "η καθηγήτρια",
+          "pronunciation": {
+            "en": "ka-thi-YI-tri-a",
+            "ru": "ка-ти-ЙИ-три-а"
+          }
+        }
+      ],
+      "aliases": [
+        "professions-subject-teacher-female"
+      ],
+      "reviewAliases": [
+        {
+          "deckId": "words-nouns",
+          "cardId": "professions-subject-teacher-female"
+        }
+      ],
+      "collection": "words-nouns",
+      "themes": [
+        "people",
+        "classroom"
+      ]
+    },
+    {
+      "id": "professions-hairdresser-male",
+      "greek": "κομμωτής",
+      "answerDisplay": "ο κομμωτής / η κομμώτρια",
+      "prompt": {
+        "en": "Hairdresser",
+        "ru": "Парикмахер"
+      },
+      "pronunciation": {
+        "en": "ko-mo-TIS / ko-MO-tria",
+        "ru": "ко-мо-ТИС / ко-МО-три-а"
+      },
+      "explanation": {
+        "en": "ο κομμωτής: masculine form. The article can be omitted in word practice.\n\nη κομμώτρια: feminine form. The article can be omitted in word practice.",
+        "ru": "ο κομμωτής: мужской род. В тренировке слов артикль можно не вводить.\n\nη κομμώτρια: женский род. В тренировке слов артикль можно не вводить."
+      },
+      "acceptedAnswers": [
+        "ο κομμωτής",
+        "η κομμώτρια"
+      ],
+      "labels": [
+        "noun"
+      ],
+      "wordGroup": "hairdresser",
+      "reviewIdentity": {
+        "deckId": "words-nouns",
+        "cardId": "professions-hairdresser-male"
+      },
+      "senses": [
+        {
+          "en": "Hairdresser",
+          "ru": "Парикмахер"
+        }
+      ],
+      "alternatives": [
+        "κομμώτρια"
+      ],
+      "forms": [
+        {
+          "greek": "κομμωτής",
+          "answerDisplay": "ο κομμωτής",
+          "pronunciation": {
+            "en": "ko-mo-TIS",
+            "ru": "ко-мо-ТИС"
+          }
+        },
+        {
+          "greek": "κομμώτρια",
+          "answerDisplay": "η κομμώτρια",
+          "pronunciation": {
+            "en": "ko-MO-tria",
+            "ru": "ко-МО-три-а"
+          }
+        }
+      ],
+      "aliases": [
+        "professions-hairdresser-female"
+      ],
+      "reviewAliases": [
+        {
+          "deckId": "words-nouns",
+          "cardId": "professions-hairdresser-female"
+        }
+      ],
+      "collection": "words-nouns",
+      "themes": [
+        "people"
+      ]
+    },
+    {
+      "id": "professions-university-student-male",
+      "greek": "φοιτητής",
+      "answerDisplay": "ο φοιτητής / η φοιτήτρια",
+      "prompt": {
+        "en": "University student",
+        "ru": "Студент / студентка вуза"
+      },
+      "pronunciation": {
+        "en": "fi-ti-TIS / fi-TI-tri-a",
+        "ru": "фи-ти-ТИС / фи-ТИ-три-а"
+      },
+      "explanation": {
+        "en": "ο φοιτητής: masculine form. The article can be omitted in word practice.\n\nη φοιτήτρια: feminine form. The article can be omitted in word practice.",
+        "ru": "ο φοιτητής: мужской род. В тренировке слов артикль можно не вводить.\n\nη φοιτήτρια: женский род. В тренировке слов артикль можно не вводить."
+      },
+      "acceptedAnswers": [
+        "ο φοιτητής",
+        "η φοιτήτρια"
+      ],
+      "labels": [
+        "noun"
+      ],
+      "wordGroup": "university-student",
+      "reviewIdentity": {
+        "deckId": "words-nouns",
+        "cardId": "professions-university-student-male"
+      },
+      "senses": [
+        {
+          "en": "University student",
+          "ru": "Студент / студентка вуза"
+        }
+      ],
+      "alternatives": [
+        "φοιτήτρια"
+      ],
+      "forms": [
+        {
+          "greek": "φοιτητής",
+          "answerDisplay": "ο φοιτητής",
+          "pronunciation": {
+            "en": "fi-ti-TIS",
+            "ru": "фи-ти-ТИС"
+          }
+        },
+        {
+          "greek": "φοιτήτρια",
+          "answerDisplay": "η φοιτήτρια",
+          "pronunciation": {
+            "en": "fi-TI-tri-a",
+            "ru": "фи-ТИ-три-а"
+          }
+        }
+      ],
+      "aliases": [
+        "professions-university-student-female"
+      ],
+      "reviewAliases": [
+        {
+          "deckId": "words-nouns",
+          "cardId": "professions-university-student-female"
+        }
+      ],
+      "collection": "words-nouns",
+      "themes": [
+        "people",
+        "classroom"
+      ]
+    },
+    {
+      "id": "professions-worker-male",
+      "greek": "εργάτης",
+      "answerDisplay": "ο εργάτης / η εργάτρια",
+      "prompt": {
+        "en": "Worker",
+        "ru": "Рабочий / рабочая"
+      },
+      "pronunciation": {
+        "en": "er-GHA-tis / er-GHA-tria",
+        "ru": "эр-ГА-тис / эр-ГА-три-а"
+      },
+      "explanation": {
+        "en": "ο εργάτης: masculine form. The article can be omitted in word practice.\n\nη εργάτρια: feminine form. The article can be omitted in word practice.",
+        "ru": "ο εργάτης: мужской род. В тренировке слов артикль можно не вводить.\n\nη εργάτρια: женский род. В тренировке слов артикль можно не вводить."
+      },
+      "acceptedAnswers": [
+        "ο εργάτης",
+        "η εργάτρια"
+      ],
+      "labels": [
+        "noun"
+      ],
+      "wordGroup": "worker",
+      "reviewIdentity": {
+        "deckId": "words-nouns",
+        "cardId": "professions-worker-male"
+      },
+      "senses": [
+        {
+          "en": "Worker",
+          "ru": "Рабочий / рабочая"
+        }
+      ],
+      "alternatives": [
+        "εργάτρια"
+      ],
+      "forms": [
+        {
+          "greek": "εργάτης",
+          "answerDisplay": "ο εργάτης",
+          "pronunciation": {
+            "en": "er-GHA-tis",
+            "ru": "эр-ГА-тис"
+          }
+        },
+        {
+          "greek": "εργάτρια",
+          "answerDisplay": "η εργάτρια",
+          "pronunciation": {
+            "en": "er-GHA-tria",
+            "ru": "эр-ГА-три-а"
+          }
+        }
+      ],
+      "aliases": [
+        "professions-worker-female"
+      ],
+      "reviewAliases": [
+        {
+          "deckId": "words-nouns",
+          "cardId": "professions-worker-female"
+        }
+      ],
+      "collection": "words-nouns",
+      "themes": [
+        "people"
+      ]
+    },
+    {
+      "id": "professions-salesperson-male",
+      "greek": "πωλητής",
+      "answerDisplay": "ο πωλητής / η πωλήτρια",
+      "prompt": {
+        "en": "Salesperson",
+        "ru": "Продавец / продавщица"
+      },
+      "pronunciation": {
+        "en": "po-li-TIS / po-LI-tria",
+        "ru": "по-ли-ТИС / по-ЛИ-три-а"
+      },
+      "explanation": {
+        "en": "ο πωλητής: masculine form. The article can be omitted in word practice.\n\nη πωλήτρια: feminine form. The article can be omitted in word practice.",
+        "ru": "ο πωλητής: мужской род. В тренировке слов артикль можно не вводить.\n\nη πωλήτρια: женский род. В тренировке слов артикль можно не вводить."
+      },
+      "acceptedAnswers": [
+        "ο πωλητής",
+        "η πωλήτρια"
+      ],
+      "labels": [
+        "noun"
+      ],
+      "wordGroup": "salesperson",
+      "reviewIdentity": {
+        "deckId": "words-nouns",
+        "cardId": "professions-salesperson-male"
+      },
+      "senses": [
+        {
+          "en": "Salesperson",
+          "ru": "Продавец / продавщица"
+        }
+      ],
+      "alternatives": [
+        "πωλήτρια"
+      ],
+      "forms": [
+        {
+          "greek": "πωλητής",
+          "answerDisplay": "ο πωλητής",
+          "pronunciation": {
+            "en": "po-li-TIS",
+            "ru": "по-ли-ТИС"
+          }
+        },
+        {
+          "greek": "πωλήτρια",
+          "answerDisplay": "η πωλήτρια",
+          "pronunciation": {
+            "en": "po-LI-tria",
+            "ru": "по-ЛИ-три-а"
+          }
+        }
+      ],
+      "aliases": [
+        "professions-salesperson-female"
+      ],
+      "reviewAliases": [
+        {
+          "deckId": "words-nouns",
+          "cardId": "professions-salesperson-female"
+        }
+      ],
+      "collection": "words-nouns",
+      "themes": [
+        "people"
+      ]
+    },
+    {
+      "id": "professions-athlete-male",
+      "greek": "αθλητής",
+      "answerDisplay": "ο αθλητής / η αθλήτρια",
+      "prompt": {
+        "en": "Athlete",
+        "ru": "Спортсмен / спортсменка"
+      },
+      "pronunciation": {
+        "en": "ath-li-TIS / a-THLI-tria",
+        "ru": "ат-ли-ТИС / а-ТЛИ-три-а"
+      },
+      "explanation": {
+        "en": "ο αθλητής: masculine form. The article can be omitted in word practice.\n\nη αθλήτρια: feminine form. The article can be omitted in word practice.",
+        "ru": "ο αθλητής: мужской род. В тренировке слов артикль можно не вводить.\n\nη αθλήτρια: женский род. В тренировке слов артикль можно не вводить."
+      },
+      "acceptedAnswers": [
+        "ο αθλητής",
+        "η αθλήτρια"
+      ],
+      "labels": [
+        "noun"
+      ],
+      "wordGroup": "athlete",
+      "reviewIdentity": {
+        "deckId": "words-nouns",
+        "cardId": "professions-athlete-male"
+      },
+      "senses": [
+        {
+          "en": "Athlete",
+          "ru": "Спортсмен / спортсменка"
+        }
+      ],
+      "alternatives": [
+        "αθλήτρια"
+      ],
+      "forms": [
+        {
+          "greek": "αθλητής",
+          "answerDisplay": "ο αθλητής",
+          "pronunciation": {
+            "en": "ath-li-TIS",
+            "ru": "ат-ли-ТИС"
+          }
+        },
+        {
+          "greek": "αθλήτρια",
+          "answerDisplay": "η αθλήτρια",
+          "pronunciation": {
+            "en": "a-THLI-tria",
+            "ru": "а-ТЛИ-три-а"
+          }
+        }
+      ],
+      "aliases": [
+        "professions-athlete-female"
+      ],
+      "reviewAliases": [
+        {
+          "deckId": "words-nouns",
+          "cardId": "professions-athlete-female"
+        }
+      ],
+      "collection": "words-nouns",
+      "themes": [
+        "people"
+      ]
+    },
+    {
+      "id": "professions-waiter-male",
+      "greek": "σερβιτόρος",
+      "answerDisplay": "ο σερβιτόρος / η σερβιτόρα",
+      "prompt": {
+        "en": "Waiter / waitress",
+        "ru": "Официант / официантка"
+      },
+      "pronunciation": {
+        "en": "ser-vi-TO-ros / ser-vi-TO-ra",
+        "ru": "сэр-ви-ТО-рос / сэр-ви-ТО-ра"
+      },
+      "explanation": {
+        "en": "ο σερβιτόρος: masculine form. The article can be omitted in word practice.\n\nη σερβιτόρα: feminine form. The article can be omitted in word practice.",
+        "ru": "ο σερβιτόρος: мужской род. В тренировке слов артикль можно не вводить.\n\nη σερβιτόρα: женский род. В тренировке слов артикль можно не вводить."
+      },
+      "acceptedAnswers": [
+        "ο σερβιτόρος",
+        "η σερβιτόρα"
+      ],
+      "labels": [
+        "noun"
+      ],
+      "wordGroup": "waiter",
+      "reviewIdentity": {
+        "deckId": "words-nouns",
+        "cardId": "professions-waiter-male"
+      },
+      "senses": [
+        {
+          "en": "Waiter / waitress",
+          "ru": "Официант / официантка"
+        }
+      ],
+      "alternatives": [
+        "σερβιτόρα"
+      ],
+      "forms": [
+        {
+          "greek": "σερβιτόρος",
+          "answerDisplay": "ο σερβιτόρος",
+          "pronunciation": {
+            "en": "ser-vi-TO-ros",
+            "ru": "сэр-ви-ТО-рос"
+          }
+        },
+        {
+          "greek": "σερβιτόρα",
+          "answerDisplay": "η σερβιτόρα",
+          "pronunciation": {
+            "en": "ser-vi-TO-ra",
+            "ru": "сэр-ви-ТО-ра"
+          }
+        }
+      ],
+      "aliases": [
+        "professions-waiter-female"
+      ],
+      "reviewAliases": [
+        {
+          "deckId": "words-nouns",
+          "cardId": "professions-waiter-female"
+        }
+      ],
+      "collection": "words-nouns",
+      "themes": [
+        "people"
+      ]
+    },
+    {
+      "id": "professions-nurse-male",
+      "greek": "νοσοκόμος",
+      "answerDisplay": "ο νοσοκόμος / η νοσοκόμα",
+      "prompt": {
+        "en": "Nurse",
+        "ru": "Медбрат / медсестра"
+      },
+      "pronunciation": {
+        "en": "no-so-KO-mos / no-so-KO-ma",
+        "ru": "но-со-КО-мос / но-со-КО-ма"
+      },
+      "explanation": {
+        "en": "ο νοσοκόμος: masculine form. The article can be omitted in word practice.\n\nη νοσοκόμα: feminine form. The article can be omitted in word practice.",
+        "ru": "ο νοσοκόμος: мужской род. В тренировке слов артикль можно не вводить.\n\nη νοσοκόμα: женский род. В тренировке слов артикль можно не вводить."
+      },
+      "acceptedAnswers": [
+        "ο νοσοκόμος",
+        "η νοσοκόμα"
+      ],
+      "labels": [
+        "noun"
+      ],
+      "wordGroup": "nurse",
+      "reviewIdentity": {
+        "deckId": "words-nouns",
+        "cardId": "professions-nurse-male"
+      },
+      "senses": [
+        {
+          "en": "Nurse",
+          "ru": "Медбрат / медсестра"
+        }
+      ],
+      "alternatives": [
+        "νοσοκόμα"
+      ],
+      "forms": [
+        {
+          "greek": "νοσοκόμος",
+          "answerDisplay": "ο νοσοκόμος",
+          "pronunciation": {
+            "en": "no-so-KO-mos",
+            "ru": "но-со-КО-мос"
+          }
+        },
+        {
+          "greek": "νοσοκόμα",
+          "answerDisplay": "η νοσοκόμα",
+          "pronunciation": {
+            "en": "no-so-KO-ma",
+            "ru": "но-со-КО-ма"
+          }
+        }
+      ],
+      "aliases": [
+        "professions-nurse-female"
+      ],
+      "reviewAliases": [
+        {
+          "deckId": "words-nouns",
+          "cardId": "professions-nurse-female"
+        }
+      ],
+      "collection": "words-nouns",
+      "themes": [
+        "people"
+      ]
+    },
+    {
+      "id": "professions-teacher-male",
+      "greek": "δάσκαλος",
+      "answerDisplay": "ο δάσκαλος / η δασκάλα",
+      "prompt": {
+        "en": "Teacher",
+        "ru": "Учитель / учительница"
+      },
+      "pronunciation": {
+        "en": "DHAS-ka-los / dhas-KA-la",
+        "ru": "ДАС-ка-лос / дас-КА-ла"
+      },
+      "explanation": {
+        "en": "ο δάσκαλος: masculine form. The article can be omitted in word practice.\n\nη δασκάλα: feminine form. The article can be omitted in word practice.",
+        "ru": "ο δάσκαλος: мужской род. В тренировке слов артикль можно не вводить.\n\nη δασκάλα: женский род. В тренировке слов артикль можно не вводить."
+      },
+      "acceptedAnswers": [
+        "ο δάσκαλος",
+        "η δασκάλα"
+      ],
+      "labels": [
+        "noun"
+      ],
+      "wordGroup": "teacher",
+      "reviewIdentity": {
+        "deckId": "words-nouns",
+        "cardId": "professions-teacher-male"
+      },
+      "senses": [
+        {
+          "en": "Teacher",
+          "ru": "Учитель / учительница"
+        }
+      ],
+      "alternatives": [
+        "δασκάλα"
+      ],
+      "forms": [
+        {
+          "greek": "δάσκαλος",
+          "answerDisplay": "ο δάσκαλος",
+          "pronunciation": {
+            "en": "DHAS-ka-los",
+            "ru": "ДАС-ка-лос"
+          }
+        },
+        {
+          "greek": "δασκάλα",
+          "answerDisplay": "η δασκάλα",
+          "pronunciation": {
+            "en": "dhas-KA-la",
+            "ru": "дас-КА-ла"
+          }
+        }
+      ],
+      "aliases": [
+        "professions-teacher-female"
+      ],
+      "reviewAliases": [
+        {
+          "deckId": "words-nouns",
+          "cardId": "professions-teacher-female"
+        }
+      ],
+      "collection": "words-nouns",
+      "themes": [
+        "people",
+        "classroom"
+      ]
+    },
+    {
+      "id": "professions-cook-male",
+      "greek": "μάγειρας",
+      "answerDisplay": "ο μάγειρας / η μαγείρισσα",
+      "prompt": {
+        "en": "Cook / chef",
+        "ru": "Повар"
+      },
+      "pronunciation": {
+        "en": "MA-yi-ras / ma-YI-ri-sa",
+        "ru": "МА-йи-рас / ма-ЙИ-ри-са"
+      },
+      "explanation": {
+        "en": "ο μάγειρας: masculine form. The article can be omitted in word practice.\n\nη μαγείρισσα: feminine form. The article can be omitted in word practice.",
+        "ru": "ο μάγειρας: мужской род. В тренировке слов артикль можно не вводить.\n\nη μαγείρισσα: женский род. В тренировке слов артикль можно не вводить."
+      },
+      "acceptedAnswers": [
+        "ο μάγειρας",
+        "η μαγείρισσα"
+      ],
+      "labels": [
+        "noun"
+      ],
+      "wordGroup": "cook",
+      "reviewIdentity": {
+        "deckId": "words-nouns",
+        "cardId": "professions-cook-male"
+      },
+      "senses": [
+        {
+          "en": "Cook / chef",
+          "ru": "Повар"
+        }
+      ],
+      "alternatives": [
+        "μαγείρισσα"
+      ],
+      "forms": [
+        {
+          "greek": "μάγειρας",
+          "answerDisplay": "ο μάγειρας",
+          "pronunciation": {
+            "en": "MA-yi-ras",
+            "ru": "МА-йи-рас"
+          }
+        },
+        {
+          "greek": "μαγείρισσα",
+          "answerDisplay": "η μαγείρισσα",
+          "pronunciation": {
+            "en": "ma-YI-ri-sa",
+            "ru": "ма-ЙИ-ри-са"
+          }
+        }
+      ],
+      "aliases": [
+        "professions-cook-female"
+      ],
+      "reviewAliases": [
+        {
+          "deckId": "words-nouns",
+          "cardId": "professions-cook-female"
+        }
+      ],
+      "collection": "words-nouns",
+      "themes": [
+        "people"
+      ]
+    },
+    {
+      "id": "professions-lawyer",
+      "greek": "δικηγόρος",
+      "answerDisplay": "ο / η δικηγόρος",
+      "prompt": {
+        "en": "Lawyer",
+        "ru": "Адвокат / юрист"
+      },
+      "pronunciation": {
+        "en": "dhi-ki-GHO-ros",
+        "ru": "ди-ки-ГО-рос"
+      },
+      "explanation": {
+        "en": "ο δικηγόρος / η δικηγόρος. The noun has the same form for a man or a woman; the article changes.",
+        "ru": "ο δικηγόρος / η δικηγόρος. Для мужчины и женщины форма слова одинаковая; меняется артикль."
+      },
+      "acceptedAnswers": [
+        "ο δικηγόρος",
+        "η δικηγόρος"
+      ],
+      "labels": [
+        "noun"
+      ],
+      "reviewIdentity": {
+        "deckId": "words-nouns",
+        "cardId": "professions-lawyer"
+      },
+      "collection": "words-nouns",
+      "themes": [
+        "people"
+      ]
+    },
+    {
+      "id": "professions-electrician",
+      "greek": "ηλεκτρολόγος",
+      "answerDisplay": "ο / η ηλεκτρολόγος",
+      "prompt": {
+        "en": "Electrician",
+        "ru": "Электрик"
+      },
+      "pronunciation": {
+        "en": "i-lek-tro-LO-ghos",
+        "ru": "и-лэк-тро-ЛО-гос"
+      },
+      "explanation": {
+        "en": "ο ηλεκτρολόγος / η ηλεκτρολόγος. The noun has the same form for a man or a woman; the article changes. Electrical engineer is ηλεκτρολόγος μηχανικός.",
+        "ru": "ο ηλεκτρολόγος / η ηλεκτρολόγος. Для мужчины и женщины форма слова одинаковая; меняется артикль. Инженер-электрик — ηλεκτρολόγος μηχανικός."
+      },
+      "acceptedAnswers": [
+        "ο ηλεκτρολόγος",
+        "η ηλεκτρολόγος"
+      ],
+      "labels": [
+        "noun"
+      ],
+      "reviewIdentity": {
+        "deckId": "words-nouns",
+        "cardId": "professions-electrician"
+      },
+      "collection": "words-nouns",
+      "themes": [
+        "people"
+      ]
+    },
+    {
+      "id": "professions-driver",
+      "greek": "οδηγός",
+      "answerDisplay": "ο / η οδηγός",
+      "prompt": {
+        "en": "Driver",
+        "ru": "Водитель"
+      },
+      "pronunciation": {
+        "en": "o-dhi-GHOS",
+        "ru": "о-ди-ГОС"
+      },
+      "explanation": {
+        "en": "ο οδηγός / η οδηγός. The noun has the same form for a man or a woman; the article changes.",
+        "ru": "ο οδηγός / η οδηγός. Для мужчины и женщины форма слова одинаковая; меняется артикль."
+      },
+      "acceptedAnswers": [
+        "ο οδηγός",
+        "η οδηγός"
+      ],
+      "labels": [
+        "noun"
+      ],
+      "reviewIdentity": {
+        "deckId": "words-nouns",
+        "cardId": "professions-driver"
+      },
+      "collection": "words-nouns",
+      "themes": [
+        "people",
+        "travel"
+      ]
+    },
+    {
+      "id": "professions-engineer",
+      "greek": "μηχανικός",
+      "answerDisplay": "ο / η μηχανικός",
+      "prompt": {
+        "en": "Engineer / mechanic",
+        "ru": "Инженер / механик"
+      },
+      "pronunciation": {
+        "en": "mi-ha-ni-KOS",
+        "ru": "ми-ха-ни-КОС"
+      },
+      "explanation": {
+        "en": "ο μηχανικός / η μηχανικός. The noun has the same form for a man or a woman; the article changes.",
+        "ru": "ο μηχανικός / η μηχανικός. Для мужчины и женщины форма слова одинаковая; меняется артикль."
+      },
+      "acceptedAnswers": [
+        "ο μηχανικός",
+        "η μηχανικός"
+      ],
+      "labels": [
+        "noun"
+      ],
+      "reviewIdentity": {
+        "deckId": "words-nouns",
+        "cardId": "professions-engineer"
+      },
+      "collection": "words-nouns",
+      "themes": [
+        "people"
+      ]
+    },
+    {
+      "id": "professions-doctor",
+      "greek": "γιατρός",
+      "answerDisplay": "ο / η γιατρός",
+      "prompt": {
+        "en": "Doctor / physician",
+        "ru": "Врач"
+      },
+      "pronunciation": {
+        "en": "ya-TROS",
+        "ru": "я-ТРОС"
+      },
+      "explanation": {
+        "en": "ο γιατρός / η γιατρός. The noun has the same form for a man or a woman; the article changes.",
+        "ru": "ο γιατρός / η γιατρός. Для мужчины и женщины форма слова одинаковая; меняется артикль."
+      },
+      "acceptedAnswers": [
+        "ο γιατρός",
+        "η γιατρός"
+      ],
+      "labels": [
+        "noun"
+      ],
+      "reviewIdentity": {
+        "deckId": "words-nouns",
+        "cardId": "professions-doctor"
+      },
+      "collection": "words-nouns",
+      "themes": [
+        "people"
+      ]
+    },
+    {
+      "id": "professions-employee",
+      "greek": "υπάλληλος",
+      "answerDisplay": "ο / η υπάλληλος",
+      "prompt": {
+        "en": "Employee / clerk",
+        "ru": "Сотрудник / служащий"
+      },
+      "pronunciation": {
+        "en": "i-PA-li-los",
+        "ru": "и-ПА-ли-лос"
+      },
+      "explanation": {
+        "en": "ο υπάλληλος / η υπάλληλος. The noun has the same form for a man or a woman; the article changes.",
+        "ru": "ο υπάλληλος / η υπάλληλος. Для мужчины и женщины форма слова одинаковая; меняется артикль."
+      },
+      "acceptedAnswers": [
+        "ο υπάλληλος",
+        "η υπάλληλος"
+      ],
+      "labels": [
+        "noun"
+      ],
+      "reviewIdentity": {
+        "deckId": "words-nouns",
+        "cardId": "professions-employee"
+      },
+      "collection": "words-nouns",
+      "themes": [
+        "people"
+      ]
+    },
+    {
+      "id": "professions-actor",
+      "greek": "ηθοποιός",
+      "answerDisplay": "ο / η ηθοποιός",
+      "prompt": {
+        "en": "Actor / actress",
+        "ru": "Актёр / актриса"
+      },
+      "pronunciation": {
+        "en": "i-tho-pi-OS",
+        "ru": "и-то-пи-ОС"
+      },
+      "explanation": {
+        "en": "ο ηθοποιός / η ηθοποιός. The noun has the same form for a man or a woman; the article changes.",
+        "ru": "ο ηθοποιός / η ηθοποιός. Для мужчины и женщины форма слова одинаковая; меняется артикль."
+      },
+      "acceptedAnswers": [
+        "ο ηθοποιός",
+        "η ηθοποιός"
+      ],
+      "labels": [
+        "noun"
+      ],
+      "reviewIdentity": {
+        "deckId": "words-nouns",
+        "cardId": "professions-actor"
+      },
+      "collection": "words-nouns",
+      "themes": [
+        "people"
+      ]
+    },
+    {
+      "id": "professions-cashier",
+      "greek": "ταμίας",
+      "answerDisplay": "ο / η ταμίας",
+      "prompt": {
+        "en": "Cashier / treasurer",
+        "ru": "Кассир / казначей"
+      },
+      "pronunciation": {
+        "en": "ta-MI-as",
+        "ru": "та-МИ-ас"
+      },
+      "explanation": {
+        "en": "ο ταμίας / η ταμίας. The noun has the same form for a man or a woman; the article changes.",
+        "ru": "ο ταμίας / η ταμίας. Для мужчины и женщины форма слова одинаковая; меняется артикль."
+      },
+      "acceptedAnswers": [
+        "ο ταμίας",
+        "η ταμίας"
+      ],
+      "labels": [
+        "noun"
+      ],
+      "reviewIdentity": {
+        "deckId": "words-nouns",
+        "cardId": "professions-cashier"
+      },
+      "collection": "words-nouns",
+      "themes": [
+        "people"
+      ]
+    },
+    {
+      "id": "professions-architect",
+      "greek": "αρχιτέκτονας",
+      "answerDisplay": "ο / η αρχιτέκτονας",
+      "prompt": {
+        "en": "Architect",
+        "ru": "Архитектор"
+      },
+      "pronunciation": {
+        "en": "ar-hi-TE-kto-nas",
+        "ru": "ар-хи-ТЭ-кто-нас"
+      },
+      "explanation": {
+        "en": "ο αρχιτέκτονας / η αρχιτέκτονας. The noun has the same form for a man or a woman; the article changes.",
+        "ru": "ο αρχιτέκτονας / η αρχιτέκτονας. Для мужчины и женщины форма слова одинаковая; меняется артикль."
+      },
+      "acceptedAnswers": [
+        "ο αρχιτέκτονας",
+        "η αρχιτέκτονας"
+      ],
+      "labels": [
+        "noun"
+      ],
+      "reviewIdentity": {
+        "deckId": "words-nouns",
+        "cardId": "professions-architect"
+      },
+      "collection": "words-nouns",
+      "themes": [
+        "people"
+      ]
+    },
+    {
+      "id": "professions-secretary",
+      "greek": "γραμματέας",
+      "answerDisplay": "ο / η γραμματέας",
+      "prompt": {
+        "en": "Secretary",
+        "ru": "Секретарь"
+      },
+      "pronunciation": {
+        "en": "ghra-ma-TE-as",
+        "ru": "гра-ма-ТЭ-ас"
+      },
+      "explanation": {
+        "en": "ο γραμματέας / η γραμματέας. The noun has the same form for a man or a woman; the article changes.",
+        "ru": "ο γραμματέας / η γραμματέας. Для мужчины и женщины форма слова одинаковая; меняется артикль."
+      },
+      "acceptedAnswers": [
+        "ο γραμματέας",
+        "η γραμματέας"
+      ],
+      "labels": [
+        "noun"
+      ],
+      "reviewIdentity": {
+        "deckId": "words-nouns",
+        "cardId": "professions-secretary"
+      },
+      "collection": "words-nouns",
+      "themes": [
+        "people"
+      ]
+    },
+    {
+      "id": "professions-doctoral-student-male",
+      "greek": "υποψήφιος διδάκτορας",
+      "answerDisplay": "ο υποψήφιος διδάκτορας / η υποψήφια διδάκτορας",
+      "prompt": {
+        "en": "Doctoral student / PhD candidate",
+        "ru": "Аспирант / аспирантка (PhD)"
+      },
+      "pronunciation": {
+        "en": "i-po-PSI-fi-os dhi-DHA-kto-ras / i-po-PSI-fi-a dhi-DHA-kto-ras",
+        "ru": "и-по-ПСИ-фи-ос ди-ДА-кто-рас / и-по-ПСИ-фи-а ди-ДА-кто-рас"
+      },
+      "explanation": {
+        "en": "ο υποψήφιος διδάκτορας: masculine form. The article can be omitted in word practice. A doctoral student / PhD candidate, not someone who has already completed the doctorate.\n\nη υποψήφια διδάκτορας: feminine form. The article can be omitted in word practice. A doctoral student / PhD candidate, not someone who has already completed the doctorate.",
+        "ru": "ο υποψήφιος διδάκτορας: мужской род. В тренировке слов артикль можно не вводить. Человек, обучающийся в докторантуре / аспирантуре (PhD), ещё не получивший докторскую степень.\n\nη υποψήφια διδάκτορας: женский род. В тренировке слов артикль можно не вводить. Человек, обучающийся в докторантуре / аспирантуре (PhD), ещё не получивший докторскую степень."
+      },
+      "acceptedAnswers": [
+        "ο υποψήφιος διδάκτορας",
+        "ο υποψήφιος διδάκτωρ",
+        "η υποψήφια διδάκτορας",
+        "η υποψήφια διδάκτωρ"
+      ],
+      "labels": [
+        "noun"
+      ],
+      "alternatives": [
+        "υποψήφιος διδάκτωρ",
+        "υποψήφια διδάκτωρ",
+        "υποψήφια διδάκτορας"
+      ],
+      "wordGroup": "doctoral-student",
+      "reviewIdentity": {
+        "deckId": "words-nouns",
+        "cardId": "professions-doctoral-student-male"
+      },
+      "senses": [
+        {
+          "en": "Doctoral student / PhD candidate",
+          "ru": "Аспирант / аспирантка (PhD)"
+        }
+      ],
+      "forms": [
+        {
+          "greek": "υποψήφιος διδάκτορας",
+          "answerDisplay": "ο υποψήφιος διδάκτορας",
+          "pronunciation": {
+            "en": "i-po-PSI-fi-os dhi-DHA-kto-ras",
+            "ru": "и-по-ПСИ-фи-ос ди-ДА-кто-рас"
+          }
+        },
+        {
+          "greek": "υποψήφια διδάκτορας",
+          "answerDisplay": "η υποψήφια διδάκτορας",
+          "pronunciation": {
+            "en": "i-po-PSI-fi-a dhi-DHA-kto-ras",
+            "ru": "и-по-ПСИ-фи-а ди-ДА-кто-рас"
+          }
+        }
+      ],
+      "aliases": [
+        "professions-doctoral-student-female"
+      ],
+      "reviewAliases": [
+        {
+          "deckId": "words-nouns",
+          "cardId": "professions-doctoral-student-female"
+        }
+      ],
+      "collection": "words-nouns",
+      "themes": [
+        "people",
+        "classroom"
+      ]
+    },
+    {
+      "id": "professions-electrical-engineer",
+      "greek": "ηλεκτρολόγος μηχανικός",
+      "answerDisplay": "ο / η ηλεκτρολόγος μηχανικός",
+      "prompt": {
+        "en": "Electrical engineer",
+        "ru": "Инженер-электрик"
+      },
+      "pronunciation": {
+        "en": "i-lek-tro-LO-ghos mi-ha-ni-KOS",
+        "ru": "и-лэк-тро-ЛО-гос ми-ха-ни-КОС"
+      },
+      "explanation": {
+        "en": "ο ηλεκτρολόγος μηχανικός / η ηλεκτρολόγος μηχανικός. The noun has the same form for a man or a woman; the article changes.",
+        "ru": "ο ηλεκτρολόγος μηχανικός / η ηλεκτρολόγος μηχανικός. Для мужчины и женщины форма слова одинаковая; меняется артикль."
+      },
+      "acceptedAnswers": [
+        "ο ηλεκτρολόγος μηχανικός",
+        "η ηλεκτρολόγος μηχανικός"
+      ],
+      "labels": [
+        "noun"
+      ],
+      "reviewIdentity": {
+        "deckId": "words-nouns",
+        "cardId": "professions-electrical-engineer"
+      },
+      "collection": "words-nouns",
+      "themes": [
+        "people"
+      ]
+    },
+    {
+      "id": "professions-computer-engineer",
+      "greek": "μηχανικός υπολογιστών",
+      "answerDisplay": "ο / η μηχανικός υπολογιστών",
+      "prompt": {
+        "en": "Computer engineer",
+        "ru": "Инженер по вычислительной технике"
+      },
+      "pronunciation": {
+        "en": "mi-ha-ni-KOS i-po-lo-yi-STON",
+        "ru": "ми-ха-ни-КОС и-по-ло-йи-СТОН"
+      },
+      "explanation": {
+        "en": "ο μηχανικός υπολογιστών / η μηχανικός υπολογιστών. The noun has the same form for a man or a woman; the article changes.",
+        "ru": "ο μηχανικός υπολογιστών / η μηχανικός υπολογιστών. Для мужчины и женщины форма слова одинаковая; меняется артикль."
+      },
+      "acceptedAnswers": [
+        "ο μηχανικός υπολογιστών",
+        "η μηχανικός υπολογιστών"
+      ],
+      "labels": [
+        "noun"
+      ],
+      "reviewIdentity": {
+        "deckId": "words-nouns",
+        "cardId": "professions-computer-engineer"
+      },
+      "collection": "words-nouns",
+      "themes": [
+        "people"
+      ]
+    },
+    {
+      "id": "professions-electrical-computer-engineer",
+      "greek": "ηλεκτρολόγος μηχανικός και μηχανικός υπολογιστών",
+      "answerDisplay": "ο / η ηλεκτρολόγος μηχανικός και μηχανικός υπολογιστών",
+      "prompt": {
+        "en": "Electrical and computer engineer",
+        "ru": "Инженер в области электротехники и вычислительной техники"
+      },
+      "pronunciation": {
+        "en": "i-lek-tro-LO-ghos mi-ha-ni-KOS ke mi-ha-ni-KOS i-po-lo-yi-STON",
+        "ru": "и-лэк-тро-ЛО-гос ми-ха-ни-КОС кэ ми-ха-ни-КОС и-по-ло-йи-СТОН"
+      },
+      "explanation": {
+        "en": "ο ηλεκτρολόγος μηχανικός και μηχανικός υπολογιστών / η ηλεκτρολόγος μηχανικός και μηχανικός υπολογιστών. The noun has the same form for a man or a woman; the article changes.",
+        "ru": "ο ηλεκτρολόγος μηχανικός και μηχανικός υπολογιστών / η ηλεκτρολόγος μηχανικός και μηχανικός υπολογιστών. Для мужчины и женщины форма слова одинаковая; меняется артикль."
+      },
+      "acceptedAnswers": [
+        "ο ηλεκτρολόγος μηχανικός και μηχανικός υπολογιστών",
+        "η ηλεκτρολόγος μηχανικός και μηχανικός υπολογιστών"
+      ],
+      "labels": [
+        "noun"
+      ],
+      "reviewIdentity": {
+        "deckId": "words-nouns",
+        "cardId": "professions-electrical-computer-engineer"
+      },
+      "collection": "words-nouns",
+      "themes": [
+        "people"
+      ]
+    },
+    {
+      "id": "professions-physiotherapist-male",
+      "greek": "φυσικοθεραπευτής",
+      "answerDisplay": "ο φυσικοθεραπευτής / η φυσικοθεραπεύτρια",
+      "prompt": {
+        "en": "Physiotherapist / physical therapist",
+        "ru": "Физиотерапевт"
+      },
+      "pronunciation": {
+        "en": "fi-si-ko-the-ra-pef-TIS / fi-si-ko-the-ra-PEF-tria",
+        "ru": "фи-си-ко-тэ-ра-пэф-ТИС / фи-си-ко-тэ-ра-ПЭФ-три-а"
+      },
+      "explanation": {
+        "en": "ο φυσικοθεραπευτής: masculine form. The article can be omitted in word practice.\n\nη φυσικοθεραπεύτρια: feminine form. The article can be omitted in word practice.",
+        "ru": "ο φυσικοθεραπευτής: мужской род. В тренировке слов артикль можно не вводить.\n\nη φυσικοθεραπεύτρια: женский род. В тренировке слов артикль можно не вводить."
+      },
+      "acceptedAnswers": [
+        "ο φυσικοθεραπευτής",
+        "η φυσικοθεραπεύτρια"
+      ],
+      "labels": [
+        "noun"
+      ],
+      "wordGroup": "physiotherapist",
+      "reviewIdentity": {
+        "deckId": "words-nouns",
+        "cardId": "professions-physiotherapist-male"
+      },
+      "senses": [
+        {
+          "en": "Physiotherapist / physical therapist",
+          "ru": "Физиотерапевт"
+        }
+      ],
+      "alternatives": [
+        "φυσικοθεραπεύτρια"
+      ],
+      "forms": [
+        {
+          "greek": "φυσικοθεραπευτής",
+          "answerDisplay": "ο φυσικοθεραπευτής",
+          "pronunciation": {
+            "en": "fi-si-ko-the-ra-pef-TIS",
+            "ru": "фи-си-ко-тэ-ра-пэф-ТИС"
+          }
+        },
+        {
+          "greek": "φυσικοθεραπεύτρια",
+          "answerDisplay": "η φυσικοθεραπεύτρια",
+          "pronunciation": {
+            "en": "fi-si-ko-the-ra-PEF-tria",
+            "ru": "фи-си-ко-тэ-ра-ПЭФ-три-а"
+          }
+        }
+      ],
+      "aliases": [
+        "professions-physiotherapist-female"
+      ],
+      "reviewAliases": [
+        {
+          "deckId": "words-nouns",
+          "cardId": "professions-physiotherapist-female"
+        }
+      ],
+      "collection": "words-nouns",
+      "themes": [
+        "people"
+      ]
+    },
+    {
+      "id": "professions-pilot",
+      "greek": "πιλότος",
+      "answerDisplay": "ο / η πιλότος",
+      "prompt": {
+        "en": "Pilot",
+        "ru": "Пилот / лётчик"
+      },
+      "pronunciation": {
+        "en": "pi-LO-tos",
+        "ru": "пи-ЛО-тос"
+      },
+      "explanation": {
+        "en": "ο πιλότος / η πιλότος. The noun has the same form for a man or a woman; the article changes.",
+        "ru": "ο πιλότος / η πιλότος. Для мужчины и женщины форма слова одинаковая; меняется артикль."
+      },
+      "acceptedAnswers": [
+        "ο πιλότος",
+        "η πιλότος"
+      ],
+      "labels": [
+        "noun"
+      ],
+      "reviewIdentity": {
+        "deckId": "words-nouns",
+        "cardId": "professions-pilot"
+      },
+      "collection": "words-nouns",
+      "themes": [
+        "people",
+        "travel"
+      ]
+    },
+    {
+      "id": "professions-journalist",
+      "greek": "δημοσιογράφος",
+      "answerDisplay": "ο / η δημοσιογράφος",
+      "prompt": {
+        "en": "Journalist / reporter",
+        "ru": "Журналист / журналистка"
+      },
+      "pronunciation": {
+        "en": "dhi-mo-si-o-GHRA-fos",
+        "ru": "ди-мо-си-о-ГРА-фос"
+      },
+      "explanation": {
+        "en": "ο δημοσιογράφος / η δημοσιογράφος. The noun has the same form for a man or a woman; the article changes.",
+        "ru": "ο δημοσιογράφος / η δημοσιογράφος. Для мужчины и женщины форма слова одинаковая; меняется артикль."
+      },
+      "acceptedAnswers": [
+        "ο δημοσιογράφος",
+        "η δημοσιογράφος"
+      ],
+      "labels": [
+        "noun"
+      ],
+      "reviewIdentity": {
+        "deckId": "words-nouns",
+        "cardId": "professions-journalist"
+      },
+      "collection": "words-nouns",
+      "themes": [
+        "people"
+      ]
+    },
+    {
+      "id": "professions-unemployed-male",
+      "greek": "άνεργος",
+      "answerDisplay": "ο άνεργος / η άνεργη",
+      "prompt": {
+        "en": "Unemployed",
+        "ru": "Безработный / безработная"
+      },
+      "pronunciation": {
+        "en": "A-ner-ghos / A-ner-yi",
+        "ru": "А-нэр-гос / А-нэр-йи"
+      },
+      "explanation": {
+        "en": "An adjective describing employment status, not a profession. Masculine άνεργος, feminine άνεργη, neuter άνεργο.",
+        "ru": "Прилагательное о статусе занятости, а не профессия. Мужской род άνεργος, женский άνεργη, средний άνεργο."
+      },
+      "acceptedAnswers": [
+        "ο άνεργος",
+        "η άνεργη"
+      ],
+      "labels": [
+        "adjective"
+      ],
+      "wordGroup": "unemployed",
+      "reviewIdentity": {
+        "deckId": "words-descriptions",
+        "cardId": "professions-unemployed-male"
+      },
+      "senses": [
+        {
+          "en": "Unemployed",
+          "ru": "Безработный / безработная"
+        }
+      ],
+      "alternatives": [
+        "άνεργη"
+      ],
+      "forms": [
+        {
+          "greek": "άνεργος",
+          "answerDisplay": "ο άνεργος",
+          "pronunciation": {
+            "en": "A-ner-ghos",
+            "ru": "А-нэр-гос"
+          }
+        },
+        {
+          "greek": "άνεργη",
+          "answerDisplay": "η άνεργη",
+          "pronunciation": {
+            "en": "A-ner-yi",
+            "ru": "А-нэр-йи"
+          }
+        }
+      ],
+      "aliases": [
+        "professions-unemployed-female"
+      ],
+      "reviewAliases": [
+        {
+          "deckId": "words-descriptions",
+          "cardId": "professions-unemployed-female"
+        }
+      ],
+      "collection": "words-descriptions",
+      "themes": [
+        "people"
+      ]
+    }
+  ]
+}

@@ -1,5 +1,5 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:greek_anki/data/decks/verb_topics.dart';
+import '../tool/legacy_data/decks/verb_topics.dart';
 import 'package:greek_anki/data/greek_decks.dart';
 import 'package:greek_anki/domain/learning_progress.dart';
 import 'package:greek_anki/domain/review_schedule.dart';
@@ -77,7 +77,8 @@ void main() {
           expect(moved.greek, original.greek);
           expect(moved.alternatives, original.alternatives);
           expect(moved.acceptedAnswers, original.acceptedAnswers);
-          expect(moved.explanation, original.explanation);
+          expect(moved.explanation?.en, original.explanation?.en);
+          expect(moved.explanation?.ru, original.explanation?.ru);
         }
       }
     },

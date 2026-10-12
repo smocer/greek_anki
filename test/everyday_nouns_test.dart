@@ -26,7 +26,17 @@ void main() {
         ).cards.firstWhere((card) => card.id == identity.cardId);
         expect(card.greek, original.greek);
         expect(card.addedWeek, original.addedWeek);
-        expect(card.words, original.words);
+        // JSON decoding creates values independently; compare token contents.
+        Object tokenValues(VocabularyToken word) => [
+          word.surface,
+          word.lemma,
+          word.start,
+          word.end,
+          word.labels.map((label) => label.name).toList(),
+          word.tag,
+          word.addedWeek,
+        ];
+        expect(card.words.map(tokenValues), original.words.map(tokenValues));
         store.records[identity.key(StudyMode.typing)] = ReviewSchedule(
           level: 2,
           dueAt: DateTime.utc(2099),

@@ -16,6 +16,11 @@ class VocabularyCard {
     this.addedWeek,
     this.words = const [],
     this.answerDisplay,
+    this.aliases = const [],
+    this.reviewAliases = const [],
+    this.senses = const [],
+    this.wordGroup,
+    this.forms = const [],
   });
 
   final String id;
@@ -36,6 +41,11 @@ class VocabularyCard {
   final List<VocabularyToken> words;
   // Vocabulary may accept a bare noun while still teaching its article.
   final String? answerDisplay;
+  final List<String> aliases;
+  final List<ReviewIdentity> reviewAliases;
+  final List<LocalizedText> senses;
+  final String? wordGroup;
+  final List<VocabularyForm> forms;
   String get displayedAnswer => answerDisplay ?? greek;
 
   VocabularyCard withMetadata({
@@ -57,7 +67,23 @@ class VocabularyCard {
     addedWeek: addedWeek ?? this.addedWeek,
     words: words ?? this.words,
     answerDisplay: answerDisplay,
+    aliases: aliases,
+    reviewAliases: reviewAliases,
+    senses: senses,
+    wordGroup: wordGroup,
+    forms: forms,
   );
+}
+
+class VocabularyForm {
+  const VocabularyForm({
+    required this.greek,
+    required this.answerDisplay,
+    required this.pronunciation,
+  });
+  final String greek;
+  final String answerDisplay;
+  final LocalizedText pronunciation;
 }
 
 class VocabularyToken {
