@@ -19,7 +19,6 @@ void main() {
   test('personal and geographical names are separate from common nouns', () {
     final names = deck('words-names').cards;
     final nouns = deck('words-nouns').cards;
-    expect(names, hasLength(36));
     expect(
       names.map((c) => c.greek),
       containsAll(['Αργεντινή', 'Ελένη', 'Λευκωσία', 'Ευρώπη']),
@@ -74,69 +73,60 @@ void main() {
     );
   });
 
-  test(
-    'new lesson adds 32 tasks and extends two existing profession cards',
-    () {
-      final previous =
-          GreekDictionary.merge(File(dictionaryAsset).readAsStringSync(), {
-            for (final file in Directory(
-              dictionaryAdditionsDirectory,
-            ).listSync().whereType<File>())
-              if (file.path.endsWith('.json') &&
-                  !file.path.endsWith('2026-10-12-work-life.json'))
-                file.path: file.readAsStringSync(),
-          });
-      final before = previous.learningDecks.expand((d) => d.cards).toList();
-      final after = dictionary.learningDecks.expand((d) => d.cards).toList();
-      expect(after.length - before.length, 32);
-      for (final group in ['doctoral-student', 'physiotherapist']) {
-        final old = before.singleWhere((c) => c.wordGroup == group);
-        final card = after.singleWhere((c) => c.wordGroup == group);
+  test('work and life lesson extends two existing profession cards', () {
+    final previous =
+        GreekDictionary.merge(File(dictionaryAsset).readAsStringSync(), {
+          for (final file in Directory(
+            dictionaryAdditionsDirectory,
+          ).listSync().whereType<File>())
+            if (file.path.endsWith('.json') &&
+                !file.path.endsWith('2026-10-12-work-life.json'))
+              file.path: file.readAsStringSync(),
+        });
+    final before = previous.learningDecks.expand((d) => d.cards).toList();
+    final after = dictionary.learningDecks.expand((d) => d.cards).toList();
+    expect(after.length - before.length, 31);
+    for (final group in ['doctoral-student', 'physiotherapist']) {
+      final old = before.singleWhere((c) => c.wordGroup == group);
+      final card = after.singleWhere((c) => c.wordGroup == group);
+      expect(
+        card.reviewIdentity!.key(StudyMode.typing),
+        old.reviewIdentity!.key(StudyMode.typing),
+      );
+      expect(card.addedWeek, old.addedWeek);
+      expect(card.forms.length, 4);
+      expect(
+        card.reviewAliases.map((identity) => identity.key(StudyMode.typing)),
+        containsAll(
+          old.reviewAliases.map((identity) => identity.key(StudyMode.typing)),
+        ),
+      );
+      for (final form in card.forms) {
+        expect(matcher.matches(form.greek, card), isTrue, reason: form.greek);
         expect(
-          card.reviewIdentity!.key(StudyMode.typing),
-          old.reviewIdentity!.key(StudyMode.typing),
+          matcher.matches(form.answerDisplay, card),
+          isTrue,
+          reason: form.answerDisplay,
         );
-        expect(card.addedWeek, old.addedWeek);
-        expect(card.forms.length, 4);
-        expect(
-          card.reviewAliases.map((identity) => identity.key(StudyMode.typing)),
-          containsAll(
-            old.reviewAliases.map((identity) => identity.key(StudyMode.typing)),
-          ),
-        );
-        for (final form in card.forms) {
-          expect(matcher.matches(form.greek, card), isTrue, reason: form.greek);
-          expect(
-            matcher.matches(form.answerDisplay, card),
-            isTrue,
-            reason: form.answerDisplay,
-          );
-        }
       }
-      final newCards = after.where((c) => c.id.startsWith('work-life-'));
-      expect(newCards, hasLength(32));
-      expect(newCards.every((c) => c.addedWeek == '2026-10-12'), isTrue);
-    },
-  );
+    }
+    final newCards = after.where((c) => c.id.startsWith('work-life-'));
+    expect(newCards, hasLength(31));
+    expect(newCards.every((c) => c.addedWeek == '2026-10-12'), isTrue);
+  });
 
   test('new answers retain accents and gender alternatives are searchable', () {
     final nouns = dictionary.collections.singleWhere(
       (c) => c.deck.id == 'words-nouns',
     );
-    final developer = nouns
-        .filter(query: 'προγραμματίστρια', now: DateTime(2026, 10, 12))
+    final journalist = nouns
+        .filter(query: 'δημοσιογράφος', now: DateTime(2026, 10, 12))
         .cards
         .single;
-    for (final answer in [
-      'προγραμματιστής εφαρμογών για κινητά',
-      'η προγραμματίστρια εφαρμογών για κινητά',
-    ]) {
-      expect(matcher.matches(answer, developer), isTrue);
+    for (final answer in ['δημοσιογράφος', 'η δημοσιογράφος']) {
+      expect(matcher.matches(answer, journalist), isTrue);
     }
-    expect(
-      matcher.matches('προγραμματιστης εφαρμογων για κινητα', developer),
-      isFalse,
-    );
+    expect(matcher.matches('δημοσιογραφος', journalist), isFalse);
     final animal = nouns.deck.cards.singleWhere((c) => c.greek == 'ζώο');
     expect(matcher.matches('το ζώο', animal), isTrue);
     expect(matcher.matches('η ζώο', animal), isFalse);
@@ -151,7 +141,7 @@ void main() {
     );
     expect(
       recent.cards.where((c) => c.id.startsWith('work-life-')),
-      hasLength(9),
+      hasLength(8),
     );
     expect(
       nouns

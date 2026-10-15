@@ -55640,6 +55640,629 @@
         "cardId": "not-married"
       },
       "addedWeek": "2026-10-05"
+    },
+    "grammar-verbs-b1/b1-speak-i": {
+      "id": "b1-speak-i",
+      "greek": "μιλάω",
+      "prompt": {
+        "en": "I speak",
+        "ru": "Я говорю"
+      },
+      "meaning": {
+        "en": "Present tense. Translate the verb form; the subject pronoun is optional.",
+        "ru": "Настоящее время. Переведите форму глагола; местоимение можно опустить."
+      },
+      "pronunciation": {
+        "en": "mi-LA-o",
+        "ru": "ми-ЛА-о"
+      },
+      "alternatives": [
+        "μιλώ"
+      ],
+      "acceptedAnswers": [
+        "εγώ μιλάω",
+        "εγώ μιλώ"
+      ],
+      "explanation": {
+        "en": "B1: -άω/-ώ, -άς, -άει/-ά, -άμε/-ούμε, -άτε, -άνε/-ούν(-ε).",
+        "ru": "B1: -άω/-ώ, -άς, -άει/-ά, -άμε/-ούμε, -άτε, -άνε/-ούν(-ε)."
+      },
+      "labels": [
+        "verb"
+      ],
+      "addedWeek": "2026-10-12",
+      "reviewIdentity": {
+        "deckId": "grammar-verbs-b1",
+        "cardId": "b1-speak-i"
+      }
+    },
+    "grammar-verbs-b1/b1-speak-you": {
+      "id": "b1-speak-you",
+      "greek": "μιλάς",
+      "prompt": {
+        "en": "You (singular, informal) speak",
+        "ru": "Ты говоришь"
+      },
+      "meaning": {
+        "en": "Present tense. Translate the verb form; the subject pronoun is optional.",
+        "ru": "Настоящее время. Переведите форму глагола; местоимение можно опустить."
+      },
+      "pronunciation": {
+        "en": "mi-LAS",
+        "ru": "ми-ЛАС"
+      },
+      "alternatives": [],
+      "acceptedAnswers": [
+        "εσύ μιλάς"
+      ],
+      "explanation": {
+        "en": "B1: -άω/-ώ, -άς, -άει/-ά, -άμε/-ούμε, -άτε, -άνε/-ούν(-ε).",
+        "ru": "B1: -άω/-ώ, -άς, -άει/-ά, -άμε/-ούμε, -άτε, -άνε/-ούν(-ε)."
+      },
+      "labels": [
+        "verb"
+      ],
+      "addedWeek": "2026-10-12",
+      "reviewIdentity": {
+        "deckId": "grammar-verbs-b1",
+        "cardId": "b1-speak-you"
+      }
+    },
+    "grammar-verbs-b1/b1-speak-he": {
+      "id": "b1-speak-he",
+      "greek": "μιλάει",
+      "prompt": {
+        "en": "He speaks",
+        "ru": "Он говорит"
+      },
+      "meaning": {
+        "en": "Present tense. Translate the verb form; the subject pronoun is optional.",
+        "ru": "Настоящее время. Переведите форму глагола; местоимение можно опустить."
+      },
+      "pronunciation": {
+        "en": "mi-LA-i",
+        "ru": "ми-ЛА-и"
+      },
+      "alternatives": [
+        "μιλά"
+      ],
+      "acceptedAnswers": [
+        "αυτός μιλάει",
+        "αυτός μιλά"
+      ],
+      "explanation": {
+        "en": "B1: -άω/-ώ, -άς, -άει/-ά, -άμε/-ούμε, -άτε, -άνε/-ούν(-ε).",
+        "ru": "B1: -άω/-ώ, -άς, -άει/-ά, -άμε/-ούμε, -άτε, -άνε/-ούν(-ε)."
+      },
+      "labels": [
+        "verb"
+      ],
+      "addedWeek": "2026-10-12",
+      "reviewIdentity": {
+        "deckId": "grammar-verbs-b1",
+        "cardId": "b1-speak-he"
+      }
+    },
+    "grammar-verbs-b1/b1-speak-we": {
+      "id": "b1-speak-we",
+      "greek": "μιλάμε",
+      "prompt": {
+        "en": "We speak",
+        "ru": "Мы говорим"
+      },
+      "meaning": {
+        "en": "Present tense. Translate the verb form; the subject pronoun is optional.",
+        "ru": "Настоящее время. Переведите форму глагола; местоимение можно опустить."
+      },
+      "pronunciation": {
+        "en": "mi-LA-me",
+        "ru": "ми-ЛА-мэ"
+      },
+      "alternatives": [
+        "μιλούμε"
+      ],
+      "acceptedAnswers": [
+        "εμείς μιλάμε",
+        "εμείς μιλούμε"
+      ],
+      "explanation": {
+        "en": "B1: -άω/-ώ, -άς, -άει/-ά, -άμε/-ούμε, -άτε, -άνε/-ούν(-ε).",
+        "ru": "B1: -άω/-ώ, -άς, -άει/-ά, -άμε/-ούμε, -άτε, -άνε/-ούν(-ε)."
+      },
+      "labels": [
+        "verb"
+      ],
+      "addedWeek": "2026-10-12",
+      "reviewIdentity": {
+        "deckId": "grammar-verbs-b1",
+        "cardId": "b1-speak-we"
+      }
+    },
+    "grammar-verbs-b1/b1-speak-you-plural": {
+      "id": "b1-speak-you-plural",
+      "greek": "μιλάτε",
+      "prompt": {
+        "en": "You (plural or polite) speak",
+        "ru": "Вы говорите"
+      },
+      "meaning": {
+        "en": "Present tense. Translate the verb form; the subject pronoun is optional.",
+        "ru": "Настоящее время. Переведите форму глагола; местоимение можно опустить."
+      },
+      "pronunciation": {
+        "en": "mi-LA-te",
+        "ru": "ми-ЛА-тэ"
+      },
+      "alternatives": [],
+      "acceptedAnswers": [
+        "εσείς μιλάτε"
+      ],
+      "explanation": {
+        "en": "B1: -άω/-ώ, -άς, -άει/-ά, -άμε/-ούμε, -άτε, -άνε/-ούν(-ε).",
+        "ru": "B1: -άω/-ώ, -άς, -άει/-ά, -άμε/-ούμε, -άτε, -άνε/-ούν(-ε)."
+      },
+      "labels": [
+        "verb"
+      ],
+      "addedWeek": "2026-10-12",
+      "reviewIdentity": {
+        "deckId": "grammar-verbs-b1",
+        "cardId": "b1-speak-you-plural"
+      }
+    },
+    "grammar-verbs-b1/b1-speak-they": {
+      "id": "b1-speak-they",
+      "greek": "μιλάνε",
+      "prompt": {
+        "en": "They speak",
+        "ru": "Они говорят"
+      },
+      "meaning": {
+        "en": "Present tense. Translate the verb form; the subject pronoun is optional.",
+        "ru": "Настоящее время. Переведите форму глагола; местоимение можно опустить."
+      },
+      "pronunciation": {
+        "en": "mi-LA-ne",
+        "ru": "ми-ЛА-нэ"
+      },
+      "alternatives": [
+        "μιλούν",
+        "μιλούνε"
+      ],
+      "acceptedAnswers": [
+        "αυτοί μιλάνε",
+        "αυτοί μιλούν",
+        "αυτοί μιλούνε",
+        "αυτές μιλάνε",
+        "αυτές μιλούν",
+        "αυτές μιλούνε",
+        "αυτά μιλάνε",
+        "αυτά μιλούν",
+        "αυτά μιλούνε"
+      ],
+      "explanation": {
+        "en": "B1: -άω/-ώ, -άς, -άει/-ά, -άμε/-ούμε, -άτε, -άνε/-ούν(-ε).",
+        "ru": "B1: -άω/-ώ, -άς, -άει/-ά, -άμε/-ούμε, -άτε, -άνε/-ούν(-ε)."
+      },
+      "labels": [
+        "verb"
+      ],
+      "addedWeek": "2026-10-12",
+      "reviewIdentity": {
+        "deckId": "grammar-verbs-b1",
+        "cardId": "b1-speak-they"
+      }
+    },
+    "grammar-verbs-b1/b1-love-i": {
+      "id": "b1-love-i",
+      "greek": "αγαπάω",
+      "prompt": {
+        "en": "I love",
+        "ru": "Я люблю"
+      },
+      "meaning": {
+        "en": "Present tense. Translate the verb form; the subject pronoun is optional.",
+        "ru": "Настоящее время. Переведите форму глагола; местоимение можно опустить."
+      },
+      "pronunciation": {
+        "en": "a-gha-PA-o",
+        "ru": "а-га-ПА-о"
+      },
+      "alternatives": [
+        "αγαπώ"
+      ],
+      "acceptedAnswers": [
+        "εγώ αγαπάω",
+        "εγώ αγαπώ"
+      ],
+      "explanation": {
+        "en": "B1: -άω/-ώ, -άς, -άει/-ά, -άμε/-ούμε, -άτε, -άνε/-ούν(-ε).",
+        "ru": "B1: -άω/-ώ, -άς, -άει/-ά, -άμε/-ούμε, -άτε, -άνε/-ούν(-ε)."
+      },
+      "labels": [
+        "verb"
+      ],
+      "addedWeek": "2026-10-12",
+      "reviewIdentity": {
+        "deckId": "grammar-verbs-b1",
+        "cardId": "b1-love-i"
+      }
+    },
+    "grammar-verbs-b1/b1-love-you": {
+      "id": "b1-love-you",
+      "greek": "αγαπάς",
+      "prompt": {
+        "en": "You (singular, informal) love",
+        "ru": "Ты любишь"
+      },
+      "meaning": {
+        "en": "Present tense. Translate the verb form; the subject pronoun is optional.",
+        "ru": "Настоящее время. Переведите форму глагола; местоимение можно опустить."
+      },
+      "pronunciation": {
+        "en": "a-gha-PAS",
+        "ru": "а-га-ПАС"
+      },
+      "alternatives": [],
+      "acceptedAnswers": [
+        "εσύ αγαπάς"
+      ],
+      "explanation": {
+        "en": "B1: -άω/-ώ, -άς, -άει/-ά, -άμε/-ούμε, -άτε, -άνε/-ούν(-ε).",
+        "ru": "B1: -άω/-ώ, -άς, -άει/-ά, -άμε/-ούμε, -άτε, -άνε/-ούν(-ε)."
+      },
+      "labels": [
+        "verb"
+      ],
+      "addedWeek": "2026-10-12",
+      "reviewIdentity": {
+        "deckId": "grammar-verbs-b1",
+        "cardId": "b1-love-you"
+      }
+    },
+    "grammar-verbs-b1/b1-love-he": {
+      "id": "b1-love-he",
+      "greek": "αγαπάει",
+      "prompt": {
+        "en": "He loves",
+        "ru": "Он любит"
+      },
+      "meaning": {
+        "en": "Present tense. Translate the verb form; the subject pronoun is optional.",
+        "ru": "Настоящее время. Переведите форму глагола; местоимение можно опустить."
+      },
+      "pronunciation": {
+        "en": "a-gha-PA-i",
+        "ru": "а-га-ПА-и"
+      },
+      "alternatives": [
+        "αγαπά"
+      ],
+      "acceptedAnswers": [
+        "αυτός αγαπάει",
+        "αυτός αγαπά"
+      ],
+      "explanation": {
+        "en": "B1: -άω/-ώ, -άς, -άει/-ά, -άμε/-ούμε, -άτε, -άνε/-ούν(-ε).",
+        "ru": "B1: -άω/-ώ, -άς, -άει/-ά, -άμε/-ούμε, -άτε, -άνε/-ούν(-ε)."
+      },
+      "labels": [
+        "verb"
+      ],
+      "addedWeek": "2026-10-12",
+      "reviewIdentity": {
+        "deckId": "grammar-verbs-b1",
+        "cardId": "b1-love-he"
+      }
+    },
+    "grammar-verbs-b1/b1-love-we": {
+      "id": "b1-love-we",
+      "greek": "αγαπάμε",
+      "prompt": {
+        "en": "We love",
+        "ru": "Мы любим"
+      },
+      "meaning": {
+        "en": "Present tense. Translate the verb form; the subject pronoun is optional.",
+        "ru": "Настоящее время. Переведите форму глагола; местоимение можно опустить."
+      },
+      "pronunciation": {
+        "en": "a-gha-PA-me",
+        "ru": "а-га-ПА-мэ"
+      },
+      "alternatives": [
+        "αγαπούμε"
+      ],
+      "acceptedAnswers": [
+        "εμείς αγαπάμε",
+        "εμείς αγαπούμε"
+      ],
+      "explanation": {
+        "en": "B1: -άω/-ώ, -άς, -άει/-ά, -άμε/-ούμε, -άτε, -άνε/-ούν(-ε).",
+        "ru": "B1: -άω/-ώ, -άς, -άει/-ά, -άμε/-ούμε, -άτε, -άνε/-ούν(-ε)."
+      },
+      "labels": [
+        "verb"
+      ],
+      "addedWeek": "2026-10-12",
+      "reviewIdentity": {
+        "deckId": "grammar-verbs-b1",
+        "cardId": "b1-love-we"
+      }
+    },
+    "grammar-verbs-b1/b1-love-you-plural": {
+      "id": "b1-love-you-plural",
+      "greek": "αγαπάτε",
+      "prompt": {
+        "en": "You (plural or polite) love",
+        "ru": "Вы любите"
+      },
+      "meaning": {
+        "en": "Present tense. Translate the verb form; the subject pronoun is optional.",
+        "ru": "Настоящее время. Переведите форму глагола; местоимение можно опустить."
+      },
+      "pronunciation": {
+        "en": "a-gha-PA-te",
+        "ru": "а-га-ПА-тэ"
+      },
+      "alternatives": [],
+      "acceptedAnswers": [
+        "εσείς αγαπάτε"
+      ],
+      "explanation": {
+        "en": "B1: -άω/-ώ, -άς, -άει/-ά, -άμε/-ούμε, -άτε, -άνε/-ούν(-ε).",
+        "ru": "B1: -άω/-ώ, -άς, -άει/-ά, -άμε/-ούμε, -άτε, -άνε/-ούν(-ε)."
+      },
+      "labels": [
+        "verb"
+      ],
+      "addedWeek": "2026-10-12",
+      "reviewIdentity": {
+        "deckId": "grammar-verbs-b1",
+        "cardId": "b1-love-you-plural"
+      }
+    },
+    "grammar-verbs-b1/b1-love-they": {
+      "id": "b1-love-they",
+      "greek": "αγαπάνε",
+      "prompt": {
+        "en": "They love",
+        "ru": "Они любят"
+      },
+      "meaning": {
+        "en": "Present tense. Translate the verb form; the subject pronoun is optional.",
+        "ru": "Настоящее время. Переведите форму глагола; местоимение можно опустить."
+      },
+      "pronunciation": {
+        "en": "a-gha-PA-ne",
+        "ru": "а-га-ПА-нэ"
+      },
+      "alternatives": [
+        "αγαπούν",
+        "αγαπούνε"
+      ],
+      "acceptedAnswers": [
+        "αυτοί αγαπάνε",
+        "αυτοί αγαπούν",
+        "αυτοί αγαπούνε",
+        "αυτές αγαπάνε",
+        "αυτές αγαπούν",
+        "αυτές αγαπούνε",
+        "αυτά αγαπάνε",
+        "αυτά αγαπούν",
+        "αυτά αγαπούνε"
+      ],
+      "explanation": {
+        "en": "B1: -άω/-ώ, -άς, -άει/-ά, -άμε/-ούμε, -άτε, -άνε/-ούν(-ε).",
+        "ru": "B1: -άω/-ώ, -άς, -άει/-ά, -άμε/-ούμε, -άτε, -άνε/-ούν(-ε)."
+      },
+      "labels": [
+        "verb"
+      ],
+      "addedWeek": "2026-10-12",
+      "reviewIdentity": {
+        "deckId": "grammar-verbs-b1",
+        "cardId": "b1-love-they"
+      }
+    },
+    "grammar-verbs-b2/b2-can-i": {
+      "id": "b2-can-i",
+      "greek": "μπορώ",
+      "prompt": {
+        "en": "I can",
+        "ru": "Я могу"
+      },
+      "meaning": {
+        "en": "Present tense. Translate the verb form; the subject pronoun is optional.",
+        "ru": "Настоящее время. Переведите форму глагола; местоимение можно опустить."
+      },
+      "pronunciation": {
+        "en": "bo-RO",
+        "ru": "бо-РО"
+      },
+      "alternatives": [],
+      "acceptedAnswers": [
+        "εγώ μπορώ"
+      ],
+      "explanation": {
+        "en": "B2: -ώ, -είς, -εί, -ούμε, -είτε, -ούν(-ε).",
+        "ru": "B2: -ώ, -είς, -εί, -ούμε, -είτε, -ούν(-ε)."
+      },
+      "labels": [
+        "verb"
+      ],
+      "addedWeek": "2026-10-12",
+      "reviewIdentity": {
+        "deckId": "grammar-verbs-b2",
+        "cardId": "b2-can-i"
+      }
+    },
+    "grammar-verbs-b2/b2-can-you": {
+      "id": "b2-can-you",
+      "greek": "μπορείς",
+      "prompt": {
+        "en": "You (singular, informal) can",
+        "ru": "Ты можешь"
+      },
+      "meaning": {
+        "en": "Present tense. Translate the verb form; the subject pronoun is optional.",
+        "ru": "Настоящее время. Переведите форму глагола; местоимение можно опустить."
+      },
+      "pronunciation": {
+        "en": "bo-RIS",
+        "ru": "бо-РИС"
+      },
+      "alternatives": [],
+      "acceptedAnswers": [
+        "εσύ μπορείς"
+      ],
+      "explanation": {
+        "en": "B2: -ώ, -είς, -εί, -ούμε, -είτε, -ούν(-ε).",
+        "ru": "B2: -ώ, -είς, -εί, -ούμε, -είτε, -ούν(-ε)."
+      },
+      "labels": [
+        "verb"
+      ],
+      "addedWeek": "2026-10-12",
+      "reviewIdentity": {
+        "deckId": "grammar-verbs-b2",
+        "cardId": "b2-can-you"
+      }
+    },
+    "grammar-verbs-b2/b2-can-he": {
+      "id": "b2-can-he",
+      "greek": "μπορεί",
+      "prompt": {
+        "en": "He can",
+        "ru": "Он может"
+      },
+      "meaning": {
+        "en": "Present tense. Translate the verb form; the subject pronoun is optional.",
+        "ru": "Настоящее время. Переведите форму глагола; местоимение можно опустить."
+      },
+      "pronunciation": {
+        "en": "bo-RI",
+        "ru": "бо-РИ"
+      },
+      "alternatives": [],
+      "acceptedAnswers": [
+        "αυτός μπορεί"
+      ],
+      "explanation": {
+        "en": "B2: -ώ, -είς, -εί, -ούμε, -είτε, -ούν(-ε).",
+        "ru": "B2: -ώ, -είς, -εί, -ούμε, -είτε, -ούν(-ε)."
+      },
+      "labels": [
+        "verb"
+      ],
+      "addedWeek": "2026-10-12",
+      "reviewIdentity": {
+        "deckId": "grammar-verbs-b2",
+        "cardId": "b2-can-he"
+      }
+    },
+    "grammar-verbs-b2/b2-can-we": {
+      "id": "b2-can-we",
+      "greek": "μπορούμε",
+      "prompt": {
+        "en": "We can",
+        "ru": "Мы можем"
+      },
+      "meaning": {
+        "en": "Present tense. Translate the verb form; the subject pronoun is optional.",
+        "ru": "Настоящее время. Переведите форму глагола; местоимение можно опустить."
+      },
+      "pronunciation": {
+        "en": "bo-RU-me",
+        "ru": "бо-РУ-мэ"
+      },
+      "alternatives": [],
+      "acceptedAnswers": [
+        "εμείς μπορούμε"
+      ],
+      "explanation": {
+        "en": "B2: -ώ, -είς, -εί, -ούμε, -είτε, -ούν(-ε).",
+        "ru": "B2: -ώ, -είς, -εί, -ούμε, -είτε, -ούν(-ε)."
+      },
+      "labels": [
+        "verb"
+      ],
+      "addedWeek": "2026-10-12",
+      "reviewIdentity": {
+        "deckId": "grammar-verbs-b2",
+        "cardId": "b2-can-we"
+      }
+    },
+    "grammar-verbs-b2/b2-can-you-plural": {
+      "id": "b2-can-you-plural",
+      "greek": "μπορείτε",
+      "prompt": {
+        "en": "You (plural or polite) can",
+        "ru": "Вы можете"
+      },
+      "meaning": {
+        "en": "Present tense. Translate the verb form; the subject pronoun is optional.",
+        "ru": "Настоящее время. Переведите форму глагола; местоимение можно опустить."
+      },
+      "pronunciation": {
+        "en": "bo-RI-te",
+        "ru": "бо-РИ-тэ"
+      },
+      "alternatives": [],
+      "acceptedAnswers": [
+        "εσείς μπορείτε"
+      ],
+      "explanation": {
+        "en": "B2: -ώ, -είς, -εί, -ούμε, -είτε, -ούν(-ε).",
+        "ru": "B2: -ώ, -είς, -εί, -ούμε, -είτε, -ούν(-ε)."
+      },
+      "labels": [
+        "verb"
+      ],
+      "addedWeek": "2026-10-12",
+      "reviewIdentity": {
+        "deckId": "grammar-verbs-b2",
+        "cardId": "b2-can-you-plural"
+      }
+    },
+    "grammar-verbs-b2/b2-can-they": {
+      "id": "b2-can-they",
+      "greek": "μπορούν",
+      "prompt": {
+        "en": "They can",
+        "ru": "Они могут"
+      },
+      "meaning": {
+        "en": "Present tense. Translate the verb form; the subject pronoun is optional.",
+        "ru": "Настоящее время. Переведите форму глагола; местоимение можно опустить."
+      },
+      "pronunciation": {
+        "en": "bo-RUN",
+        "ru": "бо-РУН"
+      },
+      "alternatives": [
+        "μπορούνε"
+      ],
+      "acceptedAnswers": [
+        "αυτοί μπορούν",
+        "αυτοί μπορούνε",
+        "αυτές μπορούν",
+        "αυτές μπορούνε",
+        "αυτά μπορούν",
+        "αυτά μπορούνε"
+      ],
+      "explanation": {
+        "en": "B2: -ώ, -είς, -εί, -ούμε, -είτε, -ούν(-ε).",
+        "ru": "B2: -ώ, -είς, -εί, -ούμε, -είτε, -ούν(-ε)."
+      },
+      "labels": [
+        "verb"
+      ],
+      "addedWeek": "2026-10-12",
+      "reviewIdentity": {
+        "deckId": "grammar-verbs-b2",
+        "cardId": "b2-can-they"
+      }
     }
   },
   "decks": [
@@ -59655,6 +60278,124 @@
           "classroom"
         ],
         "understand-present.you-plural": [
+          "classroom"
+        ]
+      }
+    },
+    {
+      "section": "grammar",
+      "deck": {
+        "id": "grammar-verbs-b1",
+        "title": {
+          "en": "B1 verb forms",
+          "ru": "Глаголы B1"
+        },
+        "subtitle": {
+          "en": "Speak and love · all six persons",
+          "ru": "Говорить и любить · все шесть форм"
+        },
+        "cover": "μιλάμε",
+        "note": {
+          "en": "Present tense. B1 and B2 are conjugation classes, not language levels. Translate the requested form; subject pronouns are optional.",
+          "ru": "Настоящее время. B1 и B2 — группы спряжения, а не уровни владения языком. Переведите указанную форму; местоимение можно опустить."
+        },
+        "cards": [
+          "grammar-verbs-b1/b1-speak-i",
+          "grammar-verbs-b1/b1-speak-you",
+          "grammar-verbs-b1/b1-speak-he",
+          "grammar-verbs-b1/b1-speak-we",
+          "grammar-verbs-b1/b1-speak-you-plural",
+          "grammar-verbs-b1/b1-speak-they",
+          "grammar-verbs-b1/b1-love-i",
+          "grammar-verbs-b1/b1-love-you",
+          "grammar-verbs-b1/b1-love-he",
+          "grammar-verbs-b1/b1-love-we",
+          "grammar-verbs-b1/b1-love-you-plural",
+          "grammar-verbs-b1/b1-love-they"
+        ]
+      },
+      "themes": {
+        "b1-speak-i": [
+          "classroom"
+        ],
+        "b1-speak-you": [
+          "classroom"
+        ],
+        "b1-speak-he": [
+          "classroom"
+        ],
+        "b1-speak-we": [
+          "classroom"
+        ],
+        "b1-speak-you-plural": [
+          "classroom"
+        ],
+        "b1-speak-they": [
+          "classroom"
+        ],
+        "b1-love-i": [
+          "conversation"
+        ],
+        "b1-love-you": [
+          "conversation"
+        ],
+        "b1-love-he": [
+          "conversation"
+        ],
+        "b1-love-we": [
+          "conversation"
+        ],
+        "b1-love-you-plural": [
+          "conversation"
+        ],
+        "b1-love-they": [
+          "conversation"
+        ]
+      }
+    },
+    {
+      "section": "grammar",
+      "deck": {
+        "id": "grammar-verbs-b2",
+        "title": {
+          "en": "B2 verb forms",
+          "ru": "Глаголы B2"
+        },
+        "subtitle": {
+          "en": "Can · all six persons",
+          "ru": "Мочь · все шесть форм"
+        },
+        "cover": "μπορούμε",
+        "note": {
+          "en": "Present tense. B1 and B2 are conjugation classes, not language levels. Translate the requested form; subject pronouns are optional.",
+          "ru": "Настоящее время. B1 и B2 — группы спряжения, а не уровни владения языком. Переведите указанную форму; местоимение можно опустить."
+        },
+        "cards": [
+          "grammar-verbs-b2/b2-can-i",
+          "grammar-verbs-b2/b2-can-you",
+          "grammar-verbs-b2/b2-can-he",
+          "grammar-verbs-b2/b2-can-we",
+          "grammar-verbs-b2/b2-can-you-plural",
+          "grammar-verbs-b2/b2-can-they"
+        ]
+      },
+      "themes": {
+        "b2-can-i": [
+          "classroom"
+        ],
+        "b2-can-you": [
+          "classroom"
+        ],
+        "b2-can-he": [
+          "classroom"
+        ],
+        "b2-can-we": [
+          "classroom"
+        ],
+        "b2-can-you-plural": [
+          "classroom"
+        ],
+        "b2-can-they": [
           "classroom"
         ]
       }

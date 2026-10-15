@@ -94,7 +94,7 @@ ID when adding a new meaning.
 
 Masculine and feminine forms with the same meaning share a `wordGroup`, such as
 `teacher`, and are combined into one card when loaded. Use a gender-neutral
-meaning in `prompt`. The dictionary currently combines 22 such groups. Each
+meaning in `prompt`. Each
 card's `forms` stores the `greek`, `answerDisplay`, and `pronunciation` for each
 form. Either form is accepted, and aliases retain the old card IDs and review
 keys. New meanings for an existing form are automatically merged into that card.

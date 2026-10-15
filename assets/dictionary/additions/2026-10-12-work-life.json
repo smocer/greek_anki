@@ -258,53 +258,6 @@
       "alternatives": []
     },
     {
-      "id": "work-life-mobile-app-developer",
-      "collection": "words-nouns",
-      "greek": "προγραμματιστής εφαρμογών για κινητά",
-      "prompt": {
-        "en": "Mobile app developer",
-        "ru": "Разработчик мобильных приложений"
-      },
-      "pronunciation": {
-        "en": "pro-ghra-ma-ti-STIS e-far-mo-GHON ya ki-ni-TA",
-        "ru": "про-гра-ма-ти-СТИС э-фар-мо-ГОН я ки-ни-ТА"
-      },
-      "explanation": {
-        "en": "A software developer: εφαρμογών means “of applications”; για κινητά means “for mobile phones”. This wording distinguishes app development from mobile-device hardware engineering.",
-        "ru": "Разработчик программ, а не специалист по аппаратной части телефонов. Εφαρμογών — «приложений», родительный множественного числа; για κινητά — «для мобильных телефонов»."
-      },
-      "themes": [
-        "people",
-        "phone"
-      ],
-      "labels": [
-        "noun"
-      ],
-      "answerDisplay": "ο προγραμματιστής εφαρμογών για κινητά / η προγραμματίστρια εφαρμογών για κινητά",
-      "wordGroup": "mobile-app-developer",
-      "forms": [
-        {
-          "greek": "προγραμματιστής εφαρμογών για κινητά",
-          "answerDisplay": "ο προγραμματιστής εφαρμογών για κινητά",
-          "pronunciation": {
-            "en": "pro-ghra-ma-ti-STIS e-far-mo-GHON ya ki-ni-TA",
-            "ru": "про-гра-ма-ти-СТИС э-фар-мо-ГОН я ки-ни-ТА"
-          }
-        },
-        {
-          "greek": "προγραμματίστρια εφαρμογών για κινητά",
-          "answerDisplay": "η προγραμματίστρια εφαρμογών για κινητά",
-          "pronunciation": {
-            "en": "pro-ghra-ma-TIS-tria e-far-mo-GHON ya ki-ni-TA",
-            "ru": "про-гра-ма-ТИСТ-ри-а э-фар-мо-ГОН я ки-ни-ТА"
-          }
-        }
-      ],
-      "alternatives": [
-        "προγραμματίστρια εφαρμογών για κινητά"
-      ]
-    },
-    {
       "id": "work-life-doctoral-student",
       "collection": "words-nouns",
       "greek": "διδακτορικός φοιτητής",

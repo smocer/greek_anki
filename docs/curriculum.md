@@ -30,11 +30,13 @@ Relationship phrases practise παντρεμένος / παντρεμένη, ε�
 
 ## Grammar
 
-Six groups organise practice by skill:
+Eight groups organise practice by skill:
 
 - **Articles and gender:** twelve familiar nouns in “This is…” sentences, masculine/feminine relationship-status forms, and όλοι / όλες / όλα. Agreement follows the Greek noun, even when its Russian translation has a different gender.
 - **Noun forms and cases:** subjects, objects, possession, plurals and forms of address; names after τον / την λένε and the accusative after από / σε / με / για.
 - **Verb forms:** six persons of μένω, διαβάζω and καταλαβαίνω, alongside the distinct patterns είμαι, λέγομαι and τραγουδώ.
+- **B1 verb forms:** μιλάω and αγαπάω in all six persons, accepting contracted alternatives such as μιλώ and αγαπώ.
+- **B2 verb forms:** μπορώ in all six persons, contrasting endings such as -είς / -εί with B1 -άς / -άει. B1 and B2 here name conjugation classes, not language proficiency levels.
 - **Location and origin:** σε with articles, από, residence and addresses.
 - **Possession:** short phrases and complete sentences with μου / σου / του / της / μας / σας / τους. Distinguish the gender of the thing from the owner: Αυτή είναι η τσάντα του. Practise the additional accent in το τηλέφωνό του, το νούμερό της and η οικογένειά μου.
 - **Questions and negation:** asking for information and forming negative statements.
@@ -42,3 +44,5 @@ Six groups organise practice by skill:
 In hard mode the complete prompt is in English or Russian. Type its Greek translation, without Greek hints or blanks. Accents remain required; explanations appear after checking. Final-ν alternation is not a separate drill.
 
 Alphabet, sound and handwriting practice and grammar tables are available under **Reference**.
+
+Language practice covers asking which languages someone speaks and describing ability, from πολύ καλά to καθόλου. Nationalities share one vocabulary card for their masculine and feminine forms; language names are separate words. Country and continent names remain in **Names & places**.

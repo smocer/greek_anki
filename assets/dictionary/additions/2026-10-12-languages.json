@@ -1,0 +1,3288 @@
+{
+  "schemaVersion": 1,
+  "addedWeek": "2026-10-12",
+  "words": [
+    {
+      "id": "languages-company",
+      "collection": "words-nouns",
+      "greek": "εταιρεία",
+      "prompt": {
+        "en": "Company / business",
+        "ru": "Компания / фирма"
+      },
+      "pronunciation": {
+        "en": "e-te-RI-a",
+        "ru": "э-тэ-РИ-а"
+      },
+      "themes": [
+        "places"
+      ],
+      "labels": [
+        "noun"
+      ],
+      "explanation": {
+        "en": "Feminine.",
+        "ru": "Женский род."
+      },
+      "answerDisplay": "η εταιρεία",
+      "alternatives": [
+        "εταιρία"
+      ],
+      "acceptedAnswers": [
+        "η εταιρία"
+      ]
+    },
+    {
+      "id": "languages-school",
+      "collection": "words-nouns",
+      "greek": "σχολή",
+      "prompt": {
+        "en": "School / college (specialist training)",
+        "ru": "Учебное заведение (профессиональная подготовка)"
+      },
+      "pronunciation": {
+        "en": "sho-LI",
+        "ru": "схо-ЛИ"
+      },
+      "themes": [
+        "classroom"
+      ],
+      "labels": [
+        "noun"
+      ],
+      "explanation": {
+        "en": "A school or faculty for a particular field: σχολή πιλότων = flight school. Σχολείο is the usual word for a general school.",
+        "ru": "Σχολή — учебное заведение или факультет по определённой специальности: σχολή πιλότων — лётная школа. Обычная школа — σχολείο."
+      },
+      "answerDisplay": "η σχολή"
+    },
+    {
+      "id": "languages-bar",
+      "collection": "words-nouns",
+      "greek": "μπαρ",
+      "prompt": {
+        "en": "Bar",
+        "ru": "Бар"
+      },
+      "pronunciation": {
+        "en": "bar",
+        "ru": "бар"
+      },
+      "themes": [
+        "places"
+      ],
+      "labels": [
+        "noun"
+      ],
+      "explanation": {
+        "en": "Neuter.",
+        "ru": "Средний род."
+      },
+      "answerDisplay": "το μπαρ"
+    },
+    {
+      "id": "languages-district",
+      "collection": "words-nouns",
+      "greek": "επαρχία",
+      "prompt": {
+        "en": "Province / district",
+        "ru": "Провинция / округ"
+      },
+      "pronunciation": {
+        "en": "e-par-HI-a",
+        "ru": "э-пар-ХИ-а"
+      },
+      "themes": [
+        "places"
+      ],
+      "labels": [
+        "noun"
+      ],
+      "explanation": {
+        "en": "Feminine. An administrative district, including in Cyprus; also the provinces or countryside outside the capital. It does not mean municipality.",
+        "ru": "Женский род. Административный округ, в том числе на Кипре; также провинция, местность вне столицы. Это не муниципалитет."
+      },
+      "answerDisplay": "η επαρχία"
+    },
+    {
+      "id": "languages-department",
+      "collection": "words-nouns",
+      "greek": "τμήμα",
+      "prompt": {
+        "en": "Department / section",
+        "ru": "Отдел / подразделение"
+      },
+      "pronunciation": {
+        "en": "TMI-ma",
+        "ru": "ТМИ-ма"
+      },
+      "themes": [
+        "places"
+      ],
+      "labels": [
+        "noun"
+      ],
+      "explanation": {
+        "en": "Neuter.",
+        "ru": "Средний род."
+      },
+      "answerDisplay": "το τμήμα"
+    },
+    {
+      "id": "languages-marketing",
+      "collection": "words-nouns",
+      "greek": "μάρκετινγκ",
+      "prompt": {
+        "en": "Marketing",
+        "ru": "Маркетинг"
+      },
+      "pronunciation": {
+        "en": "MAR-ke-ting",
+        "ru": "МАР-кэ-тинг"
+      },
+      "themes": [
+        "people"
+      ],
+      "labels": [
+        "noun"
+      ],
+      "explanation": {
+        "en": "Neuter, indeclinable. This names the field, not a person working in it.",
+        "ru": "Средний род, не склоняется. Это сфера деятельности, а не «маркетолог»."
+      },
+      "answerDisplay": "το μάρκετινγκ"
+    },
+    {
+      "id": "languages-umbrella",
+      "collection": "words-nouns",
+      "greek": "ομπρέλα",
+      "prompt": {
+        "en": "Umbrella",
+        "ru": "Зонт"
+      },
+      "pronunciation": {
+        "en": "om-BRE-la",
+        "ru": "ом-БРЭ-ла"
+      },
+      "themes": [
+        "home"
+      ],
+      "labels": [
+        "noun"
+      ],
+      "explanation": {
+        "en": "Feminine.",
+        "ru": "Женский род."
+      },
+      "answerDisplay": "η ομπρέλα"
+    },
+    {
+      "id": "languages-rain",
+      "collection": "words-nouns",
+      "greek": "βροχή",
+      "prompt": {
+        "en": "Rain",
+        "ru": "Дождь"
+      },
+      "pronunciation": {
+        "en": "vro-HI",
+        "ru": "вро-ХИ"
+      },
+      "themes": [
+        "home"
+      ],
+      "labels": [
+        "noun"
+      ],
+      "explanation": {
+        "en": "Feminine.",
+        "ru": "Женский род."
+      },
+      "answerDisplay": "η βροχή"
+    },
+    {
+      "id": "languages-truth",
+      "collection": "words-nouns",
+      "greek": "αλήθεια",
+      "prompt": {
+        "en": "Truth",
+        "ru": "Правда"
+      },
+      "pronunciation": {
+        "en": "a-LI-thia",
+        "ru": "а-ЛИ-тья"
+      },
+      "themes": [
+        "conversation"
+      ],
+      "labels": [
+        "noun"
+      ],
+      "explanation": {
+        "en": "Feminine.",
+        "ru": "Женский род."
+      },
+      "answerDisplay": "η αλήθεια"
+    },
+    {
+      "id": "languages-lie",
+      "collection": "words-nouns",
+      "greek": "ψέμα",
+      "prompt": {
+        "en": "Lie (an untrue statement)",
+        "ru": "Ложь"
+      },
+      "pronunciation": {
+        "en": "PSE-ma",
+        "ru": "ПСЭ-ма"
+      },
+      "themes": [
+        "conversation"
+      ],
+      "labels": [
+        "noun"
+      ],
+      "explanation": {
+        "en": "Neuter.",
+        "ru": "Средний род."
+      },
+      "answerDisplay": "το ψέμα"
+    },
+    {
+      "id": "languages-money",
+      "collection": "words-nouns",
+      "greek": "λεφτά",
+      "prompt": {
+        "en": "Money",
+        "ru": "Деньги"
+      },
+      "pronunciation": {
+        "en": "lef-TA",
+        "ru": "лэф-ТА"
+      },
+      "themes": [
+        "home"
+      ],
+      "labels": [
+        "noun"
+      ],
+      "explanation": {
+        "en": "Neuter plural.",
+        "ru": "Средний род, множественное число."
+      },
+      "answerDisplay": "τα λεφτά"
+    },
+    {
+      "id": "languages-shame",
+      "collection": "words-nouns",
+      "greek": "ντροπή",
+      "prompt": {
+        "en": "Shame",
+        "ru": "Стыд"
+      },
+      "pronunciation": {
+        "en": "dro-PI",
+        "ru": "дро-ПИ"
+      },
+      "themes": [
+        "conversation"
+      ],
+      "labels": [
+        "noun"
+      ],
+      "explanation": {
+        "en": "Feminine.",
+        "ru": "Женский род."
+      },
+      "answerDisplay": "η ντροπή"
+    },
+    {
+      "id": "languages-park",
+      "collection": "words-nouns",
+      "greek": "πάρκο",
+      "prompt": {
+        "en": "Park",
+        "ru": "Парк"
+      },
+      "pronunciation": {
+        "en": "PAR-ko",
+        "ru": "ПАР-ко"
+      },
+      "themes": [
+        "places"
+      ],
+      "labels": [
+        "noun"
+      ],
+      "explanation": {
+        "en": "Neuter.",
+        "ru": "Средний род."
+      },
+      "answerDisplay": "το πάρκο"
+    },
+    {
+      "id": "languages-language",
+      "collection": "words-nouns",
+      "greek": "γλώσσα",
+      "prompt": {
+        "en": "Language / tongue",
+        "ru": "Язык"
+      },
+      "pronunciation": {
+        "en": "GHLO-sa",
+        "ru": "ГЛО-са"
+      },
+      "themes": [
+        "classroom"
+      ],
+      "labels": [
+        "noun"
+      ],
+      "explanation": {
+        "en": "Feminine.",
+        "ru": "Женский род."
+      },
+      "answerDisplay": "η γλώσσα"
+    },
+    {
+      "id": "languages-question",
+      "collection": "words-nouns",
+      "greek": "ερώτηση",
+      "prompt": {
+        "en": "Question",
+        "ru": "Вопрос"
+      },
+      "pronunciation": {
+        "en": "e-RO-ti-si",
+        "ru": "э-РО-ти-си"
+      },
+      "themes": [
+        "classroom"
+      ],
+      "labels": [
+        "noun"
+      ],
+      "explanation": {
+        "en": "Feminine.",
+        "ru": "Женский род."
+      },
+      "answerDisplay": "η ερώτηση"
+    },
+    {
+      "id": "languages-answer",
+      "collection": "words-nouns",
+      "greek": "απάντηση",
+      "prompt": {
+        "en": "Answer",
+        "ru": "Ответ"
+      },
+      "pronunciation": {
+        "en": "a-PAN-di-si",
+        "ru": "а-ПАН-ди-си"
+      },
+      "themes": [
+        "classroom"
+      ],
+      "labels": [
+        "noun"
+      ],
+      "explanation": {
+        "en": "Feminine.",
+        "ru": "Женский род."
+      },
+      "answerDisplay": "η απάντηση"
+    },
+    {
+      "id": "languages-freelancer",
+      "collection": "words-nouns",
+      "greek": "ελεύθερος επαγγελματίας",
+      "prompt": {
+        "en": "Freelancer / independent professional",
+        "ru": "Фрилансер / специалист, работающий на себя"
+      },
+      "pronunciation": {
+        "en": "e-LEF-the-ros e-pang-ghel-ma-TI-as / e-LEF-the-ri e-pang-ghel-ma-TI-as",
+        "ru": "э-ЛЭФ-тэ-рос э-панг-гель-ма-ТИ-ас / э-ЛЭФ-тэ-ри э-панг-гель-ма-ТИ-ас"
+      },
+      "themes": [
+        "people"
+      ],
+      "labels": [
+        "noun"
+      ],
+      "explanation": {
+        "en": "Either gender form is accepted in word practice. The article shows the gender.",
+        "ru": "В тренировке слов принимается форма любого рода. Артикль показывает род."
+      },
+      "wordGroup": "freelancer",
+      "forms": [
+        {
+          "greek": "ελεύθερος επαγγελματίας",
+          "answerDisplay": "ο ελεύθερος επαγγελματίας",
+          "pronunciation": {
+            "en": "e-LEF-the-ros e-pang-ghel-ma-TI-as",
+            "ru": "э-ЛЭФ-тэ-рос э-панг-гель-ма-ТИ-ас"
+          }
+        },
+        {
+          "greek": "ελεύθερη επαγγελματίας",
+          "answerDisplay": "η ελεύθερη επαγγελματίας",
+          "pronunciation": {
+            "en": "e-LEF-the-ri e-pang-ghel-ma-TI-as",
+            "ru": "э-ЛЭФ-тэ-ри э-панг-гель-ма-ТИ-ас"
+          }
+        }
+      ],
+      "answerDisplay": "ο ελεύθερος επαγγελματίας / η ελεύθερη επαγγελματίας",
+      "alternatives": [
+        "ελεύθερη επαγγελματίας"
+      ],
+      "acceptedAnswers": [
+        "ο ελεύθερος επαγγελματίας",
+        "η ελεύθερη επαγγελματίας"
+      ]
+    },
+    {
+      "id": "languages-self-employed",
+      "collection": "words-descriptions",
+      "greek": "αυτοεργοδοτούμενος",
+      "prompt": {
+        "en": "Self-employed (Cypriot usage)",
+        "ru": "Работающий на себя (на Кипре)"
+      },
+      "pronunciation": {
+        "en": "af-to-er-gho-dho-TU-me-nos / af-to-er-gho-dho-TU-me-ni",
+        "ru": "аф-то-эр-го-до-ТУ-мэ-нос / аф-то-эр-го-до-ТУ-мэ-ни"
+      },
+      "themes": [
+        "people"
+      ],
+      "labels": [
+        "adjective"
+      ],
+      "explanation": {
+        "en": "Used in Cyprus for someone who works for themselves. Masculine -ος, feminine -η.",
+        "ru": "На Кипре так называют того, кто работает на себя. Мужской род на -ος, женский на -η."
+      },
+      "wordGroup": "self-employed",
+      "forms": [
+        {
+          "greek": "αυτοεργοδοτούμενος",
+          "answerDisplay": "αυτοεργοδοτούμενος",
+          "pronunciation": {
+            "en": "af-to-er-gho-dho-TU-me-nos",
+            "ru": "аф-то-эр-го-до-ТУ-мэ-нос"
+          }
+        },
+        {
+          "greek": "αυτοεργοδοτούμενη",
+          "answerDisplay": "αυτοεργοδοτούμενη",
+          "pronunciation": {
+            "en": "af-to-er-gho-dho-TU-me-ni",
+            "ru": "аф-то-эр-го-до-ТУ-мэ-ни"
+          }
+        }
+      ],
+      "answerDisplay": "αυτοεργοδοτούμενος / αυτοεργοδοτούμενη",
+      "alternatives": [
+        "αυτοεργοδοτούμενη"
+      ],
+      "acceptedAnswers": [
+        "αυτοεργοδοτούμενος",
+        "αυτοεργοδοτούμενη"
+      ]
+    },
+    {
+      "id": "languages-veterinarian",
+      "collection": "words-nouns",
+      "greek": "κτηνίατρος",
+      "prompt": {
+        "en": "Veterinarian / vet",
+        "ru": "Ветеринар"
+      },
+      "pronunciation": {
+        "en": "kti-NI-a-tros / kti-NI-a-tros",
+        "ru": "кти-НИ-а-трос / кти-НИ-а-трос"
+      },
+      "themes": [
+        "people"
+      ],
+      "labels": [
+        "noun"
+      ],
+      "explanation": {
+        "en": "The same noun is used for a man or a woman; only ο / η changes.",
+        "ru": "Само слово одинаково для мужчины и женщины; меняется только артикль ο / η."
+      },
+      "wordGroup": "veterinarian",
+      "forms": [
+        {
+          "greek": "κτηνίατρος",
+          "answerDisplay": "ο κτηνίατρος",
+          "pronunciation": {
+            "en": "kti-NI-a-tros",
+            "ru": "кти-НИ-а-трос"
+          }
+        },
+        {
+          "greek": "κτηνίατρος",
+          "answerDisplay": "η κτηνίατρος",
+          "pronunciation": {
+            "en": "kti-NI-a-tros",
+            "ru": "кти-НИ-а-трос"
+          }
+        }
+      ],
+      "answerDisplay": "ο κτηνίατρος / η κτηνίατρος",
+      "alternatives": [],
+      "acceptedAnswers": [
+        "ο κτηνίατρος",
+        "η κτηνίατρος"
+      ]
+    },
+    {
+      "id": "languages-carpenter",
+      "collection": "words-nouns",
+      "greek": "ξυλουργός",
+      "prompt": {
+        "en": "Carpenter",
+        "ru": "Столяр / плотник"
+      },
+      "pronunciation": {
+        "en": "ksi-lur-GHOS / ksi-lur-GHOS",
+        "ru": "кси-лур-ГОС / кси-лур-ГОС"
+      },
+      "themes": [
+        "people"
+      ],
+      "labels": [
+        "noun"
+      ],
+      "explanation": {
+        "en": "The same noun is used for a man or a woman; only ο / η changes.",
+        "ru": "Само слово одинаково для мужчины и женщины; меняется только артикль ο / η."
+      },
+      "wordGroup": "carpenter",
+      "forms": [
+        {
+          "greek": "ξυλουργός",
+          "answerDisplay": "ο ξυλουργός",
+          "pronunciation": {
+            "en": "ksi-lur-GHOS",
+            "ru": "кси-лур-ГОС"
+          }
+        },
+        {
+          "greek": "ξυλουργός",
+          "answerDisplay": "η ξυλουργός",
+          "pronunciation": {
+            "en": "ksi-lur-GHOS",
+            "ru": "кси-лур-ГОС"
+          }
+        }
+      ],
+      "answerDisplay": "ο ξυλουργός / η ξυλουργός",
+      "alternatives": [],
+      "acceptedAnswers": [
+        "ο ξυλουργός",
+        "η ξυλουργός"
+      ]
+    },
+    {
+      "id": "languages-fitness-trainer",
+      "collection": "words-nouns",
+      "greek": "γυμναστής",
+      "prompt": {
+        "en": "Fitness trainer / PE teacher",
+        "ru": "Фитнес-тренер / преподаватель физкультуры"
+      },
+      "pronunciation": {
+        "en": "yim-na-STIS / yim-NA-stria",
+        "ru": "йим-на-СТИС / йим-НА-стри-а"
+      },
+      "themes": [
+        "people"
+      ],
+      "labels": [
+        "noun"
+      ],
+      "explanation": {
+        "en": "Either gender form is accepted in word practice. The article shows the gender.",
+        "ru": "В тренировке слов принимается форма любого рода. Артикль показывает род."
+      },
+      "wordGroup": "fitness-trainer",
+      "forms": [
+        {
+          "greek": "γυμναστής",
+          "answerDisplay": "ο γυμναστής",
+          "pronunciation": {
+            "en": "yim-na-STIS",
+            "ru": "йим-на-СТИС"
+          }
+        },
+        {
+          "greek": "γυμνάστρια",
+          "answerDisplay": "η γυμνάστρια",
+          "pronunciation": {
+            "en": "yim-NA-stria",
+            "ru": "йим-НА-стри-а"
+          }
+        }
+      ],
+      "answerDisplay": "ο γυμναστής / η γυμνάστρια",
+      "alternatives": [
+        "γυμνάστρια"
+      ],
+      "acceptedAnswers": [
+        "ο γυμναστής",
+        "η γυμνάστρια"
+      ]
+    },
+    {
+      "id": "languages-wet",
+      "collection": "words-descriptions",
+      "greek": "βρεγμένος",
+      "prompt": {
+        "en": "Wet",
+        "ru": "Мокрый"
+      },
+      "pronunciation": {
+        "en": "vre-GHME-nos / vre-GHME-ni / vre-GHME-no",
+        "ru": "врэ-ГМЭ-нос / врэ-ГМЭ-ни / врэ-ГМЭ-но"
+      },
+      "themes": [
+        "home"
+      ],
+      "labels": [
+        "adjective"
+      ],
+      "explanation": {
+        "en": "Masculine βρεγμένος, feminine βρεγμένη, neuter βρεγμένο. Είμαι βρεγμένος = I am wet (a man speaking).",
+        "ru": "Мужской род — βρεγμένος, женский — βρεγμένη, средний — βρεγμένο. Είμαι βρεγμένος — «я мокрый»."
+      },
+      "wordGroup": "wet",
+      "forms": [
+        {
+          "greek": "βρεγμένος",
+          "answerDisplay": "βρεγμένος",
+          "pronunciation": {
+            "en": "vre-GHME-nos",
+            "ru": "врэ-ГМЭ-нос"
+          }
+        },
+        {
+          "greek": "βρεγμένη",
+          "answerDisplay": "βρεγμένη",
+          "pronunciation": {
+            "en": "vre-GHME-ni",
+            "ru": "врэ-ГМЭ-ни"
+          }
+        },
+        {
+          "greek": "βρεγμένο",
+          "answerDisplay": "βρεγμένο",
+          "pronunciation": {
+            "en": "vre-GHME-no",
+            "ru": "врэ-ГМЭ-но"
+          }
+        }
+      ],
+      "answerDisplay": "βρεγμένος / βρεγμένη / βρεγμένο",
+      "alternatives": [
+        "βρεγμένη",
+        "βρεγμένο"
+      ],
+      "acceptedAnswers": [
+        "βρεγμένος",
+        "βρεγμένη",
+        "βρεγμένο"
+      ]
+    },
+    {
+      "id": "languages-nationality-greek",
+      "collection": "words-nouns",
+      "greek": "Έλληνας",
+      "prompt": {
+        "en": "Greek (person)",
+        "ru": "Грек / гречанка"
+      },
+      "pronunciation": {
+        "en": "E-li-nas / e-li-NI-dha",
+        "ru": "Э-ли-нас / э-ли-НИ-да"
+      },
+      "themes": [
+        "people"
+      ],
+      "labels": [
+        "noun"
+      ],
+      "explanation": {
+        "en": "A person’s nationality, not the language. Masculine and feminine forms share this card; either is accepted. Nationalities start with a capital letter.",
+        "ru": "Национальность человека, а не название языка. Формы мужского и женского рода собраны в одной карточке; принимается любая. Национальности пишутся с заглавной буквы."
+      },
+      "wordGroup": "nationality-greek",
+      "forms": [
+        {
+          "greek": "Έλληνας",
+          "answerDisplay": "ο Έλληνας",
+          "pronunciation": {
+            "en": "E-li-nas",
+            "ru": "Э-ли-нас"
+          }
+        },
+        {
+          "greek": "Ελληνίδα",
+          "answerDisplay": "η Ελληνίδα",
+          "pronunciation": {
+            "en": "e-li-NI-dha",
+            "ru": "э-ли-НИ-да"
+          }
+        }
+      ],
+      "answerDisplay": "ο Έλληνας / η Ελληνίδα",
+      "alternatives": [
+        "Ελληνίδα"
+      ],
+      "acceptedAnswers": [
+        "ο Έλληνας",
+        "η Ελληνίδα"
+      ]
+    },
+    {
+      "id": "languages-nationality-spanish",
+      "collection": "words-nouns",
+      "greek": "Ισπανός",
+      "prompt": {
+        "en": "Spaniard",
+        "ru": "Испанец / испанка"
+      },
+      "pronunciation": {
+        "en": "i-spa-NOS / i-spa-NI-dha",
+        "ru": "и-спа-НОС / и-спа-НИ-да"
+      },
+      "themes": [
+        "people"
+      ],
+      "labels": [
+        "noun"
+      ],
+      "explanation": {
+        "en": "A person’s nationality, not the language. Masculine and feminine forms share this card; either is accepted. Nationalities start with a capital letter.",
+        "ru": "Национальность человека, а не название языка. Формы мужского и женского рода собраны в одной карточке; принимается любая. Национальности пишутся с заглавной буквы."
+      },
+      "wordGroup": "nationality-spanish",
+      "forms": [
+        {
+          "greek": "Ισπανός",
+          "answerDisplay": "ο Ισπανός",
+          "pronunciation": {
+            "en": "i-spa-NOS",
+            "ru": "и-спа-НОС"
+          }
+        },
+        {
+          "greek": "Ισπανίδα",
+          "answerDisplay": "η Ισπανίδα",
+          "pronunciation": {
+            "en": "i-spa-NI-dha",
+            "ru": "и-спа-НИ-да"
+          }
+        }
+      ],
+      "answerDisplay": "ο Ισπανός / η Ισπανίδα",
+      "alternatives": [
+        "Ισπανίδα"
+      ],
+      "acceptedAnswers": [
+        "ο Ισπανός",
+        "η Ισπανίδα"
+      ]
+    },
+    {
+      "id": "languages-nationality-russian",
+      "collection": "words-nouns",
+      "greek": "Ρώσος",
+      "prompt": {
+        "en": "Russian (person)",
+        "ru": "Русский / русская"
+      },
+      "pronunciation": {
+        "en": "RO-sos / ro-SI-dha",
+        "ru": "РО-сос / ро-СИ-да"
+      },
+      "themes": [
+        "people"
+      ],
+      "labels": [
+        "noun"
+      ],
+      "explanation": {
+        "en": "A person’s nationality, not the language. Masculine and feminine forms share this card; either is accepted. Nationalities start with a capital letter.",
+        "ru": "Национальность человека, а не название языка. Формы мужского и женского рода собраны в одной карточке; принимается любая. Национальности пишутся с заглавной буквы."
+      },
+      "wordGroup": "nationality-russian",
+      "forms": [
+        {
+          "greek": "Ρώσος",
+          "answerDisplay": "ο Ρώσος",
+          "pronunciation": {
+            "en": "RO-sos",
+            "ru": "РО-сос"
+          }
+        },
+        {
+          "greek": "Ρωσίδα",
+          "answerDisplay": "η Ρωσίδα",
+          "pronunciation": {
+            "en": "ro-SI-dha",
+            "ru": "ро-СИ-да"
+          }
+        }
+      ],
+      "answerDisplay": "ο Ρώσος / η Ρωσίδα",
+      "alternatives": [
+        "Ρωσίδα"
+      ],
+      "acceptedAnswers": [
+        "ο Ρώσος",
+        "η Ρωσίδα"
+      ]
+    },
+    {
+      "id": "languages-nationality-swiss",
+      "collection": "words-nouns",
+      "greek": "Ελβετός",
+      "prompt": {
+        "en": "Swiss (person)",
+        "ru": "Швейцарец / швейцарка"
+      },
+      "pronunciation": {
+        "en": "el-ve-TOS / el-ve-TI-dha",
+        "ru": "эль-вэ-ТОС / эль-вэ-ТИ-да"
+      },
+      "themes": [
+        "people"
+      ],
+      "labels": [
+        "noun"
+      ],
+      "explanation": {
+        "en": "A person’s nationality, not the language. Masculine and feminine forms share this card; either is accepted. Nationalities start with a capital letter.",
+        "ru": "Национальность человека, а не название языка. Формы мужского и женского рода собраны в одной карточке; принимается любая. Национальности пишутся с заглавной буквы."
+      },
+      "wordGroup": "nationality-swiss",
+      "forms": [
+        {
+          "greek": "Ελβετός",
+          "answerDisplay": "ο Ελβετός",
+          "pronunciation": {
+            "en": "el-ve-TOS",
+            "ru": "эль-вэ-ТОС"
+          }
+        },
+        {
+          "greek": "Ελβετίδα",
+          "answerDisplay": "η Ελβετίδα",
+          "pronunciation": {
+            "en": "el-ve-TI-dha",
+            "ru": "эль-вэ-ТИ-да"
+          }
+        }
+      ],
+      "answerDisplay": "ο Ελβετός / η Ελβετίδα",
+      "alternatives": [
+        "Ελβετίδα"
+      ],
+      "acceptedAnswers": [
+        "ο Ελβετός",
+        "η Ελβετίδα"
+      ]
+    },
+    {
+      "id": "languages-nationality-australian",
+      "collection": "words-nouns",
+      "greek": "Αυστραλός",
+      "prompt": {
+        "en": "Australian (person)",
+        "ru": "Австралиец / австралийка"
+      },
+      "pronunciation": {
+        "en": "af-stra-LOS / af-stra-LE-za",
+        "ru": "аф-стра-ЛОС / аф-стра-ЛЭ-за"
+      },
+      "themes": [
+        "people"
+      ],
+      "labels": [
+        "noun"
+      ],
+      "explanation": {
+        "en": "A person’s nationality, not the language. Masculine and feminine forms share this card; either is accepted. Nationalities start with a capital letter.",
+        "ru": "Национальность человека, а не название языка. Формы мужского и женского рода собраны в одной карточке; принимается любая. Национальности пишутся с заглавной буквы."
+      },
+      "wordGroup": "nationality-australian",
+      "forms": [
+        {
+          "greek": "Αυστραλός",
+          "answerDisplay": "ο Αυστραλός",
+          "pronunciation": {
+            "en": "af-stra-LOS",
+            "ru": "аф-стра-ЛОС"
+          }
+        },
+        {
+          "greek": "Αυστραλέζα",
+          "answerDisplay": "η Αυστραλέζα",
+          "pronunciation": {
+            "en": "af-stra-LE-za",
+            "ru": "аф-стра-ЛЭ-за"
+          }
+        }
+      ],
+      "answerDisplay": "ο Αυστραλός / η Αυστραλέζα",
+      "alternatives": [
+        "Αυστραλέζα"
+      ],
+      "acceptedAnswers": [
+        "ο Αυστραλός",
+        "η Αυστραλέζα"
+      ]
+    },
+    {
+      "id": "languages-nationality-polish",
+      "collection": "words-nouns",
+      "greek": "Πολωνός",
+      "prompt": {
+        "en": "Pole (person)",
+        "ru": "Поляк / полька"
+      },
+      "pronunciation": {
+        "en": "po-lo-NOS / po-lo-NI / po-lo-NE-za",
+        "ru": "по-ло-НОС / по-ло-НИ / по-ло-НЭ-за"
+      },
+      "themes": [
+        "people"
+      ],
+      "labels": [
+        "noun"
+      ],
+      "explanation": {
+        "en": "A person’s nationality, not the language. Masculine and feminine forms share this card; either is accepted. Nationalities start with a capital letter.",
+        "ru": "Национальность человека, а не название языка. Формы мужского и женского рода собраны в одной карточке; принимается любая. Национальности пишутся с заглавной буквы."
+      },
+      "wordGroup": "nationality-polish",
+      "forms": [
+        {
+          "greek": "Πολωνός",
+          "answerDisplay": "ο Πολωνός",
+          "pronunciation": {
+            "en": "po-lo-NOS",
+            "ru": "по-ло-НОС"
+          }
+        },
+        {
+          "greek": "Πολωνή",
+          "answerDisplay": "η Πολωνή",
+          "pronunciation": {
+            "en": "po-lo-NI",
+            "ru": "по-ло-НИ"
+          }
+        },
+        {
+          "greek": "Πολωνέζα",
+          "answerDisplay": "η Πολωνέζα",
+          "pronunciation": {
+            "en": "po-lo-NE-za",
+            "ru": "по-ло-НЭ-за"
+          }
+        }
+      ],
+      "answerDisplay": "ο Πολωνός / η Πολωνή / η Πολωνέζα",
+      "alternatives": [
+        "Πολωνή",
+        "Πολωνέζα"
+      ],
+      "acceptedAnswers": [
+        "ο Πολωνός",
+        "η Πολωνή",
+        "η Πολωνέζα"
+      ]
+    },
+    {
+      "id": "languages-nationality-swedish",
+      "collection": "words-nouns",
+      "greek": "Σουηδός",
+      "prompt": {
+        "en": "Swede",
+        "ru": "Швед / шведка"
+      },
+      "pronunciation": {
+        "en": "su-i-DHOS / su-i-DHE-za",
+        "ru": "су-и-ДОС / су-и-ДЭ-за"
+      },
+      "themes": [
+        "people"
+      ],
+      "labels": [
+        "noun"
+      ],
+      "explanation": {
+        "en": "A person’s nationality, not the language. Masculine and feminine forms share this card; either is accepted. Nationalities start with a capital letter.",
+        "ru": "Национальность человека, а не название языка. Формы мужского и женского рода собраны в одной карточке; принимается любая. Национальности пишутся с заглавной буквы."
+      },
+      "wordGroup": "nationality-swedish",
+      "forms": [
+        {
+          "greek": "Σουηδός",
+          "answerDisplay": "ο Σουηδός",
+          "pronunciation": {
+            "en": "su-i-DHOS",
+            "ru": "су-и-ДОС"
+          }
+        },
+        {
+          "greek": "Σουηδέζα",
+          "answerDisplay": "η Σουηδέζα",
+          "pronunciation": {
+            "en": "su-i-DHE-za",
+            "ru": "су-и-ДЭ-за"
+          }
+        }
+      ],
+      "answerDisplay": "ο Σουηδός / η Σουηδέζα",
+      "alternatives": [
+        "Σουηδέζα"
+      ],
+      "acceptedAnswers": [
+        "ο Σουηδός",
+        "η Σουηδέζα"
+      ]
+    },
+    {
+      "id": "languages-nationality-chinese",
+      "collection": "words-nouns",
+      "greek": "Κινέζος",
+      "prompt": {
+        "en": "Chinese (person)",
+        "ru": "Китаец / китаянка"
+      },
+      "pronunciation": {
+        "en": "ki-NE-zos / ki-NE-za",
+        "ru": "ки-НЭ-зос / ки-НЭ-за"
+      },
+      "themes": [
+        "people"
+      ],
+      "labels": [
+        "noun"
+      ],
+      "explanation": {
+        "en": "A person’s nationality, not the language. Masculine and feminine forms share this card; either is accepted. Nationalities start with a capital letter.",
+        "ru": "Национальность человека, а не название языка. Формы мужского и женского рода собраны в одной карточке; принимается любая. Национальности пишутся с заглавной буквы."
+      },
+      "wordGroup": "nationality-chinese",
+      "forms": [
+        {
+          "greek": "Κινέζος",
+          "answerDisplay": "ο Κινέζος",
+          "pronunciation": {
+            "en": "ki-NE-zos",
+            "ru": "ки-НЭ-зос"
+          }
+        },
+        {
+          "greek": "Κινέζα",
+          "answerDisplay": "η Κινέζα",
+          "pronunciation": {
+            "en": "ki-NE-za",
+            "ru": "ки-НЭ-за"
+          }
+        }
+      ],
+      "answerDisplay": "ο Κινέζος / η Κινέζα",
+      "alternatives": [
+        "Κινέζα"
+      ],
+      "acceptedAnswers": [
+        "ο Κινέζος",
+        "η Κινέζα"
+      ]
+    },
+    {
+      "id": "languages-nationality-japanese",
+      "collection": "words-nouns",
+      "greek": "Γιαπωνέζος",
+      "prompt": {
+        "en": "Japanese (person)",
+        "ru": "Японец / японка"
+      },
+      "pronunciation": {
+        "en": "ya-po-NE-zos / ya-po-NE-za / I-a-po-nas",
+        "ru": "я-по-НЭ-зос / я-по-НЭ-за / И-а-по-нас"
+      },
+      "themes": [
+        "people"
+      ],
+      "labels": [
+        "noun"
+      ],
+      "explanation": {
+        "en": "A person’s nationality, not the language. Masculine and feminine forms share this card; either is accepted. Nationalities start with a capital letter.",
+        "ru": "Национальность человека, а не название языка. Формы мужского и женского рода собраны в одной карточке; принимается любая. Национальности пишутся с заглавной буквы."
+      },
+      "wordGroup": "nationality-japanese",
+      "forms": [
+        {
+          "greek": "Γιαπωνέζος",
+          "answerDisplay": "ο Γιαπωνέζος",
+          "pronunciation": {
+            "en": "ya-po-NE-zos",
+            "ru": "я-по-НЭ-зос"
+          }
+        },
+        {
+          "greek": "Γιαπωνέζα",
+          "answerDisplay": "η Γιαπωνέζα",
+          "pronunciation": {
+            "en": "ya-po-NE-za",
+            "ru": "я-по-НЭ-за"
+          }
+        },
+        {
+          "greek": "Ιάπωνας",
+          "answerDisplay": "ο Ιάπωνας",
+          "pronunciation": {
+            "en": "I-a-po-nas",
+            "ru": "И-а-по-нас"
+          }
+        }
+      ],
+      "answerDisplay": "ο Γιαπωνέζος / η Γιαπωνέζα / ο Ιάπωνας",
+      "alternatives": [
+        "Γιαπωνέζα",
+        "Ιάπωνας"
+      ],
+      "acceptedAnswers": [
+        "ο Γιαπωνέζος",
+        "η Γιαπωνέζα",
+        "ο Ιάπωνας"
+      ]
+    },
+    {
+      "id": "languages-nationality-albanian",
+      "collection": "words-nouns",
+      "greek": "Αλβανός",
+      "prompt": {
+        "en": "Albanian (person)",
+        "ru": "Албанец / албанка"
+      },
+      "pronunciation": {
+        "en": "al-va-NOS / al-va-NI / al-va-NI-dha",
+        "ru": "аль-ва-НОС / аль-ва-НИ / аль-ва-НИ-да"
+      },
+      "themes": [
+        "people"
+      ],
+      "labels": [
+        "noun"
+      ],
+      "explanation": {
+        "en": "A person’s nationality, not the language. Masculine and feminine forms share this card; either is accepted. Nationalities start with a capital letter.",
+        "ru": "Национальность человека, а не название языка. Формы мужского и женского рода собраны в одной карточке; принимается любая. Национальности пишутся с заглавной буквы."
+      },
+      "wordGroup": "nationality-albanian",
+      "forms": [
+        {
+          "greek": "Αλβανός",
+          "answerDisplay": "ο Αλβανός",
+          "pronunciation": {
+            "en": "al-va-NOS",
+            "ru": "аль-ва-НОС"
+          }
+        },
+        {
+          "greek": "Αλβανή",
+          "answerDisplay": "η Αλβανή",
+          "pronunciation": {
+            "en": "al-va-NI",
+            "ru": "аль-ва-НИ"
+          }
+        },
+        {
+          "greek": "Αλβανίδα",
+          "answerDisplay": "η Αλβανίδα",
+          "pronunciation": {
+            "en": "al-va-NI-dha",
+            "ru": "аль-ва-НИ-да"
+          }
+        }
+      ],
+      "answerDisplay": "ο Αλβανός / η Αλβανή / η Αλβανίδα",
+      "alternatives": [
+        "Αλβανή",
+        "Αλβανίδα"
+      ],
+      "acceptedAnswers": [
+        "ο Αλβανός",
+        "η Αλβανή",
+        "η Αλβανίδα"
+      ]
+    },
+    {
+      "id": "languages-nationality-ukrainian",
+      "collection": "words-nouns",
+      "greek": "Ουκρανός",
+      "prompt": {
+        "en": "Ukrainian (person)",
+        "ru": "Украинец / украинка"
+      },
+      "pronunciation": {
+        "en": "u-kra-NOS / u-kra-NI",
+        "ru": "у-кра-НОС / у-кра-НИ"
+      },
+      "themes": [
+        "people"
+      ],
+      "labels": [
+        "noun"
+      ],
+      "explanation": {
+        "en": "A person’s nationality, not the language. Masculine and feminine forms share this card; either is accepted. Nationalities start with a capital letter.",
+        "ru": "Национальность человека, а не название языка. Формы мужского и женского рода собраны в одной карточке; принимается любая. Национальности пишутся с заглавной буквы."
+      },
+      "wordGroup": "nationality-ukrainian",
+      "forms": [
+        {
+          "greek": "Ουκρανός",
+          "answerDisplay": "ο Ουκρανός",
+          "pronunciation": {
+            "en": "u-kra-NOS",
+            "ru": "у-кра-НОС"
+          }
+        },
+        {
+          "greek": "Ουκρανή",
+          "answerDisplay": "η Ουκρανή",
+          "pronunciation": {
+            "en": "u-kra-NI",
+            "ru": "у-кра-НИ"
+          }
+        }
+      ],
+      "answerDisplay": "ο Ουκρανός / η Ουκρανή",
+      "alternatives": [
+        "Ουκρανή"
+      ],
+      "acceptedAnswers": [
+        "ο Ουκρανός",
+        "η Ουκρανή"
+      ]
+    },
+    {
+      "id": "languages-nationality-iraqi",
+      "collection": "words-nouns",
+      "greek": "Ιρακινός",
+      "prompt": {
+        "en": "Iraqi (person)",
+        "ru": "Иракец"
+      },
+      "pronunciation": {
+        "en": "i-ra-ki-NOS / i-ra-ki-NI",
+        "ru": "и-ра-ки-НОС / и-ра-ки-НИ"
+      },
+      "themes": [
+        "people"
+      ],
+      "labels": [
+        "noun"
+      ],
+      "explanation": {
+        "en": "A person’s nationality, not the language. Masculine and feminine forms share this card; either is accepted. Nationalities start with a capital letter.",
+        "ru": "Национальность человека, а не название языка. Формы мужского и женского рода собраны в одной карточке; принимается любая. Национальности пишутся с заглавной буквы."
+      },
+      "wordGroup": "nationality-iraqi",
+      "forms": [
+        {
+          "greek": "Ιρακινός",
+          "answerDisplay": "ο Ιρακινός",
+          "pronunciation": {
+            "en": "i-ra-ki-NOS",
+            "ru": "и-ра-ки-НОС"
+          }
+        },
+        {
+          "greek": "Ιρακινή",
+          "answerDisplay": "η Ιρακινή",
+          "pronunciation": {
+            "en": "i-ra-ki-NI",
+            "ru": "и-ра-ки-НИ"
+          }
+        }
+      ],
+      "answerDisplay": "ο Ιρακινός / η Ιρακινή",
+      "alternatives": [
+        "Ιρακινή"
+      ],
+      "acceptedAnswers": [
+        "ο Ιρακινός",
+        "η Ιρακινή"
+      ]
+    },
+    {
+      "id": "languages-nationality-egyptian",
+      "collection": "words-nouns",
+      "greek": "Αιγύπτιος",
+      "prompt": {
+        "en": "Egyptian (person)",
+        "ru": "Египтянин / египтянка"
+      },
+      "pronunciation": {
+        "en": "e-YIP-ti-os / e-YIP-tia",
+        "ru": "э-ЙИП-ти-ос / э-ЙИП-тья"
+      },
+      "themes": [
+        "people"
+      ],
+      "labels": [
+        "noun"
+      ],
+      "explanation": {
+        "en": "A person’s nationality, not the language. Masculine and feminine forms share this card; either is accepted. Nationalities start with a capital letter.",
+        "ru": "Национальность человека, а не название языка. Формы мужского и женского рода собраны в одной карточке; принимается любая. Национальности пишутся с заглавной буквы."
+      },
+      "wordGroup": "nationality-egyptian",
+      "forms": [
+        {
+          "greek": "Αιγύπτιος",
+          "answerDisplay": "ο Αιγύπτιος",
+          "pronunciation": {
+            "en": "e-YIP-ti-os",
+            "ru": "э-ЙИП-ти-ос"
+          }
+        },
+        {
+          "greek": "Αιγύπτια",
+          "answerDisplay": "η Αιγύπτια",
+          "pronunciation": {
+            "en": "e-YIP-tia",
+            "ru": "э-ЙИП-тья"
+          }
+        }
+      ],
+      "answerDisplay": "ο Αιγύπτιος / η Αιγύπτια",
+      "alternatives": [
+        "Αιγύπτια"
+      ],
+      "acceptedAnswers": [
+        "ο Αιγύπτιος",
+        "η Αιγύπτια"
+      ]
+    },
+    {
+      "id": "languages-nationality-bulgarian",
+      "collection": "words-nouns",
+      "greek": "Βούλγαρος",
+      "prompt": {
+        "en": "Bulgarian (person)",
+        "ru": "Болгарин / болгарка"
+      },
+      "pronunciation": {
+        "en": "VUL-gha-ros / vul-GHA-ra",
+        "ru": "ВУЛ-га-рос / вул-ГА-ра"
+      },
+      "themes": [
+        "people"
+      ],
+      "labels": [
+        "noun"
+      ],
+      "explanation": {
+        "en": "A person’s nationality, not the language. Masculine and feminine forms share this card; either is accepted. Nationalities start with a capital letter.",
+        "ru": "Национальность человека, а не название языка. Формы мужского и женского рода собраны в одной карточке; принимается любая. Национальности пишутся с заглавной буквы."
+      },
+      "wordGroup": "nationality-bulgarian",
+      "forms": [
+        {
+          "greek": "Βούλγαρος",
+          "answerDisplay": "ο Βούλγαρος",
+          "pronunciation": {
+            "en": "VUL-gha-ros",
+            "ru": "ВУЛ-га-рос"
+          }
+        },
+        {
+          "greek": "Βουλγάρα",
+          "answerDisplay": "η Βουλγάρα",
+          "pronunciation": {
+            "en": "vul-GHA-ra",
+            "ru": "вул-ГА-ра"
+          }
+        }
+      ],
+      "answerDisplay": "ο Βούλγαρος / η Βουλγάρα",
+      "alternatives": [
+        "Βουλγάρα"
+      ],
+      "acceptedAnswers": [
+        "ο Βούλγαρος",
+        "η Βουλγάρα"
+      ]
+    },
+    {
+      "id": "languages-nationality-turkish",
+      "collection": "words-nouns",
+      "greek": "Τούρκος",
+      "prompt": {
+        "en": "Turk (person)",
+        "ru": "Турок / турчанка"
+      },
+      "pronunciation": {
+        "en": "TUR-kos / tur-KA-la",
+        "ru": "ТУР-кос / тур-КА-ла"
+      },
+      "themes": [
+        "people"
+      ],
+      "labels": [
+        "noun"
+      ],
+      "explanation": {
+        "en": "A person’s nationality, not the language. Masculine and feminine forms share this card; either is accepted. Nationalities start with a capital letter.",
+        "ru": "Национальность человека, а не название языка. Формы мужского и женского рода собраны в одной карточке; принимается любая. Национальности пишутся с заглавной буквы."
+      },
+      "wordGroup": "nationality-turkish",
+      "forms": [
+        {
+          "greek": "Τούρκος",
+          "answerDisplay": "ο Τούρκος",
+          "pronunciation": {
+            "en": "TUR-kos",
+            "ru": "ТУР-кос"
+          }
+        },
+        {
+          "greek": "Τουρκάλα",
+          "answerDisplay": "η Τουρκάλα",
+          "pronunciation": {
+            "en": "tur-KA-la",
+            "ru": "тур-КА-ла"
+          }
+        }
+      ],
+      "answerDisplay": "ο Τούρκος / η Τουρκάλα",
+      "alternatives": [
+        "Τουρκάλα"
+      ],
+      "acceptedAnswers": [
+        "ο Τούρκος",
+        "η Τουρκάλα"
+      ]
+    },
+    {
+      "id": "languages-nationality-italian",
+      "collection": "words-nouns",
+      "greek": "Ιταλός",
+      "prompt": {
+        "en": "Italian (person)",
+        "ru": "Итальянец / итальянка"
+      },
+      "pronunciation": {
+        "en": "i-ta-LOS / i-ta-LI-dha",
+        "ru": "и-та-ЛОС / и-та-ЛИ-да"
+      },
+      "themes": [
+        "people"
+      ],
+      "labels": [
+        "noun"
+      ],
+      "explanation": {
+        "en": "A person’s nationality, not the language. Masculine and feminine forms share this card; either is accepted. Nationalities start with a capital letter.",
+        "ru": "Национальность человека, а не название языка. Формы мужского и женского рода собраны в одной карточке; принимается любая. Национальности пишутся с заглавной буквы."
+      },
+      "wordGroup": "nationality-italian",
+      "forms": [
+        {
+          "greek": "Ιταλός",
+          "answerDisplay": "ο Ιταλός",
+          "pronunciation": {
+            "en": "i-ta-LOS",
+            "ru": "и-та-ЛОС"
+          }
+        },
+        {
+          "greek": "Ιταλίδα",
+          "answerDisplay": "η Ιταλίδα",
+          "pronunciation": {
+            "en": "i-ta-LI-dha",
+            "ru": "и-та-ЛИ-да"
+          }
+        }
+      ],
+      "answerDisplay": "ο Ιταλός / η Ιταλίδα",
+      "alternatives": [
+        "Ιταλίδα"
+      ],
+      "acceptedAnswers": [
+        "ο Ιταλός",
+        "η Ιταλίδα"
+      ]
+    },
+    {
+      "id": "languages-nationality-german",
+      "collection": "words-nouns",
+      "greek": "Γερμανός",
+      "prompt": {
+        "en": "German (person)",
+        "ru": "Немец / немка"
+      },
+      "pronunciation": {
+        "en": "yer-ma-NOS / yer-ma-NI-dha",
+        "ru": "йэр-ма-НОС / йэр-ма-НИ-да"
+      },
+      "themes": [
+        "people"
+      ],
+      "labels": [
+        "noun"
+      ],
+      "explanation": {
+        "en": "A person’s nationality, not the language. Masculine and feminine forms share this card; either is accepted. Nationalities start with a capital letter.",
+        "ru": "Национальность человека, а не название языка. Формы мужского и женского рода собраны в одной карточке; принимается любая. Национальности пишутся с заглавной буквы."
+      },
+      "wordGroup": "nationality-german",
+      "forms": [
+        {
+          "greek": "Γερμανός",
+          "answerDisplay": "ο Γερμανός",
+          "pronunciation": {
+            "en": "yer-ma-NOS",
+            "ru": "йэр-ма-НОС"
+          }
+        },
+        {
+          "greek": "Γερμανίδα",
+          "answerDisplay": "η Γερμανίδα",
+          "pronunciation": {
+            "en": "yer-ma-NI-dha",
+            "ru": "йэр-ма-НИ-да"
+          }
+        }
+      ],
+      "answerDisplay": "ο Γερμανός / η Γερμανίδα",
+      "alternatives": [
+        "Γερμανίδα"
+      ],
+      "acceptedAnswers": [
+        "ο Γερμανός",
+        "η Γερμανίδα"
+      ]
+    },
+    {
+      "id": "languages-spanish-language",
+      "collection": "words-nouns",
+      "greek": "ισπανικά",
+      "prompt": {
+        "en": "Spanish (language)",
+        "ru": "Испанский язык"
+      },
+      "pronunciation": {
+        "en": "i-spa-ni-KA",
+        "ru": "и-спа-ни-КА"
+      },
+      "themes": [
+        "classroom"
+      ],
+      "labels": [
+        "noun"
+      ],
+      "explanation": {
+        "en": "Language name: neuter plural. Usually no article after μιλάω: μιλάω ισπανικά.",
+        "ru": "Название языка: средний род, множественное число. После μιλάω артикль обычно не нужен: μιλάω ισπανικά."
+      },
+      "answerDisplay": "τα ισπανικά"
+    },
+    {
+      "id": "languages-russian-language",
+      "collection": "words-nouns",
+      "greek": "ρωσικά",
+      "prompt": {
+        "en": "Russian (language)",
+        "ru": "Русский язык"
+      },
+      "pronunciation": {
+        "en": "ro-si-KA",
+        "ru": "ро-си-КА"
+      },
+      "themes": [
+        "classroom"
+      ],
+      "labels": [
+        "noun"
+      ],
+      "explanation": {
+        "en": "Language name: neuter plural. Usually no article after μιλάω: μιλάω ρωσικά.",
+        "ru": "Название языка: средний род, множественное число. После μιλάω артикль обычно не нужен: μιλάω ρωσικά."
+      },
+      "answerDisplay": "τα ρωσικά",
+      "alternatives": [
+        "ρώσικα"
+      ],
+      "acceptedAnswers": [
+        "τα ρώσικα"
+      ]
+    },
+    {
+      "id": "languages-german-language",
+      "collection": "words-nouns",
+      "greek": "γερμανικά",
+      "prompt": {
+        "en": "German (language)",
+        "ru": "Немецкий язык"
+      },
+      "pronunciation": {
+        "en": "yer-ma-ni-KA",
+        "ru": "йэр-ма-ни-КА"
+      },
+      "themes": [
+        "classroom"
+      ],
+      "labels": [
+        "noun"
+      ],
+      "explanation": {
+        "en": "Language name: neuter plural. Usually no article after μιλάω: μιλάω γερμανικά.",
+        "ru": "Название языка: средний род, множественное число. После μιλάω артикль обычно не нужен: μιλάω γερμανικά."
+      },
+      "answerDisplay": "τα γερμανικά"
+    },
+    {
+      "id": "languages-french-language",
+      "collection": "words-nouns",
+      "greek": "γαλλικά",
+      "prompt": {
+        "en": "French (language)",
+        "ru": "Французский язык"
+      },
+      "pronunciation": {
+        "en": "gha-li-KA",
+        "ru": "га-ли-КА"
+      },
+      "themes": [
+        "classroom"
+      ],
+      "labels": [
+        "noun"
+      ],
+      "explanation": {
+        "en": "Language name: neuter plural. Usually no article after μιλάω: μιλάω γαλλικά.",
+        "ru": "Название языка: средний род, множественное число. После μιλάω артикль обычно не нужен: μιλάω γαλλικά."
+      },
+      "answerDisplay": "τα γαλλικά"
+    },
+    {
+      "id": "languages-italian-language",
+      "collection": "words-nouns",
+      "greek": "ιταλικά",
+      "prompt": {
+        "en": "Italian (language)",
+        "ru": "Итальянский язык"
+      },
+      "pronunciation": {
+        "en": "i-ta-li-KA",
+        "ru": "и-та-ли-КА"
+      },
+      "themes": [
+        "classroom"
+      ],
+      "labels": [
+        "noun"
+      ],
+      "explanation": {
+        "en": "Language name: neuter plural. Usually no article after μιλάω: μιλάω ιταλικά.",
+        "ru": "Название языка: средний род, множественное число. После μιλάω артикль обычно не нужен: μιλάω ιταλικά."
+      },
+      "answerDisplay": "τα ιταλικά"
+    },
+    {
+      "id": "languages-english-language",
+      "collection": "words-nouns",
+      "greek": "αγγλικά",
+      "prompt": {
+        "en": "English (language)",
+        "ru": "Английский язык"
+      },
+      "pronunciation": {
+        "en": "ang-gli-KA",
+        "ru": "анг-гли-КА"
+      },
+      "themes": [
+        "classroom"
+      ],
+      "labels": [
+        "noun"
+      ],
+      "explanation": {
+        "en": "Language name: neuter plural. Usually no article after μιλάω: μιλάω αγγλικά.",
+        "ru": "Название языка: средний род, множественное число. После μιλάω артикль обычно не нужен: μιλάω αγγλικά."
+      },
+      "answerDisplay": "τα αγγλικά"
+    },
+    {
+      "id": "languages-polish-language",
+      "collection": "words-nouns",
+      "greek": "πολωνικά",
+      "prompt": {
+        "en": "Polish (language)",
+        "ru": "Польский язык"
+      },
+      "pronunciation": {
+        "en": "po-lo-ni-KA",
+        "ru": "по-ло-ни-КА"
+      },
+      "themes": [
+        "classroom"
+      ],
+      "labels": [
+        "noun"
+      ],
+      "explanation": {
+        "en": "Language name: neuter plural. Usually no article after μιλάω: μιλάω πολωνικά.",
+        "ru": "Название языка: средний род, множественное число. После μιλάω артикль обычно не нужен: μιλάω πολωνικά."
+      },
+      "answerDisplay": "τα πολωνικά"
+    },
+    {
+      "id": "languages-swedish-language",
+      "collection": "words-nouns",
+      "greek": "σουηδικά",
+      "prompt": {
+        "en": "Swedish (language)",
+        "ru": "Шведский язык"
+      },
+      "pronunciation": {
+        "en": "su-i-dhi-KA",
+        "ru": "су-и-ди-КА"
+      },
+      "themes": [
+        "classroom"
+      ],
+      "labels": [
+        "noun"
+      ],
+      "explanation": {
+        "en": "Language name: neuter plural. Usually no article after μιλάω: μιλάω σουηδικά.",
+        "ru": "Название языка: средний род, множественное число. После μιλάω артикль обычно не нужен: μιλάω σουηδικά."
+      },
+      "answerDisplay": "τα σουηδικά"
+    },
+    {
+      "id": "languages-chinese-language",
+      "collection": "words-nouns",
+      "greek": "κινέζικα",
+      "prompt": {
+        "en": "Chinese (language)",
+        "ru": "Китайский язык"
+      },
+      "pronunciation": {
+        "en": "ki-NE-zi-ka",
+        "ru": "ки-НЭ-зи-ка"
+      },
+      "themes": [
+        "classroom"
+      ],
+      "labels": [
+        "noun"
+      ],
+      "explanation": {
+        "en": "Language name: neuter plural. Usually no article after μιλάω: μιλάω κινέζικα.",
+        "ru": "Название языка: средний род, множественное число. После μιλάω артикль обычно не нужен: μιλάω κινέζικα."
+      },
+      "answerDisplay": "τα κινέζικα",
+      "alternatives": [
+        "κινεζικά"
+      ],
+      "acceptedAnswers": [
+        "τα κινεζικά"
+      ]
+    },
+    {
+      "id": "languages-japanese-language",
+      "collection": "words-nouns",
+      "greek": "γιαπωνέζικα",
+      "prompt": {
+        "en": "Japanese (language)",
+        "ru": "Японский язык"
+      },
+      "pronunciation": {
+        "en": "ya-po-NE-zi-ka",
+        "ru": "я-по-НЭ-зи-ка"
+      },
+      "themes": [
+        "classroom"
+      ],
+      "labels": [
+        "noun"
+      ],
+      "explanation": {
+        "en": "Language name: neuter plural. Usually no article after μιλάω: μιλάω γιαπωνέζικα.",
+        "ru": "Название языка: средний род, множественное число. После μιλάω артикль обычно не нужен: μιλάω γιαπωνέζικα."
+      },
+      "answerDisplay": "τα γιαπωνέζικα",
+      "alternatives": [
+        "ιαπωνικά"
+      ],
+      "acceptedAnswers": [
+        "τα ιαπωνικά"
+      ]
+    },
+    {
+      "id": "languages-albanian-language",
+      "collection": "words-nouns",
+      "greek": "αλβανικά",
+      "prompt": {
+        "en": "Albanian (language)",
+        "ru": "Албанский язык"
+      },
+      "pronunciation": {
+        "en": "al-va-ni-KA",
+        "ru": "аль-ва-ни-КА"
+      },
+      "themes": [
+        "classroom"
+      ],
+      "labels": [
+        "noun"
+      ],
+      "explanation": {
+        "en": "Language name: neuter plural. Usually no article after μιλάω: μιλάω αλβανικά.",
+        "ru": "Название языка: средний род, множественное число. После μιλάω артикль обычно не нужен: μιλάω αλβανικά."
+      },
+      "answerDisplay": "τα αλβανικά"
+    },
+    {
+      "id": "languages-ukrainian-language",
+      "collection": "words-nouns",
+      "greek": "ουκρανικά",
+      "prompt": {
+        "en": "Ukrainian (language)",
+        "ru": "Украинский язык"
+      },
+      "pronunciation": {
+        "en": "u-kra-ni-KA",
+        "ru": "у-кра-ни-КА"
+      },
+      "themes": [
+        "classroom"
+      ],
+      "labels": [
+        "noun"
+      ],
+      "explanation": {
+        "en": "Language name: neuter plural. Usually no article after μιλάω: μιλάω ουκρανικά.",
+        "ru": "Название языка: средний род, множественное число. После μιλάω артикль обычно не нужен: μιλάω ουκρανικά."
+      },
+      "answerDisplay": "τα ουκρανικά"
+    },
+    {
+      "id": "languages-arabic-language",
+      "collection": "words-nouns",
+      "greek": "αραβικά",
+      "prompt": {
+        "en": "Arabic (language)",
+        "ru": "Арабский язык"
+      },
+      "pronunciation": {
+        "en": "a-ra-vi-KA",
+        "ru": "а-ра-ви-КА"
+      },
+      "themes": [
+        "classroom"
+      ],
+      "labels": [
+        "noun"
+      ],
+      "explanation": {
+        "en": "Language name: neuter plural. Usually no article after μιλάω: μιλάω αραβικά.",
+        "ru": "Название языка: средний род, множественное число. После μιλάω артикль обычно не нужен: μιλάω αραβικά."
+      },
+      "answerDisplay": "τα αραβικά"
+    },
+    {
+      "id": "languages-bulgarian-language",
+      "collection": "words-nouns",
+      "greek": "βουλγαρικά",
+      "prompt": {
+        "en": "Bulgarian (language)",
+        "ru": "Болгарский язык"
+      },
+      "pronunciation": {
+        "en": "vul-gha-ri-KA",
+        "ru": "вул-га-ри-КА"
+      },
+      "themes": [
+        "classroom"
+      ],
+      "labels": [
+        "noun"
+      ],
+      "explanation": {
+        "en": "Language name: neuter plural. Usually no article after μιλάω: μιλάω βουλγαρικά.",
+        "ru": "Название языка: средний род, множественное число. После μιλάω артикль обычно не нужен: μιλάω βουλγαρικά."
+      },
+      "answerDisplay": "τα βουλγαρικά",
+      "alternatives": [
+        "βουλγάρικα"
+      ],
+      "acceptedAnswers": [
+        "τα βουλγάρικα"
+      ]
+    },
+    {
+      "id": "languages-turkish-language",
+      "collection": "words-nouns",
+      "greek": "τουρκικά",
+      "prompt": {
+        "en": "Turkish (language)",
+        "ru": "Турецкий язык"
+      },
+      "pronunciation": {
+        "en": "tur-ki-KA",
+        "ru": "тур-ки-КА"
+      },
+      "themes": [
+        "classroom"
+      ],
+      "labels": [
+        "noun"
+      ],
+      "explanation": {
+        "en": "Language name: neuter plural. Usually no article after μιλάω: μιλάω τουρκικά.",
+        "ru": "Название языка: средний род, множественное число. После μιλάω артикль обычно не нужен: μιλάω τουρκικά."
+      },
+      "answerDisplay": "τα τουρκικά"
+    },
+    {
+      "id": "languages-albania",
+      "collection": "words-names",
+      "greek": "Αλβανία",
+      "prompt": {
+        "en": "Albania",
+        "ru": "Албания"
+      },
+      "pronunciation": {
+        "en": "al-va-NI-a",
+        "ru": "аль-ва-НИ-а"
+      },
+      "themes": [
+        "places"
+      ],
+      "labels": [
+        "noun"
+      ],
+      "explanation": {
+        "en": "Feminine.",
+        "ru": "Женский род."
+      },
+      "answerDisplay": "η Αλβανία"
+    },
+    {
+      "id": "languages-sweden",
+      "collection": "words-names",
+      "greek": "Σουηδία",
+      "prompt": {
+        "en": "Sweden",
+        "ru": "Швеция"
+      },
+      "pronunciation": {
+        "en": "su-i-DHI-a",
+        "ru": "су-и-ДИ-а"
+      },
+      "themes": [
+        "places"
+      ],
+      "labels": [
+        "noun"
+      ],
+      "explanation": {
+        "en": "Feminine.",
+        "ru": "Женский род."
+      },
+      "answerDisplay": "η Σουηδία"
+    },
+    {
+      "id": "languages-poland",
+      "collection": "words-names",
+      "greek": "Πολωνία",
+      "prompt": {
+        "en": "Poland",
+        "ru": "Польша"
+      },
+      "pronunciation": {
+        "en": "po-lo-NI-a",
+        "ru": "по-ло-НИ-а"
+      },
+      "themes": [
+        "places"
+      ],
+      "labels": [
+        "noun"
+      ],
+      "explanation": {
+        "en": "Feminine.",
+        "ru": "Женский род."
+      },
+      "answerDisplay": "η Πολωνία"
+    },
+    {
+      "id": "languages-japan",
+      "collection": "words-names",
+      "greek": "Ιαπωνία",
+      "prompt": {
+        "en": "Japan",
+        "ru": "Япония"
+      },
+      "pronunciation": {
+        "en": "ia-po-NI-a",
+        "ru": "я-по-НИ-а"
+      },
+      "themes": [
+        "places"
+      ],
+      "labels": [
+        "noun"
+      ],
+      "explanation": {
+        "en": "Feminine.",
+        "ru": "Женский род."
+      },
+      "answerDisplay": "η Ιαπωνία"
+    },
+    {
+      "id": "languages-australia",
+      "collection": "words-names",
+      "greek": "Αυστραλία",
+      "prompt": {
+        "en": "Australia",
+        "ru": "Австралия"
+      },
+      "pronunciation": {
+        "en": "af-stra-LI-a",
+        "ru": "аф-стра-ЛИ-а"
+      },
+      "themes": [
+        "places"
+      ],
+      "labels": [
+        "noun"
+      ],
+      "explanation": {
+        "en": "Feminine.",
+        "ru": "Женский род."
+      },
+      "answerDisplay": "η Αυστραλία"
+    },
+    {
+      "id": "languages-north-america",
+      "collection": "words-names",
+      "greek": "Βόρεια Αμερική",
+      "prompt": {
+        "en": "North America",
+        "ru": "Северная Америка"
+      },
+      "pronunciation": {
+        "en": "VO-ria a-me-ri-KI",
+        "ru": "ВО-рья а-мэ-ри-КИ"
+      },
+      "themes": [
+        "places"
+      ],
+      "labels": [
+        "noun"
+      ],
+      "explanation": {
+        "en": "Feminine.",
+        "ru": "Женский род."
+      },
+      "answerDisplay": "η Βόρεια Αμερική"
+    },
+    {
+      "id": "languages-south-america",
+      "collection": "words-names",
+      "greek": "Νότια Αμερική",
+      "prompt": {
+        "en": "South America",
+        "ru": "Южная Америка"
+      },
+      "pronunciation": {
+        "en": "NO-tia a-me-ri-KI",
+        "ru": "НО-тья а-мэ-ри-КИ"
+      },
+      "themes": [
+        "places"
+      ],
+      "labels": [
+        "noun"
+      ],
+      "explanation": {
+        "en": "Feminine.",
+        "ru": "Женский род."
+      },
+      "answerDisplay": "η Νότια Αμερική"
+    },
+    {
+      "id": "languages-speak",
+      "collection": "words-verbs",
+      "greek": "μιλάω",
+      "prompt": {
+        "en": "I speak / talk",
+        "ru": "Я говорю / разговариваю"
+      },
+      "pronunciation": {
+        "en": "mi-LA-o",
+        "ru": "ми-ЛА-о"
+      },
+      "themes": [
+        "conversation"
+      ],
+      "labels": [
+        "verb"
+      ],
+      "explanation": {
+        "en": "B1 present: first person singular. Both μιλάω and μιλώ are accepted.",
+        "ru": "Группа B1, настоящее время, форма для «я». Принимаются μιλάω и μιλώ."
+      },
+      "alternatives": [
+        "μιλώ"
+      ]
+    },
+    {
+      "id": "languages-love",
+      "collection": "words-verbs",
+      "greek": "αγαπάω",
+      "prompt": {
+        "en": "I love",
+        "ru": "Я люблю"
+      },
+      "pronunciation": {
+        "en": "a-gha-PA-o",
+        "ru": "а-га-ПА-о"
+      },
+      "themes": [
+        "conversation"
+      ],
+      "labels": [
+        "verb"
+      ],
+      "explanation": {
+        "en": "B1 present: first person singular. Both αγαπάω and αγαπώ are accepted.",
+        "ru": "Группа B1, настоящее время, форма для «я». Принимаются αγαπάω и αγαπώ."
+      },
+      "alternatives": [
+        "αγαπώ"
+      ]
+    },
+    {
+      "id": "languages-walk",
+      "collection": "words-verbs",
+      "greek": "περπατάω",
+      "prompt": {
+        "en": "I walk",
+        "ru": "Я иду пешком / гуляю"
+      },
+      "pronunciation": {
+        "en": "per-pa-TA-o",
+        "ru": "пэр-па-ТА-о"
+      },
+      "themes": [
+        "conversation"
+      ],
+      "labels": [
+        "verb"
+      ],
+      "explanation": {
+        "en": "B1 present: first person singular. Both περπατάω and περπατώ are accepted.",
+        "ru": "Группа B1, настоящее время, форма для «я». Принимаются περπατάω и περπατώ."
+      },
+      "alternatives": [
+        "περπατώ"
+      ]
+    },
+    {
+      "id": "languages-ask-question",
+      "collection": "words-verbs",
+      "greek": "ρωτάω",
+      "prompt": {
+        "en": "I ask a question",
+        "ru": "Я спрашиваю"
+      },
+      "pronunciation": {
+        "en": "ro-TA-o",
+        "ru": "ро-ТА-о"
+      },
+      "themes": [
+        "conversation"
+      ],
+      "labels": [
+        "verb"
+      ],
+      "explanation": {
+        "en": "Ρωτάω asks a question; ζητάω asks for something. Both ρωτάω and ρωτώ are valid.",
+        "ru": "Ρωτάω — задаю вопрос; ζητάω — прошу что-то. Равноправные формы: ρωτάω и ρωτώ."
+      },
+      "alternatives": [
+        "ρωτώ"
+      ]
+    },
+    {
+      "id": "languages-meet",
+      "collection": "words-verbs",
+      "greek": "συναντάω",
+      "prompt": {
+        "en": "I meet someone",
+        "ru": "Я встречаюсь с кем-то"
+      },
+      "pronunciation": {
+        "en": "si-nan-DA-o",
+        "ru": "си-нан-ДА-о"
+      },
+      "themes": [
+        "conversation"
+      ],
+      "labels": [
+        "verb"
+      ],
+      "explanation": {
+        "en": "B1 present: first person singular. Both συναντάω and συναντώ are accepted.",
+        "ru": "Группа B1, настоящее время, форма для «я». Принимаются συναντάω и συναντώ."
+      },
+      "alternatives": [
+        "συναντώ"
+      ]
+    },
+    {
+      "id": "languages-stop",
+      "collection": "words-verbs",
+      "greek": "σταματάω",
+      "prompt": {
+        "en": "I stop",
+        "ru": "Я останавливаюсь"
+      },
+      "pronunciation": {
+        "en": "sta-ma-TA-o",
+        "ru": "ста-ма-ТА-о"
+      },
+      "themes": [
+        "conversation"
+      ],
+      "labels": [
+        "verb"
+      ],
+      "explanation": {
+        "en": "B1 present: first person singular. Both σταματάω and σταματώ are accepted.",
+        "ru": "Группа B1, настоящее время, форма для «я». Принимаются σταματάω и σταματώ."
+      },
+      "alternatives": [
+        "σταματώ"
+      ]
+    },
+    {
+      "id": "languages-hungry",
+      "collection": "words-verbs",
+      "greek": "πεινάω",
+      "prompt": {
+        "en": "I am hungry",
+        "ru": "Я хочу есть"
+      },
+      "pronunciation": {
+        "en": "pi-NA-o",
+        "ru": "пи-НА-о"
+      },
+      "themes": [
+        "conversation"
+      ],
+      "labels": [
+        "verb"
+      ],
+      "explanation": {
+        "en": "B1 present: first person singular. Both πεινάω and πεινώ are accepted.",
+        "ru": "Группа B1, настоящее время, форма для «я». Принимаются πεινάω и πεινώ."
+      },
+      "alternatives": [
+        "πεινώ"
+      ]
+    },
+    {
+      "id": "languages-thirsty",
+      "collection": "words-verbs",
+      "greek": "διψάω",
+      "prompt": {
+        "en": "I am thirsty",
+        "ru": "Я хочу пить"
+      },
+      "pronunciation": {
+        "en": "dhi-PSA-o",
+        "ru": "ди-ПСА-о"
+      },
+      "themes": [
+        "conversation"
+      ],
+      "labels": [
+        "verb"
+      ],
+      "explanation": {
+        "en": "B1 present: first person singular. Both διψάω and διψώ are accepted.",
+        "ru": "Группа B1, настоящее время, форма для «я». Принимаются διψάω и διψώ."
+      },
+      "alternatives": [
+        "διψώ"
+      ]
+    },
+    {
+      "id": "languages-pass",
+      "collection": "words-verbs",
+      "greek": "περνάω",
+      "prompt": {
+        "en": "I pass / spend time",
+        "ru": "Я прохожу / провожу время"
+      },
+      "pronunciation": {
+        "en": "per-NA-o",
+        "ru": "пэр-НА-о"
+      },
+      "themes": [
+        "conversation"
+      ],
+      "labels": [
+        "verb"
+      ],
+      "explanation": {
+        "en": "Depending on context: pass by, pass an exam, or spend time. Πώς περνάς; asks how things are going / how you are enjoying yourself.",
+        "ru": "По контексту: прохожу мимо, сдаю экзамен или провожу время. Πώς περνάς; — «Как проводишь время?» / «Как тебе здесь?»"
+      },
+      "alternatives": [
+        "περνώ"
+      ]
+    },
+    {
+      "id": "languages-request",
+      "collection": "words-verbs",
+      "greek": "ζητάω",
+      "prompt": {
+        "en": "I ask for / request something",
+        "ru": "Я прошу что-то"
+      },
+      "pronunciation": {
+        "en": "zi-TA-o",
+        "ru": "зи-ТА-о"
+      },
+      "themes": [
+        "conversation"
+      ],
+      "labels": [
+        "verb"
+      ],
+      "explanation": {
+        "en": "Ζητάω requests something, such as help. Ρωτάω asks a question. Ζητώ is also accepted.",
+        "ru": "Ζητάω — прошу что-то, например помощь. Ρωτάω — задаю вопрос. Принимается и ζητώ."
+      },
+      "alternatives": [
+        "ζητώ"
+      ]
+    },
+    {
+      "id": "languages-laugh",
+      "collection": "words-verbs",
+      "greek": "γελάω",
+      "prompt": {
+        "en": "I laugh",
+        "ru": "Я смеюсь"
+      },
+      "pronunciation": {
+        "en": "ye-LA-o",
+        "ru": "йэ-ЛА-о"
+      },
+      "themes": [
+        "conversation"
+      ],
+      "labels": [
+        "verb"
+      ],
+      "explanation": {
+        "en": "B1 present: first person singular. Both γελάω and γελώ are accepted.",
+        "ru": "Группа B1, настоящее время, форма для «я». Принимаются γελάω и γελώ."
+      },
+      "alternatives": [
+        "γελώ"
+      ]
+    },
+    {
+      "id": "languages-smile",
+      "collection": "words-verbs",
+      "greek": "χαμογελάω",
+      "prompt": {
+        "en": "I smile",
+        "ru": "Я улыбаюсь"
+      },
+      "pronunciation": {
+        "en": "ha-mo-ye-LA-o",
+        "ru": "ха-мо-йэ-ЛА-о"
+      },
+      "themes": [
+        "conversation"
+      ],
+      "labels": [
+        "verb"
+      ],
+      "explanation": {
+        "en": "B1 present: first person singular. Both χαμογελάω and χαμογελώ are accepted.",
+        "ru": "Группа B1, настоящее время, форма для «я». Принимаются χαμογελάω и χαμογελώ."
+      },
+      "alternatives": [
+        "χαμογελώ"
+      ]
+    },
+    {
+      "id": "languages-hurt",
+      "collection": "words-verbs",
+      "greek": "πονάω",
+      "prompt": {
+        "en": "I am in pain",
+        "ru": "Мне больно"
+      },
+      "pronunciation": {
+        "en": "po-NA-o",
+        "ru": "по-НА-о"
+      },
+      "themes": [
+        "conversation"
+      ],
+      "labels": [
+        "verb"
+      ],
+      "explanation": {
+        "en": "B1 present: first person singular. Both πονάω and πονώ are accepted.",
+        "ru": "Группа B1, настоящее время, форма для «я». Принимаются πονάω и πονώ."
+      },
+      "alternatives": [
+        "πονώ"
+      ]
+    },
+    {
+      "id": "languages-can",
+      "collection": "words-verbs",
+      "greek": "μπορώ",
+      "prompt": {
+        "en": "I can / am able to",
+        "ru": "Я могу"
+      },
+      "pronunciation": {
+        "en": "bo-RO",
+        "ru": "бо-РО"
+      },
+      "themes": [
+        "conversation"
+      ],
+      "labels": [
+        "verb"
+      ],
+      "explanation": {
+        "en": "B2 present: μπορώ → μπορείς. Unlike B1, it has no -άω alternative.",
+        "ru": "Группа B2: μπορώ → μπορείς. Варианта на -άω у этого глагола нет."
+      }
+    },
+    {
+      "id": "languages-go",
+      "collection": "words-verbs",
+      "greek": "πάω",
+      "prompt": {
+        "en": "I go",
+        "ru": "Я иду / еду"
+      },
+      "pronunciation": {
+        "en": "PA-o",
+        "ru": "ПА-о"
+      },
+      "themes": [
+        "conversation"
+      ],
+      "labels": [
+        "verb"
+      ],
+      "explanation": {
+        "en": "Πάω and πηγαίνω can both mean “I go”. Πάω is irregular; it does not follow the B1 -άω pattern.",
+        "ru": "Πάω и πηγαίνω могут означать «я иду / еду». Πάω — неправильный глагол, это не модель B1 на -άω."
+      },
+      "alternatives": [
+        "πηγαίνω"
+      ]
+    },
+    {
+      "id": "languages-get-wet",
+      "collection": "words-verbs",
+      "greek": "βρέχομαι",
+      "prompt": {
+        "en": "I get wet",
+        "ru": "Я мокну"
+      },
+      "pronunciation": {
+        "en": "VRE-ho-me",
+        "ru": "ВРЭ-хо-мэ"
+      },
+      "themes": [
+        "home"
+      ],
+      "labels": [
+        "verb"
+      ],
+      "explanation": {
+        "en": "Present, first person singular. Compare βράχηκα = I got wet and βρέχει = it is raining.",
+        "ru": "Настоящее время, форма для «я». Сравните: βράχηκα — «я промок», βρέχει — «идёт дождь»."
+      }
+    },
+    {
+      "id": "languages-it-rains",
+      "collection": "words-verbs",
+      "greek": "βρέχει",
+      "prompt": {
+        "en": "It rains / it is raining",
+        "ru": "Идёт дождь"
+      },
+      "pronunciation": {
+        "en": "VRE-hi",
+        "ru": "ВРЭ-хи"
+      },
+      "themes": [
+        "home"
+      ],
+      "labels": [
+        "verb"
+      ],
+      "explanation": {
+        "en": "Weather expression: impersonal third-person singular, not an “I” form.",
+        "ru": "О погоде: безличное употребление в третьем лице единственного числа. Это не форма для «я»."
+      }
+    },
+    {
+      "id": "languages-unfortunately",
+      "collection": "words-descriptions",
+      "greek": "δυστυχώς",
+      "prompt": {
+        "en": "Unfortunately",
+        "ru": "К сожалению"
+      },
+      "pronunciation": {
+        "en": "dhis-ti-HOS",
+        "ru": "дис-ти-ХОС"
+      },
+      "themes": [
+        "conversation"
+      ],
+      "labels": [
+        "adverb"
+      ]
+    },
+    {
+      "id": "languages-fairly",
+      "collection": "words-descriptions",
+      "greek": "αρκετά",
+      "prompt": {
+        "en": "Enough / fairly",
+        "ru": "Достаточно"
+      },
+      "pronunciation": {
+        "en": "ar-ke-TA",
+        "ru": "ар-кэ-ТА"
+      },
+      "themes": [
+        "conversation"
+      ],
+      "labels": [
+        "adverb"
+      ],
+      "explanation": {
+        "en": "Αρκετά καλά = fairly / quite well. Αρκετά can also mean “enough”.",
+        "ru": "Αρκετά καλά — «довольно хорошо». Арκετά также значит «достаточно»."
+      }
+    },
+    {
+      "id": "languages-little",
+      "collection": "words-descriptions",
+      "greek": "λίγο",
+      "prompt": {
+        "en": "A little",
+        "ru": "Немного"
+      },
+      "pronunciation": {
+        "en": "LI-gho",
+        "ru": "ЛИ-го"
+      },
+      "themes": [
+        "conversation"
+      ],
+      "labels": [
+        "adverb"
+      ]
+    },
+    {
+      "id": "languages-not-at-all",
+      "collection": "words-descriptions",
+      "greek": "καθόλου",
+      "prompt": {
+        "en": "Not at all (in a negative statement)",
+        "ru": "Совсем не (в отрицательном высказывании)"
+      },
+      "pronunciation": {
+        "en": "ka-THO-lu",
+        "ru": "ка-ТО-лу"
+      },
+      "themes": [
+        "conversation"
+      ],
+      "labels": [
+        "adverb"
+      ],
+      "explanation": {
+        "en": "With δεν: Δεν μιλάω καθόλου ελληνικά = I do not speak Greek at all. As a short negative answer, καθόλου means “not at all”.",
+        "ru": "С отрицанием δεν: Δεν μιλάω καθόλου ελληνικά — «Я совсем не говорю по-гречески». Краткий отрицательный ответ καθόλου — «совсем нет»."
+      }
+    },
+    {
+      "id": "languages-so",
+      "collection": "words-descriptions",
+      "greek": "τόσο",
+      "prompt": {
+        "en": "So / that much",
+        "ru": "Так / настолько"
+      },
+      "pronunciation": {
+        "en": "TO-so",
+        "ru": "ТО-со"
+      },
+      "themes": [
+        "conversation"
+      ],
+      "labels": [
+        "adverb"
+      ],
+      "explanation": {
+        "en": "Τόσο καλά = so well; δεν μιλάω τόσο καλά = I do not speak so well.",
+        "ru": "Τόσο καλά — «так хорошо»; δεν μιλάω τόσο καλά — «я не так хорошо говорю»."
+      }
+    },
+    {
+      "id": "languages-that",
+      "collection": "words-connectors",
+      "greek": "ότι",
+      "prompt": {
+        "en": "That (I know that…)",
+        "ru": "Что (я знаю, что…)"
+      },
+      "pronunciation": {
+        "en": "O-ti",
+        "ru": "О-ти"
+      },
+      "themes": [
+        "conversation"
+      ],
+      "labels": [
+        "conjunction"
+      ],
+      "explanation": {
+        "en": "Ξέρω ότι… means “I know that…”, not “I know about…”.",
+        "ru": "Ξέρω ότι… — «я знаю, что…», а не «я знаю о…»."
+      }
+    },
+    {
+      "id": "languages-pity",
+      "collection": "words-connectors",
+      "greek": "κρίμα",
+      "prompt": {
+        "en": "What a pity!",
+        "ru": "Как жаль!"
+      },
+      "pronunciation": {
+        "en": "KRI-ma",
+        "ru": "КРИ-ма"
+      },
+      "themes": [
+        "conversation"
+      ],
+      "labels": [
+        "interjection"
+      ]
+    },
+    {
+      "id": "languages-certainly",
+      "collection": "words-connectors",
+      "greek": "μάλιστα",
+      "prompt": {
+        "en": "Certainly / I see (acknowledgement)",
+        "ru": "Конечно / понятно (подтверждение)"
+      },
+      "pronunciation": {
+        "en": "MA-li-sta",
+        "ru": "МА-ли-ста"
+      },
+      "themes": [
+        "conversation"
+      ],
+      "labels": [
+        "interjection"
+      ]
+    },
+    {
+      "id": "languages-speak-greek-question",
+      "collection": "phrases-classroom",
+      "greek": "Μιλάς ελληνικά;",
+      "prompt": {
+        "en": "Do you speak Greek? (informal)",
+        "ru": "Ты говоришь по-гречески?"
+      },
+      "pronunciation": {
+        "en": "mi-LAS e-li-ni-KA",
+        "ru": "ми-ЛАС э-ли-ни-КА"
+      },
+      "themes": [
+        "classroom"
+      ],
+      "labels": [],
+      "alternatives": [],
+      "acceptedAnswers": [
+        "Εσύ μιλάς ελληνικά;"
+      ]
+    },
+    {
+      "id": "languages-speak-greek-polite",
+      "collection": "phrases-classroom",
+      "greek": "Μιλάτε ελληνικά;",
+      "prompt": {
+        "en": "Do you speak Greek? (polite or plural)",
+        "ru": "Вы говорите по-гречески?"
+      },
+      "pronunciation": {
+        "en": "mi-LA-te e-li-ni-KA",
+        "ru": "ми-ЛА-тэ э-ли-ни-КА"
+      },
+      "themes": [
+        "classroom"
+      ],
+      "labels": [],
+      "alternatives": [],
+      "acceptedAnswers": [
+        "Εσείς μιλάτε ελληνικά;"
+      ]
+    },
+    {
+      "id": "languages-which-language",
+      "collection": "phrases-classroom",
+      "greek": "Τι γλώσσα μιλάς;",
+      "prompt": {
+        "en": "What language do you speak? (informal)",
+        "ru": "На каком языке ты говоришь?"
+      },
+      "pronunciation": {
+        "en": "ti GHLO-sa mi-LAS",
+        "ru": "ти ГЛО-са ми-ЛАС"
+      },
+      "themes": [
+        "classroom"
+      ],
+      "labels": [],
+      "alternatives": [],
+      "acceptedAnswers": []
+    },
+    {
+      "id": "languages-speak-little-greek",
+      "collection": "phrases-classroom",
+      "greek": "Μιλάω λίγο ελληνικά.",
+      "prompt": {
+        "en": "I speak a little Greek.",
+        "ru": "Я немного говорю по-гречески."
+      },
+      "pronunciation": {
+        "en": "mi-LA-o LI-gho e-li-ni-KA",
+        "ru": "ми-ЛА-о ЛИ-го э-ли-ни-КА"
+      },
+      "themes": [
+        "classroom"
+      ],
+      "labels": [],
+      "alternatives": [
+        "Μιλώ λίγο ελληνικά."
+      ],
+      "acceptedAnswers": [
+        "Μιλάω ελληνικά λίγο.",
+        "Μιλώ ελληνικά λίγο."
+      ]
+    },
+    {
+      "id": "languages-speak-russian-well",
+      "collection": "phrases-classroom",
+      "greek": "Μιλάω ρωσικά πολύ καλά.",
+      "prompt": {
+        "en": "I speak Russian very well.",
+        "ru": "Я очень хорошо говорю по-русски."
+      },
+      "pronunciation": {
+        "en": "mi-LA-o ro-si-KA po-LI ka-LA",
+        "ru": "ми-ЛА-о ро-си-КА по-ЛИ ка-ЛА"
+      },
+      "themes": [
+        "classroom"
+      ],
+      "labels": [],
+      "alternatives": [
+        "Μιλώ ρωσικά πολύ καλά.",
+        "Μιλάω ρώσικα πολύ καλά."
+      ],
+      "acceptedAnswers": [
+        "Μιλάω πολύ καλά ρωσικά.",
+        "Μιλώ πολύ καλά ρωσικά.",
+        "Μιλώ ρώσικα πολύ καλά.",
+        "Μιλάω πολύ καλά ρώσικα.",
+        "Μιλώ πολύ καλά ρώσικα."
+      ]
+    },
+    {
+      "id": "languages-speak-english-fairly",
+      "collection": "phrases-classroom",
+      "greek": "Μιλάω αγγλικά αρκετά καλά.",
+      "prompt": {
+        "en": "I speak English fairly well.",
+        "ru": "Я довольно хорошо говорю по-английски."
+      },
+      "pronunciation": {
+        "en": "mi-LA-o ang-gli-KA ar-ke-TA ka-LA",
+        "ru": "ми-ЛА-о анг-гли-КА ар-кэ-ТА ка-ЛА"
+      },
+      "themes": [
+        "classroom"
+      ],
+      "labels": [],
+      "alternatives": [
+        "Μιλώ αγγλικά αρκετά καλά."
+      ],
+      "acceptedAnswers": [
+        "Μιλάω αρκετά καλά αγγλικά.",
+        "Μιλώ αρκετά καλά αγγλικά."
+      ]
+    },
+    {
+      "id": "languages-understand-not-speak",
+      "collection": "phrases-classroom",
+      "greek": "Καταλαβαίνω ελληνικά, αλλά δεν μιλάω τόσο καλά.",
+      "prompt": {
+        "en": "I understand Greek, but I do not speak it so well.",
+        "ru": "Я понимаю греческий, но не так хорошо говорю."
+      },
+      "pronunciation": {
+        "en": "ka-ta-la-VE-no e-li-ni-KA a-LA dhen mi-LA-o TO-so ka-LA",
+        "ru": "ка-та-ла-ВЭ-но э-ли-ни-КА а-ЛА дэн ми-ЛА-о ТО-со ка-ЛА"
+      },
+      "themes": [
+        "classroom"
+      ],
+      "labels": [],
+      "alternatives": [
+        "Καταλαβαίνω ελληνικά, αλλά δεν μιλώ τόσο καλά."
+      ],
+      "acceptedAnswers": []
+    },
+    {
+      "id": "languages-no-german",
+      "collection": "phrases-classroom",
+      "greek": "Δεν μιλάω καθόλου γερμανικά.",
+      "prompt": {
+        "en": "I do not speak German at all.",
+        "ru": "Я совсем не говорю по-немецки."
+      },
+      "pronunciation": {
+        "en": "dhen mi-LA-o ka-THO-lu yer-ma-ni-KA",
+        "ru": "дэн ми-ЛА-о ка-ТО-лу йэр-ма-ни-КА"
+      },
+      "themes": [
+        "classroom"
+      ],
+      "labels": [],
+      "alternatives": [
+        "Δεν μιλώ καθόλου γερμανικά."
+      ],
+      "acceptedAnswers": [
+        "Δεν μιλάω γερμανικά καθόλου.",
+        "Δεν μιλώ γερμανικά καθόλου."
+      ]
+    },
+    {
+      "id": "languages-sorry-not-understand",
+      "collection": "phrases-classroom",
+      "greek": "Συγγνώμη, δεν καταλαβαίνω.",
+      "prompt": {
+        "en": "Sorry, I do not understand.",
+        "ru": "Извините, я не понимаю."
+      },
+      "pronunciation": {
+        "en": "si-GHNO-mi dhen ka-ta-la-VE-no",
+        "ru": "си-ГНО-ми дэн ка-та-ла-ВЭ-но"
+      },
+      "themes": [
+        "classroom"
+      ],
+      "labels": [],
+      "alternatives": [
+        "Συγνώμη, δεν καταλαβαίνω."
+      ],
+      "acceptedAnswers": []
+    },
+    {
+      "id": "languages-work-company",
+      "collection": "phrases-everyday",
+      "greek": "Δουλεύω σε μια εταιρεία.",
+      "prompt": {
+        "en": "I work at a company.",
+        "ru": "Я работаю в компании."
+      },
+      "pronunciation": {
+        "en": "dhu-LE-vo se mia e-te-RI-a",
+        "ru": "ду-ЛЭ-во сэ мья э-тэ-РИ-а"
+      },
+      "themes": [
+        "places"
+      ],
+      "labels": [],
+      "alternatives": [
+        "Δουλεύω σε μία εταιρεία.",
+        "Δουλεύω σε μια εταιρία.",
+        "Δουλεύω σε μία εταιρία."
+      ],
+      "acceptedAnswers": []
+    },
+    {
+      "id": "languages-work-flight-school",
+      "collection": "phrases-everyday",
+      "greek": "Δουλεύω σε μια σχολή πιλότων.",
+      "prompt": {
+        "en": "I work at a flight school.",
+        "ru": "Я работаю в лётной школе."
+      },
+      "pronunciation": {
+        "en": "dhu-LE-vo se mia sho-LI pi-LO-ton",
+        "ru": "ду-ЛЭ-во сэ мья схо-ЛИ пи-ЛО-тон"
+      },
+      "themes": [
+        "places"
+      ],
+      "labels": [],
+      "alternatives": [
+        "Δουλεύω σε μία σχολή πιλότων."
+      ],
+      "acceptedAnswers": []
+    },
+    {
+      "id": "languages-work-bar",
+      "collection": "phrases-everyday",
+      "greek": "Δουλεύω σε ένα μπαρ.",
+      "prompt": {
+        "en": "I work at a bar.",
+        "ru": "Я работаю в баре."
+      },
+      "pronunciation": {
+        "en": "dhu-LE-vo se E-na bar",
+        "ru": "ду-ЛЭ-во сэ Э-на бар"
+      },
+      "themes": [
+        "places"
+      ],
+      "labels": [],
+      "alternatives": [],
+      "acceptedAnswers": []
+    },
+    {
+      "id": "languages-work-from-home",
+      "collection": "phrases-everyday",
+      "greek": "Δουλεύω από το σπίτι.",
+      "prompt": {
+        "en": "I work from home.",
+        "ru": "Я работаю из дома."
+      },
+      "pronunciation": {
+        "en": "dhu-LE-vo a-PO to SPI-ti",
+        "ru": "ду-ЛЭ-во а-ПО то СПИ-ти"
+      },
+      "themes": [
+        "home"
+      ],
+      "labels": [],
+      "alternatives": [],
+      "acceptedAnswers": []
+    },
+    {
+      "id": "languages-dont-go-office",
+      "collection": "phrases-everyday",
+      "greek": "Δεν πάω στο γραφείο.",
+      "prompt": {
+        "en": "I do not go to the office.",
+        "ru": "Я не хожу в офис."
+      },
+      "pronunciation": {
+        "en": "dhen PA-o sto ghra-FI-o",
+        "ru": "дэн ПА-о сто гра-ФИ-о"
+      },
+      "themes": [
+        "places"
+      ],
+      "labels": [],
+      "alternatives": [
+        "Δεν πηγαίνω στο γραφείο."
+      ],
+      "acceptedAnswers": []
+    },
+    {
+      "id": "languages-know-that",
+      "collection": "phrases-everyday",
+      "greek": "Ξέρω ότι είναι εδώ.",
+      "prompt": {
+        "en": "I know that he is here.",
+        "ru": "Я знаю, что он здесь."
+      },
+      "pronunciation": {
+        "en": "KSE-ro O-ti I-ne e-DHO",
+        "ru": "КСЭ-ро О-ти И-нэ э-ДО"
+      },
+      "themes": [
+        "conversation"
+      ],
+      "labels": [],
+      "alternatives": [],
+      "acceptedAnswers": [
+        "Ξέρω ότι αυτός είναι εδώ."
+      ]
+    },
+    {
+      "id": "languages-raining-outside",
+      "collection": "phrases-everyday",
+      "greek": "Έξω βρέχει.",
+      "prompt": {
+        "en": "It is raining outside.",
+        "ru": "На улице идёт дождь."
+      },
+      "pronunciation": {
+        "en": "E-kso VRE-hi",
+        "ru": "Э-ксо ВРЭ-хи"
+      },
+      "themes": [
+        "home"
+      ],
+      "labels": [],
+      "alternatives": [
+        "Βρέχει έξω."
+      ],
+      "acceptedAnswers": []
+    },
+    {
+      "id": "languages-no-umbrella",
+      "collection": "phrases-everyday",
+      "greek": "Δεν έχω ομπρέλα.",
+      "prompt": {
+        "en": "I do not have an umbrella.",
+        "ru": "У меня нет зонта."
+      },
+      "pronunciation": {
+        "en": "dhen E-ho om-BRE-la",
+        "ru": "дэн Э-хо ом-БРЭ-ла"
+      },
+      "themes": [
+        "home"
+      ],
+      "labels": [],
+      "alternatives": [],
+      "acceptedAnswers": []
+    },
+    {
+      "id": "languages-got-wet",
+      "collection": "phrases-everyday",
+      "greek": "Βράχηκα.",
+      "prompt": {
+        "en": "I got wet.",
+        "ru": "Я промок."
+      },
+      "pronunciation": {
+        "en": "VRA-hi-ka",
+        "ru": "ВРА-хи-ка"
+      },
+      "themes": [
+        "home"
+      ],
+      "labels": [],
+      "explanation": {
+        "en": "A past-tense phrase. The same form is used regardless of the speaker’s gender. Present: βρέχομαι.",
+        "ru": "Фраза в прошедшем времени. Форма одинакова для мужчины («я промок») и женщины («я промокла»). Настоящее время: βρέχομαι."
+      },
+      "alternatives": [],
+      "acceptedAnswers": []
+    },
+    {
+      "id": "languages-looking-cinema",
+      "collection": "phrases-everyday",
+      "greek": "Ψάχνω τον κινηματογράφο.",
+      "prompt": {
+        "en": "I am looking for the cinema.",
+        "ru": "Я ищу кинотеатр."
+      },
+      "pronunciation": {
+        "en": "PSAH-no ton ki-ni-ma-TO-ghra-fo",
+        "ru": "ПСАХ-но тон ки-ни-ма-ТО-гра-фо"
+      },
+      "themes": [
+        "places"
+      ],
+      "labels": [],
+      "alternatives": [],
+      "acceptedAnswers": []
+    },
+    {
+      "id": "languages-see-bank",
+      "collection": "phrases-everyday",
+      "greek": "Βλέπετε την τράπεζα;",
+      "prompt": {
+        "en": "Do you see the bank? (polite or plural)",
+        "ru": "Вы видите банк?"
+      },
+      "pronunciation": {
+        "en": "VLE-pe-te tin TRA-pe-za",
+        "ru": "ВЛЭ-пэ-тэ тин ТРА-пэ-за"
+      },
+      "themes": [
+        "places"
+      ],
+      "labels": [],
+      "alternatives": [],
+      "acceptedAnswers": []
+    },
+    {
+      "id": "languages-what-looking-for",
+      "collection": "phrases-everyday",
+      "greek": "Τι ψάχνετε;",
+      "prompt": {
+        "en": "What are you looking for? (polite or plural)",
+        "ru": "Что вы ищете?"
+      },
+      "pronunciation": {
+        "en": "ti PSAH-ne-te",
+        "ru": "ти ПСАХ-нэ-тэ"
+      },
+      "themes": [
+        "conversation"
+      ],
+      "labels": [],
+      "alternatives": [],
+      "acceptedAnswers": []
+    },
+    {
+      "id": "languages-know-park",
+      "collection": "phrases-everyday",
+      "greek": "Ξέρετε το πάρκο;",
+      "prompt": {
+        "en": "Do you know the park? (polite or plural)",
+        "ru": "Вы знаете этот парк?"
+      },
+      "pronunciation": {
+        "en": "KSE-re-te to PAR-ko",
+        "ru": "КСЭ-рэ-тэ то ПАР-ко"
+      },
+      "themes": [
+        "places"
+      ],
+      "labels": [],
+      "alternatives": [],
+      "acceptedAnswers": [
+        "Ξέρετε αυτό το πάρκο;"
+      ]
+    },
+    {
+      "id": "languages-nationality-male",
+      "collection": "grammar-gender",
+      "greek": "Είμαι Έλληνας.",
+      "prompt": {
+        "en": "I am Greek. (a man speaking)",
+        "ru": "Я грек."
+      },
+      "pronunciation": {
+        "en": "I-me E-li-nas",
+        "ru": "И-мэ Э-ли-нас"
+      },
+      "themes": [
+        "people",
+        "classroom"
+      ],
+      "labels": [],
+      "explanation": {
+        "en": "Nationality agrees with the person; the language name stays the same. Do not put an article after είμαι here.",
+        "ru": "Форма национальности зависит от пола человека; название языка не меняется. После είμαι здесь артикль не нужен."
+      },
+      "alternatives": [],
+      "acceptedAnswers": [
+        "Εγώ είμαι Έλληνας."
+      ]
+    },
+    {
+      "id": "languages-nationality-female",
+      "collection": "grammar-gender",
+      "greek": "Είμαι Ελληνίδα.",
+      "prompt": {
+        "en": "I am Greek. (a woman speaking)",
+        "ru": "Я гречанка."
+      },
+      "pronunciation": {
+        "en": "I-me e-li-NI-dha",
+        "ru": "И-мэ э-ли-НИ-да"
+      },
+      "themes": [
+        "people",
+        "classroom"
+      ],
+      "labels": [],
+      "explanation": {
+        "en": "Nationality agrees with the person; the language name stays the same. Do not put an article after είμαι here.",
+        "ru": "Форма национальности зависит от пола человека; название языка не меняется. После είμαι здесь артикль не нужен."
+      },
+      "alternatives": [],
+      "acceptedAnswers": [
+        "Εγώ είμαι Ελληνίδα."
+      ]
+    },
+    {
+      "id": "languages-nationality-and-language",
+      "collection": "grammar-gender",
+      "greek": "Είναι Πολωνή και μιλάει πολωνικά.",
+      "prompt": {
+        "en": "She is Polish and speaks Polish.",
+        "ru": "Она полька и говорит по-польски."
+      },
+      "pronunciation": {
+        "en": "I-ne po-lo-NI ke mi-LA-i po-lo-ni-KA",
+        "ru": "И-нэ по-ло-НИ кэ ми-ЛА-и по-ло-ни-КА"
+      },
+      "themes": [
+        "people",
+        "classroom"
+      ],
+      "labels": [],
+      "explanation": {
+        "en": "Nationality agrees with the person; the language name stays the same. Do not put an article after είμαι here.",
+        "ru": "Форма национальности зависит от пола человека; название языка не меняется. После είμαι здесь артикль не нужен."
+      },
+      "alternatives": [],
+      "acceptedAnswers": [
+        "Είναι Πολωνή και μιλάει πολωνικά.",
+        "Είναι Πολωνή και μιλά πολωνικά.",
+        "Είναι Πολωνέζα και μιλάει πολωνικά.",
+        "Είναι Πολωνέζα και μιλά πολωνικά.",
+        "Αυτή Είναι Πολωνή και μιλάει πολωνικά.",
+        "Αυτή Είναι Πολωνή και μιλά πολωνικά.",
+        "Αυτή Είναι Πολωνέζα και μιλάει πολωνικά.",
+        "Αυτή Είναι Πολωνέζα και μιλά πολωνικά."
+      ]
+    }
+  ]
+}

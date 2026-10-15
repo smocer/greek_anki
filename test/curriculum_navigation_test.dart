@@ -38,6 +38,49 @@ void main() {
   }
 
   for (final language in AppLanguage.values) {
+    for (final cls in ['B1', 'B2']) {
+      testWidgets(
+        'conjugation $cls opens and accepts variants (${language.name})',
+        (tester) async {
+          final russian = language == AppLanguage.russian;
+          await openApp(tester, language: language);
+          await tapText(tester, russian ? 'Грамматика' : 'Grammar');
+          await tester.tap(find.byKey(const ValueKey('collection-grammar')));
+          await tester.pumpAndSettle();
+          await tapText(tester, russian ? 'Глаголы $cls' : '$cls verb forms');
+          await tapText(tester, russian ? 'Фильтры' : 'Filters');
+          await tester.enterText(
+            find.byKey(const ValueKey('topic-search')),
+            cls == 'B1' ? 'μιλάω' : 'μπορούν',
+          );
+          await tester.pumpAndSettle();
+          expect(
+            tester
+                .widget<VocabularyPreview>(find.byType(VocabularyPreview))
+                .cards,
+            hasLength(1),
+          );
+          await tapText(tester, russian ? 'Применить' : 'Apply filters');
+          await tapText(tester, russian ? 'Сложный режим' : 'Hard mode');
+          expect(find.byType(CardExplanation), findsNothing);
+          final answer = cls == 'B1' ? 'μιλάω' : 'μπορούν';
+          expect(find.text(answer), findsNothing);
+          final input = tester.widget<TextField>(
+            find.byKey(const ValueKey('greek-answer')),
+          );
+          input.controller!.text = cls == 'B1' ? 'μιλώ' : 'μπορούνε';
+          await tester.pumpAndSettle();
+          await tapText(tester, russian ? 'Проверить' : 'Check answer');
+          expect(
+            find.text(russian ? 'Всё верно.' : 'Exactly right.'),
+            findsOneWidget,
+          );
+          expect(find.text(answer), findsOneWidget);
+          expect(tester.takeException(), isNull);
+        },
+      );
+    }
+
     testWidgets(
       'names can be selected and studied separately (${language.name})',
       (tester) async {

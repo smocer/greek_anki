@@ -80,7 +80,11 @@ void main() {
           'χωρισμένη',
         ]),
       );
-      expect(learningCollections.length, 16);
+      expect(
+        learningCollections.any((c) => c.deck.id.contains('family')),
+        isFalse,
+        reason: 'Family material belongs to the existing broad collections.',
+      );
       for (final group in learningCollections) {
         for (final entry in group.deck.cards.where(
           (c) => c.id.contains('family-'),
