@@ -66,9 +66,10 @@ int consolidateWordData(Map<String, dynamic> root) {
     }
     result['senses'] = senses.values.toList();
     Map<String, String> joined(Iterable<dynamic> values, String separator) => {
-      for (final language in ['en', 'ru'])
+      for (final language in ['en', 'ru', 'zh'])
         language: {
-          for (final value in values) value[language] as String,
+          for (final value in values)
+            (value[language] ?? value['en']) as String,
         }.join(separator),
     };
     result['prompt'] = joined(senses.values, ' / ');

@@ -6,25 +6,27 @@ import 'vocabulary.dart';
 import 'vocabulary_category.dart';
 
 enum LearningSection {
-  words(LocalizedText(en: 'Words', ru: 'Слова')),
-  phrases(LocalizedText(en: 'Phrases', ru: 'Фразы')),
-  grammar(LocalizedText(en: 'Grammar', ru: 'Грамматика'));
+  words(LocalizedText(en: 'Words', zh: '单词', ru: 'Слова')),
+  phrases(LocalizedText(en: 'Phrases', zh: '短语', ru: 'Фразы')),
+  grammar(LocalizedText(en: 'Grammar', zh: '语法', ru: 'Грамматика'));
 
   const LearningSection(this.title);
   final LocalizedText title;
 }
 
 enum LearningTheme {
-  people(LocalizedText(en: 'People', ru: 'Люди')),
-  family(LocalizedText(en: 'Family', ru: 'Семья')),
-  classroom(LocalizedText(en: 'Classroom', ru: 'Учёба')),
-  home(LocalizedText(en: 'Home & everyday life', ru: 'Дом и быт')),
-  food(LocalizedText(en: 'Food & drink', ru: 'Еда и напитки')),
-  places(LocalizedText(en: 'Places', ru: 'Места')),
-  travel(LocalizedText(en: 'Transport', ru: 'Транспорт')),
-  phone(LocalizedText(en: 'Phone', ru: 'Телефон')),
-  time(LocalizedText(en: 'Time & numbers', ru: 'Время и числа')),
-  conversation(LocalizedText(en: 'Conversation', ru: 'Общение'));
+  people(LocalizedText(en: 'People', zh: '人物', ru: 'Люди')),
+  family(LocalizedText(en: 'Family', zh: '家庭', ru: 'Семья')),
+  classroom(LocalizedText(en: 'Classroom', zh: '课堂', ru: 'Учёба')),
+  home(
+    LocalizedText(en: 'Home & everyday life', zh: '家庭与日常生活', ru: 'Дом и быт'),
+  ),
+  food(LocalizedText(en: 'Food & drink', zh: '食物与饮品', ru: 'Еда и напитки')),
+  places(LocalizedText(en: 'Places', zh: '地点', ru: 'Места')),
+  travel(LocalizedText(en: 'Transport', zh: '交通', ru: 'Транспорт')),
+  phone(LocalizedText(en: 'Phone', zh: '电话', ru: 'Телефон')),
+  time(LocalizedText(en: 'Time & numbers', zh: '时间与数字', ru: 'Время и числа')),
+  conversation(LocalizedText(en: 'Conversation', zh: '会话', ru: 'Общение'));
 
   const LearningTheme(this.title);
   final LocalizedText title;
@@ -57,6 +59,7 @@ class LearningCollection {
         [
           card.prompt.en,
           card.prompt.ru,
+          card.prompt.zh ?? '',
           card.greek,
           card.displayedAnswer,
           ...card.alternatives,

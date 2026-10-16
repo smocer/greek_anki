@@ -136,7 +136,7 @@ void main() {
             MaterialApp(
               key: ValueKey(topic.id),
               locale: Locale(language.code),
-              supportedLocales: const [Locale('en'), Locale('ru')],
+              supportedLocales: const [Locale('en'), Locale('ru'), Locale('zh')],
               localizationsDelegates: GlobalMaterialLocalizations.delegates,
               theme: appTheme,
               home: GrammarTopicScreen(topic: topic),

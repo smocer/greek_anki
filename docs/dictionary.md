@@ -107,7 +107,10 @@ Required entry fields in addition files are `id`, `collection`, `prompt`,
 or individually on each entry. `meaning` defaults to “Translate into Greek.”
 `reviewIdentity` defaults to the entry's `collection` and `id`, so renaming a
 file does not affect review history. All localized text includes both `en` and
-`ru`. Write Greek as normal Unicode text, retaining stress marks.
+`ru`, and supports an optional `zh` translation for Chinese. Include `zh` in
+new prompts, meanings, and explanations. Older content without `zh` falls back
+to English. Pronunciation can reuse the Latin reading guide for Chinese.
+Write Greek as normal Unicode text, retaining stress marks.
 
 Optional fields include `explanation`, `answerDisplay`, `alternatives`,
 `acceptedAnswers`, `labels`, `addedWeek`, and `words`. `alternatives` contains

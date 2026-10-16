@@ -42,13 +42,33 @@ void main() {
       testWidgets(
         'conjugation $cls opens and accepts variants (${language.name})',
         (tester) async {
-          final russian = language == AppLanguage.russian;
           await openApp(tester, language: language);
-          await tapText(tester, russian ? 'Грамматика' : 'Grammar');
+          await tapText(
+            tester,
+            LocalizedText(
+              en: 'Grammar',
+              ru: 'Грамматика',
+              zh: '语法',
+            ).resolve(language),
+          );
           await tester.tap(find.byKey(const ValueKey('collection-grammar')));
           await tester.pumpAndSettle();
-          await tapText(tester, russian ? 'Глаголы $cls' : '$cls verb forms');
-          await tapText(tester, russian ? 'Фильтры' : 'Filters');
+          await tapText(
+            tester,
+            LocalizedText(
+              en: '$cls verb forms',
+              ru: 'Глаголы $cls',
+              zh: '$cls 动词变位',
+            ).resolve(language),
+          );
+          await tapText(
+            tester,
+            LocalizedText(
+              en: 'Filters',
+              ru: 'Фильтры',
+              zh: '筛选',
+            ).resolve(language),
+          );
           await tester.enterText(
             find.byKey(const ValueKey('topic-search')),
             cls == 'B1' ? 'μιλάω' : 'μπορούν',
@@ -60,8 +80,22 @@ void main() {
                 .cards,
             hasLength(1),
           );
-          await tapText(tester, russian ? 'Применить' : 'Apply filters');
-          await tapText(tester, russian ? 'Сложный режим' : 'Hard mode');
+          await tapText(
+            tester,
+            LocalizedText(
+              en: 'Apply filters',
+              ru: 'Применить',
+              zh: '应用筛选',
+            ).resolve(language),
+          );
+          await tapText(
+            tester,
+            LocalizedText(
+              en: 'Hard mode',
+              ru: 'Сложный режим',
+              zh: '默写模式',
+            ).resolve(language),
+          );
           expect(find.byType(CardExplanation), findsNothing);
           final answer = cls == 'B1' ? 'μιλάω' : 'μπορούν';
           expect(find.text(answer), findsNothing);
@@ -70,9 +104,22 @@ void main() {
           );
           input.controller!.text = cls == 'B1' ? 'μιλώ' : 'μπορούνε';
           await tester.pumpAndSettle();
-          await tapText(tester, russian ? 'Проверить' : 'Check answer');
+          await tapText(
+            tester,
+            LocalizedText(
+              en: 'Check answer',
+              ru: 'Проверить',
+              zh: '检查答案',
+            ).resolve(language),
+          );
           expect(
-            find.text(russian ? 'Всё верно.' : 'Exactly right.'),
+            find.text(
+              LocalizedText(
+                en: 'Exactly right.',
+                ru: 'Всё верно.',
+                zh: '完全正确。',
+              ).resolve(language),
+            ),
             findsOneWidget,
           );
           expect(find.text(answer), findsOneWidget);
@@ -84,12 +131,25 @@ void main() {
     testWidgets(
       'names can be selected and studied separately (${language.name})',
       (tester) async {
-        final russian = language == AppLanguage.russian;
         await openApp(tester, language: language);
         await tester.tap(find.byKey(const ValueKey('collection-words')));
         await tester.pumpAndSettle();
-        await tapText(tester, russian ? 'Имена и названия' : 'Names & places');
-        await tapText(tester, russian ? 'Фильтры' : 'Filters');
+        await tapText(
+          tester,
+          LocalizedText(
+            en: 'Names & places',
+            ru: 'Имена и названия',
+            zh: '人名与地名',
+          ).resolve(language),
+        );
+        await tapText(
+          tester,
+          LocalizedText(
+            en: 'Filters',
+            ru: 'Фильтры',
+            zh: '筛选',
+          ).resolve(language),
+        );
         await tester.enterText(
           find.byKey(const ValueKey('topic-search')),
           'Argentina',
@@ -105,13 +165,27 @@ void main() {
         );
         await tester.tap(find.byKey(const ValueKey('use-category')));
         await tester.pumpAndSettle();
-        await tapText(tester, russian ? 'Сложный режим' : 'Hard mode');
+        await tapText(
+          tester,
+          LocalizedText(
+            en: 'Hard mode',
+            ru: 'Сложный режим',
+            zh: '默写模式',
+          ).resolve(language),
+        );
         final input = tester.widget<TextField>(
           find.byKey(const ValueKey('greek-answer')),
         );
         input.controller!.text = 'Αργεντινή';
         await tester.pumpAndSettle();
-        await tapText(tester, russian ? 'Проверить' : 'Check answer');
+        await tapText(
+          tester,
+          LocalizedText(
+            en: 'Check answer',
+            ru: 'Проверить',
+            zh: '检查答案',
+          ).resolve(language),
+        );
         expect(find.text('η Αργεντινή'), findsOneWidget);
         expect(tester.takeException(), isNull);
       },
@@ -120,12 +194,21 @@ void main() {
     testWidgets(
       'family filter finds alternate spelling and starts hard mode (${language.name})',
       (tester) async {
-        final russian = language == AppLanguage.russian;
         await openApp(tester, language: language);
-        await tapText(tester, russian ? 'Фильтры' : 'Filters');
+        await tapText(
+          tester,
+          LocalizedText(
+            en: 'Filters',
+            ru: 'Фильтры',
+            zh: '筛选',
+          ).resolve(language),
+        );
         await tester.tap(find.byKey(const ValueKey('collection-theme')));
         await tester.pumpAndSettle();
-        await tapText(tester, russian ? 'Семья' : 'Family');
+        await tapText(
+          tester,
+          LocalizedText(en: 'Family', ru: 'Семья', zh: '家庭').resolve(language),
+        );
         await tester.enterText(
           find.byKey(const ValueKey('topic-search')),
           'αδελφός',
@@ -154,15 +237,38 @@ void main() {
         );
         await tester.tap(find.byKey(const ValueKey('use-category')));
         await tester.pumpAndSettle();
-        await tapText(tester, russian ? 'Сложный режим' : 'Hard mode');
-        expect(find.text(russian ? 'Брат' : 'Brother'), findsOneWidget);
+        await tapText(
+          tester,
+          LocalizedText(
+            en: 'Hard mode',
+            ru: 'Сложный режим',
+            zh: '默写模式',
+          ).resolve(language),
+        );
+        expect(
+          find.text(
+            LocalizedText(
+              en: 'Brother',
+              ru: 'Брат',
+              zh: '兄弟',
+            ).resolve(language),
+          ),
+          findsOneWidget,
+        );
         expect(find.text('ο αδερφός'), findsNothing);
         final input = tester.widget<TextField>(
           find.byKey(const ValueKey('greek-answer')),
         );
         input.controller!.text = 'αδελφός';
         await tester.pumpAndSettle();
-        await tapText(tester, russian ? 'Проверить' : 'Check answer');
+        await tapText(
+          tester,
+          LocalizedText(
+            en: 'Check answer',
+            ru: 'Проверить',
+            zh: '检查答案',
+          ).resolve(language),
+        );
         expect(find.text('ο αδερφός'), findsOneWidget);
         expect(tester.takeException(), isNull);
       },
