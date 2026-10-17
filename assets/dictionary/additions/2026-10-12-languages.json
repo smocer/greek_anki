@@ -723,7 +723,11 @@
     },
     {
       "id": "languages-nationality-greek",
-      "collection": "words-nouns",
+      "collection": "words-names",
+      "reviewIdentity": {
+        "deckId": "words-nouns",
+        "cardId": "languages-nationality-greek"
+      },
       "greek": "Έλληνας",
       "prompt": {
         "en": "Greek (person)",
@@ -735,7 +739,7 @@
         "ru": "Э-ли-нас / э-ли-НИ-да"
       },
       "themes": [
-        "people"
+        "properNouns"
       ],
       "labels": [
         "noun"
@@ -774,7 +778,11 @@
     },
     {
       "id": "languages-nationality-spanish",
-      "collection": "words-nouns",
+      "collection": "words-names",
+      "reviewIdentity": {
+        "deckId": "words-nouns",
+        "cardId": "languages-nationality-spanish"
+      },
       "greek": "Ισπανός",
       "prompt": {
         "en": "Spaniard",
@@ -786,7 +794,7 @@
         "ru": "и-спа-НОС / и-спа-НИ-да"
       },
       "themes": [
-        "people"
+        "properNouns"
       ],
       "labels": [
         "noun"
@@ -825,7 +833,11 @@
     },
     {
       "id": "languages-nationality-russian",
-      "collection": "words-nouns",
+      "collection": "words-names",
+      "reviewIdentity": {
+        "deckId": "words-nouns",
+        "cardId": "languages-nationality-russian"
+      },
       "greek": "Ρώσος",
       "prompt": {
         "en": "Russian (person)",
@@ -837,7 +849,7 @@
         "ru": "РО-сос / ро-СИ-да"
       },
       "themes": [
-        "people"
+        "properNouns"
       ],
       "labels": [
         "noun"
@@ -876,7 +888,11 @@
     },
     {
       "id": "languages-nationality-swiss",
-      "collection": "words-nouns",
+      "collection": "words-names",
+      "reviewIdentity": {
+        "deckId": "words-nouns",
+        "cardId": "languages-nationality-swiss"
+      },
       "greek": "Ελβετός",
       "prompt": {
         "en": "Swiss (person)",
@@ -888,7 +904,7 @@
         "ru": "эль-вэ-ТОС / эль-вэ-ТИ-да"
       },
       "themes": [
-        "people"
+        "properNouns"
       ],
       "labels": [
         "noun"
@@ -927,7 +943,11 @@
     },
     {
       "id": "languages-nationality-australian",
-      "collection": "words-nouns",
+      "collection": "words-names",
+      "reviewIdentity": {
+        "deckId": "words-nouns",
+        "cardId": "languages-nationality-australian"
+      },
       "greek": "Αυστραλός",
       "prompt": {
         "en": "Australian (person)",
@@ -939,7 +959,7 @@
         "ru": "аф-стра-ЛОС / аф-стра-ЛЭ-за"
       },
       "themes": [
-        "people"
+        "properNouns"
       ],
       "labels": [
         "noun"
@@ -978,7 +998,11 @@
     },
     {
       "id": "languages-nationality-polish",
-      "collection": "words-nouns",
+      "collection": "words-names",
+      "reviewIdentity": {
+        "deckId": "words-nouns",
+        "cardId": "languages-nationality-polish"
+      },
       "greek": "Πολωνός",
       "prompt": {
         "en": "Pole (person)",
@@ -990,7 +1014,7 @@
         "ru": "по-ло-НОС / по-ло-НИ / по-ло-НЭ-за"
       },
       "themes": [
-        "people"
+        "properNouns"
       ],
       "labels": [
         "noun"
@@ -1039,7 +1063,11 @@
     },
     {
       "id": "languages-nationality-swedish",
-      "collection": "words-nouns",
+      "collection": "words-names",
+      "reviewIdentity": {
+        "deckId": "words-nouns",
+        "cardId": "languages-nationality-swedish"
+      },
       "greek": "Σουηδός",
       "prompt": {
         "en": "Swede",
@@ -1051,7 +1079,7 @@
         "ru": "су-и-ДОС / су-и-ДЭ-за"
       },
       "themes": [
-        "people"
+        "properNouns"
       ],
       "labels": [
         "noun"
@@ -1090,7 +1118,11 @@
     },
     {
       "id": "languages-nationality-chinese",
-      "collection": "words-nouns",
+      "collection": "words-names",
+      "reviewIdentity": {
+        "deckId": "words-nouns",
+        "cardId": "languages-nationality-chinese"
+      },
       "greek": "Κινέζος",
       "prompt": {
         "en": "Chinese (person)",
@@ -1102,7 +1134,7 @@
         "ru": "ки-НЭ-зос / ки-НЭ-за"
       },
       "themes": [
-        "people"
+        "properNouns"
       ],
       "labels": [
         "noun"
@@ -1141,7 +1173,11 @@
     },
     {
       "id": "languages-nationality-japanese",
-      "collection": "words-nouns",
+      "collection": "words-names",
+      "reviewIdentity": {
+        "deckId": "words-nouns",
+        "cardId": "languages-nationality-japanese"
+      },
       "greek": "Γιαπωνέζος",
       "prompt": {
         "en": "Japanese (person)",
@@ -1153,7 +1189,7 @@
         "ru": "я-по-НЭ-зос / я-по-НЭ-за / И-а-по-нас"
       },
       "themes": [
-        "people"
+        "properNouns"
       ],
       "labels": [
         "noun"
@@ -1202,7 +1238,11 @@
     },
     {
       "id": "languages-nationality-albanian",
-      "collection": "words-nouns",
+      "collection": "words-names",
+      "reviewIdentity": {
+        "deckId": "words-nouns",
+        "cardId": "languages-nationality-albanian"
+      },
       "greek": "Αλβανός",
       "prompt": {
         "en": "Albanian (person)",
@@ -1214,7 +1254,7 @@
         "ru": "аль-ва-НОС / аль-ва-НИ / аль-ва-НИ-да"
       },
       "themes": [
-        "people"
+        "properNouns"
       ],
       "labels": [
         "noun"
@@ -1263,7 +1303,11 @@
     },
     {
       "id": "languages-nationality-ukrainian",
-      "collection": "words-nouns",
+      "collection": "words-names",
+      "reviewIdentity": {
+        "deckId": "words-nouns",
+        "cardId": "languages-nationality-ukrainian"
+      },
       "greek": "Ουκρανός",
       "prompt": {
         "en": "Ukrainian (person)",
@@ -1275,7 +1319,7 @@
         "ru": "у-кра-НОС / у-кра-НИ"
       },
       "themes": [
-        "people"
+        "properNouns"
       ],
       "labels": [
         "noun"
@@ -1314,7 +1358,11 @@
     },
     {
       "id": "languages-nationality-iraqi",
-      "collection": "words-nouns",
+      "collection": "words-names",
+      "reviewIdentity": {
+        "deckId": "words-nouns",
+        "cardId": "languages-nationality-iraqi"
+      },
       "greek": "Ιρακινός",
       "prompt": {
         "en": "Iraqi (person)",
@@ -1326,7 +1374,7 @@
         "ru": "и-ра-ки-НОС / и-ра-ки-НИ"
       },
       "themes": [
-        "people"
+        "properNouns"
       ],
       "labels": [
         "noun"
@@ -1365,7 +1413,11 @@
     },
     {
       "id": "languages-nationality-egyptian",
-      "collection": "words-nouns",
+      "collection": "words-names",
+      "reviewIdentity": {
+        "deckId": "words-nouns",
+        "cardId": "languages-nationality-egyptian"
+      },
       "greek": "Αιγύπτιος",
       "prompt": {
         "en": "Egyptian (person)",
@@ -1377,7 +1429,7 @@
         "ru": "э-ЙИП-ти-ос / э-ЙИП-тья"
       },
       "themes": [
-        "people"
+        "properNouns"
       ],
       "labels": [
         "noun"
@@ -1416,7 +1468,11 @@
     },
     {
       "id": "languages-nationality-bulgarian",
-      "collection": "words-nouns",
+      "collection": "words-names",
+      "reviewIdentity": {
+        "deckId": "words-nouns",
+        "cardId": "languages-nationality-bulgarian"
+      },
       "greek": "Βούλγαρος",
       "prompt": {
         "en": "Bulgarian (person)",
@@ -1428,7 +1484,7 @@
         "ru": "ВУЛ-га-рос / вул-ГА-ра"
       },
       "themes": [
-        "people"
+        "properNouns"
       ],
       "labels": [
         "noun"
@@ -1467,7 +1523,11 @@
     },
     {
       "id": "languages-nationality-turkish",
-      "collection": "words-nouns",
+      "collection": "words-names",
+      "reviewIdentity": {
+        "deckId": "words-nouns",
+        "cardId": "languages-nationality-turkish"
+      },
       "greek": "Τούρκος",
       "prompt": {
         "en": "Turk (person)",
@@ -1479,7 +1539,7 @@
         "ru": "ТУР-кос / тур-КА-ла"
       },
       "themes": [
-        "people"
+        "properNouns"
       ],
       "labels": [
         "noun"
@@ -1518,7 +1578,11 @@
     },
     {
       "id": "languages-nationality-italian",
-      "collection": "words-nouns",
+      "collection": "words-names",
+      "reviewIdentity": {
+        "deckId": "words-nouns",
+        "cardId": "languages-nationality-italian"
+      },
       "greek": "Ιταλός",
       "prompt": {
         "en": "Italian (person)",
@@ -1530,7 +1594,7 @@
         "ru": "и-та-ЛОС / и-та-ЛИ-да"
       },
       "themes": [
-        "people"
+        "properNouns"
       ],
       "labels": [
         "noun"
@@ -1569,7 +1633,11 @@
     },
     {
       "id": "languages-nationality-german",
-      "collection": "words-nouns",
+      "collection": "words-names",
+      "reviewIdentity": {
+        "deckId": "words-nouns",
+        "cardId": "languages-nationality-german"
+      },
       "greek": "Γερμανός",
       "prompt": {
         "en": "German (person)",
@@ -1581,7 +1649,7 @@
         "ru": "йэр-ма-НОС / йэр-ма-НИ-да"
       },
       "themes": [
-        "people"
+        "properNouns"
       ],
       "labels": [
         "noun"
@@ -1620,7 +1688,11 @@
     },
     {
       "id": "languages-spanish-language",
-      "collection": "words-nouns",
+      "collection": "words-names",
+      "reviewIdentity": {
+        "deckId": "words-nouns",
+        "cardId": "languages-spanish-language"
+      },
       "greek": "ισπανικά",
       "prompt": {
         "en": "Spanish (language)",
@@ -1632,7 +1704,7 @@
         "ru": "и-спа-ни-КА"
       },
       "themes": [
-        "classroom"
+        "properNouns"
       ],
       "labels": [
         "noun"
@@ -1645,7 +1717,11 @@
     },
     {
       "id": "languages-russian-language",
-      "collection": "words-nouns",
+      "collection": "words-names",
+      "reviewIdentity": {
+        "deckId": "words-nouns",
+        "cardId": "languages-russian-language"
+      },
       "greek": "ρωσικά",
       "prompt": {
         "en": "Russian (language)",
@@ -1657,7 +1733,7 @@
         "ru": "ро-си-КА"
       },
       "themes": [
-        "classroom"
+        "properNouns"
       ],
       "labels": [
         "noun"
@@ -1676,7 +1752,11 @@
     },
     {
       "id": "languages-german-language",
-      "collection": "words-nouns",
+      "collection": "words-names",
+      "reviewIdentity": {
+        "deckId": "words-nouns",
+        "cardId": "languages-german-language"
+      },
       "greek": "γερμανικά",
       "prompt": {
         "en": "German (language)",
@@ -1688,7 +1768,7 @@
         "ru": "йэр-ма-ни-КА"
       },
       "themes": [
-        "classroom"
+        "properNouns"
       ],
       "labels": [
         "noun"
@@ -1701,7 +1781,11 @@
     },
     {
       "id": "languages-french-language",
-      "collection": "words-nouns",
+      "collection": "words-names",
+      "reviewIdentity": {
+        "deckId": "words-nouns",
+        "cardId": "languages-french-language"
+      },
       "greek": "γαλλικά",
       "prompt": {
         "en": "French (language)",
@@ -1713,7 +1797,7 @@
         "ru": "га-ли-КА"
       },
       "themes": [
-        "classroom"
+        "properNouns"
       ],
       "labels": [
         "noun"
@@ -1726,7 +1810,11 @@
     },
     {
       "id": "languages-italian-language",
-      "collection": "words-nouns",
+      "collection": "words-names",
+      "reviewIdentity": {
+        "deckId": "words-nouns",
+        "cardId": "languages-italian-language"
+      },
       "greek": "ιταλικά",
       "prompt": {
         "en": "Italian (language)",
@@ -1738,7 +1826,7 @@
         "ru": "и-та-ли-КА"
       },
       "themes": [
-        "classroom"
+        "properNouns"
       ],
       "labels": [
         "noun"
@@ -1751,7 +1839,11 @@
     },
     {
       "id": "languages-english-language",
-      "collection": "words-nouns",
+      "collection": "words-names",
+      "reviewIdentity": {
+        "deckId": "words-nouns",
+        "cardId": "languages-english-language"
+      },
       "greek": "αγγλικά",
       "prompt": {
         "en": "English (language)",
@@ -1763,7 +1855,7 @@
         "ru": "анг-гли-КА"
       },
       "themes": [
-        "classroom"
+        "properNouns"
       ],
       "labels": [
         "noun"
@@ -1776,7 +1868,11 @@
     },
     {
       "id": "languages-polish-language",
-      "collection": "words-nouns",
+      "collection": "words-names",
+      "reviewIdentity": {
+        "deckId": "words-nouns",
+        "cardId": "languages-polish-language"
+      },
       "greek": "πολωνικά",
       "prompt": {
         "en": "Polish (language)",
@@ -1788,7 +1884,7 @@
         "ru": "по-ло-ни-КА"
       },
       "themes": [
-        "classroom"
+        "properNouns"
       ],
       "labels": [
         "noun"
@@ -1801,7 +1897,11 @@
     },
     {
       "id": "languages-swedish-language",
-      "collection": "words-nouns",
+      "collection": "words-names",
+      "reviewIdentity": {
+        "deckId": "words-nouns",
+        "cardId": "languages-swedish-language"
+      },
       "greek": "σουηδικά",
       "prompt": {
         "en": "Swedish (language)",
@@ -1813,7 +1913,7 @@
         "ru": "су-и-ди-КА"
       },
       "themes": [
-        "classroom"
+        "properNouns"
       ],
       "labels": [
         "noun"
@@ -1826,7 +1926,11 @@
     },
     {
       "id": "languages-chinese-language",
-      "collection": "words-nouns",
+      "collection": "words-names",
+      "reviewIdentity": {
+        "deckId": "words-nouns",
+        "cardId": "languages-chinese-language"
+      },
       "greek": "κινέζικα",
       "prompt": {
         "en": "Chinese (language)",
@@ -1838,7 +1942,7 @@
         "ru": "ки-НЭ-зи-ка"
       },
       "themes": [
-        "classroom"
+        "properNouns"
       ],
       "labels": [
         "noun"
@@ -1857,7 +1961,11 @@
     },
     {
       "id": "languages-japanese-language",
-      "collection": "words-nouns",
+      "collection": "words-names",
+      "reviewIdentity": {
+        "deckId": "words-nouns",
+        "cardId": "languages-japanese-language"
+      },
       "greek": "γιαπωνέζικα",
       "prompt": {
         "en": "Japanese (language)",
@@ -1869,7 +1977,7 @@
         "ru": "я-по-НЭ-зи-ка"
       },
       "themes": [
-        "classroom"
+        "properNouns"
       ],
       "labels": [
         "noun"
@@ -1888,7 +1996,11 @@
     },
     {
       "id": "languages-albanian-language",
-      "collection": "words-nouns",
+      "collection": "words-names",
+      "reviewIdentity": {
+        "deckId": "words-nouns",
+        "cardId": "languages-albanian-language"
+      },
       "greek": "αλβανικά",
       "prompt": {
         "en": "Albanian (language)",
@@ -1900,7 +2012,7 @@
         "ru": "аль-ва-ни-КА"
       },
       "themes": [
-        "classroom"
+        "properNouns"
       ],
       "labels": [
         "noun"
@@ -1913,7 +2025,11 @@
     },
     {
       "id": "languages-ukrainian-language",
-      "collection": "words-nouns",
+      "collection": "words-names",
+      "reviewIdentity": {
+        "deckId": "words-nouns",
+        "cardId": "languages-ukrainian-language"
+      },
       "greek": "ουκρανικά",
       "prompt": {
         "en": "Ukrainian (language)",
@@ -1925,7 +2041,7 @@
         "ru": "у-кра-ни-КА"
       },
       "themes": [
-        "classroom"
+        "properNouns"
       ],
       "labels": [
         "noun"
@@ -1938,7 +2054,11 @@
     },
     {
       "id": "languages-arabic-language",
-      "collection": "words-nouns",
+      "collection": "words-names",
+      "reviewIdentity": {
+        "deckId": "words-nouns",
+        "cardId": "languages-arabic-language"
+      },
       "greek": "αραβικά",
       "prompt": {
         "en": "Arabic (language)",
@@ -1950,7 +2070,7 @@
         "ru": "а-ра-ви-КА"
       },
       "themes": [
-        "classroom"
+        "properNouns"
       ],
       "labels": [
         "noun"
@@ -1963,7 +2083,11 @@
     },
     {
       "id": "languages-bulgarian-language",
-      "collection": "words-nouns",
+      "collection": "words-names",
+      "reviewIdentity": {
+        "deckId": "words-nouns",
+        "cardId": "languages-bulgarian-language"
+      },
       "greek": "βουλγαρικά",
       "prompt": {
         "en": "Bulgarian (language)",
@@ -1975,7 +2099,7 @@
         "ru": "вул-га-ри-КА"
       },
       "themes": [
-        "classroom"
+        "properNouns"
       ],
       "labels": [
         "noun"
@@ -1994,7 +2118,11 @@
     },
     {
       "id": "languages-turkish-language",
-      "collection": "words-nouns",
+      "collection": "words-names",
+      "reviewIdentity": {
+        "deckId": "words-nouns",
+        "cardId": "languages-turkish-language"
+      },
       "greek": "τουρκικά",
       "prompt": {
         "en": "Turkish (language)",
@@ -2006,7 +2134,7 @@
         "ru": "тур-ки-КА"
       },
       "themes": [
-        "classroom"
+        "properNouns"
       ],
       "labels": [
         "noun"
@@ -2031,7 +2159,7 @@
         "ru": "аль-ва-НИ-а"
       },
       "themes": [
-        "places"
+        "properNouns"
       ],
       "labels": [
         "noun"
@@ -2056,7 +2184,7 @@
         "ru": "су-и-ДИ-а"
       },
       "themes": [
-        "places"
+        "properNouns"
       ],
       "labels": [
         "noun"
@@ -2081,7 +2209,7 @@
         "ru": "по-ло-НИ-а"
       },
       "themes": [
-        "places"
+        "properNouns"
       ],
       "labels": [
         "noun"
@@ -2106,7 +2234,7 @@
         "ru": "я-по-НИ-а"
       },
       "themes": [
-        "places"
+        "properNouns"
       ],
       "labels": [
         "noun"
@@ -2131,7 +2259,7 @@
         "ru": "аф-стра-ЛИ-а"
       },
       "themes": [
-        "places"
+        "properNouns"
       ],
       "labels": [
         "noun"
@@ -2156,7 +2284,7 @@
         "ru": "ВО-рья а-мэ-ри-КИ"
       },
       "themes": [
-        "places"
+        "properNouns"
       ],
       "labels": [
         "noun"
@@ -2181,7 +2309,7 @@
         "ru": "НО-тья а-мэ-ри-КИ"
       },
       "themes": [
-        "places"
+        "properNouns"
       ],
       "labels": [
         "noun"

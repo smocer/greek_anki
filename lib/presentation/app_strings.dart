@@ -1,6 +1,7 @@
 import 'package:flutter/widgets.dart';
 
 import '../domain/app_language.dart';
+import '../domain/curriculum.dart';
 import '../domain/vocabulary_category.dart';
 
 extension LocalizedContext on BuildContext {
@@ -31,17 +32,51 @@ class AppStrings {
   String get applyFilters => _pick('Apply filters', 'Применить', '应用筛选');
   String get themeFilter => _pick('Theme', 'Тема', '主题');
   String get allThemes => _pick('All themes', 'Все темы', '全部主题');
+  List<LearningTheme> get orderedThemes {
+    final themes = List.of(LearningTheme.values);
+    if (language == AppLanguage.chinese) {
+      themes.sort((a, b) {
+        final length = text(
+          a.title,
+        ).runes.length.compareTo(text(b.title).runes.length);
+        return length == 0 ? a.index.compareTo(b.index) : length;
+      });
+    }
+    return themes;
+  }
+
+  String get excludeThemes =>
+      _pick('Exclude themes', 'Исключить темы', '非（排除主题）');
+  String get excludeThemesHint => _pick(
+    'Select one or more themes to leave out',
+    'Выберите одну или несколько тем для исключения',
+    '可多选，排除属于任一所选主题的词卡',
+  );
   String get sessionSize => _pick(
-    'Up to 15 cards per session · due cards first',
-    'До 15 карточек за раз · с учётом повторений',
-    '每次最多 15 张卡片 · 优先复习到期卡片',
+    'Custom count: due cards first · All: every filtered card',
+    'Укажите количество: сначала повторение · Все: все карточки фильтра',
+    '自定义数量优先复习到期卡片 · 全部：练习当前筛选的所有词卡',
+  );
+  String get sessionCount =>
+      _pick('Cards per session', 'Карточек за раз', '每轮词卡数量');
+  String get allCards => _pick('All', 'Все', '全部');
+  String get cardOrder => _pick('Card order', 'Порядок карточек', '词卡抽取顺序');
+  String cardOrderTitle(CardOrder order) => switch (order) {
+    CardOrder.random => _pick('Random', 'Случайный', '随机'),
+    CardOrder.alphabet => _pick('Alphabetical', 'По алфавиту', '按字母表'),
+    CardOrder.addedTime => _pick('Newest first', 'Сначала новые', '按时间（最新优先）'),
+  };
+  String get invalidSessionCount => _pick(
+    'Enter a positive number',
+    'Введите положительное число',
+    '请输入大于 0 的整数',
   );
   String get headline =>
-      _pick('Greek,\nby heart.', 'Греческий\nнаизусть.', '用心记住，\n希腊语。');
+      _pick('Greek,\nby heart.', 'Греческий\nнаизусть.', '逆天希腊语的学习之旅');
   String get tagline => _pick(
     'A little practice. A lasting memory.',
     'Немного практики — надолго в памяти.',
-    '每天练一点，记忆更长久。',
+    '为了东罗马！！！😡',
   );
   String get languageLabel =>
       _pick('Learning language', 'Язык обучения', '学习语言');
@@ -128,13 +163,13 @@ class AppStrings {
   String get flashcardsDescription => _pick(
     'Think, flip, remember.',
     'Вспомните, откройте, запомните.',
-    '回想、翻面、记住。',
+    '翻来覆去,这还得熬多久~',
   );
   String get hardMode => _pick('Hard mode', 'Сложный режим', '默写模式');
   String get hardDescription => _pick(
     'Write the answer in Greek.',
     'Напишите ответ по-гречески.',
-    '用希腊语写出答案。',
+    '用希腊键盘拼写',
   );
   String get offlineFooter => _pick(
     'Offline. At your pace. Progress saved.',
@@ -222,7 +257,7 @@ class AppStrings {
           'Неделя с 28.09 и ранее',
           '9 月 28 日当周及更早',
         )
-      : _pick('Week of $date', 'Неделя с $date', '9 月 28 日当周及更早');
+      : _pick('Week of $date', 'Неделя с $date', '$date 当周');
   String get categoryHint => _pick(
     'Newest additions first · Topic also includes phrases and sentences.',
     'Новые добавления сверху · В темах также есть фразы и предложения.',

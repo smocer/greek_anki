@@ -31,11 +31,106 @@ void main() {
 
   Future<void> tapText(WidgetTester tester, String text) async {
     final target = find.text(text).last;
+    if (find.text(text).evaluate().isEmpty) {
+      await tester.scrollUntilVisible(
+        find.text(text),
+        150,
+        scrollable: find.byType(Scrollable).first,
+      );
+    }
     await tester.ensureVisible(target);
     await tester.pumpAndSettle();
     await tester.tap(target);
     await tester.pumpAndSettle();
   }
+
+  testWidgets(
+    'session count supports custom values, validation and all cards',
+    (tester) async {
+      await openApp(tester);
+      final input = find.byKey(const ValueKey('session-count'));
+      await tester.ensureVisible(input);
+      await tester.enterText(input, '0');
+      await tester.pumpAndSettle();
+      expect(find.text('Enter a positive number'), findsOneWidget);
+      await tester.enterText(input, '3');
+      await tapText(tester, 'Flashcards');
+      expect(
+        tester.widget<StudyScreen>(find.byType(StudyScreen)).cards,
+        hasLength(3),
+      );
+      expect(
+        tester.widget<StudyScreen>(find.byType(StudyScreen)).sessionLimit,
+        3,
+      );
+      await tester.tap(find.byIcon(Icons.close_rounded));
+      await tester.pumpAndSettle();
+      final all = find.byKey(const ValueKey('session-all'));
+      await tester.ensureVisible(all);
+      await tester.tap(all);
+      await tester.pumpAndSettle();
+      final totalText = tester.widget<TextField>(input).controller!.text;
+      final order = find.byKey(const ValueKey('session-order'));
+      await tester.ensureVisible(order);
+      await tester.tap(order);
+      await tester.pumpAndSettle();
+      await tapText(tester, 'Alphabetical');
+      await tapText(tester, 'Flashcards');
+      final screen = tester.widget<StudyScreen>(find.byType(StudyScreen));
+      expect(screen.cards.length, screen.deck.cards.length);
+      expect(screen.sessionLimit, isNull);
+      expect(totalText, '${screen.deck.cards.length}');
+      expect(screen.cardOrder, CardOrder.alphabet);
+    },
+  );
+
+  testWidgets(
+    'excluded themes preview, apply and persist when reopening filters',
+    (tester) async {
+      await openApp(tester);
+      await tester.tap(find.byKey(const ValueKey('choose-category')));
+      await tester.pumpAndSettle();
+      await tester.tap(find.byKey(const ValueKey('exclude-themes')));
+      await tester.pumpAndSettle();
+      for (final name in ['home', 'classroom']) {
+        final chip = find.byKey(ValueKey('exclude-$name'));
+        await tester.ensureVisible(chip);
+        await tester.pumpAndSettle();
+        await tester.tap(chip);
+        await tester.pumpAndSettle();
+      }
+      final picker = tester.widget<TopicPicker>(find.byType(TopicPicker));
+      final preview = tester.widget<VocabularyPreview>(
+        find.byType(VocabularyPreview),
+      );
+      expect(preview.cards, isNotEmpty);
+      for (final card in preview.cards) {
+        expect(
+          picker.collection.themes[card.id] ?? {},
+          isNot(contains(LearningTheme.home)),
+        );
+        expect(
+          picker.collection.themes[card.id] ?? {},
+          isNot(contains(LearningTheme.classroom)),
+        );
+      }
+      await tester.tap(find.byKey(const ValueKey('use-category')));
+      await tester.pumpAndSettle();
+      final filter = find.byKey(const ValueKey('choose-category'));
+      await tester.ensureVisible(filter);
+      expect(find.textContaining('Exclude themes：'), findsOneWidget);
+      await tester.tap(filter);
+      await tester.pumpAndSettle();
+      for (final name in ['home', 'classroom']) {
+        expect(
+          tester
+              .widget<FilterChip>(find.byKey(ValueKey('exclude-$name')))
+              .selected,
+          isTrue,
+        );
+      }
+    },
+  );
 
   for (final language in AppLanguage.values) {
     for (final cls in ['B1', 'B2']) {
@@ -132,22 +227,17 @@ void main() {
       'names can be selected and studied separately (${language.name})',
       (tester) async {
         await openApp(tester, language: language);
-        await tester.tap(find.byKey(const ValueKey('collection-words')));
+        expect(find.byKey(const ValueKey('noun-subcategory')), findsNothing);
+        await tester.tap(find.byKey(const ValueKey('choose-category')));
+        await tester.pumpAndSettle();
+        await tester.tap(find.byKey(const ValueKey('collection-theme')));
         await tester.pumpAndSettle();
         await tapText(
           tester,
           LocalizedText(
-            en: 'Names & places',
-            ru: 'Имена и названия',
-            zh: '人名与地名',
-          ).resolve(language),
-        );
-        await tapText(
-          tester,
-          LocalizedText(
-            en: 'Filters',
-            ru: 'Фильтры',
-            zh: '筛选',
+            en: 'Proper nouns',
+            ru: 'Имена собственные',
+            zh: '专有名词',
           ).resolve(language),
         );
         await tester.enterText(
@@ -207,7 +297,11 @@ void main() {
         await tester.pumpAndSettle();
         await tapText(
           tester,
-          LocalizedText(en: 'Family', ru: 'Семья', zh: '家庭').resolve(language),
+          LocalizedText(
+            en: 'Home & everyday life',
+            ru: 'Дом и быт',
+            zh: '家庭&日常生活',
+          ).resolve(language),
         );
         await tester.enterText(
           find.byKey(const ValueKey('topic-search')),
@@ -314,16 +408,16 @@ void main() {
     final theme = find.byKey(const ValueKey('collection-theme'));
     await tester.tap(theme);
     await tester.pumpAndSettle();
-    await tapText(tester, 'Phone');
+    await tapText(tester, 'Conversation');
     final filtered = tester.widget<VocabularyPreview>(
       find.byType(VocabularyPreview),
     );
-    expect(filtered.cards.length, lessThan(15));
+    expect(filtered.cards, isNotEmpty);
     expect(
       tester
           .widget<DropdownButtonFormField<LearningTheme?>>(theme)
           .initialValue,
-      LearningTheme.phone,
+      LearningTheme.conversation,
     );
     await tester.tap(theme);
     await tester.pumpAndSettle();

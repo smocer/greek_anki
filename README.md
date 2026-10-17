@@ -21,7 +21,7 @@ Choose **Filters** to narrow a group by theme, addition week or an English, Russ
 
 Correct stress is required. Missing, misplaced or extra accents are incorrect. Capitalization and sentence punctuation are optional. Articles are optional for noun vocabulary; grammatical endings and articles remain part of phrase and grammar answers. Standard listed alternatives such as **εφτά / επτά**, **οκτώ / οχτώ** and **εννέα / εννιά** are accepted. The default for 7 is **εφτά**.
 
-Sessions contain up to **15 cards**, sampled from due and new cards first. If none are due, you can practise a fresh sample from the group. Missed cards return after two other cards when possible. A session ends when its batch has been recalled correctly; another round selects a new batch.
+Choose the number of cards per session (default **15**), sampled from due and new cards first. If none are due, you can practise a fresh sample from the group. Choose **All** to practise every card in the current filtered group, including cards not yet due; the count displays the group's total. Choose random order (default), Greek alphabetical order, or newest additions first. Missed cards return after two other cards when possible. A session ends when its batch has been recalled correctly; another round uses the same count and order settings.
 
 **English / Русский** switches the interface, translations, explanations and pronunciation guides together. Russian explanations compare familiar cases, ты/Вы, grammatical gender and word roots with their Greek counterparts. Pronunciation guides are approximate aids.
 

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 
 import '../domain/app_language.dart';
 import '../domain/app_updates.dart';
@@ -35,7 +36,37 @@ class _HomeScreenState extends State<HomeScreen> with WidgetsBindingObserver {
   LearningSection _section = LearningSection.words;
   late LearningCollection _collection = widget.collections.first;
   CollectionSelection? _selection;
-  VocabularyDeck get _deck => _selection?.deck ?? _collection.deck;
+  final _count = TextEditingController(text: '15');
+  bool _allCards = false;
+  String _customCount = '15';
+  CardOrder _cardOrder = CardOrder.random;
+  LearningCollection get _activeCollection {
+    if (_collection.deck.id != 'words-nouns') return _collection;
+    final names = widget.collections
+        .where((c) => c.deck.id == 'words-names')
+        .firstOrNull;
+    if (names == null) return _collection;
+    final nouns = _collection.deck;
+    return LearningCollection(
+      section: _collection.section,
+      deck: VocabularyDeck(
+        id: nouns.id,
+        title: nouns.title,
+        subtitle: nouns.subtitle,
+        cover: nouns.cover,
+        note: nouns.note,
+        cards: [...nouns.cards, ...names.deck.cards],
+      ),
+      themes: {..._collection.themes, ...names.themes},
+    );
+  }
+
+  int? get _sessionLimit => _allCards ? null : int.tryParse(_count.text);
+  VocabularyDeck get _deck => _selection?.deck ?? _activeCollection.deck;
+
+  void _syncCount() {
+    if (_allCards) _count.text = '${_deck.cards.length}';
+  }
 
   @override
   void initState() {
@@ -46,6 +77,7 @@ class _HomeScreenState extends State<HomeScreen> with WidgetsBindingObserver {
   @override
   void dispose() {
     WidgetsBinding.instance.removeObserver(this);
+    _count.dispose();
     super.dispose();
   }
 
@@ -58,15 +90,24 @@ class _HomeScreenState extends State<HomeScreen> with WidgetsBindingObserver {
     _collection = collection;
     _section = collection.section;
     _selection = null;
+    _syncCount();
   });
 
   Future<void> _start(StudyMode mode) async {
+    final limit = _sessionLimit;
+    if (!_allCards && (limit == null || limit < 1)) return;
     final due = widget.progress.dueCards(_deck, mode);
     await Navigator.of(context).push(
       MaterialPageRoute<void>(
         builder: (_) => StudyScreen(
           deck: _deck,
-          cards: sessionBatch(due.isEmpty ? _deck.cards : due),
+          cards: sessionBatch(
+            _allCards || due.isEmpty ? _deck.cards : due,
+            limit: limit ?? _deck.cards.length,
+            order: _cardOrder,
+          ),
+          sessionLimit: limit,
+          cardOrder: _cardOrder,
           mode: mode,
           progress: widget.progress,
         ),
@@ -82,9 +123,14 @@ class _HomeScreenState extends State<HomeScreen> with WidgetsBindingObserver {
       showDragHandle: true,
       useSafeArea: true,
       builder: (_) =>
-          TopicPicker(collection: _collection, selection: _selection),
+          TopicPicker(collection: _activeCollection, selection: _selection),
     );
-    if (mounted && selected != null) setState(() => _selection = selected);
+    if (mounted && selected != null) {
+      setState(() {
+        _selection = selected;
+        _syncCount();
+      });
+    }
   }
 
   void _reference() => showModalBottomSheet<void>(
@@ -194,7 +240,8 @@ class _HomeScreenState extends State<HomeScreen> with WidgetsBindingObserver {
                   ),
                   items: [
                     for (final c in widget.collections.where(
-                      (c) => c.section == _section,
+                      (c) =>
+                          c.section == _section && c.deck.id != 'words-names',
                     ))
                       DropdownMenuItem(
                         value: c.deck.id,
@@ -214,77 +261,214 @@ class _HomeScreenState extends State<HomeScreen> with WidgetsBindingObserver {
                 ),
                 const SizedBox(height: 16),
                 Container(
-                  padding: const EdgeInsets.all(20),
+                  padding: const EdgeInsets.all(16),
                   decoration: BoxDecoration(
                     color: Palette.lime,
                     borderRadius: BorderRadius.circular(24),
                   ),
-                  child: Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
+                  child: Row(
+                    crossAxisAlignment: CrossAxisAlignment.end,
                     children: [
-                      Text(
-                        context.localize(_deck.subtitle),
-                        style: const TextStyle(fontSize: 15),
-                      ),
-                      const SizedBox(height: 10),
-                      Text(
-                        context.strings.cardCount(_deck.cards.length),
-                        style: const TextStyle(fontSize: 12),
-                      ),
-                      if (_selection != null)
-                        Padding(
-                          padding: const EdgeInsets.only(top: 6),
-                          child: Text(
-                            _selection!.description(context.strings),
-                            style: const TextStyle(fontSize: 12),
-                          ),
-                        ),
-                      const SizedBox(height: 8),
-                      Wrap(
-                        spacing: 12,
-                        children: [
-                          TextButton.icon(
-                            key: const ValueKey('choose-category'),
-                            onPressed: _filter,
-                            icon: const Icon(Icons.tune_rounded, size: 18),
-                            label: Text(context.strings.filters),
-                          ),
-                          TextButton.icon(
-                            onPressed: () => showModalBottomSheet<void>(
-                              context: context,
-                              isScrollControlled: true,
-                              showDragHandle: true,
-                              useSafeArea: true,
-                              builder: (_) => VocabularySheet(
-                                deck: _deck,
-                                catalogCards: widget.collections
-                                    .expand((c) => c.deck.cards)
-                                    .toList(),
+                      Expanded(
+                        flex: 5,
+                        child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            Text(
+                              context.strings.language == AppLanguage.chinese
+                                  ? '${context.localize(_deck.subtitle)}（共${_deck.cards.length}张）'
+                                  : context.localize(_deck.subtitle),
+                              style: const TextStyle(
+                                fontSize: 20,
+                                fontWeight: FontWeight.w600,
+                                height: 1.4,
                               ),
                             ),
-                            icon: const Icon(
-                              Icons.arrow_outward_rounded,
-                              size: 18,
+                            if (context.strings.language !=
+                                AppLanguage.chinese) ...[
+                              const SizedBox(height: 10),
+                              Text(
+                                context.strings.cardCount(_deck.cards.length),
+                                style: const TextStyle(fontSize: 12),
+                              ),
+                            ],
+                            const SizedBox(height: 8),
+                            Column(
+                              crossAxisAlignment: CrossAxisAlignment.start,
+                              children: [
+                                TextButton.icon(
+                                  style: TextButton.styleFrom(
+                                    alignment: Alignment.centerLeft,
+                                    padding: const EdgeInsets.symmetric(
+                                      horizontal: 4,
+                                      vertical: 8,
+                                    ),
+                                  ),
+                                  onPressed: () => showModalBottomSheet<void>(
+                                    context: context,
+                                    isScrollControlled: true,
+                                    showDragHandle: true,
+                                    useSafeArea: true,
+                                    builder: (_) => VocabularySheet(
+                                      deck: _deck,
+                                      catalogCards: widget.collections
+                                          .expand((c) => c.deck.cards)
+                                          .toList(),
+                                    ),
+                                  ),
+                                  icon: const Icon(
+                                    Icons.arrow_outward_rounded,
+                                    size: 18,
+                                  ),
+                                  label: Text(context.strings.browse),
+                                ),
+                                Row(
+                                  crossAxisAlignment: CrossAxisAlignment.center,
+                                  children: [
+                                    Expanded(
+                                      flex: 3,
+                                      child: TextButton.icon(
+                                        key: const ValueKey('choose-category'),
+                                        onPressed: _filter,
+                                        style: TextButton.styleFrom(
+                                          alignment: Alignment.centerLeft,
+                                          padding: const EdgeInsets.symmetric(
+                                            horizontal: 4,
+                                            vertical: 8,
+                                          ),
+                                        ),
+                                        icon: const Icon(
+                                          Icons.tune_rounded,
+                                          size: 18,
+                                        ),
+                                        label: Text(
+                                          _selection == null
+                                              ? context.strings.filters
+                                              : '${context.strings.filters}（${_selection!.description(context.strings)}）',
+                                          maxLines: 3,
+                                          overflow: TextOverflow.ellipsis,
+                                        ),
+                                      ),
+                                    ),
+                                    if (_selection != null)
+                                      Flexible(
+                                        flex: 2,
+                                        child: TextButton(
+                                          style: TextButton.styleFrom(
+                                            padding: const EdgeInsets.symmetric(
+                                              horizontal: 4,
+                                              vertical: 8,
+                                            ),
+                                            minimumSize: const Size(0, 40),
+                                            textStyle: const TextStyle(
+                                              fontSize: 12,
+                                            ),
+                                          ),
+                                          onPressed: () => setState(() {
+                                            _selection = null;
+                                            _syncCount();
+                                          }),
+                                          child: Text(
+                                            context.strings.clearFilters,
+                                          ),
+                                        ),
+                                      ),
+                                  ],
+                                ),
+                              ],
                             ),
-                            label: Text(context.strings.browse),
-                          ),
-                          if (_selection != null)
-                            TextButton(
-                              onPressed: () =>
-                                  setState(() => _selection = null),
-                              child: Text(context.strings.clearFilters),
+                          ],
+                        ),
+                      ),
+                      const SizedBox(width: 12),
+                      Expanded(
+                        flex: 6,
+                        child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            Row(
+                              children: [
+                                Expanded(
+                                  child: TextField(
+                                    key: const ValueKey('session-count'),
+                                    controller: _count,
+                                    enabled: !_allCards,
+                                    keyboardType: TextInputType.number,
+                                    inputFormatters: [
+                                      FilteringTextInputFormatter.digitsOnly,
+                                    ],
+                                    onChanged: (_) => setState(() {}),
+                                    decoration: InputDecoration(
+                                      labelText: context.strings.sessionCount,
+                                      isDense: true,
+                                      contentPadding:
+                                          const EdgeInsets.symmetric(
+                                            horizontal: 12,
+                                            vertical: 10,
+                                          ),
+                                      errorText:
+                                          !_allCards &&
+                                              (_sessionLimit == null ||
+                                                  _sessionLimit! < 1)
+                                          ? context.strings.invalidSessionCount
+                                          : null,
+                                    ),
+                                  ),
+                                ),
+                                const SizedBox(width: 6),
+                                FilterChip(
+                                  key: const ValueKey('session-all'),
+                                  label: Text(context.strings.allCards),
+                                  selected: _allCards,
+                                  onSelected: (value) => setState(() {
+                                    if (value) _customCount = _count.text;
+                                    _allCards = value;
+                                    if (value) {
+                                      _syncCount();
+                                    } else {
+                                      _count.text = _customCount;
+                                    }
+                                  }),
+                                ),
+                              ],
                             ),
-                        ],
+                            const SizedBox(height: 12),
+                            DropdownButtonFormField<CardOrder>(
+                              key: const ValueKey('session-order'),
+                              initialValue: _cardOrder,
+                              isExpanded: true,
+                              decoration: InputDecoration(
+                                labelText: context.strings.cardOrder,
+                                isDense: true,
+                                contentPadding: const EdgeInsets.symmetric(
+                                  horizontal: 12,
+                                  vertical: 10,
+                                ),
+                              ),
+                              items: [
+                                for (final order in CardOrder.values)
+                                  DropdownMenuItem(
+                                    value: order,
+                                    child: Text(
+                                      context.strings.cardOrderTitle(order),
+                                      overflow: TextOverflow.ellipsis,
+                                      style: const TextStyle(fontSize: 13),
+                                    ),
+                                  ),
+                              ],
+                              onChanged: (order) {
+                                if (order != null) {
+                                  setState(() => _cardOrder = order);
+                                }
+                              },
+                            ),
+                          ],
+                        ),
                       ),
                     ],
                   ),
                 ),
                 const SizedBox(height: 20),
-                Text(
-                  context.strings.sessionSize,
-                  style: const TextStyle(color: Palette.muted, fontSize: 12),
-                ),
-                const SizedBox(height: 12),
                 for (final mode in StudyMode.values) ...[
                   _ModeTile(
                     title: mode == StudyMode.typing
@@ -300,7 +484,12 @@ class _HomeScreenState extends State<HomeScreen> with WidgetsBindingObserver {
                     learned: widget.progress.learned(_deck, mode),
                     due: widget.progress.dueCards(_deck, mode).length,
                     total: _deck.cards.length,
-                    onTap: _deck.cards.isEmpty ? null : () => _start(mode),
+                    onTap:
+                        _deck.cards.isEmpty ||
+                            (!_allCards &&
+                                (_sessionLimit == null || _sessionLimit! < 1))
+                        ? null
+                        : () => _start(mode),
                   ),
                   const SizedBox(height: 12),
                 ],

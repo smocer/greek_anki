@@ -203,7 +203,7 @@ void main() {
     () {
       final nouns = collection('words-nouns');
       final now = DateTime(2026, 10, 8);
-      final family = nouns.filter(theme: LearningTheme.family, now: now);
+      final family = nouns.filter(theme: LearningTheme.home, now: now);
       expect(
         family.cards.map((c) => c.greek),
         containsAll([
@@ -218,14 +218,14 @@ void main() {
       expect(family.cards.any((c) => c.greek == 'καφενείο'), isFalse);
       expect(
         nouns
-            .filter(theme: LearningTheme.family, query: 'ξάδερφος', now: now)
+            .filter(theme: LearningTheme.home, query: 'ξάδερφος', now: now)
             .cards
             .single
             .greek,
         'ξάδελφος',
       );
       final recent = nouns.filter(
-        theme: LearningTheme.family,
+        theme: LearningTheme.home,
         period: VocabularyPeriod.thisWeek,
         now: now,
       );
@@ -233,7 +233,7 @@ void main() {
       expect(recent.cards.any((c) => c.greek == 'παιδί'), isFalse);
       final possession = collection(
         'grammar-possession',
-      ).filter(theme: LearningTheme.family, now: now);
+      ).filter(theme: LearningTheme.home, now: now);
       expect(
         possession.cards.map((c) => c.greek),
         contains('Αυτή είναι η οικογένειά μου.'),

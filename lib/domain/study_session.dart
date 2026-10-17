@@ -12,8 +12,9 @@ class StudySession extends ChangeNotifier {
     required List<VocabularyCard> cards,
     required this.mode,
     Random? random,
+    bool shuffle = true,
     this._answerMatcher = const GreekAnswer(),
-  }) : _queue = List.of(cards)..shuffle(random),
+  }) : _queue = shuffle ? (List.of(cards)..shuffle(random)) : List.of(cards),
        total = cards.length {
     if (cards.isEmpty) {
       throw ArgumentError('A session needs at least one card.');

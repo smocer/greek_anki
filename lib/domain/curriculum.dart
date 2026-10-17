@@ -15,18 +15,32 @@ enum LearningSection {
 }
 
 enum LearningTheme {
-  people(LocalizedText(en: 'People', zh: '人物', ru: 'Люди')),
-  family(LocalizedText(en: 'Family', zh: '家庭', ru: 'Семья')),
+  properNouns(
+    LocalizedText(en: 'Proper nouns', zh: '专有名词', ru: 'Имена собственные'),
+  ),
+  people(
+    LocalizedText(en: 'Jobs & work', zh: '职业&工作', ru: 'Профессии и работа'),
+  ),
   classroom(LocalizedText(en: 'Classroom', zh: '课堂', ru: 'Учёба')),
   home(
-    LocalizedText(en: 'Home & everyday life', zh: '家庭与日常生活', ru: 'Дом и быт'),
+    LocalizedText(en: 'Home & everyday life', zh: '家庭&日常生活', ru: 'Дом и быт'),
   ),
-  food(LocalizedText(en: 'Food & drink', zh: '食物与饮品', ru: 'Еда и напитки')),
-  places(LocalizedText(en: 'Places', zh: '地点', ru: 'Места')),
-  travel(LocalizedText(en: 'Transport', zh: '交通', ru: 'Транспорт')),
-  phone(LocalizedText(en: 'Phone', zh: '电话', ru: 'Телефон')),
-  time(LocalizedText(en: 'Time & numbers', zh: '时间与数字', ru: 'Время и числа')),
-  conversation(LocalizedText(en: 'Conversation', zh: '会话', ru: 'Общение'));
+  food(LocalizedText(en: 'Food & drink', zh: '饮食', ru: 'Еда и напитки')),
+  places(
+    LocalizedText(
+      en: 'Places & transport',
+      zh: '地点&交通',
+      ru: 'Места и транспорт',
+    ),
+  ),
+  time(
+    LocalizedText(
+      en: 'Numbers, time & dates',
+      zh: '数字、时间&日期',
+      ru: 'Числа, время и даты',
+    ),
+  ),
+  conversation(LocalizedText(en: 'Conversation', zh: '日常对话', ru: 'Общение'));
 
   const LearningTheme(this.title);
   final LocalizedText title;
@@ -50,6 +64,7 @@ class LearningCollection {
   VocabularyDeck filter({
     VocabularyPeriod period = VocabularyPeriod.all,
     LearningTheme? theme,
+    Set<LearningTheme> excludedThemes = const {},
     String query = '',
     required DateTime now,
   }) {
@@ -67,6 +82,7 @@ class LearningCollection {
       );
       return period.includes(card.addedWeek, now) &&
           (theme == null || (themes[card.id]?.contains(theme) ?? false)) &&
+          !(themes[card.id]?.any(excludedThemes.contains) ?? false) &&
           terms.every(text.contains);
     });
     return VocabularyDeck(
@@ -82,11 +98,27 @@ class LearningCollection {
 }
 
 /// Sample before constructing a session; mistakes can repeat within that batch.
+enum CardOrder { random, alphabet, addedTime }
+
 List<VocabularyCard> sessionBatch(
   List<VocabularyCard> cards, {
   int limit = 15,
   Random? random,
+  CardOrder order = CardOrder.random,
 }) {
   if (limit < 1) throw ArgumentError.value(limit, 'limit');
-  return (List.of(cards)..shuffle(random)).take(limit).toList();
+  if (order == CardOrder.random) {
+    return (List.of(cards)..shuffle(random)).take(limit).toList();
+  }
+  if (order == CardOrder.addedTime) {
+    return newestFirst(cards).take(limit).toList();
+  }
+  final indexed = cards.asMap().entries.toList();
+  String key(VocabularyCard card) =>
+      GreekText.searchKey(card.greek).replaceAll('\u0308', '');
+  indexed.sort((a, b) {
+    final result = key(a.value).compareTo(key(b.value));
+    return result == 0 ? a.key.compareTo(b.key) : result;
+  });
+  return indexed.take(limit).map((entry) => entry.value).toList();
 }

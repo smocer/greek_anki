@@ -68,8 +68,13 @@ Multiple collections can reference one definition to avoid maintaining duplicate
 For grammar exercises, use a `grammar-*` collection ID from the base dictionary.
 Unknown collection IDs produce an error.
 
-Use `words-nouns` for common nouns and `words-names` for personal names and
-geographical names (countries, cities and continents). Keep names used in
+Use `words-nouns` for common nouns and `words-names` (Proper nouns) for personal
+names, geographical names (countries, cities and continents), language names and
+nationalities. The UI combines both collections under Nouns; use the
+`properNouns` theme for all `words-names` entries, rather than place, job or
+classroom themes. Proper nouns are selected through the theme filter, with no
+separate subdirectory. When moving an existing word, preserve its `reviewIdentity` to
+retain its learning history. Keep names used in
 phrases or grammar exercises in those exercises' existing collections.
 
 Filenames are unrestricted. Each entry needs a unique `id`; do not reuse an ID
@@ -132,8 +137,11 @@ used by the weekly filters.
 Supported `labels`: `noun`, `verb`, `adjective`, `adverb`, `pronoun`, `article`,
 `preposition`, `conjunction`, `numeral`, and `interjection`.
 
-Supported themes: `people`, `family`, `classroom`, `home`, `food`, `places`,
-`travel`, `phone`, `time`, and `conversation`.
+Supported themes: `properNouns`, `people`, `classroom`, `home`, `food`, `places`,
+`time`, and `conversation`. Use `places` for places and transport, and
+`conversation` for everyday conversation and phone vocabulary. Use `home` for
+family and everyday life, `people` for jobs and work, `food` for food and drink,
+and `time` for numbers, time and dates.
 
 **Keep existing `reviewIdentity.deckId` and `reviewIdentity.cardId` values unchanged.**
 These fields form the key for saved review records. If an existing entry moves

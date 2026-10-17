@@ -17,11 +17,15 @@ class StudyScreen extends StatefulWidget {
     required this.cards,
     required this.mode,
     required this.progress,
+    this.sessionLimit = 15,
+    this.cardOrder = CardOrder.random,
   });
   final VocabularyDeck deck;
   final List<VocabularyCard> cards;
   final StudyMode mode;
   final LearningProgress progress;
+  final int? sessionLimit;
+  final CardOrder cardOrder;
 
   @override
   State<StudyScreen> createState() => _StudyScreenState();
@@ -38,7 +42,11 @@ class _StudyScreenState extends State<StudyScreen> {
   @override
   void initState() {
     super.initState();
-    _session = StudySession(cards: widget.cards, mode: widget.mode);
+    _session = StudySession(
+      cards: widget.cards,
+      mode: widget.mode,
+      shuffle: false,
+    );
   }
 
   @override
@@ -87,8 +95,13 @@ class _StudyScreenState extends State<StudyScreen> {
     setState(() {
       final due = widget.progress.dueCards(widget.deck, widget.mode);
       _session = StudySession(
-        cards: sessionBatch(due.isEmpty ? widget.deck.cards : due),
+        cards: sessionBatch(
+          widget.sessionLimit == null || due.isEmpty ? widget.deck.cards : due,
+          limit: widget.sessionLimit ?? widget.deck.cards.length,
+          order: widget.cardOrder,
+        ),
         mode: widget.mode,
+        shuffle: false,
       );
       _answer.clear();
     });

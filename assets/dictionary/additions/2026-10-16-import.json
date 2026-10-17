@@ -63,7 +63,7 @@
         "noun"
       ],
       "themes": [
-        "travel"
+        "places"
       ],
       "answerDisplay": "το αεροπλάνο"
     },
@@ -552,7 +552,7 @@
         "noun"
       ],
       "themes": [
-        "travel"
+        "places"
       ],
       "answerDisplay": "το φανάρι"
     },
@@ -574,7 +574,7 @@
         "noun"
       ],
       "themes": [
-        "travel"
+        "places"
       ],
       "answerDisplay": "το αυτοκίνητο"
     },
@@ -638,7 +638,7 @@
         "verb"
       ],
       "themes": [
-        "travel"
+        "places"
       ]
     }
   ]
