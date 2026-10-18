@@ -2,7 +2,7 @@ name: Test and publish web app
 
 on:
   push:
-    branches: [main]
+    branches: [main, "yuhang's-branch"]
   pull_request:
   workflow_dispatch:
 
@@ -10,7 +10,7 @@ permissions:
   contents: read
 
 concurrency:
-  group: pages-${{ github.ref }}
+  group: pages-${{ github.event_name == 'pull_request' && github.ref || 'published-site' }}
   cancel-in-progress: false
 
 jobs:
@@ -29,12 +29,47 @@ jobs:
         run: python3 -m pip install -r tool/vocabulary_nlp_requirements.txt
       - run: python3 -m unittest discover -s tool -p 'test_*.py'
       - name: Build website
+        if: github.event_name == 'pull_request'
         run: python3 tool/build_web.py --base-href /greek_anki/
+      - name: Check out production source
+        if: github.event_name != 'pull_request'
+        uses: actions/checkout@v6
+        with:
+          ref: main
+          path: .site-sources/main
+          persist-credentials: false
+      - name: Check out preview source
+        if: github.event_name != 'pull_request'
+        uses: actions/checkout@v6
+        with:
+          ref: "yuhang's-branch"
+          path: .site-sources/yuhang
+          persist-credentials: false
+      - name: Build production website
+        if: github.event_name != 'pull_request'
+        working-directory: .site-sources/main
+        run: |
+          flutter pub get
+          python3 tool/build_web.py --base-href /greek_anki/
+      - name: Build branch preview
+        if: github.event_name != 'pull_request'
+        working-directory: .site-sources/yuhang
+        run: |
+          flutter pub get
+          python3 tool/build_web.py --base-href /greek_anki/preview/yuhang/
+      - name: Assemble production and branch preview
+        if: github.event_name != 'pull_request'
+        run: |
+          python3 tool/assemble_pages.py \
+            --production .site-sources/main/build/site \
+            --preview .site-sources/yuhang/build/site \
+            --production-sha "$(git -C .site-sources/main rev-parse HEAD)" \
+            --preview-sha "$(git -C .site-sources/yuhang rev-parse HEAD)"
       - name: Upload website
         if: github.event_name != 'pull_request'
         uses: actions/upload-pages-artifact@v4
         with:
-          path: build/site
+          path: build/pages
 
   deploy:
     if: github.event_name != 'pull_request'
