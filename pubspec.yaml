@@ -25,3 +25,10 @@ flutter:
     - assets/dictionary/greek.json
     - assets/dictionary/additions/
     - assets/audio/greek/
+    - assets/audio/greek/words-nouns/
+    - assets/audio/greek/words-names/
+    - assets/audio/greek/words-verbs/
+    - assets/audio/greek/words-pronouns/
+    - assets/audio/greek/words-descriptions/
+    - assets/audio/greek/words-connectors/
+    - assets/audio/greek/words-numbers/

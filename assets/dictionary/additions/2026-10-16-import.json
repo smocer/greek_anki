@@ -323,27 +323,6 @@
       "answerDisplay": "το πλήρες ωράριο"
     },
     {
-      "id": "oct16-take-imperative",
-      "collection": "words-verbs",
-      "greek": "πάρε",
-      "prompt": {
-        "en": "Take! (singular imperative)",
-        "ru": "Возьми!",
-        "zh": "拿吧；取吧（单数命令式）"
-      },
-      "pronunciation": {
-        "en": "PA-re",
-        "ru": "ПА-ре",
-        "zh": "PA-re"
-      },
-      "labels": [
-        "verb"
-      ],
-      "themes": [
-        "conversation"
-      ]
-    },
-    {
       "id": "oct16-reception-employee",
       "collection": "phrases-everyday",
       "greek": "υπάλληλο για τη ρεσεψιόν",
@@ -623,6 +602,10 @@
     {
       "id": "oct16-take",
       "collection": "words-verbs",
+      "aliases": ["oct16-take-imperative"],
+      "reviewAliases": [
+        {"deckId": "words-verbs", "cardId": "oct16-take-imperative"}
+      ],
       "greek": "παίρνω",
       "prompt": {
         "en": "I take / get / ride",
@@ -638,7 +621,8 @@
         "verb"
       ],
       "themes": [
-        "places"
+        "places",
+        "conversation"
       ]
     }
   ]

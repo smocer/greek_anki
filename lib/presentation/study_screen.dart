@@ -9,6 +9,7 @@ import '../domain/vocabulary.dart';
 import 'greek_keyboard.dart';
 import 'card_explanation.dart';
 import 'theme.dart';
+import 'word_audio_buttons.dart';
 
 class StudyScreen extends StatefulWidget {
   const StudyScreen({
@@ -58,7 +59,7 @@ class _StudyScreenState extends State<StudyScreen> {
   }
 
   Future<void> _advance(bool correct) async {
-    if (_saving) return;
+    if (_saving || _session.isReviewing) return;
     setState(() => _saving = true);
     try {
       await widget.progress.record(
@@ -120,6 +121,22 @@ class _StudyScreenState extends State<StudyScreen> {
         title: Text(
           _hard ? context.strings.hardMode : context.strings.flashcards,
         ),
+        actions: [
+          if (!_hard)
+            ListenableBuilder(
+              listenable: _session,
+              builder: (context, _) => _session.isComplete
+                  ? const SizedBox.shrink()
+                  : TextButton.icon(
+                      key: const ValueKey('previous-card'),
+                      onPressed: !_saving && _session.canGoPrevious
+                          ? _session.previous
+                          : null,
+                      icon: const Icon(Icons.arrow_back_rounded, size: 18),
+                      label: Text(context.strings.previousCard),
+                    ),
+            ),
+        ],
       ),
       body: SafeArea(
         top: false,
@@ -134,6 +151,9 @@ class _StudyScreenState extends State<StudyScreen> {
                     session: _session,
                     onRestart: _restart,
                     onDone: () => Navigator.pop(context),
+                    onPrevious: !_hard && _session.canGoPrevious
+                        ? _session.previous
+                        : null,
                   );
                 }
                 return LayoutBuilder(
@@ -167,12 +187,18 @@ class _StudyScreenState extends State<StudyScreen> {
     final revealed = _session.phase == CardPhase.answer;
     return [
       Text(
-        revealed ? context.strings.letItSinkIn : context.strings.howDoYouSay,
+        _session.isReviewing
+            ? context.strings.reviewCard
+            : revealed
+            ? context.strings.letItSinkIn
+            : context.strings.howDoYouSay,
         style: Theme.of(context).textTheme.headlineMedium,
       ),
       const SizedBox(height: 8),
       Text(
-        revealed
+        _session.isReviewing
+            ? context.strings.reviewHistoryHint
+            : revealed
             ? context.strings.didYouRemember
             : context.strings.sayBeforeFlip,
         style: const TextStyle(color: Palette.muted),
@@ -218,7 +244,14 @@ class _StudyScreenState extends State<StudyScreen> {
         CardExplanation(explanation: _session.current.explanation!),
       ],
       const SizedBox(height: 26),
-      if (!revealed)
+      if (_session.isReviewing)
+        FilledButton.icon(
+          key: const ValueKey('next-card'),
+          onPressed: _session.next,
+          icon: const Icon(Icons.arrow_forward_rounded, size: 18),
+          label: Text(context.strings.nextCard),
+        )
+      else if (!revealed)
         FilledButton.icon(
           onPressed: _session.reveal,
           icon: const Icon(Icons.flip_rounded, size: 19),
@@ -251,14 +284,16 @@ class _StudyScreenState extends State<StudyScreen> {
             ),
           ],
         ),
-      const SizedBox(height: 18),
-      Text(
-        _saving
-            ? context.strings.savingProgress
-            : context.strings.missedCardsReturn,
-        textAlign: TextAlign.center,
-        style: const TextStyle(fontSize: 12, color: Palette.muted),
-      ),
+      if (!_session.isReviewing) ...[
+        const SizedBox(height: 18),
+        Text(
+          _saving
+              ? context.strings.savingProgress
+              : context.strings.missedCardsReturn,
+          textAlign: TextAlign.center,
+          style: const TextStyle(fontSize: 12, color: Palette.muted),
+        ),
+      ],
     ];
   }
 
@@ -498,6 +533,7 @@ class _RevealedCard extends StatelessWidget {
           style: const TextStyle(color: Palette.lime, fontSize: 13),
         ),
       ],
+      WordAudioButtons(card: card, color: Palette.lime),
       const SizedBox(height: 28),
       Text(
         context.strings.oneWordCloser,
@@ -556,6 +592,7 @@ class _AnswerFeedback extends StatelessWidget {
               style: const TextStyle(fontSize: 12, color: Palette.muted),
             ),
           ],
+          WordAudioButtons(card: card),
           const SizedBox(height: 16),
           Text(
             correct
@@ -575,10 +612,12 @@ class _Completion extends StatelessWidget {
     required this.session,
     required this.onRestart,
     required this.onDone,
+    this.onPrevious,
   });
   final StudySession session;
   final VoidCallback onRestart;
   final VoidCallback onDone;
+  final VoidCallback? onPrevious;
 
   @override
   Widget build(BuildContext context) => Center(
@@ -647,6 +686,15 @@ class _Completion extends StatelessWidget {
             style: TextStyle(color: Palette.muted, fontSize: 13),
           ),
           const SizedBox(height: 28),
+          if (onPrevious != null) ...[
+            OutlinedButton.icon(
+              key: const ValueKey('previous-card'),
+              onPressed: onPrevious,
+              icon: const Icon(Icons.arrow_back_rounded, size: 18),
+              label: Text(context.strings.previousCard),
+            ),
+            const SizedBox(height: 10),
+          ],
           FilledButton(
             onPressed: onDone,
             child: Text(context.strings.backToMyDeck),

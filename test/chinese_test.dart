@@ -8,6 +8,8 @@ import 'package:greek_anki/data/dictionary.dart';
 import 'package:greek_anki/domain/app_language.dart';
 import 'package:greek_anki/domain/greek_answer.dart';
 import 'package:greek_anki/domain/greek_text.dart';
+import 'package:greek_anki/domain/learning_progress.dart';
+import 'package:greek_anki/domain/review_schedule.dart';
 import 'package:greek_anki/domain/vocabulary.dart';
 
 import 'support/memory_language_store.dart';
@@ -52,11 +54,13 @@ void main() {
       ).readAsStringSync(),
     );
     expect(source['词条'], hasLength(68));
-    expect(imported['words'], hasLength(29));
+    expect(imported['words'], hasLength(28));
     String bare(String text) =>
         GreekText.answerKey(text).replaceFirst(RegExp(r'^(ο|η|το|οι|τα) '), '');
     for (final entry in source['词条']) {
-      final key = bare(entry['希腊语']);
+      final original = bare(entry['希腊语']);
+      // The imported imperative was corrected to the present-tense word card.
+      final key = original == bare('πάρε') ? bare('παίρνω') : original;
       expect(
         cards.any(
           (card) => [
@@ -73,7 +77,7 @@ void main() {
     expect(find('ποτέ').single.prompt.zh, contains('从来'));
     expect(find('ζητάει').single.id, 'oct16-requests');
     expect(find('ζητάω').single.id, 'languages-request');
-    expect(find('πάρε').single.id, 'oct16-take-imperative');
+    expect(find('πάρε'), isEmpty);
     expect(find('παίρνω').single.id, 'oct16-take');
     expect(find('εταιρεία').single.id, 'languages-company');
     expect(find('εταιρεία').single.prompt.zh, '公司');
@@ -92,6 +96,31 @@ void main() {
       contains(airplane),
     );
   });
+
+  test(
+    'corrected take card retains the former imperative review progress',
+    () async {
+      final dictionary = catalog();
+      final deck = dictionary.learningDecks.singleWhere(
+        (deck) => deck.id == 'words-verbs',
+      );
+      final take = deck.cards.singleWhere((card) => card.greek == 'παίρνω');
+      expect(const GreekAnswer().matches('παίρνω', take), isTrue);
+      expect(const GreekAnswer().matches('πάρε', take), isFalse);
+      final store = MemoryProgressStore();
+      for (final mode in StudyMode.values) {
+        store.records['words-verbs.${mode.name}.oct16-take-imperative'] =
+            ReviewSchedule(level: 2, dueAt: DateTime.utc(2099));
+      }
+      final progress = LearningProgress(store);
+      addTearDown(progress.dispose);
+      await progress.load(dictionary.learningDecks);
+      for (final mode in StudyMode.values) {
+        expect(progress.dueCards(deck, mode), isNot(contains(take)));
+        expect(progress.learned(deck, mode), 1);
+      }
+    },
+  );
 
   test('Chinese locale codes and legacy fallback are supported', () {
     expect(AppLanguage.fromCode('zh'), AppLanguage.chinese);

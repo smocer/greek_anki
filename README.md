@@ -17,6 +17,10 @@ Choose **Filters** to narrow a group by theme, addition week or an English, Russ
 
 **Flashcards:** recall the Greek answer, reveal it, then choose **Again** or **Got it**.
 
+**Previous** lets you review earlier flashcards and their audio. Use **Next** to
+return to your current card; viewing history does not change scores or review
+schedules. You can also revisit the last card from the completion screen.
+
 **Hard mode:** type using the built-in Greek keyboard or your device keyboard. Grammar prompts are entirely in English or Russian: translate the complete phrase. Greek answers and explanations appear only after checking. There are no Greek sentence hints or fill-in-the-blank prompts.
 
 Correct stress is required. Missing, misplaced or extra accents are incorrect. Capitalization and sentence punctuation are optional. Articles are optional for noun vocabulary; grammatical endings and articles remain part of phrase and grammar answers. Standard listed alternatives such as **εφτά / επτά**, **οκτώ / οχτώ** and **εννέα / εννιά** are accepted. The default for 7 is **εφτά**.

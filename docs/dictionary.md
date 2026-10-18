@@ -159,3 +159,44 @@ The old Dart dictionary lives in `tool/legacy_data/` and is used only by histori
 regression tests and migration tools. The app does not read it. Do not edit those
 files to update learning content. `tool/migrate_dictionary.dart` is a one-time
 export tool and refuses to overwrite an existing dictionary.
+
+## Dictionary word audio
+
+Word recordings live in `assets/audio/greek/<collection>/<card-id>.mp3`, for
+example `assets/audio/greek/words-names/countries.germany.mp3`. Distinct forms
+and alternative spellings use `-variant-1`, `-variant-2`, etc. The original
+alphabet and letter-pair files stay directly in `assets/audio/greek/`.
+
+`tool/greek_dictionary_audio.json` maps each audio path (without `.mp3`) to the
+Greek text being spoken. It covers all word collections from the merged base
+dictionary and addition files, after word consolidation. Phrases and grammar
+exercises are outside this word-audio manifest. Masculine/feminine forms are
+recorded separately, rather than reading a slash-separated display answer.
+
+To add or refresh recordings:
+
+```sh
+flutter test tool/export_dictionary_audio.dart
+python -m pip install --target .dart_tool/audio_generator edge-tts==7.3.1
+python tool/generate_greek_audio.py --dictionary-only
+python tool/verify_greek_audio.py
+flutter test test/dictionary_audio_test.dart
+```
+
+Generation uses Microsoft `el-GR-AthinaNeural` at `-15%` speed, matching the
+existing letter-pair examples. It sends only public Greek lesson text to the
+speech service and preserves existing recordings. `--limit 2` generates a small
+trial batch; rerunning without a limit resumes the remaining files. Updating a
+word's spoken text requires regenerating its corresponding MP3. Install
+`imageio-ffmpeg` into the same local dependency directory for the decoding check.
+
+The word directories are declared individually in `pubspec.yaml` so Flutter
+bundles their contents. The dictionary audio test checks manifest freshness,
+MP3 headers, nonempty files, and asset packaging; the Python verifier decodes
+each recording and rejects empty or silent output.
+
+Revealed word flashcards and checked typing answers show **Play audio** buttons.
+Cards with multiple spellings/forms provide a separate button for each clip.
+`lib/data/dictionary_audio.dart` shares path generation with the exporter, so
+audio continues to resolve when cards move between visible groups or retain
+an older review identity. Leaving a revealed card stops its playback.

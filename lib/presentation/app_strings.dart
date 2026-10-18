@@ -93,6 +93,16 @@ class AppStrings {
     '左右滑动表格，查看所有形式。',
   );
   String get listen => _pick('Listen', 'Слушать', '听发音');
+  String get playAudio => _pick('Play audio', 'Воспроизвести', '播放发音');
+  String get previousCard => _pick('Previous', 'Предыдущая', '上一个');
+  String get nextCard => _pick('Next', 'Следующая', '下一个');
+  String get reviewCard =>
+      _pick('Review previous cards', 'Просмотр карточек', '回看词卡');
+  String get reviewHistoryHint => _pick(
+    'Reviewing does not change your progress.',
+    'Просмотр не изменяет прогресс.',
+    '回看不会重复记录学习进度。',
+  );
   String get letterPairs => _pick('Letter pairs', 'Сочетания', '字母组合');
   String get letterPairsIntro => _pick(
     'Two letters, a new sound. Listen to the example words. A diaeresis (ϊ, ϋ) separates vowel pairs: αϊ and οϊ are read separately.',
