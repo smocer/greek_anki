@@ -27,11 +27,16 @@ void main() {
     expect(nouns.any((c) => nameIds.contains(c.id)), isFalse);
     expect(
       nouns.map((c) => c.greek),
-      containsAll(['μουσείο', 'σπίτι', 'φούρνος', 'ζωή', 'ελληνικά']),
+      containsAll(['μουσείο', 'σπίτι', 'φούρνος', 'ζωή']),
     );
     for (final card in names) {
       expect(matcher.matches(card.greek, card), isTrue);
-      expect(matcher.matches(card.displayedAnswer, card), isTrue);
+      final answers = card.forms.isEmpty
+          ? [card.displayedAnswer]
+          : card.forms.map((form) => form.answerDisplay);
+      for (final answer in answers) {
+        expect(matcher.matches(answer, card), isTrue);
+      }
     }
   });
 
@@ -141,7 +146,7 @@ void main() {
     );
     expect(
       recent.cards.where((c) => c.id.startsWith('work-life-')),
-      hasLength(8),
+      hasLength(7),
     );
     expect(
       nouns

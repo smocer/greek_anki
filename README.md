@@ -6,7 +6,7 @@ Learn modern Greek with English and Russian explanations. Works in a browser on 
 
 ## Choose what to learn
 
-- **Words:** nouns, verbs, pronouns, adjectives/adverbs, connecting words/prepositions and numbers. Practise individual meanings and spellings. Nouns use their base form; their article is optional in your answer and visible when you reveal it. Verbs use the first-person present.
+- **Words:** nouns, names and places (including languages and nationalities), verbs, pronouns, adjectives/adverbs, connecting words/prepositions and numbers. Practise individual meanings and spellings. Nouns use their base form; their article is optional in your answer and visible when you reveal it. Verbs use the first-person present.
 - **Phrases:** social conversations, classroom language and everyday situations, including phone conversations.
 - **Grammar:** articles/gender, noun forms/cases, verb forms, location/origin, possession and questions/negation. Practise using familiar vocabulary in different grammatical roles.
 - **Reference:** the alphabet, handwriting, sounds and grammar tables.
@@ -21,7 +21,9 @@ Choose **Filters** to narrow a group by theme, addition week or an English, Russ
 
 Correct stress is required. Missing, misplaced or extra accents are incorrect. Capitalization and sentence punctuation are optional. Articles are optional for noun vocabulary; grammatical endings and articles remain part of phrase and grammar answers. Standard listed alternatives such as **εφτά / επτά**, **οκτώ / οχτώ** and **εννέα / εννιά** are accepted. The default for 7 is **εφτά**.
 
-Sessions contain up to **15 cards**, sampled from due and new cards first. If none are due, you can practise a fresh sample from the group. Missed cards return after two other cards when possible. A session ends when its batch has been recalled correctly; another round selects a new batch.
+Sessions contain up to **15 cards**, sampled from due and new cards first. If none are due, you can practise a fresh sample from the group. Work through a moving window of **three learning cards**. After your first correct answer, one randomly chosen card remembered earlier in the same round joins the window for review. The window stays at **four distinct cards**: three learning + one review, two learning + two reviews, or one learning + three reviews. Before any cards have been remembered, or in batches smaller than four cards, the window uses only the available words.
+
+Missed cards return after other cards. Correct review answers do not add to the completion count; forgetting a review card puts it back into the learning queue. A session ends as soon as every card in the batch is remembered, without extra review turns at the end. Another round selects a new batch.
 
 **English / Русский** switches the interface, translations, explanations and pronunciation guides together. Russian explanations compare familiar cases, ты/Вы, grammatical gender and word roots with their Greek counterparts. Pronunciation guides are approximate aids.
 

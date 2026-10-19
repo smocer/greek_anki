@@ -700,7 +700,7 @@
     },
     {
       "id": "languages-nationality-greek",
-      "collection": "words-nouns",
+      "collection": "words-names",
       "greek": "Έλληνας",
       "prompt": {
         "en": "Greek (person)",
@@ -746,11 +746,15 @@
       "acceptedAnswers": [
         "ο Έλληνας",
         "η Ελληνίδα"
-      ]
+      ],
+      "reviewIdentity": {
+        "deckId": "words-nouns",
+        "cardId": "languages-nationality-greek"
+      }
     },
     {
       "id": "languages-nationality-spanish",
-      "collection": "words-nouns",
+      "collection": "words-names",
       "greek": "Ισπανός",
       "prompt": {
         "en": "Spaniard",
@@ -796,11 +800,15 @@
       "acceptedAnswers": [
         "ο Ισπανός",
         "η Ισπανίδα"
-      ]
+      ],
+      "reviewIdentity": {
+        "deckId": "words-nouns",
+        "cardId": "languages-nationality-spanish"
+      }
     },
     {
       "id": "languages-nationality-russian",
-      "collection": "words-nouns",
+      "collection": "words-names",
       "greek": "Ρώσος",
       "prompt": {
         "en": "Russian (person)",
@@ -846,11 +854,15 @@
       "acceptedAnswers": [
         "ο Ρώσος",
         "η Ρωσίδα"
-      ]
+      ],
+      "reviewIdentity": {
+        "deckId": "words-nouns",
+        "cardId": "languages-nationality-russian"
+      }
     },
     {
       "id": "languages-nationality-swiss",
-      "collection": "words-nouns",
+      "collection": "words-names",
       "greek": "Ελβετός",
       "prompt": {
         "en": "Swiss (person)",
@@ -896,11 +908,15 @@
       "acceptedAnswers": [
         "ο Ελβετός",
         "η Ελβετίδα"
-      ]
+      ],
+      "reviewIdentity": {
+        "deckId": "words-nouns",
+        "cardId": "languages-nationality-swiss"
+      }
     },
     {
       "id": "languages-nationality-australian",
-      "collection": "words-nouns",
+      "collection": "words-names",
       "greek": "Αυστραλός",
       "prompt": {
         "en": "Australian (person)",
@@ -946,11 +962,15 @@
       "acceptedAnswers": [
         "ο Αυστραλός",
         "η Αυστραλέζα"
-      ]
+      ],
+      "reviewIdentity": {
+        "deckId": "words-nouns",
+        "cardId": "languages-nationality-australian"
+      }
     },
     {
       "id": "languages-nationality-polish",
-      "collection": "words-nouns",
+      "collection": "words-names",
       "greek": "Πολωνός",
       "prompt": {
         "en": "Pole (person)",
@@ -1006,11 +1026,15 @@
         "ο Πολωνός",
         "η Πολωνή",
         "η Πολωνέζα"
-      ]
+      ],
+      "reviewIdentity": {
+        "deckId": "words-nouns",
+        "cardId": "languages-nationality-polish"
+      }
     },
     {
       "id": "languages-nationality-swedish",
-      "collection": "words-nouns",
+      "collection": "words-names",
       "greek": "Σουηδός",
       "prompt": {
         "en": "Swede",
@@ -1056,11 +1080,15 @@
       "acceptedAnswers": [
         "ο Σουηδός",
         "η Σουηδέζα"
-      ]
+      ],
+      "reviewIdentity": {
+        "deckId": "words-nouns",
+        "cardId": "languages-nationality-swedish"
+      }
     },
     {
       "id": "languages-nationality-chinese",
-      "collection": "words-nouns",
+      "collection": "words-names",
       "greek": "Κινέζος",
       "prompt": {
         "en": "Chinese (person)",
@@ -1106,11 +1134,15 @@
       "acceptedAnswers": [
         "ο Κινέζος",
         "η Κινέζα"
-      ]
+      ],
+      "reviewIdentity": {
+        "deckId": "words-nouns",
+        "cardId": "languages-nationality-chinese"
+      }
     },
     {
       "id": "languages-nationality-japanese",
-      "collection": "words-nouns",
+      "collection": "words-names",
       "greek": "Γιαπωνέζος",
       "prompt": {
         "en": "Japanese (person)",
@@ -1166,11 +1198,15 @@
         "ο Γιαπωνέζος",
         "η Γιαπωνέζα",
         "ο Ιάπωνας"
-      ]
+      ],
+      "reviewIdentity": {
+        "deckId": "words-nouns",
+        "cardId": "languages-nationality-japanese"
+      }
     },
     {
       "id": "languages-nationality-albanian",
-      "collection": "words-nouns",
+      "collection": "words-names",
       "greek": "Αλβανός",
       "prompt": {
         "en": "Albanian (person)",
@@ -1226,11 +1262,15 @@
         "ο Αλβανός",
         "η Αλβανή",
         "η Αλβανίδα"
-      ]
+      ],
+      "reviewIdentity": {
+        "deckId": "words-nouns",
+        "cardId": "languages-nationality-albanian"
+      }
     },
     {
       "id": "languages-nationality-ukrainian",
-      "collection": "words-nouns",
+      "collection": "words-names",
       "greek": "Ουκρανός",
       "prompt": {
         "en": "Ukrainian (person)",
@@ -1276,11 +1316,15 @@
       "acceptedAnswers": [
         "ο Ουκρανός",
         "η Ουκρανή"
-      ]
+      ],
+      "reviewIdentity": {
+        "deckId": "words-nouns",
+        "cardId": "languages-nationality-ukrainian"
+      }
     },
     {
       "id": "languages-nationality-iraqi",
-      "collection": "words-nouns",
+      "collection": "words-names",
       "greek": "Ιρακινός",
       "prompt": {
         "en": "Iraqi (person)",
@@ -1326,11 +1370,15 @@
       "acceptedAnswers": [
         "ο Ιρακινός",
         "η Ιρακινή"
-      ]
+      ],
+      "reviewIdentity": {
+        "deckId": "words-nouns",
+        "cardId": "languages-nationality-iraqi"
+      }
     },
     {
       "id": "languages-nationality-egyptian",
-      "collection": "words-nouns",
+      "collection": "words-names",
       "greek": "Αιγύπτιος",
       "prompt": {
         "en": "Egyptian (person)",
@@ -1376,11 +1424,15 @@
       "acceptedAnswers": [
         "ο Αιγύπτιος",
         "η Αιγύπτια"
-      ]
+      ],
+      "reviewIdentity": {
+        "deckId": "words-nouns",
+        "cardId": "languages-nationality-egyptian"
+      }
     },
     {
       "id": "languages-nationality-bulgarian",
-      "collection": "words-nouns",
+      "collection": "words-names",
       "greek": "Βούλγαρος",
       "prompt": {
         "en": "Bulgarian (person)",
@@ -1426,11 +1478,15 @@
       "acceptedAnswers": [
         "ο Βούλγαρος",
         "η Βουλγάρα"
-      ]
+      ],
+      "reviewIdentity": {
+        "deckId": "words-nouns",
+        "cardId": "languages-nationality-bulgarian"
+      }
     },
     {
       "id": "languages-nationality-turkish",
-      "collection": "words-nouns",
+      "collection": "words-names",
       "greek": "Τούρκος",
       "prompt": {
         "en": "Turk (person)",
@@ -1476,11 +1532,15 @@
       "acceptedAnswers": [
         "ο Τούρκος",
         "η Τουρκάλα"
-      ]
+      ],
+      "reviewIdentity": {
+        "deckId": "words-nouns",
+        "cardId": "languages-nationality-turkish"
+      }
     },
     {
       "id": "languages-nationality-italian",
-      "collection": "words-nouns",
+      "collection": "words-names",
       "greek": "Ιταλός",
       "prompt": {
         "en": "Italian (person)",
@@ -1526,11 +1586,15 @@
       "acceptedAnswers": [
         "ο Ιταλός",
         "η Ιταλίδα"
-      ]
+      ],
+      "reviewIdentity": {
+        "deckId": "words-nouns",
+        "cardId": "languages-nationality-italian"
+      }
     },
     {
       "id": "languages-nationality-german",
-      "collection": "words-nouns",
+      "collection": "words-names",
       "greek": "Γερμανός",
       "prompt": {
         "en": "German (person)",
@@ -1576,11 +1640,15 @@
       "acceptedAnswers": [
         "ο Γερμανός",
         "η Γερμανίδα"
-      ]
+      ],
+      "reviewIdentity": {
+        "deckId": "words-nouns",
+        "cardId": "languages-nationality-german"
+      }
     },
     {
       "id": "languages-spanish-language",
-      "collection": "words-nouns",
+      "collection": "words-names",
       "greek": "ισπανικά",
       "prompt": {
         "en": "Spanish (language)",
@@ -1600,11 +1668,15 @@
         "en": "Language name: neuter plural. Usually no article after μιλάω: μιλάω ισπανικά.",
         "ru": "Название языка: средний род, множественное число. После μιλάω артикль обычно не нужен: μιλάω ισπανικά."
       },
-      "answerDisplay": "τα ισπανικά"
+      "answerDisplay": "τα ισπανικά",
+      "reviewIdentity": {
+        "deckId": "words-nouns",
+        "cardId": "languages-spanish-language"
+      }
     },
     {
       "id": "languages-russian-language",
-      "collection": "words-nouns",
+      "collection": "words-names",
       "greek": "ρωσικά",
       "prompt": {
         "en": "Russian (language)",
@@ -1630,11 +1702,15 @@
       ],
       "acceptedAnswers": [
         "τα ρώσικα"
-      ]
+      ],
+      "reviewIdentity": {
+        "deckId": "words-nouns",
+        "cardId": "languages-russian-language"
+      }
     },
     {
       "id": "languages-german-language",
-      "collection": "words-nouns",
+      "collection": "words-names",
       "greek": "γερμανικά",
       "prompt": {
         "en": "German (language)",
@@ -1654,11 +1730,15 @@
         "en": "Language name: neuter plural. Usually no article after μιλάω: μιλάω γερμανικά.",
         "ru": "Название языка: средний род, множественное число. После μιλάω артикль обычно не нужен: μιλάω γερμανικά."
       },
-      "answerDisplay": "τα γερμανικά"
+      "answerDisplay": "τα γερμανικά",
+      "reviewIdentity": {
+        "deckId": "words-nouns",
+        "cardId": "languages-german-language"
+      }
     },
     {
       "id": "languages-french-language",
-      "collection": "words-nouns",
+      "collection": "words-names",
       "greek": "γαλλικά",
       "prompt": {
         "en": "French (language)",
@@ -1678,11 +1758,15 @@
         "en": "Language name: neuter plural. Usually no article after μιλάω: μιλάω γαλλικά.",
         "ru": "Название языка: средний род, множественное число. После μιλάω артикль обычно не нужен: μιλάω γαλλικά."
       },
-      "answerDisplay": "τα γαλλικά"
+      "answerDisplay": "τα γαλλικά",
+      "reviewIdentity": {
+        "deckId": "words-nouns",
+        "cardId": "languages-french-language"
+      }
     },
     {
       "id": "languages-italian-language",
-      "collection": "words-nouns",
+      "collection": "words-names",
       "greek": "ιταλικά",
       "prompt": {
         "en": "Italian (language)",
@@ -1702,11 +1786,15 @@
         "en": "Language name: neuter plural. Usually no article after μιλάω: μιλάω ιταλικά.",
         "ru": "Название языка: средний род, множественное число. После μιλάω артикль обычно не нужен: μιλάω ιταλικά."
       },
-      "answerDisplay": "τα ιταλικά"
+      "answerDisplay": "τα ιταλικά",
+      "reviewIdentity": {
+        "deckId": "words-nouns",
+        "cardId": "languages-italian-language"
+      }
     },
     {
       "id": "languages-english-language",
-      "collection": "words-nouns",
+      "collection": "words-names",
       "greek": "αγγλικά",
       "prompt": {
         "en": "English (language)",
@@ -1726,11 +1814,15 @@
         "en": "Language name: neuter plural. Usually no article after μιλάω: μιλάω αγγλικά.",
         "ru": "Название языка: средний род, множественное число. После μιλάω артикль обычно не нужен: μιλάω αγγλικά."
       },
-      "answerDisplay": "τα αγγλικά"
+      "answerDisplay": "τα αγγλικά",
+      "reviewIdentity": {
+        "deckId": "words-nouns",
+        "cardId": "languages-english-language"
+      }
     },
     {
       "id": "languages-polish-language",
-      "collection": "words-nouns",
+      "collection": "words-names",
       "greek": "πολωνικά",
       "prompt": {
         "en": "Polish (language)",
@@ -1750,11 +1842,15 @@
         "en": "Language name: neuter plural. Usually no article after μιλάω: μιλάω πολωνικά.",
         "ru": "Название языка: средний род, множественное число. После μιλάω артикль обычно не нужен: μιλάω πολωνικά."
       },
-      "answerDisplay": "τα πολωνικά"
+      "answerDisplay": "τα πολωνικά",
+      "reviewIdentity": {
+        "deckId": "words-nouns",
+        "cardId": "languages-polish-language"
+      }
     },
     {
       "id": "languages-swedish-language",
-      "collection": "words-nouns",
+      "collection": "words-names",
       "greek": "σουηδικά",
       "prompt": {
         "en": "Swedish (language)",
@@ -1774,11 +1870,15 @@
         "en": "Language name: neuter plural. Usually no article after μιλάω: μιλάω σουηδικά.",
         "ru": "Название языка: средний род, множественное число. После μιλάω артикль обычно не нужен: μιλάω σουηδικά."
       },
-      "answerDisplay": "τα σουηδικά"
+      "answerDisplay": "τα σουηδικά",
+      "reviewIdentity": {
+        "deckId": "words-nouns",
+        "cardId": "languages-swedish-language"
+      }
     },
     {
       "id": "languages-chinese-language",
-      "collection": "words-nouns",
+      "collection": "words-names",
       "greek": "κινέζικα",
       "prompt": {
         "en": "Chinese (language)",
@@ -1804,11 +1904,15 @@
       ],
       "acceptedAnswers": [
         "τα κινεζικά"
-      ]
+      ],
+      "reviewIdentity": {
+        "deckId": "words-nouns",
+        "cardId": "languages-chinese-language"
+      }
     },
     {
       "id": "languages-japanese-language",
-      "collection": "words-nouns",
+      "collection": "words-names",
       "greek": "γιαπωνέζικα",
       "prompt": {
         "en": "Japanese (language)",
@@ -1834,11 +1938,15 @@
       ],
       "acceptedAnswers": [
         "τα ιαπωνικά"
-      ]
+      ],
+      "reviewIdentity": {
+        "deckId": "words-nouns",
+        "cardId": "languages-japanese-language"
+      }
     },
     {
       "id": "languages-albanian-language",
-      "collection": "words-nouns",
+      "collection": "words-names",
       "greek": "αλβανικά",
       "prompt": {
         "en": "Albanian (language)",
@@ -1858,11 +1966,15 @@
         "en": "Language name: neuter plural. Usually no article after μιλάω: μιλάω αλβανικά.",
         "ru": "Название языка: средний род, множественное число. После μιλάω артикль обычно не нужен: μιλάω αλβανικά."
       },
-      "answerDisplay": "τα αλβανικά"
+      "answerDisplay": "τα αλβανικά",
+      "reviewIdentity": {
+        "deckId": "words-nouns",
+        "cardId": "languages-albanian-language"
+      }
     },
     {
       "id": "languages-ukrainian-language",
-      "collection": "words-nouns",
+      "collection": "words-names",
       "greek": "ουκρανικά",
       "prompt": {
         "en": "Ukrainian (language)",
@@ -1882,11 +1994,15 @@
         "en": "Language name: neuter plural. Usually no article after μιλάω: μιλάω ουκρανικά.",
         "ru": "Название языка: средний род, множественное число. После μιλάω артикль обычно не нужен: μιλάω ουκρανικά."
       },
-      "answerDisplay": "τα ουκρανικά"
+      "answerDisplay": "τα ουκρανικά",
+      "reviewIdentity": {
+        "deckId": "words-nouns",
+        "cardId": "languages-ukrainian-language"
+      }
     },
     {
       "id": "languages-arabic-language",
-      "collection": "words-nouns",
+      "collection": "words-names",
       "greek": "αραβικά",
       "prompt": {
         "en": "Arabic (language)",
@@ -1906,11 +2022,15 @@
         "en": "Language name: neuter plural. Usually no article after μιλάω: μιλάω αραβικά.",
         "ru": "Название языка: средний род, множественное число. После μιλάω артикль обычно не нужен: μιλάω αραβικά."
       },
-      "answerDisplay": "τα αραβικά"
+      "answerDisplay": "τα αραβικά",
+      "reviewIdentity": {
+        "deckId": "words-nouns",
+        "cardId": "languages-arabic-language"
+      }
     },
     {
       "id": "languages-bulgarian-language",
-      "collection": "words-nouns",
+      "collection": "words-names",
       "greek": "βουλγαρικά",
       "prompt": {
         "en": "Bulgarian (language)",
@@ -1936,11 +2056,15 @@
       ],
       "acceptedAnswers": [
         "τα βουλγάρικα"
-      ]
+      ],
+      "reviewIdentity": {
+        "deckId": "words-nouns",
+        "cardId": "languages-bulgarian-language"
+      }
     },
     {
       "id": "languages-turkish-language",
-      "collection": "words-nouns",
+      "collection": "words-names",
       "greek": "τουρκικά",
       "prompt": {
         "en": "Turkish (language)",
@@ -1960,7 +2084,11 @@
         "en": "Language name: neuter plural. Usually no article after μιλάω: μιλάω τουρκικά.",
         "ru": "Название языка: средний род, множественное число. После μιλάω артикль обычно не нужен: μιλάω τουρκικά."
       },
-      "answerDisplay": "τα τουρκικά"
+      "answerDisplay": "τα τουρκικά",
+      "reviewIdentity": {
+        "deckId": "words-nouns",
+        "cardId": "languages-turkish-language"
+      }
     },
     {
       "id": "languages-albania",

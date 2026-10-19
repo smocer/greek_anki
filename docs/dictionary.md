@@ -68,8 +68,10 @@ Multiple collections can reference one definition to avoid maintaining duplicate
 For grammar exercises, use a `grammar-*` collection ID from the base dictionary.
 Unknown collection IDs produce an error.
 
-Use `words-nouns` for common nouns and `words-names` for personal names and
-geographical names (countries, cities and continents). Keep names used in
+Use `words-nouns` for common nouns and `words-names` for personal names,
+geographical names (countries, cities and continents), language names and
+nationalities. The common noun γλώσσα (“language”) stays in `words-nouns`.
+Keep names used in
 phrases or grammar exercises in those exercises' existing collections.
 
 Filenames are unrestricted. Each entry needs a unique `id`; do not reuse an ID

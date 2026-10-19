@@ -251,6 +251,7 @@ class AppStrings {
       _pick('Use Greek keyboard', 'Греческая клавиатура');
   String get checkAnswer => _pick('Check answer', 'Проверить');
   String get dontKnow => _pick('I don’t know yet', 'Пока не знаю');
+  String get sessionReview => _pick('Quick review', 'Повторение');
   String progress(int completed, int total) =>
       _pick('$completed / $total remembered', '$completed / $total выучено');
   String progressAccessibility(int completed, int total) => _pick(

@@ -58122,13 +58122,13 @@
           "ru": "Имена и названия"
         },
         "subtitle": {
-          "en": "People, countries and cities · articles optional",
-          "ru": "Имена людей, страны и города · артикли необязательны"
+          "en": "People, places, languages and nationalities",
+          "ru": "Имена, страны, языки и национальности"
         },
         "cover": "Ελλάδα",
         "note": {
-          "en": "Practise personal names and geographical names. Articles are optional; the revealed answer shows the article and explains the gender.",
-          "ru": "Имена людей и географические названия. Артикль можно не вводить; после ответа вы увидите его и пояснение о роде."
+          "en": "Practise personal and place names, languages and nationalities. Articles are optional; the revealed answer shows them. Nationality cards accept either gender.",
+          "ru": "Имена людей, географические названия, языки и национальности. Артикль можно не вводить; он появится после ответа. Для национальностей принимаются формы обоих родов."
         },
         "cards": [
           "words-nouns/countries.afghanistan",

@@ -63,7 +63,7 @@ void main() {
   test(
     'nationalities allow gender variants; grammar keeps the requested gender',
     () {
-      final polish = card('words-nouns', 'languages-nationality-polish');
+      final polish = card('words-names', 'languages-nationality-polish');
       for (final answer in ['Πολωνός', 'Πολωνή', 'η Πολωνέζα']) {
         expect(matcher.matches(answer, polish), isTrue);
       }
@@ -73,7 +73,7 @@ void main() {
       final female = card('grammar-gender', 'languages-nationality-female');
       expect(matcher.matches('Είμαι Ελληνίδα.', female), isTrue);
       expect(matcher.matches('Είμαι Έλληνας.', female), isFalse);
-      final russian = card('words-nouns', 'languages-russian-language');
+      final russian = card('words-names', 'languages-russian-language');
       expect(matcher.matches('τα ρώσικα', russian), isTrue);
       expect(matcher.matches('η ρωσικά', russian), isFalse);
       final country = card('words-names', 'languages-poland');

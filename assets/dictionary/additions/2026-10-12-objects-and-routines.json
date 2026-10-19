@@ -1,0 +1,1607 @@
+{
+  "schemaVersion": 1,
+  "addedWeek": "2026-10-12",
+  "words": [
+    {
+      "id": "objects-station",
+      "collection": "words-nouns",
+      "greek": "σταθμός",
+      "prompt": {
+        "en": "Station",
+        "ru": "Станция / вокзал"
+      },
+      "pronunciation": {
+        "en": "stath-MOS",
+        "ru": "статх-МОС"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "travel",
+        "places"
+      ],
+      "explanation": {
+        "en": "A station, such as a train or metro station. A bus stop is στάση.",
+        "ru": "Станция или вокзал. Автобусная остановка — στάση. Мужской род."
+      },
+      "answerDisplay": "ο σταθμός"
+    },
+    {
+      "id": "objects-clock",
+      "collection": "words-nouns",
+      "greek": "ρολόι",
+      "prompt": {
+        "en": "Watch / clock",
+        "ru": "Часы (прибор)"
+      },
+      "pronunciation": {
+        "en": "ro-LO-i",
+        "ru": "ро-ЛО-и"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "time"
+      ],
+      "explanation": {
+        "en": "One watch or clock is singular in Greek: το ρολόι.",
+        "ru": "В русском «часы» — множественное число, а в греческом το ρολόι — единственное, средний род."
+      },
+      "answerDisplay": "το ρολόι"
+    },
+    {
+      "id": "objects-dance",
+      "collection": "words-nouns",
+      "greek": "χορός",
+      "prompt": {
+        "en": "Dance (noun)",
+        "ru": "Танец"
+      },
+      "pronunciation": {
+        "en": "ho-ROS",
+        "ru": "хо-РОС"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "conversation"
+      ],
+      "explanation": {
+        "en": "The noun χορός means dance; χορεύω means I dance.",
+        "ru": "Χορός — танец, χορεύω — я танцую. Мужской род."
+      },
+      "answerDisplay": "ο χορός"
+    },
+    {
+      "id": "objects-traffic-light",
+      "collection": "words-nouns",
+      "greek": "φανάρι",
+      "prompt": {
+        "en": "Traffic light",
+        "ru": "Светофор"
+      },
+      "pronunciation": {
+        "en": "fa-NA-ri",
+        "ru": "фа-НА-ри"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "travel"
+      ],
+      "explanation": {
+        "en": "A traffic light in the street; the same word can also mean a lantern.",
+        "ru": "Здесь — светофор. Слово также может означать фонарь. Средний род."
+      },
+      "answerDisplay": "το φανάρι"
+    },
+    {
+      "id": "objects-car",
+      "collection": "words-nouns",
+      "greek": "αυτοκίνητο",
+      "prompt": {
+        "en": "Car",
+        "ru": "Автомобиль"
+      },
+      "pronunciation": {
+        "en": "af-to-KI-ni-to",
+        "ru": "аф-то-КИ-ни-то"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "travel"
+      ],
+      "answerDisplay": "το αυτοκίνητο"
+    },
+    {
+      "id": "objects-day",
+      "collection": "words-nouns",
+      "greek": "μέρα",
+      "prompt": {
+        "en": "Day",
+        "ru": "День"
+      },
+      "pronunciation": {
+        "en": "ME-ra",
+        "ru": "МЭ-ра"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "time"
+      ],
+      "explanation": {
+        "en": "Κάθε μέρα means every day. Ημέρα is also accepted.",
+        "ru": "Κάθε μέρα — каждый день. Также принимается ημέρα. Женский род."
+      },
+      "answerDisplay": "η μέρα",
+      "alternatives": [
+        "ημέρα"
+      ],
+      "acceptedAnswers": [
+        "η ημέρα"
+      ]
+    },
+    {
+      "id": "objects-sunday",
+      "collection": "words-nouns",
+      "greek": "Κυριακή",
+      "prompt": {
+        "en": "Sunday",
+        "ru": "Воскресенье"
+      },
+      "pronunciation": {
+        "en": "ki-rya-KI",
+        "ru": "ки-рья-КИ"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "time"
+      ],
+      "explanation": {
+        "en": "Weekday names begin with a capital letter. Here Κυριακή is the day of the week.",
+        "ru": "Название дня недели пишется с заглавной буквы. Здесь Κυριακή — воскресенье. Женский род."
+      },
+      "answerDisplay": "η Κυριακή"
+    },
+    {
+      "id": "objects-hour",
+      "collection": "words-nouns",
+      "greek": "ώρα",
+      "prompt": {
+        "en": "Hour",
+        "ru": "Час"
+      },
+      "pronunciation": {
+        "en": "O-ra",
+        "ru": "О-ра"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "time"
+      ],
+      "explanation": {
+        "en": "Plural ώρες. Πρωινές ώρες means morning hours.",
+        "ru": "Множественное число — ώρες. Πρωινές ώρες — утренние часы. Женский род."
+      },
+      "answerDisplay": "η ώρα"
+    },
+    {
+      "id": "objects-year",
+      "collection": "words-nouns",
+      "greek": "χρόνος",
+      "prompt": {
+        "en": "Year / time",
+        "ru": "Год / время"
+      },
+      "pronunciation": {
+        "en": "HRO-nos",
+        "ru": "ХРО-нос"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "time"
+      ],
+      "explanation": {
+        "en": "For age: δέκα χρονών means ten years old. Χρόνος can mean a year or time in general.",
+        "ru": "Δέκα χρονών — десяти лет. Χρόνος означает год или время в целом. Мужской род."
+      },
+      "answerDisplay": "ο χρόνος"
+    },
+    {
+      "id": "objects-advert",
+      "collection": "words-nouns",
+      "greek": "αγγελία",
+      "prompt": {
+        "en": "Classified advertisement",
+        "ru": "Объявление (например, о работе)"
+      },
+      "pronunciation": {
+        "en": "an-ghe-LI-a",
+        "ru": "ан-гэ-ЛИ-а"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "conversation"
+      ],
+      "explanation": {
+        "en": "A short notice, such as a job or housing advertisement.",
+        "ru": "Короткое объявление, например о вакансии или жилье. Женский род."
+      },
+      "answerDisplay": "η αγγελία"
+    },
+    {
+      "id": "objects-space",
+      "collection": "words-nouns",
+      "greek": "χώρος",
+      "prompt": {
+        "en": "Space / area",
+        "ru": "Пространство / помещение"
+      },
+      "pronunciation": {
+        "en": "HO-ros",
+        "ru": "ХО-рос"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "places"
+      ],
+      "explanation": {
+        "en": "Compare the stress and vowel spelling: χώρος means space; χορός means dance.",
+        "ru": "Не путайте: χώρος — пространство, χορός — танец. Отличаются ударением и написанием. Мужской род."
+      },
+      "answerDisplay": "ο χώρος"
+    },
+    {
+      "id": "objects-pay",
+      "collection": "words-nouns",
+      "greek": "αμοιβή",
+      "prompt": {
+        "en": "Pay / remuneration",
+        "ru": "Оплата / вознаграждение"
+      },
+      "pronunciation": {
+        "en": "a-mi-VI",
+        "ru": "а-ми-ВИ"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "conversation"
+      ],
+      "explanation": {
+        "en": "Καλή αμοιβή in a job advertisement means good pay.",
+        "ru": "Καλή αμοιβή в объявлении — хорошая оплата. Женский род."
+      },
+      "answerDisplay": "η αμοιβή"
+    },
+    {
+      "id": "objects-secretariat",
+      "collection": "words-nouns",
+      "greek": "γραμματεία",
+      "prompt": {
+        "en": "Administrative office / secretariat",
+        "ru": "Секретариат / учебная часть"
+      },
+      "pronunciation": {
+        "en": "ghra-ma-TI-a",
+        "ru": "гра-ма-ТИ-а"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "classroom"
+      ],
+      "explanation": {
+        "en": "The administrative office; γραμματέας is the person working as a secretary.",
+        "ru": "Административный отдел; γραμματέας — человек, работающий секретарём. Женский род."
+      },
+      "answerDisplay": "η γραμματεία"
+    },
+    {
+      "id": "objects-working-hours",
+      "collection": "words-nouns",
+      "greek": "ωράριο",
+      "prompt": {
+        "en": "Working hours / work schedule",
+        "ru": "Рабочие часы / график работы"
+      },
+      "pronunciation": {
+        "en": "o-RA-ri-o",
+        "ru": "о-РА-ри-о"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "time"
+      ],
+      "explanation": {
+        "en": "Πλήρες ωράριο means a full-time work schedule.",
+        "ru": "Πλήρες ωράριο — полный рабочий день. Средний род."
+      },
+      "answerDisplay": "το ωράριο"
+    },
+    {
+      "id": "objects-reception",
+      "collection": "words-nouns",
+      "greek": "ρεσεψιόν",
+      "prompt": {
+        "en": "Reception (in a hotel)",
+        "ru": "Ресепшен (в гостинице)"
+      },
+      "pronunciation": {
+        "en": "re-se-PSYON",
+        "ru": "рэ-сэ-ПСЬОН"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "places",
+        "travel"
+      ],
+      "explanation": {
+        "en": "An indeclinable feminine noun: η ρεσεψιόν, στην ρεσεψιόν.",
+        "ru": "Несклоняемое существительное женского рода: η ρεσεψιόν — ресепшен, στην ρεσεψιόν — на ресепшене."
+      },
+      "answerDisplay": "η ρεσεψιόν"
+    },
+    {
+      "id": "objects-knowledge",
+      "collection": "words-nouns",
+      "greek": "γνώση",
+      "prompt": {
+        "en": "Knowledge",
+        "ru": "Знание"
+      },
+      "pronunciation": {
+        "en": "GHNO-si",
+        "ru": "ГНО-си"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "classroom"
+      ],
+      "explanation": {
+        "en": "Καλή γνώση αγγλικών means a good knowledge of English.",
+        "ru": "Καλή γνώση αγγλικών — хорошее знание английского. Женский род."
+      },
+      "answerDisplay": "η γνώση"
+    },
+    {
+      "id": "objects-heraklion",
+      "collection": "words-names",
+      "greek": "Ηράκλειο",
+      "prompt": {
+        "en": "Heraklion",
+        "ru": "Ираклион"
+      },
+      "pronunciation": {
+        "en": "i-RA-kli-o",
+        "ru": "и-РА-кли-о"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "places",
+        "travel"
+      ],
+      "answerDisplay": "το Ηράκλειο"
+    },
+    {
+      "id": "objects-monastiraki",
+      "collection": "words-names",
+      "greek": "Μοναστηράκι",
+      "prompt": {
+        "en": "Monastiraki (Athens district)",
+        "ru": "Монастираки (район Афин)"
+      },
+      "pronunciation": {
+        "en": "mo-na-sti-RA-ki",
+        "ru": "мо-на-сти-РА-ки"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "places",
+        "travel"
+      ],
+      "answerDisplay": "το Μοναστηράκι"
+    },
+    {
+      "id": "objects-panorama",
+      "collection": "words-names",
+      "greek": "Πανόραμα",
+      "prompt": {
+        "en": "Panorama (Thessaloniki suburb)",
+        "ru": "Панорама (пригород Салоник)"
+      },
+      "pronunciation": {
+        "en": "pa-NO-ra-ma",
+        "ru": "па-НО-ра-ма"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "places",
+        "travel"
+      ],
+      "answerDisplay": "το Πανόραμα"
+    },
+    {
+      "id": "objects-crete",
+      "collection": "words-names",
+      "greek": "Κρήτη",
+      "prompt": {
+        "en": "Crete",
+        "ru": "Крит"
+      },
+      "pronunciation": {
+        "en": "KRI-ti",
+        "ru": "КРИ-ти"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "places",
+        "travel"
+      ],
+      "answerDisplay": "η Κρήτη"
+    },
+    {
+      "id": "objects-call-out",
+      "collection": "words-verbs",
+      "greek": "φωνάζω",
+      "prompt": {
+        "en": "I shout / call out",
+        "ru": "Я кричу / зову"
+      },
+      "pronunciation": {
+        "en": "fo-NA-zo",
+        "ru": "фо-НА-зо"
+      },
+      "labels": [
+        "verb"
+      ],
+      "themes": [
+        "conversation"
+      ],
+      "explanation": {
+        "en": "Calling out to someone, not making a phone call. For the latter use παίρνω τηλέφωνο.",
+        "ru": "Зову кого-то голосом или кричу. Звонить по телефону — παίρνω τηλέφωνο."
+      }
+    },
+    {
+      "id": "objects-take",
+      "collection": "words-verbs",
+      "greek": "παίρνω",
+      "prompt": {
+        "en": "I take",
+        "ru": "Я беру"
+      },
+      "pronunciation": {
+        "en": "PER-no",
+        "ru": "ПЭР-но"
+      },
+      "labels": [
+        "verb"
+      ],
+      "themes": [
+        "conversation"
+      ],
+      "explanation": {
+        "en": "Παίρνω means I take. Περνάω / περνώ means I pass or spend time; compare the stress and spelling.",
+        "ru": "Παίρνω — беру. Περνάω / περνώ — прохожу или провожу время. В παίρνω ударение на первом слоге."
+      }
+    },
+    {
+      "id": "objects-eat",
+      "collection": "words-verbs",
+      "greek": "τρώω",
+      "prompt": {
+        "en": "I eat",
+        "ru": "Я ем"
+      },
+      "pronunciation": {
+        "en": "TRO-o",
+        "ru": "ТРО-о"
+      },
+      "labels": [
+        "verb"
+      ],
+      "themes": [
+        "conversation"
+      ],
+      "explanation": {
+        "en": "First-person present. Τρώγω is another accepted form.",
+        "ru": "Первое лицо настоящего времени: «я ем». Также принимается τρώγω."
+      },
+      "alternatives": [
+        "τρώγω"
+      ]
+    },
+    {
+      "id": "objects-dance-verb",
+      "collection": "words-verbs",
+      "greek": "χορεύω",
+      "prompt": {
+        "en": "I dance",
+        "ru": "Я танцую"
+      },
+      "pronunciation": {
+        "en": "ho-RE-vo",
+        "ru": "хо-РЭ-во"
+      },
+      "labels": [
+        "verb"
+      ],
+      "themes": [
+        "conversation"
+      ],
+      "explanation": {
+        "en": "The action χορεύω corresponds to the noun χορός, a dance.",
+        "ru": "Χορεύω — действие «танцую», χορός — существительное «танец»."
+      }
+    },
+    {
+      "id": "objects-continue",
+      "collection": "words-verbs",
+      "greek": "συνεχίζω",
+      "prompt": {
+        "en": "I continue",
+        "ru": "Я продолжаю"
+      },
+      "pronunciation": {
+        "en": "si-ne-HI-zo",
+        "ru": "си-нэ-ХИ-зо"
+      },
+      "labels": [
+        "verb"
+      ],
+      "themes": [
+        "classroom"
+      ],
+      "explanation": {
+        "en": "First-person present; in exercise headings it describes what the learner does.",
+        "ru": "Форма «я продолжаю». В заголовке упражнения она описывает действие ученика."
+      }
+    },
+    {
+      "id": "objects-seek-staff",
+      "collection": "words-verbs",
+      "greek": "ζητάω",
+      "prompt": {
+        "en": "I seek (e.g. an employee)",
+        "ru": "Я ищу (например, сотрудника)"
+      },
+      "pronunciation": {
+        "en": "zi-TA-o",
+        "ru": "зи-ТА-о"
+      },
+      "labels": [
+        "verb"
+      ],
+      "themes": [
+        "conversation"
+      ],
+      "explanation": {
+        "en": "In job advertisements, ζητάω can mean seek or look for: the employer is seeking staff. It also means ask for something.",
+        "ru": "В объявлении ζητάω означает «ищу»: работодатель ищет сотрудника. Другое значение — «прошу что-то». Равноправная форма — ζητώ."
+      },
+      "alternatives": [
+        "ζητώ"
+      ]
+    },
+    {
+      "id": "objects-difficult",
+      "collection": "words-descriptions",
+      "greek": "δύσκολος",
+      "prompt": {
+        "en": "Difficult",
+        "ru": "Трудный"
+      },
+      "pronunciation": {
+        "en": "DHIS-ko-los",
+        "ru": "ДИС-ко-лос"
+      },
+      "labels": [
+        "adjective"
+      ],
+      "themes": [
+        "conversation"
+      ],
+      "explanation": {
+        "en": "The ending follows the Greek noun: το μάθημα είναι δύσκολο. Any listed gender form is accepted here.",
+        "ru": "Окончание зависит от рода греческого существительного: το μάθημα είναι δύσκολο — урок трудный. Здесь принимается любая из трёх форм."
+      },
+      "wordGroup": "difficult",
+      "forms": [
+        {
+          "greek": "δύσκολος",
+          "answerDisplay": "δύσκολος",
+          "pronunciation": {
+            "en": "DHIS-ko-los",
+            "ru": "ДИС-ко-лос"
+          }
+        },
+        {
+          "greek": "δύσκολη",
+          "answerDisplay": "δύσκολη",
+          "pronunciation": {
+            "en": "DHIS-ko-li",
+            "ru": "ДИС-ко-ли"
+          }
+        },
+        {
+          "greek": "δύσκολο",
+          "answerDisplay": "δύσκολο",
+          "pronunciation": {
+            "en": "DHIS-ko-lo",
+            "ru": "ДИС-ко-ло"
+          }
+        }
+      ],
+      "answerDisplay": "δύσκολος / δύσκολη / δύσκολο",
+      "alternatives": [
+        "δύσκολη",
+        "δύσκολο"
+      ]
+    },
+    {
+      "id": "objects-private",
+      "collection": "words-descriptions",
+      "greek": "ιδιωτικός",
+      "prompt": {
+        "en": "Private (not state-run)",
+        "ru": "Частный (негосударственный)"
+      },
+      "pronunciation": {
+        "en": "i-dhi-o-ti-KOS",
+        "ru": "и-ди-о-ти-КОС"
+      },
+      "labels": [
+        "adjective"
+      ],
+      "themes": [
+        "conversation"
+      ],
+      "explanation": {
+        "en": "For example, ιδιωτικό σχολείο is a private school.",
+        "ru": "Ιδιωτικό σχολείο — частная школа. Школа в греческом среднего рода: το σχολείο."
+      },
+      "wordGroup": "private",
+      "forms": [
+        {
+          "greek": "ιδιωτικός",
+          "answerDisplay": "ιδιωτικός",
+          "pronunciation": {
+            "en": "i-dhi-o-ti-KOS",
+            "ru": "и-ди-о-ти-КОС"
+          }
+        },
+        {
+          "greek": "ιδιωτική",
+          "answerDisplay": "ιδιωτική",
+          "pronunciation": {
+            "en": "i-dhi-o-ti-KI",
+            "ru": "и-ди-о-ти-КИ"
+          }
+        },
+        {
+          "greek": "ιδιωτικό",
+          "answerDisplay": "ιδιωτικό",
+          "pronunciation": {
+            "en": "i-dhi-o-ti-KO",
+            "ru": "и-ди-о-ти-КО"
+          }
+        }
+      ],
+      "answerDisplay": "ιδιωτικός / ιδιωτική / ιδιωτικό",
+      "alternatives": [
+        "ιδιωτική",
+        "ιδιωτικό"
+      ]
+    },
+    {
+      "id": "objects-friendly",
+      "collection": "words-descriptions",
+      "greek": "φιλικός",
+      "prompt": {
+        "en": "Friendly",
+        "ru": "Дружелюбный"
+      },
+      "pronunciation": {
+        "en": "fi-li-KOS",
+        "ru": "фи-ли-КОС"
+      },
+      "labels": [
+        "adjective"
+      ],
+      "themes": [
+        "conversation"
+      ],
+      "explanation": {
+        "en": "Related to φίλος, friend. Φιλικός χώρος in an advertisement describes a welcoming environment.",
+        "ru": "Связано с φίλος — друг. Φιλικός χώρος в объявлении — доброжелательная обстановка."
+      },
+      "wordGroup": "friendly",
+      "forms": [
+        {
+          "greek": "φιλικός",
+          "answerDisplay": "φιλικός",
+          "pronunciation": {
+            "en": "fi-li-KOS",
+            "ru": "фи-ли-КОС"
+          }
+        },
+        {
+          "greek": "φιλική",
+          "answerDisplay": "φιλική",
+          "pronunciation": {
+            "en": "fi-li-KI",
+            "ru": "фи-ли-КИ"
+          }
+        },
+        {
+          "greek": "φιλικό",
+          "answerDisplay": "φιλικό",
+          "pronunciation": {
+            "en": "fi-li-KO",
+            "ru": "фи-ли-КО"
+          }
+        }
+      ],
+      "answerDisplay": "φιλικός / φιλική / φιλικό",
+      "alternatives": [
+        "φιλική",
+        "φιλικό"
+      ]
+    },
+    {
+      "id": "objects-full",
+      "collection": "words-descriptions",
+      "greek": "πλήρης",
+      "prompt": {
+        "en": "Full / complete",
+        "ru": "Полный"
+      },
+      "pronunciation": {
+        "en": "PLI-ris",
+        "ru": "ПЛИ-рис"
+      },
+      "labels": [
+        "adjective"
+      ],
+      "themes": [
+        "conversation"
+      ],
+      "explanation": {
+        "en": "Masculine and feminine: πλήρης. Neuter: πλήρες, as in πλήρες ωράριο, a full-time work schedule.",
+        "ru": "Мужской и женский род — πλήρης, средний — πλήρες. Πλήρες ωράριο — полный рабочий день."
+      },
+      "wordGroup": "full",
+      "forms": [
+        {
+          "greek": "πλήρης",
+          "answerDisplay": "πλήρης",
+          "pronunciation": {
+            "en": "PLI-ris",
+            "ru": "ПЛИ-рис"
+          }
+        },
+        {
+          "greek": "πλήρες",
+          "answerDisplay": "πλήρες",
+          "pronunciation": {
+            "en": "PLI-res",
+            "ru": "ПЛИ-рэс"
+          }
+        }
+      ],
+      "answerDisplay": "πλήρης / πλήρες",
+      "alternatives": [
+        "πλήρες"
+      ]
+    },
+    {
+      "id": "objects-morning",
+      "collection": "words-descriptions",
+      "greek": "πρωινός",
+      "prompt": {
+        "en": "Morning (adjective)",
+        "ru": "Утренний"
+      },
+      "pronunciation": {
+        "en": "pro-i-NOS",
+        "ru": "про-и-НОС"
+      },
+      "labels": [
+        "adjective"
+      ],
+      "themes": [
+        "conversation"
+      ],
+      "explanation": {
+        "en": "Πρωινές ώρες means morning hours; πρωινές agrees with the feminine plural ώρες.",
+        "ru": "Πρωινές ώρες — утренние часы. Здесь πρωινές — форма женского рода множественного числа, как и ώρες."
+      },
+      "wordGroup": "morning",
+      "forms": [
+        {
+          "greek": "πρωινός",
+          "answerDisplay": "πρωινός",
+          "pronunciation": {
+            "en": "pro-i-NOS",
+            "ru": "про-и-НОС"
+          }
+        },
+        {
+          "greek": "πρωινή",
+          "answerDisplay": "πρωινή",
+          "pronunciation": {
+            "en": "pro-i-NI",
+            "ru": "про-и-НИ"
+          }
+        },
+        {
+          "greek": "πρωινό",
+          "answerDisplay": "πρωινό",
+          "pronunciation": {
+            "en": "pro-i-NO",
+            "ru": "про-и-НО"
+          }
+        }
+      ],
+      "answerDisplay": "πρωινός / πρωινή / πρωινό",
+      "alternatives": [
+        "πρωινή",
+        "πρωινό"
+      ]
+    },
+    {
+      "id": "objects-good",
+      "collection": "words-descriptions",
+      "greek": "καλός",
+      "prompt": {
+        "en": "Good (adjective)",
+        "ru": "Хороший"
+      },
+      "pronunciation": {
+        "en": "ka-LOS",
+        "ru": "ка-ЛОС"
+      },
+      "labels": [
+        "adjective"
+      ],
+      "themes": [
+        "conversation"
+      ],
+      "explanation": {
+        "en": "Καλή αμοιβή = good pay. The adjective describes a noun; καλά means well.",
+        "ru": "Καλή αμοιβή — хорошая оплата. Καλός описывает предмет или человека, а καλά — наречие «хорошо»."
+      },
+      "wordGroup": "good",
+      "forms": [
+        {
+          "greek": "καλός",
+          "answerDisplay": "καλός",
+          "pronunciation": {
+            "en": "ka-LOS",
+            "ru": "ка-ЛОС"
+          }
+        },
+        {
+          "greek": "καλή",
+          "answerDisplay": "καλή",
+          "pronunciation": {
+            "en": "ka-LI",
+            "ru": "ка-ЛИ"
+          }
+        },
+        {
+          "greek": "καλό",
+          "answerDisplay": "καλό",
+          "pronunciation": {
+            "en": "ka-LO",
+            "ru": "ка-ЛО"
+          }
+        }
+      ],
+      "answerDisplay": "καλός / καλή / καλό",
+      "alternatives": [
+        "καλή",
+        "καλό"
+      ]
+    },
+    {
+      "id": "objects-whom",
+      "collection": "words-pronouns",
+      "greek": "ποιον",
+      "prompt": {
+        "en": "Whom? (masculine singular)",
+        "ru": "Кого? (мужской род, единственное число)"
+      },
+      "pronunciation": {
+        "en": "pyon",
+        "ru": "пьон"
+      },
+      "labels": [
+        "pronoun"
+      ],
+      "themes": [
+        "conversation"
+      ],
+      "explanation": {
+        "en": "Accusative of ποιος: Ποιον ξέρεις; Who do you know? Like ποιος, ποιον is written without an accent.",
+        "ru": "Винительный падеж от ποιος: Ποιον ξέρεις; — Кого ты знаешь? Ποιος — «кто», ποιον — «кого». Обе формы пишутся без знака ударения."
+      }
+    },
+    {
+      "id": "objects-something",
+      "collection": "words-pronouns",
+      "greek": "κάτι",
+      "prompt": {
+        "en": "Something",
+        "ru": "Что-то"
+      },
+      "pronunciation": {
+        "en": "KA-ti",
+        "ru": "КА-ти"
+      },
+      "labels": [
+        "pronoun"
+      ],
+      "themes": [
+        "conversation"
+      ],
+      "explanation": {
+        "en": "An invariable pronoun: θέλω κάτι, I want something.",
+        "ru": "Неизменяемое местоимение: θέλω κάτι — я хочу что-то."
+      }
+    },
+    {
+      "id": "objects-every",
+      "collection": "words-pronouns",
+      "greek": "κάθε",
+      "prompt": {
+        "en": "Every / each",
+        "ru": "Каждый"
+      },
+      "pronunciation": {
+        "en": "KA-the",
+        "ru": "КА-тхэ"
+      },
+      "labels": [
+        "pronoun"
+      ],
+      "themes": [
+        "time"
+      ],
+      "explanation": {
+        "en": "Used before a singular noun and does not change form: κάθε μέρα, every day.",
+        "ru": "Ставится перед существительным в единственном числе и не изменяется: κάθε μέρα — каждый день."
+      }
+    },
+    {
+      "id": "objects-us-object",
+      "collection": "words-pronouns",
+      "greek": "μας",
+      "prompt": {
+        "en": "Us (as in “call us”)",
+        "ru": "Нас (прямое дополнение)"
+      },
+      "pronunciation": {
+        "en": "mas",
+        "ru": "мас"
+      },
+      "labels": [
+        "pronoun"
+      ],
+      "themes": [
+        "phone"
+      ],
+      "explanation": {
+        "en": "In Πάρε μας τηλέφωνο, μας is the object us. After a noun it means our: το σπίτι μας.",
+        "ru": "В Πάρε μας τηλέφωνο местоимение μας — прямое дополнение «нас». По-русски естественно «позвони нам»: падежи в двух языках не совпадают. После существительного μας означает «наш»."
+      }
+    },
+    {
+      "id": "objects-when-clause",
+      "collection": "words-connectors",
+      "greek": "όταν",
+      "prompt": {
+        "en": "When (joining clauses)",
+        "ru": "Когда (соединяет части предложения)"
+      },
+      "pronunciation": {
+        "en": "O-tan",
+        "ru": "О-тан"
+      },
+      "labels": [
+        "conjunction"
+      ],
+      "themes": [
+        "time"
+      ],
+      "explanation": {
+        "en": "Όταν introduces a time clause: I eat when I am hungry. A question uses πότε: when do you eat?",
+        "ru": "Όταν вводит придаточное времени: «я ем, когда голоден». В вопросе «когда ты ешь?» используется πότε."
+      }
+    },
+    {
+      "id": "objects-as-like",
+      "collection": "words-connectors",
+      "greek": "όπως",
+      "prompt": {
+        "en": "As / like (in the same way)",
+        "ru": "Как (таким же образом)"
+      },
+      "pronunciation": {
+        "en": "O-pos",
+        "ru": "О-пос"
+      },
+      "labels": [
+        "conjunction"
+      ],
+      "themes": [
+        "classroom"
+      ],
+      "explanation": {
+        "en": "Όπως στο παράδειγμα means as in the example. A question asking how uses πώς.",
+        "ru": "Όπως στο παράδειγμα — как в примере. Вопрос «как?» — πώς."
+      }
+    },
+    {
+      "id": "objects-every-day",
+      "collection": "phrases-everyday",
+      "greek": "Κάθε μέρα.",
+      "prompt": {
+        "en": "Every day.",
+        "ru": "Каждый день."
+      },
+      "pronunciation": {
+        "en": "KA-the ME-ra",
+        "ru": "КА-тхэ МЭ-ра"
+      },
+      "labels": [],
+      "themes": [
+        "time"
+      ],
+      "explanation": {
+        "en": "Κάθε stays unchanged; μέρα is singular.",
+        "ru": "Κάθε не изменяется, μέρα стоит в единственном числе."
+      },
+      "alternatives": [
+        "Κάθε ημέρα."
+      ]
+    },
+    {
+      "id": "objects-full-time",
+      "collection": "phrases-everyday",
+      "greek": "Πλήρες ωράριο.",
+      "prompt": {
+        "en": "Full-time working hours.",
+        "ru": "Полный рабочий день."
+      },
+      "pronunciation": {
+        "en": "PLI-res o-RA-ri-o",
+        "ru": "ПЛИ-рэс о-РА-ри-о"
+      },
+      "labels": [],
+      "themes": [
+        "time"
+      ],
+      "explanation": {
+        "en": "Ωράριο is neuter, so the adjective is πλήρες.",
+        "ru": "Ωράριο — средний род, поэтому πλήρες, а не πλήρης."
+      }
+    },
+    {
+      "id": "objects-phone-call",
+      "collection": "phrases-everyday",
+      "greek": "Παίρνω τηλέφωνο.",
+      "prompt": {
+        "en": "I make a phone call.",
+        "ru": "Я звоню по телефону."
+      },
+      "pronunciation": {
+        "en": "PER-no ti-LE-fo-no",
+        "ru": "ПЭР-но ти-ЛЭ-фо-но"
+      },
+      "labels": [],
+      "themes": [
+        "phone"
+      ],
+      "explanation": {
+        "en": "A set expression with παίρνω, I take. Here τηλέφωνο has no article.",
+        "ru": "Устойчивое выражение с παίρνω — «беру». Здесь τηλέφωνο без артикля."
+      }
+    },
+    {
+      "id": "objects-call-us",
+      "collection": "phrases-everyday",
+      "greek": "Πάρε μας τηλέφωνο!",
+      "prompt": {
+        "en": "Call us! (to one person)",
+        "ru": "Позвони нам! (на ты)"
+      },
+      "pronunciation": {
+        "en": "PA-re mas ti-LE-fo-no",
+        "ru": "ПА-рэ мас ти-ЛЭ-фо-но"
+      },
+      "labels": [],
+      "themes": [
+        "phone"
+      ],
+      "explanation": {
+        "en": "Πάρε is the singular command form of παίρνω; μας means us here.",
+        "ru": "Πάρε — повелительная форма παίρνω для обращения на «ты». По-русски эта фраза означает «позвони нам»."
+      }
+    },
+    {
+      "id": "objects-six-to-ten",
+      "collection": "phrases-everyday",
+      "greek": "Έξι με δέκα.",
+      "prompt": {
+        "en": "From six to ten (time range).",
+        "ru": "С шести до десяти (о времени)."
+      },
+      "pronunciation": {
+        "en": "E-ksi me DHE-ka",
+        "ru": "Э-кси мэ ДЭ-ка"
+      },
+      "labels": [],
+      "themes": [
+        "time"
+      ],
+      "explanation": {
+        "en": "Με links the limits of a range. Context tells you whether these are morning or evening hours.",
+        "ru": "Με соединяет границы промежутка. Утро это или вечер, понятно из контекста; сама фраза не означает именно 18:00–22:00."
+      },
+      "acceptedAnswers": [
+        "Από τις έξι μέχρι τις δέκα.",
+        "Από τις έξι ως τις δέκα.",
+        "Από τις έξι έως τις δέκα."
+      ]
+    },
+    {
+      "id": "objects-child-age",
+      "collection": "phrases-everyday",
+      "greek": "Παιδί δέκα χρονών.",
+      "prompt": {
+        "en": "A ten-year-old child.",
+        "ru": "Ребёнок десяти лет."
+      },
+      "pronunciation": {
+        "en": "pe-DHI DHE-ka hro-NON",
+        "ru": "пэ-ДИ ДЭ-ка хро-НОН"
+      },
+      "labels": [],
+      "themes": [
+        "family",
+        "time"
+      ],
+      "explanation": {
+        "en": "Age uses χρονών, the genitive plural of χρόνος.",
+        "ru": "Для возраста используется χρονών — родительный падеж множественного числа от χρόνος."
+      },
+      "acceptedAnswers": [
+        "Ένα παιδί δέκα χρονών."
+      ]
+    },
+    {
+      "id": "objects-morning-hours",
+      "collection": "phrases-everyday",
+      "greek": "Πρωινές ώρες.",
+      "prompt": {
+        "en": "Morning hours.",
+        "ru": "Утренние часы."
+      },
+      "pronunciation": {
+        "en": "pro-i-NES O-res",
+        "ru": "про-и-НЭС О-рэс"
+      },
+      "labels": [],
+      "themes": [
+        "time"
+      ],
+      "explanation": {
+        "en": "Πρωινές agrees with the feminine plural ώρες.",
+        "ru": "Πρωινές согласуется с ώρες: женский род, множественное число."
+      }
+    },
+    {
+      "id": "objects-station-subject",
+      "collection": "grammar-nouns",
+      "greek": "Ο σταθμός είναι εδώ.",
+      "prompt": {
+        "en": "The station is here.",
+        "ru": "Станция здесь."
+      },
+      "pronunciation": {
+        "en": "o stath-MOS I-ne e-DHO",
+        "ru": "о статх-МОС И-нэ э-ДО"
+      },
+      "labels": [],
+      "themes": [
+        "places"
+      ],
+      "explanation": {
+        "en": "The subject uses ο σταθμός. In Greek station is masculine.",
+        "ru": "Подлежащее — ο σταθμός. В греческом «станция» мужского рода."
+      }
+    },
+    {
+      "id": "objects-station-object",
+      "collection": "grammar-nouns",
+      "greek": "Ψάχνω τον σταθμό.",
+      "prompt": {
+        "en": "I am looking for the station.",
+        "ru": "Я ищу станцию."
+      },
+      "pronunciation": {
+        "en": "PSAH-no ton stath-MO",
+        "ru": "ПСАХ-но тон статх-МО"
+      },
+      "labels": [],
+      "themes": [
+        "places"
+      ],
+      "explanation": {
+        "en": "The object is accusative: ο σταθμός → τον σταθμό.",
+        "ru": "Дополнение в винительном падеже: ο σταθμός → τον σταθμό. У существительного исчезает конечное -ς."
+      },
+      "acceptedAnswers": [
+        "Εγώ ψάχνω τον σταθμό."
+      ]
+    },
+    {
+      "id": "objects-bank-subject",
+      "collection": "grammar-nouns",
+      "greek": "Η τράπεζα είναι εκεί.",
+      "prompt": {
+        "en": "The bank is there.",
+        "ru": "Банк там."
+      },
+      "pronunciation": {
+        "en": "i TRA-pe-za I-ne e-KI",
+        "ru": "и ТРА-пэ-за И-нэ э-КИ"
+      },
+      "labels": [],
+      "themes": [
+        "places"
+      ],
+      "explanation": {
+        "en": "Τράπεζα is feminine in Greek; the subject takes η.",
+        "ru": "В греческом τράπεζα — женского рода. Подлежащее с артиклем η."
+      }
+    },
+    {
+      "id": "objects-bank-object",
+      "collection": "grammar-nouns",
+      "greek": "Βλέπεις την τράπεζα;",
+      "prompt": {
+        "en": "Do you see the bank? (informal)",
+        "ru": "Ты видишь банк?"
+      },
+      "pronunciation": {
+        "en": "VLE-pis tin TRA-pe-za",
+        "ru": "ВЛЭ-пис тин ТРА-пэ-за"
+      },
+      "labels": [],
+      "themes": [
+        "places"
+      ],
+      "explanation": {
+        "en": "The object uses την τράπεζα. The noun itself stays the same.",
+        "ru": "Винительный падеж — την τράπεζα. Меняется артикль, но не само существительное."
+      },
+      "acceptedAnswers": [
+        "Εσύ βλέπεις την τράπεζα;"
+      ]
+    },
+    {
+      "id": "objects-lesson-subject",
+      "collection": "grammar-nouns",
+      "greek": "Το μάθημα είναι δύσκολο.",
+      "prompt": {
+        "en": "The lesson is difficult.",
+        "ru": "Урок трудный."
+      },
+      "pronunciation": {
+        "en": "to MA-thi-ma I-ne DHIS-ko-lo",
+        "ru": "то МА-тхи-ма И-нэ ДИС-ко-ло"
+      },
+      "labels": [],
+      "themes": [
+        "classroom"
+      ],
+      "explanation": {
+        "en": "Μάθημα is neuter, so the adjective is δύσκολο.",
+        "ru": "Μάθημα — среднего рода, поэтому δύσκολο. Русское слово «урок» — мужского рода."
+      }
+    },
+    {
+      "id": "objects-lesson-object",
+      "collection": "grammar-nouns",
+      "greek": "Καταλαβαίνεις το μάθημα;",
+      "prompt": {
+        "en": "Do you understand the lesson? (informal)",
+        "ru": "Ты понимаешь урок?"
+      },
+      "pronunciation": {
+        "en": "ka-ta-la-VE-nis to MA-thi-ma",
+        "ru": "ка-та-ла-ВЭ-нис то МА-тхи-ма"
+      },
+      "labels": [],
+      "themes": [
+        "classroom"
+      ],
+      "explanation": {
+        "en": "The neuter singular has the same form as subject and object: το μάθημα.",
+        "ru": "В среднем роде формы именительного и винительного падежей совпадают: το μάθημα."
+      },
+      "acceptedAnswers": [
+        "Εσύ καταλαβαίνεις το μάθημα;"
+      ]
+    },
+    {
+      "id": "objects-know-him-positive",
+      "collection": "grammar-nouns",
+      "greek": "Ναι, τον ξέρω.",
+      "prompt": {
+        "en": "Yes, I know him.",
+        "ru": "Да, я его знаю."
+      },
+      "pronunciation": {
+        "en": "ne ton KSE-ro",
+        "ru": "нэ тон КСЭ-ро"
+      },
+      "labels": [],
+      "themes": [
+        "conversation"
+      ],
+      "explanation": {
+        "en": "The unstressed object τον comes before ξέρω. In a negative statement, δεν goes before the pronoun.",
+        "ru": "Краткое дополнение τον ставится перед ξέρω. В отрицании порядок такой: δεν + τον + ξέρω."
+      }
+    },
+    {
+      "id": "objects-know-him-negative",
+      "collection": "grammar-nouns",
+      "greek": "Όχι, δεν τον ξέρω.",
+      "prompt": {
+        "en": "No, I do not know him.",
+        "ru": "Нет, я его не знаю."
+      },
+      "pronunciation": {
+        "en": "O-hi dhen ton KSE-ro",
+        "ru": "О-хи дэн тон КСЭ-ро"
+      },
+      "labels": [],
+      "themes": [
+        "conversation"
+      ],
+      "explanation": {
+        "en": "The unstressed object τον comes before ξέρω. In a negative statement, δεν goes before the pronoun.",
+        "ru": "Краткое дополнение τον ставится перед ξέρω. В отрицании порядок такой: δεν + τον + ξέρω."
+      }
+    },
+    {
+      "id": "objects-know-her-positive",
+      "collection": "grammar-nouns",
+      "greek": "Ναι, την ξέρω.",
+      "prompt": {
+        "en": "Yes, I know her.",
+        "ru": "Да, я её знаю."
+      },
+      "pronunciation": {
+        "en": "ne tin KSE-ro",
+        "ru": "нэ тин КСЭ-ро"
+      },
+      "labels": [],
+      "themes": [
+        "conversation"
+      ],
+      "explanation": {
+        "en": "The unstressed object την comes before ξέρω. In a negative statement, δεν goes before the pronoun.",
+        "ru": "Краткое дополнение την ставится перед ξέρω. В отрицании порядок такой: δεν + την + ξέρω."
+      },
+      "acceptedAnswers": [
+        "Ναι, τη ξέρω."
+      ]
+    },
+    {
+      "id": "objects-know-her-negative",
+      "collection": "grammar-nouns",
+      "greek": "Όχι, δεν την ξέρω.",
+      "prompt": {
+        "en": "No, I do not know her.",
+        "ru": "Нет, я её не знаю."
+      },
+      "pronunciation": {
+        "en": "O-hi dhen tin KSE-ro",
+        "ru": "О-хи дэн тин КСЭ-ро"
+      },
+      "labels": [],
+      "themes": [
+        "conversation"
+      ],
+      "explanation": {
+        "en": "The unstressed object την comes before ξέρω. In a negative statement, δεν goes before the pronoun.",
+        "ru": "Краткое дополнение την ставится перед ξέρω. В отрицании порядок такой: δεν + την + ξέρω."
+      },
+      "acceptedAnswers": [
+        "Όχι, δεν τη ξέρω."
+      ]
+    },
+    {
+      "id": "objects-know-it-positive",
+      "collection": "grammar-nouns",
+      "greek": "Ναι, το ξέρω.",
+      "prompt": {
+        "en": "Yes, I know it.",
+        "ru": "Да, я это знаю."
+      },
+      "pronunciation": {
+        "en": "ne to KSE-ro",
+        "ru": "нэ то КСЭ-ро"
+      },
+      "labels": [],
+      "themes": [
+        "conversation"
+      ],
+      "explanation": {
+        "en": "The unstressed object το comes before ξέρω. In a negative statement, δεν goes before the pronoun.",
+        "ru": "Краткое дополнение το ставится перед ξέρω. В отрицании порядок такой: δεν + το + ξέρω."
+      }
+    },
+    {
+      "id": "objects-know-it-negative",
+      "collection": "grammar-nouns",
+      "greek": "Όχι, δεν το ξέρω.",
+      "prompt": {
+        "en": "No, I do not know it.",
+        "ru": "Нет, я это не знаю."
+      },
+      "pronunciation": {
+        "en": "O-hi dhen to KSE-ro",
+        "ru": "О-хи дэн то КСЭ-ро"
+      },
+      "labels": [],
+      "themes": [
+        "conversation"
+      ],
+      "explanation": {
+        "en": "The unstressed object το comes before ξέρω. In a negative statement, δεν goes before the pronoun.",
+        "ru": "Краткое дополнение το ставится перед ξέρω. В отрицании порядок такой: δεν + το + ξέρω."
+      }
+    },
+    {
+      "id": "objects-who-calls",
+      "collection": "grammar-questions",
+      "greek": "Ποιος φωνάζει;",
+      "prompt": {
+        "en": "Who is calling out? (a man)",
+        "ru": "Кто зовёт? (мужчина)"
+      },
+      "pronunciation": {
+        "en": "pyos fo-NA-zi",
+        "ru": "пьос фо-НА-зи"
+      },
+      "labels": [],
+      "themes": [
+        "conversation"
+      ],
+      "explanation": {
+        "en": "Ποιος is the subject, so the verb is third-person singular.",
+        "ru": "Ποιος — подлежащее «кто», поэтому глагол в третьем лице единственного числа."
+      }
+    },
+    {
+      "id": "objects-whom-call",
+      "collection": "grammar-questions",
+      "greek": "Ποιον φωνάζεις;",
+      "prompt": {
+        "en": "Whom are you calling out to? (a man, informal)",
+        "ru": "Кого ты зовёшь? (мужчину)"
+      },
+      "pronunciation": {
+        "en": "pyon fo-NA-zis",
+        "ru": "пьон фо-НА-зис"
+      },
+      "labels": [],
+      "themes": [
+        "conversation"
+      ],
+      "explanation": {
+        "en": "Ποιον is the object. The ending -εις shows that you are doing the calling.",
+        "ru": "Ποιον — дополнение «кого». Окончание -εις показывает, что действие выполняешь ты."
+      }
+    },
+    {
+      "id": "objects-when-eat",
+      "collection": "grammar-questions",
+      "greek": "Πότε τρως;",
+      "prompt": {
+        "en": "When do you eat? (informal)",
+        "ru": "Когда ты ешь?"
+      },
+      "pronunciation": {
+        "en": "PO-te tros",
+        "ru": "ПО-тэ трос"
+      },
+      "labels": [],
+      "themes": [
+        "food",
+        "time"
+      ],
+      "explanation": {
+        "en": "Questions about time use πότε. Τρως is the you form of τρώω.",
+        "ru": "Вопрос о времени — πότε. Τρως — форма τρώω для «ты»."
+      },
+      "acceptedAnswers": [
+        "Πότε εσύ τρως;",
+        "Εσύ πότε τρως;",
+        "Πότε τρώγεις;"
+      ]
+    },
+    {
+      "id": "objects-eat-when-hungry",
+      "collection": "grammar-questions",
+      "greek": "Τρώω όταν πεινάω.",
+      "prompt": {
+        "en": "I eat when I am hungry.",
+        "ru": "Я ем, когда хочу есть."
+      },
+      "pronunciation": {
+        "en": "TRO-o O-tan pi-NA-o",
+        "ru": "ТРО-о О-тан пи-НА-о"
+      },
+      "labels": [],
+      "themes": [
+        "food",
+        "time"
+      ],
+      "explanation": {
+        "en": "Όταν joins the two clauses. Compare πότε in a question. Πεινάω / πεινώ means I am hungry; πίνω means I drink.",
+        "ru": "Όταν соединяет две части предложения. В вопросе «когда?» используется πότε. Πεινάω / πεινώ — хочу есть; πίνω — пью."
+      },
+      "alternatives": [
+        "Τρώω όταν πεινώ."
+      ],
+      "acceptedAnswers": [
+        "Όταν πεινάω, τρώω.",
+        "Όταν πεινώ, τρώω.",
+        "Τρώγω όταν πεινάω.",
+        "Τρώγω όταν πεινώ."
+      ]
+    }
+  ]
+}

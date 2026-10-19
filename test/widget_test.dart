@@ -59,6 +59,11 @@ void main() {
     await tester.pumpAndSettle();
     await tester.tap(find.text('Browse'));
     await tester.pumpAndSettle();
+    await tester.scrollUntilVisible(
+      find.text('μηδέν'),
+      240,
+      scrollable: find.byType(Scrollable).last,
+    );
     expect(find.text('μηδέν'), findsOneWidget);
     await tester.scrollUntilVisible(
       find.text('δέκα'),
@@ -173,11 +178,24 @@ void main() {
     tester,
   ) async {
     final cards = List.of(deck.cards)..shuffle(Random(11));
-    await openStudy(tester, StudyMode.typing, cards: cards);
-    for (var index = 0; index < cards.length; index++) {
+    final store = MemoryProgressStore();
+    await openStudy(tester, StudyMode.typing, cards: cards, store: store);
+    final remembered = <String>{};
+    var reviews = 0;
+    for (
+      var index = 0;
+      index < cards.length * 3 && find.text('Μπράβο!').evaluate().isEmpty;
+      index++
+    ) {
       final card = cards.firstWhere(
         (card) => find.text(card.meaning.en).evaluate().isNotEmpty,
       );
+      if (remembered.contains(card.id)) {
+        reviews++;
+        expect(find.textContaining('Quick review'), findsOneWidget);
+      } else {
+        expect(find.textContaining('Quick review'), findsNothing);
+      }
       // Switch to native input once to exercise both supported keyboards.
       if (index == 0) {
         await tester.tap(find.text('Use phone keyboard'));
@@ -190,7 +208,18 @@ void main() {
       expect(find.text('Exactly right.'), findsOneWidget);
       await tester.tap(find.text('Continue'));
       await tester.pumpAndSettle();
+      remembered.add(card.id);
+      if (remembered.length < cards.length) {
+        expect(
+          find.text('${remembered.length} / ${cards.length} remembered'),
+          findsOneWidget,
+        );
+      }
     }
+    expect(reviews, greaterThan(0));
+    expect(remembered, hasLength(cards.length));
+    expect(store.records, hasLength(cards.length));
+    expect(store.records.values.map((record) => record.level), everyElement(1));
     expect(find.text('11 of 11 on the first try'), findsOneWidget);
     expect(tester.takeException(), isNull);
   });

@@ -76,7 +76,7 @@
     },
     {
       "id": "work-life-greek-language",
-      "collection": "words-nouns",
+      "collection": "words-names",
       "greek": "ελληνικά",
       "prompt": {
         "en": "Greek (language)",
@@ -96,7 +96,11 @@
       "labels": [
         "noun"
       ],
-      "answerDisplay": "τα ελληνικά"
+      "answerDisplay": "τα ελληνικά",
+      "reviewIdentity": {
+        "deckId": "words-nouns",
+        "cardId": "work-life-greek-language"
+      }
     },
     {
       "id": "work-life-cash-desk",
