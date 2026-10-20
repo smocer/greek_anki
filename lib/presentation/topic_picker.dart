@@ -3,6 +3,7 @@ import '../domain/curriculum.dart';
 import '../domain/vocabulary.dart';
 import '../domain/vocabulary_category.dart';
 import 'app_strings.dart';
+import 'theme.dart';
 import 'vocabulary_preview.dart';
 
 class CollectionSelection {
@@ -56,10 +57,13 @@ class _TopicPickerState extends State<TopicPicker> {
     minChildSize: .5,
     maxChildSize: .95,
     builder: (context, controller) {
+      final excludedThemes = _theme == null
+          ? _excludedThemes
+          : const <LearningTheme>{};
       final deck = widget.collection.filter(
         period: _period,
         theme: _theme,
-        excludedThemes: _excludedThemes,
+        excludedThemes: excludedThemes,
         query: _search.text,
         now: DateTime.now(),
       );
@@ -109,41 +113,52 @@ class _TopicPickerState extends State<TopicPicker> {
                       onChanged: (theme) => setState(() => _theme = theme),
                     ),
                     const SizedBox(height: 12),
-                    ExpansionTile(
-                      key: const ValueKey('exclude-themes'),
-                      tilePadding: EdgeInsets.zero,
-                      initiallyExpanded: _excludedThemes.isNotEmpty,
-                      title: Text(context.strings.excludeThemes),
-                      subtitle: Text(context.strings.excludeThemesHint),
-                      children: [
-                        Align(
-                          alignment: Alignment.centerLeft,
-                          child: Wrap(
-                            spacing: 8,
-                            runSpacing: 4,
-                            children: [
-                              for (final theme
-                                  in context.strings.orderedThemes.where(
-                                    widget.collection.availableThemes.contains,
-                                  ))
-                                FilterChip(
-                                  key: ValueKey('exclude-${theme.name}'),
-                                  label: Text(context.localize(theme.title)),
-                                  selected: _excludedThemes.contains(theme),
-                                  onSelected: (selected) => setState(() {
-                                    if (selected) {
-                                      _excludedThemes.add(theme);
-                                    } else {
-                                      _excludedThemes.remove(theme);
-                                    }
-                                  }),
-                                ),
-                            ],
+                    if (_theme == null) ...[
+                      ExpansionTile(
+                        key: const ValueKey('exclude-themes'),
+                        tilePadding: const EdgeInsets.symmetric(horizontal: 20),
+                        initiallyExpanded: _excludedThemes.isNotEmpty,
+                        title: Text(
+                          context.strings.excludeThemes,
+                          style: const TextStyle(
+                            color: Palette.red,
+                            fontWeight: FontWeight.bold,
                           ),
                         ),
-                      ],
-                    ),
-                    const SizedBox(height: 12),
+                        subtitle: Text(context.strings.excludeThemesHint),
+                        children: [
+                          Align(
+                            alignment: Alignment.centerLeft,
+                            child: Wrap(
+                              spacing: 8,
+                              runSpacing: 4,
+                              children: [
+                                for (final theme
+                                    in context.strings.orderedThemes.where(
+                                      widget
+                                          .collection
+                                          .availableThemes
+                                          .contains,
+                                    ))
+                                  FilterChip(
+                                    key: ValueKey('exclude-${theme.name}'),
+                                    label: Text(context.localize(theme.title)),
+                                    selected: _excludedThemes.contains(theme),
+                                    onSelected: (selected) => setState(() {
+                                      if (selected) {
+                                        _excludedThemes.add(theme);
+                                      } else {
+                                        _excludedThemes.remove(theme);
+                                      }
+                                    }),
+                                  ),
+                              ],
+                            ),
+                          ),
+                        ],
+                      ),
+                      const SizedBox(height: 12),
+                    ],
                     DropdownButtonFormField<VocabularyPeriod>(
                       key: const ValueKey('category-period'),
                       initialValue: _period,
@@ -190,7 +205,7 @@ class _TopicPickerState extends State<TopicPicker> {
                       CollectionSelection(
                         deck: deck,
                         theme: _theme,
-                        excludedThemes: Set.unmodifiable(_excludedThemes),
+                        excludedThemes: Set.unmodifiable(excludedThemes),
                         query: _search.text,
                       ),
                     ),

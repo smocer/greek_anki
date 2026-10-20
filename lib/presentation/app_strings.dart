@@ -46,7 +46,7 @@ class AppStrings {
   }
 
   String get excludeThemes =>
-      _pick('Exclude themes', 'Исключить темы', '非（排除主题）');
+      _pick('Exclude themes', 'Исключить темы', '排除主题');
   String get excludeThemesHint => _pick(
     'Select one or more themes to leave out',
     'Выберите одну или несколько тем для исключения',

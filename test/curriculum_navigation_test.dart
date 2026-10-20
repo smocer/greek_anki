@@ -129,6 +129,35 @@ void main() {
           isTrue,
         );
       }
+      Future<void> selectTheme(String title) async {
+        final theme = find.byKey(const ValueKey('collection-theme'));
+        await tester.ensureVisible(theme);
+        await tester.tap(theme);
+        await tester.pumpAndSettle();
+        await tapText(tester, title);
+      }
+
+      await selectTheme('Home & everyday life');
+      expect(find.byKey(const ValueKey('exclude-themes')), findsNothing);
+      final homeCards = tester
+          .widget<VocabularyPreview>(find.byType(VocabularyPreview))
+          .cards;
+      expect(homeCards, isNotEmpty);
+      for (final card in homeCards) {
+        expect(picker.collection.themes[card.id], contains(LearningTheme.home));
+      }
+      await selectTheme('All themes');
+      expect(find.byKey(const ValueKey('exclude-themes')), findsOneWidget);
+      expect(
+        tester
+            .widget<FilterChip>(find.byKey(const ValueKey('exclude-home')))
+            .selected,
+        isTrue,
+      );
+      await selectTheme('Home & everyday life');
+      await tester.tap(find.byKey(const ValueKey('use-category')));
+      await tester.pumpAndSettle();
+      expect(find.textContaining('Exclude themes：'), findsNothing);
     },
   );
 
