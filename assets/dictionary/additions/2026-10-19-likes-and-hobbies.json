@@ -1,0 +1,1644 @@
+{
+  "schemaVersion": 1,
+  "addedWeek": "2026-10-19",
+  "words": [
+    {
+      "id": "likes-music",
+      "collection": "words-nouns",
+      "greek": "μουσική",
+      "prompt": {
+        "en": "Music",
+        "ru": "Музыка"
+      },
+      "pronunciation": {
+        "en": "mu-si-KI",
+        "ru": "му-си-КИ"
+      },
+      "themes": [
+        "conversation"
+      ],
+      "labels": [
+        "noun"
+      ],
+      "explanation": {
+        "en": "Feminine.",
+        "ru": "В греческом женский род."
+      },
+      "answerDisplay": "η μουσική"
+    },
+    {
+      "id": "likes-sport",
+      "collection": "words-nouns",
+      "greek": "αθλητισμός",
+      "prompt": {
+        "en": "Sport / sporting activity",
+        "ru": "Спорт (занятия спортом)"
+      },
+      "pronunciation": {
+        "en": "ath-li-ti-ZMOS",
+        "ru": "ат-ли-ти-ЗМОС"
+      },
+      "themes": [
+        "conversation"
+      ],
+      "labels": [
+        "noun"
+      ],
+      "explanation": {
+        "en": "Masculine.",
+        "ru": "В греческом мужской род."
+      },
+      "answerDisplay": "ο αθλητισμός"
+    },
+    {
+      "id": "likes-grammar",
+      "collection": "words-nouns",
+      "greek": "γραμματική",
+      "prompt": {
+        "en": "Grammar",
+        "ru": "Грамматика"
+      },
+      "pronunciation": {
+        "en": "ghra-ma-ti-KI",
+        "ru": "гра-ма-ти-КИ"
+      },
+      "themes": [
+        "classroom"
+      ],
+      "labels": [
+        "noun"
+      ],
+      "explanation": {
+        "en": "Feminine.",
+        "ru": "В греческом женский род."
+      },
+      "answerDisplay": "η γραμματική"
+    },
+    {
+      "id": "likes-bicycle",
+      "collection": "words-nouns",
+      "greek": "ποδήλατο",
+      "prompt": {
+        "en": "Bicycle",
+        "ru": "Велосипед"
+      },
+      "pronunciation": {
+        "en": "po-DHI-la-to",
+        "ru": "по-ДИ-ла-то"
+      },
+      "themes": [
+        "travel"
+      ],
+      "labels": [
+        "noun"
+      ],
+      "explanation": {
+        "en": "Neuter.",
+        "ru": "В греческом средний род."
+      },
+      "answerDisplay": "το ποδήλατο"
+    },
+    {
+      "id": "likes-ouzo",
+      "collection": "words-nouns",
+      "greek": "ούζο",
+      "prompt": {
+        "en": "Ouzo (Greek anise-flavoured spirit)",
+        "ru": "Узо (греческий анисовый напиток)"
+      },
+      "pronunciation": {
+        "en": "U-zo",
+        "ru": "У-зо"
+      },
+      "themes": [
+        "food"
+      ],
+      "labels": [
+        "noun"
+      ],
+      "explanation": {
+        "en": "Neuter.",
+        "ru": "В греческом средний род."
+      },
+      "answerDisplay": "το ούζο"
+    },
+    {
+      "id": "likes-history",
+      "collection": "words-nouns",
+      "greek": "ιστορία",
+      "prompt": {
+        "en": "History",
+        "ru": "История"
+      },
+      "pronunciation": {
+        "en": "i-sto-RI-a",
+        "ru": "и-сто-РИ-а"
+      },
+      "themes": [
+        "classroom"
+      ],
+      "labels": [
+        "noun"
+      ],
+      "explanation": {
+        "en": "Feminine.",
+        "ru": "В греческом женский род."
+      },
+      "answerDisplay": "η ιστορία"
+    },
+    {
+      "id": "likes-philosophy",
+      "collection": "words-nouns",
+      "greek": "φιλοσοφία",
+      "prompt": {
+        "en": "Philosophy",
+        "ru": "Философия"
+      },
+      "pronunciation": {
+        "en": "fi-lo-so-FI-a",
+        "ru": "фи-ло-со-ФИ-а"
+      },
+      "themes": [
+        "classroom"
+      ],
+      "labels": [
+        "noun"
+      ],
+      "explanation": {
+        "en": "Feminine.",
+        "ru": "В греческом женский род."
+      },
+      "answerDisplay": "η φιλοσοφία"
+    },
+    {
+      "id": "likes-politics",
+      "collection": "words-nouns",
+      "greek": "πολιτική",
+      "prompt": {
+        "en": "Politics",
+        "ru": "Политика"
+      },
+      "pronunciation": {
+        "en": "po-li-ti-KI",
+        "ru": "по-ли-ти-КИ"
+      },
+      "themes": [
+        "conversation"
+      ],
+      "labels": [
+        "noun"
+      ],
+      "explanation": {
+        "en": "Feminine.",
+        "ru": "В греческом женский род."
+      },
+      "answerDisplay": "η πολιτική"
+    },
+    {
+      "id": "likes-souvlaki",
+      "collection": "words-nouns",
+      "greek": "σουβλάκι",
+      "prompt": {
+        "en": "Souvlaki (grilled meat on a skewer)",
+        "ru": "Сувлаки (мясо на шпажке)"
+      },
+      "pronunciation": {
+        "en": "su-VLA-ki",
+        "ru": "су-ВЛА-ки"
+      },
+      "themes": [
+        "food"
+      ],
+      "labels": [
+        "noun"
+      ],
+      "explanation": {
+        "en": "Neuter.",
+        "ru": "В греческом средний род."
+      },
+      "answerDisplay": "το σουβλάκι"
+    },
+    {
+      "id": "likes-guitar",
+      "collection": "words-nouns",
+      "greek": "κιθάρα",
+      "prompt": {
+        "en": "Guitar",
+        "ru": "Гитара"
+      },
+      "pronunciation": {
+        "en": "ki-THA-ra",
+        "ru": "ки-ТА-ра"
+      },
+      "themes": [
+        "conversation"
+      ],
+      "labels": [
+        "noun"
+      ],
+      "explanation": {
+        "en": "Feminine.",
+        "ru": "В греческом женский род."
+      },
+      "answerDisplay": "η κιθάρα"
+    },
+    {
+      "id": "likes-television",
+      "collection": "words-nouns",
+      "greek": "τηλεόραση",
+      "prompt": {
+        "en": "Television / TV set",
+        "ru": "Телевидение / телевизор"
+      },
+      "pronunciation": {
+        "en": "ti-le-O-ra-si",
+        "ru": "ти-лэ-О-ра-си"
+      },
+      "themes": [
+        "home"
+      ],
+      "labels": [
+        "noun"
+      ],
+      "explanation": {
+        "en": "Feminine.",
+        "ru": "В греческом женский род."
+      },
+      "answerDisplay": "η τηλεόραση"
+    },
+    {
+      "id": "likes-stroll",
+      "collection": "words-nouns",
+      "greek": "βόλτα",
+      "prompt": {
+        "en": "Stroll / outing",
+        "ru": "Прогулка"
+      },
+      "pronunciation": {
+        "en": "VOL-ta",
+        "ru": "ВОЛ-та"
+      },
+      "themes": [
+        "travel"
+      ],
+      "labels": [
+        "noun"
+      ],
+      "explanation": {
+        "en": "Feminine.",
+        "ru": "В греческом женский род."
+      },
+      "answerDisplay": "η βόλτα"
+    },
+    {
+      "id": "likes-frappe",
+      "collection": "words-nouns",
+      "greek": "φραπέ",
+      "prompt": {
+        "en": "Frappé (iced coffee)",
+        "ru": "Фраппе (холодный кофе)"
+      },
+      "pronunciation": {
+        "en": "fra-PE",
+        "ru": "фра-ПЭ"
+      },
+      "themes": [
+        "food"
+      ],
+      "labels": [
+        "noun"
+      ],
+      "explanation": {
+        "en": "Neuter. Both το φραπέ and ο φραπές are standard forms.",
+        "ru": "В греческом средний род. Допустимы две формы: το φραπέ и ο φραπές."
+      },
+      "answerDisplay": "το φραπέ / ο φραπές",
+      "wordGroup": "frappe",
+      "alternatives": [
+        "φραπές"
+      ],
+      "forms": [
+        {
+          "greek": "φραπέ",
+          "answerDisplay": "το φραπέ",
+          "pronunciation": {
+            "en": "fra-PE",
+            "ru": "фра-ПЭ"
+          }
+        },
+        {
+          "greek": "φραπές",
+          "answerDisplay": "ο φραπές",
+          "pronunciation": {
+            "en": "fra-PES",
+            "ru": "фра-ПЭС"
+          }
+        }
+      ]
+    },
+    {
+      "id": "likes-paris",
+      "collection": "words-names",
+      "greek": "Παρίσι",
+      "prompt": {
+        "en": "Paris",
+        "ru": "Париж"
+      },
+      "pronunciation": {
+        "en": "pa-RI-si",
+        "ru": "па-РИ-си"
+      },
+      "themes": [
+        "places"
+      ],
+      "labels": [
+        "noun"
+      ],
+      "explanation": {
+        "en": "Neuter.",
+        "ru": "В греческом средний род."
+      },
+      "answerDisplay": "το Παρίσι"
+    },
+    {
+      "id": "likes-london",
+      "collection": "words-names",
+      "greek": "Λονδίνο",
+      "prompt": {
+        "en": "London",
+        "ru": "Лондон"
+      },
+      "pronunciation": {
+        "en": "lon-DHI-no",
+        "ru": "лон-ДИ-но"
+      },
+      "themes": [
+        "places"
+      ],
+      "labels": [
+        "noun"
+      ],
+      "explanation": {
+        "en": "Neuter.",
+        "ru": "В греческом средний род."
+      },
+      "answerDisplay": "το Λονδίνο"
+    },
+    {
+      "id": "likes-new-york",
+      "collection": "words-names",
+      "greek": "Νέα Υόρκη",
+      "prompt": {
+        "en": "New York",
+        "ru": "Нью-Йорк"
+      },
+      "pronunciation": {
+        "en": "NE-a i-OR-ki",
+        "ru": "НЭ-а и-ОР-ки"
+      },
+      "themes": [
+        "places"
+      ],
+      "labels": [
+        "noun"
+      ],
+      "explanation": {
+        "en": "Feminine.",
+        "ru": "В греческом женский род."
+      },
+      "answerDisplay": "η Νέα Υόρκη"
+    },
+    {
+      "id": "likes-cinema-art",
+      "collection": "words-nouns",
+      "greek": "κινηματογράφος",
+      "prompt": {
+        "en": "Cinema (film as an art form)",
+        "ru": "Кино (искусство)"
+      },
+      "pronunciation": {
+        "en": "ki-ni-ma-to-GHRA-fos",
+        "ru": "ки-ни-ма-то-ГРА-фос"
+      },
+      "themes": [
+        "conversation"
+      ],
+      "labels": [
+        "noun"
+      ],
+      "explanation": {
+        "en": "Also means cinema as an art form, not only the building.",
+        "ru": "Помимо кинотеатра, слово означает кино как искусство."
+      },
+      "answerDisplay": "ο κινηματογράφος"
+    },
+    {
+      "id": "likes-teach",
+      "collection": "words-verbs",
+      "greek": "διδάσκω",
+      "prompt": {
+        "en": "I teach",
+        "ru": "Я преподаю"
+      },
+      "pronunciation": {
+        "en": "dhi-DHA-sko",
+        "ru": "ди-ДА-ско"
+      },
+      "themes": [
+        "classroom"
+      ],
+      "labels": [
+        "verb"
+      ],
+      "explanation": {
+        "en": "Present tense, first person singular: I teach a subject or a learner.",
+        "ru": "Форма для «я»: преподаю предмет или обучаю кого-то."
+      }
+    },
+    {
+      "id": "likes-appeal",
+      "collection": "words-verbs",
+      "greek": "αρέσω",
+      "prompt": {
+        "en": "I am liked / I appeal to someone",
+        "ru": "Я нравлюсь"
+      },
+      "pronunciation": {
+        "en": "a-RE-so",
+        "ru": "а-РЭ-со"
+      },
+      "themes": [
+        "conversation"
+      ],
+      "labels": [
+        "verb"
+      ],
+      "explanation": {
+        "en": "The subject is whoever or whatever is liked. Σου αρέσω means you like me; μου αρέσει means I like it.",
+        "ru": "Подлежащее — тот, кто нравится: σου αρέσω — «я тебе нравлюсь». «Мне нравится» — μου αρέσει."
+      }
+    },
+    {
+      "id": "likes-prefer",
+      "collection": "words-verbs",
+      "greek": "προτιμώ",
+      "prompt": {
+        "en": "I prefer",
+        "ru": "Я предпочитаю"
+      },
+      "pronunciation": {
+        "en": "pro-ti-MO",
+        "ru": "про-ти-МО"
+      },
+      "themes": [
+        "conversation"
+      ],
+      "labels": [
+        "verb"
+      ],
+      "explanation": {
+        "en": "Also προτιμάω. A noun naming what you prefer is an accusative object: προτιμώ τον καφέ.",
+        "ru": "Также προτιμάω. Что предпочитаю? Дополнение в винительном: προτιμώ τον καφέ."
+      },
+      "alternatives": [
+        "προτιμάω"
+      ]
+    },
+    {
+      "id": "likes-listen",
+      "collection": "words-verbs",
+      "greek": "ακούω",
+      "prompt": {
+        "en": "I listen / hear",
+        "ru": "Я слушаю / слышу"
+      },
+      "pronunciation": {
+        "en": "a-KU-o",
+        "ru": "а-КУ-о"
+      },
+      "themes": [
+        "conversation"
+      ],
+      "labels": [
+        "verb"
+      ],
+      "explanation": {
+        "en": "The same verb means hear or listen. Ακούω μουσική means I listen to music.",
+        "ru": "Один глагол для «слышу» и «слушаю». Ακούω μουσική — «я слушаю музыку»."
+      }
+    },
+    {
+      "id": "likes-swim",
+      "collection": "words-verbs",
+      "greek": "κολυμπάω",
+      "prompt": {
+        "en": "I swim",
+        "ru": "Я плаваю"
+      },
+      "pronunciation": {
+        "en": "ko-lim-BA-o",
+        "ru": "ко-лим-БА-о"
+      },
+      "themes": [
+        "travel"
+      ],
+      "labels": [
+        "verb"
+      ],
+      "explanation": {
+        "en": "B1 verb; the contracted form κολυμπώ is also accepted.",
+        "ru": "Глагол группы B1. Допустима также краткая форма κολυμπώ."
+      },
+      "alternatives": [
+        "κολυμπώ"
+      ]
+    },
+    {
+      "id": "likes-paint",
+      "collection": "words-verbs",
+      "greek": "ζωγραφίζω",
+      "prompt": {
+        "en": "I draw / paint",
+        "ru": "Я рисую"
+      },
+      "pronunciation": {
+        "en": "zo-ghra-FI-zo",
+        "ru": "зо-гра-ФИ-зо"
+      },
+      "themes": [
+        "conversation"
+      ],
+      "labels": [
+        "verb"
+      ],
+      "explanation": {
+        "en": "Used for drawing or painting pictures.",
+        "ru": "Рисовать, в том числе красками; не «красить стену»."
+      }
+    },
+    {
+      "id": "likes-play",
+      "collection": "words-verbs",
+      "greek": "παίζω",
+      "prompt": {
+        "en": "I play",
+        "ru": "Я играю"
+      },
+      "pronunciation": {
+        "en": "PE-zo",
+        "ru": "ПЭ-зо"
+      },
+      "themes": [
+        "conversation"
+      ],
+      "labels": [
+        "verb"
+      ],
+      "explanation": {
+        "en": "Used for games and instruments: παίζω κιθάρα, I play guitar.",
+        "ru": "Об играх и музыкальных инструментах: παίζω κιθάρα — «играю на гитаре»."
+      }
+    },
+    {
+      "id": "likes-take-out",
+      "collection": "words-verbs",
+      "greek": "βγάζω",
+      "prompt": {
+        "en": "I take out / remove",
+        "ru": "Я вынимаю / снимаю"
+      },
+      "pronunciation": {
+        "en": "VGHA-zo",
+        "ru": "ВГА-зо"
+      },
+      "themes": [
+        "conversation"
+      ],
+      "labels": [
+        "verb"
+      ],
+      "explanation": {
+        "en": "Used for taking something out or removing it. In βγάζω φωτογραφίες it means taking photographs.",
+        "ru": "Вынимаю что-то или снимаю, например одежду. Βγάζω φωτογραφίες — «я фотографирую»."
+      }
+    },
+    {
+      "id": "likes-plus",
+      "collection": "words-connectors",
+      "greek": "συν",
+      "prompt": {
+        "en": "Plus (+)",
+        "ru": "Плюс (+)"
+      },
+      "pronunciation": {
+        "en": "sin",
+        "ru": "син"
+      },
+      "themes": [
+        "classroom"
+      ],
+      "labels": [
+        "preposition"
+      ],
+      "explanation": {
+        "en": "Reads an arithmetic sign, for example δύο συν τρία.",
+        "ru": "Так читают знак арифметического действия: δύο συν τρία."
+      }
+    },
+    {
+      "id": "likes-minus",
+      "collection": "words-connectors",
+      "greek": "πλην",
+      "prompt": {
+        "en": "Minus (−)",
+        "ru": "Минус (−)"
+      },
+      "pronunciation": {
+        "en": "plin",
+        "ru": "плин"
+      },
+      "themes": [
+        "classroom"
+      ],
+      "labels": [
+        "preposition"
+      ],
+      "explanation": {
+        "en": "Reads an arithmetic sign, for example πέντε πλην δύο.",
+        "ru": "Так читают знак арифметического действия: πέντε πλην δύο."
+      }
+    },
+    {
+      "id": "likes-times",
+      "collection": "words-connectors",
+      "greek": "επί",
+      "prompt": {
+        "en": "Times / multiplied by (×)",
+        "ru": "Умножить на (×)"
+      },
+      "pronunciation": {
+        "en": "e-PI",
+        "ru": "э-ПИ"
+      },
+      "themes": [
+        "classroom"
+      ],
+      "labels": [
+        "preposition"
+      ],
+      "explanation": {
+        "en": "Reads an arithmetic sign, for example δύο επί τρία.",
+        "ru": "Так читают знак арифметического действия: δύο επί τρία."
+      }
+    },
+    {
+      "id": "likes-divided-by",
+      "collection": "words-connectors",
+      "greek": "διά",
+      "prompt": {
+        "en": "Divided by (÷)",
+        "ru": "Разделить на (÷)"
+      },
+      "pronunciation": {
+        "en": "dhi-A",
+        "ru": "ди-А"
+      },
+      "themes": [
+        "classroom"
+      ],
+      "labels": [
+        "preposition"
+      ],
+      "explanation": {
+        "en": "Reads an arithmetic sign, for example έξι διά δύο.",
+        "ru": "Так читают знак арифметического действия: έξι διά δύο."
+      }
+    },
+    {
+      "id": "likes-na",
+      "collection": "words-connectors",
+      "greek": "να",
+      "prompt": {
+        "en": "To (before a verb, as in “I like to read”)",
+        "ru": "Частица перед действием в конструкции «мне нравится читать»"
+      },
+      "pronunciation": {
+        "en": "na",
+        "ru": "на"
+      },
+      "themes": [
+        "conversation"
+      ],
+      "labels": [
+        "conjunction"
+      ],
+      "explanation": {
+        "en": "Να introduces a verb: μου αρέσει να διαβάζω. The following verb still changes with the person: σου αρέσει να διαβάζεις.",
+        "ru": "После να глагол сохраняет личное окончание: μου αρέσει να διαβάζω — «мне нравится читать», σου αρέσει να διαβάζεις — «тебе нравится читать»."
+      }
+    },
+    {
+      "id": "likes-to-you",
+      "collection": "words-pronouns",
+      "greek": "σου",
+      "prompt": {
+        "en": "To you (informal)",
+        "ru": "Тебе"
+      },
+      "pronunciation": {
+        "en": "su",
+        "ru": "су"
+      },
+      "themes": [
+        "conversation"
+      ],
+      "labels": [
+        "pronoun"
+      ],
+      "explanation": {
+        "en": "Before αρέσει / αρέσουν, this identifies the person who likes something. The same form can also express possession after a noun.",
+        "ru": "Перед αρέσει / αρέσουν показывает, кому что-то нравится. После существительного эта же форма может обозначать принадлежность."
+      }
+    },
+    {
+      "id": "likes-to-him",
+      "collection": "words-pronouns",
+      "greek": "του",
+      "prompt": {
+        "en": "To him / it",
+        "ru": "Ему"
+      },
+      "pronunciation": {
+        "en": "tu",
+        "ru": "ту"
+      },
+      "themes": [
+        "conversation"
+      ],
+      "labels": [
+        "pronoun"
+      ],
+      "explanation": {
+        "en": "Before αρέσει / αρέσουν, this identifies the person who likes something. The same form can also express possession after a noun.",
+        "ru": "Перед αρέσει / αρέσουν показывает, кому что-то нравится. После существительного эта же форма может обозначать принадлежность."
+      }
+    },
+    {
+      "id": "likes-to-her",
+      "collection": "words-pronouns",
+      "greek": "της",
+      "prompt": {
+        "en": "To her",
+        "ru": "Ей"
+      },
+      "pronunciation": {
+        "en": "tis",
+        "ru": "тис"
+      },
+      "themes": [
+        "conversation"
+      ],
+      "labels": [
+        "pronoun"
+      ],
+      "explanation": {
+        "en": "Before αρέσει / αρέσουν, this identifies the person who likes something. The same form can also express possession after a noun.",
+        "ru": "Перед αρέσει / αρέσουν показывает, кому что-то нравится. После существительного эта же форма может обозначать принадлежность."
+      }
+    },
+    {
+      "id": "likes-to-us",
+      "collection": "words-pronouns",
+      "greek": "μας",
+      "prompt": {
+        "en": "To us",
+        "ru": "Нам"
+      },
+      "pronunciation": {
+        "en": "mas",
+        "ru": "мас"
+      },
+      "themes": [
+        "conversation"
+      ],
+      "labels": [
+        "pronoun"
+      ],
+      "explanation": {
+        "en": "Before αρέσει / αρέσουν, this identifies the person who likes something. The same form can also express possession after a noun.",
+        "ru": "Перед αρέσει / αρέσουν показывает, кому что-то нравится. После существительного эта же форма может обозначать принадлежность."
+      }
+    },
+    {
+      "id": "likes-to-you-plural",
+      "collection": "words-pronouns",
+      "greek": "σας",
+      "prompt": {
+        "en": "To you (plural or polite)",
+        "ru": "Вам"
+      },
+      "pronunciation": {
+        "en": "sas",
+        "ru": "сас"
+      },
+      "themes": [
+        "conversation"
+      ],
+      "labels": [
+        "pronoun"
+      ],
+      "explanation": {
+        "en": "Before αρέσει / αρέσουν, this identifies the person who likes something. The same form can also express possession after a noun.",
+        "ru": "Перед αρέσει / αρέσουν показывает, кому что-то нравится. После существительного эта же форма может обозначать принадлежность."
+      }
+    },
+    {
+      "id": "likes-to-them",
+      "collection": "words-pronouns",
+      "greek": "τους",
+      "prompt": {
+        "en": "To them",
+        "ru": "Им"
+      },
+      "pronunciation": {
+        "en": "tus",
+        "ru": "тус"
+      },
+      "themes": [
+        "conversation"
+      ],
+      "labels": [
+        "pronoun"
+      ],
+      "explanation": {
+        "en": "Before αρέσει / αρέσουν, this identifies the person who likes something. The same form can also express possession after a noun.",
+        "ru": "Перед αρέσει / αρέσουν показывает, кому что-то нравится. После существительного эта же форма может обозначать принадлежность."
+      }
+    },
+    {
+      "id": "likes-thats-all",
+      "collection": "phrases-social",
+      "greek": "Αυτά!",
+      "prompt": {
+        "en": "That’s all!",
+        "ru": "Вот и всё!"
+      },
+      "pronunciation": {
+        "en": "af-TA",
+        "ru": "аф-ТА"
+      },
+      "themes": [
+        "conversation"
+      ],
+      "labels": [
+        "pronoun"
+      ],
+      "explanation": {
+        "en": "A short conversational way to finish what you are saying.",
+        "ru": "Короткая реплика в конце рассказа: «вот и всё». Здесь это выражение целиком."
+      }
+    },
+    {
+      "id": "likes-like-it",
+      "collection": "phrases-everyday",
+      "greek": "Μου αρέσει.",
+      "prompt": {
+        "en": "I like it.",
+        "ru": "Мне нравится."
+      },
+      "pronunciation": {
+        "en": "mu a-RE-si",
+        "ru": "му а-РЭ-си"
+      },
+      "themes": [
+        "conversation"
+      ],
+      "labels": [
+        "verb"
+      ],
+      "explanation": {
+        "en": "Use αρέσει for one thing or an activity.",
+        "ru": "Об одном предмете или действии: αρέσει."
+      }
+    },
+    {
+      "id": "likes-dislike-it",
+      "collection": "phrases-everyday",
+      "greek": "Δεν μου αρέσει.",
+      "prompt": {
+        "en": "I don’t like it.",
+        "ru": "Мне не нравится."
+      },
+      "pronunciation": {
+        "en": "dhen mu a-RE-si",
+        "ru": "дэн му а-РЭ-си"
+      },
+      "themes": [
+        "conversation"
+      ],
+      "labels": [
+        "verb"
+      ],
+      "explanation": {
+        "en": "Δεν goes before μου αρέσει.",
+        "ru": "Отрицание δεν ставим перед μου αρέσει."
+      }
+    },
+    {
+      "id": "likes-listen-music",
+      "collection": "phrases-everyday",
+      "greek": "Ακούω μουσική.",
+      "prompt": {
+        "en": "I listen to music.",
+        "ru": "Я слушаю музыку."
+      },
+      "pronunciation": {
+        "en": "a-KU-o mu-si-KI",
+        "ru": "а-КУ-о му-си-КИ"
+      },
+      "themes": [
+        "conversation"
+      ],
+      "labels": [
+        "verb"
+      ],
+      "explanation": {
+        "en": "Music is the object of ακούω; no preposition is needed.",
+        "ru": "После ακούω предлог не нужен. Здесь μουσική употребляется без артикля."
+      },
+      "acceptedAnswers": [
+        "Εγώ ακούω μουσική."
+      ]
+    },
+    {
+      "id": "likes-play-guitar",
+      "collection": "phrases-everyday",
+      "greek": "Παίζω κιθάρα.",
+      "prompt": {
+        "en": "I play guitar.",
+        "ru": "Я играю на гитаре."
+      },
+      "pronunciation": {
+        "en": "PE-zo ki-THA-ra",
+        "ru": "ПЭ-зо ки-ТА-ра"
+      },
+      "themes": [
+        "conversation"
+      ],
+      "labels": [
+        "verb"
+      ],
+      "explanation": {
+        "en": "Greek uses παίζω directly with the instrument.",
+        "ru": "В греческом перед κιθάρα не нужен предлог, соответствующий русскому «на»."
+      },
+      "acceptedAnswers": [
+        "Εγώ παίζω κιθάρα."
+      ]
+    },
+    {
+      "id": "likes-take-photos",
+      "collection": "phrases-everyday",
+      "greek": "Βγάζω φωτογραφίες.",
+      "prompt": {
+        "en": "I take photographs.",
+        "ru": "Я фотографирую."
+      },
+      "pronunciation": {
+        "en": "VGHA-zo fo-to-ghra-FI-es",
+        "ru": "ВГА-зо фо-то-гра-ФИ-эс"
+      },
+      "themes": [
+        "conversation"
+      ],
+      "labels": [
+        "verb"
+      ],
+      "explanation": {
+        "en": "Βγάζω φωτογραφίες is a common expression for taking photos.",
+        "ru": "Устойчивое сочетание βγάζω φωτογραφίες означает «фотографирую»."
+      },
+      "acceptedAnswers": [
+        "Εγώ βγάζω φωτογραφίες."
+      ]
+    },
+    {
+      "id": "likes-go-stroll",
+      "collection": "phrases-everyday",
+      "greek": "Κάνω βόλτα.",
+      "prompt": {
+        "en": "I go for a stroll.",
+        "ru": "Я гуляю."
+      },
+      "pronunciation": {
+        "en": "KA-no VOL-ta",
+        "ru": "КА-но ВОЛ-та"
+      },
+      "themes": [
+        "conversation"
+      ],
+      "labels": [
+        "verb"
+      ],
+      "explanation": {
+        "en": "Κάνω βόλτα means go for a stroll or an outing.",
+        "ru": "Кάνω βόλτα — «гуляю». Также можно сказать κάνω μια βόλτα."
+      },
+      "acceptedAnswers": [
+        "Εγώ κάνω βόλτα."
+      ],
+      "alternatives": [
+        "Κάνω μια βόλτα.",
+        "Κάνω μία βόλτα."
+      ]
+    },
+    {
+      "id": "likes-take-break",
+      "collection": "phrases-everyday",
+      "greek": "Κάνω διάλειμμα.",
+      "prompt": {
+        "en": "I take a break.",
+        "ru": "Я делаю перерыв."
+      },
+      "pronunciation": {
+        "en": "KA-no dhi-A-li-ma",
+        "ru": "КА-но ди-А-ли-ма"
+      },
+      "themes": [
+        "conversation"
+      ],
+      "labels": [
+        "verb"
+      ],
+      "explanation": {
+        "en": "Use κάνω with διάλειμμα for taking a break.",
+        "ru": "Кάνω διάλειμμα — «делаю перерыв»; в διάλειμμα пишется двойная μ."
+      },
+      "acceptedAnswers": [
+        "Εγώ κάνω διάλειμμα."
+      ]
+    },
+    {
+      "id": "likes-watch-tv",
+      "collection": "phrases-everyday",
+      "greek": "Βλέπω τηλεόραση.",
+      "prompt": {
+        "en": "I watch TV.",
+        "ru": "Я смотрю телевизор."
+      },
+      "pronunciation": {
+        "en": "VLE-po ti-le-O-ra-si",
+        "ru": "ВЛЭ-по ти-лэ-О-ра-си"
+      },
+      "themes": [
+        "conversation"
+      ],
+      "labels": [
+        "verb"
+      ],
+      "explanation": {
+        "en": "Βλέπω means watch here, as well as see in other contexts.",
+        "ru": "Здесь βλέπω означает «смотрю». В других ситуациях — «вижу»."
+      },
+      "acceptedAnswers": [
+        "Εγώ βλέπω τηλεόραση."
+      ]
+    },
+    {
+      "id": "likes-do-sports",
+      "collection": "phrases-everyday",
+      "greek": "Κάνω σπορ.",
+      "prompt": {
+        "en": "I do sports.",
+        "ru": "Я занимаюсь спортом."
+      },
+      "pronunciation": {
+        "en": "KA-no spor",
+        "ru": "КА-но спор"
+      },
+      "themes": [
+        "conversation"
+      ],
+      "labels": [
+        "verb"
+      ],
+      "explanation": {
+        "en": "Κάνω σπορ is an expression for doing sports; σπορ is an indeclinable loanword.",
+        "ru": "Кάνω σπορ — «занимаюсь спортом». Заимствованное σπορ не склоняется."
+      },
+      "acceptedAnswers": [
+        "Εγώ κάνω σπορ."
+      ]
+    },
+    {
+      "id": "likes-music-i",
+      "collection": "grammar-verbs",
+      "greek": "Μου αρέσει η μουσική.",
+      "prompt": {
+        "en": "I like music.",
+        "ru": "Мне нравится музыка."
+      },
+      "pronunciation": {
+        "en": "mu a-RE-si i mu-si-KI",
+        "ru": "му а-РЭ-си и му-си-КИ"
+      },
+      "themes": [
+        "conversation"
+      ],
+      "labels": [
+        "verb"
+      ],
+      "explanation": {
+        "en": "The clitic identifies who likes it. Η μουσική is the singular subject, so the verb stays αρέσει.",
+        "ru": "Местоимение показывает, кому нравится музыка. Η μουσική — подлежащее в единственном числе, поэтому αρέσει не меняется."
+      },
+      "acceptedAnswers": [
+        "Η μουσική μου αρέσει."
+      ]
+    },
+    {
+      "id": "likes-music-you",
+      "collection": "grammar-verbs",
+      "greek": "Σου αρέσει η μουσική.",
+      "prompt": {
+        "en": "You like music. (informal)",
+        "ru": "Тебе нравится музыка."
+      },
+      "pronunciation": {
+        "en": "su a-RE-si i mu-si-KI",
+        "ru": "су а-РЭ-си и му-си-КИ"
+      },
+      "themes": [
+        "conversation"
+      ],
+      "labels": [
+        "verb"
+      ],
+      "explanation": {
+        "en": "The clitic identifies who likes it. Η μουσική is the singular subject, so the verb stays αρέσει.",
+        "ru": "Местоимение показывает, кому нравится музыка. Η μουσική — подлежащее в единственном числе, поэтому αρέσει не меняется."
+      },
+      "acceptedAnswers": [
+        "Η μουσική σου αρέσει."
+      ]
+    },
+    {
+      "id": "likes-music-he",
+      "collection": "grammar-verbs",
+      "greek": "Του αρέσει η μουσική.",
+      "prompt": {
+        "en": "He likes music.",
+        "ru": "Ему нравится музыка."
+      },
+      "pronunciation": {
+        "en": "tu a-RE-si i mu-si-KI",
+        "ru": "ту а-РЭ-си и му-си-КИ"
+      },
+      "themes": [
+        "conversation"
+      ],
+      "labels": [
+        "verb"
+      ],
+      "explanation": {
+        "en": "The clitic identifies who likes it. Η μουσική is the singular subject, so the verb stays αρέσει.",
+        "ru": "Местоимение показывает, кому нравится музыка. Η μουσική — подлежащее в единственном числе, поэтому αρέσει не меняется."
+      },
+      "acceptedAnswers": [
+        "Η μουσική του αρέσει."
+      ]
+    },
+    {
+      "id": "likes-music-she",
+      "collection": "grammar-verbs",
+      "greek": "Της αρέσει η μουσική.",
+      "prompt": {
+        "en": "She likes music.",
+        "ru": "Ей нравится музыка."
+      },
+      "pronunciation": {
+        "en": "tis a-RE-si i mu-si-KI",
+        "ru": "тис а-РЭ-си и му-си-КИ"
+      },
+      "themes": [
+        "conversation"
+      ],
+      "labels": [
+        "verb"
+      ],
+      "explanation": {
+        "en": "The clitic identifies who likes it. Η μουσική is the singular subject, so the verb stays αρέσει.",
+        "ru": "Местоимение показывает, кому нравится музыка. Η μουσική — подлежащее в единственном числе, поэтому αρέσει не меняется."
+      },
+      "acceptedAnswers": [
+        "Η μουσική της αρέσει."
+      ]
+    },
+    {
+      "id": "likes-music-we",
+      "collection": "grammar-verbs",
+      "greek": "Μας αρέσει η μουσική.",
+      "prompt": {
+        "en": "We like music.",
+        "ru": "Нам нравится музыка."
+      },
+      "pronunciation": {
+        "en": "mas a-RE-si i mu-si-KI",
+        "ru": "мас а-РЭ-си и му-си-КИ"
+      },
+      "themes": [
+        "conversation"
+      ],
+      "labels": [
+        "verb"
+      ],
+      "explanation": {
+        "en": "The clitic identifies who likes it. Η μουσική is the singular subject, so the verb stays αρέσει.",
+        "ru": "Местоимение показывает, кому нравится музыка. Η μουσική — подлежащее в единственном числе, поэтому αρέσει не меняется."
+      },
+      "acceptedAnswers": [
+        "Η μουσική μας αρέσει."
+      ]
+    },
+    {
+      "id": "likes-music-you-plural",
+      "collection": "grammar-verbs",
+      "greek": "Σας αρέσει η μουσική.",
+      "prompt": {
+        "en": "You like music. (plural or polite)",
+        "ru": "Вам нравится музыка."
+      },
+      "pronunciation": {
+        "en": "sas a-RE-si i mu-si-KI",
+        "ru": "сас а-РЭ-си и му-си-КИ"
+      },
+      "themes": [
+        "conversation"
+      ],
+      "labels": [
+        "verb"
+      ],
+      "explanation": {
+        "en": "The clitic identifies who likes it. Η μουσική is the singular subject, so the verb stays αρέσει.",
+        "ru": "Местоимение показывает, кому нравится музыка. Η μουσική — подлежащее в единственном числе, поэтому αρέσει не меняется."
+      },
+      "acceptedAnswers": [
+        "Η μουσική σας αρέσει."
+      ]
+    },
+    {
+      "id": "likes-music-they",
+      "collection": "grammar-verbs",
+      "greek": "Τους αρέσει η μουσική.",
+      "prompt": {
+        "en": "They like music.",
+        "ru": "Им нравится музыка."
+      },
+      "pronunciation": {
+        "en": "tus a-RE-si i mu-si-KI",
+        "ru": "тус а-РЭ-си и му-си-КИ"
+      },
+      "themes": [
+        "conversation"
+      ],
+      "labels": [
+        "verb"
+      ],
+      "explanation": {
+        "en": "The clitic identifies who likes it. Η μουσική is the singular subject, so the verb stays αρέσει.",
+        "ru": "Местоимение показывает, кому нравится музыка. Η μουσική — подлежащее в единственном числе, поэтому αρέσει не меняется."
+      },
+      "acceptedAnswers": [
+        "Η μουσική τους αρέσει."
+      ]
+    },
+    {
+      "id": "likes-children-i",
+      "collection": "grammar-verbs",
+      "greek": "Μου αρέσουν τα παιδιά.",
+      "prompt": {
+        "en": "I like children.",
+        "ru": "Мне нравятся дети."
+      },
+      "pronunciation": {
+        "en": "mu a-RE-sun ta pe-DHYA",
+        "ru": "му а-РЭ-сун та пэ-ДЬЯ"
+      },
+      "themes": [
+        "conversation"
+      ],
+      "labels": [
+        "verb"
+      ],
+      "explanation": {
+        "en": "The liked things are plural, so use αρέσουν. The number of people doing the liking does not determine this ending.",
+        "ru": "Нравятся несколько детей или животных — αρέσουν. Окончание зависит от того, что нравится, а не от числа людей, которым это нравится."
+      }
+    },
+    {
+      "id": "likes-children-we",
+      "collection": "grammar-verbs",
+      "greek": "Μας αρέσουν τα παιδιά.",
+      "prompt": {
+        "en": "We like children.",
+        "ru": "Нам нравятся дети."
+      },
+      "pronunciation": {
+        "en": "mas a-RE-sun ta pe-DHYA",
+        "ru": "мас а-РЭ-сун та пэ-ДЬЯ"
+      },
+      "themes": [
+        "conversation"
+      ],
+      "labels": [
+        "verb"
+      ],
+      "explanation": {
+        "en": "The liked things are plural, so use αρέσουν. The number of people doing the liking does not determine this ending.",
+        "ru": "Нравятся несколько детей или животных — αρέσουν. Окончание зависит от того, что нравится, а не от числа людей, которым это нравится."
+      }
+    },
+    {
+      "id": "likes-animals-they",
+      "collection": "grammar-verbs",
+      "greek": "Τους αρέσουν τα ζώα.",
+      "prompt": {
+        "en": "They like animals.",
+        "ru": "Им нравятся животные."
+      },
+      "pronunciation": {
+        "en": "tus a-RE-sun ta ZO-a",
+        "ru": "тус а-РЭ-сун та ЗО-а"
+      },
+      "themes": [
+        "conversation"
+      ],
+      "labels": [
+        "verb"
+      ],
+      "explanation": {
+        "en": "The liked things are plural, so use αρέσουν. The number of people doing the liking does not determine this ending.",
+        "ru": "Нравятся несколько детей или животных — αρέσουν. Окончание зависит от того, что нравится, а не от числа людей, которым это нравится."
+      }
+    },
+    {
+      "id": "likes-like-you",
+      "collection": "grammar-verbs",
+      "greek": "Μου αρέσεις.",
+      "prompt": {
+        "en": "I like you. (one person)",
+        "ru": "Ты мне нравишься."
+      },
+      "pronunciation": {
+        "en": "mu a-RE-sis",
+        "ru": "му а-РЭ-сис"
+      },
+      "themes": [
+        "conversation"
+      ],
+      "labels": [
+        "verb"
+      ],
+      "explanation": {
+        "en": "You are the person who is liked, so αρέσεις is second person singular; μου means to me.",
+        "ru": "Нравишься ты, поэтому глагол во втором лице: αρέσεις. Μου — «мне»."
+      },
+      "acceptedAnswers": [
+        "Εσύ μου αρέσεις."
+      ]
+    },
+    {
+      "id": "likes-read",
+      "collection": "grammar-verbs",
+      "greek": "Μου αρέσει να διαβάζω.",
+      "prompt": {
+        "en": "I like reading.",
+        "ru": "Мне нравится читать."
+      },
+      "pronunciation": {
+        "en": "mu a-RE-si na dhi-a-VA-zo",
+        "ru": "му а-РЭ-си на ди-а-ВА-зо"
+      },
+      "themes": [
+        "conversation"
+      ],
+      "labels": [
+        "verb"
+      ],
+      "explanation": {
+        "en": "For liking an activity, use αρέσει να. The verb after να agrees with the person doing that activity.",
+        "ru": "О действии: αρέσει να. После να нужна личная форма: «я читаю», «ты танцуешь», «мы плаваем», а не инфинитив."
+      },
+      "alternatives": []
+    },
+    {
+      "id": "likes-dance-you",
+      "collection": "grammar-verbs",
+      "greek": "Σου αρέσει να χορεύεις.",
+      "prompt": {
+        "en": "You like dancing. (informal)",
+        "ru": "Тебе нравится танцевать."
+      },
+      "pronunciation": {
+        "en": "su a-RE-si na kho-RE-vis",
+        "ru": "су а-РЭ-си на хо-РЭ-вис"
+      },
+      "themes": [
+        "conversation"
+      ],
+      "labels": [
+        "verb"
+      ],
+      "explanation": {
+        "en": "For liking an activity, use αρέσει να. The verb after να agrees with the person doing that activity.",
+        "ru": "О действии: αρέσει να. После να нужна личная форма: «я читаю», «ты танцуешь», «мы плаваем», а не инфинитив."
+      },
+      "alternatives": []
+    },
+    {
+      "id": "likes-swim-we",
+      "collection": "grammar-verbs",
+      "greek": "Μας αρέσει να κολυμπάμε.",
+      "prompt": {
+        "en": "We like swimming.",
+        "ru": "Нам нравится плавать."
+      },
+      "pronunciation": {
+        "en": "mas a-RE-si na ko-lim-BA-me",
+        "ru": "мас а-РЭ-си на ко-лим-БА-мэ"
+      },
+      "themes": [
+        "conversation"
+      ],
+      "labels": [
+        "verb"
+      ],
+      "explanation": {
+        "en": "For liking an activity, use αρέσει να. The verb after να agrees with the person doing that activity.",
+        "ru": "О действии: αρέσει να. После να нужна личная форма: «я читаю», «ты танцуешь», «мы плаваем», а не инфинитив."
+      },
+      "alternatives": [
+        "Μας αρέσει να κολυμπούμε."
+      ]
+    },
+    {
+      "id": "likes-coffee-subject",
+      "collection": "grammar-nouns",
+      "greek": "Μου αρέσει ο καφές.",
+      "prompt": {
+        "en": "I like coffee.",
+        "ru": "Мне нравится кофе."
+      },
+      "pronunciation": {
+        "en": "mu a-RE-si o ka-FES",
+        "ru": "му а-РЭ-си о ка-ФЭС"
+      },
+      "themes": [
+        "conversation"
+      ],
+      "labels": [
+        "verb"
+      ],
+      "explanation": {
+        "en": "Coffee is what is liked: use the nominative ο καφές. Compare προτιμώ τον καφέ.",
+        "ru": "Кофе — то, что нравится, поэтому именительный: ο καφές. С προτιμώ будет дополнение τον καφέ."
+      },
+      "acceptedAnswers": [
+        "Ο καφές μου αρέσει."
+      ]
+    },
+    {
+      "id": "likes-prefer-coffee",
+      "collection": "grammar-nouns",
+      "greek": "Προτιμώ τον καφέ.",
+      "prompt": {
+        "en": "I prefer coffee.",
+        "ru": "Я предпочитаю кофе."
+      },
+      "pronunciation": {
+        "en": "pro-ti-MO ton ka-FE",
+        "ru": "про-ти-МО тон ка-ФЭ"
+      },
+      "themes": [
+        "conversation"
+      ],
+      "labels": [
+        "verb"
+      ],
+      "explanation": {
+        "en": "With προτιμώ, I am the subject and the preferred thing is an accusative object.",
+        "ru": "С προτιμώ подлежащее — «я», а то, что предпочитаю, стоит в винительном падеже."
+      },
+      "alternatives": [
+        "Προτιμάω τον καφέ."
+      ],
+      "acceptedAnswers": [
+        "Εγώ προτιμώ τον καφέ.",
+        "Εγώ προτιμάω τον καφέ."
+      ]
+    },
+    {
+      "id": "likes-prefer-music",
+      "collection": "grammar-nouns",
+      "greek": "Προτιμώ την μουσική.",
+      "prompt": {
+        "en": "I prefer music.",
+        "ru": "Я предпочитаю музыку."
+      },
+      "pronunciation": {
+        "en": "pro-ti-MO tin mu-si-KI",
+        "ru": "про-ти-МО тин му-си-КИ"
+      },
+      "themes": [
+        "conversation"
+      ],
+      "labels": [
+        "verb"
+      ],
+      "explanation": {
+        "en": "With προτιμώ, I am the subject and the preferred thing is an accusative object.",
+        "ru": "С προτιμώ подлежащее — «я», а то, что предпочитаю, стоит в винительном падеже."
+      },
+      "alternatives": [
+        "Προτιμάω την μουσική.",
+        "Προτιμώ τη μουσική.",
+        "Προτιμάω τη μουσική."
+      ],
+      "acceptedAnswers": [
+        "Εγώ προτιμώ την μουσική.",
+        "Εγώ προτιμάω την μουσική.",
+        "Εγώ προτιμώ τη μουσική.",
+        "Εγώ προτιμάω τη μουσική."
+      ]
+    },
+    {
+      "id": "likes-sport-question",
+      "collection": "grammar-questions",
+      "greek": "Σου αρέσει ο αθλητισμός;",
+      "prompt": {
+        "en": "Do you like sport? (informal)",
+        "ru": "Тебе нравится спорт?"
+      },
+      "pronunciation": {
+        "en": "su a-RE-si o ath-li-ti-ZMOS",
+        "ru": "су а-РЭ-си о ат-ли-ти-ЗМОС"
+      },
+      "themes": [
+        "conversation"
+      ],
+      "labels": [
+        "verb"
+      ],
+      "explanation": {
+        "en": "Σου means to you; ο αθλητισμός is the singular subject.",
+        "ru": "Σου — «тебе». Ο αθλητισμός — подлежащее в единственном числе."
+      }
+    },
+    {
+      "id": "likes-children-negative",
+      "collection": "grammar-questions",
+      "greek": "Δεν μου αρέσουν τα παιδιά.",
+      "prompt": {
+        "en": "I don’t like children.",
+        "ru": "Мне не нравятся дети."
+      },
+      "pronunciation": {
+        "en": "dhen mu a-RE-sun ta pe-DHYA",
+        "ru": "дэн му а-РЭ-сун та пэ-ДЬЯ"
+      },
+      "themes": [
+        "conversation"
+      ],
+      "labels": [
+        "verb"
+      ],
+      "explanation": {
+        "en": "Place δεν before μου. Keep αρέσουν because τα παιδιά is plural.",
+        "ru": "Δεν ставим перед μου; τα παιδιά — множественное число, поэтому αρέσουν."
+      }
+    },
+    {
+      "id": "likes-what-like-doing",
+      "collection": "grammar-questions",
+      "greek": "Τι σου αρέσει να κάνεις;",
+      "prompt": {
+        "en": "What do you like doing? (informal)",
+        "ru": "Что тебе нравится делать?"
+      },
+      "pronunciation": {
+        "en": "ti su a-RE-si na KA-nis",
+        "ru": "ти су а-РЭ-си на КА-нис"
+      },
+      "themes": [
+        "conversation"
+      ],
+      "labels": [
+        "verb"
+      ],
+      "explanation": {
+        "en": "The action after να uses second person κάνεις to match the person addressed.",
+        "ru": "Обращаемся на «ты»: после να нужна форма κάνεις."
+      }
+    }
+  ]
+}

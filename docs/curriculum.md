@@ -10,7 +10,7 @@ Noun cards ask for the base word: “Book” → βιβλίο. Both βιβλίο
 
 Verb cards teach first-person present forms, such as μένω, διαβάζω, καταλαβαίνω and λείπω. These mean “I live”, “I read”, “I understand” and “I am absent”; they are not infinitives.
 
-Pronouns include personal and demonstrative forms, question words and all seven possessive forms: μου, σου, του, της, μας, σας, τους. Prompts identify the intended sense. For example, μου as “my” and μου as “to me” have distinct cards. The same forms also appear in possession practice.
+Pronouns include personal and demonstrative forms, question words and all seven forms μου, σου, του, της, μας, σας, τους. Each word card combines its taught meanings, such as “my” and “to me” for μου. The same forms also appear in possession and likes practice, where the full sentence identifies the intended meaning.
 
 Numbers combine units, teens, tens, hundreds up to 900, 1000 and selected compound numbers in one group. Practice distinguishes εκατό (100) from εκατόν in numbers such as εκατόν δέκα (110).
 
@@ -19,6 +19,8 @@ Numbers combine units, teens, tens, hundreds up to 900, 1000 and selected compou
 - Social conversations: greetings, introductions and small talk.
 - Classroom: asking, understanding and discussing lessons.
 - Everyday situations: home, work and phone conversations.
+
+Hobbies and preferences include music, drawing, swimming, playing guitar, taking photographs, watching TV and taking a break. Related vocabulary covers subjects such as history and philosophy, food and drinks, and the arithmetic signs συν, πλην, επί and διά. Paris, London and New York are in **Names & places**.
 
 Recent vocabulary includes δουλειά, γραφείο, μητέρα, τραγούδι, μπίρα, καφές, κινητό, σταθερό, νούμερο, λείπω, λάθος, σωστό, ξανά and μόνο. Useful phrases include Πες μου, Τι είναι αυτό; and Έχεις το τηλέφωνό μου;
 
@@ -33,8 +35,8 @@ Relationship phrases practise παντρεμένος / παντρεμένη, ε�
 Eight groups organise practice by skill:
 
 - **Articles and gender:** twelve familiar nouns in “This is…” sentences, masculine/feminine relationship-status forms, and όλοι / όλες / όλα. Agreement follows the Greek noun, even when its Russian translation has a different gender.
-- **Noun forms and cases:** subjects, objects, possession, plurals and forms of address; names after τον / την λένε and the accusative after από / σε / με / για. Practise ο σταθμός → τον σταθμό and replacing objects with τον / την / το, including negative replies such as Όχι, δεν τον ξέρω.
-- **Verb forms:** six persons of μένω, διαβάζω and καταλαβαίνω, alongside the distinct patterns είμαι, λέγομαι and τραγουδώ.
+- **Noun forms and cases:** subjects, objects, possession, plurals and forms of address; names after τον / την λένε and the accusative after από / σε / με / για. Practise ο σταθμός → τον σταθμό and replacing objects with τον / την / το, including negative replies such as Όχι, δεν τον ξέρω. Contrast Μου αρέσει ο καφές with Προτιμώ τον καφέ.
+- **Verb forms:** six persons of μένω, διαβάζω and καταλαβαίνω, alongside the distinct patterns είμαι, λέγομαι and τραγουδώ. Likes practice covers all seven short pronouns with αρέσει, plural αρέσουν, Μου αρέσεις and activities with να. The verb after να agrees with the person doing the activity: Μας αρέσει να κολυμπάμε.
 - **B1 verb forms:** μιλάω and αγαπάω in all six persons, accepting contracted alternatives such as μιλώ and αγαπώ.
 - **B2 verb forms:** μπορώ in all six persons, contrasting endings such as -είς / -εί with B1 -άς / -άει. B1 and B2 here name conjugation classes, not language proficiency levels.
 - **Location and origin:** σε with articles, από, residence and addresses.
