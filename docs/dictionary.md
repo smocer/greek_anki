@@ -74,7 +74,8 @@ nationalities. The UI combines both collections under Nouns; use the
 `properNouns` theme for all `words-names` entries, rather than place, job or
 classroom themes. Proper nouns are selected through the theme filter, with no
 separate subdirectory. When moving an existing word, preserve its `reviewIdentity` to
-retain its learning history. Keep names used in
+retain its learning history. The common noun γλώσσα (“language”) stays in
+`words-nouns`. Keep names used in
 phrases or grammar exercises in those exercises' existing collections.
 
 Filenames are unrestricted. Each entry needs a unique `id`; do not reuse an ID

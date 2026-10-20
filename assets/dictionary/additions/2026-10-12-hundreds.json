@@ -1,0 +1,366 @@
+{
+  "schemaVersion": 1,
+  "addedWeek": "2026-10-12",
+  "words": [
+    {
+      "id": "hundreds-number-102",
+      "collection": "words-numbers",
+      "prompt": {
+        "en": "102",
+        "ru": "102",
+        "zh": "102"
+      },
+      "meaning": {
+        "en": "one hundred and two",
+        "ru": "сто два",
+        "zh": "一百零二"
+      },
+      "greek": "εκατόν δύο",
+      "pronunciation": {
+        "en": "e-ka-TON DHI-o",
+        "ru": "э-ка-ТОН ДИ-о"
+      },
+      "labels": [
+        "numeral"
+      ],
+      "explanation": {
+        "en": "Exactly 100 is εκατό. Before another number, use εκατόν and write the following number separately.",
+        "ru": "Ровно 100 — εκατό. Если после сотни идёт ещё число, пишем εκατόν, а следующие слова — раздельно.",
+        "zh": "整一百写作 εκατό。后面还有其他数字时使用 εκατόν，各部分分开写。"
+      }
+    },
+    {
+      "id": "hundreds-number-103",
+      "collection": "words-numbers",
+      "prompt": {
+        "en": "103",
+        "ru": "103",
+        "zh": "103"
+      },
+      "meaning": {
+        "en": "one hundred and three",
+        "ru": "сто три",
+        "zh": "一百零三"
+      },
+      "greek": "εκατόν τρία",
+      "pronunciation": {
+        "en": "e-ka-TON TRI-a",
+        "ru": "э-ка-ТОН ТРИ-а"
+      },
+      "labels": [
+        "numeral"
+      ],
+      "explanation": {
+        "en": "Exactly 100 is εκατό. Before another number, use εκατόν and write the following number separately.",
+        "ru": "Ровно 100 — εκατό. Если после сотни идёт ещё число, пишем εκατόν, а следующие слова — раздельно.",
+        "zh": "整一百写作 εκατό。后面还有其他数字时使用 εκατόν，各部分分开写。"
+      }
+    },
+    {
+      "id": "hundreds-number-110",
+      "collection": "words-numbers",
+      "prompt": {
+        "en": "110",
+        "ru": "110",
+        "zh": "110"
+      },
+      "meaning": {
+        "en": "one hundred and ten",
+        "ru": "сто десять",
+        "zh": "一百一十"
+      },
+      "greek": "εκατόν δέκα",
+      "pronunciation": {
+        "en": "e-ka-TON DHE-ka",
+        "ru": "э-ка-ТОН ДЭ-ка"
+      },
+      "labels": [
+        "numeral"
+      ],
+      "explanation": {
+        "en": "Exactly 100 is εκατό. Before another number, use εκατόν and write the following number separately.",
+        "ru": "Ровно 100 — εκατό. Если после сотни идёт ещё число, пишем εκατόν, а следующие слова — раздельно.",
+        "zh": "整一百写作 εκατό。后面还有其他数字时使用 εκατόν，各部分分开写。"
+      }
+    },
+    {
+      "id": "hundreds-number-199",
+      "collection": "words-numbers",
+      "prompt": {
+        "en": "199",
+        "ru": "199",
+        "zh": "199"
+      },
+      "meaning": {
+        "en": "one hundred and ninety-nine",
+        "ru": "сто девяносто девять",
+        "zh": "一百九十九"
+      },
+      "greek": "εκατόν ενενήντα εννιά",
+      "pronunciation": {
+        "en": "e-ka-TON e-ne-NIN-da e-NYA",
+        "ru": "э-ка-ТОН э-нэ-НИН-да э-НЬЯ"
+      },
+      "labels": [
+        "numeral"
+      ],
+      "explanation": {
+        "en": "Exactly 100 is εκατό. Before another number, use εκατόν and write the following number separately.",
+        "ru": "Ровно 100 — εκατό. Если после сотни идёт ещё число, пишем εκατόν, а следующие слова — раздельно.",
+        "zh": "整一百写作 εκατό。后面还有其他数字时使用 εκατόν，各部分分开写。"
+      },
+      "alternatives": [
+        "εκατόν ενενήντα εννέα"
+      ]
+    },
+    {
+      "id": "hundreds-number-200",
+      "collection": "words-numbers",
+      "prompt": {
+        "en": "200",
+        "ru": "200",
+        "zh": "200"
+      },
+      "meaning": {
+        "en": "two hundred",
+        "ru": "двести",
+        "zh": "二百"
+      },
+      "greek": "διακόσια",
+      "pronunciation": {
+        "en": "dhya-KO-sya",
+        "ru": "дья-КО-сья"
+      },
+      "labels": [
+        "numeral"
+      ],
+      "explanation": {
+        "en": "Use the neuter form when counting without a noun. Write this number as one word.",
+        "ru": "При счёте без существительного используем форму среднего рода. Это числительное пишется слитно.",
+        "zh": "不带名词计数时使用中性形式。这个数字写成一个词。"
+      }
+    },
+    {
+      "id": "hundreds-number-300",
+      "collection": "words-numbers",
+      "prompt": {
+        "en": "300",
+        "ru": "300",
+        "zh": "300"
+      },
+      "meaning": {
+        "en": "three hundred",
+        "ru": "триста",
+        "zh": "三百"
+      },
+      "greek": "τριακόσια",
+      "pronunciation": {
+        "en": "trya-KO-sya",
+        "ru": "трья-КО-сья"
+      },
+      "labels": [
+        "numeral"
+      ],
+      "explanation": {
+        "en": "Use the neuter form when counting without a noun. Write this number as one word.",
+        "ru": "При счёте без существительного используем форму среднего рода. Это числительное пишется слитно.",
+        "zh": "不带名词计数时使用中性形式。这个数字写成一个词。"
+      }
+    },
+    {
+      "id": "hundreds-number-400",
+      "collection": "words-numbers",
+      "prompt": {
+        "en": "400",
+        "ru": "400",
+        "zh": "400"
+      },
+      "meaning": {
+        "en": "four hundred",
+        "ru": "четыреста",
+        "zh": "四百"
+      },
+      "greek": "τετρακόσια",
+      "pronunciation": {
+        "en": "te-tra-KO-sya",
+        "ru": "тэ-тра-КО-сья"
+      },
+      "labels": [
+        "numeral"
+      ],
+      "explanation": {
+        "en": "Use the neuter form when counting without a noun. Write this number as one word.",
+        "ru": "При счёте без существительного используем форму среднего рода. Это числительное пишется слитно.",
+        "zh": "不带名词计数时使用中性形式。这个数字写成一个词。"
+      }
+    },
+    {
+      "id": "hundreds-number-500",
+      "collection": "words-numbers",
+      "prompt": {
+        "en": "500",
+        "ru": "500",
+        "zh": "500"
+      },
+      "meaning": {
+        "en": "five hundred",
+        "ru": "пятьсот",
+        "zh": "五百"
+      },
+      "greek": "πεντακόσια",
+      "pronunciation": {
+        "en": "pen-da-KO-sya",
+        "ru": "пэн-да-КО-сья"
+      },
+      "labels": [
+        "numeral"
+      ],
+      "explanation": {
+        "en": "Use the neuter form when counting without a noun. Write this number as one word.",
+        "ru": "При счёте без существительного используем форму среднего рода. Это числительное пишется слитно.",
+        "zh": "不带名词计数时使用中性形式。这个数字写成一个词。"
+      }
+    },
+    {
+      "id": "hundreds-number-600",
+      "collection": "words-numbers",
+      "prompt": {
+        "en": "600",
+        "ru": "600",
+        "zh": "600"
+      },
+      "meaning": {
+        "en": "six hundred",
+        "ru": "шестьсот",
+        "zh": "六百"
+      },
+      "greek": "εξακόσια",
+      "pronunciation": {
+        "en": "e-ksa-KO-sya",
+        "ru": "э-кса-КО-сья"
+      },
+      "labels": [
+        "numeral"
+      ],
+      "explanation": {
+        "en": "Use the neuter form when counting without a noun. Write this number as one word.",
+        "ru": "При счёте без существительного используем форму среднего рода. Это числительное пишется слитно.",
+        "zh": "不带名词计数时使用中性形式。这个数字写成一个词。"
+      }
+    },
+    {
+      "id": "hundreds-number-700",
+      "collection": "words-numbers",
+      "prompt": {
+        "en": "700",
+        "ru": "700",
+        "zh": "700"
+      },
+      "meaning": {
+        "en": "seven hundred",
+        "ru": "семьсот",
+        "zh": "七百"
+      },
+      "greek": "εφτακόσια",
+      "pronunciation": {
+        "en": "ef-ta-KO-sya",
+        "ru": "эф-та-КО-сья"
+      },
+      "labels": [
+        "numeral"
+      ],
+      "explanation": {
+        "en": "Use the neuter form when counting without a noun. Write this number as one word. Both εφτακόσια and επτακόσια are accepted.",
+        "ru": "При счёте без существительного используем форму среднего рода. Это числительное пишется слитно. Принимаются оба варианта: εφτακόσια и επτακόσια.",
+        "zh": "不带名词计数时使用中性形式。这个数字写成一个词。εφτακόσια 和 επτακόσια 均可。"
+      },
+      "alternatives": [
+        "επτακόσια"
+      ]
+    },
+    {
+      "id": "hundreds-number-800",
+      "collection": "words-numbers",
+      "prompt": {
+        "en": "800",
+        "ru": "800",
+        "zh": "800"
+      },
+      "meaning": {
+        "en": "eight hundred",
+        "ru": "восемьсот",
+        "zh": "八百"
+      },
+      "greek": "οχτακόσια",
+      "pronunciation": {
+        "en": "oh-ta-KO-sya",
+        "ru": "ох-та-КО-сья"
+      },
+      "labels": [
+        "numeral"
+      ],
+      "explanation": {
+        "en": "Use the neuter form when counting without a noun. Write this number as one word. Both οχτακόσια and οκτακόσια are accepted.",
+        "ru": "При счёте без существительного используем форму среднего рода. Это числительное пишется слитно. Принимаются оба варианта: οχτακόσια и οκτακόσια.",
+        "zh": "不带名词计数时使用中性形式。这个数字写成一个词。οχτακόσια 和 οκτακόσια 均可。"
+      },
+      "alternatives": [
+        "οκτακόσια"
+      ]
+    },
+    {
+      "id": "hundreds-number-900",
+      "collection": "words-numbers",
+      "prompt": {
+        "en": "900",
+        "ru": "900",
+        "zh": "900"
+      },
+      "meaning": {
+        "en": "nine hundred",
+        "ru": "девятьсот",
+        "zh": "九百"
+      },
+      "greek": "εννιακόσια",
+      "pronunciation": {
+        "en": "e-nya-KO-sya",
+        "ru": "э-нья-КО-сья"
+      },
+      "labels": [
+        "numeral"
+      ],
+      "explanation": {
+        "en": "Use the neuter form when counting without a noun. Write this number as one word.",
+        "ru": "При счёте без существительного используем форму среднего рода. Это числительное пишется слитно.",
+        "zh": "不带名词计数时使用中性形式。这个数字写成一个词。"
+      }
+    },
+    {
+      "id": "hundreds-number-1000",
+      "collection": "words-numbers",
+      "prompt": {
+        "en": "1000",
+        "ru": "1000",
+        "zh": "1000"
+      },
+      "meaning": {
+        "en": "one thousand",
+        "ru": "тысяча",
+        "zh": "一千"
+      },
+      "greek": "χίλια",
+      "pronunciation": {
+        "en": "HIL-ya",
+        "ru": "ХИ-лья"
+      },
+      "labels": [
+        "numeral"
+      ],
+      "explanation": {
+        "en": "Use the neuter form when counting without a noun. Write this number as one word.",
+        "ru": "При счёте без существительного используем форму среднего рода. Это числительное пишется слитно.",
+        "zh": "不带名词计数时使用中性形式。这个数字写成一个词。"
+      }
+    }
+  ]
+}

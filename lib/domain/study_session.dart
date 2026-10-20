@@ -1,3 +1,4 @@
+import 'dart:collection';
 import 'dart:math';
 
 import 'package:flutter/foundation.dart';
@@ -14,7 +15,7 @@ class StudySession extends ChangeNotifier {
     Random? random,
     bool shuffle = true,
     this._answerMatcher = const GreekAnswer(),
-  }) : _queue = shuffle ? (List.of(cards)..shuffle(random)) : List.of(cards),
+  }) : _random = random ?? Random(),
        total = cards.length {
     if (cards.isEmpty) {
       throw ArgumentError('A session needs at least one card.');
@@ -22,34 +23,44 @@ class StudySession extends ChangeNotifier {
     if (cards.map(_cardKey).toSet().length != cards.length) {
       throw ArgumentError('Card IDs must be unique within a session.');
     }
+    final pending = List.of(cards);
+    if (shuffle) pending.shuffle(_random);
+    _pending.addAll(pending);
+    _fillWindow();
   }
 
   final StudyMode mode;
   final int total;
-  final List<VocabularyCard> _queue;
+  static const _windowSize = 4;
+  static const _learningWindowSize = _windowSize - 1;
+  final Random _random;
+  final Queue<VocabularyCard> _pending = Queue();
+  final List<VocabularyCard> _window = [];
+  final Map<String, VocabularyCard> _learned = {};
   final GreekAnswer _answerMatcher;
   final Set<String> _seen = {};
   final List<VocabularyCard> _history = [];
   int? _historyIndex;
   String _cardKey(VocabularyCard card) =>
       card.reviewIdentity?.key(mode) ?? card.id;
-  int _completed = 0;
   int _firstTryCorrect = 0;
   int _repetitions = 0;
   CardPhase _phase = CardPhase.question;
   bool? _typedCorrect;
 
   VocabularyCard get current =>
-      _historyIndex == null ? _queue.first : _history[_historyIndex!];
+      _historyIndex == null ? _window.first : _history[_historyIndex!];
   String get currentKey => _cardKey(current);
-  bool get isComplete => _queue.isEmpty && !isReviewing;
+  bool get isReview =>
+      !isComplete && !isReviewing && _learned.containsKey(currentKey);
+  bool get isComplete => completed == total && !isReviewing;
   bool get isReviewing => _historyIndex != null;
   bool get canGoPrevious =>
       mode == StudyMode.flashcards && (_historyIndex ?? _history.length) > 0;
-  int get completed => _completed;
+  int get completed => _learned.length;
   int get firstTryCorrect => _firstTryCorrect;
   int get repetitions => _repetitions;
-  double get progress => _completed / total;
+  double get progress => completed / total;
   CardPhase get phase => isReviewing ? CardPhase.answer : _phase;
   bool? get typedCorrect => _typedCorrect;
 
@@ -97,17 +108,54 @@ class StudySession extends ChangeNotifier {
 
   void advance({required bool correct}) {
     if (isComplete || isReviewing || _phase != CardPhase.answer) return;
-    final card = _queue.removeAt(0);
+    final card = _window.removeAt(0);
     if (mode == StudyMode.flashcards) _history.add(card);
-    if (_seen.add(_cardKey(card)) && correct) _firstTryCorrect++;
+    final key = _cardKey(card);
+    if (_seen.add(key) && correct) _firstTryCorrect++;
     if (correct) {
-      _completed++;
+      _learned[key] = card;
     } else {
       _repetitions++;
-      _queue.insert(min(2, _queue.length), card);
+      _learned.remove(key);
+      if (_learningCount < _learningWindowSize) {
+        _window.add(card);
+      } else {
+        // A forgotten review takes the next learning slot, without adding
+        // a fourth learning word to the current window.
+        _pending.addFirst(card);
+      }
     }
+    _fillWindow();
     _phase = CardPhase.question;
     _typedCorrect = null;
     notifyListeners();
+  }
+
+  int get _learningCount =>
+      _window.where((card) => !_learned.containsKey(_cardKey(card))).length;
+
+  void _fillWindow() {
+    if (isComplete) {
+      _window.clear();
+      return;
+    }
+
+    var learningCount = _learningCount;
+    while (learningCount < _learningWindowSize && _pending.isNotEmpty) {
+      _window.add(_pending.removeFirst());
+      learningCount++;
+    }
+
+    // Fill the remaining slots with reviews: 3 + 1, 2 + 2, or 1 + 3.
+    // Before the first success or in tiny batches, fewer words are available.
+    final windowKeys = _window.map(_cardKey).toSet();
+    final candidates =
+        _learned.entries
+            .where((entry) => !windowKeys.contains(entry.key))
+            .map((entry) => entry.value)
+            .toList()
+          ..shuffle(_random);
+    final missingReviews = _windowSize - _window.length;
+    _window.addAll(candidates.take(max(0, missingReviews)));
   }
 }

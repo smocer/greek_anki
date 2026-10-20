@@ -422,7 +422,9 @@ class _SessionProgress extends StatelessWidget {
         children: [
           Expanded(
             child: Text(
-              title,
+              session.isReview
+                  ? '$title · ${context.strings.sessionReview}'
+                  : title,
               style: const TextStyle(fontSize: 12, color: Palette.muted),
             ),
           ),

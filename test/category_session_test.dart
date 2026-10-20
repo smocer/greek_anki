@@ -17,8 +17,13 @@ void main() {
           expect(cards, isNotEmpty);
           final session = StudySession(cards: cards, mode: mode);
           final keys = <String>{};
-          while (!session.isComplete) {
-            expect(keys.add(session.currentKey), isTrue);
+          var turns = 0;
+          while (!session.isComplete && turns++ < cards.length * 3) {
+            if (session.isReview) {
+              expect(keys, contains(session.currentKey));
+            } else {
+              expect(keys.add(session.currentKey), isTrue);
+            }
             if (mode == StudyMode.flashcards) {
               session.reveal();
             } else {
@@ -27,6 +32,8 @@ void main() {
             }
             session.advance(correct: true);
           }
+          expect(session.isComplete, isTrue);
+          expect(keys, hasLength(cards.length));
           expect(session.completed, cards.length);
           expect(session.firstTryCorrect, cards.length);
           session.dispose();

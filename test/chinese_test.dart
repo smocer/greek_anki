@@ -78,7 +78,7 @@ void main() {
     expect(find('ζητάει').single.id, 'oct16-requests');
     expect(find('ζητάω').single.id, 'languages-request');
     expect(find('πάρε'), isEmpty);
-    expect(find('παίρνω').single.id, 'oct16-take');
+    expect(find('παίρνω').single.aliases, contains('oct16-take'));
     expect(find('εταιρεία').single.id, 'languages-company');
     expect(find('εταιρεία').single.prompt.zh, '公司');
     expect(find('ξενοδοχείο').single.prompt.zh, '酒店');

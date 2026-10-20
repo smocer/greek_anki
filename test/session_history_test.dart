@@ -23,6 +23,50 @@ void main() {
   final source = greekDecks.firstWhere((deck) => deck.id == 'numbers-0-10');
   final cards = source.cards.skip(1).take(3).toList();
 
+  test('history leaves the moving review window and progress unchanged', () {
+    final ordered = source.cards.take(7).toList();
+    final session = StudySession(
+      cards: ordered,
+      mode: StudyMode.flashcards,
+      shuffle: false,
+    );
+    addTearDown(session.dispose);
+    final firstSeen = <String>[];
+    var reviewed = false;
+    for (var turn = 0; !session.isComplete && turn < 30; turn++) {
+      final current = session.current;
+      final wasReview = session.isReview;
+      if (wasReview) {
+        reviewed = true;
+        final completed = session.completed;
+        session.previous();
+        expect(session.isReviewing, isTrue);
+        expect(session.isReview, isFalse);
+        session.advance(correct: false);
+        expect(session.completed, completed);
+        expect(session.repetitions, 0);
+        session.next();
+        expect(session.current, current);
+        expect(session.isReview, isTrue);
+        expect(session.phase, CardPhase.question);
+      } else {
+        firstSeen.add(current.id);
+      }
+      session.reveal();
+      session.advance(correct: true);
+    }
+    expect(reviewed, isTrue);
+    expect(firstSeen, ordered.map((card) => card.id));
+    expect(session.isComplete, isTrue);
+    session.previous();
+    expect(session.isComplete, isFalse);
+    expect(session.phase, CardPhase.answer);
+    session.next();
+    expect(session.isComplete, isTrue);
+    expect(session.completed, ordered.length);
+    expect(session.firstTryCorrect, ordered.length);
+  });
+
   test('history preserves the pending card, answer state and repeat queue', () {
     final session = StudySession(
       cards: cards,

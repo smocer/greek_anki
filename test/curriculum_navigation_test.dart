@@ -435,7 +435,7 @@ void main() {
     final screen = tester.widget<StudyScreen>(find.byType(StudyScreen));
     expect(screen.cards.length, 15);
     final firstBatch = screen.cards.map((c) => c.prompt.en).toSet();
-    for (var i = 0; i < 15; i++) {
+    for (var i = 0; i < 45 && find.text('Μπράβο!').evaluate().isEmpty; i++) {
       await tapText(tester, 'Reveal answer');
       await tapText(tester, 'Got it');
     }
@@ -444,7 +444,11 @@ void main() {
     for (final prompt in firstBatch) {
       expect(find.text(prompt), findsNothing);
     }
-    for (var i = 0; i < 15; i++) {
+    for (var i = 0; i < 45 && find.text('Μπράβο!').evaluate().isEmpty; i++) {
+      // Filler reviews must also come from this round, not the previous batch.
+      for (final prompt in firstBatch) {
+        expect(find.text(prompt), findsNothing);
+      }
       await tapText(tester, 'Reveal answer');
       await tapText(tester, 'Got it');
     }

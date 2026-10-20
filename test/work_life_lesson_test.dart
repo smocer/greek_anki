@@ -32,12 +32,11 @@ void main() {
     expect(names.map((c) => c.greek), contains('ελληνικά'));
     for (final card in names) {
       expect(matcher.matches(card.greek, card), isTrue);
-      if (card.forms.isEmpty) {
-        expect(matcher.matches(card.displayedAnswer, card), isTrue);
-      } else {
-        for (final form in card.forms) {
-          expect(matcher.matches(form.answerDisplay, card), isTrue);
-        }
+      final answers = card.forms.isEmpty
+          ? [card.displayedAnswer]
+          : card.forms.map((form) => form.answerDisplay);
+      for (final answer in answers) {
+        expect(matcher.matches(answer, card), isTrue);
       }
     }
   });

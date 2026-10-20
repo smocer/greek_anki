@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:greek_anki/app.dart';
+import 'package:greek_anki/data/dictionary.dart';
 import 'package:greek_anki/data/greek_decks.dart';
 import 'package:greek_anki/domain/app_language.dart';
 import 'package:greek_anki/domain/greek_answer.dart';
@@ -119,7 +120,14 @@ void main() {
     await tester.pumpAndSettle();
     await tester.tap(find.text('Числа').last);
     await tester.pumpAndSettle();
-    expect(find.text('Повторить: 45 · Выучено: 1/46'), findsOneWidget);
+    final numberCount = currentDictionary.learningDecks
+        .singleWhere((deck) => deck.id == 'words-numbers')
+        .cards
+        .length;
+    expect(
+      find.text('Повторить: ${numberCount - 1} · Выучено: 1/$numberCount'),
+      findsOneWidget,
+    );
     expect(language.language, AppLanguage.russian);
     expect(store.records, records);
 
@@ -135,6 +143,11 @@ void main() {
     await tester.pumpAndSettle();
     await tester.tap(find.text('Все слова'));
     await tester.pumpAndSettle();
+    await tester.scrollUntilVisible(
+      find.text('ми-ДЭН'),
+      220,
+      scrollable: find.byType(Scrollable).last,
+    );
     expect(find.text('ми-ДЭН'), findsOneWidget);
     await tester.scrollUntilVisible(
       find.text('эф-ТА'),
