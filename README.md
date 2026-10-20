@@ -2,10 +2,8 @@
 
 **[Open Greek Anki](https://smocer.github.io/greek_anki/)**
 
-[Preview yuhang's branch](https://smocer.github.io/greek_anki/preview/yuhang/)
-is published separately from `main`. Pushes to either branch rebuild the
-production site at the root and the branch preview under `preview/yuhang/`.
-Pull requests run checks and build the app without deploying.
+Pushes to `main` publish the production website. Pull requests run checks and
+build the app without deploying.
 
 Learn modern Greek with English and Russian explanations. Works in a browser on iPhone, iPad, Android and desktop, without an account or subscription. Add the link to your home screen for a convenient shortcut.
 
