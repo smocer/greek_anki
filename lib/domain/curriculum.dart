@@ -6,25 +6,27 @@ import 'vocabulary.dart';
 import 'vocabulary_category.dart';
 
 enum LearningSection {
-  words(LocalizedText(en: 'Words', ru: 'Слова')),
-  phrases(LocalizedText(en: 'Phrases', ru: 'Фразы')),
-  grammar(LocalizedText(en: 'Grammar', ru: 'Грамматика'));
+  words(LocalizedText(en: 'Words', zh: '单词', ru: 'Слова')),
+  phrases(LocalizedText(en: 'Phrases', zh: '短语', ru: 'Фразы')),
+  grammar(LocalizedText(en: 'Grammar', zh: '语法', ru: 'Грамматика'));
 
   const LearningSection(this.title);
   final LocalizedText title;
 }
 
 enum LearningTheme {
-  people(LocalizedText(en: 'People', ru: 'Люди')),
-  family(LocalizedText(en: 'Family', ru: 'Семья')),
-  classroom(LocalizedText(en: 'Classroom', ru: 'Учёба')),
-  home(LocalizedText(en: 'Home & everyday life', ru: 'Дом и быт')),
-  food(LocalizedText(en: 'Food & drink', ru: 'Еда и напитки')),
-  places(LocalizedText(en: 'Places', ru: 'Места')),
-  travel(LocalizedText(en: 'Transport', ru: 'Транспорт')),
-  phone(LocalizedText(en: 'Phone', ru: 'Телефон')),
-  time(LocalizedText(en: 'Time & numbers', ru: 'Время и числа')),
-  conversation(LocalizedText(en: 'Conversation', ru: 'Общение'));
+  people(LocalizedText(en: 'People', ru: 'Люди', zh: '人物')),
+  family(LocalizedText(en: 'Family', ru: 'Семья', zh: '家庭')),
+  classroom(LocalizedText(en: 'Classroom', ru: 'Учёба', zh: '课堂')),
+  home(
+    LocalizedText(en: 'Home & everyday life', ru: 'Дом и быт', zh: '家庭与日常生活'),
+  ),
+  food(LocalizedText(en: 'Food & drink', ru: 'Еда и напитки', zh: '饮食')),
+  places(LocalizedText(en: 'Places', ru: 'Места', zh: '地点')),
+  travel(LocalizedText(en: 'Transport', ru: 'Транспорт', zh: '交通')),
+  phone(LocalizedText(en: 'Phone', ru: 'Телефон', zh: '电话')),
+  time(LocalizedText(en: 'Time & numbers', ru: 'Время и числа', zh: '时间与数字')),
+  conversation(LocalizedText(en: 'Conversation', ru: 'Общение', zh: '日常对话'));
 
   const LearningTheme(this.title);
   final LocalizedText title;
@@ -48,6 +50,7 @@ class LearningCollection {
   VocabularyDeck filter({
     VocabularyPeriod period = VocabularyPeriod.all,
     LearningTheme? theme,
+    Set<LearningTheme> excludedThemes = const {},
     String query = '',
     required DateTime now,
   }) {
@@ -57,6 +60,7 @@ class LearningCollection {
         [
           card.prompt.en,
           card.prompt.ru,
+          card.prompt.zh ?? '',
           card.greek,
           card.displayedAnswer,
           ...card.alternatives,
@@ -64,6 +68,7 @@ class LearningCollection {
       );
       return period.includes(card.addedWeek, now) &&
           (theme == null || (themes[card.id]?.contains(theme) ?? false)) &&
+          !(themes[card.id]?.any(excludedThemes.contains) ?? false) &&
           terms.every(text.contains);
     });
     return VocabularyDeck(
@@ -79,11 +84,27 @@ class LearningCollection {
 }
 
 /// Sample before constructing a session; mistakes can repeat within that batch.
+enum CardOrder { random, alphabet, addedTime }
+
 List<VocabularyCard> sessionBatch(
   List<VocabularyCard> cards, {
   int limit = 15,
   Random? random,
+  CardOrder order = CardOrder.random,
 }) {
   if (limit < 1) throw ArgumentError.value(limit, 'limit');
-  return (List.of(cards)..shuffle(random)).take(limit).toList();
+  if (order == CardOrder.random) {
+    return (List.of(cards)..shuffle(random)).take(limit).toList();
+  }
+  if (order == CardOrder.addedTime) {
+    return newestFirst(cards).take(limit).toList();
+  }
+  final indexed = cards.asMap().entries.toList();
+  String key(VocabularyCard card) =>
+      GreekText.searchKey(card.greek).replaceAll('\u0308', '');
+  indexed.sort((a, b) {
+    final result = key(a.value).compareTo(key(b.value));
+    return result == 0 ? a.key.compareTo(b.key) : result;
+  });
+  return indexed.take(limit).map((entry) => entry.value).toList();
 }

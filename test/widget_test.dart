@@ -52,7 +52,14 @@ void main() {
     );
     await tester.pumpAndSettle();
     expect(find.text('Flashcards'), findsOneWidget);
+    await tester.scrollUntilVisible(
+      find.text('Hard mode'),
+      150,
+      scrollable: find.byType(Scrollable).first,
+    );
     expect(find.text('Hard mode'), findsOneWidget);
+    await tester.ensureVisible(find.byKey(const ValueKey('collection-words')));
+    await tester.pumpAndSettle();
     await tester.tap(find.byKey(const ValueKey('collection-words')));
     await tester.pumpAndSettle();
     await tester.tap(find.text('Numbers').last);

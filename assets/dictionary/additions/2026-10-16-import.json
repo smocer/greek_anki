@@ -1,0 +1,629 @@
+{
+  "schemaVersion": 1,
+  "addedWeek": "2026-10-12",
+  "words": [
+    {
+      "id": "oct16-perhaps",
+      "collection": "words-descriptions",
+      "greek": "ίσως",
+      "prompt": {
+        "en": "Perhaps / maybe",
+        "ru": "Возможно; может быть",
+        "zh": "也许"
+      },
+      "pronunciation": {
+        "en": "I-sos",
+        "ru": "И-сос",
+        "zh": "I-sos"
+      },
+      "labels": [
+        "adverb"
+      ],
+      "themes": [
+        "conversation"
+      ]
+    },
+    {
+      "id": "oct16-flight-school",
+      "collection": "words-nouns",
+      "greek": "σχολή πιλότων",
+      "prompt": {
+        "en": "Flight school",
+        "ru": "Лётная школа",
+        "zh": "飞行员学校"
+      },
+      "pronunciation": {
+        "en": "sko-LI pi-LO-ton",
+        "ru": "ско-ЛИ пи-ЛО-тон",
+        "zh": "sko-LI pi-LO-ton"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "classroom"
+      ],
+      "answerDisplay": "η σχολή πιλότων"
+    },
+    {
+      "id": "oct16-airplane",
+      "collection": "words-nouns",
+      "greek": "αεροπλάνο",
+      "prompt": {
+        "en": "Airplane",
+        "ru": "Самолёт",
+        "zh": "飞机"
+      },
+      "pronunciation": {
+        "en": "a-e-ro-PLA-no",
+        "ru": "а-э-ро-ПЛА-но",
+        "zh": "a-e-ro-PLA-no"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "places"
+      ],
+      "answerDisplay": "το αεροπλάνο"
+    },
+    {
+      "id": "oct16-dentist",
+      "collection": "words-nouns",
+      "greek": "οδοντίατρος",
+      "prompt": {
+        "en": "Dentist",
+        "ru": "Стоматолог",
+        "zh": "牙医"
+      },
+      "pronunciation": {
+        "en": "o-dhon-TI-a-tros",
+        "ru": "о-дон-ТИ-а-трос",
+        "zh": "o-dhon-TI-a-tros"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "people"
+      ],
+      "answerDisplay": "ο οδοντίατρος / η οδοντίατρος",
+      "wordGroup": "dentist",
+      "forms": [
+        {
+          "greek": "οδοντίατρος",
+          "answerDisplay": "ο οδοντίατρος",
+          "pronunciation": {
+            "en": "o-dhon-TI-a-tros",
+            "ru": "о-дон-ТИ-а-трос",
+            "zh": "o-dhon-TI-a-tros"
+          }
+        },
+        {
+          "greek": "οδοντίατρος",
+          "answerDisplay": "η οδοντίατρος",
+          "pronunciation": {
+            "en": "o-dhon-TI-a-tros",
+            "ru": "о-дон-ТИ-а-трос",
+            "zh": "o-dhon-TI-a-tros"
+          }
+        }
+      ]
+    },
+    {
+      "id": "oct16-of-course-not",
+      "collection": "phrases-everyday",
+      "greek": "όχι βέβαια",
+      "prompt": {
+        "en": "Of course not",
+        "ru": "Конечно нет",
+        "zh": "当然不"
+      },
+      "pronunciation": {
+        "en": "O-khi VE-ve-a",
+        "ru": "О-хи ВЕ-ве-а",
+        "zh": "O-khi VE-ve-a"
+      },
+      "labels": [],
+      "themes": [
+        "conversation"
+      ]
+    },
+    {
+      "id": "oct16-obviously",
+      "collection": "words-descriptions",
+      "greek": "προφανώς",
+      "prompt": {
+        "en": "Obviously / apparently",
+        "ru": "Очевидно; по-видимому",
+        "zh": "显然；看来"
+      },
+      "pronunciation": {
+        "en": "pro-fa-NOS",
+        "ru": "про-фа-НОС",
+        "zh": "pro-fa-NOS"
+      },
+      "labels": [
+        "adverb"
+      ],
+      "themes": [
+        "conversation"
+      ]
+    },
+    {
+      "id": "oct16-difficult",
+      "collection": "words-descriptions",
+      "greek": "δύσκολο",
+      "prompt": {
+        "en": "Difficult (neuter singular)",
+        "ru": "Трудное (средний род)",
+        "zh": "困难的（中性单数形式）"
+      },
+      "pronunciation": {
+        "en": "DHIS-ko-lo",
+        "ru": "ДИС-ко-ло",
+        "zh": "DHIS-ko-lo"
+      },
+      "labels": [
+        "adjective"
+      ],
+      "themes": [
+        "conversation"
+      ]
+    },
+    {
+      "id": "oct16-continue",
+      "collection": "words-verbs",
+      "greek": "συνεχίζω",
+      "prompt": {
+        "en": "I continue",
+        "ru": "Я продолжаю",
+        "zh": "我继续"
+      },
+      "pronunciation": {
+        "en": "si-ne-KHI-zo",
+        "ru": "си-не-ХИ-зо",
+        "zh": "si-ne-KHI-zo"
+      },
+      "labels": [
+        "verb"
+      ],
+      "themes": [
+        "conversation"
+      ]
+    },
+    {
+      "id": "oct16-as",
+      "collection": "words-connectors",
+      "greek": "όπως",
+      "prompt": {
+        "en": "As / like / for example",
+        "ru": "Как; например",
+        "zh": "像……一样；例如"
+      },
+      "pronunciation": {
+        "en": "O-pos",
+        "ru": "О-пос",
+        "zh": "O-pos"
+      },
+      "labels": [
+        "conjunction"
+      ],
+      "themes": [
+        "conversation"
+      ]
+    },
+    {
+      "id": "oct16-private-school",
+      "collection": "words-nouns",
+      "greek": "ιδιωτικό σχολείο",
+      "prompt": {
+        "en": "Private school",
+        "ru": "Частная школа",
+        "zh": "私立学校"
+      },
+      "pronunciation": {
+        "en": "i-dhi-o-ti-KO skho-LI-o",
+        "ru": "и-ди-о-ти-КО схо-ЛИ-о",
+        "zh": "i-dhi-o-ti-KO skho-LI-o"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "classroom"
+      ],
+      "answerDisplay": "το ιδιωτικό σχολείο"
+    },
+    {
+      "id": "oct16-requests",
+      "collection": "words-verbs",
+      "greek": "ζητάει",
+      "prompt": {
+        "en": "He / she asks for / seeks / recruits",
+        "ru": "Он / она просит; ищет; нанимает",
+        "zh": "他／她要求；寻求；招聘"
+      },
+      "pronunciation": {
+        "en": "zi-TA-i",
+        "ru": "зи-ТА-и",
+        "zh": "zi-TA-i"
+      },
+      "labels": [
+        "verb"
+      ],
+      "themes": [
+        "people"
+      ]
+    },
+    {
+      "id": "oct16-friendly-space",
+      "collection": "words-nouns",
+      "greek": "φιλικός χώρος",
+      "prompt": {
+        "en": "Friendly space / environment",
+        "ru": "Дружелюбная среда",
+        "zh": "友善的空间；友好的环境"
+      },
+      "pronunciation": {
+        "en": "fi-li-KOS KHO-ros",
+        "ru": "фи-ли-КОС ХО-рос",
+        "zh": "fi-li-KOS KHO-ros"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "places"
+      ],
+      "answerDisplay": "ο φιλικός χώρος"
+    },
+    {
+      "id": "oct16-remuneration",
+      "collection": "words-nouns",
+      "greek": "αμοιβή",
+      "prompt": {
+        "en": "Remuneration / pay",
+        "ru": "Вознаграждение; оплата",
+        "zh": "报酬；薪酬"
+      },
+      "pronunciation": {
+        "en": "a-mi-VI",
+        "ru": "а-ми-ВИ",
+        "zh": "a-mi-VI"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "people"
+      ],
+      "answerDisplay": "η αμοιβή"
+    },
+    {
+      "id": "oct16-full-time",
+      "collection": "words-nouns",
+      "greek": "πλήρες ωράριο",
+      "prompt": {
+        "en": "Full-time working hours",
+        "ru": "Полный рабочий день",
+        "zh": "全日制工作时间；全职"
+      },
+      "pronunciation": {
+        "en": "PLI-res o-RA-ri-o",
+        "ru": "ПЛИ-рес о-РА-ри-о",
+        "zh": "PLI-res o-RA-ri-o"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "time"
+      ],
+      "answerDisplay": "το πλήρες ωράριο"
+    },
+    {
+      "id": "oct16-reception-employee",
+      "collection": "phrases-everyday",
+      "greek": "υπάλληλο για τη ρεσεψιόν",
+      "prompt": {
+        "en": "An employee for reception (accusative phrase)",
+        "ru": "Сотрудника на ресепшен (винительный падеж)",
+        "zh": "一名前台接待员工（宾格短语）"
+      },
+      "pronunciation": {
+        "en": "i-PA-li-lo ya ti re-sep-SYON",
+        "ru": "и-ПА-ли-ло я ти ре-сеп-СЬОН",
+        "zh": "i-PA-li-lo ya ti re-sep-SYON"
+      },
+      "labels": [],
+      "themes": [
+        "people"
+      ]
+    },
+    {
+      "id": "oct16-knowledge",
+      "collection": "words-nouns",
+      "greek": "γνώση",
+      "prompt": {
+        "en": "Knowledge / understanding",
+        "ru": "Знание; понимание",
+        "zh": "知识；了解"
+      },
+      "pronunciation": {
+        "en": "GHNO-si",
+        "ru": "ГНО-си",
+        "zh": "GHNO-si"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "classroom"
+      ],
+      "answerDisplay": "η γνώση"
+    },
+    {
+      "id": "oct16-smoke",
+      "collection": "words-verbs",
+      "greek": "καπνίζω",
+      "prompt": {
+        "en": "I smoke",
+        "ru": "Я курю",
+        "zh": "我吸烟"
+      },
+      "pronunciation": {
+        "en": "kap-NI-zo",
+        "ru": "кап-НИ-зо",
+        "zh": "kap-NI-zo"
+      },
+      "labels": [
+        "verb"
+      ],
+      "themes": [
+        "home"
+      ]
+    },
+    {
+      "id": "oct16-verbs-plural",
+      "collection": "words-nouns",
+      "greek": "ρήματα",
+      "prompt": {
+        "en": "Verbs (plural)",
+        "ru": "Глаголы (множественное число)",
+        "zh": "动词（复数）"
+      },
+      "pronunciation": {
+        "en": "RI-ma-ta",
+        "ru": "РИ-ма-та",
+        "zh": "RI-ma-ta"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "classroom"
+      ],
+      "answerDisplay": "τα ρήματα"
+    },
+    {
+      "id": "oct16-type",
+      "collection": "words-nouns",
+      "greek": "τύπος",
+      "prompt": {
+        "en": "Type / form / guy / press",
+        "ru": "Тип; форма; парень; пресса",
+        "zh": "类型；形式；家伙；新闻界（依语境）"
+      },
+      "pronunciation": {
+        "en": "TI-pos",
+        "ru": "ТИ-пос",
+        "zh": "TI-pos"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "conversation"
+      ],
+      "answerDisplay": "ο τύπος"
+    },
+    {
+      "id": "oct16-ever-never",
+      "collection": "words-descriptions",
+      "greek": "ποτέ",
+      "prompt": {
+        "en": "Ever / never (with negation)",
+        "ru": "Когда-либо; никогда (с отрицанием)",
+        "zh": "曾经；从来（与否定词连用表示从不）"
+      },
+      "pronunciation": {
+        "en": "po-TE",
+        "ru": "по-ТЕ",
+        "zh": "po-TE"
+      },
+      "labels": [
+        "adverb"
+      ],
+      "themes": [
+        "time"
+      ]
+    },
+    {
+      "id": "oct16-when-conjunction",
+      "collection": "words-connectors",
+      "greek": "όταν",
+      "prompt": {
+        "en": "When (conjunction)",
+        "ru": "Когда (союз)",
+        "zh": "当……的时候"
+      },
+      "pronunciation": {
+        "en": "O-tan",
+        "ru": "О-тан",
+        "zh": "O-tan"
+      },
+      "labels": [
+        "conjunction"
+      ],
+      "themes": [
+        "time"
+      ]
+    },
+    {
+      "id": "oct16-dance-verb",
+      "collection": "words-verbs",
+      "greek": "χορεύω",
+      "prompt": {
+        "en": "I dance",
+        "ru": "Я танцую",
+        "zh": "我跳舞"
+      },
+      "pronunciation": {
+        "en": "kho-RE-vo",
+        "ru": "хо-РЕ-во",
+        "zh": "kho-RE-vo"
+      },
+      "labels": [
+        "verb"
+      ],
+      "themes": [
+        "home"
+      ]
+    },
+    {
+      "id": "oct16-dance",
+      "collection": "words-nouns",
+      "greek": "χορός",
+      "prompt": {
+        "en": "Dance / ball / chorus",
+        "ru": "Танец; бал; хор",
+        "zh": "舞蹈；舞会；合唱队（依语境）"
+      },
+      "pronunciation": {
+        "en": "kho-ROS",
+        "ru": "хо-РОС",
+        "zh": "kho-ROS"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "home"
+      ],
+      "answerDisplay": "ο χορός"
+    },
+    {
+      "id": "oct16-traffic-light",
+      "collection": "words-nouns",
+      "greek": "φανάρι",
+      "prompt": {
+        "en": "Traffic light / lantern",
+        "ru": "Светофор; фонарь",
+        "zh": "交通信号灯；灯笼"
+      },
+      "pronunciation": {
+        "en": "fa-NA-ri",
+        "ru": "фа-НА-ри",
+        "zh": "fa-NA-ri"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "places"
+      ],
+      "answerDisplay": "το φανάρι"
+    },
+    {
+      "id": "oct16-car",
+      "collection": "words-nouns",
+      "greek": "αυτοκίνητο",
+      "prompt": {
+        "en": "Car",
+        "ru": "Автомобиль",
+        "zh": "汽车"
+      },
+      "pronunciation": {
+        "en": "af-to-KI-ni-to",
+        "ru": "аф-то-КИ-ни-то",
+        "zh": "af-to-KI-ni-to"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "places"
+      ],
+      "answerDisplay": "το αυτοκίνητο"
+    },
+    {
+      "id": "oct16-red",
+      "collection": "words-descriptions",
+      "greek": "κόκκινο",
+      "prompt": {
+        "en": "Red (neuter singular)",
+        "ru": "Красное (средний род)",
+        "zh": "红色；红色的（中性单数）"
+      },
+      "pronunciation": {
+        "en": "KO-ki-no",
+        "ru": "КО-ки-но",
+        "zh": "KO-ki-no"
+      },
+      "labels": [
+        "adjective"
+      ],
+      "themes": [
+        "home"
+      ]
+    },
+    {
+      "id": "oct16-something",
+      "collection": "words-pronouns",
+      "greek": "κάτι",
+      "prompt": {
+        "en": "Something / some",
+        "ru": "Что-то; кое-что; немного",
+        "zh": "某事；某物；一些"
+      },
+      "pronunciation": {
+        "en": "KA-ti",
+        "ru": "КА-ти",
+        "zh": "KA-ti"
+      },
+      "labels": [
+        "pronoun"
+      ],
+      "themes": [
+        "conversation"
+      ]
+    },
+    {
+      "id": "oct16-take",
+      "collection": "words-verbs",
+      "aliases": ["oct16-take-imperative"],
+      "reviewAliases": [
+        {"deckId": "words-verbs", "cardId": "oct16-take-imperative"}
+      ],
+      "greek": "παίρνω",
+      "prompt": {
+        "en": "I take / get / ride",
+        "ru": "Я беру; получаю; еду на транспорте",
+        "zh": "我拿；我取；我乘坐（依语境）"
+      },
+      "pronunciation": {
+        "en": "PER-no",
+        "ru": "ПЕР-но",
+        "zh": "PER-no"
+      },
+      "labels": [
+        "verb"
+      ],
+      "themes": [
+        "places",
+        "conversation"
+      ]
+    }
+  ]
+}

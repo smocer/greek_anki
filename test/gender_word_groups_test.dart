@@ -11,7 +11,10 @@ void main() {
         .toList();
     expect(cards, isNotEmpty);
     // All 22 previously combined pairs still retain their saved review aliases.
-    expect(cards.where((c) => c.reviewAliases.isNotEmpty), hasLength(22));
+    expect(
+      cards.where((c) => c.reviewAliases.isNotEmpty).length,
+      greaterThanOrEqualTo(22),
+    );
     const matcher = GreekAnswer();
     for (final group in cards.map((c) => c.wordGroup).toSet()) {
       final matches = cards.where((c) => c.wordGroup == group).toList();

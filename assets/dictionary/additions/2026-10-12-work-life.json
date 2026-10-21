@@ -8,7 +8,8 @@
       "greek": "ζωή",
       "prompt": {
         "en": "Life",
-        "ru": "Жизнь"
+        "ru": "Жизнь",
+        "zh": "生活；生命"
       },
       "pronunciation": {
         "en": "zo-I",
@@ -32,7 +33,8 @@
       "greek": "ζώο",
       "prompt": {
         "en": "Animal",
-        "ru": "Животное"
+        "ru": "Животное",
+        "zh": "动物"
       },
       "pronunciation": {
         "en": "ZO-o",
@@ -56,7 +58,8 @@
       "greek": "ταξίδι",
       "prompt": {
         "en": "Trip / journey",
-        "ru": "Поездка / путешествие"
+        "ru": "Поездка / путешествие",
+        "zh": "旅行"
       },
       "pronunciation": {
         "en": "ta-KSI-dhi",
@@ -80,7 +83,8 @@
       "greek": "ελληνικά",
       "prompt": {
         "en": "Greek (language)",
-        "ru": "Греческий язык"
+        "ru": "Греческий язык",
+        "zh": "希腊语（语言）"
       },
       "pronunciation": {
         "en": "e-li-ni-KA",
@@ -108,7 +112,8 @@
       "greek": "ταμείο",
       "prompt": {
         "en": "Cash desk / checkout",
-        "ru": "Касса"
+        "ru": "Касса",
+        "zh": "收银台"
       },
       "pronunciation": {
         "en": "ta-MI-o",
@@ -132,7 +137,8 @@
       "greek": "μάνατζερ",
       "prompt": {
         "en": "Manager",
-        "ru": "Менеджер"
+        "ru": "Менеджер",
+        "zh": "经理"
       },
       "pronunciation": {
         "en": "MA-na-dzer",
@@ -176,7 +182,8 @@
       "greek": "εκπαιδευτής",
       "prompt": {
         "en": "Instructor / trainer",
-        "ru": "Инструктор"
+        "ru": "Инструктор",
+        "zh": "教练；培训师"
       },
       "pronunciation": {
         "en": "ek-pe-dhef-TIS",
@@ -223,7 +230,8 @@
       "greek": "αστυνομικός",
       "prompt": {
         "en": "Police officer",
-        "ru": "Полицейский"
+        "ru": "Полицейский",
+        "zh": "警察"
       },
       "pronunciation": {
         "en": "a-sti-no-mi-KOS",
@@ -267,7 +275,8 @@
       "greek": "διδακτορικός φοιτητής",
       "prompt": {
         "en": "Doctoral student / PhD candidate",
-        "ru": "Аспирант / аспирантка (PhD)"
+        "ru": "Аспирант / аспирантка (PhD)",
+        "zh": "博士研究生"
       },
       "pronunciation": {
         "en": "dhi-dha-kto-ri-KOS fi-ti-TIS",
@@ -314,7 +323,8 @@
       "greek": "φυσιοθεραπευτής",
       "prompt": {
         "en": "Physiotherapist / physical therapist",
-        "ru": "Физиотерапевт"
+        "ru": "Физиотерапевт",
+        "zh": "物理治疗师"
       },
       "pronunciation": {
         "en": "fi-sio-the-ra-pef-TIS",
@@ -360,7 +370,8 @@
       "greek": "νομίζω",
       "prompt": {
         "en": "I think / suppose",
-        "ru": "Я думаю / полагаю"
+        "ru": "Я думаю / полагаю",
+        "zh": "我认为；我猜想"
       },
       "pronunciation": {
         "en": "no-MI-zo",
@@ -383,7 +394,8 @@
       "greek": "ζω",
       "prompt": {
         "en": "I live / am alive",
-        "ru": "Я живу (существую)"
+        "ru": "Я живу (существую)",
+        "zh": "我生活；我活着"
       },
       "pronunciation": {
         "en": "zo",
@@ -406,7 +418,8 @@
       "greek": "ψάχνω",
       "prompt": {
         "en": "I look for / search",
-        "ru": "Я ищу"
+        "ru": "Я ищу",
+        "zh": "我寻找"
       },
       "pronunciation": {
         "en": "PSAH-no",
@@ -429,7 +442,8 @@
       "greek": "γνωρίζω",
       "prompt": {
         "en": "I meet / get to know someone",
-        "ru": "Я знакомлюсь"
+        "ru": "Я знакомлюсь",
+        "zh": "我知道；我认识"
       },
       "pronunciation": {
         "en": "ghno-RI-zo",
@@ -453,7 +467,8 @@
       "greek": "ταξιδεύω",
       "prompt": {
         "en": "I travel",
-        "ru": "Я путешествую"
+        "ru": "Я путешествую",
+        "zh": "我旅行"
       },
       "pronunciation": {
         "en": "ta-ksi-DHE-vo",
@@ -476,7 +491,8 @@
       "greek": "μαγειρεύω",
       "prompt": {
         "en": "I cook",
-        "ru": "Я готовлю еду"
+        "ru": "Я готовлю еду",
+        "zh": "我做饭"
       },
       "pronunciation": {
         "en": "ma-yi-RE-vo",
@@ -500,7 +516,8 @@
       "greek": "συμπληρώνω",
       "prompt": {
         "en": "I fill in / complete",
-        "ru": "Я заполняю / дополняю"
+        "ru": "Я заполняю / дополняю",
+        "zh": "我填写；我完成"
       },
       "pronunciation": {
         "en": "sim-pli-RO-no",
@@ -523,7 +540,8 @@
       "greek": "απαντώ",
       "prompt": {
         "en": "I answer",
-        "ru": "Я отвечаю"
+        "ru": "Я отвечаю",
+        "zh": "我回答"
       },
       "pronunciation": {
         "en": "a-pan-TO",
@@ -550,7 +568,8 @@
       "greek": "διαλέγω",
       "prompt": {
         "en": "I choose",
-        "ru": "Я выбираю"
+        "ru": "Я выбираю",
+        "zh": "我选择"
       },
       "pronunciation": {
         "en": "dhia-LE-gho",
@@ -573,7 +592,8 @@
       "greek": "έξω",
       "prompt": {
         "en": "Outside",
-        "ru": "Снаружи"
+        "ru": "Снаружи",
+        "zh": "外面"
       },
       "pronunciation": {
         "en": "E-kso",
@@ -596,7 +616,8 @@
       "greek": "μαζί",
       "prompt": {
         "en": "Together",
-        "ru": "Вместе"
+        "ru": "Вместе",
+        "zh": "一起"
       },
       "pronunciation": {
         "en": "ma-ZI",
@@ -619,7 +640,8 @@
       "greek": "εντάξει",
       "prompt": {
         "en": "Okay / all right",
-        "ru": "Ладно / в порядке"
+        "ru": "Ладно / в порядке",
+        "zh": "好的；没问题"
       },
       "pronunciation": {
         "en": "en-DA-ksi",
@@ -643,7 +665,8 @@
       "greek": "πολύ",
       "prompt": {
         "en": "Very / a lot",
-        "ru": "Очень / много"
+        "ru": "Очень / много",
+        "zh": "很；很多"
       },
       "pronunciation": {
         "en": "po-LI",
@@ -666,7 +689,8 @@
       "greek": "Ψάχνω για δουλειά.",
       "prompt": {
         "en": "I am looking for a job.",
-        "ru": "Я ищу работу."
+        "ru": "Я ищу работу.",
+        "zh": "我在找工作。"
       },
       "pronunciation": {
         "en": "PSAH-no ya dhu-LIA",
@@ -687,7 +711,8 @@
       "greek": "Δεν μου λες;",
       "prompt": {
         "en": "Tell me… (conversational question)",
-        "ru": "Скажи-ка… (разговорный вопрос)"
+        "ru": "Скажи-ка… (разговорный вопрос)",
+        "zh": "请问……（会话中引出问题）"
       },
       "pronunciation": {
         "en": "dhen mu les",
@@ -711,7 +736,8 @@
       "greek": "Τι δουλειά κάνετε;",
       "prompt": {
         "en": "What do you do for work? (polite/plural)",
-        "ru": "Кем вы работаете?"
+        "ru": "Кем вы работаете?",
+        "zh": "你做什么工作？（礼貌用语／复数）"
       },
       "pronunciation": {
         "en": "ti dhu-LIA KA-ne-te",
@@ -733,7 +759,8 @@
       "greek": "Δουλεύεις;",
       "prompt": {
         "en": "Do you work? (informal)",
-        "ru": "Ты работаешь?"
+        "ru": "Ты работаешь?",
+        "zh": "你工作吗？（非正式单数）"
       },
       "pronunciation": {
         "en": "dhu-LE-vis",
@@ -755,7 +782,8 @@
       "greek": "Δουλεύετε;",
       "prompt": {
         "en": "Do you work? (polite/plural)",
-        "ru": "Вы работаете?"
+        "ru": "Вы работаете?",
+        "zh": "你工作吗？（礼貌用语／复数）"
       },
       "pronunciation": {
         "en": "dhu-LE-ve-te",
@@ -777,7 +805,8 @@
       "greek": "Δουλεύω στην Ελλάδα.",
       "prompt": {
         "en": "I work in Greece.",
-        "ru": "Я работаю в Греции."
+        "ru": "Я работаю в Греции.",
+        "zh": "我在希腊工作。"
       },
       "pronunciation": {
         "en": "dhu-LE-vo stin e-LA-dha",
@@ -799,7 +828,8 @@
       "greek": "Είμαι γιατρός.",
       "prompt": {
         "en": "I am a doctor.",
-        "ru": "Я врач."
+        "ru": "Я врач.",
+        "zh": "我是医生。"
       },
       "pronunciation": {
         "en": "I-me ya-TROS",
@@ -820,7 +850,8 @@
       "greek": "Είμαι ηλεκτρολόγος.",
       "prompt": {
         "en": "I am an electrician.",
-        "ru": "Я электрик."
+        "ru": "Я электрик.",
+        "zh": "我是电工。"
       },
       "pronunciation": {
         "en": "I-me i-lek-tro-LO-ghos",
@@ -841,7 +872,8 @@
       "greek": "Μένω με την φίλη μου.",
       "prompt": {
         "en": "I live with my girlfriend.",
-        "ru": "Я живу со своей девушкой."
+        "ru": "Я живу со своей девушкой.",
+        "zh": "我和女朋友住在一起。"
       },
       "pronunciation": {
         "en": "ME-no me tin FI-li mu",
@@ -866,7 +898,8 @@
       "greek": "Έξω από την τάξη.",
       "prompt": {
         "en": "Outside the classroom.",
-        "ru": "За пределами класса."
+        "ru": "За пределами класса.",
+        "zh": "在教室外。"
       },
       "pronunciation": {
         "en": "E-kso a-PO tin TA-ksi",

@@ -8,7 +8,8 @@
       "greek": "εταιρεία",
       "prompt": {
         "en": "Company / business",
-        "ru": "Компания / фирма"
+        "ru": "Компания / фирма",
+        "zh": "公司"
       },
       "pronunciation": {
         "en": "e-te-RI-a",
@@ -38,7 +39,8 @@
       "greek": "σχολή",
       "prompt": {
         "en": "School / college (specialist training)",
-        "ru": "Учебное заведение (профессиональная подготовка)"
+        "ru": "Учебное заведение (профессиональная подготовка)",
+        "zh": "专业学校／学院（专业培训）"
       },
       "pronunciation": {
         "en": "sho-LI",
@@ -62,11 +64,13 @@
       "greek": "μπαρ",
       "prompt": {
         "en": "Bar",
-        "ru": "Бар"
+        "ru": "Бар",
+        "zh": "酒吧"
       },
       "pronunciation": {
         "en": "bar",
-        "ru": "бар"
+        "ru": "бар",
+        "zh": "酒吧"
       },
       "themes": [
         "places"
@@ -86,7 +90,8 @@
       "greek": "επαρχία",
       "prompt": {
         "en": "Province / district",
-        "ru": "Провинция / округ"
+        "ru": "Провинция / округ",
+        "zh": "外省；乡间；地方地区"
       },
       "pronunciation": {
         "en": "e-par-HI-a",
@@ -110,7 +115,8 @@
       "greek": "τμήμα",
       "prompt": {
         "en": "Department / section",
-        "ru": "Отдел / подразделение"
+        "ru": "Отдел / подразделение",
+        "zh": "部门；部分；系"
       },
       "pronunciation": {
         "en": "TMI-ma",
@@ -134,7 +140,8 @@
       "greek": "μάρκετινγκ",
       "prompt": {
         "en": "Marketing",
-        "ru": "Маркетинг"
+        "ru": "Маркетинг",
+        "zh": "市场营销"
       },
       "pronunciation": {
         "en": "MAR-ke-ting",
@@ -158,7 +165,8 @@
       "greek": "ομπρέλα",
       "prompt": {
         "en": "Umbrella",
-        "ru": "Зонт"
+        "ru": "Зонт",
+        "zh": "伞；雨伞"
       },
       "pronunciation": {
         "en": "om-BRE-la",
@@ -182,7 +190,8 @@
       "greek": "βροχή",
       "prompt": {
         "en": "Rain",
-        "ru": "Дождь"
+        "ru": "Дождь",
+        "zh": "雨"
       },
       "pronunciation": {
         "en": "vro-HI",
@@ -206,7 +215,8 @@
       "greek": "αλήθεια",
       "prompt": {
         "en": "Truth",
-        "ru": "Правда"
+        "ru": "Правда",
+        "zh": "真相；真的；真的吗"
       },
       "pronunciation": {
         "en": "a-LI-thia",
@@ -230,7 +240,8 @@
       "greek": "ψέμα",
       "prompt": {
         "en": "Lie (an untrue statement)",
-        "ru": "Ложь"
+        "ru": "Ложь",
+        "zh": "谎言"
       },
       "pronunciation": {
         "en": "PSE-ma",
@@ -254,7 +265,8 @@
       "greek": "λεφτά",
       "prompt": {
         "en": "Money",
-        "ru": "Деньги"
+        "ru": "Деньги",
+        "zh": "钱（口语，复数形式）"
       },
       "pronunciation": {
         "en": "lef-TA",
@@ -278,7 +290,8 @@
       "greek": "ντροπή",
       "prompt": {
         "en": "Shame",
-        "ru": "Стыд"
+        "ru": "Стыд",
+        "zh": "羞耻；害羞"
       },
       "pronunciation": {
         "en": "dro-PI",
@@ -302,7 +315,8 @@
       "greek": "πάρκο",
       "prompt": {
         "en": "Park",
-        "ru": "Парк"
+        "ru": "Парк",
+        "zh": "公园"
       },
       "pronunciation": {
         "en": "PAR-ko",
@@ -326,7 +340,8 @@
       "greek": "γλώσσα",
       "prompt": {
         "en": "Language / tongue",
-        "ru": "Язык"
+        "ru": "Язык",
+        "zh": "语言／舌头"
       },
       "pronunciation": {
         "en": "GHLO-sa",
@@ -350,7 +365,8 @@
       "greek": "ερώτηση",
       "prompt": {
         "en": "Question",
-        "ru": "Вопрос"
+        "ru": "Вопрос",
+        "zh": "问题；提问"
       },
       "pronunciation": {
         "en": "e-RO-ti-si",
@@ -374,7 +390,8 @@
       "greek": "απάντηση",
       "prompt": {
         "en": "Answer",
-        "ru": "Ответ"
+        "ru": "Ответ",
+        "zh": "回答；答复"
       },
       "pronunciation": {
         "en": "a-PAN-di-si",
@@ -398,7 +415,8 @@
       "greek": "ελεύθερος επαγγελματίας",
       "prompt": {
         "en": "Freelancer / independent professional",
-        "ru": "Фрилансер / специалист, работающий на себя"
+        "ru": "Фрилансер / специалист, работающий на себя",
+        "zh": "自由职业者"
       },
       "pronunciation": {
         "en": "e-LEF-the-ros e-pang-ghel-ma-TI-as / e-LEF-the-ri e-pang-ghel-ma-TI-as",
@@ -448,7 +466,8 @@
       "greek": "αυτοεργοδοτούμενος",
       "prompt": {
         "en": "Self-employed (Cypriot usage)",
-        "ru": "Работающий на себя (на Кипре)"
+        "ru": "Работающий на себя (на Кипре)",
+        "zh": "自雇者（塞浦路斯用法）"
       },
       "pronunciation": {
         "en": "af-to-er-gho-dho-TU-me-nos / af-to-er-gho-dho-TU-me-ni",
@@ -498,7 +517,8 @@
       "greek": "κτηνίατρος",
       "prompt": {
         "en": "Veterinarian / vet",
-        "ru": "Ветеринар"
+        "ru": "Ветеринар",
+        "zh": "兽医"
       },
       "pronunciation": {
         "en": "kti-NI-a-tros / kti-NI-a-tros",
@@ -546,7 +566,8 @@
       "greek": "ξυλουργός",
       "prompt": {
         "en": "Carpenter",
-        "ru": "Столяр / плотник"
+        "ru": "Столяр / плотник",
+        "zh": "木匠"
       },
       "pronunciation": {
         "en": "ksi-lur-GHOS / ksi-lur-GHOS",
@@ -594,7 +615,8 @@
       "greek": "γυμναστής",
       "prompt": {
         "en": "Fitness trainer / PE teacher",
-        "ru": "Фитнес-тренер / преподаватель физкультуры"
+        "ru": "Фитнес-тренер / преподаватель физкультуры",
+        "zh": "健身教练／体育教师"
       },
       "pronunciation": {
         "en": "yim-na-STIS / yim-NA-stria",
@@ -644,7 +666,8 @@
       "greek": "βρεγμένος",
       "prompt": {
         "en": "Wet",
-        "ru": "Мокрый"
+        "ru": "Мокрый",
+        "zh": "湿的；被淋湿的（阴性单数）"
       },
       "pronunciation": {
         "en": "vre-GHME-nos / vre-GHME-ni / vre-GHME-no",
@@ -704,7 +727,8 @@
       "greek": "Έλληνας",
       "prompt": {
         "en": "Greek (person)",
-        "ru": "Грек / гречанка"
+        "ru": "Грек / гречанка",
+        "zh": "希腊人"
       },
       "pronunciation": {
         "en": "E-li-nas / e-li-NI-dha",
@@ -758,7 +782,8 @@
       "greek": "Ισπανός",
       "prompt": {
         "en": "Spaniard",
-        "ru": "Испанец / испанка"
+        "ru": "Испанец / испанка",
+        "zh": "西班牙人"
       },
       "pronunciation": {
         "en": "i-spa-NOS / i-spa-NI-dha",
@@ -812,7 +837,8 @@
       "greek": "Ρώσος",
       "prompt": {
         "en": "Russian (person)",
-        "ru": "Русский / русская"
+        "ru": "Русский / русская",
+        "zh": "俄罗斯人"
       },
       "pronunciation": {
         "en": "RO-sos / ro-SI-dha",
@@ -866,7 +892,8 @@
       "greek": "Ελβετός",
       "prompt": {
         "en": "Swiss (person)",
-        "ru": "Швейцарец / швейцарка"
+        "ru": "Швейцарец / швейцарка",
+        "zh": "瑞士人"
       },
       "pronunciation": {
         "en": "el-ve-TOS / el-ve-TI-dha",
@@ -920,7 +947,8 @@
       "greek": "Αυστραλός",
       "prompt": {
         "en": "Australian (person)",
-        "ru": "Австралиец / австралийка"
+        "ru": "Австралиец / австралийка",
+        "zh": "澳大利亚人"
       },
       "pronunciation": {
         "en": "af-stra-LOS / af-stra-LE-za",
@@ -974,7 +1002,8 @@
       "greek": "Πολωνός",
       "prompt": {
         "en": "Pole (person)",
-        "ru": "Поляк / полька"
+        "ru": "Поляк / полька",
+        "zh": "波兰人"
       },
       "pronunciation": {
         "en": "po-lo-NOS / po-lo-NI / po-lo-NE-za",
@@ -1038,7 +1067,8 @@
       "greek": "Σουηδός",
       "prompt": {
         "en": "Swede",
-        "ru": "Швед / шведка"
+        "ru": "Швед / шведка",
+        "zh": "瑞典人"
       },
       "pronunciation": {
         "en": "su-i-DHOS / su-i-DHE-za",
@@ -1092,7 +1122,8 @@
       "greek": "Κινέζος",
       "prompt": {
         "en": "Chinese (person)",
-        "ru": "Китаец / китаянка"
+        "ru": "Китаец / китаянка",
+        "zh": "中国人"
       },
       "pronunciation": {
         "en": "ki-NE-zos / ki-NE-za",
@@ -1146,7 +1177,8 @@
       "greek": "Γιαπωνέζος",
       "prompt": {
         "en": "Japanese (person)",
-        "ru": "Японец / японка"
+        "ru": "Японец / японка",
+        "zh": "日本人"
       },
       "pronunciation": {
         "en": "ya-po-NE-zos / ya-po-NE-za / I-a-po-nas",
@@ -1210,7 +1242,8 @@
       "greek": "Αλβανός",
       "prompt": {
         "en": "Albanian (person)",
-        "ru": "Албанец / албанка"
+        "ru": "Албанец / албанка",
+        "zh": "阿尔巴尼亚人"
       },
       "pronunciation": {
         "en": "al-va-NOS / al-va-NI / al-va-NI-dha",
@@ -1274,7 +1307,8 @@
       "greek": "Ουκρανός",
       "prompt": {
         "en": "Ukrainian (person)",
-        "ru": "Украинец / украинка"
+        "ru": "Украинец / украинка",
+        "zh": "乌克兰人"
       },
       "pronunciation": {
         "en": "u-kra-NOS / u-kra-NI",
@@ -1328,7 +1362,8 @@
       "greek": "Ιρακινός",
       "prompt": {
         "en": "Iraqi (person)",
-        "ru": "Иракец"
+        "ru": "Иракец",
+        "zh": "伊拉克人"
       },
       "pronunciation": {
         "en": "i-ra-ki-NOS / i-ra-ki-NI",
@@ -1382,7 +1417,8 @@
       "greek": "Αιγύπτιος",
       "prompt": {
         "en": "Egyptian (person)",
-        "ru": "Египтянин / египтянка"
+        "ru": "Египтянин / египтянка",
+        "zh": "埃及人"
       },
       "pronunciation": {
         "en": "e-YIP-ti-os / e-YIP-tia",
@@ -1436,7 +1472,8 @@
       "greek": "Βούλγαρος",
       "prompt": {
         "en": "Bulgarian (person)",
-        "ru": "Болгарин / болгарка"
+        "ru": "Болгарин / болгарка",
+        "zh": "保加利亚人"
       },
       "pronunciation": {
         "en": "VUL-gha-ros / vul-GHA-ra",
@@ -1490,7 +1527,8 @@
       "greek": "Τούρκος",
       "prompt": {
         "en": "Turk (person)",
-        "ru": "Турок / турчанка"
+        "ru": "Турок / турчанка",
+        "zh": "土耳其人"
       },
       "pronunciation": {
         "en": "TUR-kos / tur-KA-la",
@@ -1544,7 +1582,8 @@
       "greek": "Ιταλός",
       "prompt": {
         "en": "Italian (person)",
-        "ru": "Итальянец / итальянка"
+        "ru": "Итальянец / итальянка",
+        "zh": "意大利人"
       },
       "pronunciation": {
         "en": "i-ta-LOS / i-ta-LI-dha",
@@ -1598,7 +1637,8 @@
       "greek": "Γερμανός",
       "prompt": {
         "en": "German (person)",
-        "ru": "Немец / немка"
+        "ru": "Немец / немка",
+        "zh": "德国人"
       },
       "pronunciation": {
         "en": "yer-ma-NOS / yer-ma-NI-dha",
@@ -1652,7 +1692,8 @@
       "greek": "ισπανικά",
       "prompt": {
         "en": "Spanish (language)",
-        "ru": "Испанский язык"
+        "ru": "Испанский язык",
+        "zh": "西班牙语（语言）"
       },
       "pronunciation": {
         "en": "i-spa-ni-KA",
@@ -1680,7 +1721,8 @@
       "greek": "ρωσικά",
       "prompt": {
         "en": "Russian (language)",
-        "ru": "Русский язык"
+        "ru": "Русский язык",
+        "zh": "俄语（语言）"
       },
       "pronunciation": {
         "en": "ro-si-KA",
@@ -1714,7 +1756,8 @@
       "greek": "γερμανικά",
       "prompt": {
         "en": "German (language)",
-        "ru": "Немецкий язык"
+        "ru": "Немецкий язык",
+        "zh": "德语（语言）"
       },
       "pronunciation": {
         "en": "yer-ma-ni-KA",
@@ -1742,7 +1785,8 @@
       "greek": "γαλλικά",
       "prompt": {
         "en": "French (language)",
-        "ru": "Французский язык"
+        "ru": "Французский язык",
+        "zh": "法语（语言）"
       },
       "pronunciation": {
         "en": "gha-li-KA",
@@ -1770,7 +1814,8 @@
       "greek": "ιταλικά",
       "prompt": {
         "en": "Italian (language)",
-        "ru": "Итальянский язык"
+        "ru": "Итальянский язык",
+        "zh": "意大利语（语言）"
       },
       "pronunciation": {
         "en": "i-ta-li-KA",
@@ -1798,7 +1843,8 @@
       "greek": "αγγλικά",
       "prompt": {
         "en": "English (language)",
-        "ru": "Английский язык"
+        "ru": "Английский язык",
+        "zh": "英语（语言）"
       },
       "pronunciation": {
         "en": "ang-gli-KA",
@@ -1826,7 +1872,8 @@
       "greek": "πολωνικά",
       "prompt": {
         "en": "Polish (language)",
-        "ru": "Польский язык"
+        "ru": "Польский язык",
+        "zh": "波兰语（语言）"
       },
       "pronunciation": {
         "en": "po-lo-ni-KA",
@@ -1854,7 +1901,8 @@
       "greek": "σουηδικά",
       "prompt": {
         "en": "Swedish (language)",
-        "ru": "Шведский язык"
+        "ru": "Шведский язык",
+        "zh": "瑞典语（语言）"
       },
       "pronunciation": {
         "en": "su-i-dhi-KA",
@@ -1882,7 +1930,8 @@
       "greek": "κινέζικα",
       "prompt": {
         "en": "Chinese (language)",
-        "ru": "Китайский язык"
+        "ru": "Китайский язык",
+        "zh": "中文（语言）"
       },
       "pronunciation": {
         "en": "ki-NE-zi-ka",
@@ -1916,7 +1965,8 @@
       "greek": "γιαπωνέζικα",
       "prompt": {
         "en": "Japanese (language)",
-        "ru": "Японский язык"
+        "ru": "Японский язык",
+        "zh": "日语（语言）"
       },
       "pronunciation": {
         "en": "ya-po-NE-zi-ka",
@@ -1950,7 +2000,8 @@
       "greek": "αλβανικά",
       "prompt": {
         "en": "Albanian (language)",
-        "ru": "Албанский язык"
+        "ru": "Албанский язык",
+        "zh": "阿尔巴尼亚语（语言）"
       },
       "pronunciation": {
         "en": "al-va-ni-KA",
@@ -1978,7 +2029,8 @@
       "greek": "ουκρανικά",
       "prompt": {
         "en": "Ukrainian (language)",
-        "ru": "Украинский язык"
+        "ru": "Украинский язык",
+        "zh": "乌克兰语（语言）"
       },
       "pronunciation": {
         "en": "u-kra-ni-KA",
@@ -2006,7 +2058,8 @@
       "greek": "αραβικά",
       "prompt": {
         "en": "Arabic (language)",
-        "ru": "Арабский язык"
+        "ru": "Арабский язык",
+        "zh": "阿拉伯语（语言）"
       },
       "pronunciation": {
         "en": "a-ra-vi-KA",
@@ -2034,7 +2087,8 @@
       "greek": "βουλγαρικά",
       "prompt": {
         "en": "Bulgarian (language)",
-        "ru": "Болгарский язык"
+        "ru": "Болгарский язык",
+        "zh": "保加利亚语（语言）"
       },
       "pronunciation": {
         "en": "vul-gha-ri-KA",
@@ -2068,7 +2122,8 @@
       "greek": "τουρκικά",
       "prompt": {
         "en": "Turkish (language)",
-        "ru": "Турецкий язык"
+        "ru": "Турецкий язык",
+        "zh": "土耳其语（语言）"
       },
       "pronunciation": {
         "en": "tur-ki-KA",
@@ -2096,7 +2151,8 @@
       "greek": "Αλβανία",
       "prompt": {
         "en": "Albania",
-        "ru": "Албания"
+        "ru": "Албания",
+        "zh": "阿尔巴尼亚"
       },
       "pronunciation": {
         "en": "al-va-NI-a",
@@ -2120,7 +2176,8 @@
       "greek": "Σουηδία",
       "prompt": {
         "en": "Sweden",
-        "ru": "Швеция"
+        "ru": "Швеция",
+        "zh": "瑞典"
       },
       "pronunciation": {
         "en": "su-i-DHI-a",
@@ -2144,7 +2201,8 @@
       "greek": "Πολωνία",
       "prompt": {
         "en": "Poland",
-        "ru": "Польша"
+        "ru": "Польша",
+        "zh": "波兰"
       },
       "pronunciation": {
         "en": "po-lo-NI-a",
@@ -2168,7 +2226,8 @@
       "greek": "Ιαπωνία",
       "prompt": {
         "en": "Japan",
-        "ru": "Япония"
+        "ru": "Япония",
+        "zh": "日本"
       },
       "pronunciation": {
         "en": "ia-po-NI-a",
@@ -2192,7 +2251,8 @@
       "greek": "Αυστραλία",
       "prompt": {
         "en": "Australia",
-        "ru": "Австралия"
+        "ru": "Австралия",
+        "zh": "澳大利亚"
       },
       "pronunciation": {
         "en": "af-stra-LI-a",
@@ -2216,7 +2276,8 @@
       "greek": "Βόρεια Αμερική",
       "prompt": {
         "en": "North America",
-        "ru": "Северная Америка"
+        "ru": "Северная Америка",
+        "zh": "北美洲"
       },
       "pronunciation": {
         "en": "VO-ria a-me-ri-KI",
@@ -2240,7 +2301,8 @@
       "greek": "Νότια Αμερική",
       "prompt": {
         "en": "South America",
-        "ru": "Южная Америка"
+        "ru": "Южная Америка",
+        "zh": "南美洲"
       },
       "pronunciation": {
         "en": "NO-tia a-me-ri-KI",
@@ -2264,7 +2326,8 @@
       "greek": "μιλάω",
       "prompt": {
         "en": "I speak / talk",
-        "ru": "Я говорю / разговариваю"
+        "ru": "Я говорю / разговариваю",
+        "zh": "我说话；我讲"
       },
       "pronunciation": {
         "en": "mi-LA-o",
@@ -2290,7 +2353,8 @@
       "greek": "αγαπάω",
       "prompt": {
         "en": "I love",
-        "ru": "Я люблю"
+        "ru": "Я люблю",
+        "zh": "我爱"
       },
       "pronunciation": {
         "en": "a-gha-PA-o",
@@ -2316,7 +2380,8 @@
       "greek": "περπατάω",
       "prompt": {
         "en": "I walk",
-        "ru": "Я иду пешком / гуляю"
+        "ru": "Я иду пешком / гуляю",
+        "zh": "我走路"
       },
       "pronunciation": {
         "en": "per-pa-TA-o",
@@ -2342,7 +2407,8 @@
       "greek": "ρωτάω",
       "prompt": {
         "en": "I ask a question",
-        "ru": "Я спрашиваю"
+        "ru": "Я спрашиваю",
+        "zh": "我提问"
       },
       "pronunciation": {
         "en": "ro-TA-o",
@@ -2368,7 +2434,8 @@
       "greek": "συναντάω",
       "prompt": {
         "en": "I meet someone",
-        "ru": "Я встречаюсь с кем-то"
+        "ru": "Я встречаюсь с кем-то",
+        "zh": "我遇见某人"
       },
       "pronunciation": {
         "en": "si-nan-DA-o",
@@ -2394,7 +2461,8 @@
       "greek": "σταματάω",
       "prompt": {
         "en": "I stop",
-        "ru": "Я останавливаюсь"
+        "ru": "Я останавливаюсь",
+        "zh": "我停止"
       },
       "pronunciation": {
         "en": "sta-ma-TA-o",
@@ -2420,7 +2488,8 @@
       "greek": "πεινάω",
       "prompt": {
         "en": "I am hungry",
-        "ru": "Я хочу есть"
+        "ru": "Я хочу есть",
+        "zh": "我饿了"
       },
       "pronunciation": {
         "en": "pi-NA-o",
@@ -2446,7 +2515,8 @@
       "greek": "διψάω",
       "prompt": {
         "en": "I am thirsty",
-        "ru": "Я хочу пить"
+        "ru": "Я хочу пить",
+        "zh": "我渴了"
       },
       "pronunciation": {
         "en": "dhi-PSA-o",
@@ -2472,7 +2542,8 @@
       "greek": "περνάω",
       "prompt": {
         "en": "I pass / spend time",
-        "ru": "Я прохожу / провожу время"
+        "ru": "Я прохожу / провожу время",
+        "zh": "我经过；我度过时间"
       },
       "pronunciation": {
         "en": "per-NA-o",
@@ -2498,7 +2569,8 @@
       "greek": "ζητάω",
       "prompt": {
         "en": "I ask for / request something",
-        "ru": "Я прошу что-то"
+        "ru": "Я прошу что-то",
+        "zh": "我要求；我寻找"
       },
       "pronunciation": {
         "en": "zi-TA-o",
@@ -2524,7 +2596,8 @@
       "greek": "γελάω",
       "prompt": {
         "en": "I laugh",
-        "ru": "Я смеюсь"
+        "ru": "Я смеюсь",
+        "zh": "我笑"
       },
       "pronunciation": {
         "en": "ye-LA-o",
@@ -2550,7 +2623,8 @@
       "greek": "χαμογελάω",
       "prompt": {
         "en": "I smile",
-        "ru": "Я улыбаюсь"
+        "ru": "Я улыбаюсь",
+        "zh": "我微笑"
       },
       "pronunciation": {
         "en": "ha-mo-ye-LA-o",
@@ -2576,7 +2650,8 @@
       "greek": "πονάω",
       "prompt": {
         "en": "I am in pain",
-        "ru": "Мне больно"
+        "ru": "Мне больно",
+        "zh": "我疼痛"
       },
       "pronunciation": {
         "en": "po-NA-o",
@@ -2602,7 +2677,8 @@
       "greek": "μπορώ",
       "prompt": {
         "en": "I can / am able to",
-        "ru": "Я могу"
+        "ru": "Я могу",
+        "zh": "我能够"
       },
       "pronunciation": {
         "en": "bo-RO",
@@ -2625,7 +2701,8 @@
       "greek": "πάω",
       "prompt": {
         "en": "I go",
-        "ru": "Я иду / еду"
+        "ru": "Я иду / еду",
+        "zh": "我去"
       },
       "pronunciation": {
         "en": "PA-o",
@@ -2651,7 +2728,8 @@
       "greek": "βρέχομαι",
       "prompt": {
         "en": "I get wet",
-        "ru": "Я мокну"
+        "ru": "Я мокну",
+        "zh": "我淋湿"
       },
       "pronunciation": {
         "en": "VRE-ho-me",
@@ -2674,7 +2752,8 @@
       "greek": "βρέχει",
       "prompt": {
         "en": "It rains / it is raining",
-        "ru": "Идёт дождь"
+        "ru": "Идёт дождь",
+        "zh": "下雨；他／她弄湿（依语境）"
       },
       "pronunciation": {
         "en": "VRE-hi",
@@ -2697,7 +2776,8 @@
       "greek": "δυστυχώς",
       "prompt": {
         "en": "Unfortunately",
-        "ru": "К сожалению"
+        "ru": "К сожалению",
+        "zh": "不幸地；遗憾的是"
       },
       "pronunciation": {
         "en": "dhis-ti-HOS",
@@ -2716,7 +2796,8 @@
       "greek": "αρκετά",
       "prompt": {
         "en": "Enough / fairly",
-        "ru": "Достаточно"
+        "ru": "Достаточно",
+        "zh": "足够；相当；不少（依语境）"
       },
       "pronunciation": {
         "en": "ar-ke-TA",
@@ -2739,7 +2820,8 @@
       "greek": "λίγο",
       "prompt": {
         "en": "A little",
-        "ru": "Немного"
+        "ru": "Немного",
+        "zh": "一点"
       },
       "pronunciation": {
         "en": "LI-gho",
@@ -2758,7 +2840,8 @@
       "greek": "καθόλου",
       "prompt": {
         "en": "Not at all (in a negative statement)",
-        "ru": "Совсем не (в отрицательном высказывании)"
+        "ru": "Совсем не (в отрицательном высказывании)",
+        "zh": "一点也不（用于否定）；究竟、丝毫（用于疑问等）"
       },
       "pronunciation": {
         "en": "ka-THO-lu",
@@ -2781,7 +2864,8 @@
       "greek": "τόσο",
       "prompt": {
         "en": "So / that much",
-        "ru": "Так / настолько"
+        "ru": "Так / настолько",
+        "zh": "这么；那么；如此（表示程度或数量）"
       },
       "pronunciation": {
         "en": "TO-so",
@@ -2804,7 +2888,8 @@
       "greek": "ότι",
       "prompt": {
         "en": "That (I know that…)",
-        "ru": "Что (я знаю, что…)"
+        "ru": "Что (я знаю, что…)",
+        "zh": "（引导从句）……这件事（我知道……）"
       },
       "pronunciation": {
         "en": "O-ti",
@@ -2827,7 +2912,8 @@
       "greek": "κρίμα",
       "prompt": {
         "en": "What a pity!",
-        "ru": "Как жаль!"
+        "ru": "Как жаль!",
+        "zh": "可惜；遗憾"
       },
       "pronunciation": {
         "en": "KRI-ma",
@@ -2846,7 +2932,8 @@
       "greek": "μάλιστα",
       "prompt": {
         "en": "Certainly / I see (acknowledgement)",
-        "ru": "Конечно / понятно (подтверждение)"
+        "ru": "Конечно / понятно (подтверждение)",
+        "zh": "是的；当然；而且"
       },
       "pronunciation": {
         "en": "MA-li-sta",
@@ -2865,7 +2952,8 @@
       "greek": "Μιλάς ελληνικά;",
       "prompt": {
         "en": "Do you speak Greek? (informal)",
-        "ru": "Ты говоришь по-гречески?"
+        "ru": "Ты говоришь по-гречески?",
+        "zh": "你会说希腊语吗？（非正式单数）"
       },
       "pronunciation": {
         "en": "mi-LAS e-li-ni-KA",
@@ -2886,7 +2974,8 @@
       "greek": "Μιλάτε ελληνικά;",
       "prompt": {
         "en": "Do you speak Greek? (polite or plural)",
-        "ru": "Вы говорите по-гречески?"
+        "ru": "Вы говорите по-гречески?",
+        "zh": "你会说希腊语吗？（礼貌用语／复数）"
       },
       "pronunciation": {
         "en": "mi-LA-te e-li-ni-KA",
@@ -2907,7 +2996,8 @@
       "greek": "Τι γλώσσα μιλάς;",
       "prompt": {
         "en": "What language do you speak? (informal)",
-        "ru": "На каком языке ты говоришь?"
+        "ru": "На каком языке ты говоришь?",
+        "zh": "你说什么语言？（非正式单数）"
       },
       "pronunciation": {
         "en": "ti GHLO-sa mi-LAS",
@@ -2926,7 +3016,8 @@
       "greek": "Μιλάω λίγο ελληνικά.",
       "prompt": {
         "en": "I speak a little Greek.",
-        "ru": "Я немного говорю по-гречески."
+        "ru": "Я немного говорю по-гречески.",
+        "zh": "我会说一点希腊语。"
       },
       "pronunciation": {
         "en": "mi-LA-o LI-gho e-li-ni-KA",
@@ -2950,7 +3041,8 @@
       "greek": "Μιλάω ρωσικά πολύ καλά.",
       "prompt": {
         "en": "I speak Russian very well.",
-        "ru": "Я очень хорошо говорю по-русски."
+        "ru": "Я очень хорошо говорю по-русски.",
+        "zh": "我的俄语说得很好。"
       },
       "pronunciation": {
         "en": "mi-LA-o ro-si-KA po-LI ka-LA",
@@ -2978,7 +3070,8 @@
       "greek": "Μιλάω αγγλικά αρκετά καλά.",
       "prompt": {
         "en": "I speak English fairly well.",
-        "ru": "Я довольно хорошо говорю по-английски."
+        "ru": "Я довольно хорошо говорю по-английски.",
+        "zh": "我的英语说得还不错。"
       },
       "pronunciation": {
         "en": "mi-LA-o ang-gli-KA ar-ke-TA ka-LA",
@@ -3002,7 +3095,8 @@
       "greek": "Καταλαβαίνω ελληνικά, αλλά δεν μιλάω τόσο καλά.",
       "prompt": {
         "en": "I understand Greek, but I do not speak it so well.",
-        "ru": "Я понимаю греческий, но не так хорошо говорю."
+        "ru": "Я понимаю греческий, но не так хорошо говорю.",
+        "zh": "我听得懂希腊语，但说得不太好。"
       },
       "pronunciation": {
         "en": "ka-ta-la-VE-no e-li-ni-KA a-LA dhen mi-LA-o TO-so ka-LA",
@@ -3023,7 +3117,8 @@
       "greek": "Δεν μιλάω καθόλου γερμανικά.",
       "prompt": {
         "en": "I do not speak German at all.",
-        "ru": "Я совсем не говорю по-немецки."
+        "ru": "Я совсем не говорю по-немецки.",
+        "zh": "我完全不会说德语。"
       },
       "pronunciation": {
         "en": "dhen mi-LA-o ka-THO-lu yer-ma-ni-KA",
@@ -3047,7 +3142,8 @@
       "greek": "Συγγνώμη, δεν καταλαβαίνω.",
       "prompt": {
         "en": "Sorry, I do not understand.",
-        "ru": "Извините, я не понимаю."
+        "ru": "Извините, я не понимаю.",
+        "zh": "对不起，我不明白。"
       },
       "pronunciation": {
         "en": "si-GHNO-mi dhen ka-ta-la-VE-no",
@@ -3068,7 +3164,8 @@
       "greek": "Δουλεύω σε μια εταιρεία.",
       "prompt": {
         "en": "I work at a company.",
-        "ru": "Я работаю в компании."
+        "ru": "Я работаю в компании.",
+        "zh": "我在一家公司工作。"
       },
       "pronunciation": {
         "en": "dhu-LE-vo se mia e-te-RI-a",
@@ -3091,7 +3188,8 @@
       "greek": "Δουλεύω σε μια σχολή πιλότων.",
       "prompt": {
         "en": "I work at a flight school.",
-        "ru": "Я работаю в лётной школе."
+        "ru": "Я работаю в лётной школе.",
+        "zh": "我在飞行学校工作。"
       },
       "pronunciation": {
         "en": "dhu-LE-vo se mia sho-LI pi-LO-ton",
@@ -3112,7 +3210,8 @@
       "greek": "Δουλεύω σε ένα μπαρ.",
       "prompt": {
         "en": "I work at a bar.",
-        "ru": "Я работаю в баре."
+        "ru": "Я работаю в баре.",
+        "zh": "我在酒吧工作。"
       },
       "pronunciation": {
         "en": "dhu-LE-vo se E-na bar",
@@ -3131,7 +3230,8 @@
       "greek": "Δουλεύω από το σπίτι.",
       "prompt": {
         "en": "I work from home.",
-        "ru": "Я работаю из дома."
+        "ru": "Я работаю из дома.",
+        "zh": "我在家工作。"
       },
       "pronunciation": {
         "en": "dhu-LE-vo a-PO to SPI-ti",
@@ -3150,7 +3250,8 @@
       "greek": "Δεν πάω στο γραφείο.",
       "prompt": {
         "en": "I do not go to the office.",
-        "ru": "Я не хожу в офис."
+        "ru": "Я не хожу в офис.",
+        "zh": "我不去办公室。"
       },
       "pronunciation": {
         "en": "dhen PA-o sto ghra-FI-o",
@@ -3171,7 +3272,8 @@
       "greek": "Ξέρω ότι είναι εδώ.",
       "prompt": {
         "en": "I know that he is here.",
-        "ru": "Я знаю, что он здесь."
+        "ru": "Я знаю, что он здесь.",
+        "zh": "我知道他在这里。"
       },
       "pronunciation": {
         "en": "KSE-ro O-ti I-ne e-DHO",
@@ -3192,7 +3294,8 @@
       "greek": "Έξω βρέχει.",
       "prompt": {
         "en": "It is raining outside.",
-        "ru": "На улице идёт дождь."
+        "ru": "На улице идёт дождь.",
+        "zh": "外面在下雨。"
       },
       "pronunciation": {
         "en": "E-kso VRE-hi",
@@ -3213,7 +3316,8 @@
       "greek": "Δεν έχω ομπρέλα.",
       "prompt": {
         "en": "I do not have an umbrella.",
-        "ru": "У меня нет зонта."
+        "ru": "У меня нет зонта.",
+        "zh": "我没有雨伞。"
       },
       "pronunciation": {
         "en": "dhen E-ho om-BRE-la",
@@ -3232,7 +3336,8 @@
       "greek": "Βράχηκα.",
       "prompt": {
         "en": "I got wet.",
-        "ru": "Я промок."
+        "ru": "Я промок.",
+        "zh": "我淋湿了；我弄湿了自己"
       },
       "pronunciation": {
         "en": "VRA-hi-ka",
@@ -3255,7 +3360,8 @@
       "greek": "Ψάχνω τον κινηματογράφο.",
       "prompt": {
         "en": "I am looking for the cinema.",
-        "ru": "Я ищу кинотеатр."
+        "ru": "Я ищу кинотеатр.",
+        "zh": "我在找电影院。"
       },
       "pronunciation": {
         "en": "PSAH-no ton ki-ni-ma-TO-ghra-fo",
@@ -3274,7 +3380,8 @@
       "greek": "Βλέπετε την τράπεζα;",
       "prompt": {
         "en": "Do you see the bank? (polite or plural)",
-        "ru": "Вы видите банк?"
+        "ru": "Вы видите банк?",
+        "zh": "您看见银行了吗？（礼貌用语／复数）"
       },
       "pronunciation": {
         "en": "VLE-pe-te tin TRA-pe-za",
@@ -3293,7 +3400,8 @@
       "greek": "Τι ψάχνετε;",
       "prompt": {
         "en": "What are you looking for? (polite or plural)",
-        "ru": "Что вы ищете?"
+        "ru": "Что вы ищете?",
+        "zh": "您在找什么？（礼貌用语／复数）"
       },
       "pronunciation": {
         "en": "ti PSAH-ne-te",
@@ -3312,7 +3420,8 @@
       "greek": "Ξέρετε το πάρκο;",
       "prompt": {
         "en": "Do you know the park? (polite or plural)",
-        "ru": "Вы знаете этот парк?"
+        "ru": "Вы знаете этот парк?",
+        "zh": "您知道那个公园吗？（礼貌用语／复数）"
       },
       "pronunciation": {
         "en": "KSE-re-te to PAR-ko",
@@ -3333,7 +3442,8 @@
       "greek": "Είμαι Έλληνας.",
       "prompt": {
         "en": "I am Greek. (a man speaking)",
-        "ru": "Я грек."
+        "ru": "Я грек.",
+        "zh": "我是希腊人。（男性说话）"
       },
       "pronunciation": {
         "en": "I-me E-li-nas",
@@ -3359,7 +3469,8 @@
       "greek": "Είμαι Ελληνίδα.",
       "prompt": {
         "en": "I am Greek. (a woman speaking)",
-        "ru": "Я гречанка."
+        "ru": "Я гречанка.",
+        "zh": "我是希腊人。（女性说话）"
       },
       "pronunciation": {
         "en": "I-me e-li-NI-dha",
@@ -3385,7 +3496,8 @@
       "greek": "Είναι Πολωνή και μιλάει πολωνικά.",
       "prompt": {
         "en": "She is Polish and speaks Polish.",
-        "ru": "Она полька и говорит по-польски."
+        "ru": "Она полька и говорит по-польски.",
+        "zh": "她是波兰人，会说波兰语。"
       },
       "pronunciation": {
         "en": "I-ne po-lo-NI ke mi-LA-i po-lo-ni-KA",

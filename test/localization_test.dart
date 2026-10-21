@@ -16,6 +16,13 @@ import 'support/memory_language_store.dart';
 import 'support/memory_progress_store.dart';
 
 void main() {
+  test('Chinese addition labels show the corresponding week', () {
+    const strings = AppStrings(AppLanguage.chinese);
+    expect(strings.weekOf('2026-10-12'), '2026-10-12 当周');
+    expect(strings.weekOf('2026-10-05'), '2026-10-05 当周');
+    expect(strings.weekOf('2026-09-28'), '9 月 28 日当周及更早');
+  });
+
   final deck = greekDecks.firstWhere((deck) => deck.id == 'numbers-0-10');
   final seven = deck.cards[7];
 

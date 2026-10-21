@@ -68,6 +68,7 @@ class GreekDictionary {
         final id = reader.string(word['id'], '$filename.id');
         word['meaning'] ??= {
           'en': 'Translate into Greek.',
+          'zh': '请翻译成希腊语。',
           'ru': 'Переведите на греческий.',
         };
         word['reviewIdentity'] ??= {'deckId': target, 'cardId': id};
@@ -266,10 +267,11 @@ class _DictionaryReader {
   }
 
   LocalizedText text(Object? value, String path) {
-    final data = object(value, path, {'en', 'ru'});
+    final data = object(value, path, {'en', 'ru', 'zh'});
     return LocalizedText(
       en: string(data['en'], '$path.en'),
       ru: string(data['ru'], '$path.ru'),
+      zh: data['zh'] == null ? null : string(data['zh'], '$path.zh'),
     );
   }
 

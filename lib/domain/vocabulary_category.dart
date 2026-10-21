@@ -158,36 +158,59 @@ List<VocabularyCard> sourceCardsFor(Iterable<VocabularyWordEntry> words) {
 }
 
 LocalizedText labelTitle(VocabularyLabel label) => switch (label) {
-  VocabularyLabel.topic => const LocalizedText(en: 'Topic', ru: 'Тема'),
+  VocabularyLabel.topic => const LocalizedText(
+    en: 'Topic',
+    zh: '主题',
+    ru: 'Тема',
+  ),
   VocabularyLabel.noun => const LocalizedText(
     en: 'Noun',
+    zh: '名词',
     ru: 'Существительное',
   ),
-  VocabularyLabel.verb => const LocalizedText(en: 'Verb', ru: 'Глагол'),
+  VocabularyLabel.verb => const LocalizedText(
+    en: 'Verb',
+    zh: '动词',
+    ru: 'Глагол',
+  ),
   VocabularyLabel.adjective => const LocalizedText(
     en: 'Adjective',
+    zh: '形容词',
     ru: 'Прилагательное',
   ),
-  VocabularyLabel.adverb => const LocalizedText(en: 'Adverb', ru: 'Наречие'),
+  VocabularyLabel.adverb => const LocalizedText(
+    en: 'Adverb',
+    zh: '副词',
+    ru: 'Наречие',
+  ),
   VocabularyLabel.pronoun => const LocalizedText(
     en: 'Pronoun',
+    zh: '代词',
     ru: 'Местоимение',
   ),
-  VocabularyLabel.article => const LocalizedText(en: 'Article', ru: 'Артикль'),
+  VocabularyLabel.article => const LocalizedText(
+    en: 'Article',
+    zh: '冠词',
+    ru: 'Артикль',
+  ),
   VocabularyLabel.preposition => const LocalizedText(
     en: 'Preposition',
+    zh: '介词',
     ru: 'Предлог',
   ),
   VocabularyLabel.conjunction => const LocalizedText(
     en: 'Conjunction',
+    zh: '连词',
     ru: 'Союз',
   ),
   VocabularyLabel.numeral => const LocalizedText(
     en: 'Numeral',
+    zh: '数词',
     ru: 'Числительное',
   ),
   VocabularyLabel.interjection => const LocalizedText(
     en: 'Interjection',
+    zh: '感叹词',
     ru: 'Междометие',
   ),
 };

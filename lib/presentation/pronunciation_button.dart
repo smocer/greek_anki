@@ -63,9 +63,13 @@ class PronunciationButton extends StatefulWidget {
     super.key,
     required this.asset,
     required this.label,
+    this.buttonText,
+    this.color,
   });
   final String asset;
   final String label;
+  final String? buttonText;
+  final Color? color;
 
   @override
   State<PronunciationButton> createState() => _PronunciationButtonState();
@@ -99,12 +103,26 @@ class _PronunciationButtonState extends State<PronunciationButton> {
     listenable: pronunciationPlayback,
     builder: (context, _) {
       final playing = pronunciationPlayback.currentAsset == widget.asset;
+      final icon = Icon(
+        playing ? Icons.stop_circle_outlined : Icons.volume_up_outlined,
+      );
+      final onPressed = pronunciationPlayback.loading ? null : _play;
+      if (widget.buttonText case final text?) {
+        return Tooltip(
+          message: '${context.strings.listen}: ${widget.label}',
+          child: TextButton.icon(
+            onPressed: onPressed,
+            style: TextButton.styleFrom(foregroundColor: widget.color),
+            icon: icon,
+            label: Text(text),
+          ),
+        );
+      }
       return IconButton(
         tooltip: '${context.strings.listen}: ${widget.label}',
-        onPressed: pronunciationPlayback.loading ? null : _play,
-        icon: Icon(
-          playing ? Icons.stop_circle_outlined : Icons.volume_up_outlined,
-        ),
+        onPressed: onPressed,
+        color: widget.color,
+        icon: icon,
       );
     },
   );

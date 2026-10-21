@@ -40,6 +40,7 @@ class _LanguageSwitchState extends State<LanguageSwitch> {
       segments: const [
         ButtonSegment(value: AppLanguage.english, label: Text('English')),
         ButtonSegment(value: AppLanguage.russian, label: Text('Русский')),
+        ButtonSegment(value: AppLanguage.chinese, label: Text('中文')),
       ],
       selected: {context.strings.language},
       onSelectionChanged: _saving ? null : _select,

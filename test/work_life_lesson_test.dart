@@ -29,6 +29,7 @@ void main() {
       nouns.map((c) => c.greek),
       containsAll(['μουσείο', 'σπίτι', 'φούρνος', 'ζωή']),
     );
+    expect(names.map((c) => c.greek), contains('ελληνικά'));
     for (final card in names) {
       expect(matcher.matches(card.greek, card), isTrue);
       final answers = card.forms.isEmpty

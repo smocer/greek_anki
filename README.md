@@ -2,11 +2,14 @@
 
 **[Open Greek Anki](https://smocer.github.io/greek_anki/)**
 
+Pushes to `main` publish the production website. Pull requests run checks and
+build the app without deploying.
+
 Learn modern Greek with English and Russian explanations. Works in a browser on iPhone, iPad, Android and desktop, without an account or subscription. Add the link to your home screen for a convenient shortcut.
 
 ## Choose what to learn
 
-- **Words:** nouns, names and places (including languages and nationalities), verbs, pronouns, adjectives/adverbs, connecting words/prepositions and numbers. Practise individual meanings and spellings. Nouns use their base form; their article is optional in your answer and visible when you reveal it. Verbs use the first-person present.
+- **Words:** nouns, verbs, pronouns, adjectives/adverbs, connecting words/prepositions and numbers. Names & places is a separate group for personal names, places, languages and nationalities. Practise individual meanings and spellings. Nouns use their base form; their article is optional in your answer and visible when you reveal it. Verbs use the first-person present.
 - **Phrases:** social conversations, classroom language and everyday situations, including phone conversations.
 - **Grammar:** articles/gender, noun forms/cases, verb forms, location/origin, possession and questions/negation. Practise using familiar vocabulary in different grammatical roles.
 - **Reference:** the alphabet, handwriting, sounds and grammar tables.
@@ -17,13 +20,17 @@ Choose **Filters** to narrow a group by theme, addition week or an English, Russ
 
 **Flashcards:** recall the Greek answer, reveal it, then choose **Again** or **Got it**.
 
+**Previous** lets you review earlier flashcards and their audio. Use **Next** to
+return to your current card; viewing history does not change scores or review
+schedules. You can also revisit the last card from the completion screen.
+
 **Hard mode:** type using the built-in Greek keyboard or your device keyboard. Grammar prompts are entirely in English or Russian: translate the complete phrase. Greek answers and explanations appear only after checking. There are no Greek sentence hints or fill-in-the-blank prompts.
 
 Correct stress is required. Missing, misplaced or extra accents are incorrect. Capitalization and sentence punctuation are optional. Articles are optional for noun vocabulary; grammatical endings and articles remain part of phrase and grammar answers. Standard listed alternatives such as **εφτά / επτά**, **οκτώ / οχτώ** and **εννέα / εννιά** are accepted. The default for 7 is **εφτά**.
 
-Sessions contain up to **15 cards**, sampled from due and new cards first. If none are due, you can practise a fresh sample from the group. Work through a moving window of **three learning cards**. After your first correct answer, one randomly chosen card remembered earlier in the same round joins the window for review. The window stays at **four distinct cards**: three learning + one review, two learning + two reviews, or one learning + three reviews. Before any cards have been remembered, or in batches smaller than four cards, the window uses only the available words.
+Choose the number of cards per session (default **15**), sampled from due and new cards first. If none are due, you can practise a fresh sample from the group. Choose **All** to practise every card in the current filtered group, including cards not yet due; the count displays the group's total. Choose random order (default), Greek alphabetical order, or newest additions first. Work through a moving window of **three learning cards**. After your first correct answer, one randomly chosen card remembered earlier in the same round joins the window for review. The window stays at **four distinct cards**: three learning + one review, two learning + two reviews, or one learning + three reviews. Before any cards have been remembered, or in batches smaller than four cards, the window uses only the available words.
 
-Missed cards return after other cards. Correct review answers do not add to the completion count; forgetting a review card puts it back into the learning queue. A session ends as soon as every card in the batch is remembered, without extra review turns at the end. Another round selects a new batch.
+Missed cards return after other cards. Correct review answers do not add to the completion count; forgetting a review card puts it back into the learning queue. A session ends as soon as every card in the batch is remembered, without extra review turns at the end. Another round uses the same count and order settings.
 
 **English / Русский** switches the interface, translations, explanations and pronunciation guides together. Russian explanations compare familiar cases, ты/Вы, grammatical gender and word roots with their Greek counterparts. Pronunciation guides are approximate aids.
 

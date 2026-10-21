@@ -1,6 +1,7 @@
 import '../domain/app_language.dart';
 
-LocalizedText _t(String en, String ru) => LocalizedText(en: en, ru: ru);
+LocalizedText _t(String en, String ru) =>
+    LocalizedText(en: en, ru: ru, zh: _chineseReference[en]);
 
 class GrammarTable {
   GrammarTable(this.title, this.headers, this.rows, {this.rowLabels});
@@ -531,21 +532,22 @@ const _nounPatterns = <String, List<String>>{
 };
 
 const _personLabels = [
-  LocalizedText(en: 'I', ru: 'Я'),
-  LocalizedText(en: 'You · singular', ru: 'Ты'),
-  LocalizedText(en: 'He / She / It', ru: 'Он / Она / Оно'),
-  LocalizedText(en: 'We', ru: 'Мы'),
+  LocalizedText(en: 'I', zh: '我', ru: 'Я'),
+  LocalizedText(en: 'You · singular', zh: '你 · 单数', ru: 'Ты'),
+  LocalizedText(en: 'He / She / It', zh: '他／她／它', ru: 'Он / Она / Оно'),
+  LocalizedText(en: 'We', zh: '我们', ru: 'Мы'),
   LocalizedText(
     en: 'You · plural / polite',
+    zh: '你们／您',
     ru: 'Вы · группа или вежливое обращение',
   ),
-  LocalizedText(en: 'They', ru: 'Они'),
+  LocalizedText(en: 'They', zh: '他们', ru: 'Они'),
 ];
 const _caseLabels = [
-  LocalizedText(en: 'Nominative', ru: 'Именительный'),
-  LocalizedText(en: 'Genitive', ru: 'Родительный'),
-  LocalizedText(en: 'Accusative', ru: 'Винительный'),
-  LocalizedText(en: 'Vocative', ru: 'Звательный'),
+  LocalizedText(en: 'Nominative', zh: '主格', ru: 'Именительный'),
+  LocalizedText(en: 'Genitive', zh: '属格', ru: 'Родительный'),
+  LocalizedText(en: 'Accusative', zh: '宾格', ru: 'Винительный'),
+  LocalizedText(en: 'Vocative', zh: '呼格', ru: 'Звательный'),
 ];
 
 // Consolidate topics that teach the same forms, preserving their explanations.
@@ -627,3 +629,66 @@ List<GrammarTopic> _mergeGrammar() {
   ];
   return result;
 }
+
+const _chineseReference = <String, String>{
+  'Be · Three tenses': '是 · 三种时态',
+  'Present groups': '现在时变位组',
+  'γράφω · Three tenses': 'γράφω · 三种时态',
+  'Passive · Three tenses': '被动语态 · 三种时态',
+  'Writing · Past and future': '写 · 过去时与将来时',
+  'All six persons: present, past and future.': '六种人称：现在时、过去时和将来时。',
+  'Articles and nouns together · Singular, plural and direct address.':
+      '冠词与名词搭配 · 单数、复数与直接称呼。',
+  'Be · είμαι': '是 · είμαι',
+  'Can': '能够',
+  'Case': '格',
+  'Cases & articles': '格与冠词',
+  'Common endings with full singular and plural examples.': '常见词尾及完整的单复数示例。',
+  'Definite articles': '定冠词',
+  'Direct address': '直接称呼',
+  'Example': '例子',
+  'F · singular / plural': '阴性 · 单数／复数',
+  'Feminine': '阴性',
+  'Form': '形式',
+  'Future': '将来时',
+  'Future · process / repetition': '将来时 · 过程／反复动作',
+  'Future · whole action': '将来时 · 完整动作',
+  'Gender': '性别',
+  'Gender, singular/plural and the four cases.': '性别、单复数与四种格。',
+  'Genitive & possession': '属格与所属关系',
+  'How names and nouns change in direct address.': '直接称呼时人名与名词的变化。',
+  'Love': '爱',
+  'M · singular / plural': '阳性 · 单数／复数',
+  'Masculine': '阳性',
+  'My/your/their and possession with noun endings.':
+      '我的／你的／他们的，以及通过名词词尾表达所属关系。',
+  'N · singular / plural': '中性 · 单数／复数',
+  'Neuter': '中性',
+  'Nominative': '主格',
+  'Noun': '名词',
+  'Noun changes · Declension': '名词变化 · 变格',
+  'Nouns, articles & cases': '名词、冠词与格',
+  'Ordinary verbs': '普通动词',
+  'Ordinary verbs · Past & future': '普通动词 · 过去时与将来时',
+  'Ordinary verbs · Present': '普通动词 · 现在时',
+  'Passive & middle voice': '被动与中间语态',
+  'Passive forms in the present, past and future.': '被动语态的现在时、过去时与将来时。',
+  'Past': '过去时',
+  'Past · process / repetition': '过去时 · 过程／反复动作',
+  'Past · whole action': '过去时 · 完整动作',
+  'Person': '人称',
+  'Person and number · Present, past and future.': '人称与数 · 现在时、过去时与将来时。',
+  'Person, number and common conjugation groups.': '人称、数与常见变位组。',
+  'Plural': '复数',
+  'Possessive forms': '物主形式',
+  'Prepositions & noun cases': '介词与名词的格',
+  'Prepositions · Article combinations': '介词 · 冠词组合',
+  'Present': '现在时',
+  'Refers to': '所指人称',
+  'Singular': '单数',
+  'Three basic tenses: present, past and future.': '三种基本时态：现在时、过去时和将来时。',
+  'Vocative': '呼格',
+  'Vocative · Calling someone': '呼格 · 称呼他人',
+  'Write': '写',
+  'σε, από, με, για and article contractions.': 'σε、από、με、για 及其与冠词的缩合。',
+};

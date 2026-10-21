@@ -66,7 +66,7 @@ class _GreekAnkiAppState extends State<GreekAnkiApp> {
     debugShowCheckedModeBanner: false,
     theme: appTheme,
     locale: Locale(_language.code),
-    supportedLocales: const [Locale('en'), Locale('ru')],
+    supportedLocales: const [Locale('en'), Locale('ru'), Locale('zh')],
     localizationsDelegates: GlobalMaterialLocalizations.delegates,
     home: FutureBuilder<void>(
       future: _loading,

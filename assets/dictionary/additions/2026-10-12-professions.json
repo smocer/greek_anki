@@ -8,7 +8,8 @@
       "answerDisplay": "ο καθηγητής / η καθηγήτρια",
       "prompt": {
         "en": "Subject teacher / professor",
-        "ru": "Преподаватель / преподавательница"
+        "ru": "Преподаватель / преподавательница",
+        "zh": "任课教师／教授"
       },
       "pronunciation": {
         "en": "ka-thi-yi-TIS / ka-thi-YI-tri-a",
@@ -33,7 +34,8 @@
       "senses": [
         {
           "en": "Subject teacher / professor",
-          "ru": "Преподаватель / преподавательница"
+          "ru": "Преподаватель / преподавательница",
+          "zh": "任课教师／教授"
         }
       ],
       "alternatives": [
@@ -78,7 +80,8 @@
       "answerDisplay": "ο κομμωτής / η κομμώτρια",
       "prompt": {
         "en": "Hairdresser",
-        "ru": "Парикмахер"
+        "ru": "Парикмахер",
+        "zh": "理发师"
       },
       "pronunciation": {
         "en": "ko-mo-TIS / ko-MO-tria",
@@ -103,7 +106,8 @@
       "senses": [
         {
           "en": "Hairdresser",
-          "ru": "Парикмахер"
+          "ru": "Парикмахер",
+          "zh": "理发师"
         }
       ],
       "alternatives": [
@@ -147,7 +151,8 @@
       "answerDisplay": "ο φοιτητής / η φοιτήτρια",
       "prompt": {
         "en": "University student",
-        "ru": "Студент / студентка вуза"
+        "ru": "Студент / студентка вуза",
+        "zh": "大学生"
       },
       "pronunciation": {
         "en": "fi-ti-TIS / fi-TI-tri-a",
@@ -172,7 +177,8 @@
       "senses": [
         {
           "en": "University student",
-          "ru": "Студент / студентка вуза"
+          "ru": "Студент / студентка вуза",
+          "zh": "大学生"
         }
       ],
       "alternatives": [
@@ -217,7 +223,8 @@
       "answerDisplay": "ο εργάτης / η εργάτρια",
       "prompt": {
         "en": "Worker",
-        "ru": "Рабочий / рабочая"
+        "ru": "Рабочий / рабочая",
+        "zh": "工人"
       },
       "pronunciation": {
         "en": "er-GHA-tis / er-GHA-tria",
@@ -242,7 +249,8 @@
       "senses": [
         {
           "en": "Worker",
-          "ru": "Рабочий / рабочая"
+          "ru": "Рабочий / рабочая",
+          "zh": "工人"
         }
       ],
       "alternatives": [
@@ -286,7 +294,8 @@
       "answerDisplay": "ο πωλητής / η πωλήτρια",
       "prompt": {
         "en": "Salesperson",
-        "ru": "Продавец / продавщица"
+        "ru": "Продавец / продавщица",
+        "zh": "售货员"
       },
       "pronunciation": {
         "en": "po-li-TIS / po-LI-tria",
@@ -311,7 +320,8 @@
       "senses": [
         {
           "en": "Salesperson",
-          "ru": "Продавец / продавщица"
+          "ru": "Продавец / продавщица",
+          "zh": "售货员"
         }
       ],
       "alternatives": [
@@ -355,7 +365,8 @@
       "answerDisplay": "ο αθλητής / η αθλήτρια",
       "prompt": {
         "en": "Athlete",
-        "ru": "Спортсмен / спортсменка"
+        "ru": "Спортсмен / спортсменка",
+        "zh": "运动员"
       },
       "pronunciation": {
         "en": "ath-li-TIS / a-THLI-tria",
@@ -380,7 +391,8 @@
       "senses": [
         {
           "en": "Athlete",
-          "ru": "Спортсмен / спортсменка"
+          "ru": "Спортсмен / спортсменка",
+          "zh": "运动员"
         }
       ],
       "alternatives": [
@@ -424,7 +436,8 @@
       "answerDisplay": "ο σερβιτόρος / η σερβιτόρα",
       "prompt": {
         "en": "Waiter / waitress",
-        "ru": "Официант / официантка"
+        "ru": "Официант / официантка",
+        "zh": "服务员"
       },
       "pronunciation": {
         "en": "ser-vi-TO-ros / ser-vi-TO-ra",
@@ -449,7 +462,8 @@
       "senses": [
         {
           "en": "Waiter / waitress",
-          "ru": "Официант / официантка"
+          "ru": "Официант / официантка",
+          "zh": "服务员"
         }
       ],
       "alternatives": [
@@ -493,7 +507,8 @@
       "answerDisplay": "ο νοσοκόμος / η νοσοκόμα",
       "prompt": {
         "en": "Nurse",
-        "ru": "Медбрат / медсестра"
+        "ru": "Медбрат / медсестра",
+        "zh": "护士"
       },
       "pronunciation": {
         "en": "no-so-KO-mos / no-so-KO-ma",
@@ -518,7 +533,8 @@
       "senses": [
         {
           "en": "Nurse",
-          "ru": "Медбрат / медсестра"
+          "ru": "Медбрат / медсестра",
+          "zh": "护士"
         }
       ],
       "alternatives": [
@@ -562,7 +578,8 @@
       "answerDisplay": "ο δάσκαλος / η δασκάλα",
       "prompt": {
         "en": "Teacher",
-        "ru": "Учитель / учительница"
+        "ru": "Учитель / учительница",
+        "zh": "教师"
       },
       "pronunciation": {
         "en": "DHAS-ka-los / dhas-KA-la",
@@ -587,7 +604,8 @@
       "senses": [
         {
           "en": "Teacher",
-          "ru": "Учитель / учительница"
+          "ru": "Учитель / учительница",
+          "zh": "教师"
         }
       ],
       "alternatives": [
@@ -632,7 +650,8 @@
       "answerDisplay": "ο μάγειρας / η μαγείρισσα",
       "prompt": {
         "en": "Cook / chef",
-        "ru": "Повар"
+        "ru": "Повар",
+        "zh": "厨师"
       },
       "pronunciation": {
         "en": "MA-yi-ras / ma-YI-ri-sa",
@@ -657,7 +676,8 @@
       "senses": [
         {
           "en": "Cook / chef",
-          "ru": "Повар"
+          "ru": "Повар",
+          "zh": "厨师"
         }
       ],
       "alternatives": [
@@ -701,7 +721,8 @@
       "answerDisplay": "ο / η δικηγόρος",
       "prompt": {
         "en": "Lawyer",
-        "ru": "Адвокат / юрист"
+        "ru": "Адвокат / юрист",
+        "zh": "律师"
       },
       "pronunciation": {
         "en": "dhi-ki-GHO-ros",
@@ -733,7 +754,8 @@
       "answerDisplay": "ο / η ηλεκτρολόγος",
       "prompt": {
         "en": "Electrician",
-        "ru": "Электрик"
+        "ru": "Электрик",
+        "zh": "电工"
       },
       "pronunciation": {
         "en": "i-lek-tro-LO-ghos",
@@ -765,7 +787,8 @@
       "answerDisplay": "ο / η οδηγός",
       "prompt": {
         "en": "Driver",
-        "ru": "Водитель"
+        "ru": "Водитель",
+        "zh": "司机"
       },
       "pronunciation": {
         "en": "o-dhi-GHOS",
@@ -798,7 +821,8 @@
       "answerDisplay": "ο / η μηχανικός",
       "prompt": {
         "en": "Engineer / mechanic",
-        "ru": "Инженер / механик"
+        "ru": "Инженер / механик",
+        "zh": "工程师／机械师"
       },
       "pronunciation": {
         "en": "mi-ha-ni-KOS",
@@ -830,7 +854,8 @@
       "answerDisplay": "ο / η γιατρός",
       "prompt": {
         "en": "Doctor / physician",
-        "ru": "Врач"
+        "ru": "Врач",
+        "zh": "医生"
       },
       "pronunciation": {
         "en": "ya-TROS",
@@ -862,7 +887,8 @@
       "answerDisplay": "ο / η υπάλληλος",
       "prompt": {
         "en": "Employee / clerk",
-        "ru": "Сотрудник / служащий"
+        "ru": "Сотрудник / служащий",
+        "zh": "员工／职员"
       },
       "pronunciation": {
         "en": "i-PA-li-los",
@@ -894,7 +920,8 @@
       "answerDisplay": "ο / η ηθοποιός",
       "prompt": {
         "en": "Actor / actress",
-        "ru": "Актёр / актриса"
+        "ru": "Актёр / актриса",
+        "zh": "演员"
       },
       "pronunciation": {
         "en": "i-tho-pi-OS",
@@ -926,7 +953,8 @@
       "answerDisplay": "ο / η ταμίας",
       "prompt": {
         "en": "Cashier / treasurer",
-        "ru": "Кассир / казначей"
+        "ru": "Кассир / казначей",
+        "zh": "收银员／出纳"
       },
       "pronunciation": {
         "en": "ta-MI-as",
@@ -958,7 +986,8 @@
       "answerDisplay": "ο / η αρχιτέκτονας",
       "prompt": {
         "en": "Architect",
-        "ru": "Архитектор"
+        "ru": "Архитектор",
+        "zh": "建筑师"
       },
       "pronunciation": {
         "en": "ar-hi-TE-kto-nas",
@@ -990,7 +1019,8 @@
       "answerDisplay": "ο / η γραμματέας",
       "prompt": {
         "en": "Secretary",
-        "ru": "Секретарь"
+        "ru": "Секретарь",
+        "zh": "秘书"
       },
       "pronunciation": {
         "en": "ghra-ma-TE-as",
@@ -1022,7 +1052,8 @@
       "answerDisplay": "ο υποψήφιος διδάκτορας / η υποψήφια διδάκτορας",
       "prompt": {
         "en": "Doctoral student / PhD candidate",
-        "ru": "Аспирант / аспирантка (PhD)"
+        "ru": "Аспирант / аспирантка (PhD)",
+        "zh": "博士研究生"
       },
       "pronunciation": {
         "en": "i-po-PSI-fi-os dhi-DHA-kto-ras / i-po-PSI-fi-a dhi-DHA-kto-ras",
@@ -1054,7 +1085,8 @@
       "senses": [
         {
           "en": "Doctoral student / PhD candidate",
-          "ru": "Аспирант / аспирантка (PhD)"
+          "ru": "Аспирант / аспирантка (PhD)",
+          "zh": "博士研究生"
         }
       ],
       "forms": [
@@ -1096,7 +1128,8 @@
       "answerDisplay": "ο / η ηλεκτρολόγος μηχανικός",
       "prompt": {
         "en": "Electrical engineer",
-        "ru": "Инженер-электрик"
+        "ru": "Инженер-электрик",
+        "zh": "电气工程师"
       },
       "pronunciation": {
         "en": "i-lek-tro-LO-ghos mi-ha-ni-KOS",
@@ -1128,7 +1161,8 @@
       "answerDisplay": "ο / η μηχανικός υπολογιστών",
       "prompt": {
         "en": "Computer engineer",
-        "ru": "Инженер по вычислительной технике"
+        "ru": "Инженер по вычислительной технике",
+        "zh": "计算机工程师"
       },
       "pronunciation": {
         "en": "mi-ha-ni-KOS i-po-lo-yi-STON",
@@ -1160,7 +1194,8 @@
       "answerDisplay": "ο / η ηλεκτρολόγος μηχανικός και μηχανικός υπολογιστών",
       "prompt": {
         "en": "Electrical and computer engineer",
-        "ru": "Инженер в области электротехники и вычислительной техники"
+        "ru": "Инженер в области электротехники и вычислительной техники",
+        "zh": "电气与计算机工程师"
       },
       "pronunciation": {
         "en": "i-lek-tro-LO-ghos mi-ha-ni-KOS ke mi-ha-ni-KOS i-po-lo-yi-STON",
@@ -1192,7 +1227,8 @@
       "answerDisplay": "ο φυσικοθεραπευτής / η φυσικοθεραπεύτρια",
       "prompt": {
         "en": "Physiotherapist / physical therapist",
-        "ru": "Физиотерапевт"
+        "ru": "Физиотерапевт",
+        "zh": "物理治疗师"
       },
       "pronunciation": {
         "en": "fi-si-ko-the-ra-pef-TIS / fi-si-ko-the-ra-PEF-tria",
@@ -1217,7 +1253,8 @@
       "senses": [
         {
           "en": "Physiotherapist / physical therapist",
-          "ru": "Физиотерапевт"
+          "ru": "Физиотерапевт",
+          "zh": "物理治疗师"
         }
       ],
       "alternatives": [
@@ -1261,7 +1298,8 @@
       "answerDisplay": "ο / η πιλότος",
       "prompt": {
         "en": "Pilot",
-        "ru": "Пилот / лётчик"
+        "ru": "Пилот / лётчик",
+        "zh": "飞行员"
       },
       "pronunciation": {
         "en": "pi-LO-tos",
@@ -1294,7 +1332,8 @@
       "answerDisplay": "ο / η δημοσιογράφος",
       "prompt": {
         "en": "Journalist / reporter",
-        "ru": "Журналист / журналистка"
+        "ru": "Журналист / журналистка",
+        "zh": "记者"
       },
       "pronunciation": {
         "en": "dhi-mo-si-o-GHRA-fos",
@@ -1326,7 +1365,8 @@
       "answerDisplay": "ο άνεργος / η άνεργη",
       "prompt": {
         "en": "Unemployed",
-        "ru": "Безработный / безработная"
+        "ru": "Безработный / безработная",
+        "zh": "失业的"
       },
       "pronunciation": {
         "en": "A-ner-ghos / A-ner-yi",
@@ -1351,7 +1391,8 @@
       "senses": [
         {
           "en": "Unemployed",
-          "ru": "Безработный / безработная"
+          "ru": "Безработный / безработная",
+          "zh": "失业的"
         }
       ],
       "alternatives": [

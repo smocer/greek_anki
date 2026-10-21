@@ -13,6 +13,7 @@ class StudySession extends ChangeNotifier {
     required List<VocabularyCard> cards,
     required this.mode,
     Random? random,
+    bool shuffle = true,
     this._answerMatcher = const GreekAnswer(),
   }) : _random = random ?? Random(),
        total = cards.length {
@@ -22,7 +23,9 @@ class StudySession extends ChangeNotifier {
     if (cards.map(_cardKey).toSet().length != cards.length) {
       throw ArgumentError('Card IDs must be unique within a session.');
     }
-    _pending.addAll(List.of(cards)..shuffle(_random));
+    final pending = List.of(cards);
+    if (shuffle) pending.shuffle(_random);
+    _pending.addAll(pending);
     _fillWindow();
   }
 
@@ -36,6 +39,8 @@ class StudySession extends ChangeNotifier {
   final Map<String, VocabularyCard> _learned = {};
   final GreekAnswer _answerMatcher;
   final Set<String> _seen = {};
+  final List<VocabularyCard> _history = [];
+  int? _historyIndex;
   String _cardKey(VocabularyCard card) =>
       card.reviewIdentity?.key(mode) ?? card.id;
   int _firstTryCorrect = 0;
@@ -43,19 +48,37 @@ class StudySession extends ChangeNotifier {
   CardPhase _phase = CardPhase.question;
   bool? _typedCorrect;
 
-  VocabularyCard get current => _window.first;
+  VocabularyCard get current =>
+      _historyIndex == null ? _window.first : _history[_historyIndex!];
   String get currentKey => _cardKey(current);
-  bool get isReview => !isComplete && _learned.containsKey(currentKey);
-  bool get isComplete => completed == total;
+  bool get isReview =>
+      !isComplete && !isReviewing && _learned.containsKey(currentKey);
+  bool get isComplete => completed == total && !isReviewing;
+  bool get isReviewing => _historyIndex != null;
+  bool get canGoPrevious =>
+      mode == StudyMode.flashcards && (_historyIndex ?? _history.length) > 0;
   int get completed => _learned.length;
   int get firstTryCorrect => _firstTryCorrect;
   int get repetitions => _repetitions;
   double get progress => completed / total;
-  CardPhase get phase => _phase;
+  CardPhase get phase => isReviewing ? CardPhase.answer : _phase;
   bool? get typedCorrect => _typedCorrect;
 
+  void previous() {
+    if (!canGoPrevious) return;
+    _historyIndex = (_historyIndex ?? _history.length) - 1;
+    notifyListeners();
+  }
+
+  void next() {
+    if (!isReviewing) return;
+    final nextIndex = _historyIndex! + 1;
+    _historyIndex = nextIndex < _history.length ? nextIndex : null;
+    notifyListeners();
+  }
+
   void reveal() {
-    if (isComplete || mode != StudyMode.flashcards) return;
+    if (isComplete || isReviewing || mode != StudyMode.flashcards) return;
     _phase = CardPhase.answer;
     notifyListeners();
   }
@@ -84,8 +107,9 @@ class StudySession extends ChangeNotifier {
   }
 
   void advance({required bool correct}) {
-    if (isComplete || _phase != CardPhase.answer) return;
+    if (isComplete || isReviewing || _phase != CardPhase.answer) return;
     final card = _window.removeAt(0);
+    if (mode == StudyMode.flashcards) _history.add(card);
     final key = _cardKey(card);
     if (_seen.add(key) && correct) _firstTryCorrect++;
     if (correct) {
