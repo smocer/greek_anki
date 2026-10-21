@@ -1,6 +1,5 @@
 import 'package:flutter_test/flutter_test.dart';
 import 'package:greek_anki/data/dictionary.dart';
-import 'package:greek_anki/domain/curriculum.dart';
 import 'package:greek_anki/domain/greek_answer.dart';
 import 'package:greek_anki/domain/learning_progress.dart';
 import 'package:greek_anki/domain/review_schedule.dart';
@@ -14,51 +13,6 @@ void main() {
   VocabularyCard card(String deckId, String id) =>
       deck(deckId).cards.singleWhere((card) => card.id == id);
   const matcher = GreekAnswer();
-
-  test(
-    'proper nouns include languages and nationalities with prior review history',
-    () async {
-      final names = deck('words-names');
-      final moved = names.cards.where(
-        (c) =>
-            c.id.startsWith('languages-nationality-') ||
-            c.prompt.en.contains('(language)'),
-      );
-      expect(names.title.zh, '专有名词');
-      expect(moved, hasLength(33));
-      expect(names.cards.any((c) => c.greek == 'Γερμανία'), isTrue);
-      expect(moved.any((c) => c.greek == 'γερμανικά'), isTrue);
-      expect(moved.any((c) => c.greek == 'Γερμανός'), isTrue);
-      final proper = currentDictionary.collections.singleWhere(
-        (c) => c.deck.id == 'words-names',
-      );
-      for (final entry in names.cards) {
-        expect(proper.themes[entry.id], {LearningTheme.properNouns});
-      }
-      expect(
-        proper
-            .filter(theme: LearningTheme.places, now: DateTime(2026, 10, 17))
-            .cards,
-        isEmpty,
-      );
-      final store = MemoryProgressStore();
-      final record = ReviewSchedule(level: 3, dueAt: DateTime.utc(2099));
-      for (final entry in moved) {
-        expect(entry.reviewIdentity!.deckId, 'words-nouns');
-        expect(deck('words-nouns').cards.any((c) => c.id == entry.id), isFalse);
-        for (final mode in StudyMode.values) {
-          store.records[entry.reviewIdentity!.key(mode)] = record;
-        }
-      }
-      final progress = LearningProgress(store);
-      addTearDown(progress.dispose);
-      await progress.load(currentDictionary.learningDecks);
-      for (final mode in StudyMode.values) {
-        expect(progress.learned(names, mode), 33);
-        expect(progress.dueCards(names, mode).any(moved.contains), isFalse);
-      }
-    },
-  );
 
   test('B1 and B2 drill every person without accepting another person', () {
     for (final (deckId, verb, forms) in [

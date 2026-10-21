@@ -9,7 +9,7 @@ Learn modern Greek with English and Russian explanations. Works in a browser on 
 
 ## Choose what to learn
 
-- **Words:** nouns, verbs, pronouns, adjectives/adverbs, connecting words/prepositions and numbers. The Proper nouns theme under Nouns includes names, places, languages and nationalities. Practise individual meanings and spellings. Nouns use their base form; their article is optional in your answer and visible when you reveal it. Verbs use the first-person present.
+- **Words:** nouns, verbs, pronouns, adjectives/adverbs, connecting words/prepositions and numbers. Names & places is a separate group for personal names, places, languages and nationalities. Practise individual meanings and spellings. Nouns use their base form; their article is optional in your answer and visible when you reveal it. Verbs use the first-person present.
 - **Phrases:** social conversations, classroom language and everyday situations, including phone conversations.
 - **Grammar:** articles/gender, noun forms/cases, verb forms, location/origin, possession and questions/negation. Practise using familiar vocabulary in different grammatical roles.
 - **Reference:** the alphabet, handwriting, sounds and grammar tables.

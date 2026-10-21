@@ -15,32 +15,18 @@ enum LearningSection {
 }
 
 enum LearningTheme {
-  properNouns(
-    LocalizedText(en: 'Proper nouns', zh: '专有名词', ru: 'Имена собственные'),
-  ),
-  people(
-    LocalizedText(en: 'Jobs & work', zh: '职业&工作', ru: 'Профессии и работа'),
-  ),
-  classroom(LocalizedText(en: 'Classroom', zh: '课堂', ru: 'Учёба')),
+  people(LocalizedText(en: 'People', ru: 'Люди', zh: '人物')),
+  family(LocalizedText(en: 'Family', ru: 'Семья', zh: '家庭')),
+  classroom(LocalizedText(en: 'Classroom', ru: 'Учёба', zh: '课堂')),
   home(
-    LocalizedText(en: 'Home & everyday life', zh: '家庭&日常生活', ru: 'Дом и быт'),
+    LocalizedText(en: 'Home & everyday life', ru: 'Дом и быт', zh: '家庭与日常生活'),
   ),
-  food(LocalizedText(en: 'Food & drink', zh: '饮食', ru: 'Еда и напитки')),
-  places(
-    LocalizedText(
-      en: 'Places & transport',
-      zh: '地点&交通',
-      ru: 'Места и транспорт',
-    ),
-  ),
-  time(
-    LocalizedText(
-      en: 'Numbers, time & dates',
-      zh: '数字、时间&日期',
-      ru: 'Числа, время и даты',
-    ),
-  ),
-  conversation(LocalizedText(en: 'Conversation', zh: '日常对话', ru: 'Общение'));
+  food(LocalizedText(en: 'Food & drink', ru: 'Еда и напитки', zh: '饮食')),
+  places(LocalizedText(en: 'Places', ru: 'Места', zh: '地点')),
+  travel(LocalizedText(en: 'Transport', ru: 'Транспорт', zh: '交通')),
+  phone(LocalizedText(en: 'Phone', ru: 'Телефон', zh: '电话')),
+  time(LocalizedText(en: 'Time & numbers', ru: 'Время и числа', zh: '时间与数字')),
+  conversation(LocalizedText(en: 'Conversation', ru: 'Общение', zh: '日常对话'));
 
   const LearningTheme(this.title);
   final LocalizedText title;

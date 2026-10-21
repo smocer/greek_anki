@@ -10,7 +10,7 @@ permissions:
   contents: read
 
 concurrency:
-  group: pages-${{ github.event_name == 'pull_request' && github.ref || 'published-site' }}
+  group: pages-${{ github.ref }}
   cancel-in-progress: false
 
 jobs:
@@ -31,13 +31,13 @@ jobs:
       - name: Build website
         run: python3 tool/build_web.py --base-href /greek_anki/
       - name: Upload website
-        if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+        if: github.event_name != 'pull_request'
         uses: actions/upload-pages-artifact@v4
         with:
           path: build/site
 
   deploy:
-    if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+    if: github.event_name != 'pull_request'
     needs: build
     runs-on: ubuntu-latest
     permissions:

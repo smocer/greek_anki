@@ -15,55 +15,6 @@ void main() {
       learningDecks.singleWhere((d) => d.id == id);
   const matcher = GreekAnswer();
 
-  test(
-    'multiple excluded themes remove any matching card and compose with search',
-    () {
-      final collection = learningCollections.singleWhere(
-        (c) => c.deck.id == 'words-nouns',
-      );
-      final now = DateTime(2026, 10, 17);
-      const excluded = {LearningTheme.home, LearningTheme.classroom};
-      final result = collection.filter(excludedThemes: excluded, now: now);
-      final removed = collection.deck.cards.where(
-        (card) => collection.themes[card.id]?.any(excluded.contains) ?? false,
-      );
-      expect(removed, isNotEmpty);
-      expect(result.cards, isNotEmpty);
-      expect(
-        result.cards.length + removed.length,
-        collection.deck.cards.length,
-      );
-      expect(
-        result.cards
-            .map((c) => c.id)
-            .toSet()
-            .intersection(removed.map((c) => c.id).toSet()),
-        isEmpty,
-      );
-      expect(
-        collection
-            .filter(
-              theme: LearningTheme.home,
-              excludedThemes: excluded,
-              now: now,
-            )
-            .cards,
-        isEmpty,
-      );
-      final sample = result.cards.first;
-      expect(
-        collection
-            .filter(excludedThemes: excluded, query: sample.greek, now: now)
-            .cards,
-        contains(sample),
-      );
-      expect(
-        collection.filter(now: now).cards.length,
-        collection.deck.cards.length,
-      );
-    },
-  );
-
   test('three sections have a small, complete set of collections', () {
     expect(
       LearningSection.values.map(
@@ -294,7 +245,7 @@ void main() {
     expect(recent.cards.length, 37);
     final phone = nouns.filter(
       period: VocabularyPeriod.thisWeek,
-      theme: LearningTheme.conversation,
+      theme: LearningTheme.phone,
       now: now,
     );
     expect(
@@ -310,7 +261,7 @@ void main() {
     expect(
       learningCollections
           .singleWhere((c) => c.deck.id == 'words-names')
-          .filter(theme: LearningTheme.properNouns, query: 'Ρωσία', now: now)
+          .filter(theme: LearningTheme.places, query: 'Russia', now: now)
           .cards
           .single
           .greek,

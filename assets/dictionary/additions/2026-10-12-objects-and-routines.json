@@ -19,6 +19,7 @@
         "noun"
       ],
       "themes": [
+        "travel",
         "places"
       ],
       "explanation": {
@@ -97,7 +98,7 @@
         "noun"
       ],
       "themes": [
-        "places"
+        "travel"
       ],
       "explanation": {
         "en": "A traffic light in the street; the same word can also mean a lantern.",
@@ -123,7 +124,7 @@
         "noun"
       ],
       "themes": [
-        "places"
+        "travel"
       ],
       "answerDisplay": "το αυτοκίνητο"
     },
@@ -384,7 +385,8 @@
         "noun"
       ],
       "themes": [
-        "places"
+        "places",
+        "travel"
       ],
       "explanation": {
         "en": "An indeclinable feminine noun: η ρεσεψιόν, στην ρεσεψιόν.",
@@ -436,7 +438,8 @@
         "noun"
       ],
       "themes": [
-        "properNouns"
+        "places",
+        "travel"
       ],
       "answerDisplay": "το Ηράκλειο"
     },
@@ -457,7 +460,8 @@
         "noun"
       ],
       "themes": [
-        "properNouns"
+        "places",
+        "travel"
       ],
       "answerDisplay": "το Μοναστηράκι"
     },
@@ -478,7 +482,8 @@
         "noun"
       ],
       "themes": [
-        "properNouns"
+        "places",
+        "travel"
       ],
       "answerDisplay": "το Πανόραμα"
     },
@@ -499,7 +504,8 @@
         "noun"
       ],
       "themes": [
-        "properNouns"
+        "places",
+        "travel"
       ],
       "answerDisplay": "η Κρήτη"
     },
@@ -1084,7 +1090,7 @@
         "pronoun"
       ],
       "themes": [
-        "conversation"
+        "phone"
       ],
       "explanation": {
         "en": "In Πάρε μας τηλέφωνο, μας is the object us. After a noun it means our: το σπίτι μας.",
@@ -1206,7 +1212,7 @@
       },
       "labels": [],
       "themes": [
-        "conversation"
+        "phone"
       ],
       "explanation": {
         "en": "A set expression with παίρνω, I take. Here τηλέφωνο has no article.",
@@ -1229,7 +1235,7 @@
       },
       "labels": [],
       "themes": [
-        "conversation"
+        "phone"
       ],
       "explanation": {
         "en": "Πάρε is the singular command form of παίρνω; μας means us here.",
@@ -1280,7 +1286,7 @@
       },
       "labels": [],
       "themes": [
-        "home",
+        "family",
         "time"
       ],
       "explanation": {

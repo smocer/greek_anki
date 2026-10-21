@@ -40,29 +40,9 @@ class _HomeScreenState extends State<HomeScreen> with WidgetsBindingObserver {
   bool _allCards = false;
   String _customCount = '15';
   CardOrder _cardOrder = CardOrder.random;
-  LearningCollection get _activeCollection {
-    if (_collection.deck.id != 'words-nouns') return _collection;
-    final names = widget.collections
-        .where((c) => c.deck.id == 'words-names')
-        .firstOrNull;
-    if (names == null) return _collection;
-    final nouns = _collection.deck;
-    return LearningCollection(
-      section: _collection.section,
-      deck: VocabularyDeck(
-        id: nouns.id,
-        title: nouns.title,
-        subtitle: nouns.subtitle,
-        cover: nouns.cover,
-        note: nouns.note,
-        cards: [...nouns.cards, ...names.deck.cards],
-      ),
-      themes: {..._collection.themes, ...names.themes},
-    );
-  }
 
   int? get _sessionLimit => _allCards ? null : int.tryParse(_count.text);
-  VocabularyDeck get _deck => _selection?.deck ?? _activeCollection.deck;
+  VocabularyDeck get _deck => _selection?.deck ?? _collection.deck;
 
   void _syncCount() {
     if (_allCards) _count.text = '${_deck.cards.length}';
@@ -123,7 +103,7 @@ class _HomeScreenState extends State<HomeScreen> with WidgetsBindingObserver {
       showDragHandle: true,
       useSafeArea: true,
       builder: (_) =>
-          TopicPicker(collection: _activeCollection, selection: _selection),
+          TopicPicker(collection: _collection, selection: _selection),
     );
     if (mounted && selected != null) {
       setState(() {
@@ -240,8 +220,7 @@ class _HomeScreenState extends State<HomeScreen> with WidgetsBindingObserver {
                   ),
                   items: [
                     for (final c in widget.collections.where(
-                      (c) =>
-                          c.section == _section && c.deck.id != 'words-names',
+                      (c) => c.section == _section,
                     ))
                       DropdownMenuItem(
                         value: c.deck.id,

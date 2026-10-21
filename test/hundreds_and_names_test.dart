@@ -89,7 +89,7 @@ void main() {
       expect(
         namesCollection
             .filter(
-              theme: LearningTheme.properNouns,
+              theme: LearningTheme.classroom,
               query: 'греческий язык',
               now: DateTime(2026, 10, 18),
             )
@@ -101,7 +101,7 @@ void main() {
       expect(
         namesCollection
             .filter(
-              theme: LearningTheme.properNouns,
+              theme: LearningTheme.people,
               query: 'Πολωνέζα',
               now: DateTime(2026, 10, 18),
             )

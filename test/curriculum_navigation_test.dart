@@ -256,17 +256,22 @@ void main() {
       'names can be selected and studied separately (${language.name})',
       (tester) async {
         await openApp(tester, language: language);
-        expect(find.byKey(const ValueKey('noun-subcategory')), findsNothing);
-        await tester.tap(find.byKey(const ValueKey('choose-category')));
-        await tester.pumpAndSettle();
-        await tester.tap(find.byKey(const ValueKey('collection-theme')));
+        await tester.tap(find.byKey(const ValueKey('collection-words')));
         await tester.pumpAndSettle();
         await tapText(
           tester,
           LocalizedText(
-            en: 'Proper nouns',
-            ru: 'Имена собственные',
-            zh: '专有名词',
+            en: 'Names & places',
+            ru: 'Имена и названия',
+            zh: '人名与地名',
+          ).resolve(language),
+        );
+        await tapText(
+          tester,
+          LocalizedText(
+            en: 'Filters',
+            ru: 'Фильтры',
+            zh: '筛选',
           ).resolve(language),
         );
         await tester.enterText(
@@ -326,11 +331,7 @@ void main() {
         await tester.pumpAndSettle();
         await tapText(
           tester,
-          LocalizedText(
-            en: 'Home & everyday life',
-            ru: 'Дом и быт',
-            zh: '家庭&日常生活',
-          ).resolve(language),
+          LocalizedText(en: 'Family', ru: 'Семья', zh: '家庭').resolve(language),
         );
         await tester.enterText(
           find.byKey(const ValueKey('topic-search')),

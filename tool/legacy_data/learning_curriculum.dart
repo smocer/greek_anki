@@ -411,7 +411,7 @@ Set<LearningTheme> _themes(VocabularyCard card) {
         'classroom-objects.child',
         'classroom-objects.children',
       }.contains(key)) {
-    return {LearningTheme.home, LearningTheme.people};
+    return {LearningTheme.family, LearningTheme.people};
   }
   if (key == '$familyLessonId.family-coffeehouse') {
     return {LearningTheme.food, LearningTheme.places};
@@ -439,7 +439,7 @@ Set<LearningTheme> _themes(VocabularyCard card) {
   }
   if (RegExp(r'τηλέφων|κινητό|σταθερό|νούμερο').hasMatch(greek) ||
       source == 'phone-conversations') {
-    return {LearningTheme.conversation};
+    return {LearningTheme.phone};
   }
   if (source.startsWith('numbers-') ||
       const {
@@ -453,7 +453,7 @@ Set<LearningTheme> _themes(VocabularyCard card) {
     return {LearningTheme.time};
   }
   if (source == 'transport-streets' || key.endsWith('.taxi')) {
-    return {LearningTheme.places};
+    return {LearningTheme.travel, LearningTheme.places};
   }
   if ([
         'countries',

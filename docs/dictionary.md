@@ -68,14 +68,10 @@ Multiple collections can reference one definition to avoid maintaining duplicate
 For grammar exercises, use a `grammar-*` collection ID from the base dictionary.
 Unknown collection IDs produce an error.
 
-Use `words-nouns` for common nouns and `words-names` (Proper nouns) for personal
-names, geographical names (countries, cities and continents), language names and
-nationalities. The UI combines both collections under Nouns; use the
-`properNouns` theme for all `words-names` entries, rather than place, job or
-classroom themes. Proper nouns are selected through the theme filter, with no
-separate subdirectory. When moving an existing word, preserve its `reviewIdentity` to
-retain its learning history. The common noun γλώσσα (“language”) stays in
-`words-nouns`. Keep names used in
+Use `words-nouns` for common nouns and `words-names` for personal names,
+geographical names (countries, cities and continents), language names and
+nationalities. The common noun γλώσσα (“language”) stays in `words-nouns`.
+Keep names used in
 phrases or grammar exercises in those exercises' existing collections.
 
 Filenames are unrestricted. Each entry needs a unique `id`; do not reuse an ID
@@ -113,10 +109,7 @@ Required entry fields in addition files are `id`, `collection`, `prompt`,
 or individually on each entry. `meaning` defaults to “Translate into Greek.”
 `reviewIdentity` defaults to the entry's `collection` and `id`, so renaming a
 file does not affect review history. All localized text includes both `en` and
-`ru`, and supports an optional `zh` translation for Chinese. Include `zh` in
-new prompts, meanings, and explanations. Older content without `zh` falls back
-to English. Pronunciation can reuse the Latin reading guide for Chinese.
-Write Greek as normal Unicode text, retaining stress marks.
+`ru`. Write Greek as normal Unicode text, retaining stress marks.
 
 Optional fields include `explanation`, `answerDisplay`, `alternatives`,
 `acceptedAnswers`, `labels`, `addedWeek`, and `words`. `alternatives` contains
@@ -138,11 +131,8 @@ used by the weekly filters.
 Supported `labels`: `noun`, `verb`, `adjective`, `adverb`, `pronoun`, `article`,
 `preposition`, `conjunction`, `numeral`, and `interjection`.
 
-Supported themes: `properNouns`, `people`, `classroom`, `home`, `food`, `places`,
-`time`, and `conversation`. Use `places` for places and transport, and
-`conversation` for everyday conversation and phone vocabulary. Use `home` for
-family and everyday life, `people` for jobs and work, `food` for food and drink,
-and `time` for numbers, time and dates.
+Supported themes: `people`, `family`, `classroom`, `home`, `food`, `places`,
+`travel`, `phone`, `time`, and `conversation`.
 
 **Keep existing `reviewIdentity.deckId` and `reviewIdentity.cardId` values unchanged.**
 These fields form the key for saved review records. If an existing entry moves
@@ -160,44 +150,3 @@ The old Dart dictionary lives in `tool/legacy_data/` and is used only by histori
 regression tests and migration tools. The app does not read it. Do not edit those
 files to update learning content. `tool/migrate_dictionary.dart` is a one-time
 export tool and refuses to overwrite an existing dictionary.
-
-## Dictionary word audio
-
-Word recordings live in `assets/audio/greek/<collection>/<card-id>.mp3`, for
-example `assets/audio/greek/words-names/countries.germany.mp3`. Distinct forms
-and alternative spellings use `-variant-1`, `-variant-2`, etc. The original
-alphabet and letter-pair files stay directly in `assets/audio/greek/`.
-
-`tool/greek_dictionary_audio.json` maps each audio path (without `.mp3`) to the
-Greek text being spoken. It covers all word collections from the merged base
-dictionary and addition files, after word consolidation. Phrases and grammar
-exercises are outside this word-audio manifest. Masculine/feminine forms are
-recorded separately, rather than reading a slash-separated display answer.
-
-To add or refresh recordings:
-
-```sh
-flutter test tool/export_dictionary_audio.dart
-python -m pip install --target .dart_tool/audio_generator edge-tts==7.3.1
-python tool/generate_greek_audio.py --dictionary-only
-python tool/verify_greek_audio.py
-flutter test test/dictionary_audio_test.dart
-```
-
-Generation uses Microsoft `el-GR-AthinaNeural` at `-15%` speed, matching the
-existing letter-pair examples. It sends only public Greek lesson text to the
-speech service and preserves existing recordings. `--limit 2` generates a small
-trial batch; rerunning without a limit resumes the remaining files. Updating a
-word's spoken text requires regenerating its corresponding MP3. Install
-`imageio-ffmpeg` into the same local dependency directory for the decoding check.
-
-The word directories are declared individually in `pubspec.yaml` so Flutter
-bundles their contents. The dictionary audio test checks manifest freshness,
-MP3 headers, nonempty files, and asset packaging; the Python verifier decodes
-each recording and rejects empty or silent output.
-
-Revealed word flashcards and checked typing answers show **Play audio** buttons.
-Cards with multiple spellings/forms provide a separate button for each clip.
-`lib/data/dictionary_audio.dart` shares path generation with the exporter, so
-audio continues to resolve when cards move between visible groups or retain
-an older review identity. Leaving a revealed card stops its playback.

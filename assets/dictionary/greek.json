@@ -60076,14 +60076,14 @@
           "zh": "名词"
         },
         "subtitle": {
-          "en": "One word at a time",
-          "ru": "По одному слову",
+          "en": "One word at a time · articles optional",
+          "ru": "По одному слову · артикли необязательны",
           "zh": "逐词练习"
         },
         "cover": "βιβλίο",
         "note": {
-          "en": "Learn the meaning and spelling.",
-          "ru": "Учите значение и написание.",
+          "en": "Learn the meaning and spelling. Noun answers may omit the article; the answer shows it to help you remember gender.",
+          "ru": "Учите значение и написание. У существительных артикль можно не вводить; в ответе он показан для запоминания рода.",
           "zh": "学习意思和拼写。"
         },
         "cards": [
@@ -60224,7 +60224,7 @@
           "classroom"
         ],
         "classroom-objects.child": [
-          "home",
+          "family",
           "people"
         ],
         "classroom-objects.example": [
@@ -60294,7 +60294,7 @@
           "home"
         ],
         "everyday-nouns.boy": [
-          "home",
+          "family",
           "people"
         ],
         "everyday-nouns.cake": [
@@ -60316,7 +60316,7 @@
           "home"
         ],
         "everyday-nouns.girl": [
-          "home",
+          "family",
           "people"
         ],
         "everyday-nouns.ice-cream": [
@@ -60347,6 +60347,7 @@
           "home"
         ],
         "everyday-nouns.taxi": [
+          "travel",
           "places"
         ],
         "everyday-nouns.watermelon": [
@@ -60389,7 +60390,7 @@
           "home"
         ],
         "phone-conversations.phone-noun": [
-          "conversation"
+          "phone"
         ],
         "shops-services.bakery": [
           "places"
@@ -60413,24 +60414,31 @@
           "places"
         ],
         "transport-streets.bus": [
+          "travel",
           "places"
         ],
         "transport-streets.metro": [
+          "travel",
           "places"
         ],
         "transport-streets.port": [
+          "travel",
           "places"
         ],
         "transport-streets.square": [
+          "travel",
           "places"
         ],
         "transport-streets.stop": [
+          "travel",
           "places"
         ],
         "transport-streets.street": [
+          "travel",
           "places"
         ],
         "transport-streets.train": [
+          "travel",
           "places"
         ],
         "october-lesson.job": [
@@ -60440,7 +60448,7 @@
           "home"
         ],
         "october-lesson.mother": [
-          "home",
+          "family",
           "people"
         ],
         "october-lesson.song": [
@@ -60453,92 +60461,92 @@
           "food"
         ],
         "october-lesson.mobile": [
-          "conversation"
+          "phone"
         ],
         "october-lesson.landline": [
-          "conversation"
+          "phone"
         ],
         "october-lesson.number": [
-          "conversation"
+          "phone"
         ],
         "family-lesson.family-family": [
-          "home",
+          "family",
           "people"
         ],
         "family-lesson.family-father": [
-          "home",
+          "family",
           "people"
         ],
         "family-lesson.family-dad": [
-          "home",
+          "family",
           "people"
         ],
         "family-lesson.family-mum": [
-          "home",
+          "family",
           "people"
         ],
         "family-lesson.family-parents": [
-          "home",
+          "family",
           "people"
         ],
         "family-lesson.family-brother": [
-          "home",
+          "family",
           "people"
         ],
         "family-lesson.family-sister": [
-          "home",
+          "family",
           "people"
         ],
         "family-lesson.family-siblings": [
-          "home",
+          "family",
           "people"
         ],
         "family-lesson.family-son": [
-          "home",
+          "family",
           "people"
         ],
         "family-lesson.family-daughter": [
-          "home",
+          "family",
           "people"
         ],
         "family-lesson.family-grandfather": [
-          "home",
+          "family",
           "people"
         ],
         "family-lesson.family-grandmother": [
-          "home",
+          "family",
           "people"
         ],
         "family-lesson.family-grandson": [
-          "home",
+          "family",
           "people"
         ],
         "family-lesson.family-granddaughter": [
-          "home",
+          "family",
           "people"
         ],
         "family-lesson.family-uncle": [
-          "home",
+          "family",
           "people"
         ],
         "family-lesson.family-aunt": [
-          "home",
+          "family",
           "people"
         ],
         "family-lesson.family-nephew": [
-          "home",
+          "family",
           "people"
         ],
         "family-lesson.family-niece": [
-          "home",
+          "family",
           "people"
         ],
         "family-lesson.family-father-in-law": [
-          "home",
+          "family",
           "people"
         ],
         "family-lesson.family-mother-in-law": [
-          "home",
+          "family",
           "people"
         ],
         "family-lesson.family-photo": [
@@ -60552,24 +60560,24 @@
           "home"
         ],
         "family-lesson.family-husband": [
-          "home",
+          "family",
           "people"
         ],
         "family-lesson.family-wife": [
-          "home",
+          "family",
           "people"
         ],
         "family-lesson.family-groom": [
-          "home",
+          "family",
           "people"
         ],
         "family-lesson.family-bride": [
-          "home",
+          "family",
           "people"
         ],
         "articles-cases.female-friend-nom": [
           "people",
-          "home"
+          "family"
         ],
         "everyday-nouns.school-student-female": [
           "classroom"
@@ -60591,7 +60599,7 @@
           "home"
         ],
         "family-lesson.family-male-cousin": [
-          "home",
+          "family",
           "people"
         ]
       }
@@ -60601,19 +60609,19 @@
       "deck": {
         "id": "words-names",
         "title": {
-          "en": "Proper nouns",
-          "ru": "Имена собственные",
-          "zh": "专有名词"
+          "en": "Names & places",
+          "ru": "Имена и названия",
+          "zh": "人名与地名"
         },
         "subtitle": {
-          "en": "Names, places, languages and nationalities",
-          "ru": "Имена, места, языки и национальности",
+          "en": "People, places, languages and nationalities",
+          "ru": "Имена, страны, языки и национальности",
           "zh": "人名、地名、语言与国籍"
         },
         "cover": "Ελλάδα",
         "note": {
-          "en": "Practise names, places, languages and nationalities.",
-          "ru": "Имена, места, языки и национальности.",
+          "en": "Practise personal and place names, languages and nationalities. Articles are optional; the revealed answer shows them. Nationality cards accept either gender.",
+          "ru": "Имена людей, географические названия, языки и национальности. Артикль можно не вводить; он появится после ответа. Для национальностей принимаются формы обоих родов.",
           "zh": "练习人名、地名、语言和国籍。"
         },
         "cards": [
@@ -60657,112 +60665,112 @@
       },
       "themes": {
         "countries.afghanistan": [
-          "properNouns"
+          "places"
         ],
         "countries.argentina": [
-          "properNouns"
+          "places"
         ],
         "countries.bulgaria": [
-          "properNouns"
+          "places"
         ],
         "countries.burundi": [
-          "properNouns"
+          "places"
         ],
         "countries.canada": [
-          "properNouns"
+          "places"
         ],
         "countries.china": [
-          "properNouns"
+          "places"
         ],
         "countries.cyprus": [
-          "properNouns"
+          "places"
         ],
         "countries.denmark": [
-          "properNouns"
+          "places"
         ],
         "countries.egypt": [
-          "properNouns"
+          "places"
         ],
         "countries.england": [
-          "properNouns"
+          "places"
         ],
         "countries.france": [
-          "properNouns"
+          "places"
         ],
         "countries.germany": [
-          "properNouns"
+          "places"
         ],
         "countries.greece": [
-          "properNouns"
+          "places"
         ],
         "countries.iraq": [
-          "properNouns"
+          "places"
         ],
         "countries.israel": [
-          "properNouns"
+          "places"
         ],
         "countries.italy": [
-          "properNouns"
+          "places"
         ],
         "countries.lebanon": [
-          "properNouns"
+          "places"
         ],
         "countries.morocco": [
-          "properNouns"
+          "places"
         ],
         "countries.russia": [
-          "properNouns"
+          "places"
         ],
         "countries.ukraine": [
-          "properNouns"
+          "places"
         ],
         "countries.usa": [
-          "properNouns"
+          "places"
         ],
         "everyday-nouns.larnaca": [
-          "properNouns"
+          "places"
         ],
         "everyday-nouns.nicosia": [
-          "properNouns"
+          "places"
         ],
         "names-vocative.alexander-name": [
-          "properNouns"
+          "people"
         ],
         "names-vocative.constantine-name": [
-          "properNouns"
+          "people"
         ],
         "names-vocative.george-name": [
-          "properNouns"
+          "people"
         ],
         "names-vocative.john-name": [
-          "properNouns"
+          "people"
         ],
         "names-vocative.peter-name": [
-          "properNouns"
+          "people"
         ],
         "nature-geography.africa": [
-          "properNouns"
+          "places"
         ],
         "nature-geography.america": [
-          "properNouns"
+          "places"
         ],
         "nature-geography.asia": [
-          "properNouns"
+          "places"
         ],
         "nature-geography.europe": [
-          "properNouns"
+          "places"
         ],
         "noun-gender.eleni": [
-          "properNouns"
+          "conversation"
         ],
         "noun-gender.limassol": [
-          "properNouns"
+          "places"
         ],
         "noun-gender.maria": [
-          "properNouns"
+          "conversation"
         ],
         "noun-gender.paphos": [
-          "properNouns"
+          "places"
         ]
       }
     },
@@ -61158,15 +61166,15 @@
           "conversation"
         ],
         "family-status-married-man": [
-          "home",
+          "family",
           "people"
         ],
         "family-status-single-man": [
-          "home",
+          "family",
           "people"
         ],
         "family-status-divorced-man": [
-          "home",
+          "family",
           "people"
         ]
       }
@@ -61695,51 +61703,51 @@
           "conversation"
         ],
         "family-who-man": [
-          "home",
+          "family",
           "people"
         ],
         "family-who-woman": [
-          "home",
+          "family",
           "people"
         ],
         "family-who-child": [
-          "home",
+          "family",
           "people"
         ],
         "family-ask-his-name": [
-          "home",
+          "family",
           "people"
         ],
         "family-ask-her-name": [
-          "home",
+          "family",
           "people"
         ],
         "family-ask-husband-name": [
-          "home",
+          "family",
           "people"
         ],
         "family-ask-wife-name": [
-          "home",
+          "family",
           "people"
         ],
         "family-ask-married-man": [
-          "home",
+          "family",
           "people"
         ],
         "family-ask-married-woman": [
-          "home",
+          "family",
           "people"
         ],
         "family-have-children": [
-          "home",
+          "family",
           "people"
         ],
         "family-have-boyfriend": [
-          "home",
+          "family",
           "people"
         ],
         "family-have-girlfriend": [
-          "home",
+          "family",
           "people"
         ],
         "family-very-nice": [
@@ -61749,71 +61757,71 @@
           "home"
         ],
         "family-his-name-george": [
-          "home",
+          "family",
           "people"
         ],
         "family-his-name-yiannis": [
-          "home",
+          "family",
           "people"
         ],
         "family-his-name-kostas": [
-          "home",
+          "family",
           "people"
         ],
         "family-her-name-eleni": [
-          "home",
+          "family",
           "people"
         ],
         "family-her-name-anna": [
-          "home",
+          "family",
           "people"
         ],
         "family-this-family": [
-          "home",
+          "family",
           "people"
         ],
         "family-my-father": [
-          "home",
+          "family",
           "people"
         ],
         "family-his-wife": [
-          "home",
+          "family",
           "people"
         ],
         "family-their-son": [
-          "home",
+          "family",
           "people"
         ],
         "family-this-mother": [
-          "home",
+          "family",
           "people"
         ],
         "family-here-brother": [
-          "home",
+          "family",
           "people"
         ],
         "family-i-married-man": [
-          "home",
+          "family",
           "people"
         ],
         "family-i-married-woman": [
-          "home",
+          "family",
           "people"
         ],
         "family-i-single-man": [
-          "home",
+          "family",
           "people"
         ],
         "family-i-single-woman": [
-          "home",
+          "family",
           "people"
         ],
         "family-i-divorced-man": [
-          "home",
+          "family",
           "people"
         ],
         "family-i-divorced-woman": [
-          "home",
+          "family",
           "people"
         ]
       }
@@ -61868,7 +61876,7 @@
       },
       "themes": {
         "classroom-objects.children": [
-          "home",
+          "family",
           "people"
         ],
         "classroom-phrases.come": [
@@ -61941,7 +61949,7 @@
           "conversation"
         ],
         "family-called-phone": [
-          "conversation"
+          "phone"
         ]
       }
     },
@@ -62081,10 +62089,10 @@
           "classroom"
         ],
         "have-present.have-phone": [
-          "conversation"
+          "phone"
         ],
         "have-present.not-phone-yet": [
-          "conversation"
+          "phone"
         ],
         "lesson-connectors.dog-or-cat": [
           "conversation"
@@ -62107,37 +62115,37 @@
           "home"
         ],
         "phone-conversations.answer-call": [
-          "conversation"
+          "phone"
         ],
         "phone-conversations.giannis-there": [
-          "conversation"
+          "phone"
         ],
         "phone-conversations.have-phone-polite": [
-          "conversation"
+          "phone"
         ],
         "phone-conversations.my-phone": [
-          "conversation"
+          "phone"
         ],
         "phone-conversations.number-intro": [
-          "conversation"
+          "phone"
         ],
         "phone-conversations.on-phone": [
-          "conversation"
+          "phone"
         ],
         "phone-conversations.this-maria": [
-          "conversation"
+          "phone"
         ],
         "phone-conversations.where-giannis": [
-          "conversation"
+          "phone"
         ],
         "phone-conversations.who-calling": [
-          "conversation"
+          "phone"
         ],
         "phone-conversations.your-phone": [
-          "conversation"
+          "phone"
         ],
         "phone-conversations.your-phone-polite": [
-          "conversation"
+          "phone"
         ],
         "read-present.read-my-book": [
           "classroom"
@@ -62194,19 +62202,19 @@
           "classroom"
         ],
         "have-my-number": [
-          "conversation"
+          "phone"
         ],
         "which-number": [
-          "conversation"
+          "phone"
         ],
         "mobile-number": [
-          "conversation"
+          "phone"
         ],
         "landline-number": [
-          "conversation"
+          "phone"
         ],
         "only-mobile": [
-          "conversation"
+          "phone"
         ],
         "no-phone": [
           "conversation"
@@ -62292,30 +62300,30 @@
           "people"
         ],
         "gender-phone": [
-          "conversation"
+          "phone"
         ],
         "family-i-married-man": [
-          "home",
+          "family",
           "people"
         ],
         "family-i-married-woman": [
-          "home",
+          "family",
           "people"
         ],
         "family-i-single-man": [
-          "home",
+          "family",
           "people"
         ],
         "family-i-single-woman": [
-          "home",
+          "family",
           "people"
         ],
         "family-i-divorced-man": [
-          "home",
+          "family",
           "people"
         ],
         "family-i-divorced-woman": [
-          "home",
+          "family",
           "people"
         ],
         "family-all-of-us": [
@@ -62568,59 +62576,59 @@
           "home"
         ],
         "family-his-name-george": [
-          "home",
+          "family",
           "people"
         ],
         "family-his-name-yiannis": [
-          "home",
+          "family",
           "people"
         ],
         "family-his-name-kostas": [
-          "home",
+          "family",
           "people"
         ],
         "family-her-name-eleni": [
-          "home",
+          "family",
           "people"
         ],
         "family-her-name-anna": [
-          "home",
+          "family",
           "people"
         ],
         "family-with-father": [
-          "home",
+          "family",
           "people"
         ],
         "family-with-mother": [
-          "home",
+          "family",
           "people"
         ],
         "family-with-child": [
-          "home",
+          "family",
           "people"
         ],
         "family-for-father": [
-          "home",
+          "family",
           "people"
         ],
         "family-for-mother": [
-          "home",
+          "family",
           "people"
         ],
         "family-for-child": [
-          "home",
+          "family",
           "people"
         ],
         "family-from-father": [
-          "home",
+          "family",
           "people"
         ],
         "family-to-mother": [
-          "home",
+          "family",
           "people"
         ],
         "family-about-family": [
-          "home",
+          "family",
           "people"
         ]
       }
@@ -62635,9 +62643,9 @@
           "zh": "动词变位"
         },
         "subtitle": {
-          "en": "Three regular verbs and three distinct patterns",
-          "ru": "Три обычных глагола и три особые модели",
-          "zh": "三个规则动词与三种变位模式"
+          "en": "Present tense and expressing likes",
+          "ru": "Настоящее время и «мне нравится»",
+          "zh": "现在时与喜好表达"
         },
         "cover": "μένουμε",
         "note": {
@@ -63348,7 +63356,7 @@
           "classroom"
         ],
         "possession-my-phone": [
-          "conversation"
+          "phone"
         ],
         "possession-your-marker": [
           "classroom"
@@ -63360,7 +63368,7 @@
           "classroom"
         ],
         "possession-your-phone": [
-          "conversation"
+          "phone"
         ],
         "possession-his-marker": [
           "classroom"
@@ -63372,7 +63380,7 @@
           "classroom"
         ],
         "possession-his-phone": [
-          "conversation"
+          "phone"
         ],
         "possession-her-marker": [
           "classroom"
@@ -63384,7 +63392,7 @@
           "classroom"
         ],
         "possession-her-phone": [
-          "conversation"
+          "phone"
         ],
         "possession-our-marker": [
           "classroom"
@@ -63396,7 +63404,7 @@
           "classroom"
         ],
         "possession-our-phone": [
-          "conversation"
+          "phone"
         ],
         "possession-your-plural-marker": [
           "classroom"
@@ -63408,7 +63416,7 @@
           "classroom"
         ],
         "possession-your-plural-phone": [
-          "conversation"
+          "phone"
         ],
         "possession-their-marker": [
           "classroom"
@@ -63420,33 +63428,33 @@
           "classroom"
         ],
         "possession-their-phone": [
-          "conversation"
+          "phone"
         ],
         "her-number": [
           "conversation"
         ],
         "family-this-family": [
-          "home",
+          "family",
           "people"
         ],
         "family-my-father": [
-          "home",
+          "family",
           "people"
         ],
         "family-his-wife": [
-          "home",
+          "family",
           "people"
         ],
         "family-their-son": [
-          "home",
+          "family",
           "people"
         ],
         "family-this-mother": [
-          "home",
+          "family",
           "people"
         ],
         "family-here-brother": [
-          "home",
+          "family",
           "people"
         ]
       }
@@ -63529,55 +63537,55 @@
           "conversation"
         ],
         "family-who-man": [
-          "home",
+          "family",
           "people"
         ],
         "family-who-woman": [
-          "home",
+          "family",
           "people"
         ],
         "family-who-child": [
-          "home",
+          "family",
           "people"
         ],
         "family-ask-his-name": [
-          "home",
+          "family",
           "people"
         ],
         "family-ask-her-name": [
-          "home",
+          "family",
           "people"
         ],
         "family-ask-husband-name": [
-          "home",
+          "family",
           "people"
         ],
         "family-ask-wife-name": [
-          "home",
+          "family",
           "people"
         ],
         "family-ask-married-man": [
-          "home",
+          "family",
           "people"
         ],
         "family-ask-married-woman": [
-          "home",
+          "family",
           "people"
         ],
         "family-have-children": [
-          "home",
+          "family",
           "people"
         ],
         "family-have-boyfriend": [
-          "home",
+          "family",
           "people"
         ],
         "family-have-girlfriend": [
-          "home",
+          "family",
           "people"
         ],
         "family-not-married": [
-          "home",
+          "family",
           "people"
         ]
       }
