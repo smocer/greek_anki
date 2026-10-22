@@ -20,6 +20,8 @@ Numbers combine units, teens, tens, hundreds up to 900, 1000 and selected compou
 - Classroom: asking, understanding and discussing lessons.
 - Everyday situations: home, work and phone conversations.
 
+Transport practice covers buying tickets, asking about prices and the time, and describing routes and frequency. Vocabulary includes τρόλεϊ, τραμ, εισιτήριο, μηχανή, λεπτό and everyday activities, hobbies and punctuation. Destination names stay in **Names & places**. Practise all six persons of πάω / πηγαίνω in **Verb forms**, and destinations, transport with με, με τα πόδια, and σε with a time interval in **Location and origin**.
+
 Hobbies and preferences include music, drawing, swimming, playing guitar, taking photographs, watching TV and taking a break. Related vocabulary covers subjects such as history and philosophy, food and drinks, and the arithmetic signs συν, πλην, επί and διά. Paris, London and New York are in **Names & places**.
 
 Recent vocabulary includes δουλειά, γραφείο, μητέρα, τραγούδι, μπίρα, καφές, κινητό, σταθερό, νούμερο, λείπω, λάθος, σωστό, ξανά and μόνο. Useful phrases include Πες μου, Τι είναι αυτό; and Έχεις το τηλέφωνό μου;

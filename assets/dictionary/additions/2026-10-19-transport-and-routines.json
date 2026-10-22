@@ -1,0 +1,2217 @@
+{
+  "schemaVersion": 1,
+  "addedWeek": "2026-10-19",
+  "words": [
+    {
+      "id": "transport-game",
+      "collection": "words-nouns",
+      "greek": "παιχνίδι",
+      "prompt": {
+        "en": "Game / toy",
+        "ru": "Игра / игрушка",
+        "zh": "游戏／玩具"
+      },
+      "pronunciation": {
+        "en": "peh-NI-dhi",
+        "ru": "пэх-НИ-ди"
+      },
+      "themes": [
+        "home"
+      ],
+      "labels": [
+        "noun"
+      ],
+      "explanation": {
+        "en": "Neuter.",
+        "ru": "В греческом средний род.",
+        "zh": "中性名词。"
+      },
+      "answerDisplay": "το παιχνίδι"
+    },
+    {
+      "id": "transport-match",
+      "collection": "words-nouns",
+      "greek": "αγώνας",
+      "prompt": {
+        "en": "Match / competition",
+        "ru": "Матч / соревнование",
+        "zh": "比赛"
+      },
+      "pronunciation": {
+        "en": "a-GHO-nas",
+        "ru": "а-ГО-нас"
+      },
+      "themes": [
+        "conversation"
+      ],
+      "labels": [
+        "noun"
+      ],
+      "explanation": {
+        "en": "Masculine.",
+        "ru": "В греческом мужской род.",
+        "zh": "阳性名词。"
+      },
+      "answerDisplay": "ο αγώνας"
+    },
+    {
+      "id": "transport-hobby",
+      "collection": "words-nouns",
+      "greek": "χόμπι",
+      "prompt": {
+        "en": "Hobby",
+        "ru": "Хобби",
+        "zh": "爱好"
+      },
+      "pronunciation": {
+        "en": "HO-bi",
+        "ru": "ХО-би"
+      },
+      "themes": [
+        "conversation"
+      ],
+      "labels": [
+        "noun"
+      ],
+      "explanation": {
+        "en": "Neuter.",
+        "ru": "В греческом средний род.",
+        "zh": "中性名词。"
+      },
+      "answerDisplay": "το χόμπι"
+    },
+    {
+      "id": "transport-interests",
+      "collection": "words-nouns",
+      "greek": "ενδιαφέροντα",
+      "prompt": {
+        "en": "Interests / pastimes",
+        "ru": "Интересы / увлечения",
+        "zh": "兴趣爱好"
+      },
+      "pronunciation": {
+        "en": "en-dhia-FE-ron-da",
+        "ru": "эн-дья-ФЭ-рон-да"
+      },
+      "themes": [
+        "conversation"
+      ],
+      "labels": [
+        "noun"
+      ],
+      "explanation": {
+        "en": "Neuter plural. Here the plural means interests or pastimes. The singular is το ενδιαφέρον.",
+        "ru": "Средний род, множественное число. Здесь множественное число означает увлечения. Единственное число — το ενδιαφέρον (интерес).",
+        "zh": "中性复数。 这里的复数表示兴趣爱好，单数为 το ενδιαφέρον。"
+      },
+      "answerDisplay": "τα ενδιαφέροντα"
+    },
+    {
+      "id": "transport-meat",
+      "collection": "words-nouns",
+      "greek": "κρέας",
+      "prompt": {
+        "en": "Meat",
+        "ru": "Мясо",
+        "zh": "肉"
+      },
+      "pronunciation": {
+        "en": "KRE-as",
+        "ru": "КРЭ-ас"
+      },
+      "themes": [
+        "food"
+      ],
+      "labels": [
+        "noun"
+      ],
+      "explanation": {
+        "en": "Neuter.",
+        "ru": "В греческом средний род.",
+        "zh": "中性名词。"
+      },
+      "answerDisplay": "το κρέας"
+    },
+    {
+      "id": "transport-motorcycle",
+      "collection": "words-nouns",
+      "greek": "μηχανή",
+      "prompt": {
+        "en": "Motorcycle (everyday term)",
+        "ru": "Мотоцикл (разговорное слово)",
+        "zh": "摩托车（口语）"
+      },
+      "pronunciation": {
+        "en": "mi-ha-NI",
+        "ru": "ми-ха-НИ"
+      },
+      "themes": [
+        "travel"
+      ],
+      "labels": [
+        "noun"
+      ],
+      "explanation": {
+        "en": "Feminine. In transport conversations μηχανή means motorcycle; elsewhere it can mean machine or engine.",
+        "ru": "В греческом женский род. В разговоре о транспорте μηχανή — мотоцикл. В другом контексте это машина, механизм или двигатель.",
+        "zh": "阴性名词。 谈交通时指摩托车，其他语境中也可指机器或发动机。"
+      },
+      "answerDisplay": "η μηχανή"
+    },
+    {
+      "id": "transport-message",
+      "collection": "words-nouns",
+      "greek": "μήνυμα",
+      "prompt": {
+        "en": "Message",
+        "ru": "Сообщение",
+        "zh": "消息"
+      },
+      "pronunciation": {
+        "en": "MI-ni-ma",
+        "ru": "МИ-ни-ма"
+      },
+      "themes": [
+        "phone"
+      ],
+      "labels": [
+        "noun"
+      ],
+      "explanation": {
+        "en": "Neuter.",
+        "ru": "В греческом средний род.",
+        "zh": "中性名词。"
+      },
+      "answerDisplay": "το μήνυμα"
+    },
+    {
+      "id": "transport-world",
+      "collection": "words-nouns",
+      "greek": "κόσμος",
+      "prompt": {
+        "en": "World / people",
+        "ru": "Мир / люди",
+        "zh": "世界／人们"
+      },
+      "pronunciation": {
+        "en": "KOZ-mos",
+        "ru": "КОЗ-мос"
+      },
+      "themes": [
+        "people",
+        "places"
+      ],
+      "labels": [
+        "noun"
+      ],
+      "explanation": {
+        "en": "Masculine.",
+        "ru": "В греческом мужской род.",
+        "zh": "阳性名词。"
+      },
+      "answerDisplay": "ο κόσμος"
+    },
+    {
+      "id": "transport-full-stop",
+      "collection": "words-nouns",
+      "greek": "τελεία",
+      "prompt": {
+        "en": "Full stop / period (punctuation)",
+        "ru": "Точка (знак препинания)",
+        "zh": "句号"
+      },
+      "pronunciation": {
+        "en": "te-LI-a",
+        "ru": "тэ-ЛИ-а"
+      },
+      "themes": [
+        "classroom"
+      ],
+      "labels": [
+        "noun"
+      ],
+      "explanation": {
+        "en": "Feminine.",
+        "ru": "В греческом женский род.",
+        "zh": "阴性名词。"
+      },
+      "answerDisplay": "η τελεία"
+    },
+    {
+      "id": "transport-comma",
+      "collection": "words-nouns",
+      "greek": "κόμμα",
+      "prompt": {
+        "en": "Comma (punctuation)",
+        "ru": "Запятая",
+        "zh": "逗号"
+      },
+      "pronunciation": {
+        "en": "KO-ma",
+        "ru": "КО-ма"
+      },
+      "themes": [
+        "classroom"
+      ],
+      "labels": [
+        "noun"
+      ],
+      "explanation": {
+        "en": "Neuter.",
+        "ru": "В греческом средний род.",
+        "zh": "中性名词。"
+      },
+      "answerDisplay": "το κόμμα"
+    },
+    {
+      "id": "transport-question-mark",
+      "collection": "words-nouns",
+      "greek": "ερωτηματικό",
+      "prompt": {
+        "en": "Question mark",
+        "ru": "Вопросительный знак",
+        "zh": "问号"
+      },
+      "pronunciation": {
+        "en": "e-ro-ti-ma-ti-KO",
+        "ru": "э-ро-ти-ма-ти-КО"
+      },
+      "themes": [
+        "classroom"
+      ],
+      "labels": [
+        "noun"
+      ],
+      "explanation": {
+        "en": "Neuter. The Greek question mark looks like a semicolon: ;",
+        "ru": "В греческом средний род. В греческом вопросительный знак выглядит как точка с запятой: ;",
+        "zh": "中性名词。 希腊语问号的形状与分号相同：;"
+      },
+      "answerDisplay": "το ερωτηματικό"
+    },
+    {
+      "id": "transport-accent",
+      "collection": "words-nouns",
+      "greek": "τόνος",
+      "prompt": {
+        "en": "Stress / written accent",
+        "ru": "Ударение / знак ударения",
+        "zh": "重音／重音符号"
+      },
+      "pronunciation": {
+        "en": "TO-nos",
+        "ru": "ТО-нос"
+      },
+      "themes": [
+        "classroom"
+      ],
+      "labels": [
+        "noun"
+      ],
+      "explanation": {
+        "en": "Masculine.",
+        "ru": "В греческом мужской род.",
+        "zh": "阳性名词。"
+      },
+      "answerDisplay": "ο τόνος"
+    },
+    {
+      "id": "transport-trolleybus",
+      "collection": "words-nouns",
+      "greek": "τρόλεϊ",
+      "prompt": {
+        "en": "Trolleybus",
+        "ru": "Троллейбус",
+        "zh": "无轨电车"
+      },
+      "pronunciation": {
+        "en": "TRO-lei",
+        "ru": "ТРО-лэй"
+      },
+      "themes": [
+        "travel"
+      ],
+      "labels": [
+        "noun"
+      ],
+      "explanation": {
+        "en": "Neuter.",
+        "ru": "В греческом средний род.",
+        "zh": "中性名词。"
+      },
+      "answerDisplay": "το τρόλεϊ"
+    },
+    {
+      "id": "transport-tram",
+      "collection": "words-nouns",
+      "greek": "τραμ",
+      "prompt": {
+        "en": "Tram",
+        "ru": "Трамвай",
+        "zh": "有轨电车"
+      },
+      "pronunciation": {
+        "en": "tram",
+        "ru": "трам"
+      },
+      "themes": [
+        "travel"
+      ],
+      "labels": [
+        "noun"
+      ],
+      "explanation": {
+        "en": "Neuter.",
+        "ru": "В греческом средний род.",
+        "zh": "中性名词。"
+      },
+      "answerDisplay": "το τραμ"
+    },
+    {
+      "id": "transport-ticket",
+      "collection": "words-nouns",
+      "greek": "εισιτήριο",
+      "prompt": {
+        "en": "Ticket (transport or admission)",
+        "ru": "Билет (на транспорт или вход)",
+        "zh": "车票／门票"
+      },
+      "pronunciation": {
+        "en": "i-si-TI-ri-o",
+        "ru": "и-си-ТИ-ри-о"
+      },
+      "themes": [
+        "travel"
+      ],
+      "labels": [
+        "noun"
+      ],
+      "explanation": {
+        "en": "Neuter.",
+        "ru": "В греческом средний род.",
+        "zh": "中性名词。"
+      },
+      "answerDisplay": "το εισιτήριο"
+    },
+    {
+      "id": "transport-kiosk-vendor",
+      "collection": "words-nouns",
+      "greek": "περιπτεράς",
+      "prompt": {
+        "en": "Kiosk vendor",
+        "ru": "Продавец в киоске",
+        "zh": "报刊亭售货员"
+      },
+      "pronunciation": {
+        "en": "pe-rip-te-RAS",
+        "ru": "пэ-рип-тэ-РАС"
+      },
+      "themes": [
+        "people"
+      ],
+      "labels": [
+        "noun"
+      ],
+      "explanation": {
+        "en": "Masculine.",
+        "ru": "В греческом мужской род.",
+        "zh": "阳性名词。"
+      },
+      "answerDisplay": "ο περιπτεράς"
+    },
+    {
+      "id": "transport-centre",
+      "collection": "words-nouns",
+      "greek": "κέντρο",
+      "prompt": {
+        "en": "Centre / city centre",
+        "ru": "Центр / центр города",
+        "zh": "中心／市中心"
+      },
+      "pronunciation": {
+        "en": "KEN-dro",
+        "ru": "КЭН-дро"
+      },
+      "themes": [
+        "places"
+      ],
+      "labels": [
+        "noun"
+      ],
+      "explanation": {
+        "en": "Neuter.",
+        "ru": "В греческом средний род.",
+        "zh": "中性名词。"
+      },
+      "answerDisplay": "το κέντρο"
+    },
+    {
+      "id": "transport-euro",
+      "collection": "words-nouns",
+      "greek": "ευρώ",
+      "prompt": {
+        "en": "Euro",
+        "ru": "Евро",
+        "zh": "欧元"
+      },
+      "pronunciation": {
+        "en": "ev-RO",
+        "ru": "эв-РО"
+      },
+      "themes": [
+        "travel"
+      ],
+      "labels": [
+        "noun"
+      ],
+      "explanation": {
+        "en": "Neuter.",
+        "ru": "В греческом средний род.",
+        "zh": "中性名词。"
+      },
+      "answerDisplay": "το ευρώ"
+    },
+    {
+      "id": "transport-minute",
+      "collection": "words-nouns",
+      "greek": "λεπτό",
+      "prompt": {
+        "en": "Minute",
+        "ru": "Минута",
+        "zh": "分钟"
+      },
+      "pronunciation": {
+        "en": "lep-TO",
+        "ru": "лэп-ТО"
+      },
+      "themes": [
+        "time"
+      ],
+      "labels": [
+        "noun"
+      ],
+      "explanation": {
+        "en": "Neuter.",
+        "ru": "В греческом средний род.",
+        "zh": "中性名词。"
+      },
+      "answerDisplay": "το λεπτό"
+    },
+    {
+      "id": "transport-street-market",
+      "collection": "words-nouns",
+      "greek": "λαϊκή",
+      "prompt": {
+        "en": "Street market",
+        "ru": "Уличный рынок",
+        "zh": "街市"
+      },
+      "pronunciation": {
+        "en": "la-i-KI",
+        "ru": "ла-и-КИ"
+      },
+      "themes": [
+        "places",
+        "food"
+      ],
+      "labels": [
+        "noun"
+      ],
+      "explanation": {
+        "en": "Feminine. Short for η λαϊκή αγορά, a regularly held street market. Keep the diaeresis in λαϊκή.",
+        "ru": "В греческом женский род. Сокращение от η λαϊκή αγορά — рынок, который регулярно устраивают на улице. Две точки над ϊ разделяют гласные: ла-и-КИ.",
+        "zh": "阴性名词。 η λαϊκή αγορά 的简称，指定期举办的街市。ϊ 表示元音分别发音。"
+      },
+      "answerDisplay": "η λαϊκή"
+    },
+    {
+      "id": "transport-foot",
+      "collection": "words-nouns",
+      "greek": "πόδι",
+      "prompt": {
+        "en": "Foot / leg",
+        "ru": "Нога",
+        "zh": "脚／腿"
+      },
+      "pronunciation": {
+        "en": "PO-dhi",
+        "ru": "ПО-ди"
+      },
+      "themes": [
+        "travel"
+      ],
+      "labels": [
+        "noun"
+      ],
+      "explanation": {
+        "en": "Neuter. Plural τα πόδια. Με τα πόδια means on foot.",
+        "ru": "В греческом средний род. Множественное число — τα πόδια. Με τα πόδια — пешком.",
+        "zh": "中性名词。 复数为 τα πόδια。Με τα πόδια 表示步行。"
+      },
+      "answerDisplay": "το πόδι"
+    },
+    {
+      "id": "transport-electric-railway",
+      "collection": "words-nouns",
+      "greek": "ηλεκτρικός",
+      "prompt": {
+        "en": "Electric railway / urban train",
+        "ru": "Электричка / городской электропоезд",
+        "zh": "城市电气铁路／电车"
+      },
+      "pronunciation": {
+        "en": "i-lek-tri-KOS",
+        "ru": "и-лэк-три-КОС"
+      },
+      "themes": [
+        "travel"
+      ],
+      "labels": [
+        "noun"
+      ],
+      "explanation": {
+        "en": "Masculine. Short for ο ηλεκτρικός σιδηρόδρομος; in the Athens dialogue, the electric railway between Piraeus and Kifisia.",
+        "ru": "В греческом мужской род. Сокращение от ο ηλεκτρικός σιδηρόδρομος. В диалоге об Афинах так называют электричку между Пиреем и Кифисьей.",
+        "zh": "阳性名词。 ο ηλεκτρικός σιδηρόδρομος 的简称。课文中指比雷埃夫斯至基菲夏的城市铁路。"
+      },
+      "answerDisplay": "ο ηλεκτρικός"
+    },
+    {
+      "id": "transport-line",
+      "collection": "words-nouns",
+      "greek": "γραμμή",
+      "prompt": {
+        "en": "Line / transport route",
+        "ru": "Линия / маршрут транспорта",
+        "zh": "线路"
+      },
+      "pronunciation": {
+        "en": "ghra-MI",
+        "ru": "гра-МИ"
+      },
+      "themes": [
+        "travel"
+      ],
+      "labels": [
+        "noun"
+      ],
+      "explanation": {
+        "en": "Feminine.",
+        "ru": "В греческом женский род.",
+        "zh": "阴性名词。"
+      },
+      "answerDisplay": "η γραμμή"
+    },
+    {
+      "id": "transport-morning",
+      "collection": "words-nouns",
+      "greek": "πρωί",
+      "prompt": {
+        "en": "Morning",
+        "ru": "Утро",
+        "zh": "早晨"
+      },
+      "pronunciation": {
+        "en": "pro-I",
+        "ru": "про-И"
+      },
+      "themes": [
+        "time"
+      ],
+      "labels": [
+        "noun"
+      ],
+      "explanation": {
+        "en": "Neuter. Το πρωί can also mean in the morning.",
+        "ru": "В греческом средний род. Το πρωί также означает «утром».",
+        "zh": "中性名词。 Το πρωί 也可表示“在早上”。"
+      },
+      "answerDisplay": "το πρωί"
+    },
+    {
+      "id": "transport-evening",
+      "collection": "words-nouns",
+      "greek": "βράδυ",
+      "prompt": {
+        "en": "Evening",
+        "ru": "Вечер",
+        "zh": "晚上"
+      },
+      "pronunciation": {
+        "en": "VRA-dhi",
+        "ru": "ВРА-ди"
+      },
+      "themes": [
+        "time"
+      ],
+      "labels": [
+        "noun"
+      ],
+      "explanation": {
+        "en": "Neuter. Το βράδυ can also mean in the evening.",
+        "ru": "В греческом средний род. Το βράδυ также означает «вечером».",
+        "zh": "中性名词。 Το βράδυ 也可表示“在晚上”。"
+      },
+      "answerDisplay": "το βράδυ"
+    },
+    {
+      "id": "transport-sleep",
+      "collection": "words-verbs",
+      "greek": "κοιμάμαι",
+      "prompt": {
+        "en": "I sleep",
+        "ru": "Я сплю",
+        "zh": "我睡觉"
+      },
+      "pronunciation": {
+        "en": "ki-MA-me",
+        "ru": "ки-МА-мэ"
+      },
+      "themes": [
+        "home",
+        "time"
+      ],
+      "labels": [
+        "verb"
+      ]
+    },
+    {
+      "id": "transport-change",
+      "collection": "words-verbs",
+      "greek": "αλλάζω",
+      "prompt": {
+        "en": "I change",
+        "ru": "Я меняю",
+        "zh": "我改变／更换"
+      },
+      "pronunciation": {
+        "en": "a-LA-zo",
+        "ru": "а-ЛА-зо"
+      },
+      "themes": [
+        "conversation"
+      ],
+      "labels": [
+        "verb"
+      ]
+    },
+    {
+      "id": "transport-make-repair",
+      "collection": "words-verbs",
+      "greek": "φτιάχνω",
+      "prompt": {
+        "en": "I make / repair",
+        "ru": "Я делаю / чиню",
+        "zh": "我制作／修理"
+      },
+      "pronunciation": {
+        "en": "FTIA-hno",
+        "ru": "ФТЬЯ-хно"
+      },
+      "themes": [
+        "home"
+      ],
+      "labels": [
+        "verb"
+      ]
+    },
+    {
+      "id": "transport-be-late",
+      "collection": "words-verbs",
+      "greek": "αργώ",
+      "prompt": {
+        "en": "I am late / take a long time",
+        "ru": "Я опаздываю / задерживаюсь",
+        "zh": "我迟到／耽搁"
+      },
+      "pronunciation": {
+        "en": "ar-GHO",
+        "ru": "ар-ГО"
+      },
+      "themes": [
+        "time"
+      ],
+      "labels": [
+        "verb"
+      ]
+    },
+    {
+      "id": "transport-arrive",
+      "collection": "words-verbs",
+      "greek": "φτάνω",
+      "prompt": {
+        "en": "I arrive / reach",
+        "ru": "Я прибываю / добираюсь",
+        "zh": "我到达"
+      },
+      "pronunciation": {
+        "en": "FTA-no",
+        "ru": "ФТА-но"
+      },
+      "themes": [
+        "travel"
+      ],
+      "labels": [
+        "verb"
+      ]
+    },
+    {
+      "id": "transport-big",
+      "collection": "words-descriptions",
+      "greek": "μεγάλος",
+      "prompt": {
+        "en": "Big",
+        "ru": "Большой",
+        "zh": "大的"
+      },
+      "pronunciation": {
+        "en": "me-GHA-los",
+        "ru": "мэ-ГА-лос"
+      },
+      "themes": [
+        "conversation"
+      ],
+      "labels": [
+        "adjective"
+      ],
+      "explanation": {
+        "en": "The ending agrees with the Greek noun. Any listed gender form is accepted in this word card.",
+        "ru": "Окончание зависит от рода греческого существительного. В этой карточке принимается любая из трёх форм.",
+        "zh": "词尾与希腊语名词的性一致。本单词卡接受列出的三种性别形式。"
+      },
+      "wordGroup": "transport-big",
+      "answerDisplay": "μεγάλος / μεγάλη / μεγάλο",
+      "alternatives": [
+        "μεγάλη",
+        "μεγάλο"
+      ],
+      "forms": [
+        {
+          "greek": "μεγάλος",
+          "answerDisplay": "μεγάλος",
+          "pronunciation": {
+            "en": "me-GHA-los",
+            "ru": "мэ-ГА-лос"
+          }
+        },
+        {
+          "greek": "μεγάλη",
+          "answerDisplay": "μεγάλη",
+          "pronunciation": {
+            "en": "me-GHA-li",
+            "ru": "мэ-ГА-ли"
+          }
+        },
+        {
+          "greek": "μεγάλο",
+          "answerDisplay": "μεγάλο",
+          "pronunciation": {
+            "en": "me-GHA-lo",
+            "ru": "мэ-ГА-ло"
+          }
+        }
+      ]
+    },
+    {
+      "id": "transport-small",
+      "collection": "words-descriptions",
+      "greek": "μικρός",
+      "prompt": {
+        "en": "Small",
+        "ru": "Маленький",
+        "zh": "小的"
+      },
+      "pronunciation": {
+        "en": "mi-KROS",
+        "ru": "ми-КРОС"
+      },
+      "themes": [
+        "conversation"
+      ],
+      "labels": [
+        "adjective"
+      ],
+      "explanation": {
+        "en": "The ending agrees with the Greek noun. Any listed gender form is accepted in this word card.",
+        "ru": "Окончание зависит от рода греческого существительного. В этой карточке принимается любая из трёх форм.",
+        "zh": "词尾与希腊语名词的性一致。本单词卡接受列出的三种性别形式。"
+      },
+      "wordGroup": "transport-small",
+      "answerDisplay": "μικρός / μικρή / μικρό",
+      "alternatives": [
+        "μικρή",
+        "μικρό"
+      ],
+      "forms": [
+        {
+          "greek": "μικρός",
+          "answerDisplay": "μικρός",
+          "pronunciation": {
+            "en": "mi-KROS",
+            "ru": "ми-КРОС"
+          }
+        },
+        {
+          "greek": "μικρή",
+          "answerDisplay": "μικρή",
+          "pronunciation": {
+            "en": "mi-KRI",
+            "ru": "ми-КРИ"
+          }
+        },
+        {
+          "greek": "μικρό",
+          "answerDisplay": "μικρό",
+          "pronunciation": {
+            "en": "mi-KRO",
+            "ru": "ми-КРО"
+          }
+        }
+      ]
+    },
+    {
+      "id": "transport-same",
+      "collection": "words-descriptions",
+      "greek": "ίδιος",
+      "prompt": {
+        "en": "Same",
+        "ru": "Тот же самый",
+        "zh": "相同的"
+      },
+      "pronunciation": {
+        "en": "I-dhios",
+        "ru": "И-дьос"
+      },
+      "themes": [
+        "conversation"
+      ],
+      "labels": [
+        "adjective"
+      ],
+      "explanation": {
+        "en": "The ending agrees with the Greek noun. Any listed gender form is accepted in this word card.",
+        "ru": "Окончание зависит от рода греческого существительного. В этой карточке принимается любая из трёх форм.",
+        "zh": "词尾与希腊语名词的性一致。本单词卡接受列出的三种性别形式。"
+      },
+      "wordGroup": "transport-same",
+      "answerDisplay": "ίδιος / ίδια / ίδιο",
+      "alternatives": [
+        "ίδια",
+        "ίδιο"
+      ],
+      "forms": [
+        {
+          "greek": "ίδιος",
+          "answerDisplay": "ίδιος",
+          "pronunciation": {
+            "en": "I-dhios",
+            "ru": "И-дьос"
+          }
+        },
+        {
+          "greek": "ίδια",
+          "answerDisplay": "ίδια",
+          "pronunciation": {
+            "en": "I-dhia",
+            "ru": "И-дья"
+          }
+        },
+        {
+          "greek": "ίδιο",
+          "answerDisplay": "ίδιο",
+          "pronunciation": {
+            "en": "I-dhio",
+            "ru": "И-дьо"
+          }
+        }
+      ]
+    },
+    {
+      "id": "transport-next",
+      "collection": "words-descriptions",
+      "greek": "επόμενος",
+      "prompt": {
+        "en": "Next",
+        "ru": "Следующий",
+        "zh": "下一个"
+      },
+      "pronunciation": {
+        "en": "e-PO-me-nos",
+        "ru": "э-ПО-мэ-нос"
+      },
+      "themes": [
+        "conversation"
+      ],
+      "labels": [
+        "adjective"
+      ],
+      "explanation": {
+        "en": "The ending agrees with the Greek noun. Any listed gender form is accepted in this word card.",
+        "ru": "Окончание зависит от рода греческого существительного. В этой карточке принимается любая из трёх форм.",
+        "zh": "词尾与希腊语名词的性一致。本单词卡接受列出的三种性别形式。"
+      },
+      "wordGroup": "transport-next",
+      "answerDisplay": "επόμενος / επόμενη / επόμενο",
+      "alternatives": [
+        "επόμενη",
+        "επόμενο"
+      ],
+      "forms": [
+        {
+          "greek": "επόμενος",
+          "answerDisplay": "επόμενος",
+          "pronunciation": {
+            "en": "e-PO-me-nos",
+            "ru": "э-ПО-мэ-нос"
+          }
+        },
+        {
+          "greek": "επόμενη",
+          "answerDisplay": "επόμενη",
+          "pronunciation": {
+            "en": "e-PO-me-ni",
+            "ru": "э-ПО-мэ-ни"
+          }
+        },
+        {
+          "greek": "επόμενο",
+          "answerDisplay": "επόμενο",
+          "pronunciation": {
+            "en": "e-PO-me-no",
+            "ru": "э-ПО-мэ-но"
+          }
+        }
+      ]
+    },
+    {
+      "id": "transport-certainly",
+      "collection": "words-descriptions",
+      "greek": "σίγουρα",
+      "prompt": {
+        "en": "Certainly / for sure",
+        "ru": "Точно / наверняка",
+        "zh": "肯定／一定"
+      },
+      "pronunciation": {
+        "en": "SI-ghu-ra",
+        "ru": "СИ-гу-ра"
+      },
+      "themes": [
+        "conversation"
+      ],
+      "labels": [
+        "adverb"
+      ]
+    },
+    {
+      "id": "transport-afterwards",
+      "collection": "words-descriptions",
+      "greek": "μετά",
+      "prompt": {
+        "en": "Then / afterwards",
+        "ru": "Потом / затем",
+        "zh": "然后／之后"
+      },
+      "pronunciation": {
+        "en": "me-TA",
+        "ru": "мэ-ТА"
+      },
+      "themes": [
+        "time"
+      ],
+      "labels": [
+        "adverb"
+      ]
+    },
+    {
+      "id": "transport-so",
+      "collection": "words-connectors",
+      "greek": "λοιπόν",
+      "prompt": {
+        "en": "So / well then",
+        "ru": "Итак / ну что ж",
+        "zh": "那么／好吧"
+      },
+      "pronunciation": {
+        "en": "li-PON",
+        "ru": "ли-ПОН"
+      },
+      "themes": [
+        "conversation"
+      ],
+      "labels": [
+        "conjunction"
+      ]
+    },
+    {
+      "id": "transport-piraeus",
+      "collection": "words-names",
+      "greek": "Πειραιάς",
+      "prompt": {
+        "en": "Piraeus",
+        "ru": "Пирей",
+        "zh": "比雷埃夫斯"
+      },
+      "pronunciation": {
+        "en": "pi-re-AS",
+        "ru": "пи-рэ-АС"
+      },
+      "themes": [
+        "places",
+        "travel"
+      ],
+      "labels": [
+        "noun"
+      ],
+      "explanation": {
+        "en": "Masculine.",
+        "ru": "В греческом мужской род.",
+        "zh": "阳性名词。"
+      },
+      "answerDisplay": "ο Πειραιάς"
+    },
+    {
+      "id": "transport-kypseli",
+      "collection": "words-names",
+      "greek": "Κυψέλη",
+      "prompt": {
+        "en": "Kypseli (Athens neighbourhood)",
+        "ru": "Кипсели (район Афин)",
+        "zh": "基普塞利（雅典街区）"
+      },
+      "pronunciation": {
+        "en": "ki-PSE-li",
+        "ru": "ки-ПСЭ-ли"
+      },
+      "themes": [
+        "places",
+        "travel"
+      ],
+      "labels": [
+        "noun"
+      ],
+      "explanation": {
+        "en": "Feminine.",
+        "ru": "В греческом женский род.",
+        "zh": "阴性名词。"
+      },
+      "answerDisplay": "η Κυψέλη"
+    },
+    {
+      "id": "transport-syntagma",
+      "collection": "words-names",
+      "greek": "Σύνταγμα",
+      "prompt": {
+        "en": "Syntagma (Athens square / station)",
+        "ru": "Синтагма (площадь / станция в Афинах)",
+        "zh": "宪法广场／站（雅典）"
+      },
+      "pronunciation": {
+        "en": "SIN-dagh-ma",
+        "ru": "СИН-даг-ма"
+      },
+      "themes": [
+        "places",
+        "travel"
+      ],
+      "labels": [
+        "noun"
+      ],
+      "explanation": {
+        "en": "Neuter.",
+        "ru": "В греческом средний род.",
+        "zh": "中性名词。"
+      },
+      "answerDisplay": "το Σύνταγμα"
+    },
+    {
+      "id": "transport-omonia",
+      "collection": "words-names",
+      "greek": "Ομόνοια",
+      "prompt": {
+        "en": "Omonia (Athens square / station)",
+        "ru": "Омония (площадь / станция в Афинах)",
+        "zh": "奥莫尼亚广场／站（雅典）"
+      },
+      "pronunciation": {
+        "en": "o-MO-nia",
+        "ru": "о-МО-нья"
+      },
+      "themes": [
+        "places",
+        "travel"
+      ],
+      "labels": [
+        "noun"
+      ],
+      "explanation": {
+        "en": "Feminine.",
+        "ru": "В греческом женский род.",
+        "zh": "阴性名词。"
+      },
+      "answerDisplay": "η Ομόνοια"
+    },
+    {
+      "id": "transport-kifisia",
+      "collection": "words-names",
+      "greek": "Κηφισιά",
+      "prompt": {
+        "en": "Kifisia (Athens suburb)",
+        "ru": "Кифисья (пригород Афин)",
+        "zh": "基菲夏（雅典郊区）"
+      },
+      "pronunciation": {
+        "en": "ki-fi-SIA",
+        "ru": "ки-фи-СЬЯ"
+      },
+      "themes": [
+        "places",
+        "travel"
+      ],
+      "labels": [
+        "noun"
+      ],
+      "explanation": {
+        "en": "Feminine.",
+        "ru": "В греческом женский род.",
+        "zh": "阴性名词。"
+      },
+      "answerDisplay": "η Κηφισιά"
+    },
+    {
+      "id": "transport-agios-dimitrios",
+      "collection": "words-names",
+      "greek": "Άγιος Δημήτριος",
+      "prompt": {
+        "en": "Agios Dimitrios (Athens suburb / station)",
+        "ru": "Айос-Димитриос (пригород / станция в Афинах)",
+        "zh": "圣迪米特里奥斯（雅典郊区／车站）"
+      },
+      "pronunciation": {
+        "en": "A-yios dhi-MI-tri-os",
+        "ru": "А-йос ди-МИ-три-ос"
+      },
+      "themes": [
+        "places",
+        "travel"
+      ],
+      "labels": [
+        "noun"
+      ],
+      "explanation": {
+        "en": "Masculine.",
+        "ru": "В греческом мужской род.",
+        "zh": "阳性名词。"
+      },
+      "answerDisplay": "ο Άγιος Δημήτριος"
+    },
+    {
+      "id": "transport-dafni",
+      "collection": "words-names",
+      "greek": "Δάφνη",
+      "prompt": {
+        "en": "Dafni (Athens suburb / station)",
+        "ru": "Дафни (пригород / станция в Афинах)",
+        "zh": "达夫尼（雅典郊区／车站）"
+      },
+      "pronunciation": {
+        "en": "DHAF-ni",
+        "ru": "ДАФ-ни"
+      },
+      "themes": [
+        "places",
+        "travel"
+      ],
+      "labels": [
+        "noun"
+      ],
+      "explanation": {
+        "en": "Feminine.",
+        "ru": "В греческом женский род.",
+        "zh": "阴性名词。"
+      },
+      "answerDisplay": "η Δάφνη"
+    },
+    {
+      "id": "transport-neo-faliro",
+      "collection": "words-names",
+      "greek": "Νέο Φάληρο",
+      "prompt": {
+        "en": "Neo Faliro",
+        "ru": "Нео-Фалиро",
+        "zh": "新法利罗"
+      },
+      "pronunciation": {
+        "en": "NE-o FA-li-ro",
+        "ru": "НЭ-о ФА-ли-ро"
+      },
+      "themes": [
+        "places",
+        "travel"
+      ],
+      "labels": [
+        "noun"
+      ],
+      "explanation": {
+        "en": "Neuter.",
+        "ru": "В греческом средний род.",
+        "zh": "中性名词。"
+      },
+      "answerDisplay": "το Νέο Φάληρο"
+    },
+    {
+      "id": "transport-agios-ioannis",
+      "collection": "words-names",
+      "greek": "Άγιος Ιωάννης",
+      "prompt": {
+        "en": "Agios Ioannis (Athens station)",
+        "ru": "Айос-Иоаннис (станция в Афинах)",
+        "zh": "圣约安尼斯站（雅典）"
+      },
+      "pronunciation": {
+        "en": "A-yios i-o-A-nis",
+        "ru": "А-йос и-о-А-нис"
+      },
+      "themes": [
+        "places",
+        "travel"
+      ],
+      "labels": [
+        "noun"
+      ],
+      "explanation": {
+        "en": "Masculine.",
+        "ru": "В греческом мужской род.",
+        "zh": "阳性名词。"
+      },
+      "answerDisplay": "ο Άγιος Ιωάννης"
+    },
+    {
+      "id": "transport-acropolis",
+      "collection": "words-names",
+      "greek": "Ακρόπολη",
+      "prompt": {
+        "en": "Acropolis",
+        "ru": "Акрополь",
+        "zh": "卫城"
+      },
+      "pronunciation": {
+        "en": "a-KRO-po-li",
+        "ru": "а-КРО-по-ли"
+      },
+      "themes": [
+        "places",
+        "travel"
+      ],
+      "labels": [
+        "noun"
+      ],
+      "explanation": {
+        "en": "Feminine.",
+        "ru": "В греческом женский род.",
+        "zh": "阴性名词。"
+      },
+      "answerDisplay": "η Ακρόπολη"
+    },
+    {
+      "id": "transport-agios-antonios",
+      "collection": "words-names",
+      "greek": "Άγιος Αντώνιος",
+      "prompt": {
+        "en": "Agios Antonios (Athens station)",
+        "ru": "Айос-Антониос (станция в Афинах)",
+        "zh": "圣安东尼奥斯站（雅典）"
+      },
+      "pronunciation": {
+        "en": "A-yios an-TO-ni-os",
+        "ru": "А-йос ан-ТО-ни-ос"
+      },
+      "themes": [
+        "places",
+        "travel"
+      ],
+      "labels": [
+        "noun"
+      ],
+      "explanation": {
+        "en": "Masculine.",
+        "ru": "В греческом мужской род.",
+        "zh": "阳性名词。"
+      },
+      "answerDisplay": "ο Άγιος Αντώνιος"
+    },
+    {
+      "id": "transport-aigaleo",
+      "collection": "words-names",
+      "greek": "Αιγάλεω",
+      "prompt": {
+        "en": "Aigaleo (Athens suburb)",
+        "ru": "Эгалео (пригород Афин)",
+        "zh": "埃加莱奥（雅典郊区）"
+      },
+      "pronunciation": {
+        "en": "e-GHA-le-o",
+        "ru": "э-ГА-лэ-о"
+      },
+      "themes": [
+        "places",
+        "travel"
+      ],
+      "labels": [
+        "noun"
+      ],
+      "explanation": {
+        "en": "Neuter.",
+        "ru": "В греческом средний род.",
+        "zh": "中性名词。"
+      },
+      "answerDisplay": "το Αιγάλεω"
+    },
+    {
+      "id": "transport-faliro",
+      "collection": "words-names",
+      "greek": "Φάληρο",
+      "prompt": {
+        "en": "Faliro",
+        "ru": "Фалиро",
+        "zh": "法利罗"
+      },
+      "pronunciation": {
+        "en": "FA-li-ro",
+        "ru": "ФА-ли-ро"
+      },
+      "themes": [
+        "places",
+        "travel"
+      ],
+      "labels": [
+        "noun"
+      ],
+      "explanation": {
+        "en": "Neuter.",
+        "ru": "В греческом средний род.",
+        "zh": "中性名词。"
+      },
+      "answerDisplay": "το Φάληρο"
+    },
+    {
+      "id": "transport-langadas",
+      "collection": "words-names",
+      "greek": "Λαγκαδάς",
+      "prompt": {
+        "en": "Langadas",
+        "ru": "Лангадас",
+        "zh": "兰加达斯"
+      },
+      "pronunciation": {
+        "en": "lan-ga-DHAS",
+        "ru": "лан-га-ДАС"
+      },
+      "themes": [
+        "places",
+        "travel"
+      ],
+      "labels": [
+        "noun"
+      ],
+      "explanation": {
+        "en": "Masculine.",
+        "ru": "В греческом мужской род.",
+        "zh": "阳性名词。"
+      },
+      "answerDisplay": "ο Λαγκαδάς"
+    },
+    {
+      "id": "transport-kamara",
+      "collection": "words-names",
+      "greek": "Καμάρα",
+      "prompt": {
+        "en": "Kamara (arch / landmark in Thessaloniki)",
+        "ru": "Камара (арка в Салониках)",
+        "zh": "卡马拉拱门（塞萨洛尼基）"
+      },
+      "pronunciation": {
+        "en": "ka-MA-ra",
+        "ru": "ка-МА-ра"
+      },
+      "themes": [
+        "places",
+        "travel"
+      ],
+      "labels": [
+        "noun"
+      ],
+      "explanation": {
+        "en": "Feminine.",
+        "ru": "В греческом женский род.",
+        "zh": "阴性名词。"
+      },
+      "answerDisplay": "η Καμάρα"
+    },
+    {
+      "id": "transport-thessaloniki",
+      "collection": "words-names",
+      "greek": "Θεσσαλονίκη",
+      "prompt": {
+        "en": "Thessaloniki",
+        "ru": "Салоники",
+        "zh": "塞萨洛尼基"
+      },
+      "pronunciation": {
+        "en": "thes-sa-lo-NI-ki",
+        "ru": "тэс-са-ло-НИ-ки"
+      },
+      "themes": [
+        "places",
+        "travel"
+      ],
+      "labels": [
+        "noun"
+      ],
+      "explanation": {
+        "en": "Feminine.",
+        "ru": "В греческом женский род.",
+        "zh": "阴性名词。"
+      },
+      "answerDisplay": "η Θεσσαλονίκη"
+    },
+    {
+      "id": "transport-excuse-me",
+      "collection": "phrases-social",
+      "greek": "Με συγχωρείτε.",
+      "prompt": {
+        "en": "Excuse me (politely, addressing a stranger).",
+        "ru": "Извините (вежливое обращение к незнакомому человеку).",
+        "zh": "请问／不好意思（礼貌地向陌生人问话）。"
+      },
+      "pronunciation": {
+        "en": "me sin-ho-RI-te",
+        "ru": "мэ син-хо-РИ-тэ"
+      },
+      "themes": [
+        "travel"
+      ],
+      "explanation": {
+        "en": "A polite way to get someone’s attention before asking for help.",
+        "ru": "Вежливое начало вопроса, например когда спрашиваете дорогу.",
+        "zh": "问路或求助时引起对方注意的礼貌用语。"
+      }
+    },
+    {
+      "id": "transport-here-you-are",
+      "collection": "phrases-social",
+      "greek": "Ορίστε.",
+      "prompt": {
+        "en": "Here you are (handing something over).",
+        "ru": "Вот, пожалуйста (передавая что-либо).",
+        "zh": "给您（递东西时）。"
+      },
+      "pronunciation": {
+        "en": "o-RIS-te",
+        "ru": "о-РИС-тэ"
+      },
+      "themes": [
+        "travel"
+      ]
+    },
+    {
+      "id": "transport-how-much",
+      "collection": "phrases-everyday",
+      "greek": "Πόσο κάνει;",
+      "prompt": {
+        "en": "How much does it cost?",
+        "ru": "Сколько это стоит?",
+        "zh": "这个多少钱？"
+      },
+      "pronunciation": {
+        "en": "PO-so KA-ni",
+        "ru": "ПО-со КА-ни"
+      },
+      "themes": [
+        "travel"
+      ]
+    },
+    {
+      "id": "transport-what-time",
+      "collection": "phrases-everyday",
+      "greek": "Τι ώρα είναι;",
+      "prompt": {
+        "en": "What time is it?",
+        "ru": "Который час?",
+        "zh": "现在几点？"
+      },
+      "pronunciation": {
+        "en": "ti O-ra I-ne",
+        "ru": "ти О-ра И-нэ"
+      },
+      "themes": [
+        "time"
+      ]
+    },
+    {
+      "id": "transport-eight-ten",
+      "collection": "phrases-everyday",
+      "greek": "Είναι οχτώ και δέκα.",
+      "prompt": {
+        "en": "It is eight ten (8:10).",
+        "ru": "Сейчас восемь десять (8:10).",
+        "zh": "现在八点十分。"
+      },
+      "pronunciation": {
+        "en": "I-ne oh-TO ke DHE-ka",
+        "ru": "И-нэ ох-ТО кэ ДЭ-ка"
+      },
+      "themes": [
+        "time"
+      ],
+      "alternatives": [
+        "Είναι οκτώ και δέκα.",
+        "Οχτώ και δέκα.",
+        "Οκτώ και δέκα."
+      ]
+    },
+    {
+      "id": "transport-metro-tickets",
+      "collection": "phrases-everyday",
+      "greek": "Μήπως έχετε εισιτήρια για το μετρό;",
+      "prompt": {
+        "en": "Do you happen to have metro tickets?",
+        "ru": "У вас случайно нет билетов на метро?",
+        "zh": "请问您有地铁票吗？"
+      },
+      "pronunciation": {
+        "en": "MI-pos E-he-te i-si-TI-ria ya to me-TRO",
+        "ru": "МИ-пос Э-хэ-тэ и-си-ТИ-рья я то мэ-ТРО"
+      },
+      "themes": [
+        "travel"
+      ]
+    },
+    {
+      "id": "transport-how-often-bus",
+      "collection": "phrases-everyday",
+      "greek": "Κάθε πότε περνάει το λεωφορείο;",
+      "prompt": {
+        "en": "How often does the bus come?",
+        "ru": "Как часто ходит автобус?",
+        "zh": "公共汽车多久来一趟？"
+      },
+      "pronunciation": {
+        "en": "KA-the PO-te per-NA-i to le-o-fo-RI-o",
+        "ru": "КА-тэ ПО-тэ пэр-НА-и то лэ-о-фо-РИ-о"
+      },
+      "themes": [
+        "travel",
+        "time"
+      ],
+      "explanation": {
+        "en": "Κάθε πότε asks about frequency.",
+        "ru": "Κάθε πότε — «как часто».",
+        "zh": "Κάθε πότε 用来询问频率。"
+      },
+      "alternatives": [
+        "Κάθε πότε περνά το λεωφορείο;"
+      ]
+    },
+    {
+      "id": "transport-every-ten-minutes",
+      "collection": "phrases-everyday",
+      "greek": "Περνάει κάθε δέκα λεπτά.",
+      "prompt": {
+        "en": "It comes every ten minutes (a bus).",
+        "ru": "Он ходит каждые десять минут (об автобусе).",
+        "zh": "每十分钟一班（公共汽车）。"
+      },
+      "pronunciation": {
+        "en": "per-NA-i KA-the DHE-ka lep-TA",
+        "ru": "пэр-НА-и КА-тэ ДЭ-ка лэп-ТА"
+      },
+      "themes": [
+        "travel",
+        "time"
+      ],
+      "alternatives": [
+        "Περνά κάθε δέκα λεπτά."
+      ]
+    },
+    {
+      "id": "transport-go-for-coffee",
+      "collection": "phrases-everyday",
+      "greek": "Πάμε για καφέ.",
+      "prompt": {
+        "en": "Let’s go for coffee.",
+        "ru": "Пойдём выпьем кофе.",
+        "zh": "我们去喝咖啡吧。"
+      },
+      "pronunciation": {
+        "en": "PA-me ya ka-FE",
+        "ru": "ПА-мэ я ка-ФЭ"
+      },
+      "themes": [
+        "food",
+        "conversation"
+      ]
+    },
+    {
+      "id": "transport-go-for-walk",
+      "collection": "phrases-everyday",
+      "greek": "Πάμε βόλτα.",
+      "prompt": {
+        "en": "Let’s go for a walk.",
+        "ru": "Пойдём погуляем.",
+        "zh": "我们去散步吧。"
+      },
+      "pronunciation": {
+        "en": "PA-me VOL-ta",
+        "ru": "ПА-мэ ВОЛ-та"
+      },
+      "themes": [
+        "conversation"
+      ],
+      "alternatives": [
+        "Πάμε μια βόλτα.",
+        "Πάμε μία βόλτα."
+      ]
+    },
+    {
+      "id": "transport-got-it",
+      "collection": "phrases-classroom",
+      "greek": "Κατάλαβα.",
+      "prompt": {
+        "en": "I got it / I understand now.",
+        "ru": "Понятно / теперь понимаю.",
+        "zh": "明白了。"
+      },
+      "pronunciation": {
+        "en": "ka-TA-la-va",
+        "ru": "ка-ТА-ла-ва"
+      },
+      "themes": [
+        "conversation"
+      ],
+      "explanation": {
+        "en": "A common reply, literally “I understood”: a past form of καταλαβαίνω.",
+        "ru": "Обычный ответ, буквально «я понял»: форма прошедшего времени от καταλαβαίνω.",
+        "zh": "常用答语，字面意思是“我理解了”，是 καταλαβαίνω 的过去时形式。"
+      }
+    },
+    {
+      "id": "transport-hobbies-question",
+      "collection": "phrases-social",
+      "greek": "Τι χόμπι έχεις;",
+      "prompt": {
+        "en": "What hobbies do you have?",
+        "ru": "Какие у тебя хобби?",
+        "zh": "你有什么爱好？"
+      },
+      "pronunciation": {
+        "en": "ti HO-bi E-his",
+        "ru": "ти ХО-би Э-хис"
+      },
+      "themes": [
+        "conversation"
+      ]
+    },
+    {
+      "id": "transport-interests-question",
+      "collection": "phrases-social",
+      "greek": "Τι ενδιαφέροντα έχεις;",
+      "prompt": {
+        "en": "What are your interests?",
+        "ru": "Чем ты увлекаешься?",
+        "zh": "你对什么感兴趣？"
+      },
+      "pronunciation": {
+        "en": "ti en-dhia-FE-ron-da E-his",
+        "ru": "ти эн-дья-ФЭ-рон-да Э-хис"
+      },
+      "themes": [
+        "conversation"
+      ]
+    },
+    {
+      "id": "transport-go-i",
+      "collection": "grammar-verbs",
+      "greek": "Πάω στην δουλειά.",
+      "prompt": {
+        "en": "I go to work.",
+        "ru": "Я иду на работу.",
+        "zh": "我去上班。"
+      },
+      "pronunciation": {
+        "en": "PA-o sti dhu-LIA",
+        "ru": "ПА-о сти ду-ЛЬЯ"
+      },
+      "themes": [
+        "travel"
+      ],
+      "explanation": {
+        "en": "Present tense: εγώ πάω / πηγαίνω. Πάω is irregular, not a B1 verb; both patterns are accepted.",
+        "ru": "Настоящее время: εγώ πάω / πηγαίνω. Πάω — неправильный глагол, не модель B1. Принимаются обе формы.",
+        "zh": "现在时：εγώ πάω / πηγαίνω。Πάω 是不规则动词，不属于 B1 类型，两种形式均可。"
+      },
+      "alternatives": [
+        "Πηγαίνω στην δουλειά."
+      ],
+      "acceptedAnswers": [
+        "πάω στη δουλειά.",
+        "Εγώ πάω στην δουλειά.",
+        "Εγώ πάω στη δουλειά.",
+        "πηγαίνω στην δουλειά.",
+        "πηγαίνω στη δουλειά.",
+        "Εγώ πηγαίνω στην δουλειά.",
+        "Εγώ πηγαίνω στη δουλειά."
+      ]
+    },
+    {
+      "id": "transport-go-you",
+      "collection": "grammar-verbs",
+      "greek": "Πας στην δουλειά.",
+      "prompt": {
+        "en": "You go to work (one person, informal).",
+        "ru": "Ты идёшь на работу.",
+        "zh": "你去上班。"
+      },
+      "pronunciation": {
+        "en": "pas sti dhu-LIA",
+        "ru": "пас сти ду-ЛЬЯ"
+      },
+      "themes": [
+        "travel"
+      ],
+      "explanation": {
+        "en": "Present tense: εσύ πας / πηγαίνεις. Πάω is irregular, not a B1 verb; both patterns are accepted.",
+        "ru": "Настоящее время: εσύ πας / πηγαίνεις. Πάω — неправильный глагол, не модель B1. Принимаются обе формы.",
+        "zh": "现在时：εσύ πας / πηγαίνεις。Πάω 是不规则动词，不属于 B1 类型，两种形式均可。"
+      },
+      "alternatives": [
+        "Πηγαίνεις στην δουλειά."
+      ],
+      "acceptedAnswers": [
+        "πας στη δουλειά.",
+        "Εσύ πας στην δουλειά.",
+        "Εσύ πας στη δουλειά.",
+        "πηγαίνεις στην δουλειά.",
+        "πηγαίνεις στη δουλειά.",
+        "Εσύ πηγαίνεις στην δουλειά.",
+        "Εσύ πηγαίνεις στη δουλειά."
+      ]
+    },
+    {
+      "id": "transport-go-he",
+      "collection": "grammar-verbs",
+      "greek": "Αυτός πάει στην δουλειά.",
+      "prompt": {
+        "en": "He goes to work.",
+        "ru": "Он идёт на работу.",
+        "zh": "他去上班。"
+      },
+      "pronunciation": {
+        "en": "af-TOS PA-i sti dhu-LIA",
+        "ru": "аф-ТОС ПА-и сти ду-ЛЬЯ"
+      },
+      "themes": [
+        "travel"
+      ],
+      "explanation": {
+        "en": "Present tense: αυτός πάει / πηγαίνει. Πάω is irregular, not a B1 verb; both patterns are accepted.",
+        "ru": "Настоящее время: αυτός πάει / πηγαίνει. Πάω — неправильный глагол, не модель B1. Принимаются обе формы.",
+        "zh": "现在时：αυτός πάει / πηγαίνει。Πάω 是不规则动词，不属于 B1 类型，两种形式均可。"
+      },
+      "alternatives": [
+        "Πηγαίνει στην δουλειά."
+      ],
+      "acceptedAnswers": [
+        "πάει στην δουλειά.",
+        "πάει στη δουλειά.",
+        "Αυτός πάει στη δουλειά.",
+        "πηγαίνει στην δουλειά.",
+        "πηγαίνει στη δουλειά.",
+        "Αυτός πηγαίνει στην δουλειά.",
+        "Αυτός πηγαίνει στη δουλειά."
+      ]
+    },
+    {
+      "id": "transport-go-we",
+      "collection": "grammar-verbs",
+      "greek": "Πάμε στην δουλειά.",
+      "prompt": {
+        "en": "We go to work.",
+        "ru": "Мы идём на работу.",
+        "zh": "我们去上班。"
+      },
+      "pronunciation": {
+        "en": "PA-me sti dhu-LIA",
+        "ru": "ПА-мэ сти ду-ЛЬЯ"
+      },
+      "themes": [
+        "travel"
+      ],
+      "explanation": {
+        "en": "Present tense: εμείς πάμε / πηγαίνουμε. Πάω is irregular, not a B1 verb; both patterns are accepted.",
+        "ru": "Настоящее время: εμείς πάμε / πηγαίνουμε. Πάω — неправильный глагол, не модель B1. Принимаются обе формы.",
+        "zh": "现在时：εμείς πάμε / πηγαίνουμε。Πάω 是不规则动词，不属于 B1 类型，两种形式均可。"
+      },
+      "alternatives": [
+        "Πηγαίνουμε στην δουλειά."
+      ],
+      "acceptedAnswers": [
+        "πάμε στη δουλειά.",
+        "Εμείς πάμε στην δουλειά.",
+        "Εμείς πάμε στη δουλειά.",
+        "πηγαίνουμε στην δουλειά.",
+        "πηγαίνουμε στη δουλειά.",
+        "Εμείς πηγαίνουμε στην δουλειά.",
+        "Εμείς πηγαίνουμε στη δουλειά."
+      ]
+    },
+    {
+      "id": "transport-go-you-plural",
+      "collection": "grammar-verbs",
+      "greek": "Πάτε στην δουλειά.",
+      "prompt": {
+        "en": "You go to work (several people).",
+        "ru": "Вы идёте на работу (несколько человек).",
+        "zh": "你们去上班。"
+      },
+      "pronunciation": {
+        "en": "PA-te sti dhu-LIA",
+        "ru": "ПА-тэ сти ду-ЛЬЯ"
+      },
+      "themes": [
+        "travel"
+      ],
+      "explanation": {
+        "en": "Present tense: εσείς πάτε / πηγαίνετε. Πάω is irregular, not a B1 verb; both patterns are accepted.",
+        "ru": "Настоящее время: εσείς πάτε / πηγαίνετε. Πάω — неправильный глагол, не модель B1. Принимаются обе формы.",
+        "zh": "现在时：εσείς πάτε / πηγαίνετε。Πάω 是不规则动词，不属于 B1 类型，两种形式均可。"
+      },
+      "alternatives": [
+        "Πηγαίνετε στην δουλειά."
+      ],
+      "acceptedAnswers": [
+        "πάτε στη δουλειά.",
+        "Εσείς πάτε στην δουλειά.",
+        "Εσείς πάτε στη δουλειά.",
+        "πηγαίνετε στην δουλειά.",
+        "πηγαίνετε στη δουλειά.",
+        "Εσείς πηγαίνετε στην δουλειά.",
+        "Εσείς πηγαίνετε στη δουλειά."
+      ]
+    },
+    {
+      "id": "transport-go-they",
+      "collection": "grammar-verbs",
+      "greek": "Αυτοί πάνε στην δουλειά.",
+      "prompt": {
+        "en": "They go to work (men or a mixed group).",
+        "ru": "Они идут на работу (мужчины или смешанная группа).",
+        "zh": "他们去上班。"
+      },
+      "pronunciation": {
+        "en": "af-TI PA-ne sti dhu-LIA",
+        "ru": "аф-ТИ ПА-нэ сти ду-ЛЬЯ"
+      },
+      "themes": [
+        "travel"
+      ],
+      "explanation": {
+        "en": "Present tense: αυτοί πάνε / πηγαίνουν. Πάω is irregular, not a B1 verb; both patterns are accepted.",
+        "ru": "Настоящее время: αυτοί πάνε / πηγαίνουν. Πάω — неправильный глагол, не модель B1. Принимаются обе формы.",
+        "zh": "现在时：αυτοί πάνε / πηγαίνουν。Πάω 是不规则动词，不属于 B1 类型，两种形式均可。"
+      },
+      "alternatives": [
+        "Πηγαίνουν στην δουλειά."
+      ],
+      "acceptedAnswers": [
+        "πάνε στην δουλειά.",
+        "πάνε στη δουλειά.",
+        "Αυτοί πάνε στη δουλειά.",
+        "πηγαίνουν στην δουλειά.",
+        "πηγαίνουν στη δουλειά.",
+        "Αυτοί πηγαίνουν στην δουλειά.",
+        "Αυτοί πηγαίνουν στη δουλειά.",
+        "πηγαίνουνε στην δουλειά.",
+        "πηγαίνουνε στη δουλειά.",
+        "Αυτοί πηγαίνουνε στην δουλειά.",
+        "Αυτοί πηγαίνουνε στη δουλειά."
+      ]
+    },
+    {
+      "id": "transport-to-centre",
+      "collection": "grammar-location",
+      "greek": "Πάω στο κέντρο.",
+      "prompt": {
+        "en": "I am going to the city centre.",
+        "ru": "Я иду в центр города.",
+        "zh": "我去市中心。"
+      },
+      "pronunciation": {
+        "en": "PA-o sto KEN-dro",
+        "ru": "ПА-о сто КЭН-дро"
+      },
+      "themes": [
+        "travel"
+      ],
+      "explanation": {
+        "en": "Σε + το becomes στο; here it marks the destination.",
+        "ru": "Σε + το = στο. Здесь предлог указывает, куда направляется человек.",
+        "zh": "Σε + το 合为 στο，这里表示目的地。"
+      },
+      "alternatives": [
+        "Πηγαίνω στο κέντρο.",
+        "Εγώ πάω στο κέντρο.",
+        "Εγώ πηγαίνω στο κέντρο."
+      ]
+    },
+    {
+      "id": "transport-to-station",
+      "collection": "grammar-location",
+      "greek": "Πάω στον σταθμό.",
+      "prompt": {
+        "en": "I am going to the station.",
+        "ru": "Я иду на станцию.",
+        "zh": "我去车站。"
+      },
+      "pronunciation": {
+        "en": "PA-o ston stath-MO",
+        "ru": "ПА-о стон стат-МО"
+      },
+      "themes": [
+        "travel"
+      ],
+      "explanation": {
+        "en": "Σε + τον becomes στον. The destination takes accusative: ο σταθμός → τον σταθμό.",
+        "ru": "Σε + τον = στον. После предлога винительный: ο σταθμός → τον σταθμό.",
+        "zh": "Σε + τον 合为 στον，名词用宾格：ο σταθμός → τον σταθμό。"
+      },
+      "alternatives": [
+        "Πηγαίνω στον σταθμό.",
+        "Εγώ πάω στον σταθμό.",
+        "Εγώ πηγαίνω στον σταθμό."
+      ]
+    },
+    {
+      "id": "transport-to-market",
+      "collection": "grammar-location",
+      "greek": "Πάω στην λαϊκή.",
+      "prompt": {
+        "en": "I am going to the street market.",
+        "ru": "Я иду на уличный рынок.",
+        "zh": "我去街市。"
+      },
+      "pronunciation": {
+        "en": "PA-o stin la-i-KI",
+        "ru": "ПА-о стин ла-и-КИ"
+      },
+      "themes": [
+        "travel"
+      ],
+      "explanation": {
+        "en": "Σε + την becomes στην. Λαϊκή is feminine.",
+        "ru": "Σε + την = στην. Λαϊκή — женского рода.",
+        "zh": "Σε + την 合为 στην。Λαϊκή 是阴性。"
+      },
+      "alternatives": [
+        "Πηγαίνω στην λαϊκή.",
+        "Πάω στη λαϊκή.",
+        "Πηγαίνω στη λαϊκή.",
+        "Εγώ πάω στην λαϊκή.",
+        "Εγώ πηγαίνω στην λαϊκή.",
+        "Εγώ πάω στη λαϊκή.",
+        "Εγώ πηγαίνω στη λαϊκή."
+      ]
+    },
+    {
+      "id": "transport-through-centre",
+      "collection": "grammar-location",
+      "greek": "Το λεωφορείο περνάει από το κέντρο.",
+      "prompt": {
+        "en": "The bus passes through the city centre.",
+        "ru": "Автобус проезжает через центр города.",
+        "zh": "公共汽车经过市中心。"
+      },
+      "pronunciation": {
+        "en": "to le-o-fo-RI-o per-NA-i a-PO to KEN-dro",
+        "ru": "то лэ-о-фо-РИ-о пэр-НА-и а-ПО то КЭН-дро"
+      },
+      "themes": [
+        "travel"
+      ],
+      "explanation": {
+        "en": "With περνάω, από marks the place passed through or by; it does not always mean “from”.",
+        "ru": "С περνάω предлог από указывает место, через которое проезжают. Здесь это «через», а не «из».",
+        "zh": "与 περνάω 连用时，από 表示经过的地方，并不总表示“从”。"
+      },
+      "alternatives": [
+        "Το λεωφορείο περνά από το κέντρο."
+      ]
+    },
+    {
+      "id": "transport-by-bus",
+      "collection": "grammar-location",
+      "greek": "Πάω με το λεωφορείο.",
+      "prompt": {
+        "en": "I am going by bus.",
+        "ru": "Я еду на автобусе.",
+        "zh": "我坐公共汽车去。"
+      },
+      "pronunciation": {
+        "en": "PA-o me to le-o-fo-RI-o",
+        "ru": "ПА-о мэ то лэ-о-фо-РИ-о"
+      },
+      "themes": [
+        "travel"
+      ],
+      "explanation": {
+        "en": "Με + the vehicle with its article expresses the means of transport.",
+        "ru": "Με и название транспорта с артиклем означают, на чём вы едете.",
+        "zh": "Με 加带冠词的交通工具表示出行方式。"
+      },
+      "alternatives": [
+        "Πηγαίνω με το λεωφορείο.",
+        "Εγώ πάω με το λεωφορείο.",
+        "Εγώ πηγαίνω με το λεωφορείο."
+      ]
+    },
+    {
+      "id": "transport-on-foot",
+      "collection": "grammar-location",
+      "greek": "Πάω με τα πόδια.",
+      "prompt": {
+        "en": "I am going on foot.",
+        "ru": "Я иду пешком.",
+        "zh": "我步行去。"
+      },
+      "pronunciation": {
+        "en": "PA-o me ta PO-dhia",
+        "ru": "ПА-о мэ та ПО-дья"
+      },
+      "themes": [
+        "travel"
+      ],
+      "explanation": {
+        "en": "The fixed expression με τα πόδια means on foot; πόδια is plural.",
+        "ru": "Устойчивое выражение με τα πόδια означает «пешком». Πόδια — множественное число.",
+        "zh": "固定表达 με τα πόδια 表示步行，πόδια 是复数。"
+      },
+      "alternatives": [
+        "Πηγαίνω με τα πόδια.",
+        "Εγώ πάω με τα πόδια.",
+        "Εγώ πηγαίνω με τα πόδια."
+      ]
+    },
+    {
+      "id": "transport-from-station",
+      "collection": "grammar-location",
+      "greek": "Από τον σταθμό στο σπίτι.",
+      "prompt": {
+        "en": "From the station to the house.",
+        "ru": "Со станции до дома.",
+        "zh": "从车站到家。"
+      },
+      "pronunciation": {
+        "en": "a-PO ton stath-MO sto SPI-ti",
+        "ru": "а-ПО тон стат-МО сто СПИ-ти"
+      },
+      "themes": [
+        "travel"
+      ],
+      "explanation": {
+        "en": "Από marks the starting point; σε marks the destination. Both take accusative here.",
+        "ru": "Από обозначает исходную точку, σε — пункт назначения. После обоих предлогов здесь винительный падеж.",
+        "zh": "Από 表示起点，σε 表示终点，两者之后都用宾格。"
+      }
+    },
+    {
+      "id": "transport-same-ticket",
+      "collection": "grammar-gender",
+      "greek": "Είναι το ίδιο εισιτήριο.",
+      "prompt": {
+        "en": "It is the same ticket.",
+        "ru": "Это тот же самый билет.",
+        "zh": "这是同一张票。"
+      },
+      "pronunciation": {
+        "en": "I-ne to I-dhio i-si-TI-ri-o",
+        "ru": "И-нэ то И-дьо и-си-ТИ-ри-о"
+      },
+      "themes": [
+        "travel"
+      ],
+      "explanation": {
+        "en": "Ίδιο agrees with the neuter noun εισιτήριο.",
+        "ru": "Ίδιο согласуется с εισιτήριο: в греческом «билет» среднего рода.",
+        "zh": "Ίδιο 与中性名词 εισιτήριο 保持一致。"
+      }
+    },
+    {
+      "id": "transport-next-bus",
+      "collection": "grammar-gender",
+      "greek": "Το επόμενο λεωφορείο.",
+      "prompt": {
+        "en": "The next bus.",
+        "ru": "Следующий автобус.",
+        "zh": "下一班公共汽车。"
+      },
+      "pronunciation": {
+        "en": "to e-PO-me-no le-o-fo-RI-o",
+        "ru": "то э-ПО-мэ-но лэ-о-фо-РИ-о"
+      },
+      "themes": [
+        "travel"
+      ],
+      "explanation": {
+        "en": "Λεωφορείο is neuter, so the adjective is επόμενο.",
+        "ru": "Λεωφορείο среднего рода, поэтому прилагательное — επόμενο.",
+        "zh": "Λεωφορείο 为中性，所以形容词用 επόμενο。"
+      }
+    },
+    {
+      "id": "transport-in-fifteen",
+      "collection": "grammar-location",
+      "greek": "Φτάνει σε δεκαπέντε λεπτά.",
+      "prompt": {
+        "en": "It arrives in fifteen minutes.",
+        "ru": "Он прибывает через пятнадцать минут (об автобусе).",
+        "zh": "它十五分钟后到（公共汽车）。"
+      },
+      "pronunciation": {
+        "en": "FTA-ni se dhe-ka-PEN-de lep-TA",
+        "ru": "ФТА-ни сэ дэ-ка-ПЭН-дэ лэп-ТА"
+      },
+      "themes": [
+        "travel",
+        "time"
+      ],
+      "explanation": {
+        "en": "Σε + a length of time means in / after that interval, unlike κάθε (every).",
+        "ru": "Σε с промежутком времени означает «через», а κάθε — «каждые».",
+        "zh": "Σε 加时长表示“过多久”，κάθε 表示“每隔多久”。"
+      }
+    },
+    {
+      "id": "transport-late-question",
+      "collection": "grammar-questions",
+      "greek": "Αργεί το επόμενο λεωφορείο;",
+      "prompt": {
+        "en": "Will the next bus take long to come?",
+        "ru": "Следующий автобус ещё долго ждать?",
+        "zh": "下一班公共汽车还要等很久吗？"
+      },
+      "pronunciation": {
+        "en": "ar-GHI to e-PO-me-no le-o-fo-RI-o",
+        "ru": "ар-ГИ то э-ПО-мэ-но лэ-о-фо-РИ-о"
+      },
+      "themes": [
+        "travel",
+        "time"
+      ],
+      "explanation": {
+        "en": "Αργεί can ask whether something is still a long way off, not only whether it is behind schedule.",
+        "ru": "Αργεί здесь значит «ещё долго ждать». Это не обязательно вопрос об опоздании по расписанию.",
+        "zh": "Αργεί 在这里询问是否还要等很久，不一定是在问是否晚点。"
+      }
+    }
+  ]
+}
