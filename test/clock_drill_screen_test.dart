@@ -63,6 +63,11 @@ void main() {
     );
 
     await tapVisible(tester, find.text('Use phone keyboard'));
+    expect(tester.widget<TextField>(find.byKey(fieldKey)).readOnly, isFalse);
+    expect(
+      tester.widget<TextField>(find.byKey(fieldKey)).focusNode!.hasFocus,
+      isTrue,
+    );
     await tester.enterText(
       find.byKey(fieldKey),
       const GreekClockAnswer().display(time),
@@ -84,6 +89,11 @@ void main() {
       expect(time.slot, isNot(previous));
       expect(time.minute % 5, 0);
       expect(find.byKey(feedbackKey), findsNothing);
+      expect(tester.widget<TextField>(find.byKey(fieldKey)).readOnly, isFalse);
+      expect(
+        tester.widget<TextField>(find.byKey(fieldKey)).focusNode!.hasFocus,
+        isTrue,
+      );
       expect(
         tester.widget<TextField>(find.byKey(fieldKey)).controller!.text,
         isEmpty,

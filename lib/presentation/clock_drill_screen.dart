@@ -44,7 +44,17 @@ class _ClockDrillScreenState extends State<ClockDrillScreen> {
       _correct = null;
       _answer.clear();
     });
-    if (!_useGreekKeyboard) _focus.requestFocus();
+    _focusEditableInput();
+  }
+
+  void _focusEditableInput() {
+    // Rebuild the formerly read-only field before opening its web input
+    // connection. Focusing it earlier can leave the browser editor read-only.
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      if (mounted && !_useGreekKeyboard && _correct == null) {
+        _focus.requestFocus();
+      }
+    });
   }
 
   @override
@@ -161,7 +171,7 @@ class _ClockDrillScreenState extends State<ClockDrillScreen> {
                       onPressed: () {
                         _focus.unfocus();
                         setState(() => _useGreekKeyboard = !_useGreekKeyboard);
-                        if (!_useGreekKeyboard) _focus.requestFocus();
+                        _focusEditableInput();
                       },
                       icon: const Icon(Icons.keyboard_outlined, size: 17),
                       label: Text(
