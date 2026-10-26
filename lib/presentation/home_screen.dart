@@ -8,6 +8,7 @@ import '../domain/learning_progress.dart';
 import '../domain/vocabulary.dart';
 import 'alphabet_screen.dart';
 import 'app_strings.dart';
+import 'clock_drill_screen.dart';
 import 'grammar_screen.dart';
 import 'language_switch.dart';
 import 'study_screen.dart';
@@ -472,7 +473,23 @@ class _HomeScreenState extends State<HomeScreen> with WidgetsBindingObserver {
                   ),
                   const SizedBox(height: 12),
                 ],
-                const SizedBox(height: 8),
+                OutlinedButton.icon(
+                  key: const ValueKey('clock-drill'),
+                  onPressed: () => Navigator.of(context).push(
+                    MaterialPageRoute<void>(
+                      builder: (_) => const ClockDrillScreen(),
+                    ),
+                  ),
+                  icon: const Icon(Icons.schedule_rounded),
+                  label: Text(context.strings.clockDrill),
+                ),
+                const SizedBox(height: 6),
+                Text(
+                  context.strings.clockDrillDescription,
+                  textAlign: TextAlign.center,
+                  style: const TextStyle(fontSize: 12, color: Palette.muted),
+                ),
+                const SizedBox(height: 24),
                 Text(
                   widget.updates == null
                       ? context.strings.offlineFooter

@@ -339,6 +339,11 @@ void main() {
       expect(find.byType(TopicPicker), findsNothing);
       final home = tester.state(find.byType(HomeScreen));
       expect(home.mounted, isTrue);
+      await tester.scrollUntilVisible(
+        find.byKey(const ValueKey('collection-words')),
+        -150,
+        scrollable: find.byType(Scrollable).first,
+      );
       expect(find.text('Nouns'), findsOneWidget);
       expect(tester.takeException(), isNull);
     },

@@ -176,6 +176,25 @@ class AppStrings {
     '翻来覆去,这还得熬多久~',
   );
   String get hardMode => _pick('Hard mode', 'Сложный режим', '默写模式');
+  String get clockDrill => _pick('Clock drill', 'Тренировка часов', '时钟练习');
+  String get clockDrillDescription => _pick(
+    'Random times · Endless practice',
+    'Случайное время · Без ограничений',
+    '随机时间 · 无限练习',
+  );
+  String get clockQuestion =>
+      _pick('What time is it?', 'Который час?', '现在几点？');
+  String get clockInstructions => _pick(
+    'Write the time in Greek, using 1–12. Accents count.',
+    'Напишите время по-гречески, используя часы от 1 до 12. Ударения важны.',
+    '用希腊语写出时间，小时使用 1–12。重音必须正确。',
+  );
+  String clockReading(String time) => _pick(
+    'Analog clock showing $time',
+    'Стрелочные часы показывают $time',
+    '指针时钟显示 $time',
+  );
+  String get nextClock => _pick('Next clock', 'Следующие часы', '下一个时钟');
   String get hardDescription => _pick(
     'Write the answer in Greek.',
     'Напишите ответ по-гречески.',
