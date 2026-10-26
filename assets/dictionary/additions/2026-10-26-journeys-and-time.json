@@ -1,0 +1,1766 @@
+{
+  "schemaVersion": 1,
+  "addedWeek": "2026-10-26",
+  "words": [
+    {
+      "id": "journeys-exist",
+      "collection": "words-verbs",
+      "greek": "υπάρχω",
+      "prompt": {
+        "en": "I exist",
+        "ru": "Я существую",
+        "zh": "我存在"
+      },
+      "pronunciation": {
+        "en": "i-PAR-kho",
+        "ru": "и-ПАР-хо"
+      },
+      "themes": [
+        "places"
+      ],
+      "labels": [
+        "verb"
+      ],
+      "explanation": {
+        "en": "Υπάρχει means there is; υπάρχουν means there are.",
+        "ru": "Υπάρχει — «есть, имеется» об одном предмете; υπάρχουν — о нескольких.",
+        "zh": "Υπάρχει 表示“有”（单数），υπάρχουν 用于复数。"
+      }
+    },
+    {
+      "id": "journeys-try",
+      "collection": "words-verbs",
+      "greek": "δοκιμάζω",
+      "prompt": {
+        "en": "I try / taste / try on",
+        "ru": "Я пробую / примеряю",
+        "zh": "我尝试／品尝／试穿"
+      },
+      "pronunciation": {
+        "en": "dho-ki-MA-zo",
+        "ru": "до-ки-МА-зо"
+      },
+      "themes": [
+        "food",
+        "conversation"
+      ],
+      "labels": [
+        "verb"
+      ],
+      "explanation": {
+        "en": "Trying food, a drink or clothes; compare προσπαθώ, making an effort.",
+        "ru": "Пробую еду, напиток или примеряю одежду. Προσπαθώ — стараюсь, прилагаю усилия.",
+        "zh": "用于尝试食物、饮料或衣服；προσπαθώ 表示努力尝试。"
+      }
+    },
+    {
+      "id": "journeys-go-down",
+      "collection": "words-verbs",
+      "greek": "κατεβαίνω",
+      "prompt": {
+        "en": "I go down / get off",
+        "ru": "Я спускаюсь / выхожу из транспорта",
+        "zh": "我下去／下车"
+      },
+      "pronunciation": {
+        "en": "ka-te-VE-no",
+        "ru": "ка-тэ-ВЭ-но"
+      },
+      "themes": [
+        "travel"
+      ],
+      "labels": [
+        "verb"
+      ]
+    },
+    {
+      "id": "journeys-go-up",
+      "collection": "words-verbs",
+      "greek": "ανεβαίνω",
+      "prompt": {
+        "en": "I go up / get on",
+        "ru": "Я поднимаюсь / сажусь в транспорт",
+        "zh": "我上去／上车"
+      },
+      "pronunciation": {
+        "en": "a-ne-VE-no",
+        "ru": "а-нэ-ВЭ-но"
+      },
+      "themes": [
+        "travel"
+      ],
+      "labels": [
+        "verb"
+      ]
+    },
+    {
+      "id": "journeys-wake-up",
+      "collection": "words-verbs",
+      "greek": "ξυπνάω",
+      "prompt": {
+        "en": "I wake up",
+        "ru": "Я просыпаюсь",
+        "zh": "我醒来"
+      },
+      "pronunciation": {
+        "en": "ksi-PNA-o",
+        "ru": "кси-ПНА-о"
+      },
+      "themes": [
+        "home",
+        "time"
+      ],
+      "labels": [
+        "verb"
+      ],
+      "alternatives": [
+        "ξυπνώ"
+      ]
+    },
+    {
+      "id": "journeys-leave",
+      "collection": "words-verbs",
+      "greek": "φεύγω",
+      "prompt": {
+        "en": "I leave / depart",
+        "ru": "Я ухожу / уезжаю",
+        "zh": "我离开／出发"
+      },
+      "pronunciation": {
+        "en": "FEV-gho",
+        "ru": "ФЭВ-го"
+      },
+      "themes": [
+        "travel"
+      ],
+      "labels": [
+        "verb"
+      ]
+    },
+    {
+      "id": "journeys-start",
+      "collection": "words-verbs",
+      "greek": "ξεκινάω",
+      "prompt": {
+        "en": "I start / set off",
+        "ru": "Я начинаю / отправляюсь",
+        "zh": "我开始／出发"
+      },
+      "pronunciation": {
+        "en": "kse-ki-NA-o",
+        "ru": "ксэ-ки-НА-о"
+      },
+      "themes": [
+        "travel",
+        "time"
+      ],
+      "labels": [
+        "verb"
+      ],
+      "alternatives": [
+        "ξεκινώ"
+      ]
+    },
+    {
+      "id": "journeys-cost",
+      "collection": "words-verbs",
+      "greek": "κοστίζω",
+      "prompt": {
+        "en": "I cost (have a price)",
+        "ru": "Я стою (имею цену)",
+        "zh": "我值（某个价钱）"
+      },
+      "pronunciation": {
+        "en": "ko-STI-zo",
+        "ru": "ко-СТИ-зо"
+      },
+      "themes": [
+        "travel"
+      ],
+      "labels": [
+        "verb"
+      ],
+      "explanation": {
+        "en": "The dictionary form is first-person singular. For a ticket, use κοστίζει: it costs.",
+        "ru": "Здесь форма первого лица. О цене билета говорят κοστίζει — «он стоит».",
+        "zh": "此处为第一人称单数。谈论票价时用 κοστίζει（它值）。"
+      }
+    },
+    {
+      "id": "journeys-drive",
+      "collection": "words-verbs",
+      "greek": "οδηγώ",
+      "prompt": {
+        "en": "I drive",
+        "ru": "Я вожу",
+        "zh": "我驾驶"
+      },
+      "pronunciation": {
+        "en": "o-dhi-GHO",
+        "ru": "о-ди-ГО"
+      },
+      "themes": [
+        "travel"
+      ],
+      "labels": [
+        "verb"
+      ]
+    },
+    {
+      "id": "journeys-telephone",
+      "collection": "words-verbs",
+      "greek": "τηλεφωνώ",
+      "prompt": {
+        "en": "I phone / call",
+        "ru": "Я звоню по телефону",
+        "zh": "我打电话"
+      },
+      "pronunciation": {
+        "en": "ti-le-fo-NO",
+        "ru": "ти-лэ-фо-НО"
+      },
+      "themes": [
+        "phone"
+      ],
+      "labels": [
+        "verb"
+      ]
+    },
+    {
+      "id": "journeys-forgive",
+      "collection": "words-verbs",
+      "greek": "συγχωρώ",
+      "prompt": {
+        "en": "I forgive / excuse",
+        "ru": "Я прощаю",
+        "zh": "我原谅"
+      },
+      "pronunciation": {
+        "en": "sin-kho-RO",
+        "ru": "син-хо-РО"
+      },
+      "themes": [
+        "conversation"
+      ],
+      "labels": [
+        "verb"
+      ],
+      "explanation": {
+        "en": "Με συγχωρείτε is a polite way to say excuse me.",
+        "ru": "Με συγχωρείτε — вежливое «извините».",
+        "zh": "Με συγχωρείτε 是礼貌的“请原谅／打扰一下”。"
+      }
+    },
+    {
+      "id": "journeys-agree",
+      "collection": "words-verbs",
+      "greek": "συμφωνώ",
+      "prompt": {
+        "en": "I agree",
+        "ru": "Я соглашаюсь",
+        "zh": "我同意"
+      },
+      "pronunciation": {
+        "en": "sim-fo-NO",
+        "ru": "сим-фо-НО"
+      },
+      "themes": [
+        "conversation"
+      ],
+      "labels": [
+        "verb"
+      ]
+    },
+    {
+      "id": "journeys-disagree",
+      "collection": "words-verbs",
+      "greek": "διαφωνώ",
+      "prompt": {
+        "en": "I disagree",
+        "ru": "Я не соглашаюсь",
+        "zh": "我不同意"
+      },
+      "pronunciation": {
+        "en": "dhia-fo-NO",
+        "ru": "дья-фо-НО"
+      },
+      "themes": [
+        "conversation"
+      ],
+      "labels": [
+        "verb"
+      ]
+    },
+    {
+      "id": "journeys-make-effort",
+      "collection": "words-verbs",
+      "greek": "προσπαθώ",
+      "prompt": {
+        "en": "I try / make an effort",
+        "ru": "Я стараюсь / пытаюсь",
+        "zh": "我努力／尝试"
+      },
+      "pronunciation": {
+        "en": "pro-spa-THO",
+        "ru": "про-спа-ТО"
+      },
+      "themes": [
+        "conversation",
+        "classroom"
+      ],
+      "labels": [
+        "verb"
+      ],
+      "explanation": {
+        "en": "Making an effort to do something; δοκιμάζω means trying or testing something.",
+        "ru": "Стараюсь что-то сделать. Δοκιμάζω — пробую, испытываю что-то.",
+        "zh": "表示努力做某事；δοκιμάζω 表示试用、品尝等。"
+      }
+    },
+    {
+      "id": "journeys-explain",
+      "collection": "words-verbs",
+      "greek": "εξηγώ",
+      "prompt": {
+        "en": "I explain",
+        "ru": "Я объясняю",
+        "zh": "我解释"
+      },
+      "pronunciation": {
+        "en": "e-ksi-GHO",
+        "ru": "э-кси-ГО"
+      },
+      "themes": [
+        "classroom"
+      ],
+      "labels": [
+        "verb"
+      ]
+    },
+    {
+      "id": "journeys-hate",
+      "collection": "words-verbs",
+      "greek": "μισώ",
+      "prompt": {
+        "en": "I hate",
+        "ru": "Я ненавижу",
+        "zh": "我讨厌"
+      },
+      "pronunciation": {
+        "en": "mi-SO",
+        "ru": "ми-СО"
+      },
+      "themes": [
+        "conversation"
+      ],
+      "labels": [
+        "verb"
+      ]
+    },
+    {
+      "id": "journeys-request",
+      "collection": "words-verbs",
+      "greek": "παρακαλώ",
+      "prompt": {
+        "en": "I ask politely / beg",
+        "ru": "Я прошу / умоляю",
+        "zh": "我恳求"
+      },
+      "pronunciation": {
+        "en": "pa-ra-ka-LO",
+        "ru": "па-ра-ка-ЛО"
+      },
+      "themes": [
+        "conversation"
+      ],
+      "labels": [
+        "verb"
+      ],
+      "alternatives": [
+        "παρακαλάω"
+      ],
+      "explanation": {
+        "en": "As a verb it means asking someone to do something. On its own, Παρακαλώ also means please or you are welcome.",
+        "ru": "Глагол: прошу кого-то о чём-то. Отдельное Παρακαλώ также значит «пожалуйста» в просьбе или в ответ на благодарность.",
+        "zh": "作动词表示请求某人做某事；单独说 Παρακαλώ 也可表示“请”或“不客气”。"
+      }
+    },
+    {
+      "id": "journeys-thank",
+      "collection": "words-verbs",
+      "greek": "ευχαριστώ",
+      "prompt": {
+        "en": "I thank",
+        "ru": "Я благодарю",
+        "zh": "我感谢"
+      },
+      "pronunciation": {
+        "en": "ef-kha-ri-STO",
+        "ru": "эф-ха-ри-СТО"
+      },
+      "themes": [
+        "conversation"
+      ],
+      "labels": [
+        "verb"
+      ],
+      "explanation": {
+        "en": "Also used on its own as Thank you! The phrase card remains in Social conversations.",
+        "ru": "Также употребляется отдельно как «Спасибо!». Это выражение уже есть в разделе общения.",
+        "zh": "也可单独用来表示“谢谢！”。"
+      }
+    },
+    {
+      "id": "journeys-return",
+      "collection": "words-nouns",
+      "greek": "επιστροφή",
+      "prompt": {
+        "en": "Return / return journey",
+        "ru": "Возвращение / обратная поездка",
+        "zh": "返回／返程"
+      },
+      "pronunciation": {
+        "en": "e-pi-stro-FI",
+        "ru": "э-пи-стро-ФИ"
+      },
+      "themes": [
+        "travel"
+      ],
+      "answerDisplay": "η επιστροφή",
+      "labels": [
+        "noun"
+      ],
+      "explanation": {
+        "en": "Εισιτήριο με επιστροφή is a return ticket.",
+        "ru": "Εισιτήριο με επιστροφή — билет туда и обратно.",
+        "zh": "Εισιτήριο με επιστροφή 是往返票。"
+      }
+    },
+    {
+      "id": "journeys-midday",
+      "collection": "words-nouns",
+      "greek": "μεσημέρι",
+      "prompt": {
+        "en": "Midday / noon",
+        "ru": "Полдень",
+        "zh": "中午"
+      },
+      "pronunciation": {
+        "en": "me-si-ME-ri",
+        "ru": "мэ-си-МЭ-ри"
+      },
+      "themes": [
+        "time"
+      ],
+      "answerDisplay": "το μεσημέρι",
+      "labels": [
+        "noun"
+      ],
+      "explanation": {
+        "en": "Το μεσημέρι also means at midday.",
+        "ru": "Το μεσημέρι также означает «в полдень, днём».",
+        "zh": "Το μεσημέρι 也表示“在中午”。"
+      }
+    },
+    {
+      "id": "journeys-afternoon",
+      "collection": "words-nouns",
+      "greek": "απόγευμα",
+      "prompt": {
+        "en": "Afternoon",
+        "ru": "Время после полудня",
+        "zh": "下午"
+      },
+      "pronunciation": {
+        "en": "a-PO-yev-ma",
+        "ru": "а-ПО-йэв-ма"
+      },
+      "themes": [
+        "time"
+      ],
+      "answerDisplay": "το απόγευμα",
+      "labels": [
+        "noun"
+      ],
+      "explanation": {
+        "en": "Το απόγευμα also means in the afternoon.",
+        "ru": "Το απόγευμα — «после полудня», время между μεσημέρι и βράδυ.",
+        "zh": "Το απόγευμα 也表示“在下午”。"
+      }
+    },
+    {
+      "id": "journeys-night",
+      "collection": "words-nouns",
+      "greek": "νύχτα",
+      "prompt": {
+        "en": "Night",
+        "ru": "Ночь",
+        "zh": "夜晚"
+      },
+      "pronunciation": {
+        "en": "NIKH-ta",
+        "ru": "НИХ-та"
+      },
+      "themes": [
+        "time"
+      ],
+      "answerDisplay": "η νύχτα",
+      "labels": [
+        "noun"
+      ],
+      "explanation": {
+        "en": "Feminine. Την νύχτα means at night.",
+        "ru": "Женский род. Την νύχτα — «ночью».",
+        "zh": "阴性。Την νύχτα 表示“在夜里”。"
+      }
+    },
+    {
+      "id": "journeys-second",
+      "collection": "words-nouns",
+      "greek": "δευτερόλεπτο",
+      "prompt": {
+        "en": "Second (unit of time)",
+        "ru": "Секунда",
+        "zh": "秒"
+      },
+      "pronunciation": {
+        "en": "dhef-te-RO-lep-to",
+        "ru": "дэф-тэ-РО-лэп-то"
+      },
+      "themes": [
+        "time"
+      ],
+      "answerDisplay": "το δευτερόλεπτο",
+      "labels": [
+        "noun"
+      ],
+      "explanation": {
+        "en": "Neuter: το δευτερόλεπτο; plural τα δευτερόλεπτα.",
+        "ru": "В греческом средний род: το δευτερόλεπτο. Множественное число — τα δευτερόλεπτα.",
+        "zh": "中性：το δευτερόλεπτο；复数为 τα δευτερόλεπτα。"
+      }
+    },
+    {
+      "id": "journeys-quarter",
+      "collection": "words-nouns",
+      "greek": "τέταρτο",
+      "prompt": {
+        "en": "Quarter / quarter of an hour",
+        "ru": "Четверть / четверть часа",
+        "zh": "四分之一／一刻钟"
+      },
+      "pronunciation": {
+        "en": "TE-tar-to",
+        "ru": "ТЭ-тар-то"
+      },
+      "themes": [
+        "time"
+      ],
+      "answerDisplay": "το τέταρτο",
+      "labels": [
+        "noun"
+      ]
+    },
+    {
+      "id": "journeys-travel-agency",
+      "collection": "words-nouns",
+      "greek": "ταξιδιωτικό γραφείο",
+      "prompt": {
+        "en": "Travel agency",
+        "ru": "Туристическое агентство",
+        "zh": "旅行社"
+      },
+      "pronunciation": {
+        "en": "ta-ksi-dhio-ti-KO ghra-FI-o",
+        "ru": "та-кси-дьо-ти-КО гра-ФИ-о"
+      },
+      "themes": [
+        "travel",
+        "places"
+      ],
+      "answerDisplay": "το ταξιδιωτικό γραφείο",
+      "labels": [
+        "noun"
+      ]
+    },
+    {
+      "id": "journeys-thursday",
+      "collection": "words-nouns",
+      "greek": "Πέμπτη",
+      "prompt": {
+        "en": "Thursday",
+        "ru": "Четверг",
+        "zh": "星期四"
+      },
+      "pronunciation": {
+        "en": "PEM-pti",
+        "ru": "ПЭМ-пти"
+      },
+      "themes": [
+        "time"
+      ],
+      "answerDisplay": "η Πέμπτη",
+      "labels": [
+        "noun"
+      ],
+      "explanation": {
+        "en": "The weekday name starts with a capital letter.",
+        "ru": "Название дня недели пишется с заглавной буквы.",
+        "zh": "星期名称首字母大写。"
+      }
+    },
+    {
+      "id": "journeys-taxi-driver",
+      "collection": "words-nouns",
+      "greek": "ταξιτζής",
+      "prompt": {
+        "en": "Taxi driver",
+        "ru": "Таксист",
+        "zh": "出租车司机"
+      },
+      "pronunciation": {
+        "en": "ta-ksi-DZIS",
+        "ru": "та-кси-ДЗИС"
+      },
+      "themes": [
+        "people",
+        "travel"
+      ],
+      "answerDisplay": "ο ταξιτζής",
+      "labels": [
+        "noun"
+      ]
+    },
+    {
+      "id": "journeys-summer",
+      "collection": "words-nouns",
+      "greek": "καλοκαίρι",
+      "prompt": {
+        "en": "Summer",
+        "ru": "Лето",
+        "zh": "夏天"
+      },
+      "pronunciation": {
+        "en": "ka-lo-KE-ri",
+        "ru": "ка-ло-КЭ-ри"
+      },
+      "themes": [
+        "time"
+      ],
+      "answerDisplay": "το καλοκαίρι",
+      "labels": [
+        "noun"
+      ]
+    },
+    {
+      "id": "journeys-everywhere",
+      "collection": "words-descriptions",
+      "greek": "παντού",
+      "prompt": {
+        "en": "Everywhere",
+        "ru": "Везде / всюду",
+        "zh": "到处"
+      },
+      "pronunciation": {
+        "en": "pan-DU",
+        "ru": "пан-ДУ"
+      },
+      "themes": [
+        "places"
+      ],
+      "labels": [
+        "adverb"
+      ]
+    },
+    {
+      "id": "journeys-nowhere",
+      "collection": "words-descriptions",
+      "greek": "πουθενά",
+      "prompt": {
+        "en": "Nowhere / anywhere (with negation)",
+        "ru": "Нигде / никуда",
+        "zh": "无处"
+      },
+      "pronunciation": {
+        "en": "pu-the-NA",
+        "ru": "пу-тэ-НА"
+      },
+      "themes": [
+        "places"
+      ],
+      "labels": [
+        "adverb"
+      ],
+      "explanation": {
+        "en": "With a verb, normally use δεν as well: Δεν πάω πουθενά.",
+        "ru": "В отрицательном предложении нужно и δεν: Δεν πάω πουθενά — «Я никуда не иду».",
+        "zh": "在否定句中也用 δεν：Δεν πάω πουθενά（我哪儿也不去）。"
+      }
+    },
+    {
+      "id": "journeys-approximately",
+      "collection": "words-descriptions",
+      "greek": "περίπου",
+      "prompt": {
+        "en": "Approximately / about",
+        "ru": "Примерно / около",
+        "zh": "大约"
+      },
+      "pronunciation": {
+        "en": "pe-RI-pu",
+        "ru": "пэ-РИ-пу"
+      },
+      "themes": [
+        "time"
+      ],
+      "labels": [
+        "adverb"
+      ]
+    },
+    {
+      "id": "journeys-exactly",
+      "collection": "words-descriptions",
+      "greek": "ακριβώς",
+      "prompt": {
+        "en": "Exactly / precisely",
+        "ru": "Точно / ровно",
+        "zh": "恰好／正好"
+      },
+      "pronunciation": {
+        "en": "a-kri-VOS",
+        "ru": "а-кри-ВОС"
+      },
+      "themes": [
+        "time"
+      ],
+      "labels": [
+        "adverb"
+      ],
+      "explanation": {
+        "en": "With a clock time, ακριβώς means exactly on the hour.",
+        "ru": "При указании времени ακριβώς значит «ровно».",
+        "zh": "用于报时可表示“整点”。"
+      }
+    },
+    {
+      "id": "journeys-quickly",
+      "collection": "words-descriptions",
+      "greek": "γρήγορα",
+      "prompt": {
+        "en": "Quickly / fast",
+        "ru": "Быстро",
+        "zh": "快速地"
+      },
+      "pronunciation": {
+        "en": "GHRI-gho-ra",
+        "ru": "ГРИ-го-ра"
+      },
+      "themes": [
+        "travel"
+      ],
+      "labels": [
+        "adverb"
+      ]
+    },
+    {
+      "id": "journeys-half",
+      "collection": "words-descriptions",
+      "greek": "μισός",
+      "prompt": {
+        "en": "Half",
+        "ru": "Половина",
+        "zh": "一半"
+      },
+      "pronunciation": {
+        "en": "mi-SOS",
+        "ru": "ми-СОС"
+      },
+      "themes": [
+        "time"
+      ],
+      "labels": [
+        "adjective"
+      ],
+      "wordGroup": "journeys-half",
+      "answerDisplay": "μισός / μισή / μισό",
+      "alternatives": [
+        "μισή",
+        "μισό"
+      ],
+      "forms": [
+        {
+          "greek": "μισός",
+          "answerDisplay": "μισός",
+          "pronunciation": {
+            "en": "mi-SOS",
+            "ru": "ми-СОС"
+          }
+        },
+        {
+          "greek": "μισή",
+          "answerDisplay": "μισή",
+          "pronunciation": {
+            "en": "mi-SI",
+            "ru": "ми-СИ"
+          }
+        },
+        {
+          "greek": "μισό",
+          "answerDisplay": "μισό",
+          "pronunciation": {
+            "en": "mi-SO",
+            "ru": "ми-СО"
+          }
+        }
+      ],
+      "explanation": {
+        "en": "The form agrees with the noun: μισή ώρα, but μισό λεπτό.",
+        "ru": "Форма зависит от рода существительного: μισή ώρα, но μισό λεπτό.",
+        "zh": "形式与名词的性一致：μισή ώρα，但 μισό λεπτό。"
+      }
+    },
+    {
+      "id": "journeys-dangerous",
+      "collection": "words-descriptions",
+      "greek": "επικίνδυνος",
+      "prompt": {
+        "en": "Dangerous",
+        "ru": "Опасный",
+        "zh": "危险的"
+      },
+      "pronunciation": {
+        "en": "e-pi-KIN-dhi-nos",
+        "ru": "э-пи-КИН-ди-нос"
+      },
+      "themes": [
+        "travel"
+      ],
+      "labels": [
+        "adjective"
+      ],
+      "wordGroup": "journeys-dangerous",
+      "answerDisplay": "επικίνδυνος / επικίνδυνη / επικίνδυνο",
+      "alternatives": [
+        "επικίνδυνη",
+        "επικίνδυνο"
+      ],
+      "forms": [
+        {
+          "greek": "επικίνδυνος",
+          "answerDisplay": "επικίνδυνος",
+          "pronunciation": {
+            "en": "e-pi-KIN-dhi-nos",
+            "ru": "э-пи-КИН-ди-нос"
+          }
+        },
+        {
+          "greek": "επικίνδυνη",
+          "answerDisplay": "επικίνδυνη",
+          "pronunciation": {
+            "en": "e-pi-KIN-dhi-ni",
+            "ru": "э-пи-КИН-ди-ни"
+          }
+        },
+        {
+          "greek": "επικίνδυνο",
+          "answerDisplay": "επικίνδυνο",
+          "pronunciation": {
+            "en": "e-pi-KIN-dhi-no",
+            "ru": "э-пи-КИН-ди-но"
+          }
+        }
+      ],
+      "explanation": {
+        "en": "Masculine, feminine and neuter forms. Any listed form is accepted in this vocabulary card.",
+        "ru": "Формы мужского, женского и среднего рода. В этой карточке принимается любая из них.",
+        "zh": "依次为阳性、阴性、中性。本词汇卡接受这三种形式。"
+      }
+    },
+    {
+      "id": "journeys-at-feminine-plural",
+      "collection": "words-connectors",
+      "greek": "στις",
+      "prompt": {
+        "en": "At / to the (feminine plural)",
+        "ru": "В / к (женский род, множественное число)",
+        "zh": "在／到（阴性复数定冠词）"
+      },
+      "pronunciation": {
+        "en": "stis",
+        "ru": "стис"
+      },
+      "themes": [
+        "places",
+        "time"
+      ],
+      "labels": [
+        "preposition",
+        "article"
+      ],
+      "explanation": {
+        "en": "Σε + τις → στις, not σε + την. Used before feminine plural nouns and most clock hours.",
+        "ru": "Σε + τις → στις; это множественное число. Σε + την → στην. Στις употребляется с существительными женского рода во множественном числе и при указании большинства часов.",
+        "zh": "Σε + τις 缩合为 στις，阴性复数；σε + την 则为 στην。Στις 也用于多数钟点之前。"
+      }
+    },
+    {
+      "id": "journeys-to-before-time",
+      "collection": "words-connectors",
+      "greek": "παρά",
+      "prompt": {
+        "en": "To / before (telling the time)",
+        "ru": "Без (при указании времени)",
+        "zh": "差（报时）"
+      },
+      "pronunciation": {
+        "en": "pa-RA",
+        "ru": "па-РА"
+      },
+      "themes": [
+        "time"
+      ],
+      "labels": [
+        "preposition"
+      ],
+      "explanation": {
+        "en": "Names the minutes remaining until the following hour, rather than minutes past.",
+        "ru": "Указывает, сколько минут осталось до следующего часа.",
+        "zh": "表示距离下一整点还剩多少分钟。"
+      }
+    },
+    {
+      "id": "journeys-until",
+      "collection": "words-connectors",
+      "greek": "μέχρι",
+      "prompt": {
+        "en": "Until / as far as",
+        "ru": "До",
+        "zh": "直到"
+      },
+      "pronunciation": {
+        "en": "ME-khri",
+        "ru": "МЭ-хри"
+      },
+      "themes": [
+        "travel",
+        "time"
+      ],
+      "labels": [
+        "preposition"
+      ],
+      "explanation": {
+        "en": "Marks a limit in time or space.",
+        "ru": "Обозначает предел во времени или пространстве.",
+        "zh": "表示时间或空间的界限。"
+      }
+    },
+    {
+      "id": "journeys-istanbul",
+      "collection": "words-names",
+      "greek": "Κωνσταντινούπολη",
+      "prompt": {
+        "en": "Istanbul",
+        "ru": "Стамбул",
+        "zh": "伊斯坦布尔"
+      },
+      "pronunciation": {
+        "en": "kon-stan-di-NU-po-li",
+        "ru": "кон-стан-ди-НУ-по-ли"
+      },
+      "themes": [
+        "places",
+        "travel"
+      ],
+      "answerDisplay": "η Κωνσταντινούπολη",
+      "labels": [
+        "noun"
+      ]
+    },
+    {
+      "id": "journeys-return-ticket",
+      "collection": "phrases-everyday",
+      "greek": "Ένα εισιτήριο με επιστροφή, παρακαλώ.",
+      "prompt": {
+        "en": "A return ticket, please.",
+        "ru": "Билет туда и обратно, пожалуйста.",
+        "zh": "请给我一张往返票。"
+      },
+      "pronunciation": {
+        "en": "E-na i-si-TI-ri-o me e-pi-stro-FI pa-ra-ka-LO",
+        "ru": "Э-на и-си-ТИ-ри-о мэ э-пи-стро-ФИ па-ра-ка-ЛО"
+      },
+      "themes": [
+        "travel"
+      ]
+    },
+    {
+      "id": "journeys-departure-question",
+      "collection": "phrases-everyday",
+      "greek": "Τι ώρα φεύγει το λεωφορείο;",
+      "prompt": {
+        "en": "What time does the bus leave?",
+        "ru": "Во сколько отправляется автобус?",
+        "zh": "公共汽车几点出发？"
+      },
+      "pronunciation": {
+        "en": "ti O-ra FEV-yi to le-o-fo-RI-o",
+        "ru": "ти О-ра ФЭВ-йи то лэ-о-фо-РИ-о"
+      },
+      "themes": [
+        "travel",
+        "time"
+      ]
+    },
+    {
+      "id": "journeys-arrival-question",
+      "collection": "phrases-everyday",
+      "greek": "Τι ώρα φτάνει το τρένο;",
+      "prompt": {
+        "en": "What time does the train arrive?",
+        "ru": "Во сколько прибывает поезд?",
+        "zh": "火车几点到达？"
+      },
+      "pronunciation": {
+        "en": "ti O-ra FTA-ni to TRE-no",
+        "ru": "ти О-ра ФТА-ни то ТРЭ-но"
+      },
+      "themes": [
+        "travel",
+        "time"
+      ]
+    },
+    {
+      "id": "journeys-duration-question",
+      "collection": "phrases-everyday",
+      "greek": "Πόση ώρα κάνει το ταξίδι;",
+      "prompt": {
+        "en": "How long does the journey take?",
+        "ru": "Сколько времени занимает поездка?",
+        "zh": "旅程需要多长时间？"
+      },
+      "pronunciation": {
+        "en": "PO-si O-ra KA-ni to ta-KSI-dhi",
+        "ru": "ПО-си О-ра КА-ни то та-КСИ-ди"
+      },
+      "themes": [
+        "travel",
+        "time"
+      ],
+      "explanation": {
+        "en": "Πόση ώρα asks about duration; τι ώρα asks for a clock time.",
+        "ru": "Πόση ώρα — «сколько времени», длительность; τι ώρα — «в котором часу».",
+        "zh": "Πόση ώρα 询问时长；τι ώρα 询问钟点。"
+      }
+    },
+    {
+      "id": "journeys-one-moment",
+      "collection": "phrases-everyday",
+      "greek": "Μισό λεπτό!",
+      "prompt": {
+        "en": "Just a moment!",
+        "ru": "Минутку!",
+        "zh": "请稍等！"
+      },
+      "pronunciation": {
+        "en": "mi-SO lep-TO",
+        "ru": "ми-СО лэп-ТО"
+      },
+      "themes": [
+        "conversation",
+        "time"
+      ],
+      "explanation": {
+        "en": "Literally half a minute; a common way to ask someone to wait briefly.",
+        "ru": "Буквально «полминуты»; обычная просьба немного подождать.",
+        "zh": "字面意思是“半分钟”，通常用来请人稍等。"
+      }
+    },
+    {
+      "id": "journeys-agree-with-you",
+      "collection": "phrases-social",
+      "greek": "Συμφωνώ μαζί σου.",
+      "prompt": {
+        "en": "I agree with you. (informal)",
+        "ru": "Я с тобой согласен.",
+        "zh": "我同意你的看法。"
+      },
+      "pronunciation": {
+        "en": "sim-fo-NO ma-ZI su",
+        "ru": "сим-фо-НО ма-ЗИ су"
+      },
+      "themes": [
+        "conversation"
+      ]
+    },
+    {
+      "id": "journeys-disagree-with-you",
+      "collection": "phrases-social",
+      "greek": "Διαφωνώ μαζί σου.",
+      "prompt": {
+        "en": "I disagree with you. (informal)",
+        "ru": "Я с тобой не согласен.",
+        "zh": "我不同意你的看法。"
+      },
+      "pronunciation": {
+        "en": "dhia-fo-NO ma-ZI su",
+        "ru": "дья-фо-НО ма-ЗИ су"
+      },
+      "themes": [
+        "conversation"
+      ]
+    },
+    {
+      "id": "journeys-one-man",
+      "collection": "grammar-gender",
+      "greek": "Ένας άντρας.",
+      "prompt": {
+        "en": "One man.",
+        "ru": "Один мужчина.",
+        "zh": "一个男人。"
+      },
+      "pronunciation": {
+        "en": "E-nas AN-dras",
+        "ru": "Э-нас АН-драс"
+      },
+      "themes": [
+        "people"
+      ],
+      "explanation": {
+        "en": "One changes with gender: ένας, μία / μια, ένα. Three and four use τρεις / τέσσερις for masculine and feminine, τρία / τέσσερα for neuter.",
+        "ru": "Один: ένας, μία / μια, ένα по родам. Три и четыре: τρεις / τέσσερις в мужском и женском роде, τρία / τέσσερα в среднем.",
+        "zh": "“一”随性变化：ένας、μία / μια、ένα。“三、四”的阳性和阴性为 τρεις / τέσσερις，中性为 τρία / τέσσερα。"
+      },
+      "alternatives": [
+        "Ένας άνδρας."
+      ]
+    },
+    {
+      "id": "journeys-one-woman",
+      "collection": "grammar-gender",
+      "greek": "Μία γυναίκα.",
+      "prompt": {
+        "en": "One woman.",
+        "ru": "Одна женщина.",
+        "zh": "一个女人。"
+      },
+      "pronunciation": {
+        "en": "MI-a yi-NE-ka",
+        "ru": "МИ-а йи-НЭ-ка"
+      },
+      "themes": [
+        "people"
+      ],
+      "explanation": {
+        "en": "One changes with gender: ένας, μία / μια, ένα. Three and four use τρεις / τέσσερις for masculine and feminine, τρία / τέσσερα for neuter.",
+        "ru": "Один: ένας, μία / μια, ένα по родам. Три и четыре: τρεις / τέσσερις в мужском и женском роде, τρία / τέσσερα в среднем.",
+        "zh": "“一”随性变化：ένας、μία / μια、ένα。“三、四”的阳性和阴性为 τρεις / τέσσερις，中性为 τρία / τέσσερα。"
+      },
+      "alternatives": [
+        "Μια γυναίκα."
+      ]
+    },
+    {
+      "id": "journeys-one-child",
+      "collection": "grammar-gender",
+      "greek": "Ένα παιδί.",
+      "prompt": {
+        "en": "One child.",
+        "ru": "Один ребёнок.",
+        "zh": "一个孩子。"
+      },
+      "pronunciation": {
+        "en": "E-na pe-DHI",
+        "ru": "Э-на пэ-ДИ"
+      },
+      "themes": [
+        "people"
+      ],
+      "explanation": {
+        "en": "One changes with gender: ένας, μία / μια, ένα. Three and four use τρεις / τέσσερις for masculine and feminine, τρία / τέσσερα for neuter.",
+        "ru": "Один: ένας, μία / μια, ένα по родам. Три и четыре: τρεις / τέσσερις в мужском и женском роде, τρία / τέσσερα в среднем.",
+        "zh": "“一”随性变化：ένας、μία / μια、ένα。“三、四”的阳性和阴性为 τρεις / τέσσερις，中性为 τρία / τέσσερα。"
+      }
+    },
+    {
+      "id": "journeys-three-women",
+      "collection": "grammar-gender",
+      "greek": "Τρεις γυναίκες.",
+      "prompt": {
+        "en": "Three women.",
+        "ru": "Три женщины.",
+        "zh": "三个女人。"
+      },
+      "pronunciation": {
+        "en": "tris yi-NE-kes",
+        "ru": "трис йи-НЭ-кэс"
+      },
+      "themes": [
+        "people"
+      ],
+      "explanation": {
+        "en": "One changes with gender: ένας, μία / μια, ένα. Three and four use τρεις / τέσσερις for masculine and feminine, τρία / τέσσερα for neuter.",
+        "ru": "Один: ένας, μία / μια, ένα по родам. Три и четыре: τρεις / τέσσερις в мужском и женском роде, τρία / τέσσερα в среднем.",
+        "zh": "“一”随性变化：ένας、μία / μια、ένα。“三、四”的阳性和阴性为 τρεις / τέσσερις，中性为 τρία / τέσσερα。"
+      }
+    },
+    {
+      "id": "journeys-three-children",
+      "collection": "grammar-gender",
+      "greek": "Τρία παιδιά.",
+      "prompt": {
+        "en": "Three children.",
+        "ru": "Три ребёнка.",
+        "zh": "三个孩子。"
+      },
+      "pronunciation": {
+        "en": "TRI-a pe-DHIA",
+        "ru": "ТРИ-а пэ-ДЬЯ"
+      },
+      "themes": [
+        "people"
+      ],
+      "explanation": {
+        "en": "One changes with gender: ένας, μία / μια, ένα. Three and four use τρεις / τέσσερις for masculine and feminine, τρία / τέσσερα for neuter.",
+        "ru": "Один: ένας, μία / μια, ένα по родам. Три и четыре: τρεις / τέσσερις в мужском и женском роде, τρία / τέσσερα в среднем.",
+        "zh": "“一”随性变化：ένας、μία / μια、ένα。“三、四”的阳性和阴性为 τρεις / τέσσερις，中性为 τρία / τέσσερα。"
+      }
+    },
+    {
+      "id": "journeys-four-men",
+      "collection": "grammar-gender",
+      "greek": "Τέσσερις άντρες.",
+      "prompt": {
+        "en": "Four men.",
+        "ru": "Четыре мужчины.",
+        "zh": "四个男人。"
+      },
+      "pronunciation": {
+        "en": "TE-se-ris AN-dres",
+        "ru": "ТЭ-сэ-рис АН-дрэс"
+      },
+      "themes": [
+        "people"
+      ],
+      "explanation": {
+        "en": "One changes with gender: ένας, μία / μια, ένα. Three and four use τρεις / τέσσερις for masculine and feminine, τρία / τέσσερα for neuter.",
+        "ru": "Один: ένας, μία / μια, ένα по родам. Три и четыре: τρεις / τέσσερις в мужском и женском роде, τρία / τέσσερα в среднем.",
+        "zh": "“一”随性变化：ένας、μία / μια、ένα。“三、四”的阳性和阴性为 τρεις / τέσσερις，中性为 τρία / τέσσερα。"
+      },
+      "alternatives": [
+        "Τέσσερις άνδρες."
+      ]
+    },
+    {
+      "id": "journeys-four-children",
+      "collection": "grammar-gender",
+      "greek": "Τέσσερα παιδιά.",
+      "prompt": {
+        "en": "Four children.",
+        "ru": "Четыре ребёнка.",
+        "zh": "四个孩子。"
+      },
+      "pronunciation": {
+        "en": "TE-se-ra pe-DHIA",
+        "ru": "ТЭ-сэ-ра пэ-ДЬЯ"
+      },
+      "themes": [
+        "people"
+      ],
+      "explanation": {
+        "en": "One changes with gender: ένας, μία / μια, ένα. Three and four use τρεις / τέσσερις for masculine and feminine, τρία / τέσσερα for neuter.",
+        "ru": "Один: ένας, μία / μια, ένα по родам. Три и четыре: τρεις / τέσσερις в мужском и женском роде, τρία / τέσσερα в среднем.",
+        "zh": "“一”随性变化：ένας、μία / μια、ένα。“三、四”的阳性和阴性为 τρεις / τέσσερις，中性为 τρία / τέσσερα。"
+      }
+    },
+    {
+      "id": "journeys-half-hour",
+      "collection": "grammar-gender",
+      "greek": "Μισή ώρα.",
+      "prompt": {
+        "en": "Half an hour.",
+        "ru": "Полчаса.",
+        "zh": "半小时。"
+      },
+      "pronunciation": {
+        "en": "mi-SI O-ra",
+        "ru": "ми-СИ О-ра"
+      },
+      "themes": [
+        "time"
+      ],
+      "explanation": {
+        "en": "Ώρα is feminine, so half is μισή.",
+        "ru": "Ώρα женского рода, поэтому «половина» — μισή.",
+        "zh": "Ώρα 是阴性，故用 μισή。"
+      }
+    },
+    {
+      "id": "journeys-half-minute",
+      "collection": "grammar-gender",
+      "greek": "Μισό λεπτό.",
+      "prompt": {
+        "en": "Half a minute.",
+        "ru": "Полминуты.",
+        "zh": "半分钟。"
+      },
+      "pronunciation": {
+        "en": "mi-SO lep-TO",
+        "ru": "ми-СО лэп-ТО"
+      },
+      "themes": [
+        "time"
+      ],
+      "explanation": {
+        "en": "Λεπτό is neuter, so half is μισό. This card asks for the duration.",
+        "ru": "Λεπτό среднего рода, поэтому «половина» — μισό. Здесь речь о длительности.",
+        "zh": "Λεπτό 是中性，故用 μισό。本卡表达时长。"
+      }
+    },
+    {
+      "id": "journeys-there-is-stop",
+      "collection": "grammar-verbs",
+      "greek": "Υπάρχει στάση εδώ.",
+      "prompt": {
+        "en": "There is a bus stop here.",
+        "ru": "Здесь есть остановка.",
+        "zh": "这里有一个公交车站。"
+      },
+      "pronunciation": {
+        "en": "i-PAR-khi STA-si e-DHO",
+        "ru": "и-ПАР-хи СТА-си э-ДО"
+      },
+      "themes": [
+        "places",
+        "travel"
+      ],
+      "explanation": {
+        "en": "Υπάρχει is singular; υπάρχουν is plural. They mean there is / there are.",
+        "ru": "Υπάρχει употребляется с единственным числом, υπάρχουν — с множественным. Обе формы означают «есть, имеется».",
+        "zh": "Υπάρχει 用于单数，υπάρχουν 用于复数，表示“有”。"
+      },
+      "acceptedAnswers": [
+        "Εδώ υπάρχει στάση.",
+        "Υπάρχει εδώ στάση.",
+        "Υπάρχει μια στάση εδώ.",
+        "Υπάρχει μία στάση εδώ."
+      ]
+    },
+    {
+      "id": "journeys-there-are-children",
+      "collection": "grammar-verbs",
+      "greek": "Υπάρχουν παιδιά εδώ.",
+      "prompt": {
+        "en": "There are children here.",
+        "ru": "Здесь есть дети.",
+        "zh": "这里有孩子。"
+      },
+      "pronunciation": {
+        "en": "i-PAR-khun pe-DHIA e-DHO",
+        "ru": "и-ПАР-хун пэ-ДЬЯ э-ДО"
+      },
+      "themes": [
+        "people",
+        "places"
+      ],
+      "explanation": {
+        "en": "Υπάρχει is singular; υπάρχουν is plural. They mean there is / there are.",
+        "ru": "Υπάρχει употребляется с единственным числом, υπάρχουν — с множественным. Обе формы означают «есть, имеется».",
+        "zh": "Υπάρχει 用于单数，υπάρχουν 用于复数，表示“有”。"
+      },
+      "acceptedAnswers": [
+        "Εδώ υπάρχουν παιδιά.",
+        "Υπάρχουν εδώ παιδιά."
+      ]
+    },
+    {
+      "id": "journeys-there-is-no-train",
+      "collection": "grammar-questions",
+      "greek": "Δεν υπάρχει τρένο.",
+      "prompt": {
+        "en": "There is no train.",
+        "ru": "Поезда нет.",
+        "zh": "没有火车。"
+      },
+      "pronunciation": {
+        "en": "dhen i-PAR-khi TRE-no",
+        "ru": "дэн и-ПАР-хи ТРЭ-но"
+      },
+      "themes": [
+        "travel"
+      ],
+      "explanation": {
+        "en": "Δεν negates the verb υπάρχει.",
+        "ru": "Δεν отрицает глагол υπάρχει.",
+        "zh": "Δεν 否定动词 υπάρχει。"
+      }
+    },
+    {
+      "id": "journeys-when-leave",
+      "collection": "grammar-questions",
+      "greek": "Πότε φεύγεις;",
+      "prompt": {
+        "en": "When do you leave? (informal)",
+        "ru": "Когда ты уезжаешь?",
+        "zh": "你什么时候出发？"
+      },
+      "pronunciation": {
+        "en": "PO-te FEV-yis",
+        "ru": "ПО-тэ ФЭВ-йис"
+      },
+      "themes": [
+        "travel",
+        "time"
+      ],
+      "explanation": {
+        "en": "Πότε (first-syllable stress) asks when. Ποτέ (last-syllable stress) means never with negation.",
+        "ru": "Πότε с ударением на первом слоге — «когда?». Ποτέ с ударением на последнем — «никогда» в отрицании.",
+        "zh": "Πότε 重音在首音节，表示“什么时候”；ποτέ 重音在末音节，与否定词连用表示“从不”。"
+      },
+      "acceptedAnswers": [
+        "Πότε φεύγεις εσύ;",
+        "Εσύ πότε φεύγεις;"
+      ]
+    },
+    {
+      "id": "journeys-never-leave",
+      "collection": "grammar-questions",
+      "greek": "Δεν φεύγω ποτέ.",
+      "prompt": {
+        "en": "I never leave.",
+        "ru": "Я никогда не ухожу.",
+        "zh": "我从不离开。"
+      },
+      "pronunciation": {
+        "en": "dhen FEV-gho po-TE",
+        "ru": "дэн ФЭВ-го по-ТЭ"
+      },
+      "themes": [
+        "time"
+      ],
+      "explanation": {
+        "en": "Use δεν with ποτέ to say never; do not confuse ποτέ with the question πότε.",
+        "ru": "«Никогда» требует отрицания δεν. Не путайте ποτέ и вопросительное πότε.",
+        "zh": "表示“从不”时，ποτέ 与 δεν 连用；不要与疑问词 πότε 混淆。"
+      },
+      "acceptedAnswers": [
+        "Ποτέ δεν φεύγω.",
+        "Εγώ δεν φεύγω ποτέ.",
+        "Εγώ ποτέ δεν φεύγω."
+      ]
+    },
+    {
+      "id": "journeys-not-anywhere",
+      "collection": "grammar-questions",
+      "greek": "Δεν πάω πουθενά.",
+      "prompt": {
+        "en": "I am not going anywhere.",
+        "ru": "Я никуда не иду.",
+        "zh": "我哪儿也不去。"
+      },
+      "pronunciation": {
+        "en": "dhen PA-o pu-the-NA",
+        "ru": "дэн ПА-о пу-тэ-НА"
+      },
+      "themes": [
+        "travel"
+      ],
+      "explanation": {
+        "en": "Πουθενά accompanies δεν in a negative statement.",
+        "ru": "В отрицательном предложении πουθενά употребляется с δεν.",
+        "zh": "在否定句中，πουθενά 与 δεν 连用。"
+      },
+      "alternatives": [
+        "Δεν πηγαίνω πουθενά."
+      ],
+      "acceptedAnswers": [
+        "Εγώ δεν πάω πουθενά.",
+        "Εγώ δεν πηγαίνω πουθενά.",
+        "Πουθενά δεν πάω.",
+        "Πουθενά δεν πηγαίνω."
+      ]
+    },
+    {
+      "id": "journeys-get-off-bus",
+      "collection": "grammar-location",
+      "greek": "Κατεβαίνω από το λεωφορείο.",
+      "prompt": {
+        "en": "I get off the bus.",
+        "ru": "Я выхожу из автобуса.",
+        "zh": "我下公共汽车。"
+      },
+      "pronunciation": {
+        "en": "ka-te-VE-no a-PO to le-o-fo-RI-o",
+        "ru": "ка-тэ-ВЭ-но а-ПО то лэ-о-фо-РИ-о"
+      },
+      "themes": [
+        "travel"
+      ],
+      "explanation": {
+        "en": "Use από + the vehicle when saying where you get off from.",
+        "ru": "Από с названием транспорта: «выхожу из автобуса».",
+        "zh": "Από 加交通工具表示从该车下来。"
+      },
+      "acceptedAnswers": [
+        "Εγώ κατεβαίνω από το λεωφορείο."
+      ]
+    },
+    {
+      "id": "journeys-walk-until-station",
+      "collection": "grammar-location",
+      "greek": "Περπατάω μέχρι τον σταθμό.",
+      "prompt": {
+        "en": "I walk as far as the station.",
+        "ru": "Я иду пешком до станции.",
+        "zh": "我步行到车站。"
+      },
+      "pronunciation": {
+        "en": "per-pa-TA-o ME-khri ton stath-MO",
+        "ru": "пэр-па-ТА-о МЭ-хри тон стат-МО"
+      },
+      "themes": [
+        "travel"
+      ],
+      "explanation": {
+        "en": "Μέχρι marks the endpoint. Ο σταθμός becomes τον σταθμό here.",
+        "ru": "Μέχρι обозначает конечную точку. Здесь ο σταθμός меняется на τον σταθμό.",
+        "zh": "Μέχρι 表示终点；ο σταθμός 在这里变为 τον σταθμό。"
+      },
+      "alternatives": [
+        "Περπατώ μέχρι τον σταθμό."
+      ],
+      "acceptedAnswers": [
+        "Εγώ περπατάω μέχρι τον σταθμό.",
+        "Εγώ περπατώ μέχρι τον σταθμό."
+      ]
+    },
+    {
+      "id": "journeys-at-bus-stops",
+      "collection": "grammar-location",
+      "greek": "Στις στάσεις.",
+      "prompt": {
+        "en": "At the bus stops.",
+        "ru": "На остановках.",
+        "zh": "在公交车站（复数）。"
+      },
+      "pronunciation": {
+        "en": "stis STA-sis",
+        "ru": "стис СТА-сис"
+      },
+      "themes": [
+        "travel",
+        "places"
+      ],
+      "explanation": {
+        "en": "Σε + τις → στις. Στάσεις is the feminine plural of στάση.",
+        "ru": "Σε + τις → στις. Στάσεις — множественное число от στάση, женский род.",
+        "zh": "Σε + τις → στις。Στάσεις 是阴性名词 στάση 的复数。"
+      }
+    },
+    {
+      "id": "journeys-drive-i",
+      "collection": "grammar-verbs-b2",
+      "greek": "οδηγώ",
+      "prompt": {
+        "en": "I drive",
+        "ru": "Я вожу",
+        "zh": "我驾驶"
+      },
+      "pronunciation": {
+        "en": "o-dhi-GHO",
+        "ru": "о-ди-ГО"
+      },
+      "themes": [
+        "travel"
+      ],
+      "explanation": {
+        "en": "B2 present: -ώ, -είς, -εί, -ούμε, -είτε, -ούν(-ε). The subject pronoun is optional.",
+        "ru": "Настоящее время B2: -ώ, -είς, -εί, -ούμε, -είτε, -ούν(-ε). Местоимение можно опустить.",
+        "zh": "B2 现在时词尾：-ώ、-είς、-εί、-ούμε、-είτε、-ούν(-ε)。主语代词可省略。"
+      },
+      "labels": [
+        "verb"
+      ],
+      "meaning": {
+        "en": "Translate the present-tense verb form.",
+        "ru": "Переведите форму глагола в настоящем времени.",
+        "zh": "翻译现在时动词形式。"
+      },
+      "acceptedAnswers": [
+        "εγώ οδηγώ"
+      ]
+    },
+    {
+      "id": "journeys-drive-you",
+      "collection": "grammar-verbs-b2",
+      "greek": "οδηγείς",
+      "prompt": {
+        "en": "You drive (singular, informal)",
+        "ru": "Ты водишь",
+        "zh": "你驾驶（单数）"
+      },
+      "pronunciation": {
+        "en": "o-dhi-YIS",
+        "ru": "о-ди-ЙИС"
+      },
+      "themes": [
+        "travel"
+      ],
+      "explanation": {
+        "en": "B2 present: -ώ, -είς, -εί, -ούμε, -είτε, -ούν(-ε). The subject pronoun is optional.",
+        "ru": "Настоящее время B2: -ώ, -είς, -εί, -ούμε, -είτε, -ούν(-ε). Местоимение можно опустить.",
+        "zh": "B2 现在时词尾：-ώ、-είς、-εί、-ούμε、-είτε、-ούν(-ε)。主语代词可省略。"
+      },
+      "labels": [
+        "verb"
+      ],
+      "meaning": {
+        "en": "Translate the present-tense verb form.",
+        "ru": "Переведите форму глагола в настоящем времени.",
+        "zh": "翻译现在时动词形式。"
+      },
+      "acceptedAnswers": [
+        "εσύ οδηγείς"
+      ]
+    },
+    {
+      "id": "journeys-drive-he",
+      "collection": "grammar-verbs-b2",
+      "greek": "οδηγεί",
+      "prompt": {
+        "en": "He drives",
+        "ru": "Он водит",
+        "zh": "他驾驶"
+      },
+      "pronunciation": {
+        "en": "o-dhi-YI",
+        "ru": "о-ди-ЙИ"
+      },
+      "themes": [
+        "travel"
+      ],
+      "explanation": {
+        "en": "B2 present: -ώ, -είς, -εί, -ούμε, -είτε, -ούν(-ε). The subject pronoun is optional.",
+        "ru": "Настоящее время B2: -ώ, -είς, -εί, -ούμε, -είτε, -ούν(-ε). Местоимение можно опустить.",
+        "zh": "B2 现在时词尾：-ώ、-είς、-εί、-ούμε、-είτε、-ούν(-ε)。主语代词可省略。"
+      },
+      "labels": [
+        "verb"
+      ],
+      "meaning": {
+        "en": "Translate the present-tense verb form.",
+        "ru": "Переведите форму глагола в настоящем времени.",
+        "zh": "翻译现在时动词形式。"
+      },
+      "acceptedAnswers": [
+        "αυτός οδηγεί"
+      ]
+    },
+    {
+      "id": "journeys-drive-we",
+      "collection": "grammar-verbs-b2",
+      "greek": "οδηγούμε",
+      "prompt": {
+        "en": "We drive",
+        "ru": "Мы водим",
+        "zh": "我们驾驶"
+      },
+      "pronunciation": {
+        "en": "o-dhi-GHU-me",
+        "ru": "о-ди-ГУ-мэ"
+      },
+      "themes": [
+        "travel"
+      ],
+      "explanation": {
+        "en": "B2 present: -ώ, -είς, -εί, -ούμε, -είτε, -ούν(-ε). The subject pronoun is optional.",
+        "ru": "Настоящее время B2: -ώ, -είς, -εί, -ούμε, -είτε, -ούν(-ε). Местоимение можно опустить.",
+        "zh": "B2 现在时词尾：-ώ、-είς、-εί、-ούμε、-είτε、-ούν(-ε)。主语代词可省略。"
+      },
+      "labels": [
+        "verb"
+      ],
+      "meaning": {
+        "en": "Translate the present-tense verb form.",
+        "ru": "Переведите форму глагола в настоящем времени.",
+        "zh": "翻译现在时动词形式。"
+      },
+      "acceptedAnswers": [
+        "εμείς οδηγούμε"
+      ]
+    },
+    {
+      "id": "journeys-drive-you-plural",
+      "collection": "grammar-verbs-b2",
+      "greek": "οδηγείτε",
+      "prompt": {
+        "en": "You drive (plural or polite)",
+        "ru": "Вы водите",
+        "zh": "你们驾驶／您驾驶"
+      },
+      "pronunciation": {
+        "en": "o-dhi-YI-te",
+        "ru": "о-ди-ЙИ-тэ"
+      },
+      "themes": [
+        "travel"
+      ],
+      "explanation": {
+        "en": "B2 present: -ώ, -είς, -εί, -ούμε, -είτε, -ούν(-ε). The subject pronoun is optional.",
+        "ru": "Настоящее время B2: -ώ, -είς, -εί, -ούμε, -είτε, -ούν(-ε). Местоимение можно опустить.",
+        "zh": "B2 现在时词尾：-ώ、-είς、-εί、-ούμε、-είτε、-ούν(-ε)。主语代词可省略。"
+      },
+      "labels": [
+        "verb"
+      ],
+      "meaning": {
+        "en": "Translate the present-tense verb form.",
+        "ru": "Переведите форму глагола в настоящем времени.",
+        "zh": "翻译现在时动词形式。"
+      },
+      "acceptedAnswers": [
+        "εσείς οδηγείτε"
+      ]
+    },
+    {
+      "id": "journeys-drive-they",
+      "collection": "grammar-verbs-b2",
+      "greek": "οδηγούν",
+      "prompt": {
+        "en": "They drive",
+        "ru": "Они водят",
+        "zh": "他们驾驶"
+      },
+      "pronunciation": {
+        "en": "o-dhi-GHUN",
+        "ru": "о-ди-ГУН"
+      },
+      "themes": [
+        "travel"
+      ],
+      "explanation": {
+        "en": "B2 present: -ώ, -είς, -εί, -ούμε, -είτε, -ούν(-ε). The subject pronoun is optional.",
+        "ru": "Настоящее время B2: -ώ, -είς, -εί, -ούμε, -είτε, -ούν(-ε). Местоимение можно опустить.",
+        "zh": "B2 现在时词尾：-ώ、-είς、-εί、-ούμε、-είτε、-ούν(-ε)。主语代词可省略。"
+      },
+      "labels": [
+        "verb"
+      ],
+      "meaning": {
+        "en": "Translate the present-tense verb form.",
+        "ru": "Переведите форму глагола в настоящем времени.",
+        "zh": "翻译现在时动词形式。"
+      },
+      "alternatives": [
+        "οδηγούνε"
+      ],
+      "acceptedAnswers": [
+        "αυτοί οδηγούν",
+        "αυτοί οδηγούνε",
+        "αυτές οδηγούν",
+        "αυτά οδηγούν",
+        "αυτές οδηγούνε",
+        "αυτά οδηγούνε"
+      ]
+    }
+  ]
+}

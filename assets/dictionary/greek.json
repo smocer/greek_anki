@@ -39228,7 +39228,53 @@
           "tag": "DET",
           "addedWeek": "2026-09-28"
         }
-      ]
+      ],
+      "wordGroup": "number-1",
+      "answerDisplay": "ένα / ένας / μία / μια",
+      "alternatives": [
+        "ένας",
+        "μία",
+        "μια"
+      ],
+      "forms": [
+        {
+          "greek": "ένα",
+          "answerDisplay": "ένα",
+          "pronunciation": {
+            "en": "E-na",
+            "ru": "Э-на"
+          }
+        },
+        {
+          "greek": "ένας",
+          "answerDisplay": "ένας",
+          "pronunciation": {
+            "en": "E-nas",
+            "ru": "Э-нас"
+          }
+        },
+        {
+          "greek": "μία",
+          "answerDisplay": "μία",
+          "pronunciation": {
+            "en": "MI-a",
+            "ru": "МИ-а"
+          }
+        },
+        {
+          "greek": "μια",
+          "answerDisplay": "μια",
+          "pronunciation": {
+            "en": "mya",
+            "ru": "мья"
+          }
+        }
+      ],
+      "explanation": {
+        "en": "Use the form that agrees with the noun. This number card accepts any listed gender form; grammar exercises require the matching form.",
+        "ru": "Форма зависит от рода существительного. В карточке числа принимается любая указанная форма; в грамматике нужна форма нужного рода.",
+        "zh": "形式须与名词的性一致。本数字卡接受列出的所有性别形式；语法练习则要求正确的形式。"
+      }
     },
     "words-numbers/numbers-0-10.number-2": {
       "id": "numbers-0-10.number-2",
@@ -39306,7 +39352,35 @@
           "tag": "NUM",
           "addedWeek": "2026-09-28"
         }
-      ]
+      ],
+      "wordGroup": "number-3",
+      "answerDisplay": "τρία / τρεις",
+      "alternatives": [
+        "τρεις"
+      ],
+      "forms": [
+        {
+          "greek": "τρία",
+          "answerDisplay": "τρία",
+          "pronunciation": {
+            "en": "TRI-a",
+            "ru": "ТРИ-а"
+          }
+        },
+        {
+          "greek": "τρεις",
+          "answerDisplay": "τρεις",
+          "pronunciation": {
+            "en": "tris",
+            "ru": "трис"
+          }
+        }
+      ],
+      "explanation": {
+        "en": "Use the form that agrees with the noun. This number card accepts any listed gender form; grammar exercises require the matching form.",
+        "ru": "Форма зависит от рода существительного. В карточке числа принимается любая указанная форма; в грамматике нужна форма нужного рода.",
+        "zh": "形式须与名词的性一致。本数字卡接受列出的所有性别形式；语法练习则要求正确的形式。"
+      }
     },
     "words-numbers/numbers-0-10.number-4": {
       "id": "numbers-0-10.number-4",
@@ -39345,7 +39419,35 @@
           "tag": "PROPN",
           "addedWeek": "2026-09-28"
         }
-      ]
+      ],
+      "wordGroup": "number-4",
+      "answerDisplay": "τέσσερα / τέσσερις",
+      "alternatives": [
+        "τέσσερις"
+      ],
+      "forms": [
+        {
+          "greek": "τέσσερα",
+          "answerDisplay": "τέσσερα",
+          "pronunciation": {
+            "en": "TE-se-ra",
+            "ru": "ТЭ-сэ-ра"
+          }
+        },
+        {
+          "greek": "τέσσερις",
+          "answerDisplay": "τέσσερις",
+          "pronunciation": {
+            "en": "TE-se-ris",
+            "ru": "ТЭ-сэ-рис"
+          }
+        }
+      ],
+      "explanation": {
+        "en": "Use the form that agrees with the noun. This number card accepts any listed gender form; grammar exercises require the matching form.",
+        "ru": "Форма зависит от рода существительного. В карточке числа принимается любая указанная форма; в грамматике нужна форма нужного рода.",
+        "zh": "形式须与名词的性一致。本数字卡接受列出的所有性别形式；语法练习则要求正确的形式。"
+      }
     },
     "words-numbers/numbers-0-10.number-5": {
       "id": "numbers-0-10.number-5",

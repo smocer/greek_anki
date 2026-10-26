@@ -14,6 +14,8 @@ Pronouns include personal and demonstrative forms, question words and all seven 
 
 Numbers combine units, teens, tens, hundreds up to 900, 1000 and selected compound numbers in one group. Practice distinguishes εκατό (100) from εκατόν in numbers such as εκατόν δέκα (110).
 
+The existing number cards for 1, 3 and 4 also accept their gender forms: ένας / μία / ένα, τρεις / τρία and τέσσερις / τέσσερα. Grammar practice requires agreement with the noun, as in τρεις γυναίκες and τρία παιδιά.
+
 ## Phrases
 
 - Social conversations: greetings, introductions and small talk.
@@ -21,6 +23,8 @@ Numbers combine units, teens, tens, hundreds up to 900, 1000 and selected compou
 - Everyday situations: home, work and phone conversations.
 
 Transport practice covers buying tickets, asking about prices and the time, and describing routes and frequency. Vocabulary includes τρόλεϊ, τραμ, εισιτήριο, μηχανή, λεπτό and everyday activities, hobbies and punctuation. Destination names stay in **Names & places**. Practise all six persons of πάω / πηγαίνω in **Verb forms**, and destinations, transport with με, με τα πόδια, and σε with a time interval in **Location and origin**.
+
+Travel and daily routines also cover return tickets, departures and arrivals, getting off a bus, waking up, and asking how long a journey takes. Time vocabulary includes parts of the day, δευτερόλεπτο, τέταρτο, περίπου and ακριβώς, with agreement in μισή ώρα and μισό λεπτό. Practise υπάρχει / υπάρχουν, ποτέ and πουθενά with negation, and στις as σε + τις. B2 practice adds οδηγώ alongside μπορώ; conversation vocabulary includes agreeing, disagreeing, explaining and making an effort.
 
 Hobbies and preferences include music, drawing, swimming, playing guitar, taking photographs, watching TV and taking a break. Related vocabulary covers subjects such as history and philosophy, food and drinks, and the arithmetic signs συν, πλην, επί and διά. Paris, London and New York are in **Names & places**.
 
@@ -40,7 +44,7 @@ Eight groups organise practice by skill:
 - **Noun forms and cases:** subjects, objects, possession, plurals and forms of address; names after τον / την λένε and the accusative after από / σε / με / για. Practise ο σταθμός → τον σταθμό and replacing objects with τον / την / το, including negative replies such as Όχι, δεν τον ξέρω. Contrast Μου αρέσει ο καφές with Προτιμώ τον καφέ.
 - **Verb forms:** six persons of μένω, διαβάζω and καταλαβαίνω, alongside the distinct patterns είμαι, λέγομαι and τραγουδώ. Likes practice covers all seven short pronouns with αρέσει, plural αρέσουν, Μου αρέσεις and activities with να. The verb after να agrees with the person doing the activity: Μας αρέσει να κολυμπάμε.
 - **B1 verb forms:** μιλάω and αγαπάω in all six persons, accepting contracted alternatives such as μιλώ and αγαπώ.
-- **B2 verb forms:** μπορώ in all six persons, contrasting endings such as -είς / -εί with B1 -άς / -άει. B1 and B2 here name conjugation classes, not language proficiency levels.
+- **B2 verb forms:** μπορώ and οδηγώ in all six persons, contrasting endings such as -είς / -εί with B1 -άς / -άει. B1 and B2 here name conjugation classes, not language proficiency levels.
 - **Location and origin:** σε with articles, από, residence and addresses.
 - **Possession:** short phrases and complete sentences with μου / σου / του / της / μας / σας / τους. Distinguish the gender of the thing from the owner: Αυτή είναι η τσάντα του. Practise the additional accent in το τηλέφωνό του, το νούμερό της and η οικογένειά μου.
 - **Questions and negation:** asking for information and forming negative statements; ποιος (who does the action) versus ποιον (whom it affects), and πότε in a question versus όταν joining clauses.
