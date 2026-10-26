@@ -7,6 +7,7 @@ import '../domain/curriculum.dart';
 import '../domain/study_session.dart';
 import '../domain/vocabulary.dart';
 import 'greek_keyboard.dart';
+import 'practice_layout.dart';
 import 'card_explanation.dart';
 import 'theme.dart';
 import 'word_audio_buttons.dart';
@@ -71,6 +72,7 @@ class _StudyScreenState extends State<StudyScreen> {
       if (!mounted) return;
       _answer.clear();
       _session.advance(correct: correct);
+      _focusEditableInput();
       HapticFeedback.lightImpact();
     } catch (error, stack) {
       debugPrint('Could not save review: $error\n$stack');
@@ -89,6 +91,18 @@ class _StudyScreenState extends State<StudyScreen> {
     _focus.unfocus();
     _session.checkAnswer(_answer.text);
     HapticFeedback.lightImpact();
+  }
+
+  void _focusEditableInput() {
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      if (mounted &&
+          _hard &&
+          !_useGreekKeyboard &&
+          !_session.isComplete &&
+          _session.phase != CardPhase.answer) {
+        _focus.requestFocus();
+      }
+    });
   }
 
   void _restart() {
@@ -127,58 +141,64 @@ class _StudyScreenState extends State<StudyScreen> {
               listenable: _session,
               builder: (context, _) => _session.isComplete
                   ? const SizedBox.shrink()
-                  : TextButton.icon(
+                  : IconButton(
                       key: const ValueKey('previous-card'),
+                      tooltip: context.strings.previousCard,
                       onPressed: !_saving && _session.canGoPrevious
                           ? _session.previous
                           : null,
                       icon: const Icon(Icons.arrow_back_rounded, size: 18),
-                      label: Text(context.strings.previousCard),
                     ),
             ),
         ],
       ),
-      body: SafeArea(
-        top: false,
-        child: Center(
-          child: ConstrainedBox(
-            constraints: const BoxConstraints(maxWidth: 560),
-            child: ListenableBuilder(
-              listenable: _session,
-              builder: (context, _) {
-                if (_session.isComplete) {
-                  return _Completion(
+      bottomNavigationBar: ListenableBuilder(
+        listenable: _session,
+        builder: (context, _) => _session.isComplete
+            ? const SizedBox.shrink()
+            : PracticeActions(
+                child: _hard
+                    ? _typingActions(context)
+                    : _flashcardActions(context),
+              ),
+      ),
+      body: ListenableBuilder(
+        listenable: _session,
+        builder: (context, _) {
+          if (_session.isComplete) {
+            return SafeArea(
+              child: Center(
+                child: ConstrainedBox(
+                  constraints: const BoxConstraints(maxWidth: 560),
+                  child: _Completion(
                     session: _session,
                     onRestart: _restart,
                     onDone: () => Navigator.pop(context),
                     onPrevious: !_hard && _session.canGoPrevious
                         ? _session.previous
                         : null,
-                  );
-                }
-                return LayoutBuilder(
-                  builder: (context, constraints) => SingleChildScrollView(
-                    padding: const EdgeInsets.fromLTRB(24, 12, 24, 24),
-                    child: Column(
-                      crossAxisAlignment: CrossAxisAlignment.stretch,
-                      children: [
-                        _SessionProgress(
-                          session: _session,
-                          title: context.localize(widget.deck.title),
-                        ),
-                        SizedBox(height: _hard ? 20 : 30),
-                        if (_hard)
-                          ..._typingContent(context)
-                        else
-                          ..._flashcardContent(context, constraints.maxHeight),
-                      ],
-                    ),
                   ),
-                );
-              },
+                ),
+              ),
+            );
+          }
+          return PracticeBody(
+            contentBuilder: (context, constraints) => Column(
+              crossAxisAlignment: CrossAxisAlignment.stretch,
+              children: [
+                _SessionProgress(
+                  session: _session,
+                  title: context.localize(widget.deck.title),
+                ),
+                SizedBox(height: _hard ? 12 : 20),
+                if (_hard)
+                  ..._typingContent(context)
+                else
+                  ..._flashcardContent(context, constraints.maxHeight),
+              ],
             ),
-          ),
-        ),
+          );
+        },
       ),
     ),
   );
@@ -243,47 +263,6 @@ class _StudyScreenState extends State<StudyScreen> {
         const SizedBox(height: 16),
         CardExplanation(explanation: _session.current.explanation!),
       ],
-      const SizedBox(height: 26),
-      if (_session.isReviewing)
-        FilledButton.icon(
-          key: const ValueKey('next-card'),
-          onPressed: _session.next,
-          icon: const Icon(Icons.arrow_forward_rounded, size: 18),
-          label: Text(context.strings.nextCard),
-        )
-      else if (!revealed)
-        FilledButton.icon(
-          onPressed: _session.reveal,
-          icon: const Icon(Icons.flip_rounded, size: 19),
-          label: Text(context.strings.revealAnswer),
-        )
-      else
-        Row(
-          children: [
-            Expanded(
-              child: OutlinedButton(
-                onPressed: _saving ? null : () => _advance(false),
-                child: Column(
-                  mainAxisSize: MainAxisSize.min,
-                  children: [
-                    Text(context.strings.again),
-                    Text(
-                      context.strings.repeatSoon,
-                      style: TextStyle(fontSize: 10, color: Palette.muted),
-                    ),
-                  ],
-                ),
-              ),
-            ),
-            const SizedBox(width: 12),
-            Expanded(
-              child: FilledButton(
-                onPressed: _saving ? null : () => _advance(true),
-                child: Text(context.strings.gotIt),
-              ),
-            ),
-          ],
-        ),
       if (!_session.isReviewing) ...[
         const SizedBox(height: 18),
         Text(
@@ -297,6 +276,89 @@ class _StudyScreenState extends State<StudyScreen> {
     ];
   }
 
+  Widget _flashcardActions(BuildContext context) {
+    if (_session.isReviewing) {
+      return FilledButton.icon(
+        key: const ValueKey('next-card'),
+        onPressed: _session.next,
+        icon: const Icon(Icons.arrow_forward_rounded, size: 18),
+        label: Text(context.strings.nextCard),
+      );
+    }
+    if (_session.phase != CardPhase.answer) {
+      return FilledButton.icon(
+        onPressed: _session.reveal,
+        icon: const Icon(Icons.flip_rounded, size: 19),
+        label: Text(context.strings.revealAnswer),
+      );
+    }
+    return Row(
+      children: [
+        Expanded(
+          child: OutlinedButton(
+            onPressed: _saving ? null : () => _advance(false),
+            child: Column(
+              mainAxisSize: MainAxisSize.min,
+              children: [
+                Text(context.strings.again, textAlign: TextAlign.center),
+                Text(
+                  context.strings.repeatSoon,
+                  textAlign: TextAlign.center,
+                  style: const TextStyle(fontSize: 10, color: Palette.muted),
+                ),
+              ],
+            ),
+          ),
+        ),
+        const SizedBox(width: 12),
+        Expanded(
+          child: FilledButton(
+            onPressed: _saving ? null : () => _advance(true),
+            child: Text(context.strings.gotIt, textAlign: TextAlign.center),
+          ),
+        ),
+      ],
+    );
+  }
+
+  Widget _typingActions(BuildContext context) {
+    if (_session.phase == CardPhase.answer) {
+      return FilledButton(
+        onPressed: _saving ? null : () => _advance(_session.typedCorrect!),
+        child: Text(
+          _saving ? context.strings.saving : context.strings.continueLabel,
+        ),
+      );
+    }
+    return Row(
+      children: [
+        Flexible(
+          child: TextButton(
+            onPressed: () {
+              _focus.unfocus();
+              _session.skip();
+            },
+            child: Text(context.strings.dontKnow, textAlign: TextAlign.center),
+          ),
+        ),
+        const SizedBox(width: 8),
+        Expanded(
+          child: ValueListenableBuilder<TextEditingValue>(
+            valueListenable: _answer,
+            builder: (context, value, _) => FilledButton(
+              key: const ValueKey('check-typing'),
+              onPressed: value.text.trim().isEmpty ? null : _check,
+              child: Text(
+                context.strings.checkAnswer,
+                textAlign: TextAlign.center,
+              ),
+            ),
+          ),
+        ),
+      ],
+    );
+  }
+
   List<Widget> _typingContent(BuildContext context) {
     final answered = _session.phase == CardPhase.answer;
     final card = _session.current;
@@ -307,7 +369,7 @@ class _StudyScreenState extends State<StudyScreen> {
         context.localize(card.prompt),
         textAlign: TextAlign.center,
         style: TextStyle(
-          fontSize: _promptSize(context.localize(card.prompt), numericSize: 86),
+          fontSize: _promptSize(context.localize(card.prompt), numericSize: 64),
           height: 1.1,
           letterSpacing: -0.5,
           fontWeight: FontWeight.w400,
@@ -318,7 +380,7 @@ class _StudyScreenState extends State<StudyScreen> {
         textAlign: TextAlign.center,
         style: const TextStyle(color: Palette.muted),
       ),
-      const SizedBox(height: 20),
+      const SizedBox(height: 12),
       TextField(
         key: const ValueKey('greek-answer'),
         controller: _answer,
@@ -332,8 +394,12 @@ class _StudyScreenState extends State<StudyScreen> {
         keyboardType: TextInputType.text,
         textInputAction: TextInputAction.done,
         textAlign: TextAlign.center,
-        style: const TextStyle(fontSize: 25, letterSpacing: 0.5),
+        style: const TextStyle(fontSize: 22, letterSpacing: 0.5),
         decoration: InputDecoration(
+          contentPadding: const EdgeInsets.symmetric(
+            horizontal: 14,
+            vertical: 12,
+          ),
           hintText: context.strings.answerHint,
           hintStyle: const TextStyle(fontSize: 17, color: Palette.muted),
           suffixIcon: answered
@@ -346,7 +412,14 @@ class _StudyScreenState extends State<StudyScreen> {
                       ? context.strings.exactlyRight
                       : context.strings.incorrectAnswer,
                 )
-              : null,
+              : KeyboardToggle(
+                  useGreekKeyboard: _useGreekKeyboard,
+                  onPressed: () {
+                    _focus.unfocus();
+                    setState(() => _useGreekKeyboard = !_useGreekKeyboard);
+                    _focusEditableInput();
+                  },
+                ),
         ),
         onSubmitted: (_) => _check(),
       ),
@@ -357,54 +430,14 @@ class _StudyScreenState extends State<StudyScreen> {
           const SizedBox(height: 14),
           CardExplanation(explanation: card.explanation!),
         ],
-        const SizedBox(height: 22),
-        FilledButton(
-          onPressed: _saving ? null : () => _advance(_session.typedCorrect!),
-          child: Text(
-            _saving ? context.strings.saving : context.strings.continueLabel,
-          ),
-        ),
       ] else ...[
         Text(
           context.strings.inputHelp,
           textAlign: TextAlign.center,
           style: TextStyle(fontSize: 12, color: Palette.muted),
         ),
-        const SizedBox(height: 18),
+        const SizedBox(height: 8),
         if (_useGreekKeyboard) GreekKeyboard(controller: _answer),
-        Align(
-          alignment: Alignment.centerRight,
-          child: TextButton.icon(
-            onPressed: () {
-              _focus.unfocus();
-              setState(() => _useGreekKeyboard = !_useGreekKeyboard);
-              if (!_useGreekKeyboard) _focus.requestFocus();
-            },
-            icon: const Icon(Icons.keyboard_outlined, size: 17),
-            label: Text(
-              _useGreekKeyboard
-                  ? context.strings.phoneKeyboard
-                  : context.strings.greekKeyboard,
-              style: const TextStyle(fontSize: 12),
-            ),
-          ),
-        ),
-        const SizedBox(height: 6),
-        ValueListenableBuilder<TextEditingValue>(
-          valueListenable: _answer,
-          builder: (context, value, _) => FilledButton(
-            onPressed: value.text.trim().isEmpty ? null : _check,
-            child: Text(context.strings.checkAnswer),
-          ),
-        ),
-        const SizedBox(height: 6),
-        TextButton(
-          onPressed: () {
-            _focus.unfocus();
-            _session.skip();
-          },
-          child: Text(context.strings.dontKnow),
-        ),
       ],
     ];
   }

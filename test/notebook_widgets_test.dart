@@ -142,7 +142,9 @@ void main() {
       ),
     );
     await tester.pumpAndSettle();
-    await tapVisible(tester, 'Use phone keyboard');
+    await tester.ensureVisible(find.byTooltip('Use phone keyboard'));
+    await tester.tap(find.byTooltip('Use phone keyboard'));
+    await tester.pumpAndSettle();
     await tester.enterText(
       find.byKey(const ValueKey('greek-answer')),
       'είμαι από την Κύπρο',

@@ -4,6 +4,7 @@ import '../domain/vocabulary.dart';
 import '../domain/vocabulary_category.dart';
 import 'app_strings.dart';
 import 'theme.dart';
+import 'labeled_field.dart';
 import 'vocabulary_preview.dart';
 
 class CollectionSelection {
@@ -90,27 +91,29 @@ class _TopicPickerState extends State<TopicPicker> {
                 header: Column(
                   crossAxisAlignment: CrossAxisAlignment.stretch,
                   children: [
-                    DropdownButtonFormField<LearningTheme?>(
-                      key: const ValueKey('collection-theme'),
-                      initialValue: _theme,
-                      isExpanded: true,
-                      decoration: InputDecoration(
-                        labelText: context.strings.themeFilter,
-                      ),
-                      items: [
-                        DropdownMenuItem(
-                          value: null,
-                          child: Text(context.strings.allThemes),
-                        ),
-                        for (final theme in context.strings.orderedThemes.where(
-                          widget.collection.availableThemes.contains,
-                        ))
+                    LabeledField(
+                      label: context.strings.themeFilter,
+                      child: DropdownButtonFormField<LearningTheme?>(
+                        key: const ValueKey('collection-theme'),
+                        initialValue: _theme,
+                        isExpanded: true,
+                        itemHeight: null,
+                        items: [
                           DropdownMenuItem(
-                            value: theme,
-                            child: Text(context.localize(theme.title)),
+                            value: null,
+                            child: Text(context.strings.allThemes),
                           ),
-                      ],
-                      onChanged: (theme) => setState(() => _theme = theme),
+                          for (final theme
+                              in context.strings.orderedThemes.where(
+                                widget.collection.availableThemes.contains,
+                              ))
+                            DropdownMenuItem(
+                              value: theme,
+                              child: Text(context.localize(theme.title)),
+                            ),
+                        ],
+                        onChanged: (theme) => setState(() => _theme = theme),
+                      ),
                     ),
                     const SizedBox(height: 12),
                     if (_theme == null) ...[
@@ -159,23 +162,24 @@ class _TopicPickerState extends State<TopicPicker> {
                       ),
                       const SizedBox(height: 12),
                     ],
-                    DropdownButtonFormField<VocabularyPeriod>(
-                      key: const ValueKey('category-period'),
-                      initialValue: _period,
-                      isExpanded: true,
-                      decoration: InputDecoration(
-                        labelText: context.strings.additionPeriod,
+                    LabeledField(
+                      label: context.strings.additionPeriod,
+                      child: DropdownButtonFormField<VocabularyPeriod>(
+                        key: const ValueKey('category-period'),
+                        initialValue: _period,
+                        isExpanded: true,
+                        itemHeight: null,
+                        items: [
+                          for (final period in VocabularyPeriod.values)
+                            DropdownMenuItem(
+                              value: period,
+                              child: Text(context.strings.periodTitle(period)),
+                            ),
+                        ],
+                        onChanged: (period) {
+                          if (period != null) setState(() => _period = period);
+                        },
                       ),
-                      items: [
-                        for (final period in VocabularyPeriod.values)
-                          DropdownMenuItem(
-                            value: period,
-                            child: Text(context.strings.periodTitle(period)),
-                          ),
-                      ],
-                      onChanged: (period) {
-                        if (period != null) setState(() => _period = period);
-                      },
                     ),
                     const SizedBox(height: 12),
                     TextField(

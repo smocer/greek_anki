@@ -205,7 +205,7 @@ void main() {
       }
       // Switch to native input once to exercise both supported keyboards.
       if (index == 0) {
-        await tester.tap(find.text('Use phone keyboard'));
+        await tester.tap(find.byTooltip('Use phone keyboard'));
         await tester.pumpAndSettle();
       }
       await tester.enterText(find.byType(TextField), card.greek);

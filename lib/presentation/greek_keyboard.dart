@@ -41,7 +41,7 @@ class GreekKeyboard extends StatelessWidget {
     children: [
       for (final row in ['ςερτυθιοπ', 'ασδφγηξκλ', 'ζχψωβνμ', 'άέήίόύώ'])
         Padding(
-          padding: const EdgeInsets.only(bottom: 6),
+          padding: const EdgeInsets.only(bottom: 4),
           child: Row(
             mainAxisAlignment: MainAxisAlignment.center,
             children: row
@@ -102,7 +102,7 @@ class _Key extends StatelessWidget {
       child: InkWell(
         onTap: onTap,
         child: SizedBox(
-          height: 46,
+          height: 44,
           child: Center(
             child: ExcludeSemantics(
               child: icon != null
@@ -118,6 +118,29 @@ class _Key extends StatelessWidget {
           ),
         ),
       ),
+    ),
+  );
+}
+
+class KeyboardToggle extends StatelessWidget {
+  const KeyboardToggle({
+    super.key,
+    required this.useGreekKeyboard,
+    required this.onPressed,
+  });
+
+  final bool useGreekKeyboard;
+  final VoidCallback onPressed;
+
+  @override
+  Widget build(BuildContext context) => IconButton(
+    tooltip: useGreekKeyboard
+        ? context.strings.phoneKeyboard
+        : context.strings.greekKeyboard,
+    onPressed: onPressed,
+    icon: Icon(
+      useGreekKeyboard ? Icons.keyboard_outlined : Icons.keyboard_alt_outlined,
+      size: 22,
     ),
   );
 }

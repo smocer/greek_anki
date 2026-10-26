@@ -159,6 +159,11 @@ void main() {
     );
     await tester.pumpAndSettle();
     expect(find.text('词卡'), findsOneWidget);
+    await tester.scrollUntilVisible(
+      find.text('默写模式'),
+      150,
+      scrollable: find.byType(Scrollable).first,
+    );
     expect(find.text('默写模式'), findsOneWidget);
     expect(tester.takeException(), isNull);
   });

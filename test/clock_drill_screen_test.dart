@@ -62,7 +62,7 @@ void main() {
       'μ',
     );
 
-    await tapVisible(tester, find.text('Use phone keyboard'));
+    await tapVisible(tester, find.byTooltip('Use phone keyboard'));
     expect(tester.widget<TextField>(find.byKey(fieldKey)).readOnly, isFalse);
     expect(
       tester.widget<TextField>(find.byKey(fieldKey)).focusNode!.hasFocus,

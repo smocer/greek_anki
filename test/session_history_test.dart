@@ -156,7 +156,7 @@ void main() {
       );
       await tester.pumpAndSettle();
       final previous = find.byKey(const ValueKey('previous-card'));
-      expect(tester.widget<TextButton>(previous).onPressed, isNull);
+      expect(tester.widget<IconButton>(previous).onPressed, isNull);
 
       Future<void> tap(Finder finder) async {
         await tester.ensureVisible(finder);
@@ -185,7 +185,7 @@ void main() {
       expect(find.text('Μπράβο!'), findsOneWidget);
       expect(store.writes, 2);
       await tap(find.text('Next batch'));
-      expect(tester.widget<TextButton>(previous).onPressed, isNull);
+      expect(tester.widget<IconButton>(previous).onPressed, isNull);
     },
   );
 }
