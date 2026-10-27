@@ -24,6 +24,18 @@ class AppStrings {
       text(LocalizedText(en: en, ru: ru, zh: zh));
 
   String get reference => _pick('Reference', 'Справочник', '参考资料');
+  String get wordSearch => _pick('Word search', 'Поиск слов', '查找单词');
+  String get greekWord => _pick('Greek word', 'Слово по-гречески', '希腊语单词');
+  String get wordSearchHint => _pick(
+    'All word categories · Full or partial words · Accents optional.',
+    'Все категории · Слово или его часть · Ударения необязательны.',
+    '搜索所有单词分类。输入单词或其中一部分；可不输入重音。',
+  );
+  String get clearSearch => _pick('Clear search', 'Очистить поиск', '清除搜索');
+  String get noSearchResults =>
+      _pick('No matching words', 'Слова не найдены', '没有匹配的单词');
+  String searchResultCount(int count) =>
+      _pick('Results: $count', 'Найдено: $count', '结果：$count');
   String get grammarTables =>
       _pick('Grammar tables', 'Грамматические таблицы', '语法表');
   String get practiceGroup => _pick('Practice group', 'Что учим', '练习分组');
@@ -45,8 +57,7 @@ class AppStrings {
     return themes;
   }
 
-  String get excludeThemes =>
-      _pick('Exclude themes', 'Исключить темы', '排除主题');
+  String get excludeThemes => _pick('Exclude themes', 'Исключить темы', '排除主题');
   String get excludeThemesHint => _pick(
     'Select one or more themes to leave out',
     'Выберите одну или несколько тем для исключения',

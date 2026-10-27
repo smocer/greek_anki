@@ -17,6 +17,7 @@ import 'theme.dart';
 import 'topic_picker.dart';
 import 'vocabulary_sheet.dart';
 import 'web_update_notice.dart';
+import 'word_search_screen.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({
@@ -119,7 +120,7 @@ class _HomeScreenState extends State<HomeScreen> with WidgetsBindingObserver {
     context: context,
     showDragHandle: true,
     useSafeArea: true,
-    builder: (sheetContext) => Padding(
+    builder: (sheetContext) => SingleChildScrollView(
       padding: const EdgeInsets.fromLTRB(16, 0, 16, 24),
       child: Column(
         mainAxisSize: MainAxisSize.min,
@@ -129,6 +130,11 @@ class _HomeScreenState extends State<HomeScreen> with WidgetsBindingObserver {
             titleTextStyle: Theme.of(context).textTheme.titleLarge,
           ),
           for (final entry in [
+            (
+              context.strings.wordSearch,
+              Icons.search,
+              WordSearchScreen(collections: widget.collections),
+            ),
             (
               context.strings.alphabetTitle,
               Icons.menu_book_outlined,

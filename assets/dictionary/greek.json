@@ -38732,8 +38732,9 @@
         "ru": "кса-НА"
       },
       "explanation": {
-        "en": "An adverb; the stress is on the final syllable.",
-        "ru": "Наречие не изменяется, как «снова». Ξ читается «кс», ударение на конце."
+        "en": "Ξανά and πάλι both mean “again”. Η σειρά μου πάλι means “my turn again”.",
+        "ru": "Ξανά и πάλι означают «снова / опять». Η σειρά μου πάλι — «снова моя очередь».",
+        "zh": "Ξανά 和 πάλι 都表示“再次”。Η σειρά μου πάλι 意为“又轮到我了”。"
       },
       "reviewIdentity": {
         "deckId": "october-lesson",
@@ -38742,7 +38743,30 @@
       "labels": [
         "adverb"
       ],
-      "addedWeek": "2026-10-05"
+      "addedWeek": "2026-10-05",
+      "answerDisplay": "ξανά / πάλι",
+      "alternatives": [
+        "πάλι"
+      ],
+      "wordGroup": "again",
+      "forms": [
+        {
+          "greek": "ξανά",
+          "answerDisplay": "ξανά",
+          "pronunciation": {
+            "en": "ksa-NA",
+            "ru": "кса-НА"
+          }
+        },
+        {
+          "greek": "πάλι",
+          "answerDisplay": "πάλι",
+          "pronunciation": {
+            "en": "PA-li",
+            "ru": "ПА-ли"
+          }
+        }
+      ]
     },
     "words-descriptions/only": {
       "id": "only",

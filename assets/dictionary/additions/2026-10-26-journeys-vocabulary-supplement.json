@@ -1,0 +1,404 @@
+{
+  "schemaVersion": 1,
+  "addedWeek": "2026-10-26",
+  "words": [
+    {
+      "id": "journeys-extra-country",
+      "collection": "words-nouns",
+      "greek": "χώρα",
+      "prompt": {
+        "en": "Country",
+        "ru": "Страна",
+        "zh": "国家"
+      },
+      "pronunciation": {
+        "en": "HO-ra",
+        "ru": "ХО-ра"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "places",
+        "travel"
+      ],
+      "answerDisplay": "η χώρα"
+    },
+    {
+      "id": "journeys-extra-athens",
+      "collection": "words-names",
+      "greek": "Αθήνα",
+      "prompt": {
+        "en": "Athens",
+        "ru": "Афины",
+        "zh": "雅典"
+      },
+      "pronunciation": {
+        "en": "a-THI-na",
+        "ru": "а-THИ-на"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "places",
+        "travel"
+      ],
+      "answerDisplay": "η Αθήνα",
+      "explanation": {
+        "en": "Athens is feminine singular in Greek: η Αθήνα; στην Αθήνα means “in/to Athens”.",
+        "ru": "По-гречески название Афин — женского рода, единственного числа: η Αθήνα. Στην Αθήνα — «в Афинах / в Афины».",
+        "zh": "雅典在希腊语中是阴性单数：η Αθήνα；στην Αθήνα 表示“在／去雅典”。"
+      }
+    },
+    {
+      "id": "journeys-extra-other",
+      "collection": "words-pronouns",
+      "greek": "άλλος",
+      "prompt": {
+        "en": "Other / another",
+        "ru": "Другой",
+        "zh": "其他的／另一个"
+      },
+      "pronunciation": {
+        "en": "A-los",
+        "ru": "А-лос"
+      },
+      "labels": [
+        "pronoun"
+      ],
+      "themes": [
+        "conversation",
+        "travel"
+      ],
+      "wordGroup": "journeys-extra-other",
+      "answerDisplay": "άλλος / άλλη / άλλο",
+      "alternatives": [
+        "άλλη",
+        "άλλο"
+      ],
+      "forms": [
+        {
+          "greek": "άλλος",
+          "answerDisplay": "άλλος",
+          "pronunciation": {
+            "en": "A-los",
+            "ru": "А-лос"
+          }
+        },
+        {
+          "greek": "άλλη",
+          "answerDisplay": "άλλη",
+          "pronunciation": {
+            "en": "A-li",
+            "ru": "А-ли"
+          }
+        },
+        {
+          "greek": "άλλο",
+          "answerDisplay": "άλλο",
+          "pronunciation": {
+            "en": "A-lo",
+            "ru": "А-ло"
+          }
+        }
+      ],
+      "explanation": {
+        "en": "Masculine άλλος, feminine άλλη, neuter άλλο. Μια άλλη χώρα means “another country”.",
+        "ru": "Мужской род — άλλος, женский — άλλη, средний — άλλο. Μια άλλη χώρα — «другая страна».",
+        "zh": "阳性 άλλος、阴性 άλλη、中性 άλλο。Μια άλλη χώρα 意为“另一个国家”。"
+      }
+    },
+    {
+      "id": "journeys-extra-someone",
+      "collection": "words-pronouns",
+      "greek": "κάποιος",
+      "prompt": {
+        "en": "Someone / some (a certain person or thing)",
+        "ru": "Кто-то / какой-то",
+        "zh": "某人／某个"
+      },
+      "pronunciation": {
+        "en": "KA-pyos",
+        "ru": "КА-пьос"
+      },
+      "labels": [
+        "pronoun"
+      ],
+      "themes": [
+        "people",
+        "conversation"
+      ],
+      "wordGroup": "journeys-extra-someone",
+      "answerDisplay": "κάποιος / κάποια / κάποιο / κάποιον",
+      "alternatives": [
+        "κάποια",
+        "κάποιο",
+        "κάποιον"
+      ],
+      "forms": [
+        {
+          "greek": "κάποιος",
+          "answerDisplay": "κάποιος",
+          "pronunciation": {
+            "en": "KA-pyos",
+            "ru": "КА-пьос"
+          }
+        },
+        {
+          "greek": "κάποια",
+          "answerDisplay": "κάποια",
+          "pronunciation": {
+            "en": "KA-pya",
+            "ru": "КА-пья"
+          }
+        },
+        {
+          "greek": "κάποιο",
+          "answerDisplay": "κάποιο",
+          "pronunciation": {
+            "en": "KA-pyo",
+            "ru": "КА-пьо"
+          }
+        },
+        {
+          "greek": "κάποιον",
+          "answerDisplay": "κάποιον",
+          "pronunciation": {
+            "en": "KA-pyon",
+            "ru": "КА-пьон"
+          }
+        }
+      ],
+      "explanation": {
+        "en": "Κάποιος, κάποια, κάποιο are masculine, feminine and neuter. Κάποιον is masculine accusative, as in μιλάω για κάποιον (“I talk about someone”).",
+        "ru": "Κάποιος, κάποια, κάποιο — формы мужского, женского и среднего рода. Κάποιον — винительный падеж мужского рода: μιλάω για κάποιον — «я говорю о ком-то».",
+        "zh": "Κάποιος、κάποια、κάποιο 分别为阳性、阴性、中性。Κάποιον 是阳性宾格，如 μιλάω για κάποιον（我谈论某个人）。"
+      }
+    },
+    {
+      "id": "journeys-extra-turn",
+      "collection": "words-nouns",
+      "greek": "σειρά",
+      "prompt": {
+        "en": "Turn / order (in a sequence)",
+        "ru": "Очередь / порядок",
+        "zh": "轮次／顺序"
+      },
+      "pronunciation": {
+        "en": "si-RA",
+        "ru": "си-РА"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "classroom",
+        "conversation"
+      ],
+      "answerDisplay": "η σειρά",
+      "explanation": {
+        "en": "Η σειρά μου means “my turn”. Here σειρά refers to taking turns or an order in a sequence.",
+        "ru": "Η σειρά μου — «моя очередь». Здесь σειρά означает очередь или порядок следования.",
+        "zh": "Η σειρά μου 意为“轮到我”。这里 σειρά 表示轮次或顺序。"
+      }
+    },
+    {
+      "id": "journeys-extra-oh-no",
+      "collection": "words-connectors",
+      "greek": "ωχ",
+      "prompt": {
+        "en": "Oh no! / Ouch!",
+        "ru": "Ой! / Ох!",
+        "zh": "哎呀！"
+      },
+      "pronunciation": {
+        "en": "ohkh",
+        "ru": "ох"
+      },
+      "labels": [
+        "interjection"
+      ],
+      "themes": [
+        "conversation"
+      ],
+      "explanation": {
+        "en": "An exclamation of dismay, surprise or pain; in the dialogue the speaker has just missed the trolleybus.",
+        "ru": "Возглас досады, удивления или боли; в диалоге герой замечает, что троллейбус уже уехал.",
+        "zh": "表示懊恼、惊讶或疼痛的感叹词；对话中说话者刚错过了无轨电车。"
+      }
+    },
+    {
+      "id": "journeys-extra-first-stop",
+      "collection": "words-nouns",
+      "greek": "αφετηρία",
+      "prompt": {
+        "en": "Starting point / first stop",
+        "ru": "Начальная точка / начальная остановка",
+        "zh": "起点／始发站"
+      },
+      "pronunciation": {
+        "en": "a-fe-ti-RI-a",
+        "ru": "а-фэ-ти-РИ-а"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "travel",
+        "places"
+      ],
+      "answerDisplay": "η αφετηρία"
+    },
+    {
+      "id": "journeys-extra-terminus",
+      "collection": "words-nouns",
+      "greek": "τέρμα",
+      "prompt": {
+        "en": "Terminus / end of a route",
+        "ru": "Конечная остановка / конец маршрута",
+        "zh": "终点站／路线终点"
+      },
+      "pronunciation": {
+        "en": "TER-ma",
+        "ru": "ТЭР-ма"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "travel",
+        "places"
+      ],
+      "answerDisplay": "το τέρμα"
+    },
+    {
+      "id": "journeys-extra-swimming-pool",
+      "collection": "words-nouns",
+      "greek": "κολυμβητήριο",
+      "prompt": {
+        "en": "Swimming pool (sports facility)",
+        "ru": "Плавательный бассейн",
+        "zh": "游泳馆"
+      },
+      "pronunciation": {
+        "en": "ko-lim-vi-TI-ri-o",
+        "ru": "ко-лим-ви-ТИ-ри-о"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "places"
+      ],
+      "answerDisplay": "το κολυμβητήριο"
+    },
+    {
+      "id": "journeys-extra-stadium",
+      "collection": "words-nouns",
+      "greek": "στάδιο",
+      "prompt": {
+        "en": "Stadium",
+        "ru": "Стадион",
+        "zh": "体育场"
+      },
+      "pronunciation": {
+        "en": "STA-dhi-o",
+        "ru": "СТА-ди-о"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "places"
+      ],
+      "answerDisplay": "το στάδιο"
+    },
+    {
+      "id": "journeys-extra-grove",
+      "collection": "words-nouns",
+      "greek": "άλσος",
+      "prompt": {
+        "en": "Grove / wooded park",
+        "ru": "Роща / лесопарк",
+        "zh": "小树林／林木公园"
+      },
+      "pronunciation": {
+        "en": "AL-sos",
+        "ru": "АЛ-сос"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "places"
+      ],
+      "answerDisplay": "το άλσος"
+    },
+    {
+      "id": "journeys-extra-polytechnic",
+      "collection": "words-nouns",
+      "greek": "πολυτεχνείο",
+      "prompt": {
+        "en": "Polytechnic / technical university",
+        "ru": "Политехнический университет",
+        "zh": "理工大学"
+      },
+      "pronunciation": {
+        "en": "po-li-te-HNI-o",
+        "ru": "по-ли-тэ-ХНИ-о"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "places",
+        "classroom"
+      ],
+      "answerDisplay": "το πολυτεχνείο"
+    },
+    {
+      "id": "journeys-extra-english-person",
+      "collection": "words-names",
+      "greek": "Άγγλος",
+      "prompt": {
+        "en": "English person",
+        "ru": "Англичанин / англичанка",
+        "zh": "英格兰人"
+      },
+      "pronunciation": {
+        "en": "AN-glos",
+        "ru": "АН-глос"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "people"
+      ],
+      "wordGroup": "journeys-extra-english-person",
+      "answerDisplay": "ο Άγγλος / η Αγγλίδα",
+      "alternatives": [
+        "Αγγλίδα"
+      ],
+      "forms": [
+        {
+          "greek": "Άγγλος",
+          "answerDisplay": "ο Άγγλος",
+          "pronunciation": {
+            "en": "AN-glos",
+            "ru": "АН-глос"
+          }
+        },
+        {
+          "greek": "Αγγλίδα",
+          "answerDisplay": "η Αγγλίδα",
+          "pronunciation": {
+            "en": "an-GLI-dha",
+            "ru": "ан-ГЛИ-да"
+          }
+        }
+      ]
+    }
+  ]
+}
