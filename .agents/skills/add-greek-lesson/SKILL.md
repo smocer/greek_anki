@@ -26,7 +26,7 @@ Inspect the working tree and branch before changing anything. For the usual week
 5. Cover the new lesson content without copying whole dialogues, every worksheet sentence or incidental character names. Create concise cards and representative drills. Do not expand into unrelated vocabulary or grammar merely because it is connected to the subject.
 6. Reconcile every inventory item before publishing: identify its existing card/form, add it, or record why it is excluded or unresolved. Respect user exclusions such as concrete clock-time examples. Keep this working checklist out of student-facing documentation.
 
-When auditing a reported missing word, check the selected collection and active filters as well as the source and published catalog. Search is collection-scoped; a word found under another appropriate category is not an import omission and should not be moved or duplicated to satisfy the search.
+When auditing a reported missing word, check the selected collection and active filters as well as the source and published catalog. The All cards view's search is collection-scoped; use Reference → Word search to look across all word categories. A word found under another appropriate category is not an import omission and should not be moved or duplicated to satisfy the search.
 
 For a requested preview, group the proposal into words, phrases and grammar, give Greek with concise meanings, mention corrections and existing material being reused, and identify any uncertainty. Do not ask again after that proposal is approved unless the scope materially changes.
 
