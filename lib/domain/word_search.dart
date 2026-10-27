@@ -2,12 +2,11 @@ import 'curriculum.dart';
 import 'greek_text.dart';
 import 'vocabulary.dart';
 
-/// A lookup over vocabulary only, independent of the current study selection.
+/// A lookup over all learning content, independent of the study selection.
 class WordSearch {
   WordSearch(Iterable<LearningCollection> collections) {
     final seen = <String>{};
     for (final collection in collections) {
-      if (collection.section != LearningSection.words) continue;
       for (final card in collection.deck.cards) {
         final identity =
             card.reviewIdentity?.key(StudyMode.flashcards) ??

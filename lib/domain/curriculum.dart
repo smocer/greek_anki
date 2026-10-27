@@ -15,6 +15,10 @@ enum LearningSection {
 }
 
 enum LearningTheme {
+  verbA(LocalizedText(en: 'A', ru: 'A', zh: 'A')),
+  verbB1(LocalizedText(en: 'B1', ru: 'B1', zh: 'B1')),
+  verbB2(LocalizedText(en: 'B2', ru: 'B2', zh: 'B2')),
+  verbAB(LocalizedText(en: 'AB', ru: 'AB', zh: 'AB')),
   people(LocalizedText(en: 'People', ru: 'Люди', zh: '人物')),
   family(LocalizedText(en: 'Family', ru: 'Семья', zh: '家庭')),
   classroom(LocalizedText(en: 'Classroom', ru: 'Учёба', zh: '课堂')),

@@ -72,6 +72,34 @@ void main() {
             )
             .first,
       );
+      await tester.enterText(input, 'καλημέρα');
+      await tester.pumpAndSettle();
+      await tester.scrollUntilVisible(
+        entry,
+        100,
+        scrollable: find
+            .descendant(
+              of: find.byType(CustomScrollView),
+              matching: find.byType(Scrollable),
+            )
+            .first,
+      );
+      await tester.pumpAndSettle();
+      final greeting = tester.widget<VocabularyCardDetails>(entry).card;
+      expect(greeting.greek, 'Καλημέρα!');
+      expect(find.text(strings.text(greeting.prompt)), findsOneWidget);
+      expect(tester.takeException(), isNull);
+
+      await tester.scrollUntilVisible(
+        input,
+        -100,
+        scrollable: find
+            .descendant(
+              of: find.byType(CustomScrollView),
+              matching: find.byType(Scrollable),
+            )
+            .first,
+      );
       await tester.enterText(input, 'αβγδεζηθικλ');
       await tester.pumpAndSettle();
       expect(find.text(strings.noSearchResults), findsOneWidget);

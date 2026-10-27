@@ -134,6 +134,15 @@ Supported `labels`: `noun`, `verb`, `adjective`, `adverb`, `pronoun`, `article`,
 Supported themes: `people`, `family`, `classroom`, `home`, `food`, `places`,
 `travel`, `phone`, `time`, and `conversation`.
 
+Verb vocabulary also uses `verbA`, `verbB1`, `verbB2`, and `verbAB` to expose
+conjugation classes in the verb topic filter. Keep the ordinary topic tags too.
+Classify the present forms taught on the card: A (γράφω), B1 (μιλάω / μιλώ),
+B2 (μπορώ), or AB (ακούω / λέω / πάω / τρώω). Use multiple class tags when a
+card teaches forms from different classes, such as πάω / πηγαίνω (AB and A)
+or παρακαλώ / παρακαλάω (B2 and B1). Do not infer B2 from a final -ώ alone.
+Passive forms and είμαι remain available under All themes without being forced
+into these four active-verb classes. Add these tags only to `words-verbs`.
+
 **Keep existing `reviewIdentity.deckId` and `reviewIdentity.cardId` values unchanged.**
 These fields form the key for saved review records. If an existing entry moves
 to another `collection`, explicitly retain its original `reviewIdentity` to

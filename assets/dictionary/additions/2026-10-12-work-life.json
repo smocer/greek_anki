@@ -382,7 +382,8 @@
         "ru": "Форма «я»: думаю, полагаю. Передаёт мнение или предположение."
       },
       "themes": [
-        "conversation"
+        "conversation",
+        "verbA"
       ],
       "labels": [
         "verb"
@@ -406,7 +407,8 @@
         "ru": "Односложное слово без знака ударения. Ζω — жить, быть живым; μένω обычно о месте жительства. Δεν ζω — «я не живу», а «он не живёт» — δεν ζει."
       },
       "themes": [
-        "home"
+        "home",
+        "verbB2"
       ],
       "labels": [
         "verb"
@@ -430,7 +432,8 @@
         "ru": "Форма «я». Ψ — сочетание «пс»: ПСАХ-но. Ψάχνω για δουλειά — «я ищу работу»."
       },
       "themes": [
-        "people"
+        "people",
+        "verbA"
       ],
       "labels": [
         "verb"
@@ -455,7 +458,8 @@
       },
       "themes": [
         "conversation",
-        "people"
+        "people",
+        "verbA"
       ],
       "labels": [
         "verb"
@@ -479,7 +483,8 @@
         "ru": "Форма «я». Ταξίδι — «поездка». Ευ перед гласной звучит как «эв»."
       },
       "themes": [
-        "travel"
+        "travel",
+        "verbA"
       ],
       "labels": [
         "verb"
@@ -504,7 +509,8 @@
       },
       "themes": [
         "food",
-        "home"
+        "home",
+        "verbA"
       ],
       "labels": [
         "verb"
@@ -528,7 +534,8 @@
         "ru": "Форма «я»: заполняю, дополняю. В задании учебника — «заполните пропуски»."
       },
       "themes": [
-        "classroom"
+        "classroom",
+        "verbA"
       ],
       "labels": [
         "verb"
@@ -553,7 +560,8 @@
       },
       "themes": [
         "classroom",
-        "conversation"
+        "conversation",
+        "verbB1"
       ],
       "labels": [
         "verb"
@@ -580,7 +588,8 @@
         "ru": "Форма «я». В заголовке упражнения это указание выбрать ответ."
       },
       "themes": [
-        "classroom"
+        "classroom",
+        "verbA"
       ],
       "labels": [
         "verb"

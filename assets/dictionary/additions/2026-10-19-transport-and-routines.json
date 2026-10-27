@@ -689,7 +689,8 @@
         "ru": "а-ЛА-зо"
       },
       "themes": [
-        "conversation"
+        "conversation",
+        "verbA"
       ],
       "labels": [
         "verb"
@@ -709,7 +710,8 @@
         "ru": "ФТЬЯ-хно"
       },
       "themes": [
-        "home"
+        "home",
+        "verbA"
       ],
       "labels": [
         "verb"
@@ -729,7 +731,8 @@
         "ru": "ар-ГО"
       },
       "themes": [
-        "time"
+        "time",
+        "verbB2"
       ],
       "labels": [
         "verb"
@@ -749,7 +752,8 @@
         "ru": "ФТА-но"
       },
       "themes": [
-        "travel"
+        "travel",
+        "verbA"
       ],
       "labels": [
         "verb"

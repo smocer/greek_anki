@@ -60953,77 +60953,101 @@
           "conversation"
         ],
         "buy-present.i": [
-          "home"
+          "home",
+          "verbA"
         ],
         "called-present.i-called": [
           "conversation"
         ],
         "close-present.i": [
-          "conversation"
+          "conversation",
+          "verbA"
         ],
         "do-present.i": [
-          "conversation"
+          "conversation",
+          "verbA"
         ],
         "drink-present.i": [
-          "food"
+          "food",
+          "verbA"
         ],
         "finish-present.i": [
-          "conversation"
+          "conversation",
+          "verbA"
         ],
         "have-present.i": [
-          "conversation"
+          "conversation",
+          "verbA"
         ],
         "know-present.i": [
-          "conversation"
+          "conversation",
+          "verbA"
         ],
         "learn-present.i": [
-          "classroom"
+          "classroom",
+          "verbA"
         ],
         "live-present.i": [
           "home",
-          "places"
+          "places",
+          "verbA"
         ],
         "open-present.i": [
-          "conversation"
+          "conversation",
+          "verbA"
         ],
         "pay-present.i": [
-          "home"
+          "home",
+          "verbA"
         ],
         "read-present.i": [
-          "classroom"
+          "classroom",
+          "verbA"
         ],
         "see-present.i": [
-          "conversation"
+          "conversation",
+          "verbA"
         ],
         "sing-present.i": [
-          "conversation"
+          "conversation",
+          "verbB1"
         ],
         "start-present.i": [
-          "conversation"
+          "conversation",
+          "verbA"
         ],
         "study-present.i": [
-          "classroom"
+          "classroom",
+          "verbA"
         ],
         "understand-present.i": [
-          "classroom"
+          "classroom",
+          "verbA"
         ],
         "wait-present.i": [
-          "conversation"
+          "conversation",
+          "verbA"
         ],
         "want-present.i": [
-          "conversation"
+          "conversation",
+          "verbA"
         ],
         "work-present.i": [
-          "home"
+          "home",
+          "verbA"
         ],
         "write-present.i": [
-          "classroom"
+          "classroom",
+          "verbA"
         ],
         "absent": [
-          "conversation"
+          "conversation",
+          "verbA"
         ],
         "family-say": [
-          "conversation"
+          "conversation",
+          "verbA",
+          "verbAB"
         ]
       }
     },

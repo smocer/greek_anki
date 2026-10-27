@@ -189,7 +189,8 @@
         "verb"
       ],
       "themes": [
-        "conversation"
+        "conversation",
+        "verbA"
       ]
     },
     {
@@ -253,7 +254,8 @@
         "verb"
       ],
       "themes": [
-        "people"
+        "people",
+        "verbB1"
       ]
     },
     {
@@ -381,7 +383,8 @@
         "verb"
       ],
       "themes": [
-        "home"
+        "home",
+        "verbA"
       ]
     },
     {
@@ -488,7 +491,8 @@
         "verb"
       ],
       "themes": [
-        "home"
+        "home",
+        "verbA"
       ]
     },
     {
@@ -602,9 +606,14 @@
     {
       "id": "oct16-take",
       "collection": "words-verbs",
-      "aliases": ["oct16-take-imperative"],
+      "aliases": [
+        "oct16-take-imperative"
+      ],
       "reviewAliases": [
-        {"deckId": "words-verbs", "cardId": "oct16-take-imperative"}
+        {
+          "deckId": "words-verbs",
+          "cardId": "oct16-take-imperative"
+        }
       ],
       "greek": "παίρνω",
       "prompt": {
@@ -622,7 +631,8 @@
       ],
       "themes": [
         "places",
-        "conversation"
+        "conversation",
+        "verbA"
       ]
     }
   ]

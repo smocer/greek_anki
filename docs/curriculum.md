@@ -45,6 +45,12 @@ Eight groups organise practice by skill:
 - **Verb forms:** six persons of μένω, διαβάζω and καταλαβαίνω, alongside the distinct patterns είμαι, λέγομαι and τραγουδώ. Likes practice covers all seven short pronouns with αρέσει, plural αρέσουν, Μου αρέσεις and activities with να. The verb after να agrees with the person doing the activity: Μας αρέσει να κολυμπάμε.
 - **B1 verb forms:** μιλάω and αγαπάω in all six persons, accepting contracted alternatives such as μιλώ and αγαπώ.
 - **B2 verb forms:** μπορώ and οδηγώ in all six persons, contrasting endings such as -είς / -εί with B1 -άς / -άει. B1 and B2 here name conjugation classes, not language proficiency levels.
+
+In Words → Verbs → Filters, the topic list also offers **A, B1, B2 and AB**.
+AB includes ακούω, λέω, πάω and τρώω, following the class terminology in
+[Deltos's verb reference](https://deltos.gr/app/uploads/2025/09/pes_to_ellinika_b1_anakefalaiotika.pdf).
+Cards with forms from two classes appear in both filters. Other verb types,
+including λέγομαι and κοιμάμαι, remain available under All themes.
 - **Location and origin:** σε with articles, από, residence and addresses.
 - **Possession:** short phrases and complete sentences with μου / σου / του / της / μας / σας / τους. Distinguish the gender of the thing from the owner: Αυτή είναι η τσάντα του. Practise the additional accent in το τηλέφωνό του, το νούμερό της and η οικογένειά μου.
 - **Questions and negation:** asking for information and forming negative statements; ποιος (who does the action) versus ποιον (whom it affects), and πότε in a question versus όταν joining clauses.

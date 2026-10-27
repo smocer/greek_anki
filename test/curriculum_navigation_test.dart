@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:greek_anki/app.dart';
+import 'package:greek_anki/data/dictionary.dart';
 import 'package:greek_anki/domain/app_language.dart';
 import 'package:greek_anki/domain/curriculum.dart';
 import 'package:greek_anki/presentation/card_explanation.dart';
+import 'package:greek_anki/presentation/app_strings.dart';
 import 'package:greek_anki/presentation/study_screen.dart';
 import 'package:greek_anki/presentation/topic_picker.dart';
 import 'package:greek_anki/presentation/vocabulary_preview.dart';
@@ -162,6 +164,59 @@ void main() {
   );
 
   for (final language in AppLanguage.values) {
+    testWidgets('verb class topics preview and apply (${language.name})', (
+      tester,
+    ) async {
+      await openApp(tester, language: language);
+      final strings = AppStrings(language);
+      final verbs = currentDictionary.collections.singleWhere(
+        (collection) => collection.deck.id == 'words-verbs',
+      );
+      await tester.tap(find.byKey(const ValueKey('collection-words')));
+      await tester.pumpAndSettle();
+      await tapText(tester, strings.text(verbs.deck.title));
+      await tapText(tester, strings.filters);
+      final dropdown = find.byKey(const ValueKey('collection-theme'));
+      for (final theme in [
+        LearningTheme.verbA,
+        LearningTheme.verbB1,
+        LearningTheme.verbB2,
+        LearningTheme.verbAB,
+      ]) {
+        await tester.ensureVisible(dropdown);
+        await tester.tap(dropdown);
+        await tester.pumpAndSettle();
+        await tapText(tester, strings.text(theme.title));
+        final preview = tester.widget<VocabularyPreview>(
+          find.byType(VocabularyPreview),
+        );
+        expect(preview.cards, isNotEmpty);
+        expect(
+          preview.cards.every((card) => verbs.themes[card.id]!.contains(theme)),
+          isTrue,
+        );
+      }
+      await tapText(tester, strings.applyFilters);
+      await tapText(tester, strings.filters);
+      expect(
+        tester
+            .widget<DropdownButtonFormField<LearningTheme?>>(dropdown)
+            .initialValue,
+        LearningTheme.verbAB,
+      );
+      await tapText(tester, strings.applyFilters);
+      await tapText(tester, strings.flashcards);
+      final screen = tester.widget<StudyScreen>(find.byType(StudyScreen));
+      expect(screen.cards, isNotEmpty);
+      expect(
+        screen.cards.every(
+          (card) => verbs.themes[card.id]!.contains(LearningTheme.verbAB),
+        ),
+        isTrue,
+      );
+      expect(tester.takeException(), isNull);
+    });
+
     for (final cls in ['B1', 'B2']) {
       testWidgets(
         'conjugation $cls opens and accepts variants (${language.name})',

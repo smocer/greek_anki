@@ -16,7 +16,8 @@
         "ru": "и-ПАР-хо"
       },
       "themes": [
-        "places"
+        "places",
+        "verbA"
       ],
       "labels": [
         "verb"
@@ -42,7 +43,8 @@
       },
       "themes": [
         "food",
-        "conversation"
+        "conversation",
+        "verbA"
       ],
       "labels": [
         "verb"
@@ -67,7 +69,8 @@
         "ru": "ка-тэ-ВЭ-но"
       },
       "themes": [
-        "travel"
+        "travel",
+        "verbA"
       ],
       "labels": [
         "verb"
@@ -87,7 +90,8 @@
         "ru": "а-нэ-ВЭ-но"
       },
       "themes": [
-        "travel"
+        "travel",
+        "verbA"
       ],
       "labels": [
         "verb"
@@ -108,7 +112,8 @@
       },
       "themes": [
         "home",
-        "time"
+        "time",
+        "verbB1"
       ],
       "labels": [
         "verb"
@@ -131,7 +136,8 @@
         "ru": "ФЭВ-го"
       },
       "themes": [
-        "travel"
+        "travel",
+        "verbA"
       ],
       "labels": [
         "verb"
@@ -152,7 +158,8 @@
       },
       "themes": [
         "travel",
-        "time"
+        "time",
+        "verbB1"
       ],
       "labels": [
         "verb"
@@ -175,7 +182,8 @@
         "ru": "ко-СТИ-зо"
       },
       "themes": [
-        "travel"
+        "travel",
+        "verbA"
       ],
       "labels": [
         "verb"
@@ -200,7 +208,8 @@
         "ru": "о-ди-ГО"
       },
       "themes": [
-        "travel"
+        "travel",
+        "verbB2"
       ],
       "labels": [
         "verb"
@@ -220,7 +229,8 @@
         "ru": "ти-лэ-фо-НО"
       },
       "themes": [
-        "phone"
+        "phone",
+        "verbB2"
       ],
       "labels": [
         "verb"
@@ -240,7 +250,8 @@
         "ru": "син-хо-РО"
       },
       "themes": [
-        "conversation"
+        "conversation",
+        "verbB2"
       ],
       "labels": [
         "verb"
@@ -265,7 +276,8 @@
         "ru": "сим-фо-НО"
       },
       "themes": [
-        "conversation"
+        "conversation",
+        "verbB2"
       ],
       "labels": [
         "verb"
@@ -285,7 +297,8 @@
         "ru": "дья-фо-НО"
       },
       "themes": [
-        "conversation"
+        "conversation",
+        "verbB2"
       ],
       "labels": [
         "verb"
@@ -306,7 +319,8 @@
       },
       "themes": [
         "conversation",
-        "classroom"
+        "classroom",
+        "verbB2"
       ],
       "labels": [
         "verb"
@@ -331,7 +345,8 @@
         "ru": "э-кси-ГО"
       },
       "themes": [
-        "classroom"
+        "classroom",
+        "verbB2"
       ],
       "labels": [
         "verb"
@@ -351,7 +366,8 @@
         "ru": "ми-СО"
       },
       "themes": [
-        "conversation"
+        "conversation",
+        "verbB2"
       ],
       "labels": [
         "verb"
@@ -371,7 +387,9 @@
         "ru": "па-ра-ка-ЛО"
       },
       "themes": [
-        "conversation"
+        "conversation",
+        "verbB1",
+        "verbB2"
       ],
       "labels": [
         "verb"
@@ -399,7 +417,8 @@
         "ru": "эф-ха-ри-СТО"
       },
       "themes": [
-        "conversation"
+        "conversation",
+        "verbB2"
       ],
       "labels": [
         "verb"

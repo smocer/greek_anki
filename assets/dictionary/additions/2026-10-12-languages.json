@@ -2334,7 +2334,8 @@
         "ru": "ми-ЛА-о"
       },
       "themes": [
-        "conversation"
+        "conversation",
+        "verbB1"
       ],
       "labels": [
         "verb"
@@ -2361,7 +2362,8 @@
         "ru": "а-га-ПА-о"
       },
       "themes": [
-        "conversation"
+        "conversation",
+        "verbB1"
       ],
       "labels": [
         "verb"
@@ -2388,7 +2390,8 @@
         "ru": "пэр-па-ТА-о"
       },
       "themes": [
-        "conversation"
+        "conversation",
+        "verbB1"
       ],
       "labels": [
         "verb"
@@ -2415,7 +2418,8 @@
         "ru": "ро-ТА-о"
       },
       "themes": [
-        "conversation"
+        "conversation",
+        "verbB1"
       ],
       "labels": [
         "verb"
@@ -2442,7 +2446,8 @@
         "ru": "си-нан-ДА-о"
       },
       "themes": [
-        "conversation"
+        "conversation",
+        "verbB1"
       ],
       "labels": [
         "verb"
@@ -2469,7 +2474,8 @@
         "ru": "ста-ма-ТА-о"
       },
       "themes": [
-        "conversation"
+        "conversation",
+        "verbB1"
       ],
       "labels": [
         "verb"
@@ -2496,7 +2502,8 @@
         "ru": "пи-НА-о"
       },
       "themes": [
-        "conversation"
+        "conversation",
+        "verbB1"
       ],
       "labels": [
         "verb"
@@ -2523,7 +2530,8 @@
         "ru": "ди-ПСА-о"
       },
       "themes": [
-        "conversation"
+        "conversation",
+        "verbB1"
       ],
       "labels": [
         "verb"
@@ -2550,7 +2558,8 @@
         "ru": "пэр-НА-о"
       },
       "themes": [
-        "conversation"
+        "conversation",
+        "verbB1"
       ],
       "labels": [
         "verb"
@@ -2577,7 +2586,8 @@
         "ru": "зи-ТА-о"
       },
       "themes": [
-        "conversation"
+        "conversation",
+        "verbB1"
       ],
       "labels": [
         "verb"
@@ -2604,7 +2614,8 @@
         "ru": "йэ-ЛА-о"
       },
       "themes": [
-        "conversation"
+        "conversation",
+        "verbB1"
       ],
       "labels": [
         "verb"
@@ -2631,7 +2642,8 @@
         "ru": "ха-мо-йэ-ЛА-о"
       },
       "themes": [
-        "conversation"
+        "conversation",
+        "verbB1"
       ],
       "labels": [
         "verb"
@@ -2658,7 +2670,8 @@
         "ru": "по-НА-о"
       },
       "themes": [
-        "conversation"
+        "conversation",
+        "verbB1"
       ],
       "labels": [
         "verb"
@@ -2685,7 +2698,8 @@
         "ru": "бо-РО"
       },
       "themes": [
-        "conversation"
+        "conversation",
+        "verbB2"
       ],
       "labels": [
         "verb"
@@ -2709,7 +2723,9 @@
         "ru": "ПА-о"
       },
       "themes": [
-        "conversation"
+        "conversation",
+        "verbA",
+        "verbAB"
       ],
       "labels": [
         "verb"
@@ -2760,7 +2776,8 @@
         "ru": "ВРЭ-хи"
       },
       "themes": [
-        "home"
+        "home",
+        "verbA"
       ],
       "labels": [
         "verb"

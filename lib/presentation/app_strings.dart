@@ -27,9 +27,9 @@ class AppStrings {
   String get wordSearch => _pick('Word search', 'Поиск слов', '查找单词');
   String get greekWord => _pick('Greek word', 'Слово по-гречески', '希腊语单词');
   String get wordSearchHint => _pick(
-    'All word categories · Full or partial words · Accents optional.',
-    'Все категории · Слово или его часть · Ударения необязательны.',
-    '搜索所有单词分类。输入单词或其中一部分；可不输入重音。',
+    'Words, phrases and grammar · Full or partial words · Accents optional.',
+    'Слова, фразы и грамматика · Слово или его часть · Ударения необязательны.',
+    '搜索单词、短语和语法。输入单词或其中一部分；可不输入重音。',
   );
   String get clearSearch => _pick('Clear search', 'Очистить поиск', '清除搜索');
   String get noSearchResults =>

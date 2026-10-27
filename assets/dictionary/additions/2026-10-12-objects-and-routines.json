@@ -526,7 +526,8 @@
         "verb"
       ],
       "themes": [
-        "conversation"
+        "conversation",
+        "verbA"
       ],
       "explanation": {
         "en": "Calling out to someone, not making a phone call. For the latter use παίρνω τηλέφωνο.",
@@ -551,7 +552,8 @@
         "verb"
       ],
       "themes": [
-        "conversation"
+        "conversation",
+        "verbA"
       ],
       "explanation": {
         "en": "Παίρνω means I take. Περνάω / περνώ means I pass or spend time; compare the stress and spelling.",
@@ -576,7 +578,9 @@
         "verb"
       ],
       "themes": [
-        "conversation"
+        "conversation",
+        "verbA",
+        "verbAB"
       ],
       "explanation": {
         "en": "First-person present. Τρώγω is another accepted form.",
@@ -604,7 +608,8 @@
         "verb"
       ],
       "themes": [
-        "conversation"
+        "conversation",
+        "verbA"
       ],
       "explanation": {
         "en": "The action χορεύω corresponds to the noun χορός, a dance.",
@@ -629,7 +634,8 @@
         "verb"
       ],
       "themes": [
-        "classroom"
+        "classroom",
+        "verbA"
       ],
       "explanation": {
         "en": "First-person present; in exercise headings it describes what the learner does.",
@@ -654,7 +660,8 @@
         "verb"
       ],
       "themes": [
-        "conversation"
+        "conversation",
+        "verbB1"
       ],
       "explanation": {
         "en": "In job advertisements, ζητάω can mean seek or look for: the employer is seeking staff. It also means ask for something.",
