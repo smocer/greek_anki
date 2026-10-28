@@ -33,9 +33,9 @@
       "collection": "words-verbs",
       "greek": "δοκιμάζω",
       "prompt": {
-        "en": "I try / taste / try on",
+        "en": "I try out / taste / try on",
         "ru": "Пробую / примеряю",
-        "zh": "我尝试／品尝／试穿"
+        "zh": "我试用／品尝／试穿"
       },
       "pronunciation": {
         "en": "dho-ki-MA-zo",
@@ -148,9 +148,9 @@
       "collection": "words-verbs",
       "greek": "ξεκινάω",
       "prompt": {
-        "en": "I start / set off",
-        "ru": "Начинаю / отправляюсь",
-        "zh": "我开始／出发"
+        "en": "I start / set off (B1-class verb)",
+        "ru": "Начинаю / отправляюсь (глагол типа B1)",
+        "zh": "我开始／出发（B1 类动词）"
       },
       "pronunciation": {
         "en": "kse-ki-NA-o",
@@ -166,7 +166,12 @@
       ],
       "alternatives": [
         "ξεκινώ"
-      ]
+      ],
+      "explanation": {
+        "en": "Ξεκινάω / ξεκινώ means setting off on a journey or beginning an activity. It overlaps with αρχίζω in the sense of beginning; this card asks for the B1-class verb.",
+        "ru": "Ξεκινάω / ξεκινώ — отправляюсь в путь или начинаю что-то делать. В значении «начинаю» пересекается с αρχίζω; здесь нужен глагол типа B1.",
+        "zh": "Ξεκινάω／ξεκινώ 表示出发或开始做某事。“开始”这一义项与 αρχίζω 重叠；本卡要求 B1 类动词。"
+      }
     },
     {
       "id": "journeys-cost",
@@ -309,9 +314,9 @@
       "collection": "words-verbs",
       "greek": "προσπαθώ",
       "prompt": {
-        "en": "I try / make an effort",
+        "en": "I try (make an effort)",
         "ru": "Стараюсь / пытаюсь",
-        "zh": "我努力／尝试"
+        "zh": "我努力尝试（尽力做某事）"
       },
       "pronunciation": {
         "en": "pro-spa-THO",
@@ -378,9 +383,9 @@
       "collection": "words-verbs",
       "greek": "παρακαλώ",
       "prompt": {
-        "en": "I ask politely / beg",
-        "ru": "Прошу / умоляю",
-        "zh": "我恳求"
+        "en": "I ask politely / beg (also: please)",
+        "ru": "Прошу / умоляю; «пожалуйста»",
+        "zh": "我请求／恳求（也表示“请”）"
       },
       "pronunciation": {
         "en": "pa-ra-ka-LO",

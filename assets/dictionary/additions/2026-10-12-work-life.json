@@ -445,17 +445,18 @@
       "collection": "words-verbs",
       "greek": "γνωρίζω",
       "prompt": {
-        "en": "I meet / get to know someone",
+        "en": "I get acquainted with someone",
         "ru": "Знакомлюсь",
-        "zh": "我知道；我认识"
+        "zh": "我结识某人（初次认识）"
       },
       "pronunciation": {
         "en": "ghno-RI-zo",
         "ru": "гно-РИ-зо"
       },
       "explanation": {
-        "en": "Also means “I know / am acquainted with”. Γνωρίζω κάποιον is knowing or meeting someone; σου γνωρίζω κάποιον means introducing someone to you.",
-        "ru": "Может значить «я знакомлюсь» или «я знаю, знаком с кем-то». Σου γνωρίζω κάποιον — «знакомлю тебя с кем-то»: значение зависит от того, кто кого знакомит."
+        "en": "Here, getting acquainted with someone. Γνωρίζω can also mean knowing a person or a fact, overlapping with ξέρω. Συναντάω focuses on meeting or encountering someone; σου γνωρίζω κάποιον means I introduce someone to you.",
+        "ru": "Может значить «я знакомлюсь» или «я знаю, знаком с кем-то». Σου γνωρίζω κάποιον — «знакомлю тебя с кем-то»: значение зависит от того, кто кого знакомит.",
+        "zh": "本卡练习“结识某人”。Γνωρίζω 也可表示已经认识某人或知道某事，与 ξέρω 有重叠。Συναντάω 侧重见面或遇见；σου γνωρίζω κάποιον 表示“我把某人介绍给你”。"
       },
       "themes": [
         "conversation",

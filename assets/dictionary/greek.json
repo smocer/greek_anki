@@ -14203,9 +14203,9 @@
     "basic-verbs/start-present.i": {
       "id": "start-present.i",
       "prompt": {
-        "en": "I start",
-        "ru": "Начинаю",
-        "zh": "我开始"
+        "en": "I start / begin (A-class verb)",
+        "ru": "Начинаю (глагол типа A)",
+        "zh": "我开始（A 类动词）"
       },
       "meaning": {
         "en": "Present tense; subject pronouns are optional.",
@@ -14218,8 +14218,9 @@
         "ru": "ар-ХИ-зо"
       },
       "explanation": {
-        "en": "First person singular. Αρχίζω means I start/begin.",
-        "ru": "Первое лицо единственного числа: «я». Αρχίζω — «я начинаю», не отдельный инфинитив."
+        "en": "Αρχίζω means I start or begin. Ξεκινάω can mean the same; this card asks for the A-class verb, while ξεκινάω is B1.",
+        "ru": "Αρχίζω — начинаю. Ξεκινάω тоже может означать «начинаю». Здесь нужен глагол типа A; ξεκινάω относится к B1.",
+        "zh": "Αρχίζω 表示“开始”。Ξεκινάω 也可表示开始；本卡要求 A 类动词，ξεκινάω 属于 B1 类。"
       },
       "acceptedAnswers": [
         "εγώ αρχίζω"
@@ -30891,9 +30892,9 @@
     "words-nouns/classroom-objects.number": {
       "id": "classroom-objects.number",
       "prompt": {
-        "en": "Number",
-        "ru": "Число / номер",
-        "zh": "数字；号码"
+        "en": "Number (masculine noun)",
+        "ru": "Число / номер (мужской род)",
+        "zh": "数字／号码（阳性名词）"
       },
       "meaning": {
         "en": "Write the word.",
@@ -30906,8 +30907,9 @@
         "ru": "а-рит-МОС"
       },
       "explanation": {
-        "en": "Masculine; θ is the unvoiced sound in English “think.”",
-        "ru": "Мужской род. Корень знаком по «арифметика»; θ — межзубный глухой звук, не русское «т»."
+        "en": "Masculine noun. Αριθμός and νούμερο overlap in meaning; this card asks for the masculine word. Θ is the unvoiced sound in English “think”.",
+        "ru": "Мужской род. Αριθμός и νούμερο могут значить «номер»; здесь нужно слово мужского рода. Корень знаком по «арифметика»; θ — межзубный глухой звук.",
+        "zh": "阳性名词。Αριθμός 和 νούμερο 都可表示号码；本卡要求阳性词。Θ 的发音类似英语 think 中的 th。"
       },
       "acceptedAnswers": [
         "ο αριθμός"
@@ -35009,9 +35011,9 @@
     "words-nouns/october-lesson.number": {
       "id": "october-lesson.number",
       "prompt": {
-        "en": "Number (for example, a phone number)",
-        "ru": "Номер (например, телефона)",
-        "zh": "数字；号码"
+        "en": "Number (e.g. phone number; neuter noun)",
+        "ru": "Номер (например, телефона; средний род)",
+        "zh": "号码（如电话号码；中性名词）"
       },
       "meaning": {
         "en": "Write the word.",
@@ -35024,8 +35026,9 @@
         "ru": "НУ-мэ-ро"
       },
       "explanation": {
-        "en": "Compare αριθμός, number. Before a possessive: το νούμερό μου.",
-        "ru": "Похоже на русское «номер», но среднего рода. Перед μου появляется второе ударение: νούμερό μου."
+        "en": "Neuter noun. Αριθμός can also mean number; this card asks for the neuter word. Before a possessive: το νούμερό μου.",
+        "ru": "Средний род. Αριθμός тоже может значить «номер»; здесь нужно слово среднего рода. Перед μου появляется второе ударение: το νούμερό μου.",
+        "zh": "中性名词。Αριθμός 也可表示号码；本卡要求中性词。后接所属代词时增加重音：το νούμερό μου。"
       },
       "acceptedAnswers": [
         "το νούμερο"
@@ -36313,9 +36316,9 @@
     "words-verbs/family-say": {
       "id": "family-say",
       "prompt": {
-        "en": "I say",
+        "en": "I say (something specific)",
         "ru": "Говорю (что-то конкретное)",
-        "zh": "我说"
+        "zh": "我说（某句话或具体内容）"
       },
       "meaning": {
         "en": "Translate into Greek.",
@@ -36329,7 +36332,8 @@
       },
       "explanation": {
         "en": "Λέω focuses on what I say: λέω κάτι = I say something; λέω καλημέρα = I say good morning. Μιλάω / μιλώ describes speaking, conversation or using a language. Λένε can also mean they call, as in Τον λένε Γιώργο.",
-        "ru": "Λέω — говорю что-то конкретное: λέω κάτι — «говорю что-то», λέω καλημέρα — «говорю “доброе утро”». Μιλάω / μιλώ — разговариваю или говорю на каком-либо языке. Λένε также означает «называют»: Τον λένε Γιώργο — «его зовут Йоргос»."
+        "ru": "Λέω — говорю что-то конкретное: λέω κάτι — «говорю что-то», λέω καλημέρα — «говорю “доброе утро”». Μιλάω / μιλώ — разговариваю или говорю на каком-либо языке. Λένε также означает «называют»: Τον λένε Γιώργο — «его зовут Йоргос».",
+        "zh": "Λέω 侧重说的内容：λέω κάτι 是“我说某件事”，λέω καλημέρα 是“我说早上好”。Μιλάω／μιλώ 指说话、交谈或使用某种语言。Τον λένε Γιώργο 表示“他叫乔治”。"
       },
       "alternatives": [
         "λέγω"
@@ -36672,7 +36676,7 @@
       "prompt": {
         "en": "It (neuter) / This (neuter, pointing something out)",
         "ru": "Оно / Это (указываем на предмет)",
-        "zh": "它／这个（中性）（中性）"
+        "zh": "它（主语，中性）／这个（中性，指示）"
       },
       "meaning": {
         "en": "Subject pronoun only.",
@@ -36713,12 +36717,12 @@
         {
           "en": "It (neuter)",
           "ru": "Оно",
-          "zh": "它（中性）"
+          "zh": "它（主语，中性）"
         },
         {
           "en": "This (neuter, pointing something out)",
           "ru": "Это (указываем на предмет)",
-          "zh": "这个"
+          "zh": "这个（中性，指示）"
         }
       ],
       "alternatives": [],
@@ -36804,7 +36808,7 @@
       "prompt": {
         "en": "They (women)",
         "ru": "Они (женщины)",
-        "zh": "他们（女性）"
+        "zh": "她们（女性）"
       },
       "meaning": {
         "en": "Subject pronoun only.",
@@ -36890,7 +36894,7 @@
       "prompt": {
         "en": "They (neuter nouns)",
         "ru": "Они (средний род)",
-        "zh": "他们（中性名词）"
+        "zh": "它们（中性名词）"
       },
       "meaning": {
         "en": "Subject pronoun only.",
@@ -36976,7 +36980,7 @@
       "prompt": {
         "en": "You (one person, informal)",
         "ru": "Ты",
-        "zh": "你（非正式单数）"
+        "zh": "你（主语，单数非正式）"
       },
       "meaning": {
         "en": "Subject pronoun only.",
@@ -37019,7 +37023,7 @@
       "prompt": {
         "en": "You (plural or polite)",
         "ru": "Вы",
-        "zh": "你（复数／礼貌用语）"
+        "zh": "你们／您（主语）"
       },
       "meaning": {
         "en": "Subject pronoun only.",
@@ -37115,7 +37119,7 @@
       "prompt": {
         "en": "Your (possessive, informal)",
         "ru": "Твой",
-        "zh": "你的"
+        "zh": "你的（所属，单数非正式）"
       },
       "meaning": {
         "en": "Translate into Greek.",
@@ -37175,7 +37179,7 @@
       "prompt": {
         "en": "Her (possessive)",
         "ru": "Её",
-        "zh": "她（宾语／物主代词）"
+        "zh": "她的（所属）"
       },
       "meaning": {
         "en": "Translate into Greek.",
@@ -37189,7 +37193,8 @@
       },
       "explanation": {
         "en": "A possessive follows the noun and does not change with its gender: το βιβλίο της.",
-        "ru": "της — «её». Ставится после существительного: το βιβλίο της. Указывает, к кому относится книга; не меняется по роду или числу существительного."
+        "ru": "της — «её». Ставится после существительного: το βιβλίο της. Указывает, к кому относится книга; не меняется по роду или числу существительного.",
+        "zh": "Της 放在名词后表示“她的”，例如 το βιβλίο της（她的书）；直接宾语“她”用 την。同一形式 της 放在动词前还可表示“给她／对她”。"
       },
       "reviewIdentity": {
         "deckId": "october-lesson",
@@ -37235,7 +37240,7 @@
       "prompt": {
         "en": "Your (possessive, polite/plural) / You (unstressed object, polite/plural)",
         "ru": "Ваш / Вас (безударное дополнение)",
-        "zh": "你们的／你们"
+        "zh": "你们的／您的（所属）；你们／您（非重读宾语）"
       },
       "meaning": {
         "en": "Translate into Greek.",
@@ -37263,12 +37268,12 @@
         {
           "en": "Your (possessive, polite/plural)",
           "ru": "Ваш",
-          "zh": "你的"
+          "zh": "你们的／您的（所属）"
         },
         {
           "en": "You (unstressed object, polite/plural)",
           "ru": "Вас (безударное дополнение)",
-          "zh": "你"
+          "zh": "你们／您（非重读宾语）"
         }
       ],
       "alternatives": [],
@@ -37288,7 +37293,7 @@
       "prompt": {
         "en": "Their (possessive, any gender)",
         "ru": "Их",
-        "zh": "他们的"
+        "zh": "他们的／她们的／它们的（所属）"
       },
       "meaning": {
         "en": "Translate into Greek.",
@@ -37426,7 +37431,7 @@
       "prompt": {
         "en": "You (emphatic object, informal)",
         "ru": "Тебя (полная, ударная форма)",
-        "zh": "你"
+        "zh": "你（重读宾语，单数非正式）"
       },
       "meaning": {
         "en": "Translate into Greek.",
@@ -37440,7 +37445,8 @@
       },
       "explanation": {
         "en": "Εσένα; can ask for the other person’s name after giving yours.",
-        "ru": "Εσένα; — «а тебя [как зовут]?». Полная форма дополнения, в отличие от εσύ «ты» — подлежащего."
+        "ru": "Εσένα; — «а тебя [как зовут]?». Полная форма дополнения, в отличие от εσύ «ты» — подлежащего.",
+        "zh": "Εσένα 是单数非正式的重读宾语“你”；主语“你”用 εσύ，非重读宾语用 σε。"
       },
       "reviewIdentity": {
         "deckId": "october-lesson",
@@ -37456,7 +37462,7 @@
       "prompt": {
         "en": "You (emphatic object, polite/plural)",
         "ru": "Вас (полная, ударная форма)",
-        "zh": "你"
+        "zh": "你们／您（重读宾语）"
       },
       "meaning": {
         "en": "Translate into Greek.",
@@ -37470,7 +37476,8 @@
       },
       "explanation": {
         "en": "Εσάς; can ask for the other person’s name politely.",
-        "ru": "Εσάς; — «а Вас [как зовут]?». Не путайте с εσείς «Вы» — подлежащим."
+        "ru": "Εσάς; — «а Вас [как зовут]?». Не путайте с εσείς «Вы» — подлежащим.",
+        "zh": "Εσάς 是复数或礼貌用法的重读宾语“你们／您”；主语用 εσείς，非重读宾语用 σας。"
       },
       "reviewIdentity": {
         "deckId": "october-lesson",
@@ -37516,7 +37523,7 @@
       "prompt": {
         "en": "Her (as in “they call her”)",
         "ru": "Её (как в «её зовут»)",
-        "zh": "她（宾语／物主代词）"
+        "zh": "她（非重读直接宾语）"
       },
       "meaning": {
         "en": "Translate into Greek.",
@@ -37530,7 +37537,8 @@
       },
       "explanation": {
         "en": "An unstressed accusative pronoun: Την λένε… Possession uses της. Τη is also used.",
-        "ru": "Την — «её» как дополнение: кого называют? Принадлежность выражается через της: η μητέρα της — «её мать». Также встречается τη."
+        "ru": "Την — «её» как дополнение: кого называют? Принадлежность выражается через της: η μητέρα της — «её мать». Также встречается τη.",
+        "zh": "Την 是非重读直接宾语“她”，如 την λένε…（她叫……）。表示“她的”用 της；τη 也是常见形式。"
       },
       "alternatives": [
         "τη"
@@ -37549,7 +37557,7 @@
       "prompt": {
         "en": "It (as in “what do they call it?”)",
         "ru": "Это (как в «как это называют?»)",
-        "zh": "它"
+        "zh": "它（非重读直接宾语）"
       },
       "meaning": {
         "en": "Translate into Greek.",

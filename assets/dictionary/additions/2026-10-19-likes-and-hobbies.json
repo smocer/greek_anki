@@ -497,9 +497,9 @@
       "collection": "words-verbs",
       "greek": "αρέσω",
       "prompt": {
-        "en": "I am liked / I appeal to someone",
+        "en": "I am liked (someone likes me)",
         "ru": "Нравлюсь",
-        "zh": "我受喜欢／我吸引某人"
+        "zh": "我讨人喜欢（别人喜欢我）"
       },
       "pronunciation": {
         "en": "a-RE-so",

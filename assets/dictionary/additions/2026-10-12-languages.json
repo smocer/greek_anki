@@ -2325,9 +2325,9 @@
       "collection": "words-verbs",
       "greek": "μιλάω",
       "prompt": {
-        "en": "I speak / talk",
+        "en": "I speak / talk (conversation or a language)",
         "ru": "Разговариваю / говорю на языке",
-        "zh": "我说话；我讲"
+        "zh": "我说话／交谈；我讲某种语言"
       },
       "pronunciation": {
         "en": "mi-LA-o",
@@ -2342,7 +2342,8 @@
       ],
       "explanation": {
         "en": "Μιλάω / μιλώ describes speaking, conversation or using a language: μιλάω ελληνικά = I speak Greek. Λέω focuses on what I say: λέω κάτι = I say something. B1 present, first person singular; both μιλάω and μιλώ are accepted.",
-        "ru": "Μιλάω / μιλώ — разговариваю или говорю на каком-либо языке: μιλάω ελληνικά — «говорю по-гречески». Λέω — говорю что-то конкретное: λέω κάτι — «говорю что-то». Группа B1, настоящее время, форма для «я». Принимаются μιλάω и μιλώ."
+        "ru": "Μιλάω / μιλώ — разговариваю или говорю на каком-либо языке: μιλάω ελληνικά — «говорю по-гречески». Λέω — говорю что-то конкретное: λέω κάτι — «говорю что-то». Группа B1, настоящее время, форма для «я». Принимаются μιλάω и μιλώ.",
+        "zh": "Μιλάω／μιλώ 表示说话、交谈或使用某种语言：μιλάω ελληνικά 是“我说希腊语”。Λέω 侧重说的内容，如 λέω κάτι（我说某件事）。这是 B1 类现在时第一人称单数，两种形式都可用。"
       },
       "alternatives": [
         "μιλώ"
@@ -2437,9 +2438,9 @@
       "collection": "words-verbs",
       "greek": "συναντάω",
       "prompt": {
-        "en": "I meet someone",
+        "en": "I meet / run into someone",
         "ru": "Встречаюсь с кем-то",
-        "zh": "我遇见某人"
+        "zh": "我见到／遇见某人"
       },
       "pronunciation": {
         "en": "si-nan-DA-o",
@@ -2453,8 +2454,9 @@
         "verb"
       ],
       "explanation": {
-        "en": "B1 present: first person singular. Both συναντάω and συναντώ are accepted.",
-        "ru": "Группа B1, настоящее время, форма для «я». Принимаются συναντάω и συναντώ."
+        "en": "Meeting or encountering someone, whether arranged or by chance. Compare γνωρίζω for getting acquainted. B1 present; both συναντάω and συναντώ are accepted.",
+        "ru": "Группа B1, настоящее время, форма для «я». Принимаются συναντάω и συναντώ.",
+        "zh": "表示见到或遇见某人，可以是约好的见面，也可以是偶遇。Γνωρίζω 可表示结识某人。B1 类现在时；συναντάω 和 συναντώ 都可用。"
       },
       "alternatives": [
         "συναντώ"
@@ -2579,7 +2581,7 @@
       "prompt": {
         "en": "I ask for / request something",
         "ru": "Прошу что-то",
-        "zh": "我要求；我寻找"
+        "zh": "我索要／请求某物（如帮助）"
       },
       "pronunciation": {
         "en": "zi-TA-o",
@@ -2594,7 +2596,8 @@
       ],
       "explanation": {
         "en": "Ζητάω requests something, such as help. Ρωτάω asks a question. Ζητώ is also accepted.",
-        "ru": "Ζητάω — прошу что-то, например помощь. Ρωτάω — задаю вопрос. Принимается и ζητώ."
+        "ru": "Ζητάω — прошу что-то, например помощь. Ρωτάω — задаю вопрос. Принимается и ζητώ.",
+        "zh": "Ζητάω／ζητώ 表示请求得到某物，例如帮助。Ρωτάω 是提出问题；παρακαλώ 用于礼貌请求，也可单独表示“请”。Ζητάω 在招聘广告中还可表示寻找员工。"
       },
       "alternatives": [
         "ζητώ"
