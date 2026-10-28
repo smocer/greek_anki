@@ -238,7 +238,7 @@
     },
     {
       "id": "oct16-requests",
-      "collection": "words-verbs",
+      "collection": "grammar-verbs-b1",
       "greek": "ζητάει",
       "prompt": {
         "en": "He / she asks for / seeks / recruits",
@@ -254,9 +254,17 @@
         "verb"
       ],
       "themes": [
-        "people",
-        "verbB1"
-      ]
+        "people"
+      ],
+      "reviewIdentity": {
+        "deckId": "words-verbs",
+        "cardId": "oct16-requests"
+      },
+      "meaning": {
+        "en": "Use the third-person singular present form.",
+        "ru": "Используйте форму третьего лица единственного числа настоящего времени.",
+        "zh": "使用现在时第三人称单数形式。"
+      }
     },
     {
       "id": "oct16-friendly-space",

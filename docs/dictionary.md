@@ -136,6 +136,11 @@ Supported themes: `people`, `family`, `classroom`, `home`, `food`, `places`,
 
 Verb vocabulary also uses `verbA`, `verbB1`, `verbB2`, and `verbAB` to expose
 conjugation classes in the verb topic filter. Keep the ordinary topic tags too.
+Only first-person singular present forms belong in `words-verbs`, with matching
+“I …” prompts. Other persons and impersonal forms belong in the existing
+`grammar-verbs`, `grammar-verbs-b1`, or `grammar-verbs-b2` drills. For example,
+ζητάω stays in vocabulary; ζητάει and βρέχει belong in grammar. The catalog-wide
+verb vocabulary test checks prompts and all accepted forms on future imports.
 Classify the present forms taught on the card: A (γράφω), B1 (μιλάω / μιλώ),
 B2 (μπορώ), or AB (ακούω / λέω / πάω / τρώω). Use multiple class tags when a
 card teaches forms from different classes, such as πάω / πηγαίνω (AB and A)

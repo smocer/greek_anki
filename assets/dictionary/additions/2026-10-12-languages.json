@@ -2764,20 +2764,19 @@
     },
     {
       "id": "languages-it-rains",
-      "collection": "words-verbs",
+      "collection": "grammar-verbs",
       "greek": "βρέχει",
       "prompt": {
         "en": "It rains / it is raining",
         "ru": "Идёт дождь",
-        "zh": "下雨；他／她弄湿（依语境）"
+        "zh": "下雨"
       },
       "pronunciation": {
         "en": "VRE-hi",
         "ru": "ВРЭ-хи"
       },
       "themes": [
-        "home",
-        "verbA"
+        "home"
       ],
       "labels": [
         "verb"
@@ -2785,6 +2784,15 @@
       "explanation": {
         "en": "Weather expression: impersonal third-person singular, not an “I” form.",
         "ru": "О погоде: безличное употребление в третьем лице единственного числа. Это не форма для «я»."
+      },
+      "reviewIdentity": {
+        "deckId": "words-verbs",
+        "cardId": "languages-it-rains"
+      },
+      "meaning": {
+        "en": "Translate the impersonal third-person singular form.",
+        "ru": "Переведите безличную форму третьего лица единственного числа.",
+        "zh": "译出无人称第三人称单数形式。"
       }
     },
     {

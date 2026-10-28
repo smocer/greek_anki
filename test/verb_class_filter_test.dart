@@ -17,8 +17,8 @@ void main() {
   test('all four verb classes filter the merged catalog by taught pattern', () {
     final collection = verbs();
     for (final (theme, examples) in [
-      (LearningTheme.verbA, ['γράφω', 'παίρνω', 'κατεβαίνω', 'βρέχει']),
-      (LearningTheme.verbB1, ['μιλάω', 'προτιμώ', 'τραγουδώ', 'ζητάει']),
+      (LearningTheme.verbA, ['γράφω', 'παίρνω', 'κατεβαίνω']),
+      (LearningTheme.verbB1, ['μιλάω', 'προτιμώ', 'τραγουδώ', 'ζητάω']),
       (LearningTheme.verbB2, ['μπορώ', 'ζω', 'οδηγώ', 'ευχαριστώ']),
       (LearningTheme.verbAB, ['ακούω', 'λέω', 'πάω', 'τρώω']),
     ]) {
