@@ -6,20 +6,28 @@ import 'data/dictionary.dart';
 import 'data/app_updates.dart';
 import 'data/language_store.dart';
 import 'data/progress_store.dart';
+import 'data/study_session_store.dart';
 import 'domain/learning_progress.dart';
 import 'domain/app_updates.dart';
 import 'domain/app_language.dart';
 import 'domain/language_store.dart';
 import 'domain/progress_store.dart';
+import 'domain/study_session_store.dart';
 import 'presentation/home_screen.dart';
 import 'presentation/app_strings.dart';
 import 'presentation/theme.dart';
 
 class GreekAnkiApp extends StatefulWidget {
-  const GreekAnkiApp({super.key, this.store, this.languageStore});
+  const GreekAnkiApp({
+    super.key,
+    this.store,
+    this.languageStore,
+    this.sessionStore,
+  });
 
   final ProgressStore? store;
   final LanguageStore? languageStore;
+  final StudySessionStore? sessionStore;
 
   @override
   State<GreekAnkiApp> createState() => _GreekAnkiAppState();
@@ -28,6 +36,7 @@ class GreekAnkiApp extends StatefulWidget {
 class _GreekAnkiAppState extends State<GreekAnkiApp> {
   late final LearningProgress _progress;
   late final LanguageStore _languageStore;
+  late final StudySessionStore _sessionStore;
   late final AppUpdates? _updates;
   AppLanguage _language = AppLanguage.english;
   late Future<void> _loading;
@@ -37,6 +46,7 @@ class _GreekAnkiAppState extends State<GreekAnkiApp> {
     super.initState();
     _progress = LearningProgress(widget.store ?? PreferencesProgressStore());
     _languageStore = widget.languageStore ?? PreferencesLanguageStore();
+    _sessionStore = widget.sessionStore ?? PreferencesStudySessionStore();
     _updates = createAppUpdates();
     _loading = _load();
   }
@@ -106,6 +116,7 @@ class _GreekAnkiAppState extends State<GreekAnkiApp> {
         return HomeScreen(
           collections: learningCollections,
           progress: _progress,
+          sessionStore: _sessionStore,
           onLanguageChanged: _changeLanguage,
           updates: _updates,
         );

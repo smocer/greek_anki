@@ -1,3 +1,5 @@
+import 'dart:async';
+
 import 'app_strings.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
@@ -5,6 +7,7 @@ import 'package:flutter/services.dart';
 import '../domain/learning_progress.dart';
 import '../domain/curriculum.dart';
 import '../domain/study_session.dart';
+import '../domain/study_session_store.dart';
 import '../domain/vocabulary.dart';
 import 'greek_keyboard.dart';
 import 'practice_layout.dart';
@@ -19,6 +22,7 @@ class StudyScreen extends StatefulWidget {
     required this.cards,
     required this.mode,
     required this.progress,
+    required this.sessionStore,
     this.sessionLimit = 15,
     this.cardOrder = CardOrder.random,
   });
@@ -26,6 +30,7 @@ class StudyScreen extends StatefulWidget {
   final List<VocabularyCard> cards;
   final StudyMode mode;
   final LearningProgress progress;
+  final StudySessionStore sessionStore;
   final int? sessionLimit;
   final CardOrder cardOrder;
 
@@ -35,10 +40,13 @@ class StudyScreen extends StatefulWidget {
 
 class _StudyScreenState extends State<StudyScreen> {
   late StudySession _session;
+  late Future<void> _loading;
+  late final String _sessionKey;
   final _answer = TextEditingController();
   final _focus = FocusNode();
   bool _useGreekKeyboard = true;
   bool _saving = false;
+  Object? _saveError;
   bool get _hard => widget.mode == StudyMode.typing;
 
   @override
@@ -49,7 +57,36 @@ class _StudyScreenState extends State<StudyScreen> {
       mode: widget.mode,
       shuffle: false,
     );
+    _sessionKey = studySessionKey(
+      deck: widget.deck,
+      mode: widget.mode,
+      limit: widget.sessionLimit,
+      order: widget.cardOrder,
+    );
+    _loading = _loadSession();
   }
+
+  Future<void> _loadSession() async {
+    final saved = await widget.sessionStore.read(_sessionKey);
+    if (!mounted) return;
+    if (saved != null) {
+      if (saved.mode != widget.mode) {
+        throw const FormatException('Saved study mode does not match');
+      }
+      final restored = StudySession.restore(
+        cards: widget.deck.cards,
+        snapshot: saved,
+      );
+      _session.dispose();
+      _session = restored;
+      _answer.text = _session.submittedAnswer;
+    }
+    await _saveSession();
+  }
+
+  Future<void> _saveSession() => _session.completed == _session.total
+      ? widget.sessionStore.remove(_sessionKey)
+      : widget.sessionStore.write(_sessionKey, _session.snapshot);
 
   @override
   void dispose() {
@@ -59,10 +96,37 @@ class _StudyScreenState extends State<StudyScreen> {
     super.dispose();
   }
 
-  Future<void> _advance(bool correct) async {
-    if (_saving || _session.isReviewing) return;
+  Future<bool> _saveChange(FutureOr<void> Function() change) async {
+    if (_saving) return false;
     setState(() => _saving = true);
     try {
+      await change();
+      await _saveSession();
+      _saveError = null;
+      return true;
+    } catch (error, stack) {
+      _saveError = error;
+      debugPrint('Could not save study progress: $error\n$stack');
+      if (mounted) {
+        ScaffoldMessenger.of(context).showSnackBar(
+          SnackBar(
+            content: Text(context.strings.sessionSaveError),
+            action: SnackBarAction(
+              label: context.strings.tryAgain,
+              onPressed: () => _saveChange(() {}),
+            ),
+          ),
+        );
+      }
+      return false;
+    } finally {
+      if (mounted) setState(() => _saving = false);
+    }
+  }
+
+  Future<void> _advance(bool correct) async {
+    if (_session.isReviewing) return;
+    await _saveChange(() async {
       await widget.progress.record(
         deck: widget.deck,
         mode: widget.mode,
@@ -74,22 +138,19 @@ class _StudyScreenState extends State<StudyScreen> {
       _session.advance(correct: correct);
       _focusEditableInput();
       HapticFeedback.lightImpact();
-    } catch (error, stack) {
-      debugPrint('Could not save review: $error\n$stack');
-      if (mounted) {
-        ScaffoldMessenger.of(context).showSnackBar(
-          SnackBar(content: Text(context.strings.answerSaveError)),
-        );
-      }
-    } finally {
-      if (mounted) setState(() => _saving = false);
-    }
+    });
+  }
+
+  Future<void> _leave() async {
+    if (_saving) return;
+    if (_saveError != null && !await _saveChange(() {})) return;
+    if (mounted) Navigator.pop(context);
   }
 
   void _check() {
     if (_answer.text.trim().isEmpty) return;
     _focus.unfocus();
-    _session.checkAnswer(_answer.text);
+    _saveChange(() => _session.checkAnswer(_answer.text));
     HapticFeedback.lightImpact();
   }
 
@@ -106,9 +167,9 @@ class _StudyScreenState extends State<StudyScreen> {
   }
 
   void _restart() {
-    _session.dispose();
-    setState(() {
+    _saveChange(() {
       final due = widget.progress.dueCards(widget.deck, widget.mode);
+      _session.dispose();
       _session = StudySession(
         cards: sessionBatch(
           widget.sessionLimit == null || due.isEmpty ? widget.deck.cards : due,
@@ -123,13 +184,56 @@ class _StudyScreenState extends State<StudyScreen> {
   }
 
   @override
-  Widget build(BuildContext context) => PopScope(
-    canPop: !_saving,
+  Widget build(BuildContext context) => FutureBuilder<void>(
+    future: _loading,
+    builder: (context, snapshot) {
+      if (snapshot.connectionState == ConnectionState.done &&
+          !snapshot.hasError) {
+        return _studyContent(context);
+      }
+      return Scaffold(
+        appBar: AppBar(
+          title: Text(
+            _hard ? context.strings.hardMode : context.strings.flashcards,
+          ),
+        ),
+        body: Center(
+          child: snapshot.hasError
+              ? Padding(
+                  padding: const EdgeInsets.all(24),
+                  child: Column(
+                    mainAxisSize: MainAxisSize.min,
+                    children: [
+                      Text(
+                        context.strings.sessionLoadError,
+                        textAlign: TextAlign.center,
+                      ),
+                      const SizedBox(height: 16),
+                      FilledButton(
+                        onPressed: () => setState(() {
+                          _loading = _loadSession();
+                        }),
+                        child: Text(context.strings.tryAgain),
+                      ),
+                    ],
+                  ),
+                )
+              : const CircularProgressIndicator(),
+        ),
+      );
+    },
+  );
+
+  Widget _studyContent(BuildContext context) => PopScope(
+    canPop: !_saving && _saveError == null,
+    onPopInvokedWithResult: (didPop, _) {
+      if (!didPop && !_saving) _leave();
+    },
     child: Scaffold(
       appBar: AppBar(
         leading: IconButton(
           tooltip: context.strings.backToDecks,
-          onPressed: _saving ? null : () => Navigator.pop(context),
+          onPressed: _saving ? null : _leave,
           icon: const Icon(Icons.close_rounded),
         ),
         title: Text(
@@ -145,7 +249,7 @@ class _StudyScreenState extends State<StudyScreen> {
                       key: const ValueKey('previous-card'),
                       tooltip: context.strings.previousCard,
                       onPressed: !_saving && _session.canGoPrevious
-                          ? _session.previous
+                          ? () => _saveChange(_session.previous)
                           : null,
                       icon: const Icon(Icons.arrow_back_rounded, size: 18),
                     ),
@@ -172,10 +276,10 @@ class _StudyScreenState extends State<StudyScreen> {
                   constraints: const BoxConstraints(maxWidth: 560),
                   child: _Completion(
                     session: _session,
-                    onRestart: _restart,
-                    onDone: () => Navigator.pop(context),
-                    onPrevious: !_hard && _session.canGoPrevious
-                        ? _session.previous
+                    onRestart: _saving ? null : _restart,
+                    onDone: _saving ? null : _leave,
+                    onPrevious: !_saving && !_hard && _session.canGoPrevious
+                        ? () => _saveChange(_session.previous)
                         : null,
                   ),
                 ),
@@ -235,7 +339,9 @@ class _StudyScreenState extends State<StudyScreen> {
           ),
           clipBehavior: Clip.antiAlias,
           child: InkWell(
-            onTap: revealed ? null : _session.reveal,
+            onTap: revealed || _saving
+                ? null
+                : () => _saveChange(_session.reveal),
             child: ConstrainedBox(
               constraints: BoxConstraints(
                 minHeight: (height - 330).clamp(270.0, 420.0),
@@ -280,14 +386,14 @@ class _StudyScreenState extends State<StudyScreen> {
     if (_session.isReviewing) {
       return FilledButton.icon(
         key: const ValueKey('next-card'),
-        onPressed: _session.next,
+        onPressed: _saving ? null : () => _saveChange(_session.next),
         icon: const Icon(Icons.arrow_forward_rounded, size: 18),
         label: Text(context.strings.nextCard),
       );
     }
     if (_session.phase != CardPhase.answer) {
       return FilledButton.icon(
-        onPressed: _session.reveal,
+        onPressed: _saving ? null : () => _saveChange(_session.reveal),
         icon: const Icon(Icons.flip_rounded, size: 19),
         label: Text(context.strings.revealAnswer),
       );
@@ -334,10 +440,12 @@ class _StudyScreenState extends State<StudyScreen> {
       children: [
         Flexible(
           child: TextButton(
-            onPressed: () {
-              _focus.unfocus();
-              _session.skip();
-            },
+            onPressed: _saving
+                ? null
+                : () {
+                    _focus.unfocus();
+                    _saveChange(_session.skip);
+                  },
             child: Text(context.strings.dontKnow, textAlign: TextAlign.center),
           ),
         ),
@@ -347,7 +455,7 @@ class _StudyScreenState extends State<StudyScreen> {
             valueListenable: _answer,
             builder: (context, value, _) => FilledButton(
               key: const ValueKey('check-typing'),
-              onPressed: value.text.trim().isEmpty ? null : _check,
+              onPressed: _saving || value.text.trim().isEmpty ? null : _check,
               child: Text(
                 context.strings.checkAnswer,
                 textAlign: TextAlign.center,
@@ -650,8 +758,8 @@ class _Completion extends StatelessWidget {
     this.onPrevious,
   });
   final StudySession session;
-  final VoidCallback onRestart;
-  final VoidCallback onDone;
+  final VoidCallback? onRestart;
+  final VoidCallback? onDone;
   final VoidCallback? onPrevious;
 
   @override

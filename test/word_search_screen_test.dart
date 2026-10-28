@@ -8,6 +8,7 @@ import 'package:greek_anki/presentation/word_search_screen.dart';
 
 import 'support/memory_language_store.dart';
 import 'support/memory_progress_store.dart';
+import 'support/memory_study_session_store.dart';
 
 void main() {
   for (final language in AppLanguage.values) {
@@ -25,6 +26,7 @@ void main() {
       final strings = AppStrings(language);
       await tester.pumpWidget(
         GreekAnkiApp(
+          sessionStore: MemoryStudySessionStore(),
           store: store,
           languageStore: MemoryLanguageStore(language: language),
         ),

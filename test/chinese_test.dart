@@ -14,6 +14,7 @@ import 'package:greek_anki/domain/vocabulary.dart';
 
 import 'support/memory_language_store.dart';
 import 'support/memory_progress_store.dart';
+import 'support/memory_study_session_store.dart';
 
 GreekDictionary catalog() =>
     GreekDictionary.merge(File(dictionaryAsset).readAsStringSync(), {
@@ -145,7 +146,11 @@ void main() {
     final language = MemoryLanguageStore();
     final progress = MemoryProgressStore();
     await tester.pumpWidget(
-      GreekAnkiApp(store: progress, languageStore: language),
+      GreekAnkiApp(
+        sessionStore: MemoryStudySessionStore(),
+        store: progress,
+        languageStore: language,
+      ),
     );
     await tester.pumpAndSettle();
     await tester.tap(find.text('中文'));
@@ -155,7 +160,11 @@ void main() {
     expect(tester.takeException(), isNull);
     await tester.pumpWidget(const SizedBox());
     await tester.pumpWidget(
-      GreekAnkiApp(store: progress, languageStore: language),
+      GreekAnkiApp(
+        sessionStore: MemoryStudySessionStore(),
+        store: progress,
+        languageStore: language,
+      ),
     );
     await tester.pumpAndSettle();
     expect(find.text('词卡'), findsOneWidget);

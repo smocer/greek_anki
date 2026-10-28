@@ -14,6 +14,7 @@ import 'package:greek_anki/presentation/theme.dart';
 
 import 'support/memory_language_store.dart';
 import 'support/memory_progress_store.dart';
+import 'support/memory_study_session_store.dart';
 
 void main() {
   test('Chinese addition labels show the corresponding week', () {
@@ -42,6 +43,7 @@ void main() {
         supportedLocales: const [Locale('en'), Locale('ru')],
         localizationsDelegates: GlobalMaterialLocalizations.delegates,
         home: StudyScreen(
+          sessionStore: MemoryStudySessionStore(),
           deck: deck,
           cards: [seven],
           mode: mode,
@@ -108,7 +110,11 @@ void main() {
     );
     final records = Map.of(store.records);
     await tester.pumpWidget(
-      GreekAnkiApp(store: store, languageStore: language),
+      GreekAnkiApp(
+        sessionStore: MemoryStudySessionStore(),
+        store: store,
+        languageStore: language,
+      ),
     );
     await tester.pumpAndSettle();
     expect(find.text('Greek, by heart.'), findsOneWidget);
@@ -133,7 +139,11 @@ void main() {
 
     await tester.pumpWidget(const SizedBox());
     await tester.pumpWidget(
-      GreekAnkiApp(store: store, languageStore: language),
+      GreekAnkiApp(
+        sessionStore: MemoryStudySessionStore(),
+        store: store,
+        languageStore: language,
+      ),
     );
     await tester.pumpAndSettle();
     expect(find.text('Греческий наизусть.'), findsOneWidget);
@@ -214,7 +224,11 @@ void main() {
     phoneSize(tester);
     final language = MemoryLanguageStore()..shouldFail = true;
     await tester.pumpWidget(
-      GreekAnkiApp(store: MemoryProgressStore(), languageStore: language),
+      GreekAnkiApp(
+        sessionStore: MemoryStudySessionStore(),
+        store: MemoryProgressStore(),
+        languageStore: language,
+      ),
     );
     await tester.pumpAndSettle();
     await tester.tap(find.text('Русский'));
@@ -237,6 +251,7 @@ void main() {
     phoneSize(tester, size: const Size(320, 740));
     await tester.pumpWidget(
       GreekAnkiApp(
+        sessionStore: MemoryStudySessionStore(),
         store: MemoryProgressStore(),
         languageStore: MemoryLanguageStore(language: AppLanguage.russian),
       ),

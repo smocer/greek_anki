@@ -11,6 +11,7 @@ import 'package:greek_anki/presentation/study_screen.dart';
 import 'package:greek_anki/presentation/theme.dart';
 
 import 'support/memory_progress_store.dart';
+import 'support/memory_study_session_store.dart';
 
 void main() {
   for (final language in AppLanguage.values) {
@@ -37,6 +38,7 @@ void main() {
             ],
             localizationsDelegates: GlobalMaterialLocalizations.delegates,
             home: StudyScreen(
+              sessionStore: MemoryStudySessionStore(),
               deck: deck,
               cards: [card],
               mode: StudyMode.typing,

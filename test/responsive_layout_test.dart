@@ -19,6 +19,7 @@ import 'package:greek_anki/presentation/theme.dart';
 
 import 'support/memory_language_store.dart';
 import 'support/memory_progress_store.dart';
+import 'support/memory_study_session_store.dart';
 
 void main() {
   void viewport(WidgetTester tester, Size size) {
@@ -117,6 +118,7 @@ void main() {
         addTearDown(tester.platformDispatcher.clearTextScaleFactorTestValue);
         await tester.pumpWidget(
           GreekAnkiApp(
+            sessionStore: MemoryStudySessionStore(),
             store: MemoryProgressStore(),
             languageStore: MemoryLanguageStore(language: language),
           ),
@@ -171,6 +173,7 @@ void main() {
         await tester.pumpWidget(
           localized(
             StudyScreen(
+              sessionStore: MemoryStudySessionStore(),
               key: ValueKey(mode),
               deck: deck,
               cards: deck.cards,

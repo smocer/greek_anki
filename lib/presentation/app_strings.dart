@@ -351,12 +351,17 @@ class AppStrings {
     'Транскрипция — приблизительная подсказка, не точная фонетика. ЗАГЛАВНЫЕ — ударение. δ («д») и θ («т») произносятся с языком между зубами: δ звонко, θ глухо. γ («г») — щелевой звук, перед э/и ближе к «й»; χ перед э/и мягче русского «х». Сверяйтесь с греческим написанием.',
     '发音提示仅供参考，大写字母表示重音。DH 类似英语 this 中的 th，TH 类似 think 中的 th。KH 类似苏格兰语 loch 中的 ch；GH 是较柔和、连续的 g 音。γ 在前元音前接近 y 音。请以希腊语拼写和音频为准。',
   );
-  String get answerSaveError => _pick(
-    'Could not save this answer. Please try again.',
-    'Не удалось сохранить ответ. Попробуйте ещё раз.',
-    '无法保存此答案，请重试。',
-  );
   String get backToDecks => _pick('Back to decks', 'К колодам', '返回卡组');
+  String get sessionSaveError => _pick(
+    'Could not save progress. Please retry before leaving.',
+    'Не удалось сохранить прогресс. Повторите попытку перед выходом.',
+    '无法保存进度，请重试后再退出。',
+  );
+  String get sessionLoadError => _pick(
+    'Could not restore your session. Please try again.',
+    'Не удалось восстановить занятие. Попробуйте ещё раз.',
+    '无法恢复练习，请重试。',
+  );
   String get letItSinkIn =>
       _pick('Let it sink in.', 'Запомните ответ.', '记住这个答案。');
   String get howDoYouSay =>

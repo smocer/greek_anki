@@ -12,6 +12,7 @@ import 'package:greek_anki/presentation/vocabulary_preview.dart';
 
 import 'support/memory_language_store.dart';
 import 'support/memory_progress_store.dart';
+import 'support/memory_study_session_store.dart';
 
 void main() {
   Future<void> openApp(
@@ -24,6 +25,7 @@ void main() {
     addTearDown(tester.view.resetDevicePixelRatio);
     await tester.pumpWidget(
       GreekAnkiApp(
+        sessionStore: MemoryStudySessionStore(),
         store: MemoryProgressStore(),
         languageStore: MemoryLanguageStore(language: language),
       ),

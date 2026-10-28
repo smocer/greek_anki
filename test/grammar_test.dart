@@ -9,6 +9,7 @@ import 'package:greek_anki/presentation/theme.dart';
 
 import 'support/memory_language_store.dart';
 import 'support/memory_progress_store.dart';
+import 'support/memory_study_session_store.dart';
 
 void main() {
   test('merged grammar keeps forms together with localized table labels', () {
@@ -87,6 +88,7 @@ void main() {
     addTearDown(tester.view.resetDevicePixelRatio);
     await tester.pumpWidget(
       GreekAnkiApp(
+        sessionStore: MemoryStudySessionStore(),
         store: MemoryProgressStore(),
         languageStore: MemoryLanguageStore(),
       ),
@@ -136,7 +138,11 @@ void main() {
             MaterialApp(
               key: ValueKey(topic.id),
               locale: Locale(language.code),
-              supportedLocales: const [Locale('en'), Locale('ru'), Locale('zh')],
+              supportedLocales: const [
+                Locale('en'),
+                Locale('ru'),
+                Locale('zh'),
+              ],
               localizationsDelegates: GlobalMaterialLocalizations.delegates,
               theme: appTheme,
               home: GrammarTopicScreen(topic: topic),

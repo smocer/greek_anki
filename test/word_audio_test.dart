@@ -10,6 +10,7 @@ import 'package:greek_anki/presentation/study_screen.dart';
 import 'package:greek_anki/presentation/theme.dart';
 
 import 'support/memory_progress_store.dart';
+import 'support/memory_study_session_store.dart';
 
 void main() {
   VocabularyCard word(String id) => currentDictionary.learningDecks
@@ -36,6 +37,7 @@ void main() {
       MaterialApp(
         theme: appTheme,
         home: StudyScreen(
+          sessionStore: MemoryStudySessionStore(),
           deck: deck,
           cards: [card],
           mode: mode,

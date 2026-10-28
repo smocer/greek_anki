@@ -9,6 +9,7 @@ import 'package:greek_anki/presentation/study_screen.dart';
 import 'package:greek_anki/presentation/theme.dart';
 
 import 'support/memory_progress_store.dart';
+import 'support/memory_study_session_store.dart';
 
 class _CountingStore extends MemoryProgressStore {
   int writes = 0;
@@ -147,6 +148,7 @@ void main() {
         MaterialApp(
           theme: appTheme,
           home: StudyScreen(
+            sessionStore: MemoryStudySessionStore(),
             deck: deck,
             cards: deck.cards,
             mode: StudyMode.flashcards,

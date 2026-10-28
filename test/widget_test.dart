@@ -10,6 +10,7 @@ import 'package:greek_anki/presentation/study_screen.dart';
 import 'package:greek_anki/presentation/theme.dart';
 
 import 'support/memory_progress_store.dart';
+import 'support/memory_study_session_store.dart';
 import 'support/memory_language_store.dart';
 
 void main() {
@@ -29,6 +30,7 @@ void main() {
       MaterialApp(
         theme: appTheme,
         home: StudyScreen(
+          sessionStore: MemoryStudySessionStore(),
           deck: deck,
           cards: cards ?? [deck.cards[1]],
           mode: mode,
@@ -46,6 +48,7 @@ void main() {
     addTearDown(tester.view.resetDevicePixelRatio);
     await tester.pumpWidget(
       GreekAnkiApp(
+        sessionStore: MemoryStudySessionStore(),
         store: MemoryProgressStore(),
         languageStore: MemoryLanguageStore(),
       ),
@@ -153,7 +156,7 @@ void main() {
     await tester.tap(find.text('Continue'));
     await tester.pumpAndSettle();
     expect(
-      find.text('Could not save this answer. Please try again.'),
+      find.text('Could not save progress. Please retry before leaving.'),
       findsOneWidget,
     );
     expect(find.text('0 / 1 remembered'), findsOneWidget);

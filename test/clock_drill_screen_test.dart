@@ -12,6 +12,7 @@ import 'package:greek_anki/presentation/theme.dart';
 
 import 'support/memory_language_store.dart';
 import 'support/memory_progress_store.dart';
+import 'support/memory_study_session_store.dart';
 
 void main() {
   const fieldKey = ValueKey('clock-answer');
@@ -39,7 +40,11 @@ void main() {
     size(tester, const Size(430, 960));
     final store = MemoryProgressStore();
     await tester.pumpWidget(
-      GreekAnkiApp(store: store, languageStore: MemoryLanguageStore()),
+      GreekAnkiApp(
+        sessionStore: MemoryStudySessionStore(),
+        store: store,
+        languageStore: MemoryLanguageStore(),
+      ),
     );
     await tester.pumpAndSettle();
     final saved = Map.of(store.records);

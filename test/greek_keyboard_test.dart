@@ -9,6 +9,7 @@ import 'package:greek_anki/presentation/study_screen.dart';
 import 'package:greek_anki/presentation/theme.dart';
 
 import 'support/memory_progress_store.dart';
+import 'support/memory_study_session_store.dart';
 
 void main() {
   void phone(WidgetTester tester) {
@@ -109,6 +110,7 @@ void main() {
                 supportedLocales: const [Locale('en'), Locale('ru')],
                 localizationsDelegates: GlobalMaterialLocalizations.delegates,
                 home: StudyScreen(
+                  sessionStore: MemoryStudySessionStore(),
                   key: ValueKey('$language-$input'),
                   deck: deck,
                   cards: [card],

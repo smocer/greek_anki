@@ -5,6 +5,7 @@ import '../domain/app_language.dart';
 import '../domain/app_updates.dart';
 import '../domain/curriculum.dart';
 import '../domain/learning_progress.dart';
+import '../domain/study_session_store.dart';
 import '../domain/vocabulary.dart';
 import 'alphabet_screen.dart';
 import 'app_strings.dart';
@@ -24,11 +25,13 @@ class HomeScreen extends StatefulWidget {
     super.key,
     required this.collections,
     required this.progress,
+    required this.sessionStore,
     required this.onLanguageChanged,
     this.updates,
   });
   final List<LearningCollection> collections;
   final LearningProgress progress;
+  final StudySessionStore sessionStore;
   final Future<void> Function(AppLanguage) onLanguageChanged;
   final AppUpdates? updates;
   @override
@@ -93,6 +96,7 @@ class _HomeScreenState extends State<HomeScreen> with WidgetsBindingObserver {
           cardOrder: _cardOrder,
           mode: mode,
           progress: widget.progress,
+          sessionStore: widget.sessionStore,
         ),
       ),
     );

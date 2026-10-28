@@ -13,6 +13,7 @@ import 'package:greek_anki/presentation/topic_picker.dart';
 
 import 'support/memory_language_store.dart';
 import 'support/memory_progress_store.dart';
+import 'support/memory_study_session_store.dart';
 
 void main() {
   void phone(WidgetTester tester, {double width = 430}) {
@@ -42,6 +43,7 @@ void main() {
     phone(tester);
     await tester.pumpWidget(
       GreekAnkiApp(
+        sessionStore: MemoryStudySessionStore(),
         store: MemoryProgressStore(),
         languageStore: MemoryLanguageStore(language: AppLanguage.russian),
       ),
@@ -98,6 +100,7 @@ void main() {
             supportedLocales: const [Locale('en'), Locale('ru')],
             localizationsDelegates: GlobalMaterialLocalizations.delegates,
             home: StudyScreen(
+              sessionStore: MemoryStudySessionStore(),
               key: ValueKey(mode),
               deck: deck,
               cards: [card],
@@ -134,6 +137,7 @@ void main() {
       MaterialApp(
         theme: appTheme,
         home: StudyScreen(
+          sessionStore: MemoryStudySessionStore(),
           deck: deck,
           cards: [card],
           mode: StudyMode.typing,
@@ -181,6 +185,7 @@ void main() {
               supportedLocales: const [Locale('en'), Locale('ru')],
               localizationsDelegates: GlobalMaterialLocalizations.delegates,
               home: StudyScreen(
+                sessionStore: MemoryStudySessionStore(),
                 key: ValueKey('$deckId-$mode'),
                 deck: deck,
                 cards: [card],
