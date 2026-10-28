@@ -2,6 +2,7 @@ import 'dart:math';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:greek_anki/data/learning_curriculum.dart';
 import '../tool/legacy_data/october_lesson.dart';
+import 'package:greek_anki/domain/app_language.dart';
 import 'package:greek_anki/domain/curriculum.dart';
 import 'package:greek_anki/domain/greek_answer.dart';
 import 'package:greek_anki/domain/learning_progress.dart';
@@ -150,56 +151,47 @@ void main() {
     },
   );
 
-  test(
-    'grammar prompts contain no Greek hints or blanks in either language',
-    () {
-      final greek = RegExp(r'[\u0370-\u03FF\u1F00-\u1FFF]');
-      for (final group in learningCollections.where(
-        (c) => c.section == LearningSection.grammar,
-      )) {
-        for (final card in group.deck.cards) {
-          for (final text in [
-            card.prompt.en,
-            card.prompt.ru,
-            card.meaning.en,
-            card.meaning.ru,
-          ]) {
-            expect(
-              greek.hasMatch(text),
-              isFalse,
-              reason: '${group.deck.id}/${card.id}: $text',
-            );
-            expect(text.contains('___'), isFalse);
+  test('all card fronts contain no Greek hints or blanks in any language', () {
+    final greek = RegExp(r'[\u0370-\u03FF\u1F00-\u1FFF]');
+    for (final group in learningCollections) {
+      for (final card in group.deck.cards) {
+        for (final localized in [card.prompt, card.meaning, ...card.senses]) {
+          for (final language in AppLanguage.values) {
+            final text = localized.resolve(language);
+            final context =
+                '${group.deck.id}/${card.id}/${language.code}: $text';
+            expect(greek.hasMatch(text), isFalse, reason: context);
+            expect(text.contains('___'), isFalse, reason: context);
           }
         }
       }
-      final possessive = deck(
-        'grammar-possession',
-      ).cards.singleWhere((c) => c.id == 'possession-her-bag');
-      expect(possessive.prompt.ru, 'Это её сумка.');
-      expect(possessive.greek, 'Αυτή είναι η τσάντα της.');
-      expect(matcher.matches('της', possessive), isFalse);
-      expect(matcher.matches('Αυτή είναι η τσάντα της', possessive), isTrue);
-      final phone = deck(
-        'grammar-possession',
-      ).cards.singleWhere((c) => c.id == 'possession-his-phone');
-      expect(matcher.matches('Αυτό είναι το τηλέφωνο του.', phone), isFalse);
-      expect(matcher.matches('Αυτό είναι το τηλέφωνό του.', phone), isTrue);
-      expect(
-        deck(
-          'grammar-gender',
-        ).cards.where((c) => c.id.startsWith('gender-')).length,
-        12,
-      );
-      final nounForm = deck(
-        'grammar-nouns',
-      ).cards.singleWhere((c) => c.id == 'everyday-nouns.pupil-accusative');
-      expect(nounForm.meaning.ru, contains('только нужную форму'));
-      expect(nounForm.meaning.ru, contains('с артиклем'));
-      expect(matcher.matches('τον μαθητή', nounForm), isTrue);
-      expect(matcher.matches('Βλέπω τον μαθητή', nounForm), isFalse);
-    },
-  );
+    }
+    final possessive = deck(
+      'grammar-possession',
+    ).cards.singleWhere((c) => c.id == 'possession-her-bag');
+    expect(possessive.prompt.ru, 'Это её сумка.');
+    expect(possessive.greek, 'Αυτή είναι η τσάντα της.');
+    expect(matcher.matches('της', possessive), isFalse);
+    expect(matcher.matches('Αυτή είναι η τσάντα της', possessive), isTrue);
+    final phone = deck(
+      'grammar-possession',
+    ).cards.singleWhere((c) => c.id == 'possession-his-phone');
+    expect(matcher.matches('Αυτό είναι το τηλέφωνο του.', phone), isFalse);
+    expect(matcher.matches('Αυτό είναι το τηλέφωνό του.', phone), isTrue);
+    expect(
+      deck(
+        'grammar-gender',
+      ).cards.where((c) => c.id.startsWith('gender-')).length,
+      12,
+    );
+    final nounForm = deck(
+      'grammar-nouns',
+    ).cards.singleWhere((c) => c.id == 'everyday-nouns.pupil-accusative');
+    expect(nounForm.meaning.ru, contains('только нужную форму'));
+    expect(nounForm.meaning.ru, contains('с артиклем'));
+    expect(matcher.matches('τον μαθητή', nounForm), isTrue);
+    expect(matcher.matches('Βλέπω τον μαθητή', nounForm), isFalse);
+  });
 
   test(
     'regrouped exercises retain progress while new word tasks stay independent',

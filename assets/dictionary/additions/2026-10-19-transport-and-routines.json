@@ -660,7 +660,7 @@
       "greek": "κοιμάμαι",
       "prompt": {
         "en": "I sleep",
-        "ru": "Я сплю",
+        "ru": "Сплю",
         "zh": "我睡觉"
       },
       "pronunciation": {
@@ -681,7 +681,7 @@
       "greek": "αλλάζω",
       "prompt": {
         "en": "I change",
-        "ru": "Я меняю",
+        "ru": "Меняю",
         "zh": "我改变／更换"
       },
       "pronunciation": {
@@ -702,7 +702,7 @@
       "greek": "φτιάχνω",
       "prompt": {
         "en": "I make / repair",
-        "ru": "Я делаю / чиню",
+        "ru": "Делаю / чиню",
         "zh": "我制作／修理"
       },
       "pronunciation": {
@@ -723,7 +723,7 @@
       "greek": "αργώ",
       "prompt": {
         "en": "I am late / take a long time",
-        "ru": "Я опаздываю / задерживаюсь",
+        "ru": "Опаздываю / задерживаюсь",
         "zh": "我迟到／耽搁"
       },
       "pronunciation": {
@@ -744,7 +744,7 @@
       "greek": "φτάνω",
       "prompt": {
         "en": "I arrive / reach",
-        "ru": "Я прибываю / добираюсь",
+        "ru": "Прибываю / добираюсь",
         "zh": "我到达"
       },
       "pronunciation": {
@@ -1739,7 +1739,7 @@
       "greek": "Πάω στην δουλειά.",
       "prompt": {
         "en": "I go to work.",
-        "ru": "Я иду на работу.",
+        "ru": "Иду на работу.",
         "zh": "我去上班。"
       },
       "pronunciation": {
@@ -1947,7 +1947,7 @@
       "greek": "Πάω στο κέντρο.",
       "prompt": {
         "en": "I am going to the city centre.",
-        "ru": "Я иду в центр города.",
+        "ru": "Иду в центр города.",
         "zh": "我去市中心。"
       },
       "pronunciation": {
@@ -1974,7 +1974,7 @@
       "greek": "Πάω στον σταθμό.",
       "prompt": {
         "en": "I am going to the station.",
-        "ru": "Я иду на станцию.",
+        "ru": "Иду на станцию.",
         "zh": "我去车站。"
       },
       "pronunciation": {
@@ -2001,7 +2001,7 @@
       "greek": "Πάω στην λαϊκή.",
       "prompt": {
         "en": "I am going to the street market.",
-        "ru": "Я иду на уличный рынок.",
+        "ru": "Иду на уличный рынок.",
         "zh": "我去街市。"
       },
       "pronunciation": {
@@ -2057,7 +2057,7 @@
       "greek": "Πάω με το λεωφορείο.",
       "prompt": {
         "en": "I am going by bus.",
-        "ru": "Я еду на автобусе.",
+        "ru": "Еду на автобусе.",
         "zh": "我坐公共汽车去。"
       },
       "pronunciation": {
@@ -2084,7 +2084,7 @@
       "greek": "Πάω με τα πόδια.",
       "prompt": {
         "en": "I am going on foot.",
-        "ru": "Я иду пешком.",
+        "ru": "Иду пешком.",
         "zh": "我步行去。"
       },
       "pronunciation": {

@@ -41,6 +41,64 @@ void main() {
     }
   });
 
+  test('Russian verb vocabulary omits redundant subject pronouns', () {
+    for (final card in deck('words-verbs').cards) {
+      for (final prompt in [card.prompt, ...card.senses]) {
+        expect(
+          prompt.ru,
+          isNot(matches(RegExp(r'^Я\s'))),
+          reason: '${card.id}: ${prompt.ru}',
+        );
+      }
+    }
+    final called = deck(
+      'words-verbs',
+    ).cards.singleWhere((card) => card.greek == 'λέγομαι');
+    expect(called.prompt.ru, 'Зовусь');
+    final be = deck(
+      'words-verbs',
+    ).cards.singleWhere((card) => card.greek == 'είμαι');
+    expect(be.prompt.ru, 'Быть — форма для «я»');
+  });
+
+  test('existence, life and residence have distinct context cues', () {
+    const matcher = GreekAnswer();
+    const prompts = {
+      'υπάρχω': 'Существую (есть в действительности)',
+      'ζω': 'Живу (о жизни)',
+      'μένω': 'Проживаю (о месте жительства)',
+    };
+    for (final entry in prompts.entries) {
+      final card = deck(
+        'words-verbs',
+      ).cards.singleWhere((card) => card.greek == entry.key);
+      expect(card.prompt.ru, entry.value);
+      for (final answer in prompts.keys) {
+        expect(
+          matcher.matches(answer, card),
+          answer == entry.key,
+          reason: '${card.id}: $answer',
+        );
+      }
+    }
+  });
+
+  test('Russian phrase and grammar prompts keep Я only when needed', () {
+    VocabularyCard card(String collection, String greek) =>
+        deck(collection).cards.singleWhere((card) => card.greek == greek);
+
+    expect(card('grammar-verbs', 'λέγομαι').prompt.ru, 'Зовусь');
+    expect(
+      card('phrases-social', 'Λέγομαι Γιώργος.').prompt.ru,
+      'Зовусь Йоргос. (используйте глагол «зваться»)',
+    );
+    expect(card('phrases-everyday', 'Είμαι εδώ.').prompt.ru, 'Я здесь.');
+    final past = currentDictionary.learningDecks
+        .expand((deck) => deck.cards)
+        .singleWhere((card) => card.id == 'languages-got-wet');
+    expect(past.prompt.ru, 'Я промок.');
+  });
+
   test('third-person forms are grammar practice and remain searchable', () {
     final search = WordSearch(currentDictionary.collections);
     const matcher = GreekAnswer();

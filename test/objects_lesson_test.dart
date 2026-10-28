@@ -112,7 +112,7 @@ void main() {
       expect(seek.aliases, contains('objects-seek-staff'));
       expect(
         seek.senses.map((s) => s.ru),
-        contains('Я ищу (например, сотрудника)'),
+        contains('Ищу (например, сотрудника)'),
       );
       expect(matcher.matches('ζητώ', seek), isTrue);
 

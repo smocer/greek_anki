@@ -515,7 +515,7 @@
       "greek": "φωνάζω",
       "prompt": {
         "en": "I shout / call out",
-        "ru": "Я кричу / зову",
+        "ru": "Кричу / зову",
         "zh": "我喊／呼叫"
       },
       "pronunciation": {
@@ -541,7 +541,7 @@
       "greek": "παίρνω",
       "prompt": {
         "en": "I take",
-        "ru": "Я беру",
+        "ru": "Беру",
         "zh": "我拿／取"
       },
       "pronunciation": {
@@ -567,7 +567,7 @@
       "greek": "τρώω",
       "prompt": {
         "en": "I eat",
-        "ru": "Я ем",
+        "ru": "Ем",
         "zh": "我吃"
       },
       "pronunciation": {
@@ -597,7 +597,7 @@
       "greek": "χορεύω",
       "prompt": {
         "en": "I dance",
-        "ru": "Я танцую",
+        "ru": "Танцую",
         "zh": "我跳舞"
       },
       "pronunciation": {
@@ -623,7 +623,7 @@
       "greek": "συνεχίζω",
       "prompt": {
         "en": "I continue",
-        "ru": "Я продолжаю",
+        "ru": "Продолжаю",
         "zh": "我继续"
       },
       "pronunciation": {
@@ -649,7 +649,7 @@
       "greek": "ζητάω",
       "prompt": {
         "en": "I seek (e.g. an employee)",
-        "ru": "Я ищу (например, сотрудника)",
+        "ru": "Ищу (например, сотрудника)",
         "zh": "我寻找（例如员工）"
       },
       "pronunciation": {
@@ -1210,7 +1210,7 @@
       "greek": "Παίρνω τηλέφωνο.",
       "prompt": {
         "en": "I make a phone call.",
-        "ru": "Я звоню по телефону.",
+        "ru": "Звоню по телефону.",
         "zh": "我打电话。"
       },
       "pronunciation": {
@@ -1357,7 +1357,7 @@
       "greek": "Ψάχνω τον σταθμό.",
       "prompt": {
         "en": "I am looking for the station.",
-        "ru": "Я ищу станцию.",
+        "ru": "Ищу станцию.",
         "zh": "我在找车站。"
       },
       "pronunciation": {
@@ -1481,7 +1481,7 @@
       "greek": "Ναι, τον ξέρω.",
       "prompt": {
         "en": "Yes, I know him.",
-        "ru": "Да, я его знаю.",
+        "ru": "Да, его знаю.",
         "zh": "是的，我认识他。"
       },
       "pronunciation": {
@@ -1504,7 +1504,7 @@
       "greek": "Όχι, δεν τον ξέρω.",
       "prompt": {
         "en": "No, I do not know him.",
-        "ru": "Нет, я его не знаю.",
+        "ru": "Нет, его не знаю.",
         "zh": "不，我不认识他。"
       },
       "pronunciation": {
@@ -1527,7 +1527,7 @@
       "greek": "Ναι, την ξέρω.",
       "prompt": {
         "en": "Yes, I know her.",
-        "ru": "Да, я её знаю.",
+        "ru": "Да, её знаю.",
         "zh": "是的，我认识她。"
       },
       "pronunciation": {
@@ -1553,7 +1553,7 @@
       "greek": "Όχι, δεν την ξέρω.",
       "prompt": {
         "en": "No, I do not know her.",
-        "ru": "Нет, я её не знаю.",
+        "ru": "Нет, её не знаю.",
         "zh": "不，我不认识她。"
       },
       "pronunciation": {
@@ -1579,7 +1579,7 @@
       "greek": "Ναι, το ξέρω.",
       "prompt": {
         "en": "Yes, I know it.",
-        "ru": "Да, я это знаю.",
+        "ru": "Да, это знаю.",
         "zh": "是的，我知道这件事。"
       },
       "pronunciation": {
@@ -1602,7 +1602,7 @@
       "greek": "Όχι, δεν το ξέρω.",
       "prompt": {
         "en": "No, I do not know it.",
-        "ru": "Нет, я это не знаю.",
+        "ru": "Нет, это не знаю.",
         "zh": "不，我不知道这件事。"
       },
       "pronunciation": {
@@ -1700,7 +1700,7 @@
       "greek": "Τρώω όταν πεινάω.",
       "prompt": {
         "en": "I eat when I am hungry.",
-        "ru": "Я ем, когда хочу есть.",
+        "ru": "Ем, когда хочу есть.",
         "zh": "我饿的时候就吃饭。"
       },
       "pronunciation": {

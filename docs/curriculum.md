@@ -55,7 +55,9 @@ including λέγομαι and κοιμάμαι, remain available under All themes
 - **Possession:** short phrases and complete sentences with μου / σου / του / της / μας / σας / τους. Distinguish the gender of the thing from the owner: Αυτή είναι η τσάντα του. Practise the additional accent in το τηλέφωνό του, το νούμερό της and η οικογένειά μου.
 - **Questions and negation:** asking for information and forming negative statements; ποιος (who does the action) versus ποιον (whom it affects), and πότε in a question versus όταν joining clauses.
 
-In hard mode the complete prompt is in English or Russian. Type its Greek translation, without Greek hints or blanks. Accents remain required; explanations appear after checking. Final-ν alternation is not a separate drill.
+In hard mode the complete prompt is in the selected language (English, Russian or Chinese). Type its Greek translation. Neither the prompt nor its instruction may contain Greek hints or blanks, including word and phrase cards. Accents remain required; explanations appear after checking. Final-ν alternation is not a separate drill.
+
+Russian prompts omit «Я» when the verb ending already identifies the first person: «Ем», «Зовусь», «Не знаю». Retain it when the form does not identify the person, as in «Я здесь» or «Я промок», and in explicit pronoun practice. Use short context cues to distinguish overlapping translations: υπάρχω — «Существую (есть в действительности)», ζω — «Живу (о жизни)», μένω — «Проживаю (о месте жительства)».
 
 Alphabet, sound and handwriting practice and grammar tables are available under **Reference**.
 

@@ -2871,9 +2871,9 @@
     "introductions/called-passive": {
       "id": "called-passive",
       "prompt": {
-        "en": "I am called George. (with λέγομαι)",
-        "ru": "Я зовусь Йоргос. (используйте глагол «зваться»)",
-        "zh": "我叫乔治。（使用 λέγομαι）"
+        "en": "I am called George. (use “be called”)",
+        "ru": "Зовусь Йоргос. (используйте глагол «зваться»)",
+        "zh": "我叫乔治。（使用“被叫作”的动词）"
       },
       "meaning": {
         "en": "Translate into Greek.",
@@ -2974,7 +2974,7 @@
       "id": "write-present.write-name",
       "prompt": {
         "en": "I write my name.",
-        "ru": "Я пишу своё имя.",
+        "ru": "Пишу своё имя.",
         "zh": "我写下我的名字。"
       },
       "meaning": {
@@ -3934,13 +3934,13 @@
       "id": "i-called",
       "prompt": {
         "en": "I am called",
-        "ru": "Я зовусь",
+        "ru": "Зовусь",
         "zh": "我叫"
       },
       "meaning": {
-        "en": "Use the λέγομαι conjugation; a subject pronoun is optional.",
-        "ru": "Форма глагола λέγομαι; личное местоимение необязательно.",
-        "zh": "使用 λέγομαι 的变位，主语代词可省略。"
+        "en": "Use the “be called” conjugation; a subject pronoun is optional.",
+        "ru": "Форма глагола «зваться»; личное местоимение необязательно.",
+        "zh": "使用“被叫作”的动词变位，主语代词可省略。"
       },
       "greek": "λέγομαι",
       "pronunciation": {
@@ -8239,7 +8239,7 @@
       "id": "george",
       "prompt": {
         "en": "I see George.",
-        "ru": "Я вижу Йоргоса.",
+        "ru": "Вижу Йоргоса.",
         "zh": "我看见乔治。"
       },
       "meaning": {
@@ -8305,7 +8305,7 @@
       "id": "kostas",
       "prompt": {
         "en": "I see Kostas.",
-        "ru": "Я вижу Костаса.",
+        "ru": "Вижу Костаса.",
         "zh": "我看见科斯塔斯。"
       },
       "meaning": {
@@ -8371,7 +8371,7 @@
       "id": "john",
       "prompt": {
         "en": "I see Yiannis.",
-        "ru": "Я вижу Янниса.",
+        "ru": "Вижу Янниса.",
         "zh": "我看见扬尼斯。"
       },
       "meaning": {
@@ -8437,7 +8437,7 @@
       "id": "maria",
       "prompt": {
         "en": "I see Maria.",
-        "ru": "Я вижу Марию.",
+        "ru": "Вижу Марию.",
         "zh": "我看见玛丽亚。"
       },
       "meaning": {
@@ -8507,7 +8507,7 @@
       "id": "eleni",
       "prompt": {
         "en": "I see Eleni.",
-        "ru": "Я вижу Элени.",
+        "ru": "Вижу Элени.",
         "zh": "我看见埃莱妮。"
       },
       "meaning": {
@@ -8573,7 +8573,7 @@
       "id": "picture",
       "prompt": {
         "en": "I see the picture.",
-        "ru": "Я вижу картинку.",
+        "ru": "Вижу картинку.",
         "zh": "我看见图片。"
       },
       "meaning": {
@@ -8639,7 +8639,7 @@
       "id": "train",
       "prompt": {
         "en": "I see the train.",
-        "ru": "Я вижу поезд.",
+        "ru": "Вижу поезд.",
         "zh": "我看见火车。"
       },
       "meaning": {
@@ -8705,7 +8705,7 @@
       "id": "child",
       "prompt": {
         "en": "I see the child.",
-        "ru": "Я вижу ребёнка.",
+        "ru": "Вижу ребёнка.",
         "zh": "我看见孩子。"
       },
       "meaning": {
@@ -8771,7 +8771,7 @@
       "id": "letter",
       "prompt": {
         "en": "I see the letter (message).",
-        "ru": "Я вижу письмо.",
+        "ru": "Вижу письмо.",
         "zh": "我看见信件。（信件）"
       },
       "meaning": {
@@ -10979,7 +10979,7 @@
       "id": "do-present.i-exercise",
       "prompt": {
         "en": "I do the exercise.",
-        "ru": "Я делаю упражнение.",
+        "ru": "Делаю упражнение.",
         "zh": "我做练习。"
       },
       "meaning": {
@@ -11049,7 +11049,7 @@
       "id": "close-present.close-book",
       "prompt": {
         "en": "I close the book.",
-        "ru": "Я закрываю книгу.",
+        "ru": "Закрываю книгу.",
         "zh": "我合上书。"
       },
       "meaning": {
@@ -11201,7 +11201,7 @@
       "id": "read-present.read-my-book",
       "prompt": {
         "en": "I read my book.",
-        "ru": "Я читаю свою книгу.",
+        "ru": "Читаю свою книгу.",
         "zh": "我读我的书。"
       },
       "meaning": {
@@ -11369,7 +11369,7 @@
       "id": "want-present.want-book",
       "prompt": {
         "en": "I want a book.",
-        "ru": "Я хочу книгу.",
+        "ru": "Хочу книгу.",
         "zh": "我想要一本书。"
       },
       "meaning": {
@@ -11716,7 +11716,7 @@
       "id": "dont-know",
       "prompt": {
         "en": "I don’t know.",
-        "ru": "Я не знаю.",
+        "ru": "Не знаю.",
         "zh": "我不知道。"
       },
       "meaning": {
@@ -11767,7 +11767,7 @@
       "id": "dont-understand",
       "prompt": {
         "en": "I don’t understand.",
-        "ru": "Я не понимаю.",
+        "ru": "Не понимаю.",
         "zh": "我不明白。"
       },
       "meaning": {
@@ -12133,7 +12133,7 @@
       "id": "know-present.know-english",
       "prompt": {
         "en": "I know English.",
-        "ru": "Я знаю английский.",
+        "ru": "Знаю английский.",
         "zh": "我懂英语。"
       },
       "meaning": {
@@ -12191,7 +12191,7 @@
       "id": "know-present.not-know-say",
       "prompt": {
         "en": "I do not know what they are saying.",
-        "ru": "Я не знаю, что они говорят.",
+        "ru": "Не знаю, что они говорят.",
         "zh": "我不知道他们在说什么。"
       },
       "meaning": {
@@ -14112,7 +14112,7 @@
       "id": "do-present.i",
       "prompt": {
         "en": "I do",
-        "ru": "Я делаю",
+        "ru": "Делаю",
         "zh": "我做"
       },
       "meaning": {
@@ -14158,7 +14158,7 @@
       "id": "drink-present.i",
       "prompt": {
         "en": "I drink",
-        "ru": "Я пью",
+        "ru": "Пью",
         "zh": "我喝"
       },
       "meaning": {
@@ -14204,7 +14204,7 @@
       "id": "start-present.i",
       "prompt": {
         "en": "I start",
-        "ru": "Я начинаю",
+        "ru": "Начинаю",
         "zh": "我开始"
       },
       "meaning": {
@@ -14249,9 +14249,9 @@
     "basic-verbs/live-present.i": {
       "id": "live-present.i",
       "prompt": {
-        "en": "I live / stay",
-        "ru": "Я живу",
-        "zh": "我居住；停留"
+        "en": "I live / stay (place of residence)",
+        "ru": "Проживаю (о месте жительства)",
+        "zh": "我居住；停留（居住地点）"
       },
       "meaning": {
         "en": "Translate into Greek.",
@@ -14296,7 +14296,7 @@
       "id": "want-present.i",
       "prompt": {
         "en": "I want",
-        "ru": "Я хочу",
+        "ru": "Хочу",
         "zh": "我想要"
       },
       "meaning": {
@@ -14342,7 +14342,7 @@
       "id": "wait-present.i",
       "prompt": {
         "en": "I wait",
-        "ru": "Я жду",
+        "ru": "Жду",
         "zh": "我等待"
       },
       "meaning": {
@@ -14434,7 +14434,7 @@
       "id": "read-present.i",
       "prompt": {
         "en": "I read",
-        "ru": "Я читаю",
+        "ru": "Читаю",
         "zh": "我读"
       },
       "meaning": {
@@ -14480,7 +14480,7 @@
       "id": "write-present.i",
       "prompt": {
         "en": "I write",
-        "ru": "Я пишу",
+        "ru": "Пишу",
         "zh": "我写"
       },
       "meaning": {
@@ -14526,7 +14526,7 @@
       "id": "open-present.i",
       "prompt": {
         "en": "I open",
-        "ru": "Я открываю",
+        "ru": "Открываю",
         "zh": "我打开"
       },
       "meaning": {
@@ -14572,7 +14572,7 @@
       "id": "close-present.i",
       "prompt": {
         "en": "I close",
-        "ru": "Я закрываю",
+        "ru": "Закрываю",
         "zh": "我关闭"
       },
       "meaning": {
@@ -14618,7 +14618,7 @@
       "id": "learn-present.i",
       "prompt": {
         "en": "I learn",
-        "ru": "Я учусь / осваиваю",
+        "ru": "Учусь / осваиваю",
         "zh": "我学习"
       },
       "meaning": {
@@ -14664,7 +14664,7 @@
       "id": "study-present.i",
       "prompt": {
         "en": "I study at university",
-        "ru": "Я учусь в вузе",
+        "ru": "Учусь в вузе",
         "zh": "我在大学读书"
       },
       "meaning": {
@@ -14710,7 +14710,7 @@
       "id": "know-present.i",
       "prompt": {
         "en": "I know",
-        "ru": "Я знаю",
+        "ru": "Знаю",
         "zh": "我知道；认识"
       },
       "meaning": {
@@ -14756,7 +14756,7 @@
       "id": "understand-present.i",
       "prompt": {
         "en": "I understand",
-        "ru": "Я понимаю",
+        "ru": "Понимаю",
         "zh": "我明白"
       },
       "meaning": {
@@ -14802,7 +14802,7 @@
       "id": "finish-present.i",
       "prompt": {
         "en": "I finish",
-        "ru": "Я заканчиваю",
+        "ru": "Заканчиваю",
         "zh": "我结束；完成"
       },
       "meaning": {
@@ -14848,7 +14848,7 @@
       "id": "work-present.i",
       "prompt": {
         "en": "I work",
-        "ru": "Я работаю",
+        "ru": "Работаю",
         "zh": "我工作"
       },
       "meaning": {
@@ -14894,7 +14894,7 @@
       "id": "pay-present.i",
       "prompt": {
         "en": "I pay",
-        "ru": "Я плачу (деньги)",
+        "ru": "Плачу (деньги)",
         "zh": "我付款"
       },
       "meaning": {
@@ -14940,7 +14940,7 @@
       "id": "buy-present.i",
       "prompt": {
         "en": "I buy",
-        "ru": "Я покупаю",
+        "ru": "Покупаю",
         "zh": "我买"
       },
       "meaning": {
@@ -14986,7 +14986,7 @@
       "id": "see-present.i",
       "prompt": {
         "en": "I see",
-        "ru": "Я вижу",
+        "ru": "Вижу",
         "zh": "我看见"
       },
       "meaning": {
@@ -15746,7 +15746,7 @@
       "id": "i",
       "prompt": {
         "en": "I sing",
-        "ru": "Я пою",
+        "ru": "Пою",
         "zh": "我唱歌"
       },
       "meaning": {
@@ -18015,7 +18015,7 @@
       "id": "live-greece",
       "prompt": {
         "en": "I live in Greece.",
-        "ru": "Я живу в Греции.",
+        "ru": "Живу в Греции.",
         "zh": "我住在希腊。"
       },
       "meaning": {
@@ -18083,7 +18083,7 @@
       "id": "live-athens",
       "prompt": {
         "en": "I live in Athens.",
-        "ru": "Я живу в Афинах.",
+        "ru": "Живу в Афинах.",
         "zh": "我住在雅典。"
       },
       "meaning": {
@@ -18151,7 +18151,7 @@
       "id": "live-kypseli",
       "prompt": {
         "en": "I live in Kypseli.",
-        "ru": "Я живу в Кипсели.",
+        "ru": "Живу в Кипсели.",
         "zh": "我住在基普塞利。"
       },
       "meaning": {
@@ -18219,7 +18219,7 @@
       "id": "live-piraeus",
       "prompt": {
         "en": "I live in Piraeus.",
-        "ru": "Я живу в Пирее.",
+        "ru": "Живу в Пирее.",
         "zh": "我住在比雷埃夫斯。"
       },
       "meaning": {
@@ -18287,7 +18287,7 @@
       "id": "live-pasalimani",
       "prompt": {
         "en": "I live in Pasalimani.",
-        "ru": "Я живу в Пасалимани.",
+        "ru": "Живу в Пасалимани.",
         "zh": "我住在帕萨利马尼。"
       },
       "meaning": {
@@ -18355,7 +18355,7 @@
       "id": "live-nicosia",
       "prompt": {
         "en": "I live in Nicosia.",
-        "ru": "Я живу в Никосии.",
+        "ru": "Живу в Никосии.",
         "zh": "我住在尼科西亚。"
       },
       "meaning": {
@@ -18427,7 +18427,7 @@
       "id": "live-latsia",
       "prompt": {
         "en": "I live in Latsia.",
-        "ru": "Я живу в Латсии.",
+        "ru": "Живу в Латсии.",
         "zh": "我住在拉齐亚。"
       },
       "meaning": {
@@ -18495,7 +18495,7 @@
       "id": "live-strovolos",
       "prompt": {
         "en": "I live in Strovolos.",
-        "ru": "Я живу в Строволосе.",
+        "ru": "Живу в Строволосе.",
         "zh": "我住在斯特罗沃洛斯。"
       },
       "meaning": {
@@ -18563,7 +18563,7 @@
       "id": "live-kalamaria",
       "prompt": {
         "en": "I live in Kalamaria.",
-        "ru": "Я живу в Каламарье.",
+        "ru": "Живу в Каламарье.",
         "zh": "我住在卡拉马里亚。"
       },
       "meaning": {
@@ -18631,7 +18631,7 @@
       "id": "live-kaisariani",
       "prompt": {
         "en": "I live in Kaisariani.",
-        "ru": "Я живу в Кесариани.",
+        "ru": "Живу в Кесариани.",
         "zh": "我住在凯萨里亚尼。"
       },
       "meaning": {
@@ -18699,7 +18699,7 @@
       "id": "live-filothei",
       "prompt": {
         "en": "I live in Filothei.",
-        "ru": "Я живу в Филотеи.",
+        "ru": "Живу в Филотеи.",
         "zh": "我住在菲洛塞伊。"
       },
       "meaning": {
@@ -18770,7 +18770,7 @@
       "id": "live-goudi",
       "prompt": {
         "en": "I live in Goudi.",
-        "ru": "Я живу в Гуди.",
+        "ru": "Живу в Гуди.",
         "zh": "我住在古迪。"
       },
       "meaning": {
@@ -18940,7 +18940,7 @@
       "id": "live-thessaloniki",
       "prompt": {
         "en": "I live in Thessaloniki.",
-        "ru": "Я живу в Салониках.",
+        "ru": "Живу в Салониках.",
         "zh": "我住在塞萨洛尼基。"
       },
       "meaning": {
@@ -19012,7 +19012,7 @@
       "id": "live-paphos",
       "prompt": {
         "en": "I live in Paphos.",
-        "ru": "Я живу в Пафосе.",
+        "ru": "Живу в Пафосе.",
         "zh": "我住在帕福斯。"
       },
       "meaning": {
@@ -19080,7 +19080,7 @@
       "id": "live-limassol",
       "prompt": {
         "en": "I live in Limassol.",
-        "ru": "Я живу в Лимасоле.",
+        "ru": "Живу в Лимасоле.",
         "zh": "我住在利马索尔。"
       },
       "meaning": {
@@ -19152,7 +19152,7 @@
       "id": "live-new-york",
       "prompt": {
         "en": "I live in New York.",
-        "ru": "Я живу в Нью-Йорке.",
+        "ru": "Живу в Нью-Йорке.",
         "zh": "我住在纽约。"
       },
       "meaning": {
@@ -19831,7 +19831,7 @@
       "id": "cycladon-address",
       "prompt": {
         "en": "I live at 29 Kykladon Street. (number in words)",
-        "ru": "Я живу на улице Кикладон, 29. (число словами)",
+        "ru": "Живу на улице Кикладон, 29. (число словами)",
         "zh": "我住在基克拉顿街二十九号。（数字用单词写出）"
       },
       "meaning": {
@@ -19912,7 +19912,7 @@
       "id": "mouson-address",
       "prompt": {
         "en": "I live at 23 Mouson Street. (number in words)",
-        "ru": "Я живу на улице Мусон, 23. (число словами)",
+        "ru": "Живу на улице Мусон, 23. (число словами)",
         "zh": "我住在穆松街二十三号。（数字用单词写出）"
       },
       "meaning": {
@@ -19989,7 +19989,7 @@
       "id": "pontou-address",
       "prompt": {
         "en": "I live at 16 Pontou Street. (number in words)",
-        "ru": "Я живу на улице Понту, 16. (число словами)",
+        "ru": "Живу на улице Понту, 16. (число словами)",
         "zh": "我住在蓬图街十六号。（数字用单词写出）"
       },
       "meaning": {
@@ -20059,7 +20059,7 @@
       "id": "kefallinias-address",
       "prompt": {
         "en": "I live at 23 Kefallinias Street. (number in words)",
-        "ru": "Я живу на улице Кефаллиниас, 23. (число словами)",
+        "ru": "Живу на улице Кефаллиниас, 23. (число словами)",
         "zh": "我住在凯法利尼亚斯街二十三号。（数字用单词写出）"
       },
       "meaning": {
@@ -24150,7 +24150,7 @@
       "id": "study-present.at-university",
       "prompt": {
         "en": "I study at university.",
-        "ru": "Я учусь в университете.",
+        "ru": "Учусь в университете.",
         "zh": "我在大学读书。"
       },
       "meaning": {
@@ -24222,7 +24222,7 @@
       "id": "work-present.work-bank",
       "prompt": {
         "en": "I work at the bank.",
-        "ru": "Я работаю в банке.",
+        "ru": "Работаю в банке.",
         "zh": "我在银行工作。"
       },
       "meaning": {
@@ -24390,7 +24390,7 @@
       "id": "pay-present.pay-now",
       "prompt": {
         "en": "I pay now.",
-        "ru": "Я сейчас расплачиваюсь.",
+        "ru": "Сейчас расплачиваюсь.",
         "zh": "我现在付款。"
       },
       "meaning": {
@@ -25296,7 +25296,7 @@
       "id": "wait-present.wait-maria",
       "prompt": {
         "en": "I am waiting for Maria.",
-        "ru": "Я жду Марию.",
+        "ru": "Жду Марию.",
         "zh": "我在等玛丽亚。"
       },
       "meaning": {
@@ -25949,7 +25949,7 @@
       "id": "drink-present.i-water",
       "prompt": {
         "en": "I drink water.",
-        "ru": "Я пью воду.",
+        "ru": "Пью воду.",
         "zh": "我喝水。"
       },
       "meaning": {
@@ -36188,13 +36188,13 @@
       "id": "called-present.i-called",
       "prompt": {
         "en": "I am called",
-        "ru": "Я зовусь",
+        "ru": "Зовусь",
         "zh": "我叫"
       },
       "meaning": {
-        "en": "Use the λέγομαι conjugation; a subject pronoun is optional.",
-        "ru": "Форма глагола λέγομαι; личное местоимение необязательно.",
-        "zh": "使用 λέγομαι 的变位，主语代词可省略。"
+        "en": "Use the “be called” conjugation; a subject pronoun is optional.",
+        "ru": "Форма глагола «зваться»; личное местоимение необязательно.",
+        "zh": "使用“被叫作”的动词变位，主语代词可省略。"
       },
       "greek": "λέγομαι",
       "pronunciation": {
@@ -36234,7 +36234,7 @@
       "id": "sing-present.i",
       "prompt": {
         "en": "I sing",
-        "ru": "Я пою",
+        "ru": "Пою",
         "zh": "我唱歌"
       },
       "meaning": {
@@ -36284,7 +36284,7 @@
       "id": "absent",
       "prompt": {
         "en": "I am absent / away",
-        "ru": "Я отсутствую / меня нет",
+        "ru": "Отсутствую / меня нет",
         "zh": "我不在；我缺席"
       },
       "meaning": {
@@ -36314,7 +36314,7 @@
       "id": "family-say",
       "prompt": {
         "en": "I say",
-        "ru": "Я говорю",
+        "ru": "Говорю",
         "zh": "我说"
       },
       "meaning": {
@@ -42150,9 +42150,9 @@
     "phrases-social/introductions.called-passive": {
       "id": "introductions.called-passive",
       "prompt": {
-        "en": "I am called George. (with λέγομαι)",
-        "ru": "Я зовусь Йоргос. (используйте глагол «зваться»)",
-        "zh": "我叫乔治。（使用 λέγομαι）"
+        "en": "I am called George. (use “be called”)",
+        "ru": "Зовусь Йоргос. (используйте глагол «зваться»)",
+        "zh": "我叫乔治。（使用“被叫作”的动词）"
       },
       "meaning": {
         "en": "Translate into Greek.",
@@ -44359,7 +44359,7 @@
       "id": "classroom-phrases.dont-know",
       "prompt": {
         "en": "I don’t know.",
-        "ru": "Я не знаю.",
+        "ru": "Не знаю.",
         "zh": "我不知道。"
       },
       "meaning": {
@@ -44414,7 +44414,7 @@
       "id": "classroom-phrases.dont-understand",
       "prompt": {
         "en": "I don’t understand.",
-        "ru": "Я не понимаю.",
+        "ru": "Не понимаю.",
         "zh": "我不明白。"
       },
       "meaning": {
@@ -47018,7 +47018,7 @@
       "id": "seeing-objects.child",
       "prompt": {
         "en": "I see the child.",
-        "ru": "Я вижу ребёнка.",
+        "ru": "Вижу ребёнка.",
         "zh": "我看见孩子。"
       },
       "meaning": {
@@ -47088,7 +47088,7 @@
       "id": "seeing-objects.eleni",
       "prompt": {
         "en": "I see Eleni.",
-        "ru": "Я вижу Элени.",
+        "ru": "Вижу Элени.",
         "zh": "我看见埃莱妮。"
       },
       "meaning": {
@@ -47158,7 +47158,7 @@
       "id": "seeing-objects.george",
       "prompt": {
         "en": "I see George.",
-        "ru": "Я вижу Йоргоса.",
+        "ru": "Вижу Йоргоса.",
         "zh": "我看见乔治。"
       },
       "meaning": {
@@ -47228,7 +47228,7 @@
       "id": "seeing-objects.john",
       "prompt": {
         "en": "I see Yiannis.",
-        "ru": "Я вижу Янниса.",
+        "ru": "Вижу Янниса.",
         "zh": "我看见扬尼斯。"
       },
       "meaning": {
@@ -47298,7 +47298,7 @@
       "id": "seeing-objects.kostas",
       "prompt": {
         "en": "I see Kostas.",
-        "ru": "Я вижу Костаса.",
+        "ru": "Вижу Костаса.",
         "zh": "我看见科斯塔斯。"
       },
       "meaning": {
@@ -47368,7 +47368,7 @@
       "id": "seeing-objects.letter",
       "prompt": {
         "en": "I see the letter (message).",
-        "ru": "Я вижу письмо.",
+        "ru": "Вижу письмо.",
         "zh": "我看见信件。（信件）"
       },
       "meaning": {
@@ -47438,7 +47438,7 @@
       "id": "seeing-objects.maria",
       "prompt": {
         "en": "I see Maria.",
-        "ru": "Я вижу Марию.",
+        "ru": "Вижу Марию.",
         "zh": "我看见玛丽亚。"
       },
       "meaning": {
@@ -47512,7 +47512,7 @@
       "id": "seeing-objects.picture",
       "prompt": {
         "en": "I see the picture.",
-        "ru": "Я вижу картинку.",
+        "ru": "Вижу картинку.",
         "zh": "我看见图片。"
       },
       "meaning": {
@@ -47582,7 +47582,7 @@
       "id": "seeing-objects.train",
       "prompt": {
         "en": "I see the train.",
-        "ru": "Я вижу поезд.",
+        "ru": "Вижу поезд.",
         "zh": "我看见火车。"
       },
       "meaning": {
@@ -50387,7 +50387,7 @@
       "id": "called-present.i-called",
       "prompt": {
         "en": "I am called",
-        "ru": "Я зовусь",
+        "ru": "Зовусь",
         "zh": "我叫"
       },
       "meaning": {
@@ -50618,9 +50618,9 @@
     "grammar-verbs/live-present.i": {
       "id": "live-present.i",
       "prompt": {
-        "en": "I live / stay",
-        "ru": "Я живу",
-        "zh": "我居住；停留"
+        "en": "I live / stay (place of residence)",
+        "ru": "Проживаю (о месте жительства)",
+        "zh": "我居住；停留（居住地点）"
       },
       "meaning": {
         "en": "Translate into Greek.",
@@ -50665,7 +50665,7 @@
       "id": "read-present.i",
       "prompt": {
         "en": "I read",
-        "ru": "Я читаю",
+        "ru": "Читаю",
         "zh": "我读"
       },
       "meaning": {
@@ -50761,7 +50761,7 @@
       "id": "sing-present.i",
       "prompt": {
         "en": "I sing",
-        "ru": "Я пою",
+        "ru": "Пою",
         "zh": "我唱歌"
       },
       "meaning": {
@@ -51007,7 +51007,7 @@
       "id": "understand-present.i",
       "prompt": {
         "en": "I understand",
-        "ru": "Я понимаю",
+        "ru": "Понимаю",
         "zh": "我明白"
       },
       "meaning": {
@@ -51112,7 +51112,7 @@
       "id": "addresses-nearby.cycladon-address",
       "prompt": {
         "en": "I live at 29 Kykladon Street. (number in words)",
-        "ru": "Я живу на улице Кикладон, 29. (число словами)",
+        "ru": "Живу на улице Кикладон, 29. (число словами)",
         "zh": "我住在基克拉顿街二十九号。（数字用单词写出）"
       },
       "meaning": {
@@ -51197,7 +51197,7 @@
       "id": "addresses-nearby.kefallinias-address",
       "prompt": {
         "en": "I live at 23 Kefallinias Street. (number in words)",
-        "ru": "Я живу на улице Кефаллиниас, 23. (число словами)",
+        "ru": "Живу на улице Кефаллиниас, 23. (число словами)",
         "zh": "我住在凯法利尼亚斯街二十三号。（数字用单词写出）"
       },
       "meaning": {
@@ -51278,7 +51278,7 @@
       "id": "addresses-nearby.mouson-address",
       "prompt": {
         "en": "I live at 23 Mouson Street. (number in words)",
-        "ru": "Я живу на улице Мусон, 23. (число словами)",
+        "ru": "Живу на улице Мусон, 23. (число словами)",
         "zh": "我住在穆松街二十三号。（数字用单词写出）"
       },
       "meaning": {
@@ -51564,7 +51564,7 @@
       "id": "addresses-nearby.pontou-address",
       "prompt": {
         "en": "I live at 16 Pontou Street. (number in words)",
-        "ru": "Я живу на улице Понту, 16. (число словами)",
+        "ru": "Живу на улице Понту, 16. (число словами)",
         "zh": "我住在蓬图街十六号。（数字用单词写出）"
       },
       "meaning": {
@@ -51692,7 +51692,7 @@
       "id": "living-places.live-athens",
       "prompt": {
         "en": "I live in Athens.",
-        "ru": "Я живу в Афинах.",
+        "ru": "Живу в Афинах.",
         "zh": "我住在雅典。"
       },
       "meaning": {
@@ -51870,7 +51870,7 @@
       "id": "living-places.live-filothei",
       "prompt": {
         "en": "I live in Filothei.",
-        "ru": "Я живу в Филотеи.",
+        "ru": "Живу в Филотеи.",
         "zh": "我住在菲洛塞伊。"
       },
       "meaning": {
@@ -51945,7 +51945,7 @@
       "id": "living-places.live-goudi",
       "prompt": {
         "en": "I live in Goudi.",
-        "ru": "Я живу в Гуди.",
+        "ru": "Живу в Гуди.",
         "zh": "我住在古迪。"
       },
       "meaning": {
@@ -52017,7 +52017,7 @@
       "id": "living-places.live-greece",
       "prompt": {
         "en": "I live in Greece.",
-        "ru": "Я живу в Греции.",
+        "ru": "Живу в Греции.",
         "zh": "我住在希腊。"
       },
       "meaning": {
@@ -52089,7 +52089,7 @@
       "id": "living-places.live-kaisariani",
       "prompt": {
         "en": "I live in Kaisariani.",
-        "ru": "Я живу в Кесариани.",
+        "ru": "Живу в Кесариани.",
         "zh": "我住在凯萨里亚尼。"
       },
       "meaning": {
@@ -52161,7 +52161,7 @@
       "id": "living-places.live-kalamaria",
       "prompt": {
         "en": "I live in Kalamaria.",
-        "ru": "Я живу в Каламарье.",
+        "ru": "Живу в Каламарье.",
         "zh": "我住在卡拉马里亚。"
       },
       "meaning": {
@@ -52233,7 +52233,7 @@
       "id": "living-places.live-kypseli",
       "prompt": {
         "en": "I live in Kypseli.",
-        "ru": "Я живу в Кипсели.",
+        "ru": "Живу в Кипсели.",
         "zh": "我住在基普塞利。"
       },
       "meaning": {
@@ -52305,7 +52305,7 @@
       "id": "living-places.live-latsia",
       "prompt": {
         "en": "I live in Latsia.",
-        "ru": "Я живу в Латсии.",
+        "ru": "Живу в Латсии.",
         "zh": "我住在拉齐亚。"
       },
       "meaning": {
@@ -52377,7 +52377,7 @@
       "id": "living-places.live-limassol",
       "prompt": {
         "en": "I live in Limassol.",
-        "ru": "Я живу в Лимасоле.",
+        "ru": "Живу в Лимасоле.",
         "zh": "我住在利马索尔。"
       },
       "meaning": {
@@ -52453,7 +52453,7 @@
       "id": "living-places.live-new-york",
       "prompt": {
         "en": "I live in New York.",
-        "ru": "Я живу в Нью-Йорке.",
+        "ru": "Живу в Нью-Йорке.",
         "zh": "我住在纽约。"
       },
       "meaning": {
@@ -52541,7 +52541,7 @@
       "id": "living-places.live-nicosia",
       "prompt": {
         "en": "I live in Nicosia.",
-        "ru": "Я живу в Никосии.",
+        "ru": "Живу в Никосии.",
         "zh": "我住在尼科西亚。"
       },
       "meaning": {
@@ -52617,7 +52617,7 @@
       "id": "living-places.live-paphos",
       "prompt": {
         "en": "I live in Paphos.",
-        "ru": "Я живу в Пафосе.",
+        "ru": "Живу в Пафосе.",
         "zh": "我住在帕福斯。"
       },
       "meaning": {
@@ -52689,7 +52689,7 @@
       "id": "living-places.live-pasalimani",
       "prompt": {
         "en": "I live in Pasalimani.",
-        "ru": "Я живу в Пасалимани.",
+        "ru": "Живу в Пасалимани.",
         "zh": "我住在帕萨利马尼。"
       },
       "meaning": {
@@ -52761,7 +52761,7 @@
       "id": "living-places.live-piraeus",
       "prompt": {
         "en": "I live in Piraeus.",
-        "ru": "Я живу в Пирее.",
+        "ru": "Живу в Пирее.",
         "zh": "我住在比雷埃夫斯。"
       },
       "meaning": {
@@ -52833,7 +52833,7 @@
       "id": "living-places.live-strovolos",
       "prompt": {
         "en": "I live in Strovolos.",
-        "ru": "Я живу в Строволосе.",
+        "ru": "Живу в Строволосе.",
         "zh": "我住在斯特罗沃洛斯。"
       },
       "meaning": {
@@ -52905,7 +52905,7 @@
       "id": "living-places.live-thessaloniki",
       "prompt": {
         "en": "I live in Thessaloniki.",
-        "ru": "Я живу в Салониках.",
+        "ru": "Живу в Салониках.",
         "zh": "我住在塞萨洛尼基。"
       },
       "meaning": {
@@ -58133,7 +58133,7 @@
       "greek": "μιλάω",
       "prompt": {
         "en": "I speak",
-        "ru": "Я говорю",
+        "ru": "Говорю",
         "zh": "我说话"
       },
       "meaning": {
@@ -58357,7 +58357,7 @@
       "greek": "αγαπάω",
       "prompt": {
         "en": "I love",
-        "ru": "Я люблю",
+        "ru": "Люблю",
         "zh": "我爱"
       },
       "meaning": {
@@ -58581,7 +58581,7 @@
       "greek": "μπορώ",
       "prompt": {
         "en": "I can",
-        "ru": "Я могу",
+        "ru": "Могу",
         "zh": "我能够"
       },
       "meaning": {

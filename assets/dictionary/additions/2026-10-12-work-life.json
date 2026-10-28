@@ -370,7 +370,7 @@
       "greek": "νομίζω",
       "prompt": {
         "en": "I think / suppose",
-        "ru": "Я думаю / полагаю",
+        "ru": "Думаю / полагаю",
         "zh": "我认为；我猜想"
       },
       "pronunciation": {
@@ -395,7 +395,7 @@
       "greek": "ζω",
       "prompt": {
         "en": "I live / am alive",
-        "ru": "Я живу (существую)",
+        "ru": "Живу (о жизни)",
         "zh": "我生活；我活着"
       },
       "pronunciation": {
@@ -403,8 +403,9 @@
         "ru": "зо"
       },
       "explanation": {
-        "en": "One syllable, so no written accent. Μένω usually describes where you live or stay. Δεν ζω means “I do not live”; “he does not live” is δεν ζει.",
-        "ru": "Односложное слово без знака ударения. Ζω — жить, быть живым; μένω обычно о месте жительства. Δεν ζω — «я не живу», а «он не живёт» — δεν ζει."
+        "en": "Ζω means to live or be alive; υπάρχω means to exist or be present. Their meanings can overlap: this card asks about life. Μένω usually describes where you live or stay. Ζω has one syllable and no written accent.",
+        "ru": "Ζω — жить, быть живым; υπάρχω — существовать, иметься. Значения могут пересекаться: эта карточка о жизни. Μένω обычно о месте жительства. Ζω — односложное слово без знака ударения.",
+        "zh": "Ζω 表示生活、活着；υπάρχω 表示存在。两者的含义有时重叠，本卡强调生命。Μένω 通常表示住在或停留在某处。Ζω 只有一个音节，不标重音。"
       },
       "themes": [
         "home",
@@ -420,7 +421,7 @@
       "greek": "ψάχνω",
       "prompt": {
         "en": "I look for / search",
-        "ru": "Я ищу",
+        "ru": "Ищу",
         "zh": "我寻找"
       },
       "pronunciation": {
@@ -445,7 +446,7 @@
       "greek": "γνωρίζω",
       "prompt": {
         "en": "I meet / get to know someone",
-        "ru": "Я знакомлюсь",
+        "ru": "Знакомлюсь",
         "zh": "我知道；我认识"
       },
       "pronunciation": {
@@ -471,7 +472,7 @@
       "greek": "ταξιδεύω",
       "prompt": {
         "en": "I travel",
-        "ru": "Я путешествую",
+        "ru": "Путешествую",
         "zh": "我旅行"
       },
       "pronunciation": {
@@ -496,7 +497,7 @@
       "greek": "μαγειρεύω",
       "prompt": {
         "en": "I cook",
-        "ru": "Я готовлю еду",
+        "ru": "Готовлю еду",
         "zh": "我做饭"
       },
       "pronunciation": {
@@ -522,7 +523,7 @@
       "greek": "συμπληρώνω",
       "prompt": {
         "en": "I fill in / complete",
-        "ru": "Я заполняю / дополняю",
+        "ru": "Заполняю / дополняю",
         "zh": "我填写；我完成"
       },
       "pronunciation": {
@@ -547,7 +548,7 @@
       "greek": "απαντώ",
       "prompt": {
         "en": "I answer",
-        "ru": "Я отвечаю",
+        "ru": "Отвечаю",
         "zh": "我回答"
       },
       "pronunciation": {
@@ -576,7 +577,7 @@
       "greek": "διαλέγω",
       "prompt": {
         "en": "I choose",
-        "ru": "Я выбираю",
+        "ru": "Выбираю",
         "zh": "我选择"
       },
       "pronunciation": {
@@ -698,7 +699,7 @@
       "greek": "Ψάχνω για δουλειά.",
       "prompt": {
         "en": "I am looking for a job.",
-        "ru": "Я ищу работу.",
+        "ru": "Ищу работу.",
         "zh": "我在找工作。"
       },
       "pronunciation": {
@@ -814,7 +815,7 @@
       "greek": "Δουλεύω στην Ελλάδα.",
       "prompt": {
         "en": "I work in Greece.",
-        "ru": "Я работаю в Греции.",
+        "ru": "Работаю в Греции.",
         "zh": "我在希腊工作。"
       },
       "pronunciation": {
@@ -881,7 +882,7 @@
       "greek": "Μένω με την φίλη μου.",
       "prompt": {
         "en": "I live with my girlfriend.",
-        "ru": "Я живу со своей девушкой.",
+        "ru": "Живу со своей девушкой.",
         "zh": "我和女朋友住在一起。"
       },
       "pronunciation": {

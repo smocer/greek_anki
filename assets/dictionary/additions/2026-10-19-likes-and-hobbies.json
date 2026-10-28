@@ -472,7 +472,7 @@
       "greek": "διδάσκω",
       "prompt": {
         "en": "I teach",
-        "ru": "Я преподаю",
+        "ru": "Преподаю",
         "zh": "我教／教授"
       },
       "pronunciation": {
@@ -498,7 +498,7 @@
       "greek": "αρέσω",
       "prompt": {
         "en": "I am liked / I appeal to someone",
-        "ru": "Я нравлюсь",
+        "ru": "Нравлюсь",
         "zh": "我受喜欢／我吸引某人"
       },
       "pronunciation": {
@@ -524,7 +524,7 @@
       "greek": "προτιμώ",
       "prompt": {
         "en": "I prefer",
-        "ru": "Я предпочитаю",
+        "ru": "Предпочитаю",
         "zh": "我更喜欢"
       },
       "pronunciation": {
@@ -553,7 +553,7 @@
       "greek": "ακούω",
       "prompt": {
         "en": "I listen / hear",
-        "ru": "Я слушаю / слышу",
+        "ru": "Слушаю / слышу",
         "zh": "我听／听见"
       },
       "pronunciation": {
@@ -579,7 +579,7 @@
       "greek": "κολυμπάω",
       "prompt": {
         "en": "I swim",
-        "ru": "Я плаваю",
+        "ru": "Плаваю",
         "zh": "我游泳"
       },
       "pronunciation": {
@@ -608,7 +608,7 @@
       "greek": "ζωγραφίζω",
       "prompt": {
         "en": "I draw / paint",
-        "ru": "Я рисую",
+        "ru": "Рисую",
         "zh": "我画画"
       },
       "pronunciation": {
@@ -634,7 +634,7 @@
       "greek": "παίζω",
       "prompt": {
         "en": "I play",
-        "ru": "Я играю",
+        "ru": "Играю",
         "zh": "我玩／演奏"
       },
       "pronunciation": {
@@ -660,7 +660,7 @@
       "greek": "βγάζω",
       "prompt": {
         "en": "I take out / remove",
-        "ru": "Я вынимаю / снимаю",
+        "ru": "Вынимаю / снимаю",
         "zh": "我取出／移除"
       },
       "pronunciation": {
@@ -1036,7 +1036,7 @@
       "greek": "Ακούω μουσική.",
       "prompt": {
         "en": "I listen to music.",
-        "ru": "Я слушаю музыку.",
+        "ru": "Слушаю музыку.",
         "zh": "我听音乐。"
       },
       "pronunciation": {
@@ -1064,7 +1064,7 @@
       "greek": "Παίζω κιθάρα.",
       "prompt": {
         "en": "I play guitar.",
-        "ru": "Я играю на гитаре.",
+        "ru": "Играю на гитаре.",
         "zh": "我弹吉他。"
       },
       "pronunciation": {
@@ -1092,7 +1092,7 @@
       "greek": "Βγάζω φωτογραφίες.",
       "prompt": {
         "en": "I take photographs.",
-        "ru": "Я фотографирую.",
+        "ru": "Фотографирую.",
         "zh": "我拍照片。"
       },
       "pronunciation": {
@@ -1120,7 +1120,7 @@
       "greek": "Κάνω βόλτα.",
       "prompt": {
         "en": "I go for a stroll.",
-        "ru": "Я гуляю.",
+        "ru": "Гуляю.",
         "zh": "我去散步。"
       },
       "pronunciation": {
@@ -1152,7 +1152,7 @@
       "greek": "Κάνω διάλειμμα.",
       "prompt": {
         "en": "I take a break.",
-        "ru": "Я делаю перерыв.",
+        "ru": "Делаю перерыв.",
         "zh": "我休息一下。"
       },
       "pronunciation": {
@@ -1180,7 +1180,7 @@
       "greek": "Βλέπω τηλεόραση.",
       "prompt": {
         "en": "I watch TV.",
-        "ru": "Я смотрю телевизор.",
+        "ru": "Смотрю телевизор.",
         "zh": "我看电视。"
       },
       "pronunciation": {
@@ -1208,7 +1208,7 @@
       "greek": "Κάνω σπορ.",
       "prompt": {
         "en": "I do sports.",
-        "ru": "Я занимаюсь спортом.",
+        "ru": "Занимаюсь спортом.",
         "zh": "我做运动。"
       },
       "pronunciation": {
@@ -1643,7 +1643,7 @@
       "greek": "Προτιμώ τον καφέ.",
       "prompt": {
         "en": "I prefer coffee.",
-        "ru": "Я предпочитаю кофе.",
+        "ru": "Предпочитаю кофе.",
         "zh": "我更喜欢咖啡。"
       },
       "pronunciation": {
@@ -1675,7 +1675,7 @@
       "greek": "Προτιμώ την μουσική.",
       "prompt": {
         "en": "I prefer music.",
-        "ru": "Я предпочитаю музыку.",
+        "ru": "Предпочитаю музыку.",
         "zh": "我更喜欢音乐。"
       },
       "pronunciation": {

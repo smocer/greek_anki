@@ -7,9 +7,9 @@
       "collection": "words-verbs",
       "greek": "υπάρχω",
       "prompt": {
-        "en": "I exist",
-        "ru": "Я существую",
-        "zh": "我存在"
+        "en": "I exist (have an existence)",
+        "ru": "Существую (есть в действительности)",
+        "zh": "我存在（确实存在）"
       },
       "pronunciation": {
         "en": "i-PAR-kho",
@@ -23,9 +23,9 @@
         "verb"
       ],
       "explanation": {
-        "en": "Υπάρχει means there is; υπάρχουν means there are.",
-        "ru": "Υπάρχει — «есть, имеется» об одном предмете; υπάρχουν — о нескольких.",
-        "zh": "Υπάρχει 表示“有”（单数），υπάρχουν 用于复数。"
+        "en": "Υπάρχω means to exist or be present; ζω means to live or be alive. Their meanings can overlap: this card asks about existence. Υπάρχει means “there is”; υπάρχουν means “there are”.",
+        "ru": "Υπάρχω — существовать, иметься; ζω — жить, быть живым. Значения могут пересекаться: эта карточка о существовании. Υπάρχει — «есть, имеется» об одном предмете; υπάρχουν — о нескольких.",
+        "zh": "Υπάρχω 表示存在，ζω 表示生活、活着。两者的含义有时重叠，本卡强调存在。Υπάρχει 表示“有”（单数），υπάρχουν 用于复数。"
       }
     },
     {
@@ -34,7 +34,7 @@
       "greek": "δοκιμάζω",
       "prompt": {
         "en": "I try / taste / try on",
-        "ru": "Я пробую / примеряю",
+        "ru": "Пробую / примеряю",
         "zh": "我尝试／品尝／试穿"
       },
       "pronunciation": {
@@ -61,7 +61,7 @@
       "greek": "κατεβαίνω",
       "prompt": {
         "en": "I go down / get off",
-        "ru": "Я спускаюсь / выхожу из транспорта",
+        "ru": "Спускаюсь / выхожу из транспорта",
         "zh": "我下去／下车"
       },
       "pronunciation": {
@@ -82,7 +82,7 @@
       "greek": "ανεβαίνω",
       "prompt": {
         "en": "I go up / get on",
-        "ru": "Я поднимаюсь / сажусь в транспорт",
+        "ru": "Поднимаюсь / сажусь в транспорт",
         "zh": "我上去／上车"
       },
       "pronunciation": {
@@ -103,7 +103,7 @@
       "greek": "ξυπνάω",
       "prompt": {
         "en": "I wake up",
-        "ru": "Я просыпаюсь",
+        "ru": "Просыпаюсь",
         "zh": "我醒来"
       },
       "pronunciation": {
@@ -128,7 +128,7 @@
       "greek": "φεύγω",
       "prompt": {
         "en": "I leave / depart",
-        "ru": "Я ухожу / уезжаю",
+        "ru": "Ухожу / уезжаю",
         "zh": "我离开／出发"
       },
       "pronunciation": {
@@ -149,7 +149,7 @@
       "greek": "ξεκινάω",
       "prompt": {
         "en": "I start / set off",
-        "ru": "Я начинаю / отправляюсь",
+        "ru": "Начинаю / отправляюсь",
         "zh": "我开始／出发"
       },
       "pronunciation": {
@@ -174,7 +174,7 @@
       "greek": "κοστίζω",
       "prompt": {
         "en": "I cost (have a price)",
-        "ru": "Я стою (имею цену)",
+        "ru": "Стою (имею цену)",
         "zh": "我值（某个价钱）"
       },
       "pronunciation": {
@@ -200,7 +200,7 @@
       "greek": "οδηγώ",
       "prompt": {
         "en": "I drive",
-        "ru": "Я вожу",
+        "ru": "Вожу",
         "zh": "我驾驶"
       },
       "pronunciation": {
@@ -221,7 +221,7 @@
       "greek": "τηλεφωνώ",
       "prompt": {
         "en": "I phone / call",
-        "ru": "Я звоню по телефону",
+        "ru": "Звоню по телефону",
         "zh": "我打电话"
       },
       "pronunciation": {
@@ -242,7 +242,7 @@
       "greek": "συγχωρώ",
       "prompt": {
         "en": "I forgive / excuse",
-        "ru": "Я прощаю",
+        "ru": "Прощаю",
         "zh": "我原谅"
       },
       "pronunciation": {
@@ -268,7 +268,7 @@
       "greek": "συμφωνώ",
       "prompt": {
         "en": "I agree",
-        "ru": "Я соглашаюсь",
+        "ru": "Соглашаюсь",
         "zh": "我同意"
       },
       "pronunciation": {
@@ -289,7 +289,7 @@
       "greek": "διαφωνώ",
       "prompt": {
         "en": "I disagree",
-        "ru": "Я не соглашаюсь",
+        "ru": "Не соглашаюсь",
         "zh": "我不同意"
       },
       "pronunciation": {
@@ -310,7 +310,7 @@
       "greek": "προσπαθώ",
       "prompt": {
         "en": "I try / make an effort",
-        "ru": "Я стараюсь / пытаюсь",
+        "ru": "Стараюсь / пытаюсь",
         "zh": "我努力／尝试"
       },
       "pronunciation": {
@@ -337,7 +337,7 @@
       "greek": "εξηγώ",
       "prompt": {
         "en": "I explain",
-        "ru": "Я объясняю",
+        "ru": "Объясняю",
         "zh": "我解释"
       },
       "pronunciation": {
@@ -358,7 +358,7 @@
       "greek": "μισώ",
       "prompt": {
         "en": "I hate",
-        "ru": "Я ненавижу",
+        "ru": "Ненавижу",
         "zh": "我讨厌"
       },
       "pronunciation": {
@@ -379,7 +379,7 @@
       "greek": "παρακαλώ",
       "prompt": {
         "en": "I ask politely / beg",
-        "ru": "Я прошу / умоляю",
+        "ru": "Прошу / умоляю",
         "zh": "我恳求"
       },
       "pronunciation": {
@@ -409,7 +409,7 @@
       "greek": "ευχαριστώ",
       "prompt": {
         "en": "I thank",
-        "ru": "Я благодарю",
+        "ru": "Благодарю",
         "zh": "我感谢"
       },
       "pronunciation": {
@@ -1446,7 +1446,7 @@
       "greek": "Δεν φεύγω ποτέ.",
       "prompt": {
         "en": "I never leave.",
-        "ru": "Я никогда не ухожу.",
+        "ru": "Никогда не ухожу.",
         "zh": "我从不离开。"
       },
       "pronunciation": {
@@ -1473,7 +1473,7 @@
       "greek": "Δεν πάω πουθενά.",
       "prompt": {
         "en": "I am not going anywhere.",
-        "ru": "Я никуда не иду.",
+        "ru": "Никуда не иду.",
         "zh": "我哪儿也不去。"
       },
       "pronunciation": {
@@ -1504,7 +1504,7 @@
       "greek": "Κατεβαίνω από το λεωφορείο.",
       "prompt": {
         "en": "I get off the bus.",
-        "ru": "Я выхожу из автобуса.",
+        "ru": "Выхожу из автобуса.",
         "zh": "我下公共汽车。"
       },
       "pronunciation": {
@@ -1529,7 +1529,7 @@
       "greek": "Περπατάω μέχρι τον σταθμό.",
       "prompt": {
         "en": "I walk as far as the station.",
-        "ru": "Я иду пешком до станции.",
+        "ru": "Иду пешком до станции.",
         "zh": "我步行到车站。"
       },
       "pronunciation": {
@@ -1581,7 +1581,7 @@
       "greek": "οδηγώ",
       "prompt": {
         "en": "I drive",
-        "ru": "Я вожу",
+        "ru": "Вожу",
         "zh": "我驾驶"
       },
       "pronunciation": {
