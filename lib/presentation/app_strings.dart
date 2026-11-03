@@ -2,6 +2,7 @@ import 'package:flutter/widgets.dart';
 
 import '../domain/app_language.dart';
 import '../domain/curriculum.dart';
+import '../domain/review_selection.dart';
 import '../domain/vocabulary_category.dart';
 
 extension LocalizedContext on BuildContext {
@@ -71,6 +72,51 @@ class AppStrings {
   String get sessionCount =>
       _pick('Cards per session', 'Карточек за раз', '每轮词卡数量');
   String get allCards => _pick('All', 'Все', '全部');
+  String get sessionStyle => _pick('Practice', 'Тип занятия', '练习方式');
+  String sessionStyleTitle(SessionStyle style) => switch (style) {
+    SessionStyle.learning => _pick(
+      'Learn & repeat',
+      'Учить и повторять',
+      '学习与复习',
+    ),
+    SessionStyle.reviewAll => _pick('Review all', 'Повторить все', '复习全部'),
+  };
+  String sessionStyleHint(SessionStyle style) => switch (style) {
+    SessionStyle.learning => _pick(
+      'Three learning words plus reviews, with extra practice for recent mistakes.',
+      'Три слова для изучения и повторение с учётом недавних ошибок.',
+      '同时学习三个词，并优先复习最近答错的词。',
+    ),
+    SessionStyle.reviewAll => _pick(
+      'Check every filtered card. Difficult words return after a gap for two successful recalls.',
+      'Проверить все выбранные карточки. Сложные слова вернутся после паузы до двух верных ответов.',
+      '检查筛选出的全部词卡。难词会间隔出现，直到两次正确回忆。',
+    ),
+  };
+  String get confirmationHint => _pick(
+    'Needs spaced confirmation · Quick corrections do not finish this word.',
+    'Нужна проверка после паузы · Быстрого исправления недостаточно.',
+    '需要间隔后确认；刚看过答案后的改正不算完成。',
+  );
+  String get difficultCardHint => _pick(
+    'This word has needed several tries. Review its explanation, or leave it for later.',
+    'Это слово вызвало несколько ошибок. Посмотрите объяснение или оставьте его на потом.',
+    '这个词已多次答错。可以查看解释，或留待以后练习。',
+  );
+  String get leaveForLater =>
+      _pick('Leave for later', 'Оставить на потом', '留待以后');
+  String get sessionComplete =>
+      _pick('Session complete', 'Занятие завершено', '本轮完成');
+  String get deferredNote => _pick(
+    'Some words still need practice. They remain due for review.',
+    'Некоторые слова ещё требуют практики. Они останутся в очереди на повторение.',
+    '部分词仍需练习，它们会保留在待复习列表中。',
+  );
+  String deferredCount(int count) => _pick(
+    'Left for later: $count',
+    'Оставлено на потом: $count',
+    '留待以后：$count',
+  );
   String get cardOrder => _pick('Card order', 'Порядок карточек', '词卡抽取顺序');
   String cardOrderTitle(CardOrder order) => switch (order) {
     CardOrder.random => _pick('Random', 'Случайный', '随机'),
@@ -456,9 +502,9 @@ class AppStrings {
     '$count 次额外练习',
   );
   String get completionNote => _pick(
-    'Progress saved. Come back tomorrow for a little more practice.',
-    'Прогресс сохранён. Возвращайтесь завтра, чтобы ещё немного позаниматься.',
-    '进度已保存，明天再来练一练。',
+    'Progress saved. Future reviews adapt to your recall history.',
+    'Прогресс сохранён. Сроки повторения учитывают ваши ответы.',
+    '进度已保存。后续复习时间会根据你的回忆记录调整。',
   );
   String get backToMyDeck =>
       _pick('Back to my deck', 'К моей колоде', '返回我的卡组');

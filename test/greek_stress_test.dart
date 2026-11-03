@@ -113,6 +113,9 @@ void main() {
     session.checkAnswer('επτά');
     expect(session.typedCorrect, isTrue);
     session.advance(correct: session.typedCorrect!);
+    expect(session.isComplete, isFalse);
+    session.checkAnswer('επτά');
+    session.advance(correct: session.typedCorrect!);
     expect(session.isComplete, isTrue);
     expect(session.firstTryCorrect, 0);
     session.dispose();

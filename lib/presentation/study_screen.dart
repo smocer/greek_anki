@@ -5,6 +5,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
 import '../domain/learning_progress.dart';
+import '../domain/review_selection.dart';
 import '../domain/curriculum.dart';
 import '../domain/study_session.dart';
 import '../domain/study_session_store.dart';
@@ -25,6 +26,7 @@ class StudyScreen extends StatefulWidget {
     required this.sessionStore,
     this.sessionLimit = 15,
     this.cardOrder = CardOrder.random,
+    this.style = SessionStyle.learning,
   });
   final VocabularyDeck deck;
   final List<VocabularyCard> cards;
@@ -33,6 +35,7 @@ class StudyScreen extends StatefulWidget {
   final StudySessionStore sessionStore;
   final int? sessionLimit;
   final CardOrder cardOrder;
+  final SessionStyle style;
 
   @override
   State<StudyScreen> createState() => _StudyScreenState();
@@ -56,12 +59,16 @@ class _StudyScreenState extends State<StudyScreen> {
       cards: widget.cards,
       mode: widget.mode,
       shuffle: false,
+      style: widget.style,
+      scheduleFor: (card) =>
+          widget.progress.schedule(widget.deck, widget.mode, card),
     );
     _sessionKey = studySessionKey(
       deck: widget.deck,
       mode: widget.mode,
       limit: widget.sessionLimit,
       order: widget.cardOrder,
+      style: widget.style,
     );
     _loading = _loadSession();
   }
@@ -70,12 +77,14 @@ class _StudyScreenState extends State<StudyScreen> {
     final saved = await widget.sessionStore.read(_sessionKey);
     if (!mounted) return;
     if (saved != null) {
-      if (saved.mode != widget.mode) {
+      if (saved.mode != widget.mode || saved.style != widget.style) {
         throw const FormatException('Saved study mode does not match');
       }
       final restored = StudySession.restore(
         cards: widget.deck.cards,
         snapshot: saved,
+        scheduleFor: (card) =>
+            widget.progress.schedule(widget.deck, widget.mode, card),
       );
       _session.dispose();
       _session = restored;
@@ -84,7 +93,7 @@ class _StudyScreenState extends State<StudyScreen> {
     await _saveSession();
   }
 
-  Future<void> _saveSession() => _session.completed == _session.total
+  Future<void> _saveSession() => _session.isFinished
       ? widget.sessionStore.remove(_sessionKey)
       : widget.sessionStore.write(_sessionKey, _session.snapshot);
 
@@ -127,15 +136,17 @@ class _StudyScreenState extends State<StudyScreen> {
   Future<void> _advance(bool correct) async {
     if (_session.isReviewing) return;
     await _saveChange(() async {
+      final attempt = _session.attemptFor(correct: correct);
       await widget.progress.record(
         deck: widget.deck,
         mode: widget.mode,
         card: _session.current,
         correct: correct,
+        attempt: attempt,
       );
       if (!mounted) return;
       _answer.clear();
-      _session.advance(correct: correct);
+      _session.advance(correct: correct, attempt: attempt);
       _focusEditableInput();
       HapticFeedback.lightImpact();
     });
@@ -172,12 +183,19 @@ class _StudyScreenState extends State<StudyScreen> {
       _session.dispose();
       _session = StudySession(
         cards: sessionBatch(
-          widget.sessionLimit == null || due.isEmpty ? widget.deck.cards : due,
+          widget.style == SessionStyle.reviewAll ||
+                  widget.sessionLimit == null ||
+                  due.isEmpty
+              ? widget.deck.cards
+              : due,
           limit: widget.sessionLimit ?? widget.deck.cards.length,
           order: widget.cardOrder,
         ),
         mode: widget.mode,
         shuffle: false,
+        style: widget.style,
+        scheduleFor: (card) =>
+            widget.progress.schedule(widget.deck, widget.mode, card),
       );
       _answer.clear();
     });
@@ -294,6 +312,40 @@ class _StudyScreenState extends State<StudyScreen> {
                   session: _session,
                   title: context.localize(widget.deck.title),
                 ),
+                if (_session.isConfirmation) ...[
+                  const SizedBox(height: 6),
+                  Text(
+                    context.strings.confirmationHint,
+                    style: const TextStyle(fontSize: 12, color: Palette.muted),
+                  ),
+                ],
+                if (_session.canDefer) ...[
+                  const SizedBox(height: 8),
+                  Text(
+                    context.strings.difficultCardHint,
+                    style: const TextStyle(fontSize: 12, color: Palette.muted),
+                  ),
+                  Align(
+                    alignment: Alignment.centerLeft,
+                    child: TextButton.icon(
+                      key: const ValueKey('defer-card'),
+                      onPressed: _saving
+                          ? null
+                          : () => _saveChange(() async {
+                              await widget.progress.defer(
+                                deck: widget.deck,
+                                mode: widget.mode,
+                                card: _session.current,
+                              );
+                              if (!mounted) return;
+                              _session.deferCurrent();
+                              _answer.clear();
+                            }),
+                      icon: const Icon(Icons.schedule, size: 18),
+                      label: Text(context.strings.leaveForLater),
+                    ),
+                  ),
+                ],
                 SizedBox(height: _hard ? 12 : 20),
                 if (_hard)
                   ..._typingContent(context)
@@ -782,13 +834,17 @@ class _Completion extends StatelessWidget {
           ),
           const SizedBox(height: 28),
           Text(
-            'Μπράβο!',
+            session.deferredCount == 0
+                ? 'Μπράβο!'
+                : context.strings.sessionComplete,
             textAlign: TextAlign.center,
             style: Theme.of(context).textTheme.headlineLarge,
           ),
           const SizedBox(height: 12),
           Text(
-            context.strings.completionTagline,
+            session.deferredCount == 0
+                ? context.strings.completionTagline
+                : context.strings.deferredNote,
             textAlign: TextAlign.center,
             style: TextStyle(color: Palette.muted),
           ),
@@ -803,7 +859,7 @@ class _Completion extends StatelessWidget {
             child: Column(
               children: [
                 Text(
-                  context.strings.wordsRemembered(session.total),
+                  context.strings.wordsRemembered(session.completed),
                   style: Theme.of(context).textTheme.titleLarge,
                 ),
                 const SizedBox(height: 12),
@@ -817,6 +873,11 @@ class _Completion extends StatelessWidget {
                 if (session.repetitions > 0)
                   Text(
                     context.strings.extraPractice(session.repetitions),
+                    style: const TextStyle(color: Palette.muted),
+                  ),
+                if (session.deferredCount > 0)
+                  Text(
+                    context.strings.deferredCount(session.deferredCount),
                     style: const TextStyle(color: Palette.muted),
                   ),
               ],

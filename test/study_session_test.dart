@@ -22,7 +22,7 @@ void answer(StudySession session, {required bool correct}) {
 }
 
 void complete(StudySession session) {
-  for (var turn = 0; !session.isComplete && turn < session.total * 3; turn++) {
+  for (var turn = 0; !session.isComplete && turn < session.total * 12; turn++) {
     answer(session, correct: true);
   }
   expect(session.isComplete, isTrue);
@@ -158,6 +158,8 @@ void main() {
             }
           }
           answer(session, correct: true);
+          expect(session.isComplete, isFalse);
+          complete(session);
           expect(session.isComplete, isTrue);
           expect(session.isReview, isFalse);
           expect(session.completed, count);
@@ -211,7 +213,9 @@ void main() {
                 learned.remove(key);
               }
               answer(session, correct: correct);
-              expect(session.completed, learned.length);
+              // A successful correction is provisional until confirmed later.
+              expect(session.snapshot.learned.toSet(), learned);
+              expect(session.completed, lessThanOrEqualTo(learned.length));
               expect(session.progress, inInclusiveRange(0, 1));
             }
             complete(session);
@@ -248,7 +252,9 @@ void main() {
           expect(session.isReview, isTrue);
           if (cycle == 0) {
             await saveAnswer(true);
-            expect(store.records[key], same(originalSchedule));
+            expect(store.records[key]?.dueAt, originalSchedule?.dueAt);
+            expect(store.records[key]?.memory, originalSchedule?.memory);
+            expect(store.records[key]?.attempts.length, 2);
           } else {
             await saveAnswer(false);
             expect(store.records[key]?.level, 0);

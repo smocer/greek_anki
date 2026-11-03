@@ -30,9 +30,15 @@ Correct stress is required. Missing, misplaced or extra accents are incorrect. C
 
 **Clock drill:** read a random analog clock and type the time in Greek. Times use five-minute steps on a 12-hour face. Check your answer, see the correct wording, then choose **Next clock** for another time. Spoken forms with **και**, **παρά**, **τέταρτο** and **μισή**, as well as numeric minute wording, are accepted; **είναι** is optional. Accents and feminine hour forms still matter. This drill runs indefinitely, keeps no progress or scores, and exits with the back button.
 
-Choose the number of cards per session (default **15**), sampled from due and new cards first. If none are due, you can practise a fresh sample from the group. Choose **All** to practise every card in the current filtered group, including cards not yet due; the count displays the group's total. Choose random order (default), Greek alphabetical order, or newest additions first. Work through a moving window of **three learning cards**. After your first correct answer, one randomly chosen card remembered earlier in the same round joins the window for review. The window stays at **four distinct cards**: three learning + one review, two learning + two reviews, or one learning + three reviews. Before any cards have been remembered, or in batches smaller than four cards, the window uses only the available words.
+Choose **Learn & repeat** for unfamiliar material, or **Review all** to check every card in the current filtered group. Both work with Flashcards and Hard mode, and keep separate saved sessions. Choose random order (default), Greek alphabetical order, or newest additions first.
 
-Missed cards return after other cards. Correct review answers do not add to the completion count; forgetting a review card puts it back into the learning queue. A session ends as soon as every card in the batch is remembered, without extra review turns at the end. Another round uses the same count and order settings.
+**Learn & repeat:** choose a count (default **15**) from due/new cards, or **All** to include every selected card. The moving window contains three learning cards plus reviews: **3 + 1**, **2 + 2**, or **1 + 3**. Reviews favour recent mistakes, with one coverage pick in every five selections. Weights are capped and decrease with repeated appearances. Optional reviews normally wait for eight intervening answers; if all candidates are cooling down, the oldest available card fills the slot. Tiny batches use the available words.
+
+**Review all:** each easy word is checked once. Difficult words return between other cards, including at the end of the batch. This mode always includes every card in the current filter, even cards not yet due.
+
+After a mistake, a word needs **two successful recalls after a gap**. A quick correction after seeing the answer is useful practice but does not finish the word. The gap is eight other answers, reduced for smaller available pools. Recent difficulty from previous sessions also triggers confirmation. After three failures, **Leave for later** lets you finish the rest; deferred cards stay due and the summary lists them separately from remembered cards.
+
+Back and page reload preserve the selected batch, answers, confirmation steps and review rotation. Another round starts only after finishing the current one. Saved sessions from earlier versions remain usable.
 
 **English / Русский** switches the interface, translations, explanations and pronunciation guides together. Russian explanations compare familiar cases, ты/Вы, grammatical gender and word roots with their Greek counterparts. Pronunciation guides are approximate aids.
 
@@ -40,7 +46,9 @@ Missed cards return after other cards. Correct review answers do not add to the 
 
 Flashcards and hard mode have separate review histories. Equivalent exercises retain their progress when regrouped. Learning a standalone word is tracked separately from using it in a grammar exercise. Previous article-required noun exercises do not automatically count as mastery of the new word-only cards; their saved records remain intact.
 
-Successful due reviews are spaced by 1, 3, 7, 14, then 30 days. Forgetting a card resets its schedule. Practising early does not extend it.
+Long-term reviews use **FSRS-6**, with a 90% target recall rate. Intervals adapt to each card's recall history instead of fixed day levels. Early successful practice is logged without extending the due date; quick corrections do not inflate memory strength. Forgotten cards become due again. Existing due dates are preserved; legacy intervals seed an initial memory estimate because earlier versions did not save attempt history.
+
+Every submitted outcome is saved, including accent-only mistakes. The last five meaningful attempts drive recent difficulty; quick successful corrections do not erase failures, and two spaced successes retire the recent penalty. Accents still matter in Hard mode. Input speed is not used for grading or scheduling.
 
 Progress is saved in the current browser or native app. It survives ordinary updates, but does not sync across devices or browsers. Clearing website or app data removes it. Use the same browser or home-screen shortcut each time.
 

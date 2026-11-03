@@ -54,6 +54,11 @@ void main() {
       ),
     );
     await tester.pumpAndSettle();
+    await tester.scrollUntilVisible(
+      find.text('Flashcards'),
+      100,
+      scrollable: find.byType(Scrollable).first,
+    );
     expect(find.text('Flashcards'), findsOneWidget);
     await tester.scrollUntilVisible(
       find.text('Hard mode'),
@@ -61,7 +66,11 @@ void main() {
       scrollable: find.byType(Scrollable).first,
     );
     expect(find.text('Hard mode'), findsOneWidget);
-    await tester.ensureVisible(find.byKey(const ValueKey('collection-words')));
+    await tester.scrollUntilVisible(
+      find.byKey(const ValueKey('collection-words')),
+      -120,
+      scrollable: find.byType(Scrollable).first,
+    );
     await tester.pumpAndSettle();
     await tester.tap(find.byKey(const ValueKey('collection-words')));
     await tester.pumpAndSettle();
@@ -97,6 +106,11 @@ void main() {
     await tester.pumpAndSettle();
     expect(find.text('0 / 1 remembered'), findsOneWidget);
     expect(find.text('ένα'), findsNothing);
+    await tester.tap(find.text('Reveal answer'));
+    await tester.pumpAndSettle();
+    await tester.tap(find.text('Got it'));
+    await tester.pumpAndSettle();
+    expect(find.text('Μπράβο!'), findsNothing);
     await tester.tap(find.text('Reveal answer'));
     await tester.pumpAndSettle();
     await tester.tap(find.text('Got it'));
@@ -140,6 +154,15 @@ void main() {
     await tester.tap(find.text('Check answer'));
     await tester.pumpAndSettle();
     expect(find.text('Exactly right.'), findsOneWidget);
+    await tester.tap(find.text('Continue'));
+    await tester.pumpAndSettle();
+    expect(find.text('Μπράβο!'), findsNothing);
+    for (final letter in ['έ', 'ν', 'α']) {
+      await tester.tap(find.text(letter));
+    }
+    await tester.pump();
+    await tester.tap(find.text('Check answer'));
+    await tester.pumpAndSettle();
     await tester.tap(find.text('Continue'));
     await tester.pumpAndSettle();
     expect(find.text('Μπράβο!'), findsOneWidget);

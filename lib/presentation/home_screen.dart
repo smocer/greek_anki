@@ -5,6 +5,7 @@ import '../domain/app_language.dart';
 import '../domain/app_updates.dart';
 import '../domain/curriculum.dart';
 import '../domain/learning_progress.dart';
+import '../domain/review_selection.dart';
 import '../domain/study_session_store.dart';
 import '../domain/vocabulary.dart';
 import 'alphabet_screen.dart';
@@ -46,12 +47,15 @@ class _HomeScreenState extends State<HomeScreen> with WidgetsBindingObserver {
   bool _allCards = false;
   String _customCount = '15';
   CardOrder _cardOrder = CardOrder.random;
+  SessionStyle _sessionStyle = SessionStyle.learning;
 
-  int? get _sessionLimit => _allCards ? null : int.tryParse(_count.text);
+  bool get _reviewAll => _sessionStyle == SessionStyle.reviewAll;
+  int? get _sessionLimit =>
+      _allCards || _reviewAll ? null : int.tryParse(_count.text);
   VocabularyDeck get _deck => _selection?.deck ?? _collection.deck;
 
   void _syncCount() {
-    if (_allCards) _count.text = '${_deck.cards.length}';
+    if (_allCards || _reviewAll) _count.text = '${_deck.cards.length}';
   }
 
   @override
@@ -81,19 +85,20 @@ class _HomeScreenState extends State<HomeScreen> with WidgetsBindingObserver {
 
   Future<void> _start(StudyMode mode) async {
     final limit = _sessionLimit;
-    if (!_allCards && (limit == null || limit < 1)) return;
+    if (!_allCards && !_reviewAll && (limit == null || limit < 1)) return;
     final due = widget.progress.dueCards(_deck, mode);
     await Navigator.of(context).push(
       MaterialPageRoute<void>(
         builder: (_) => StudyScreen(
           deck: _deck,
           cards: sessionBatch(
-            _allCards || due.isEmpty ? _deck.cards : due,
+            _allCards || _reviewAll || due.isEmpty ? _deck.cards : due,
             limit: limit ?? _deck.cards.length,
             order: _cardOrder,
           ),
           sessionLimit: limit,
           cardOrder: _cardOrder,
+          style: _sessionStyle,
           mode: mode,
           progress: widget.progress,
           sessionStore: widget.sessionStore,
@@ -269,6 +274,7 @@ class _HomeScreenState extends State<HomeScreen> with WidgetsBindingObserver {
                     onTap:
                         _deck.cards.isEmpty ||
                             (!_allCards &&
+                                !_reviewAll &&
                                 (_sessionLimit == null || _sessionLimit! < 1))
                         ? null
                         : () => _start(mode),
@@ -391,6 +397,34 @@ class _HomeScreenState extends State<HomeScreen> with WidgetsBindingObserver {
           ),
           const SizedBox(height: 12),
         ],
+        Wrap(
+          spacing: 8,
+          children: [
+            for (final style in SessionStyle.values)
+              ChoiceChip(
+                key: ValueKey('style-${style.name}'),
+                label: Text(context.strings.sessionStyleTitle(style)),
+                selected: style == _sessionStyle,
+                onSelected: (_) => setState(() {
+                  if (!_allCards && !_reviewAll) _customCount = _count.text;
+                  _sessionStyle = style;
+                  if (_allCards || _reviewAll) {
+                    _syncCount();
+                  } else {
+                    _count.text = _customCount;
+                  }
+                }),
+              ),
+          ],
+        ),
+        if (_reviewAll) ...[
+          const SizedBox(height: 4),
+          Text(
+            context.strings.sessionStyleHint(_sessionStyle),
+            style: const TextStyle(fontSize: 12),
+          ),
+        ],
+        const SizedBox(height: 12),
         LayoutBuilder(
           builder: (context, constraints) {
             final count = LabeledField(
@@ -402,7 +436,7 @@ class _HomeScreenState extends State<HomeScreen> with WidgetsBindingObserver {
                     child: TextField(
                       key: const ValueKey('session-count'),
                       controller: _count,
-                      enabled: !_allCards,
+                      enabled: !_allCards && !_reviewAll,
                       keyboardType: TextInputType.number,
                       inputFormatters: [FilteringTextInputFormatter.digitsOnly],
                       onChanged: (_) => setState(() {}),
@@ -415,6 +449,7 @@ class _HomeScreenState extends State<HomeScreen> with WidgetsBindingObserver {
                         errorMaxLines: 3,
                         errorText:
                             !_allCards &&
+                                !_reviewAll &&
                                 (_sessionLimit == null || _sessionLimit! < 1)
                             ? context.strings.invalidSessionCount
                             : null,
@@ -425,16 +460,18 @@ class _HomeScreenState extends State<HomeScreen> with WidgetsBindingObserver {
                   FilterChip(
                     key: const ValueKey('session-all'),
                     label: Text(context.strings.allCards),
-                    selected: _allCards,
-                    onSelected: (value) => setState(() {
-                      if (value) _customCount = _count.text;
-                      _allCards = value;
-                      if (value) {
-                        _syncCount();
-                      } else {
-                        _count.text = _customCount;
-                      }
-                    }),
+                    selected: _allCards || _reviewAll,
+                    onSelected: _reviewAll
+                        ? null
+                        : (value) => setState(() {
+                            if (value) _customCount = _count.text;
+                            _allCards = value;
+                            if (value) {
+                              _syncCount();
+                            } else {
+                              _count.text = _customCount;
+                            }
+                          }),
                   ),
                 ],
               ),

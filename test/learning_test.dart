@@ -69,16 +69,20 @@ void main() {
     expect(session.progress, 1);
   });
 
-  test('review intervals grow and cap; early practice does not promote', () {
+  test('FSRS intervals adapt; early practice does not promote', () {
     var now = DateTime.utc(2026, 9, 22);
     ReviewSchedule? previous;
-    for (final days in [1, 3, 7, 14, 30, 30]) {
+    var previousDays = 0;
+    for (var review = 0; review < 6; review++) {
       final next = ReviewSchedule.afterAnswer(
         previous: previous,
         correct: true,
         now: now,
       );
-      expect(next.dueAt.difference(now).inDays, days);
+      final days = next.dueAt.difference(now).inDays;
+      expect(days, greaterThan(previousDays));
+      previousDays = days;
+      expect(next.memory, isNotNull);
       expect(
         ReviewSchedule.afterAnswer(
           previous: next,
@@ -124,7 +128,7 @@ void main() {
     expect(reloaded.learned(deck, StudyMode.typing), 0);
     expect(reloaded.dueCards(deck, StudyMode.flashcards).length, 10);
     expect(reloaded.dueCards(deck, StudyMode.typing).length, 11);
-    now = now.add(const Duration(days: 1));
+    now = store.records.values.single.dueAt;
     expect(reloaded.dueCards(deck, StudyMode.flashcards).length, 11);
   });
 

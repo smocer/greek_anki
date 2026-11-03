@@ -4,6 +4,10 @@ import 'dart:math';
 import 'package:flutter/foundation.dart';
 
 import 'greek_answer.dart';
+import 'greek_text.dart';
+import 'recall_attempt.dart';
+import 'review_schedule.dart';
+import 'review_selection.dart';
 import 'vocabulary.dart';
 
 enum CardPhase { question, answer }
@@ -24,6 +28,13 @@ class StudySessionSnapshot {
     required this.phase,
     required this.typedCorrect,
     required this.submittedAnswer,
+    this.style = SessionStyle.learning,
+    this.sessionId,
+    this.turn = 0,
+    this.reviewPicks = 0,
+    this.evidence = const {},
+    this.deferred = const [],
+    this.answeredAt,
   }) : cards = List.unmodifiable(cards),
        pending = List.unmodifiable(pending),
        window = List.unmodifiable(window),
@@ -38,6 +49,12 @@ class StudySessionSnapshot {
   final CardPhase phase;
   final bool? typedCorrect;
   final String submittedAnswer;
+  final SessionStyle style;
+  final String? sessionId;
+  final int turn, reviewPicks;
+  final Map<String, PracticeEvidence> evidence;
+  final List<String> deferred;
+  final DateTime? answeredAt;
 }
 
 class StudySession extends ChangeNotifier {
@@ -46,8 +63,13 @@ class StudySession extends ChangeNotifier {
     required this.mode,
     Random? random,
     bool shuffle = true,
+    this.style = SessionStyle.learning,
+    ReviewSchedule? Function(VocabularyCard)? scheduleFor,
+    DateTime Function()? now,
     this._answerMatcher = const GreekAnswer(),
   }) : _random = random ?? Random(),
+       _scheduleFor = scheduleFor ?? ((_) => null),
+       _now = now ?? DateTime.now,
        _cards = List.unmodifiable(cards),
        total = cards.length {
     if (cards.isEmpty) {
@@ -57,6 +79,8 @@ class StudySession extends ChangeNotifier {
       throw ArgumentError('Card IDs must be unique within a session.');
     }
     final pending = List.of(cards);
+    _sessionId =
+        '${_now().microsecondsSinceEpoch}-${_random.nextInt(0x100000000)}';
     if (shuffle) pending.shuffle(_random);
     _pending.addAll(pending);
     _fillWindow();
@@ -66,6 +90,8 @@ class StudySession extends ChangeNotifier {
     required List<VocabularyCard> cards,
     required StudySessionSnapshot snapshot,
     Random? random,
+    ReviewSchedule? Function(VocabularyCard)? scheduleFor,
+    DateTime Function()? now,
   }) {
     final available = {
       for (final card in cards)
@@ -90,16 +116,46 @@ class StudySession extends ChangeNotifier {
     final pending = snapshot.pending.toSet();
     final window = snapshot.window.toSet();
     final learned = snapshot.learned.toSet();
+    final deferred = snapshot.deferred.toSet();
     require(pending.intersection(window).isEmpty);
     require(pending.intersection(learned).isEmpty);
-    require({...pending, ...window, ...learned}.length == keys.length);
+    require(keys.containsAll(snapshot.evidence.keys));
+    require(
+      keys.containsAll(deferred) && deferred.length == snapshot.deferred.length,
+    );
+    require(deferred.intersection({...pending, ...window, ...learned}).isEmpty);
+    require(
+      {
+            ...pending,
+            ...window,
+            ...learned,
+            ...deferred,
+            ...snapshot.evidence.entries
+                .where((e) => e.value.confirmations > 0)
+                .map((e) => e.key),
+          }.length ==
+          keys.length,
+    );
     require(snapshot.seen.toSet().containsAll(learned));
     require(window.difference(learned).length <= _learningWindowSize);
     require(window.length <= _windowSize);
     require(
-      learned.length == keys.length
+      learned
+                      .where(
+                        (key) =>
+                            (snapshot.evidence[key]?.confirmations ?? 0) == 0,
+                      )
+                      .length +
+                  deferred.length ==
+              keys.length
           ? pending.isEmpty && window.isEmpty
           : window.isNotEmpty,
+    );
+    require(snapshot.turn >= 0 && snapshot.reviewPicks >= 0);
+    require(
+      snapshot.evidence.values.every(
+        (e) => e.lastTurn == null || e.lastTurn! < snapshot.turn,
+      ),
     );
     require(
       snapshot.historyIndex == null ||
@@ -127,6 +183,9 @@ class StudySession extends ChangeNotifier {
       mode: snapshot.mode,
       random: random,
       shuffle: false,
+      style: snapshot.style,
+      scheduleFor: scheduleFor,
+      now: now,
     );
     session._pending
       ..clear()
@@ -145,10 +204,19 @@ class StudySession extends ChangeNotifier {
     session._phase = snapshot.phase;
     session._typedCorrect = snapshot.typedCorrect;
     session._submittedAnswer = snapshot.submittedAnswer;
+    session._sessionId = snapshot.sessionId ?? session._sessionId;
+    session._turn = snapshot.turn;
+    session._reviewPicks = snapshot.reviewPicks;
+    session._evidence.addAll(snapshot.evidence);
+    session._deferred.addAll(snapshot.deferred);
+    session._answeredAt = snapshot.answeredAt;
     return session;
   }
 
   final StudyMode mode;
+  final SessionStyle style;
+  final ReviewSchedule? Function(VocabularyCard) _scheduleFor;
+  final DateTime Function() _now;
   final int total;
   final List<VocabularyCard> _cards;
   static const _windowSize = 4;
@@ -168,6 +236,13 @@ class StudySession extends ChangeNotifier {
   CardPhase _phase = CardPhase.question;
   bool? _typedCorrect;
   String _submittedAnswer = '';
+  late String _sessionId;
+  int _turn = 0, _reviewPicks = 0;
+  final Map<String, PracticeEvidence> _evidence = {};
+  final Set<String> _deferred = {};
+  DateTime? _answeredAt;
+  int get _minimumGap =>
+      min(ReviewSelection.cooldown, max(0, total - _deferred.length - 1));
 
   StudySessionSnapshot get snapshot => StudySessionSnapshot(
     mode: mode,
@@ -183,6 +258,13 @@ class StudySession extends ChangeNotifier {
     phase: _phase,
     typedCorrect: _typedCorrect,
     submittedAnswer: _submittedAnswer,
+    style: style,
+    sessionId: _sessionId,
+    turn: _turn,
+    reviewPicks: _reviewPicks,
+    evidence: Map.unmodifiable(_evidence),
+    deferred: List.unmodifiable(_deferred),
+    answeredAt: _answeredAt,
   );
 
   VocabularyCard get current =>
@@ -190,14 +272,31 @@ class StudySession extends ChangeNotifier {
   String get currentKey => _cardKey(current);
   bool get isReview =>
       !isComplete && !isReviewing && _learned.containsKey(currentKey);
-  bool get isComplete => completed == total && !isReviewing;
+  bool get isComplete => isFinished && !isReviewing;
+  bool get isFinished => completed + deferredCount == total;
   bool get isReviewing => _historyIndex != null;
   bool get canGoPrevious =>
       mode == StudyMode.flashcards && (_historyIndex ?? _history.length) > 0;
-  int get completed => _learned.length;
+  int get completed => _learned.keys
+      .where((key) => (_evidence[key]?.confirmations ?? 0) == 0)
+      .length;
+  int get deferredCount => _deferred.length;
+  int get awaitingConfirmation => _evidence.entries
+      .where((e) => !_deferred.contains(e.key) && e.value.confirmations > 0)
+      .length;
+  bool get isConfirmation =>
+      !isComplete &&
+      !isReviewing &&
+      (_evidence[currentKey]?.confirmations ?? 0) > 0;
+  bool get canDefer =>
+      !isComplete &&
+      !isReviewing &&
+      phase == CardPhase.question &&
+      (_evidence[currentKey]?.failures ?? 0) >= 3 &&
+      (_evidence[currentKey]?.confirmations ?? 0) > 0;
   int get firstTryCorrect => _firstTryCorrect;
   int get repetitions => _repetitions;
-  double get progress => completed / total;
+  double get progress => (completed + deferredCount) / total;
   CardPhase get phase => isReviewing ? CardPhase.answer : _phase;
   bool? get typedCorrect => _typedCorrect;
   String get submittedAnswer => _submittedAnswer;
@@ -218,6 +317,7 @@ class StudySession extends ChangeNotifier {
   void reveal() {
     if (isComplete || isReviewing || mode != StudyMode.flashcards) return;
     _phase = CardPhase.answer;
+    _answeredAt = _now().toUtc();
     notifyListeners();
   }
 
@@ -231,6 +331,7 @@ class StudySession extends ChangeNotifier {
     _typedCorrect = _answerMatcher.matches(input, current);
     _submittedAnswer = input;
     _phase = CardPhase.answer;
+    _answeredAt = _now().toUtc();
     notifyListeners();
   }
 
@@ -243,11 +344,20 @@ class StudySession extends ChangeNotifier {
     _typedCorrect = false;
     _submittedAnswer = '';
     _phase = CardPhase.answer;
+    _answeredAt = _now().toUtc();
     notifyListeners();
   }
 
-  void advance({required bool correct}) {
+  void advance({required bool correct, RecallAttempt? attempt}) {
     if (isComplete || isReviewing || _phase != CardPhase.answer) return;
+    attempt ??= attemptFor(correct: correct);
+    final previous = _evidence[currentKey] ?? PracticeEvidence();
+    _evidence[currentKey] = previous.after(
+      attempt,
+      _turn,
+      historicallyWeak: (_scheduleFor(current)?.weakness ?? 0) >= 0.15,
+    );
+    _turn++;
     final card = _window.removeAt(0);
     if (mode == StudyMode.flashcards) _history.add(card);
     final key = _cardKey(card);
@@ -257,7 +367,9 @@ class StudySession extends ChangeNotifier {
     } else {
       _repetitions++;
       _learned.remove(key);
-      if (_learningCount < _learningWindowSize) {
+      if (style == SessionStyle.reviewAll) {
+        // Retry candidates live in evidence, separate from the unseen queue.
+      } else if (_learningCount < _learningWindowSize) {
         _window.add(card);
       } else {
         // A forgotten review takes the next learning slot, without adding
@@ -269,6 +381,46 @@ class StudySession extends ChangeNotifier {
     _phase = CardPhase.question;
     _typedCorrect = null;
     _submittedAnswer = '';
+    _answeredAt = null;
+    notifyListeners();
+  }
+
+  RecallAttempt attemptFor({required bool correct}) {
+    final last = _evidence[currentKey]?.lastTurn;
+    final at = _answeredAt ?? _now().toUtc();
+    final previousAt = _scheduleFor(current)?.lastAttemptAt;
+    var outcome = correct ? RecallOutcome.correct : RecallOutcome.incorrect;
+    if (!correct && mode == StudyMode.typing) {
+      if (_submittedAnswer.isEmpty) {
+        outcome = RecallOutcome.skipped;
+      } else if ([
+        current.greek,
+        ...current.alternatives,
+        ...current.acceptedAnswers,
+      ].any(
+        (a) => GreekText.searchKey(a) == GreekText.searchKey(_submittedAnswer),
+      )) {
+        outcome = RecallOutcome.accentError;
+      }
+    }
+    return RecallAttempt(
+      id: '$_sessionId:$_turn',
+      at: at,
+      outcome: outcome,
+      independent:
+          (previousAt != null &&
+              at.difference(previousAt) >= const Duration(minutes: 10)) ||
+          (last == null ? previousAt == null : _turn - last - 1 >= _minimumGap),
+    );
+  }
+
+  void deferCurrent() {
+    if (!canDefer) return;
+    final key = currentKey;
+    _deferred.add(key);
+    _learned.remove(key);
+    _window.removeAt(0);
+    _fillWindow();
     notifyListeners();
   }
 
@@ -276,8 +428,12 @@ class StudySession extends ChangeNotifier {
       _window.where((card) => !_learned.containsKey(_cardKey(card))).length;
 
   void _fillWindow() {
-    if (isComplete) {
+    if (isFinished) {
       _window.clear();
+      return;
+    }
+    if (style == SessionStyle.reviewAll) {
+      _fillReviewAll();
       return;
     }
 
@@ -290,13 +446,76 @@ class StudySession extends ChangeNotifier {
     // Fill the remaining slots with reviews: 3 + 1, 2 + 2, or 1 + 3.
     // Before the first success or in tiny batches, fewer words are available.
     final windowKeys = _window.map(_cardKey).toSet();
-    final candidates =
-        _learned.entries
-            .where((entry) => !windowKeys.contains(entry.key))
-            .map((entry) => entry.value)
-            .toList()
-          ..shuffle(_random);
+    final candidates = _learned.entries
+        .where((entry) => !windowKeys.contains(entry.key))
+        .map((entry) => entry.value)
+        .toList();
     final missingReviews = _windowSize - _window.length;
-    _window.addAll(candidates.take(max(0, missingReviews)));
+    for (var slot = 0; slot < missingReviews && candidates.isNotEmpty; slot++) {
+      final card = _selectReview(candidates, turn: _turn + _window.length);
+      candidates.remove(card);
+      _window.add(card);
+    }
+  }
+
+  VocabularyCard _selectReview(
+    List<VocabularyCard> cards, {
+    required int turn,
+  }) {
+    final candidates = cards.map((card) {
+      final key = _cardKey(card);
+      final evidence = _evidence[key];
+      final schedule = _scheduleFor(card);
+      return ReviewCandidate(
+        key: key,
+        weakness:
+            max(
+              schedule?.weakness ?? 0,
+              recallWeakness(evidence?.recent ?? []),
+            ) +
+            (schedule == null
+                ? 0
+                : (1 - schedule.recallProbability(_now())) * 0.3),
+        lastTurn: evidence?.lastTurn,
+        presentations: evidence?.presentations ?? 0,
+        lastReviewAt: schedule?.lastAttemptAt,
+        confirmations: evidence?.confirmations ?? 0,
+      );
+    }).toList();
+    final key = const ReviewSelection().choose(
+      candidates,
+      turn: turn,
+      pick: _reviewPicks++,
+      random: _random,
+      minimumGap: _minimumGap,
+    );
+    return cards.firstWhere((c) => _cardKey(c) == key);
+  }
+
+  void _fillReviewAll() {
+    if (_window.isNotEmpty) return;
+    final retries = _cards.where((card) {
+      final key = _cardKey(card);
+      return !_deferred.contains(key) &&
+          (_evidence[key]?.confirmations ?? 0) > 0;
+    }).toList();
+    final ready = retries
+        .where(
+          (card) =>
+              _turn - _evidence[_cardKey(card)]!.lastTurn! - 1 >= _minimumGap,
+        )
+        .toList();
+    if (ready.isNotEmpty && (_pending.isEmpty || _turn % 4 == 3)) {
+      _window.add(_selectReview(ready, turn: _turn));
+    } else if (_pending.isNotEmpty) {
+      _window.add(_pending.removeFirst());
+    } else {
+      // Space the final difficult words with already checked words. These
+      // fillers remain in the selected batch and can expose a new lapse.
+      final available = _cards
+          .where((c) => !_deferred.contains(_cardKey(c)))
+          .toList();
+      _window.add(_selectReview(available, turn: _turn));
+    }
   }
 }

@@ -2,6 +2,7 @@ import 'package:flutter/foundation.dart';
 
 import 'progress_store.dart';
 import 'review_schedule.dart';
+import 'recall_attempt.dart';
 import 'vocabulary.dart';
 
 // Observer: ChangeNotifier updates the home screen after a persisted answer.
@@ -46,6 +47,12 @@ class LearningProgress extends ChangeNotifier {
       .where((card) => (_records[_key(deck, mode, card)]?.level ?? 0) > 0)
       .length;
 
+  ReviewSchedule? schedule(
+    VocabularyDeck deck,
+    StudyMode mode,
+    VocabularyCard card,
+  ) => _records[_key(deck, mode, card)];
+
   List<VocabularyCard> dueCards(VocabularyDeck deck, StudyMode mode) {
     final now = _now();
     return deck.cards.where((card) {
@@ -54,18 +61,43 @@ class LearningProgress extends ChangeNotifier {
     }).toList();
   }
 
+  Future<void> defer({
+    required VocabularyDeck deck,
+    required StudyMode mode,
+    required VocabularyCard card,
+  }) async {
+    final key = _key(deck, mode, card);
+    final previous = _records[key];
+    if (previous == null) return;
+    final schedule = ReviewSchedule(
+      level: 0,
+      dueAt: _now().toUtc(),
+      memory: previous.memory,
+      attempts: previous.attempts,
+    );
+    await _store.write(key, schedule);
+    _records[key] = schedule;
+    notifyListeners();
+  }
+
   Future<void> record({
     required VocabularyDeck deck,
     required StudyMode mode,
     required VocabularyCard card,
     required bool correct,
+    RecallAttempt? attempt,
   }) async {
     final key = _key(deck, mode, card);
-    final schedule = ReviewSchedule.afterAnswer(
-      previous: _records[key],
-      correct: correct,
-      now: _now(),
-    );
+    final schedule = attempt == null
+        ? ReviewSchedule.afterAnswer(
+            previous: _records[key],
+            correct: correct,
+            now: _now(),
+          )
+        : ReviewSchedule.afterAttempt(
+            previous: _records[key],
+            attempt: attempt,
+          );
     await _store.write(key, schedule);
     _records[key] = schedule;
     notifyListeners();

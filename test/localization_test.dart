@@ -121,7 +121,17 @@ void main() {
     await tester.tap(find.text('Русский'));
     await tester.pumpAndSettle();
     expect(find.text('Греческий наизусть.'), findsOneWidget);
+    await tester.scrollUntilVisible(
+      find.text('Карточки'),
+      150,
+      scrollable: find.byType(Scrollable).first,
+    );
     expect(find.text('Карточки'), findsOneWidget);
+    await tester.scrollUntilVisible(
+      find.byKey(const ValueKey('collection-words')),
+      -150,
+      scrollable: find.byType(Scrollable).first,
+    );
     await tester.tap(find.byKey(const ValueKey('collection-words')));
     await tester.pumpAndSettle();
     await tester.tap(find.text('Числа').last);
@@ -130,6 +140,11 @@ void main() {
         .singleWhere((deck) => deck.id == 'words-numbers')
         .cards
         .length;
+    await tester.scrollUntilVisible(
+      find.text('Повторить: ${numberCount - 1} · Выучено: 1/$numberCount'),
+      120,
+      scrollable: find.byType(Scrollable).first,
+    );
     expect(
       find.text('Повторить: ${numberCount - 1} · Выучено: 1/$numberCount'),
       findsOneWidget,
@@ -147,6 +162,11 @@ void main() {
     );
     await tester.pumpAndSettle();
     expect(find.text('Греческий наизусть.'), findsOneWidget);
+    await tester.scrollUntilVisible(
+      find.byKey(const ValueKey('collection-words')),
+      -150,
+      scrollable: find.byType(Scrollable).first,
+    );
     await tester.tap(find.byKey(const ValueKey('collection-words')));
     await tester.pumpAndSettle();
     await tester.tap(find.text('Числа').last);
@@ -168,8 +188,18 @@ void main() {
     expect(find.text('Также верно: επτά'), findsOneWidget);
     Navigator.of(tester.element(find.text('эф-ТА'))).pop();
     await tester.pumpAndSettle();
+    await tester.scrollUntilVisible(
+      find.text('English'),
+      -150,
+      scrollable: find.byType(Scrollable).first,
+    );
     await tester.tap(find.text('English'));
     await tester.pumpAndSettle();
+    await tester.scrollUntilVisible(
+      find.text('Flashcards'),
+      150,
+      scrollable: find.byType(Scrollable).first,
+    );
     expect(find.text('Flashcards'), findsOneWidget);
     expect(language.language, AppLanguage.english);
     expect(store.records, records);
