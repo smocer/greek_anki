@@ -28,6 +28,10 @@ Transport practice covers buying tickets, asking about prices and the time, and 
 
 Travel and daily routines also cover return tickets, departures and arrivals, getting off a bus, waking up, and asking how long a journey takes. Time vocabulary includes parts of the day, δευτερόλεπτο, τέταρτο, περίπου and ακριβώς, with agreement in μισή ώρα and μισό λεπτό. Practise υπάρχει / υπάρχουν, ποτέ and πουθενά with negation, and στις as σε + τις. B2 practice adds οδηγώ alongside μπορώ; conversation vocabulary includes agreeing, disagreeing, explaining and making an effort.
 
+Calendar and routine vocabulary includes all weekdays, months and seasons, meals, shopping, housework, weather and frequency expressions. Learn each noun in its basic form; natural plurals such as ψώνια, μετρητά and γενέθλια keep their usual meaning. Breakfast (το πρωινό) is distinct from the adjective πρωινός. Weather expressions include κάνει ζέστη, κάνει κρύο, έχει ήλιο and έχει συννεφιά; impersonal χιονίζει and φυσάει belong in grammar practice.
+
+Duration practice contrasts πόσον καιρό (usually days, months or years), πόση ώρα (usually minutes or hours), and πόσων χρονών for age. Practise εδώ και with an ongoing action, accusative weekday/month expressions, and feminine agreement with χιλιάδες. **Verb forms** includes the new AB forms of λέω, τρώω and ακούω; first-person vocabulary stays in **Verbs**. Clock times remain in the dedicated clock drill rather than adding more individual time cards.
+
 Hobbies and preferences include music, drawing, swimming, playing guitar, taking photographs, watching TV and taking a break. Related vocabulary covers subjects such as history and philosophy, food and drinks, and the arithmetic signs συν, πλην, επί and διά. Paris, London and New York are in **Names & places**.
 
 Recent vocabulary includes δουλειά, γραφείο, μητέρα, τραγούδι, μπίρα, καφές, κινητό, σταθερό, νούμερο, λείπω, λάθος, σωστό, ξανά and μόνο. Useful phrases include Πες μου, Τι είναι αυτό; and Έχεις το τηλέφωνό μου;

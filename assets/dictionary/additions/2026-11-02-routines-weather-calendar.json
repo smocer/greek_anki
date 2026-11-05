@@ -1,0 +1,4348 @@
+{
+  "schemaVersion": 1,
+  "addedWeek": "2026-11-02",
+  "words": [
+    {
+      "id": "nov05-ship",
+      "collection": "words-nouns",
+      "greek": "πλοίο",
+      "prompt": {
+        "en": "Ship / boat",
+        "ru": "Корабль / судно",
+        "zh": "船"
+      },
+      "pronunciation": {
+        "en": "PLI-o",
+        "ru": "ПЛИ-о"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "travel"
+      ],
+      "answerDisplay": "το πλοίο"
+    },
+    {
+      "id": "nov05-sentence",
+      "collection": "words-nouns",
+      "greek": "πρόταση",
+      "prompt": {
+        "en": "Sentence (language)",
+        "ru": "Предложение (в языке)",
+        "zh": "句子"
+      },
+      "pronunciation": {
+        "en": "PRO-ta-si",
+        "ru": "ПРО-та-си"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "classroom"
+      ],
+      "answerDisplay": "η πρόταση"
+    },
+    {
+      "id": "nov05-leave-message",
+      "collection": "words-verbs",
+      "greek": "αφήνω",
+      "prompt": {
+        "en": "I leave behind / let",
+        "ru": "Оставляю / позволяю",
+        "zh": "我留下／允许"
+      },
+      "pronunciation": {
+        "en": "a-FI-no",
+        "ru": "а-ФИ-но"
+      },
+      "labels": [
+        "verb"
+      ],
+      "themes": [
+        "phone",
+        "verbA"
+      ]
+    },
+    {
+      "id": "nov05-put",
+      "collection": "words-verbs",
+      "greek": "βάζω",
+      "prompt": {
+        "en": "I put / place",
+        "ru": "Кладу / ставлю",
+        "zh": "我放置"
+      },
+      "pronunciation": {
+        "en": "VA-zo",
+        "ru": "ВА-зо"
+      },
+      "labels": [
+        "verb"
+      ],
+      "themes": [
+        "home",
+        "verbA"
+      ]
+    },
+    {
+      "id": "nov05-role",
+      "collection": "words-nouns",
+      "greek": "ρόλος",
+      "prompt": {
+        "en": "Role",
+        "ru": "Роль",
+        "zh": "角色"
+      },
+      "pronunciation": {
+        "en": "RO-los",
+        "ru": "РО-лос"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "conversation"
+      ],
+      "answerDisplay": "ο ρόλος"
+    },
+    {
+      "id": "nov05-customer",
+      "collection": "words-nouns",
+      "greek": "πελάτης",
+      "prompt": {
+        "en": "Customer / client",
+        "ru": "Клиент / покупатель",
+        "zh": "顾客"
+      },
+      "pronunciation": {
+        "en": "pe-LA-tis",
+        "ru": "пэ-ЛА-тис"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "people"
+      ],
+      "answerDisplay": "ο πελάτης"
+    },
+    {
+      "id": "nov05-breakfast",
+      "collection": "words-nouns",
+      "greek": "το πρωινό",
+      "prompt": {
+        "en": "Breakfast (meal)",
+        "ru": "Завтрак",
+        "zh": "早餐"
+      },
+      "pronunciation": {
+        "en": "pro-i-NO",
+        "ru": "про-и-НО"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "food"
+      ],
+      "answerDisplay": "το πρωινό",
+      "explanation": {
+        "en": "As a neuter noun, το πρωινό means breakfast. The adjective πρωινός means morning / early; its masculine or feminine forms do not mean breakfast.",
+        "ru": "Существительное το πρωινό — завтрак. Прилагательное πρωινός — утренний; его мужская и женская формы не означают завтрак.",
+        "zh": "中性名词 το πρωινό 表示早餐。形容词 πρωινός 表示早晨的；其阳性和阴性形式不表示早餐。"
+      }
+    },
+    {
+      "id": "nov05-radio",
+      "collection": "words-nouns",
+      "greek": "ραδιόφωνο",
+      "prompt": {
+        "en": "Radio",
+        "ru": "Радио",
+        "zh": "收音机／广播"
+      },
+      "pronunciation": {
+        "en": "ra-dhi-O-fo-no",
+        "ru": "ра-ди-О-фо-но"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "home"
+      ],
+      "answerDisplay": "το ραδιόφωνο"
+    },
+    {
+      "id": "nov05-monday",
+      "collection": "words-nouns",
+      "greek": "Δευτέρα",
+      "prompt": {
+        "en": "Monday",
+        "ru": "Понедельник",
+        "zh": "星期一"
+      },
+      "pronunciation": {
+        "en": "dhef-TE-ra",
+        "ru": "дэф-ТЭ-ра"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "time"
+      ],
+      "answerDisplay": "η Δευτέρα"
+    },
+    {
+      "id": "nov05-tuesday",
+      "collection": "words-nouns",
+      "greek": "Τρίτη",
+      "prompt": {
+        "en": "Tuesday",
+        "ru": "Вторник",
+        "zh": "星期二"
+      },
+      "pronunciation": {
+        "en": "TRI-ti",
+        "ru": "ТРИ-ти"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "time"
+      ],
+      "answerDisplay": "η Τρίτη"
+    },
+    {
+      "id": "nov05-wednesday",
+      "collection": "words-nouns",
+      "greek": "Τετάρτη",
+      "prompt": {
+        "en": "Wednesday",
+        "ru": "Среда",
+        "zh": "星期三"
+      },
+      "pronunciation": {
+        "en": "te-TAR-ti",
+        "ru": "тэ-ТАР-ти"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "time"
+      ],
+      "answerDisplay": "η Τετάρτη"
+    },
+    {
+      "id": "nov05-friday",
+      "collection": "words-nouns",
+      "greek": "Παρασκευή",
+      "prompt": {
+        "en": "Friday",
+        "ru": "Пятница",
+        "zh": "星期五"
+      },
+      "pronunciation": {
+        "en": "pa-ra-ske-VI",
+        "ru": "па-ра-скэ-ВИ"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "time"
+      ],
+      "answerDisplay": "η Παρασκευή"
+    },
+    {
+      "id": "nov05-saturday",
+      "collection": "words-nouns",
+      "greek": "Σάββατο",
+      "prompt": {
+        "en": "Saturday",
+        "ru": "Суббота",
+        "zh": "星期六"
+      },
+      "pronunciation": {
+        "en": "SA-va-to",
+        "ru": "СА-ва-то"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "time"
+      ],
+      "answerDisplay": "το Σάββατο"
+    },
+    {
+      "id": "nov05-weekend",
+      "collection": "words-nouns",
+      "greek": "Σαββατοκύριακο",
+      "prompt": {
+        "en": "Weekend",
+        "ru": "Выходные",
+        "zh": "周末"
+      },
+      "pronunciation": {
+        "en": "sa-va-to-KI-ri-a-ko",
+        "ru": "са-ва-то-КИ-ри-а-ко"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "time"
+      ],
+      "answerDisplay": "το Σαββατοκύριακο"
+    },
+    {
+      "id": "nov05-early",
+      "collection": "words-descriptions",
+      "greek": "νωρίς",
+      "prompt": {
+        "en": "Early",
+        "ru": "Рано",
+        "zh": "早"
+      },
+      "pronunciation": {
+        "en": "no-RIS",
+        "ru": "но-РИС"
+      },
+      "labels": [
+        "adverb"
+      ],
+      "themes": [
+        "time"
+      ]
+    },
+    {
+      "id": "nov05-late",
+      "collection": "words-descriptions",
+      "greek": "αργά",
+      "prompt": {
+        "en": "Late / slowly",
+        "ru": "Поздно / медленно",
+        "zh": "晚／慢慢地"
+      },
+      "pronunciation": {
+        "en": "ar-GHA",
+        "ru": "ар-ГА"
+      },
+      "labels": [
+        "adverb"
+      ],
+      "themes": [
+        "time"
+      ]
+    },
+    {
+      "id": "nov05-almost",
+      "collection": "words-descriptions",
+      "greek": "σχεδόν",
+      "prompt": {
+        "en": "Almost / nearly",
+        "ru": "Почти",
+        "zh": "几乎"
+      },
+      "pronunciation": {
+        "en": "skhe-DHON",
+        "ru": "схэ-ДОН"
+      },
+      "labels": [
+        "adverb"
+      ],
+      "themes": [
+        "time"
+      ]
+    },
+    {
+      "id": "nov05-usually",
+      "collection": "words-descriptions",
+      "greek": "συνήθως",
+      "prompt": {
+        "en": "Usually",
+        "ru": "Обычно",
+        "zh": "通常"
+      },
+      "pronunciation": {
+        "en": "si-NI-thos",
+        "ru": "си-НИ-сос"
+      },
+      "labels": [
+        "adverb"
+      ],
+      "themes": [
+        "time"
+      ]
+    },
+    {
+      "id": "nov05-often",
+      "collection": "words-descriptions",
+      "greek": "συχνά",
+      "prompt": {
+        "en": "Often",
+        "ru": "Часто",
+        "zh": "经常"
+      },
+      "pronunciation": {
+        "en": "si-KHNA",
+        "ru": "си-ХНА"
+      },
+      "labels": [
+        "adverb"
+      ],
+      "themes": [
+        "time"
+      ]
+    },
+    {
+      "id": "nov05-rarely",
+      "collection": "words-descriptions",
+      "greek": "σπάνια",
+      "prompt": {
+        "en": "Rarely",
+        "ru": "Редко",
+        "zh": "很少"
+      },
+      "pronunciation": {
+        "en": "SPA-nia",
+        "ru": "СПА-ниа"
+      },
+      "labels": [
+        "adverb"
+      ],
+      "themes": [
+        "time"
+      ]
+    },
+    {
+      "id": "nov05-shopping",
+      "collection": "words-nouns",
+      "greek": "ψώνια",
+      "prompt": {
+        "en": "Shopping / purchases",
+        "ru": "Покупки",
+        "zh": "购物／买的东西"
+      },
+      "pronunciation": {
+        "en": "PSO-nia",
+        "ru": "ПСО-ниа"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "home"
+      ],
+      "answerDisplay": "τα ψώνια",
+      "explanation": {
+        "en": "Normally plural for shopping or purchases; no separate singular card is needed for this meaning.",
+        "ru": "В значении «покупки» обычно употребляется множественное число.",
+        "zh": "表示购物或购买的东西时通常用复数。"
+      }
+    },
+    {
+      "id": "nov05-food",
+      "collection": "words-nouns",
+      "greek": "φαγητό",
+      "prompt": {
+        "en": "Food / meal",
+        "ru": "Еда",
+        "zh": "食物／饭菜"
+      },
+      "pronunciation": {
+        "en": "fa-yi-TO",
+        "ru": "фа-йи-ТО"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "food"
+      ],
+      "answerDisplay": "το φαγητό"
+    },
+    {
+      "id": "nov05-sleep",
+      "collection": "words-nouns",
+      "greek": "ύπνος",
+      "prompt": {
+        "en": "Sleep (noun)",
+        "ru": "Сон",
+        "zh": "睡眠"
+      },
+      "pronunciation": {
+        "en": "IP-nos",
+        "ru": "ИП-нос"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "home"
+      ],
+      "answerDisplay": "ο ύπνος"
+    },
+    {
+      "id": "nov05-lunch",
+      "collection": "words-nouns",
+      "greek": "μεσημεριανό",
+      "prompt": {
+        "en": "Lunch (meal)",
+        "ru": "Обед",
+        "zh": "午餐"
+      },
+      "pronunciation": {
+        "en": "me-si-me-ria-NO",
+        "ru": "мэ-си-мэ-риа-НО"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "food"
+      ],
+      "answerDisplay": "το μεσημεριανό"
+    },
+    {
+      "id": "nov05-dinner",
+      "collection": "words-nouns",
+      "greek": "βραδινό",
+      "prompt": {
+        "en": "Dinner / evening meal",
+        "ru": "Ужин",
+        "zh": "晚餐"
+      },
+      "pronunciation": {
+        "en": "vra-dhi-NO",
+        "ru": "вра-ди-НО"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "food"
+      ],
+      "answerDisplay": "το βραδινό"
+    },
+    {
+      "id": "nov05-drink",
+      "collection": "words-nouns",
+      "greek": "ποτό",
+      "prompt": {
+        "en": "Drink / beverage (often alcoholic)",
+        "ru": "Напиток (часто алкогольный)",
+        "zh": "饮料（常指酒）"
+      },
+      "pronunciation": {
+        "en": "po-TO",
+        "ru": "по-ТО"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "food"
+      ],
+      "answerDisplay": "το ποτό",
+      "explanation": {
+        "en": "A beverage in general; often an alcoholic drink in everyday conversation. Πάω για ποτό means I go out for a drink.",
+        "ru": "Напиток вообще; в разговоре часто алкогольный. Πάω για ποτό — иду выпить.",
+        "zh": "泛指饮料，口语中常指酒。Πάω για ποτό 表示出去喝一杯。"
+      }
+    },
+    {
+      "id": "nov05-time-occasion",
+      "collection": "words-nouns",
+      "greek": "φορά",
+      "prompt": {
+        "en": "Time / occasion (one occurrence)",
+        "ru": "Раз (случай, повторение)",
+        "zh": "次／回"
+      },
+      "pronunciation": {
+        "en": "fo-RA",
+        "ru": "фо-РА"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "time"
+      ],
+      "answerDisplay": "η φορά"
+    },
+    {
+      "id": "nov05-cinema-informal",
+      "collection": "words-nouns",
+      "greek": "σινεμά",
+      "prompt": {
+        "en": "Cinema (informal word)",
+        "ru": "Кино",
+        "zh": "电影院（口语）"
+      },
+      "pronunciation": {
+        "en": "si-ne-MA",
+        "ru": "си-нэ-МА"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "places"
+      ],
+      "answerDisplay": "το σινεμά"
+    },
+    {
+      "id": "nov05-means",
+      "collection": "words-nouns",
+      "greek": "μέσο",
+      "prompt": {
+        "en": "Means (e.g. of transport)",
+        "ru": "Средство (например, транспортное)",
+        "zh": "手段／交通工具"
+      },
+      "pronunciation": {
+        "en": "ME-so",
+        "ru": "МЭ-со"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "travel"
+      ],
+      "answerDisplay": "το μέσο"
+    },
+    {
+      "id": "nov05-word",
+      "collection": "words-nouns",
+      "greek": "λέξη",
+      "prompt": {
+        "en": "Word",
+        "ru": "Слово",
+        "zh": "单词"
+      },
+      "pronunciation": {
+        "en": "LE-ksi",
+        "ru": "ЛЭ-кси"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "classroom"
+      ],
+      "answerDisplay": "η λέξη"
+    },
+    {
+      "id": "nov05-email",
+      "collection": "words-nouns",
+      "greek": "ιμέιλ",
+      "prompt": {
+        "en": "Email",
+        "ru": "Электронное письмо",
+        "zh": "电子邮件"
+      },
+      "pronunciation": {
+        "en": "I-meil",
+        "ru": "И-мэил"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "phone"
+      ],
+      "answerDisplay": "το ιμέιλ",
+      "alternatives": [
+        "email",
+        "e-mail"
+      ]
+    },
+    {
+      "id": "nov05-believe",
+      "collection": "words-verbs",
+      "greek": "πιστεύω",
+      "prompt": {
+        "en": "I believe",
+        "ru": "Верю",
+        "zh": "我相信"
+      },
+      "pronunciation": {
+        "en": "pi-STEV-o",
+        "ru": "пи-СТЭВ-о"
+      },
+      "labels": [
+        "verb"
+      ],
+      "themes": [
+        "conversation",
+        "verbA"
+      ]
+    },
+    {
+      "id": "nov05-arrange",
+      "collection": "words-verbs",
+      "greek": "κανονίζω",
+      "prompt": {
+        "en": "I arrange / make plans",
+        "ru": "Договариваюсь / организую",
+        "zh": "我安排"
+      },
+      "pronunciation": {
+        "en": "ka-no-NI-zo",
+        "ru": "ка-но-НИ-зо"
+      },
+      "labels": [
+        "verb"
+      ],
+      "themes": [
+        "conversation",
+        "verbA"
+      ]
+    },
+    {
+      "id": "nov05-gym",
+      "collection": "words-nouns",
+      "greek": "γυμναστήριο",
+      "prompt": {
+        "en": "Gym",
+        "ru": "Спортзал",
+        "zh": "健身房"
+      },
+      "pronunciation": {
+        "en": "yim-na-STI-ri-o",
+        "ru": "йим-на-СТИ-ри-о"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "places"
+      ],
+      "answerDisplay": "το γυμναστήριο"
+    },
+    {
+      "id": "nov05-company",
+      "collection": "words-nouns",
+      "greek": "παρέα",
+      "prompt": {
+        "en": "Company (people together)",
+        "ru": "Компания (люди вместе)",
+        "zh": "同伴／一群朋友"
+      },
+      "pronunciation": {
+        "en": "pa-RE-a",
+        "ru": "па-РЭ-а"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "people"
+      ],
+      "answerDisplay": "η παρέα"
+    },
+    {
+      "id": "nov05-idea",
+      "collection": "words-nouns",
+      "greek": "ιδέα",
+      "prompt": {
+        "en": "Idea",
+        "ru": "Идея",
+        "zh": "主意"
+      },
+      "pronunciation": {
+        "en": "i-DHE-a",
+        "ru": "и-ДЭ-а"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "conversation"
+      ],
+      "answerDisplay": "η ιδέα"
+    },
+    {
+      "id": "nov05-week",
+      "collection": "words-nouns",
+      "greek": "εβδομάδα",
+      "prompt": {
+        "en": "Week",
+        "ru": "Неделя",
+        "zh": "星期／周"
+      },
+      "pronunciation": {
+        "en": "ev-dho-MA-dha",
+        "ru": "эв-до-МА-да"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "time"
+      ],
+      "answerDisplay": "η εβδομάδα"
+    },
+    {
+      "id": "nov05-month",
+      "collection": "words-nouns",
+      "greek": "μήνας",
+      "prompt": {
+        "en": "Month",
+        "ru": "Месяц",
+        "zh": "月份"
+      },
+      "pronunciation": {
+        "en": "MI-nas",
+        "ru": "МИ-нас"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "time"
+      ],
+      "answerDisplay": "ο μήνας"
+    },
+    {
+      "id": "nov05-nothing",
+      "collection": "words-pronouns",
+      "greek": "τίποτα",
+      "prompt": {
+        "en": "Nothing / anything (in questions)",
+        "ru": "Ничего / что-нибудь (в вопросах)",
+        "zh": "什么也没有／什么（疑问句中）"
+      },
+      "pronunciation": {
+        "en": "TI-po-ta",
+        "ru": "ТИ-по-та"
+      },
+      "labels": [
+        "pronoun"
+      ],
+      "themes": [
+        "conversation"
+      ]
+    },
+    {
+      "id": "nov05-day-after-tomorrow",
+      "collection": "words-descriptions",
+      "greek": "μεθαύριο",
+      "prompt": {
+        "en": "The day after tomorrow",
+        "ru": "Послезавтра",
+        "zh": "后天"
+      },
+      "pronunciation": {
+        "en": "me-THAV-ri-o",
+        "ru": "мэ-САВ-ри-о"
+      },
+      "labels": [
+        "adverb"
+      ],
+      "themes": [
+        "time"
+      ]
+    },
+    {
+      "id": "nov05-hey",
+      "collection": "words-connectors",
+      "greek": "βρε",
+      "prompt": {
+        "en": "Hey! (very informal address)",
+        "ru": "Эй! / ну! (фамильярное обращение)",
+        "zh": "喂！（很随意的称呼）"
+      },
+      "pronunciation": {
+        "en": "vre",
+        "ru": "врэ"
+      },
+      "labels": [
+        "interjection"
+      ],
+      "themes": [
+        "conversation"
+      ]
+    },
+    {
+      "id": "nov05-but-ma",
+      "collection": "words-connectors",
+      "greek": "μα",
+      "prompt": {
+        "en": "But (short emphatic word)",
+        "ru": "Но / да ведь (короткое слово)",
+        "zh": "可是（简短的强调词）"
+      },
+      "pronunciation": {
+        "en": "ma",
+        "ru": "ма"
+      },
+      "labels": [
+        "conjunction"
+      ],
+      "themes": [
+        "conversation"
+      ]
+    },
+    {
+      "id": "nov05-kiss",
+      "collection": "words-nouns",
+      "greek": "φιλί",
+      "prompt": {
+        "en": "Kiss (noun)",
+        "ru": "Поцелуй",
+        "zh": "吻"
+      },
+      "pronunciation": {
+        "en": "fi-LI",
+        "ru": "фи-ЛИ"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "people"
+      ],
+      "answerDisplay": "το φιλί"
+    },
+    {
+      "id": "nov05-weather",
+      "collection": "words-nouns",
+      "greek": "καιρός",
+      "prompt": {
+        "en": "Weather / a period of time",
+        "ru": "Погода / промежуток времени",
+        "zh": "天气／一段时间"
+      },
+      "pronunciation": {
+        "en": "ke-ROS",
+        "ru": "кэ-РОС"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "time"
+      ],
+      "answerDisplay": "ο καιρός"
+    },
+    {
+      "id": "nov05-heat",
+      "collection": "words-nouns",
+      "greek": "ζέστη",
+      "prompt": {
+        "en": "Heat / hot weather",
+        "ru": "Жара",
+        "zh": "炎热"
+      },
+      "pronunciation": {
+        "en": "ZES-ti",
+        "ru": "ЗЭС-ти"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "time"
+      ],
+      "answerDisplay": "η ζέστη"
+    },
+    {
+      "id": "nov05-cold",
+      "collection": "words-nouns",
+      "greek": "κρύο",
+      "prompt": {
+        "en": "Cold / cold weather (noun)",
+        "ru": "Холод",
+        "zh": "寒冷"
+      },
+      "pronunciation": {
+        "en": "KRI-o",
+        "ru": "КРИ-о"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "time"
+      ],
+      "answerDisplay": "το κρύο"
+    },
+    {
+      "id": "nov05-cold-adjective",
+      "collection": "words-descriptions",
+      "greek": "κρύος",
+      "prompt": {
+        "en": "Cold (adjective)",
+        "ru": "Холодный",
+        "zh": "冷的"
+      },
+      "pronunciation": {
+        "en": "KRI-os",
+        "ru": "КРИ-ос"
+      },
+      "labels": [
+        "adjective"
+      ],
+      "themes": [
+        "food"
+      ]
+    },
+    {
+      "id": "nov05-january",
+      "collection": "words-nouns",
+      "greek": "Ιανουάριος",
+      "prompt": {
+        "en": "January",
+        "ru": "Январь",
+        "zh": "一月"
+      },
+      "pronunciation": {
+        "en": "ia-nu-A-ri-os",
+        "ru": "иа-ну-А-ри-ос"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "time"
+      ],
+      "answerDisplay": "ο Ιανουάριος"
+    },
+    {
+      "id": "nov05-february",
+      "collection": "words-nouns",
+      "greek": "Φεβρουάριος",
+      "prompt": {
+        "en": "February",
+        "ru": "Февраль",
+        "zh": "二月"
+      },
+      "pronunciation": {
+        "en": "fe-vru-A-ri-os",
+        "ru": "фэ-вру-А-ри-ос"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "time"
+      ],
+      "answerDisplay": "ο Φεβρουάριος"
+    },
+    {
+      "id": "nov05-march",
+      "collection": "words-nouns",
+      "greek": "Μάρτιος",
+      "prompt": {
+        "en": "March",
+        "ru": "Март",
+        "zh": "三月"
+      },
+      "pronunciation": {
+        "en": "MAR-ti-os",
+        "ru": "МАР-ти-ос"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "time"
+      ],
+      "answerDisplay": "ο Μάρτιος"
+    },
+    {
+      "id": "nov05-april",
+      "collection": "words-nouns",
+      "greek": "Απρίλιος",
+      "prompt": {
+        "en": "April",
+        "ru": "Апрель",
+        "zh": "四月"
+      },
+      "pronunciation": {
+        "en": "a-PRI-li-os",
+        "ru": "а-ПРИ-ли-ос"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "time"
+      ],
+      "answerDisplay": "ο Απρίλιος"
+    },
+    {
+      "id": "nov05-may",
+      "collection": "words-nouns",
+      "greek": "Μάιος",
+      "prompt": {
+        "en": "May",
+        "ru": "Май",
+        "zh": "五月"
+      },
+      "pronunciation": {
+        "en": "MA-i-os",
+        "ru": "МА-и-ос"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "time"
+      ],
+      "answerDisplay": "ο Μάιος"
+    },
+    {
+      "id": "nov05-june",
+      "collection": "words-nouns",
+      "greek": "Ιούνιος",
+      "prompt": {
+        "en": "June",
+        "ru": "Июнь",
+        "zh": "六月"
+      },
+      "pronunciation": {
+        "en": "i-U-ni-os",
+        "ru": "и-У-ни-ос"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "time"
+      ],
+      "answerDisplay": "ο Ιούνιος"
+    },
+    {
+      "id": "nov05-july",
+      "collection": "words-nouns",
+      "greek": "Ιούλιος",
+      "prompt": {
+        "en": "July",
+        "ru": "Июль",
+        "zh": "七月"
+      },
+      "pronunciation": {
+        "en": "i-U-li-os",
+        "ru": "и-У-ли-ос"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "time"
+      ],
+      "answerDisplay": "ο Ιούλιος"
+    },
+    {
+      "id": "nov05-august",
+      "collection": "words-nouns",
+      "greek": "Αύγουστος",
+      "prompt": {
+        "en": "August",
+        "ru": "Август",
+        "zh": "八月"
+      },
+      "pronunciation": {
+        "en": "AV-ghu-stos",
+        "ru": "АВ-гу-стос"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "time"
+      ],
+      "answerDisplay": "ο Αύγουστος"
+    },
+    {
+      "id": "nov05-september",
+      "collection": "words-nouns",
+      "greek": "Σεπτέμβριος",
+      "prompt": {
+        "en": "September",
+        "ru": "Сентябрь",
+        "zh": "九月"
+      },
+      "pronunciation": {
+        "en": "sep-TEM-vri-os",
+        "ru": "сэп-ТЭМ-ври-ос"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "time"
+      ],
+      "answerDisplay": "ο Σεπτέμβριος"
+    },
+    {
+      "id": "nov05-october",
+      "collection": "words-nouns",
+      "greek": "Οκτώβριος",
+      "prompt": {
+        "en": "October",
+        "ru": "Октябрь",
+        "zh": "十月"
+      },
+      "pronunciation": {
+        "en": "ok-TO-vri-os",
+        "ru": "ок-ТО-ври-ос"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "time"
+      ],
+      "answerDisplay": "ο Οκτώβριος"
+    },
+    {
+      "id": "nov05-november",
+      "collection": "words-nouns",
+      "greek": "Νοέμβριος",
+      "prompt": {
+        "en": "November",
+        "ru": "Ноябрь",
+        "zh": "十一月"
+      },
+      "pronunciation": {
+        "en": "no-EM-vri-os",
+        "ru": "но-ЭМ-ври-ос"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "time"
+      ],
+      "answerDisplay": "ο Νοέμβριος"
+    },
+    {
+      "id": "nov05-december",
+      "collection": "words-nouns",
+      "greek": "Δεκέμβριος",
+      "prompt": {
+        "en": "December",
+        "ru": "Декабрь",
+        "zh": "十二月"
+      },
+      "pronunciation": {
+        "en": "dhe-KEM-vri-os",
+        "ru": "дэ-КЭМ-ври-ос"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "time"
+      ],
+      "answerDisplay": "ο Δεκέμβριος"
+    },
+    {
+      "id": "nov05-winter",
+      "collection": "words-nouns",
+      "greek": "χειμώνας",
+      "prompt": {
+        "en": "Winter",
+        "ru": "Зима",
+        "zh": "冬天"
+      },
+      "pronunciation": {
+        "en": "khi-MO-nas",
+        "ru": "хи-МО-нас"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "time"
+      ],
+      "answerDisplay": "ο χειμώνας"
+    },
+    {
+      "id": "nov05-spring",
+      "collection": "words-nouns",
+      "greek": "άνοιξη",
+      "prompt": {
+        "en": "Spring (season)",
+        "ru": "Весна",
+        "zh": "春天"
+      },
+      "pronunciation": {
+        "en": "A-ni-ksi",
+        "ru": "А-ни-кси"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "time"
+      ],
+      "answerDisplay": "η άνοιξη"
+    },
+    {
+      "id": "nov05-autumn",
+      "collection": "words-nouns",
+      "greek": "φθινόπωρο",
+      "prompt": {
+        "en": "Autumn / fall",
+        "ru": "Осень",
+        "zh": "秋天"
+      },
+      "pronunciation": {
+        "en": "fthi-NO-po-ro",
+        "ru": "фси-НО-по-ро"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "time"
+      ],
+      "answerDisplay": "το φθινόπωρο"
+    },
+    {
+      "id": "nov05-ski",
+      "collection": "words-nouns",
+      "greek": "σκι",
+      "prompt": {
+        "en": "Skiing",
+        "ru": "Катание на лыжах",
+        "zh": "滑雪"
+      },
+      "pronunciation": {
+        "en": "ski",
+        "ru": "ски"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "travel"
+      ],
+      "answerDisplay": "το σκι"
+    },
+    {
+      "id": "nov05-bath",
+      "collection": "words-nouns",
+      "greek": "μπάνιο",
+      "prompt": {
+        "en": "Bath / swim / bathroom",
+        "ru": "Ванна / купание / ванная комната",
+        "zh": "洗澡／游泳／浴室"
+      },
+      "pronunciation": {
+        "en": "BA-nio",
+        "ru": "БА-нио"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "home"
+      ],
+      "answerDisplay": "το μπάνιο"
+    },
+    {
+      "id": "nov05-neighbourhood",
+      "collection": "words-nouns",
+      "greek": "γειτονιά",
+      "prompt": {
+        "en": "Neighbourhood",
+        "ru": "Район / окрестности",
+        "zh": "街区／附近"
+      },
+      "pronunciation": {
+        "en": "yi-to-NIA",
+        "ru": "йи-то-НИА"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "places"
+      ],
+      "answerDisplay": "η γειτονιά"
+    },
+    {
+      "id": "nov05-appointment",
+      "collection": "words-nouns",
+      "greek": "ραντεβού",
+      "prompt": {
+        "en": "Appointment / date",
+        "ru": "Встреча / свидание",
+        "zh": "约会／预约"
+      },
+      "pronunciation": {
+        "en": "ran-de-VU",
+        "ru": "ран-дэ-ВУ"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "conversation"
+      ],
+      "answerDisplay": "το ραντεβού"
+    },
+    {
+      "id": "nov05-tired",
+      "collection": "words-descriptions",
+      "greek": "κουρασμένος",
+      "prompt": {
+        "en": "Tired",
+        "ru": "Уставший",
+        "zh": "累的"
+      },
+      "pronunciation": {
+        "en": "ku-ra-ZME-nos",
+        "ru": "ку-ра-ЗМЭ-нос"
+      },
+      "labels": [
+        "adjective"
+      ],
+      "themes": [
+        "people"
+      ]
+    },
+    {
+      "id": "nov05-return",
+      "collection": "words-verbs",
+      "greek": "γυρίζω",
+      "prompt": {
+        "en": "I return / turn",
+        "ru": "Возвращаюсь / поворачиваю",
+        "zh": "我回来／转向"
+      },
+      "pronunciation": {
+        "en": "yi-RI-zo",
+        "ru": "йи-РИ-зо"
+      },
+      "labels": [
+        "verb"
+      ],
+      "themes": [
+        "travel",
+        "verbA"
+      ]
+    },
+    {
+      "id": "nov05-tonight",
+      "collection": "words-descriptions",
+      "greek": "απόψε",
+      "prompt": {
+        "en": "Tonight",
+        "ru": "Сегодня вечером / ночью",
+        "zh": "今晚"
+      },
+      "pronunciation": {
+        "en": "a-PO-pse",
+        "ru": "а-ПО-псэ"
+      },
+      "labels": [
+        "adverb"
+      ],
+      "themes": [
+        "time"
+      ]
+    },
+    {
+      "id": "nov05-seriously",
+      "collection": "words-descriptions",
+      "greek": "σοβαρά",
+      "prompt": {
+        "en": "Seriously / really",
+        "ru": "Серьёзно / правда",
+        "zh": "认真地／真的吗"
+      },
+      "pronunciation": {
+        "en": "so-va-RA",
+        "ru": "со-ва-РА"
+      },
+      "labels": [
+        "adverb"
+      ],
+      "themes": [
+        "conversation"
+      ]
+    },
+    {
+      "id": "nov05-around-time",
+      "collection": "words-connectors",
+      "greek": "κατά",
+      "prompt": {
+        "en": "Around / about (a time)",
+        "ru": "Около / примерно (о времени)",
+        "zh": "大约（时间）"
+      },
+      "pronunciation": {
+        "en": "ka-TA",
+        "ru": "ка-ТА"
+      },
+      "labels": [
+        "preposition"
+      ],
+      "themes": [
+        "time"
+      ]
+    },
+    {
+      "id": "nov05-sure",
+      "collection": "words-connectors",
+      "greek": "αμέ",
+      "prompt": {
+        "en": "Sure! / absolutely! (informal)",
+        "ru": "Ещё бы! / конечно! (разговорное)",
+        "zh": "当然！（口语）"
+      },
+      "pronunciation": {
+        "en": "a-ME",
+        "ru": "а-МЭ"
+      },
+      "labels": [
+        "interjection"
+      ],
+      "themes": [
+        "conversation"
+      ]
+    },
+    {
+      "id": "nov05-film",
+      "collection": "words-nouns",
+      "greek": "ταινία",
+      "prompt": {
+        "en": "Film / movie",
+        "ru": "Фильм",
+        "zh": "电影"
+      },
+      "pronunciation": {
+        "en": "te-NI-a",
+        "ru": "тэ-НИ-а"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "home"
+      ],
+      "answerDisplay": "η ταινία"
+    },
+    {
+      "id": "nov05-diary",
+      "collection": "words-nouns",
+      "greek": "ατζέντα",
+      "prompt": {
+        "en": "Diary / appointment book",
+        "ru": "Ежедневник",
+        "zh": "日程本"
+      },
+      "pronunciation": {
+        "en": "a-DZEN-da",
+        "ru": "а-ДЗЭН-да"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "home"
+      ],
+      "answerDisplay": "η ατζέντα"
+    },
+    {
+      "id": "nov05-cooking",
+      "collection": "words-nouns",
+      "greek": "μαγείρεμα",
+      "prompt": {
+        "en": "Cooking (noun)",
+        "ru": "Приготовление еды",
+        "zh": "烹饪"
+      },
+      "pronunciation": {
+        "en": "ma-YI-re-ma",
+        "ru": "ма-ЙИ-рэ-ма"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "food"
+      ],
+      "answerDisplay": "το μαγείρεμα"
+    },
+    {
+      "id": "nov05-basketball",
+      "collection": "words-nouns",
+      "greek": "μπάσκετ",
+      "prompt": {
+        "en": "Basketball",
+        "ru": "Баскетбол",
+        "zh": "篮球"
+      },
+      "pronunciation": {
+        "en": "BA-sket",
+        "ru": "БА-скэт"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "home"
+      ],
+      "answerDisplay": "το μπάσκετ"
+    },
+    {
+      "id": "nov05-plate",
+      "collection": "words-nouns",
+      "greek": "πιάτο",
+      "prompt": {
+        "en": "Plate / dish",
+        "ru": "Тарелка / блюдо",
+        "zh": "盘子／菜肴"
+      },
+      "pronunciation": {
+        "en": "PIA-to",
+        "ru": "ПИА-то"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "food"
+      ],
+      "answerDisplay": "το πιάτο"
+    },
+    {
+      "id": "nov05-adjacent",
+      "collection": "words-descriptions",
+      "greek": "διπλανός",
+      "prompt": {
+        "en": "Next-door / adjacent",
+        "ru": "Соседний",
+        "zh": "旁边的"
+      },
+      "pronunciation": {
+        "en": "dhi-pla-NOS",
+        "ru": "ди-пла-НОС"
+      },
+      "labels": [
+        "adjective"
+      ],
+      "themes": [
+        "people"
+      ]
+    },
+    {
+      "id": "nov05-kitchen",
+      "collection": "words-nouns",
+      "greek": "κουζίνα",
+      "prompt": {
+        "en": "Kitchen / cuisine",
+        "ru": "Кухня",
+        "zh": "厨房／菜系"
+      },
+      "pronunciation": {
+        "en": "ku-ZI-na",
+        "ru": "ку-ЗИ-на"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "home"
+      ],
+      "answerDisplay": "η κουζίνα"
+    },
+    {
+      "id": "nov05-classmate",
+      "collection": "words-nouns",
+      "greek": "συμμαθητής",
+      "prompt": {
+        "en": "Classmate (school)",
+        "ru": "Одноклассник",
+        "zh": "同学"
+      },
+      "pronunciation": {
+        "en": "si-ma-thi-TIS",
+        "ru": "си-ма-си-ТИС"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "classroom"
+      ],
+      "answerDisplay": "ο συμμαθητής"
+    },
+    {
+      "id": "nov05-prepare",
+      "collection": "words-verbs",
+      "greek": "ετοιμάζω",
+      "prompt": {
+        "en": "I prepare",
+        "ru": "Подготавливаю (что-то к использованию)",
+        "zh": "我准备"
+      },
+      "pronunciation": {
+        "en": "e-ti-MA-zo",
+        "ru": "э-ти-МА-зо"
+      },
+      "labels": [
+        "verb"
+      ],
+      "themes": [
+        "home",
+        "verbA"
+      ]
+    },
+    {
+      "id": "nov05-vase",
+      "collection": "words-nouns",
+      "greek": "βάζο",
+      "prompt": {
+        "en": "Vase / jar",
+        "ru": "Ваза / банка",
+        "zh": "花瓶／罐子"
+      },
+      "pronunciation": {
+        "en": "VA-zo",
+        "ru": "ВА-зо"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "home"
+      ],
+      "answerDisplay": "το βάζο"
+    },
+    {
+      "id": "nov05-young-woman",
+      "collection": "words-nouns",
+      "greek": "κοπέλα",
+      "prompt": {
+        "en": "Young woman / girlfriend",
+        "ru": "Девушка",
+        "zh": "年轻女子／女朋友"
+      },
+      "pronunciation": {
+        "en": "ko-PE-la",
+        "ru": "ко-ПЭ-ла"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "people"
+      ],
+      "answerDisplay": "η κοπέλα",
+      "explanation": {
+        "en": "A girl or young woman; can also mean girlfriend in context. Compare κορίτσι, often a child.",
+        "ru": "Девушка, молодая женщина; по контексту также девушка-партнёр. Κορίτσι часто означает девочку.",
+        "zh": "女孩或年轻女子；在语境中也可指女朋友。Κορίτσι 常指小女孩。"
+      }
+    },
+    {
+      "id": "nov05-shop",
+      "collection": "words-verbs",
+      "greek": "ψωνίζω",
+      "prompt": {
+        "en": "I shop / buy things",
+        "ru": "Делаю покупки",
+        "zh": "我购物"
+      },
+      "pronunciation": {
+        "en": "pso-NI-zo",
+        "ru": "псо-НИ-зо"
+      },
+      "labels": [
+        "verb"
+      ],
+      "themes": [
+        "food",
+        "verbA"
+      ]
+    },
+    {
+      "id": "nov05-rent",
+      "collection": "words-nouns",
+      "greek": "ενοίκιο",
+      "prompt": {
+        "en": "Rent (payment)",
+        "ru": "Арендная плата",
+        "zh": "租金"
+      },
+      "pronunciation": {
+        "en": "e-NI-kio",
+        "ru": "э-НИ-кио"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "home"
+      ],
+      "answerDisplay": "το ενοίκιο"
+    },
+    {
+      "id": "nov05-bill",
+      "collection": "words-nouns",
+      "greek": "λογαριασμός",
+      "prompt": {
+        "en": "Bill / account",
+        "ru": "Счёт",
+        "zh": "账单／账户"
+      },
+      "pronunciation": {
+        "en": "lo-gha-ria-ZMOS",
+        "ru": "ло-га-риа-ЗМОС"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "home"
+      ],
+      "answerDisplay": "ο λογαριασμός",
+      "explanation": {
+        "en": "A bill to pay, or an account.",
+        "ru": "Счёт к оплате или учётная запись / банковский счёт.",
+        "zh": "应付账单，也可指账户。"
+      }
+    },
+    {
+      "id": "nov05-wash",
+      "collection": "words-verbs",
+      "greek": "πλένω",
+      "prompt": {
+        "en": "I wash",
+        "ru": "Мою / стираю",
+        "zh": "我洗"
+      },
+      "pronunciation": {
+        "en": "PLE-no",
+        "ru": "ПЛЭ-но"
+      },
+      "labels": [
+        "verb"
+      ],
+      "themes": [
+        "home",
+        "verbA"
+      ]
+    },
+    {
+      "id": "nov05-go-out",
+      "collection": "words-verbs",
+      "greek": "βγαίνω",
+      "prompt": {
+        "en": "I go out / come out",
+        "ru": "Выхожу",
+        "zh": "我出去／出来"
+      },
+      "pronunciation": {
+        "en": "VGHE-no",
+        "ru": "ВГЭ-но"
+      },
+      "labels": [
+        "verb"
+      ],
+      "themes": [
+        "travel",
+        "verbA"
+      ]
+    },
+    {
+      "id": "nov05-left",
+      "collection": "words-descriptions",
+      "greek": "αριστερά",
+      "prompt": {
+        "en": "Left / to the left",
+        "ru": "Налево / слева",
+        "zh": "左边／向左"
+      },
+      "pronunciation": {
+        "en": "a-ri-ste-RA",
+        "ru": "а-ри-стэ-РА"
+      },
+      "labels": [
+        "adverb"
+      ],
+      "themes": [
+        "travel"
+      ]
+    },
+    {
+      "id": "nov05-right",
+      "collection": "words-descriptions",
+      "greek": "δεξιά",
+      "prompt": {
+        "en": "Right / to the right",
+        "ru": "Направо / справа",
+        "zh": "右边／向右"
+      },
+      "pronunciation": {
+        "en": "dhe-KSIA",
+        "ru": "дэ-КСИА"
+      },
+      "labels": [
+        "adverb"
+      ],
+      "themes": [
+        "travel"
+      ]
+    },
+    {
+      "id": "nov05-straight",
+      "collection": "words-descriptions",
+      "greek": "ευθεία",
+      "prompt": {
+        "en": "Straight ahead",
+        "ru": "Прямо",
+        "zh": "一直向前"
+      },
+      "pronunciation": {
+        "en": "ef-THI-a",
+        "ru": "эф-СИ-а"
+      },
+      "labels": [
+        "adverb"
+      ],
+      "themes": [
+        "travel"
+      ]
+    },
+    {
+      "id": "nov05-mountain",
+      "collection": "words-nouns",
+      "greek": "βουνό",
+      "prompt": {
+        "en": "Mountain",
+        "ru": "Гора",
+        "zh": "山"
+      },
+      "pronunciation": {
+        "en": "vu-NO",
+        "ru": "ву-НО"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "places"
+      ],
+      "answerDisplay": "το βουνό"
+    },
+    {
+      "id": "nov05-simple",
+      "collection": "words-descriptions",
+      "greek": "απλός",
+      "prompt": {
+        "en": "Simple / single (one-way ticket)",
+        "ru": "Простой / в одну сторону (о билете)",
+        "zh": "简单的／单程的"
+      },
+      "pronunciation": {
+        "en": "a-PLOS",
+        "ru": "а-ПЛОС"
+      },
+      "labels": [
+        "adjective"
+      ],
+      "themes": [
+        "travel"
+      ]
+    },
+    {
+      "id": "nov05-more",
+      "collection": "words-descriptions",
+      "greek": "πιο",
+      "prompt": {
+        "en": "More (comparison)",
+        "ru": "Более (сравнение)",
+        "zh": "更"
+      },
+      "pronunciation": {
+        "en": "pio",
+        "ru": "пио"
+      },
+      "labels": [
+        "adverb"
+      ],
+      "themes": [
+        "conversation"
+      ]
+    },
+    {
+      "id": "nov05-card",
+      "collection": "words-nouns",
+      "greek": "κάρτα",
+      "prompt": {
+        "en": "Card (e.g. payment card)",
+        "ru": "Карта (например, банковская)",
+        "zh": "卡（如银行卡）"
+      },
+      "pronunciation": {
+        "en": "KAR-ta",
+        "ru": "КАР-та"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "home"
+      ],
+      "answerDisplay": "η κάρτα"
+    },
+    {
+      "id": "nov05-cash",
+      "collection": "words-nouns",
+      "greek": "μετρητά",
+      "prompt": {
+        "en": "Cash",
+        "ru": "Наличные",
+        "zh": "现金"
+      },
+      "pronunciation": {
+        "en": "me-tri-TA",
+        "ru": "мэ-три-ТА"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "home"
+      ],
+      "answerDisplay": "τα μετρητά"
+    },
+    {
+      "id": "nov05-discount",
+      "collection": "words-nouns",
+      "greek": "έκπτωση",
+      "prompt": {
+        "en": "Discount",
+        "ru": "Скидка",
+        "zh": "折扣"
+      },
+      "pronunciation": {
+        "en": "EK-pto-si",
+        "ru": "ЭК-пто-си"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "home"
+      ],
+      "answerDisplay": "η έκπτωση"
+    },
+    {
+      "id": "nov05-total",
+      "collection": "words-nouns",
+      "greek": "σύνολο",
+      "prompt": {
+        "en": "Total / sum",
+        "ru": "Итог / сумма",
+        "zh": "总计"
+      },
+      "pronunciation": {
+        "en": "SI-no-lo",
+        "ru": "СИ-но-ло"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "home"
+      ],
+      "answerDisplay": "το σύνολο"
+    },
+    {
+      "id": "nov05-vat",
+      "collection": "words-nouns",
+      "greek": "ΦΠΑ",
+      "prompt": {
+        "en": "VAT (Greek abbreviation)",
+        "ru": "НДС (греческая аббревиатура)",
+        "zh": "增值税（希腊语缩写）"
+      },
+      "pronunciation": {
+        "en": "fi pi a",
+        "ru": "фи пи а"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "home"
+      ],
+      "answerDisplay": "ο ΦΠΑ",
+      "acceptedAnswers": [
+        "Φ.Π.Α."
+      ]
+    },
+    {
+      "id": "nov05-without",
+      "collection": "words-connectors",
+      "greek": "χωρίς",
+      "prompt": {
+        "en": "Without",
+        "ru": "Без",
+        "zh": "没有／不带"
+      },
+      "pronunciation": {
+        "en": "kho-RIS",
+        "ru": "хо-РИС"
+      },
+      "labels": [
+        "preposition"
+      ],
+      "themes": [
+        "conversation"
+      ]
+    },
+    {
+      "id": "nov05-cloud",
+      "collection": "words-nouns",
+      "greek": "σύννεφο",
+      "prompt": {
+        "en": "Cloud",
+        "ru": "Облако",
+        "zh": "云"
+      },
+      "pronunciation": {
+        "en": "SI-ne-fo",
+        "ru": "СИ-нэ-фо"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "places"
+      ],
+      "answerDisplay": "το σύννεφο"
+    },
+    {
+      "id": "nov05-cloudiness",
+      "collection": "words-nouns",
+      "greek": "συννεφιά",
+      "prompt": {
+        "en": "Cloudiness / overcast weather",
+        "ru": "Облачность / пасмурная погода",
+        "zh": "阴天／多云"
+      },
+      "pronunciation": {
+        "en": "si-ne-FIA",
+        "ru": "си-нэ-ФИА"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "places"
+      ],
+      "answerDisplay": "η συννεφιά"
+    },
+    {
+      "id": "nov05-wind",
+      "collection": "words-nouns",
+      "greek": "αέρας",
+      "prompt": {
+        "en": "Air / wind",
+        "ru": "Воздух / ветер",
+        "zh": "空气／风"
+      },
+      "pronunciation": {
+        "en": "a-E-ras",
+        "ru": "а-Э-рас"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "places"
+      ],
+      "answerDisplay": "ο αέρας"
+    },
+    {
+      "id": "nov05-blow",
+      "collection": "words-verbs",
+      "greek": "φυσάω",
+      "prompt": {
+        "en": "I blow",
+        "ru": "Дую",
+        "zh": "我吹"
+      },
+      "pronunciation": {
+        "en": "fi-SA-o",
+        "ru": "фи-СА-о"
+      },
+      "labels": [
+        "verb"
+      ],
+      "themes": [
+        "places",
+        "verbB1"
+      ],
+      "alternatives": [
+        "φυσώ"
+      ]
+    },
+    {
+      "id": "nov05-depend",
+      "collection": "words-verbs",
+      "greek": "εξαρτώμαι",
+      "prompt": {
+        "en": "I depend on",
+        "ru": "Завишу от",
+        "zh": "我依赖于"
+      },
+      "pronunciation": {
+        "en": "e-ksar-TO-me",
+        "ru": "э-ксар-ТО-мэ"
+      },
+      "labels": [
+        "verb"
+      ],
+      "themes": [
+        "conversation"
+      ]
+    },
+    {
+      "id": "nov05-birthday",
+      "collection": "words-nouns",
+      "greek": "γενέθλια",
+      "prompt": {
+        "en": "Birthday",
+        "ru": "День рождения",
+        "zh": "生日"
+      },
+      "pronunciation": {
+        "en": "ye-NE-thli-a",
+        "ru": "йэ-НЭ-сли-а"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "time"
+      ],
+      "answerDisplay": "τα γενέθλια"
+    },
+    {
+      "id": "nov05-sometime",
+      "collection": "words-descriptions",
+      "greek": "κάποτε",
+      "prompt": {
+        "en": "Sometime / once / occasionally",
+        "ru": "Когда-то / когда-нибудь / порой",
+        "zh": "曾经／将来某时／偶尔"
+      },
+      "pronunciation": {
+        "en": "KA-po-te",
+        "ru": "КА-по-тэ"
+      },
+      "labels": [
+        "adverb"
+      ],
+      "themes": [
+        "time"
+      ],
+      "explanation": {
+        "en": "Κάποτε can mean at some time in the past or future, or occasionally. Μερικές φορές is a clear everyday way to say sometimes.",
+        "ru": "Κάποτε — когда-то, когда-нибудь, а также порой. Для обычного «иногда» подходит μερικές φορές.",
+        "zh": "Κάποτε 可指过去或未来某时，也可表示偶尔。常用 μερικές φορές 表示有时。"
+      }
+    },
+    {
+      "id": "nov05-until",
+      "collection": "words-connectors",
+      "greek": "ως",
+      "prompt": {
+        "en": "Until / as far as (short form)",
+        "ru": "До (короткий предлог)",
+        "zh": "直到（简短形式）"
+      },
+      "pronunciation": {
+        "en": "os",
+        "ru": "ос"
+      },
+      "labels": [
+        "preposition"
+      ],
+      "themes": [
+        "travel"
+      ]
+    },
+    {
+      "id": "nov05-patras",
+      "collection": "words-names",
+      "greek": "Πάτρα",
+      "prompt": {
+        "en": "Patras",
+        "ru": "Патры",
+        "zh": "帕特雷"
+      },
+      "pronunciation": {
+        "en": "PA-tra",
+        "ru": "ПА-тра"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "places"
+      ],
+      "answerDisplay": "η Πάτρα"
+    },
+    {
+      "id": "nov05-alexandroupoli",
+      "collection": "words-names",
+      "greek": "Αλεξανδρούπολη",
+      "prompt": {
+        "en": "Alexandroupoli",
+        "ru": "Александруполис",
+        "zh": "亚历山德鲁波利斯"
+      },
+      "pronunciation": {
+        "en": "a-le-ksan-DHRU-po-li",
+        "ru": "а-лэ-ксан-ДРУ-по-ли"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "places"
+      ],
+      "answerDisplay": "η Αλεξανδρούπολη"
+    },
+    {
+      "id": "nov05-volos",
+      "collection": "words-names",
+      "greek": "Βόλος",
+      "prompt": {
+        "en": "Volos",
+        "ru": "Волос",
+        "zh": "沃洛斯"
+      },
+      "pronunciation": {
+        "en": "VO-los",
+        "ru": "ВО-лос"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "places"
+      ],
+      "answerDisplay": "ο Βόλος"
+    },
+    {
+      "id": "nov05-cairo",
+      "collection": "words-names",
+      "greek": "Κάιρο",
+      "prompt": {
+        "en": "Cairo",
+        "ru": "Каир",
+        "zh": "开罗"
+      },
+      "pronunciation": {
+        "en": "KA-i-ro",
+        "ru": "КА-и-ро"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "places"
+      ],
+      "answerDisplay": "το Κάιρο"
+    },
+    {
+      "id": "nov05-igoumenitsa",
+      "collection": "words-names",
+      "greek": "Ηγουμενίτσα",
+      "prompt": {
+        "en": "Igoumenitsa",
+        "ru": "Игуменица",
+        "zh": "伊古迈尼察"
+      },
+      "pronunciation": {
+        "en": "i-ghu-me-NI-tsa",
+        "ru": "и-гу-мэ-НИ-ца"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "places"
+      ],
+      "answerDisplay": "η Ηγουμενίτσα"
+    },
+    {
+      "id": "nov05-bari",
+      "collection": "words-names",
+      "greek": "Μπάρι",
+      "prompt": {
+        "en": "Bari",
+        "ru": "Бари",
+        "zh": "巴里"
+      },
+      "pronunciation": {
+        "en": "BA-ri",
+        "ru": "БА-ри"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "places"
+      ],
+      "answerDisplay": "το Μπάρι"
+    },
+    {
+      "id": "nov05-pyrgos",
+      "collection": "words-names",
+      "greek": "Πύργος",
+      "prompt": {
+        "en": "Pyrgos (Greek city)",
+        "ru": "Пиргос (город)",
+        "zh": "皮尔戈斯（城市）"
+      },
+      "pronunciation": {
+        "en": "PIR-ghos",
+        "ru": "ПИР-гос"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "places"
+      ],
+      "answerDisplay": "ο Πύργος"
+    },
+    {
+      "id": "nov05-serifos",
+      "collection": "words-names",
+      "greek": "Σέριφος",
+      "prompt": {
+        "en": "Serifos (island)",
+        "ru": "Серифос (остров)",
+        "zh": "塞里福斯岛"
+      },
+      "pronunciation": {
+        "en": "SE-ri-fos",
+        "ru": "СЭ-ри-фос"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "places"
+      ],
+      "answerDisplay": "η Σέριφος"
+    },
+    {
+      "id": "nov05-rafina",
+      "collection": "words-names",
+      "greek": "Ραφήνα",
+      "prompt": {
+        "en": "Rafina",
+        "ru": "Рафина",
+        "zh": "拉菲纳"
+      },
+      "pronunciation": {
+        "en": "ra-FI-na",
+        "ru": "ра-ФИ-на"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "places"
+      ],
+      "answerDisplay": "η Ραφήνα"
+    },
+    {
+      "id": "nov05-lavrio",
+      "collection": "words-names",
+      "greek": "Λαύριο",
+      "prompt": {
+        "en": "Lavrio",
+        "ru": "Лаврион",
+        "zh": "拉夫里奥"
+      },
+      "pronunciation": {
+        "en": "LAV-ri-o",
+        "ru": "ЛАВ-ри-о"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "places"
+      ],
+      "answerDisplay": "το Λαύριο"
+    },
+    {
+      "id": "nov05-nea-ionia",
+      "collection": "words-names",
+      "greek": "Νέα Ιωνία",
+      "prompt": {
+        "en": "Nea Ionia",
+        "ru": "Неа-Иония",
+        "zh": "新伊奥尼亚"
+      },
+      "pronunciation": {
+        "en": "NE-a i-o-NI-a",
+        "ru": "НЭ-а и-о-НИ-а"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "places"
+      ],
+      "answerDisplay": "η Νέα Ιωνία"
+    },
+    {
+      "id": "nov05-attiki",
+      "collection": "words-names",
+      "greek": "Αττική",
+      "prompt": {
+        "en": "Attica / Attiki",
+        "ru": "Аттика / Аттики",
+        "zh": "阿提卡"
+      },
+      "pronunciation": {
+        "en": "a-ti-KI",
+        "ru": "а-ти-КИ"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "places"
+      ],
+      "answerDisplay": "η Αττική"
+    },
+    {
+      "id": "nov05-eritrea",
+      "collection": "words-names",
+      "greek": "Ερυθραία",
+      "prompt": {
+        "en": "Eritrea",
+        "ru": "Эритрея",
+        "zh": "厄立特里亚"
+      },
+      "pronunciation": {
+        "en": "e-ri-THRE-a",
+        "ru": "э-ри-СРЭ-а"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "places"
+      ],
+      "answerDisplay": "η Ερυθραία"
+    },
+    {
+      "id": "nov05-fiji",
+      "collection": "words-names",
+      "greek": "Φίτζι",
+      "prompt": {
+        "en": "Fiji",
+        "ru": "Фиджи",
+        "zh": "斐济"
+      },
+      "pronunciation": {
+        "en": "FI-dzi",
+        "ru": "ФИ-дзи"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "places"
+      ],
+      "answerDisplay": "τα Φίτζι"
+    },
+    {
+      "id": "nov05-falklands",
+      "collection": "words-names",
+      "greek": "Φόκλαντ",
+      "prompt": {
+        "en": "Falkland Islands",
+        "ru": "Фолклендские острова",
+        "zh": "福克兰群岛"
+      },
+      "pronunciation": {
+        "en": "FO-klant",
+        "ru": "ФО-клант"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "places"
+      ],
+      "answerDisplay": "τα Φόκλαντ",
+      "alternatives": [
+        "Φώκλαντ"
+      ]
+    },
+    {
+      "id": "nov05-estonia",
+      "collection": "words-names",
+      "greek": "Εσθονία",
+      "prompt": {
+        "en": "Estonia",
+        "ru": "Эстония",
+        "zh": "爱沙尼亚"
+      },
+      "pronunciation": {
+        "en": "e-stho-NI-a",
+        "ru": "э-ссо-НИ-а"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "places"
+      ],
+      "answerDisplay": "η Εσθονία"
+    },
+    {
+      "id": "nov05-haifa",
+      "collection": "words-names",
+      "greek": "Χάιφα",
+      "prompt": {
+        "en": "Haifa",
+        "ru": "Хайфа",
+        "zh": "海法"
+      },
+      "pronunciation": {
+        "en": "KHA-i-fa",
+        "ru": "ХА-и-фа"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "places"
+      ],
+      "answerDisplay": "η Χάιφα"
+    },
+    {
+      "id": "nov05-lithuania",
+      "collection": "words-names",
+      "greek": "Λιθουανία",
+      "prompt": {
+        "en": "Lithuania",
+        "ru": "Литва",
+        "zh": "立陶宛"
+      },
+      "pronunciation": {
+        "en": "li-thu-a-NI-a",
+        "ru": "ли-су-а-НИ-а"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "places"
+      ],
+      "answerDisplay": "η Λιθουανία"
+    },
+    {
+      "id": "nov05-philippines",
+      "collection": "words-names",
+      "greek": "Φιλιππίνες",
+      "prompt": {
+        "en": "Philippines",
+        "ru": "Филиппины",
+        "zh": "菲律宾"
+      },
+      "pronunciation": {
+        "en": "fi-li-PI-nes",
+        "ru": "фи-ли-ПИ-нэс"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "places"
+      ],
+      "answerDisplay": "οι Φιλιππίνες"
+    },
+    {
+      "id": "nov05-ethiopia",
+      "collection": "words-names",
+      "greek": "Αιθιοπία",
+      "prompt": {
+        "en": "Ethiopia",
+        "ru": "Эфиопия",
+        "zh": "埃塞俄比亚"
+      },
+      "pronunciation": {
+        "en": "e-thi-o-PI-a",
+        "ru": "э-си-о-ПИ-а"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "places"
+      ],
+      "answerDisplay": "η Αιθιοπία"
+    },
+    {
+      "id": "nov05-finland",
+      "collection": "words-names",
+      "greek": "Φινλανδία",
+      "prompt": {
+        "en": "Finland",
+        "ru": "Финляндия",
+        "zh": "芬兰"
+      },
+      "pronunciation": {
+        "en": "fin-lan-DHI-a",
+        "ru": "фин-лан-ДИ-а"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "places"
+      ],
+      "answerDisplay": "η Φινλανδία"
+    },
+    {
+      "id": "nov05-rethymno",
+      "collection": "words-names",
+      "greek": "Ρέθυμνο",
+      "prompt": {
+        "en": "Rethymno",
+        "ru": "Ретимно",
+        "zh": "雷西姆诺"
+      },
+      "pronunciation": {
+        "en": "RE-thim-no",
+        "ru": "РЭ-сим-но"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "places"
+      ],
+      "answerDisplay": "το Ρέθυμνο"
+    },
+    {
+      "id": "nov05-glyfada",
+      "collection": "words-names",
+      "greek": "Γλυφάδα",
+      "prompt": {
+        "en": "Glyfada",
+        "ru": "Глифада",
+        "zh": "格利法达"
+      },
+      "pronunciation": {
+        "en": "ghli-FA-dha",
+        "ru": "гли-ФА-да"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "places"
+      ],
+      "answerDisplay": "η Γλυφάδα"
+    },
+    {
+      "id": "nov05-corinth",
+      "collection": "words-names",
+      "greek": "Κόρινθος",
+      "prompt": {
+        "en": "Corinth",
+        "ru": "Коринф",
+        "zh": "科林斯"
+      },
+      "pronunciation": {
+        "en": "KO-rin-thos",
+        "ru": "КО-рин-сос"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "places"
+      ],
+      "answerDisplay": "η Κόρινθος"
+    },
+    {
+      "id": "nov05-florina",
+      "collection": "words-names",
+      "greek": "Φλώρινα",
+      "prompt": {
+        "en": "Florina",
+        "ru": "Флорина",
+        "zh": "弗洛里纳"
+      },
+      "pronunciation": {
+        "en": "FLO-ri-na",
+        "ru": "ФЛО-ри-на"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "places"
+      ],
+      "answerDisplay": "η Φλώρινα"
+    },
+    {
+      "id": "nov05-sofia",
+      "collection": "words-names",
+      "greek": "Σόφια",
+      "prompt": {
+        "en": "Sofia (city)",
+        "ru": "София (город)",
+        "zh": "索菲亚（城市）"
+      },
+      "pronunciation": {
+        "en": "SO-fia",
+        "ru": "СО-фиа"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "places"
+      ],
+      "answerDisplay": "η Σόφια"
+    },
+    {
+      "id": "nov05-baghdad",
+      "collection": "words-names",
+      "greek": "Βαγδάτη",
+      "prompt": {
+        "en": "Baghdad",
+        "ru": "Багдад",
+        "zh": "巴格达"
+      },
+      "pronunciation": {
+        "en": "vagh-DHA-ti",
+        "ru": "ваг-ДА-ти"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "places"
+      ],
+      "answerDisplay": "η Βαγδάτη"
+    },
+    {
+      "id": "nov05-budapest",
+      "collection": "words-names",
+      "greek": "Βουδαπέστη",
+      "prompt": {
+        "en": "Budapest",
+        "ru": "Будапешт",
+        "zh": "布达佩斯"
+      },
+      "pronunciation": {
+        "en": "vu-dha-PE-sti",
+        "ru": "ву-да-ПЭ-сти"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "places"
+      ],
+      "answerDisplay": "η Βουδαπέστη"
+    },
+    {
+      "id": "nov05-damascus",
+      "collection": "words-names",
+      "greek": "Δαμασκός",
+      "prompt": {
+        "en": "Damascus",
+        "ru": "Дамаск",
+        "zh": "大马士革"
+      },
+      "pronunciation": {
+        "en": "dha-ma-SKOS",
+        "ru": "да-ма-СКОС"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "places"
+      ],
+      "answerDisplay": "η Δαμασκός"
+    },
+    {
+      "id": "nov05-dublin",
+      "collection": "words-names",
+      "greek": "Δουβλίνο",
+      "prompt": {
+        "en": "Dublin",
+        "ru": "Дублин",
+        "zh": "都柏林"
+      },
+      "pronunciation": {
+        "en": "dhu-VLI-no",
+        "ru": "ду-ВЛИ-но"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "places"
+      ],
+      "answerDisplay": "το Δουβλίνο"
+    },
+    {
+      "id": "nov05-thebes",
+      "collection": "words-names",
+      "greek": "Θήβα",
+      "prompt": {
+        "en": "Thebes",
+        "ru": "Фивы",
+        "zh": "底比斯"
+      },
+      "pronunciation": {
+        "en": "THI-va",
+        "ru": "СИ-ва"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "places"
+      ],
+      "answerDisplay": "η Θήβα"
+    },
+    {
+      "id": "nov05-andorra",
+      "collection": "words-names",
+      "greek": "Ανδόρα",
+      "prompt": {
+        "en": "Andorra",
+        "ru": "Андорра",
+        "zh": "安道尔"
+      },
+      "pronunciation": {
+        "en": "an-DHO-ra",
+        "ru": "ан-ДО-ра"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "places"
+      ],
+      "answerDisplay": "η Ανδόρα",
+      "alternatives": [
+        "Ανδόρρα"
+      ]
+    },
+    {
+      "id": "nov05-bermuda",
+      "collection": "words-names",
+      "greek": "Βερμούδες",
+      "prompt": {
+        "en": "Bermuda (islands)",
+        "ru": "Бермудские острова",
+        "zh": "百慕大群岛"
+      },
+      "pronunciation": {
+        "en": "ver-MU-dhes",
+        "ru": "вэр-МУ-дэс"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "places"
+      ],
+      "answerDisplay": "οι Βερμούδες"
+    },
+    {
+      "id": "nov05-india",
+      "collection": "words-names",
+      "greek": "Ινδία",
+      "prompt": {
+        "en": "India",
+        "ru": "Индия",
+        "zh": "印度"
+      },
+      "pronunciation": {
+        "en": "in-DHI-a",
+        "ru": "ин-ДИ-а"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "places"
+      ],
+      "answerDisplay": "η Ινδία"
+    },
+    {
+      "id": "nov05-jordan",
+      "collection": "words-names",
+      "greek": "Ιορδανία",
+      "prompt": {
+        "en": "Jordan",
+        "ru": "Иордания",
+        "zh": "约旦"
+      },
+      "pronunciation": {
+        "en": "i-or-dha-NI-a",
+        "ru": "и-ор-да-НИ-а"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "places"
+      ],
+      "answerDisplay": "η Ιορδανία"
+    },
+    {
+      "id": "nov05-ireland",
+      "collection": "words-names",
+      "greek": "Ιρλανδία",
+      "prompt": {
+        "en": "Ireland",
+        "ru": "Ирландия",
+        "zh": "爱尔兰"
+      },
+      "pronunciation": {
+        "en": "ir-lan-DHI-a",
+        "ru": "ир-лан-ДИ-а"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "places"
+      ],
+      "answerDisplay": "η Ιρλανδία"
+    },
+    {
+      "id": "nov05-saudi-arabia",
+      "collection": "words-names",
+      "greek": "Σαουδική Αραβία",
+      "prompt": {
+        "en": "Saudi Arabia",
+        "ru": "Саудовская Аравия",
+        "zh": "沙特阿拉伯"
+      },
+      "pronunciation": {
+        "en": "sa-u-dhi-KI a-ra-VI-a",
+        "ru": "са-у-ди-КИ а-ра-ВИ-а"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "places"
+      ],
+      "answerDisplay": "η Σαουδική Αραβία"
+    },
+    {
+      "id": "nov05-zakynthos",
+      "collection": "words-names",
+      "greek": "Ζάκυνθος",
+      "prompt": {
+        "en": "Zakynthos",
+        "ru": "Закинф",
+        "zh": "扎金索斯"
+      },
+      "pronunciation": {
+        "en": "ZA-kin-thos",
+        "ru": "ЗА-кин-сос"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "places"
+      ],
+      "answerDisplay": "η Ζάκυνθος"
+    },
+    {
+      "id": "nov05-didymoteicho",
+      "collection": "words-names",
+      "greek": "Διδυμότειχο",
+      "prompt": {
+        "en": "Didymoteicho",
+        "ru": "Дидимотихон",
+        "zh": "季季莫蒂霍"
+      },
+      "pronunciation": {
+        "en": "dhi-dhi-MO-ti-kho",
+        "ru": "ди-ди-МО-ти-хо"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "places"
+      ],
+      "answerDisplay": "το Διδυμότειχο"
+    },
+    {
+      "id": "nov05-rhodes",
+      "collection": "words-names",
+      "greek": "Ρόδος",
+      "prompt": {
+        "en": "Rhodes",
+        "ru": "Родос",
+        "zh": "罗得岛"
+      },
+      "pronunciation": {
+        "en": "RO-dhos",
+        "ru": "РО-дос"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "places"
+      ],
+      "answerDisplay": "η Ρόδος"
+    },
+    {
+      "id": "nov05-madrid",
+      "collection": "words-names",
+      "greek": "Μαδρίτη",
+      "prompt": {
+        "en": "Madrid",
+        "ru": "Мадрид",
+        "zh": "马德里"
+      },
+      "pronunciation": {
+        "en": "ma-DHRI-ti",
+        "ru": "ма-ДРИ-ти"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "places"
+      ],
+      "answerDisplay": "η Μαδρίτη"
+    },
+    {
+      "id": "nov05-votanikos",
+      "collection": "words-names",
+      "greek": "Βοτανικός",
+      "prompt": {
+        "en": "Votanikos (Athens district)",
+        "ru": "Вотаникос (район Афин)",
+        "zh": "沃塔尼科斯（雅典地区）"
+      },
+      "pronunciation": {
+        "en": "vo-ta-ni-KOS",
+        "ru": "во-та-ни-КОС"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "places"
+      ],
+      "answerDisplay": "ο Βοτανικός"
+    },
+    {
+      "id": "nov05-kallithea",
+      "collection": "words-names",
+      "greek": "Καλλιθέα",
+      "prompt": {
+        "en": "Kallithea",
+        "ru": "Калитея",
+        "zh": "卡利塞亚"
+      },
+      "pronunciation": {
+        "en": "ka-li-THE-a",
+        "ru": "ка-ли-СЭ-а"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "places"
+      ],
+      "answerDisplay": "η Καλλιθέα"
+    },
+    {
+      "id": "nov05-agios-artemios",
+      "collection": "words-names",
+      "greek": "Άγιος Αρτέμιος",
+      "prompt": {
+        "en": "Agios Artemios (Athens district)",
+        "ru": "Айос-Артемиос (район Афин)",
+        "zh": "阿吉奥斯阿尔特米奥斯（雅典地区）"
+      },
+      "pronunciation": {
+        "en": "A-yios ar-TE-mi-os",
+        "ru": "А-йиос ар-ТЭ-ми-ос"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "places"
+      ],
+      "answerDisplay": "ο Άγιος Αρτέμιος"
+    },
+    {
+      "id": "nov05-kaisariani",
+      "collection": "words-names",
+      "greek": "Καισαριανή",
+      "prompt": {
+        "en": "Kaisariani",
+        "ru": "Кесариани",
+        "zh": "凯萨里亚尼"
+      },
+      "pronunciation": {
+        "en": "ke-sa-ria-NI",
+        "ru": "кэ-са-риа-НИ"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "places"
+      ],
+      "answerDisplay": "η Καισαριανή"
+    },
+    {
+      "id": "nov05-brazil",
+      "collection": "words-names",
+      "greek": "Βραζιλία",
+      "prompt": {
+        "en": "Brazil",
+        "ru": "Бразилия",
+        "zh": "巴西"
+      },
+      "pronunciation": {
+        "en": "vra-zi-LI-a",
+        "ru": "вра-зи-ЛИ-а"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "places"
+      ],
+      "answerDisplay": "η Βραζιλία"
+    },
+    {
+      "id": "nov05-practice-walk-dog",
+      "collection": "phrases-everyday",
+      "greek": "Βγάζω βόλτα τον σκύλο.",
+      "prompt": {
+        "en": "I take the dog for a walk.",
+        "ru": "Выгуливаю собаку.",
+        "zh": "我遛狗。"
+      },
+      "pronunciation": {
+        "en": "VGHA-zo VOL-ta ton SKI-lo",
+        "ru": "ВГА-зо ВОЛ-та тон СКИ-ло"
+      },
+      "themes": [
+        "conversation"
+      ]
+    },
+    {
+      "id": "nov05-practice-leave-message",
+      "collection": "phrases-everyday",
+      "greek": "Αφήνω μήνυμα.",
+      "prompt": {
+        "en": "I leave a message.",
+        "ru": "Оставляю сообщение.",
+        "zh": "我留言。"
+      },
+      "pronunciation": {
+        "en": "a-FI-no MI-ni-ma",
+        "ru": "а-ФИ-но МИ-ни-ма"
+      },
+      "themes": [
+        "time"
+      ]
+    },
+    {
+      "id": "nov05-practice-go-sleep",
+      "collection": "phrases-everyday",
+      "greek": "Πάω για ύπνο.",
+      "prompt": {
+        "en": "I go to bed.",
+        "ru": "Иду спать.",
+        "zh": "我去睡觉。"
+      },
+      "pronunciation": {
+        "en": "PA-o ya IP-no",
+        "ru": "ПА-о йа ИП-но"
+      },
+      "themes": [
+        "conversation"
+      ]
+    },
+    {
+      "id": "nov05-practice-go-drink",
+      "collection": "phrases-everyday",
+      "greek": "Πάω για ποτό.",
+      "prompt": {
+        "en": "I go out for a drink.",
+        "ru": "Иду выпить.",
+        "zh": "我出去喝一杯。"
+      },
+      "pronunciation": {
+        "en": "PA-o ya po-TO",
+        "ru": "ПА-о йа по-ТО"
+      },
+      "themes": [
+        "conversation"
+      ]
+    },
+    {
+      "id": "nov05-practice-go-out",
+      "collection": "phrases-everyday",
+      "greek": "Βγαίνω έξω.",
+      "prompt": {
+        "en": "I go outside / go out.",
+        "ru": "Выхожу на улицу.",
+        "zh": "我出门。"
+      },
+      "pronunciation": {
+        "en": "VGHE-no E-kso",
+        "ru": "ВГЭ-но Э-ксо"
+      },
+      "themes": [
+        "conversation"
+      ]
+    },
+    {
+      "id": "nov05-practice-many-times",
+      "collection": "phrases-everyday",
+      "greek": "Πολλές φορές.",
+      "prompt": {
+        "en": "Many times / often (two words).",
+        "ru": "Много раз / часто (два слова).",
+        "zh": "很多次（两个词）。"
+      },
+      "pronunciation": {
+        "en": "po-LES fo-RES",
+        "ru": "по-ЛЭС фо-РЭС"
+      },
+      "themes": [
+        "conversation"
+      ]
+    },
+    {
+      "id": "nov05-practice-sometimes",
+      "collection": "phrases-everyday",
+      "greek": "Μερικές φορές.",
+      "prompt": {
+        "en": "Sometimes (literally “some times”).",
+        "ru": "Иногда (буквально «некоторые разы»).",
+        "zh": "有时（字面为某些次）。"
+      },
+      "pronunciation": {
+        "en": "me-ri-KES fo-RES",
+        "ru": "мэ-ри-КЭС фо-РЭС"
+      },
+      "themes": [
+        "conversation"
+      ],
+      "alternatives": [
+        "Καμιά φορά.",
+        "Καμία φορά."
+      ]
+    },
+    {
+      "id": "nov05-practice-occasionally",
+      "collection": "phrases-everyday",
+      "greek": "Κάπου κάπου.",
+      "prompt": {
+        "en": "Every now and then (same word twice).",
+        "ru": "Время от времени (одно слово дважды).",
+        "zh": "偶尔（同一个词重复两次）。"
+      },
+      "pronunciation": {
+        "en": "KA-pu KA-pu",
+        "ru": "КА-пу КА-пу"
+      },
+      "themes": [
+        "conversation"
+      ]
+    },
+    {
+      "id": "nov05-practice-now-and-then",
+      "collection": "phrases-everyday",
+      "greek": "Πότε πότε.",
+      "prompt": {
+        "en": "Now and then (repeat the word for “when”).",
+        "ru": "Время от времени (повторите слово «когда»).",
+        "zh": "时不时（重复表示何时的词）。"
+      },
+      "pronunciation": {
+        "en": "PO-te PO-te",
+        "ru": "ПО-тэ ПО-тэ"
+      },
+      "themes": [
+        "conversation"
+      ]
+    },
+    {
+      "id": "nov05-practice-cant-believe",
+      "collection": "phrases-social",
+      "greek": "Δεν το πιστεύω!",
+      "prompt": {
+        "en": "I can’t believe it!",
+        "ru": "Не могу поверить!",
+        "zh": "真不敢相信！"
+      },
+      "pronunciation": {
+        "en": "dhen to pi-STEV-o",
+        "ru": "дэн то пи-СТЭВ-о"
+      },
+      "themes": [
+        "conversation"
+      ]
+    },
+    {
+      "id": "nov05-practice-hang-out",
+      "collection": "phrases-social",
+      "greek": "Κάνω παρέα.",
+      "prompt": {
+        "en": "I hang out / keep company.",
+        "ru": "Общаюсь / провожу время в компании.",
+        "zh": "我和人作伴。"
+      },
+      "pronunciation": {
+        "en": "KA-no pa-RE-a",
+        "ru": "КА-но па-РЭ-а"
+      },
+      "themes": [
+        "conversation"
+      ]
+    },
+    {
+      "id": "nov05-practice-good-idea",
+      "collection": "phrases-social",
+      "greek": "Ωραία ιδέα!",
+      "prompt": {
+        "en": "Nice idea!",
+        "ru": "Хорошая идея!",
+        "zh": "好主意！"
+      },
+      "pronunciation": {
+        "en": "o-RE-a i-DHE-a",
+        "ru": "о-РЭ-а и-ДЭ-а"
+      },
+      "themes": [
+        "conversation"
+      ]
+    },
+    {
+      "id": "nov05-practice-all-well",
+      "collection": "phrases-social",
+      "greek": "Όλα καλά;",
+      "prompt": {
+        "en": "Everything all right?",
+        "ru": "Всё хорошо?",
+        "zh": "一切都好吗？"
+      },
+      "pronunciation": {
+        "en": "O-la ka-LA",
+        "ru": "О-ла ка-ЛА"
+      },
+      "themes": [
+        "conversation"
+      ]
+    },
+    {
+      "id": "nov05-practice-having-good-time",
+      "collection": "phrases-social",
+      "greek": "Περνάω πολύ καλά.",
+      "prompt": {
+        "en": "I am having a very good time.",
+        "ru": "Очень хорошо провожу время.",
+        "zh": "我过得很愉快。"
+      },
+      "pronunciation": {
+        "en": "per-NA-o po-LI ka-LA",
+        "ru": "пэр-НА-о по-ЛИ ка-ЛА"
+      },
+      "themes": [
+        "conversation"
+      ],
+      "alternatives": [
+        "Περνώ πολύ καλά."
+      ]
+    },
+    {
+      "id": "nov05-practice-kisses",
+      "collection": "phrases-social",
+      "greek": "Πολλά φιλιά!",
+      "prompt": {
+        "en": "Lots of kisses!",
+        "ru": "Целую! (буквально «много поцелуев»)",
+        "zh": "吻你！"
+      },
+      "pronunciation": {
+        "en": "po-LA fi-LIA",
+        "ru": "по-ЛА фи-ЛИА"
+      },
+      "themes": [
+        "conversation"
+      ]
+    },
+    {
+      "id": "nov05-practice-weather-question",
+      "collection": "phrases-everyday",
+      "greek": "Τι καιρό κάνει;",
+      "prompt": {
+        "en": "What is the weather like?",
+        "ru": "Какая погода?",
+        "zh": "天气怎么样？"
+      },
+      "pronunciation": {
+        "en": "ti ke-RO KA-ni",
+        "ru": "ти кэ-РО КА-ни"
+      },
+      "themes": [
+        "conversation"
+      ]
+    },
+    {
+      "id": "nov05-practice-hot-weather",
+      "collection": "phrases-everyday",
+      "greek": "Κάνει ζέστη.",
+      "prompt": {
+        "en": "It is hot (the weather).",
+        "ru": "Жарко (о погоде).",
+        "zh": "天气很热。"
+      },
+      "pronunciation": {
+        "en": "KA-ni ZES-ti",
+        "ru": "КА-ни ЗЭС-ти"
+      },
+      "themes": [
+        "conversation"
+      ]
+    },
+    {
+      "id": "nov05-practice-cold-weather",
+      "collection": "phrases-everyday",
+      "greek": "Κάνει κρύο.",
+      "prompt": {
+        "en": "It is cold (the weather).",
+        "ru": "Холодно (о погоде).",
+        "zh": "天气很冷。"
+      },
+      "pronunciation": {
+        "en": "KA-ni KRI-o",
+        "ru": "КА-ни КРИ-о"
+      },
+      "themes": [
+        "conversation"
+      ]
+    },
+    {
+      "id": "nov05-practice-swim-sea",
+      "collection": "phrases-everyday",
+      "greek": "Κάνω μπάνιο στην θάλασσα.",
+      "prompt": {
+        "en": "I swim / bathe in the sea.",
+        "ru": "Купаюсь в море.",
+        "zh": "我在海里游泳。"
+      },
+      "pronunciation": {
+        "en": "KA-no BA-nio stin THA-la-sa",
+        "ru": "КА-но БА-нио стин СА-ла-са"
+      },
+      "themes": [
+        "conversation"
+      ]
+    },
+    {
+      "id": "nov05-practice-ski",
+      "collection": "phrases-everyday",
+      "greek": "Κάνω σκι.",
+      "prompt": {
+        "en": "I ski.",
+        "ru": "Катаюсь на лыжах.",
+        "zh": "我滑雪。"
+      },
+      "pronunciation": {
+        "en": "KA-no ski",
+        "ru": "КА-но ски"
+      },
+      "themes": [
+        "conversation"
+      ]
+    },
+    {
+      "id": "nov05-practice-why-not",
+      "collection": "phrases-social",
+      "greek": "Γιατί όχι;",
+      "prompt": {
+        "en": "Why not?",
+        "ru": "Почему бы и нет?",
+        "zh": "为什么不呢？"
+      },
+      "pronunciation": {
+        "en": "ya-TI O-khi",
+        "ru": "йа-ТИ О-хи"
+      },
+      "themes": [
+        "conversation"
+      ]
+    },
+    {
+      "id": "nov05-practice-agreed",
+      "collection": "phrases-social",
+      "greek": "Έγινε!",
+      "prompt": {
+        "en": "Agreed! / Done! (confirming a plan)",
+        "ru": "Договорились!",
+        "zh": "说定了！"
+      },
+      "pronunciation": {
+        "en": "E-yi-ne",
+        "ru": "Э-йи-нэ"
+      },
+      "themes": [
+        "conversation"
+      ]
+    },
+    {
+      "id": "nov05-practice-go-shopping",
+      "collection": "phrases-everyday",
+      "greek": "Πάω για ψώνια.",
+      "prompt": {
+        "en": "I go shopping.",
+        "ru": "Иду за покупками.",
+        "zh": "我去购物。"
+      },
+      "pronunciation": {
+        "en": "PA-o ya PSO-nia",
+        "ru": "ПА-о йа ПСО-ниа"
+      },
+      "themes": [
+        "conversation"
+      ]
+    },
+    {
+      "id": "nov05-practice-do-shopping",
+      "collection": "phrases-everyday",
+      "greek": "Κάνω ψώνια.",
+      "prompt": {
+        "en": "I do the shopping.",
+        "ru": "Делаю покупки (фраза с «делаю»).",
+        "zh": "我购物（用“做”的表达）。"
+      },
+      "pronunciation": {
+        "en": "KA-no PSO-nia",
+        "ru": "КА-но ПСО-ниа"
+      },
+      "themes": [
+        "conversation"
+      ]
+    },
+    {
+      "id": "nov05-practice-housework",
+      "collection": "phrases-everyday",
+      "greek": "Κάνω δουλειές στο σπίτι.",
+      "prompt": {
+        "en": "I do chores at home.",
+        "ru": "Занимаюсь домашними делами.",
+        "zh": "我在家做家务。"
+      },
+      "pronunciation": {
+        "en": "KA-no dhu-LIES sto SPI-ti",
+        "ru": "КА-но ду-ЛИЭС сто СПИ-ти"
+      },
+      "themes": [
+        "conversation"
+      ]
+    },
+    {
+      "id": "nov05-practice-wash-dishes",
+      "collection": "phrases-everyday",
+      "greek": "Πλένω τα πιάτα.",
+      "prompt": {
+        "en": "I wash the dishes.",
+        "ru": "Мою посуду.",
+        "zh": "我洗碗。"
+      },
+      "pronunciation": {
+        "en": "PLE-no ta PIA-ta",
+        "ru": "ПЛЭ-но та ПИА-та"
+      },
+      "themes": [
+        "conversation"
+      ]
+    },
+    {
+      "id": "nov05-practice-single-ticket",
+      "collection": "phrases-everyday",
+      "greek": "Ένα απλό εισιτήριο, παρακαλώ.",
+      "prompt": {
+        "en": "A one-way ticket, please.",
+        "ru": "Билет в одну сторону, пожалуйста.",
+        "zh": "请给我一张单程票。"
+      },
+      "pronunciation": {
+        "en": "E-na a-PLO i-si-TI-ri-o pa-ra-ka-LO",
+        "ru": "Э-на а-ПЛО и-си-ТИ-ри-о па-ра-ка-ЛО"
+      },
+      "themes": [
+        "conversation"
+      ]
+    },
+    {
+      "id": "nov05-practice-with-me",
+      "collection": "phrases-everyday",
+      "greek": "Μαζί μου.",
+      "prompt": {
+        "en": "With me.",
+        "ru": "Со мной.",
+        "zh": "和我一起。"
+      },
+      "pronunciation": {
+        "en": "ma-ZI mu",
+        "ru": "ма-ЗИ му"
+      },
+      "themes": [
+        "conversation"
+      ]
+    },
+    {
+      "id": "nov05-practice-by-card",
+      "collection": "phrases-everyday",
+      "greek": "Με κάρτα.",
+      "prompt": {
+        "en": "By card (payment).",
+        "ru": "Картой (оплата).",
+        "zh": "刷卡。"
+      },
+      "pronunciation": {
+        "en": "me KAR-ta",
+        "ru": "мэ КАР-та"
+      },
+      "themes": [
+        "conversation"
+      ]
+    },
+    {
+      "id": "nov05-practice-percent",
+      "collection": "phrases-everyday",
+      "greek": "Τοις εκατό.",
+      "prompt": {
+        "en": "Percent.",
+        "ru": "Процентов.",
+        "zh": "百分之。"
+      },
+      "pronunciation": {
+        "en": "tis e-ka-TO",
+        "ru": "тис э-ка-ТО"
+      },
+      "themes": [
+        "conversation"
+      ]
+    },
+    {
+      "id": "nov05-practice-never-mind",
+      "collection": "phrases-social",
+      "greek": "Δεν πειράζει.",
+      "prompt": {
+        "en": "Never mind / it doesn’t matter.",
+        "ru": "Ничего страшного.",
+        "zh": "没关系。"
+      },
+      "pronunciation": {
+        "en": "dhen pi-RA-zi",
+        "ru": "дэн пи-РА-зи"
+      },
+      "themes": [
+        "conversation"
+      ]
+    },
+    {
+      "id": "nov05-practice-sunny",
+      "collection": "phrases-everyday",
+      "greek": "Έχει ήλιο.",
+      "prompt": {
+        "en": "It is sunny.",
+        "ru": "Солнечно.",
+        "zh": "晴天。"
+      },
+      "pronunciation": {
+        "en": "E-khi I-lio",
+        "ru": "Э-хи И-лио"
+      },
+      "themes": [
+        "conversation"
+      ]
+    },
+    {
+      "id": "nov05-practice-cloudy",
+      "collection": "phrases-everyday",
+      "greek": "Έχει συννεφιά.",
+      "prompt": {
+        "en": "It is cloudy.",
+        "ru": "Пасмурно.",
+        "zh": "阴天。"
+      },
+      "pronunciation": {
+        "en": "E-khi si-ne-FIA",
+        "ru": "Э-хи си-нэ-ФИА"
+      },
+      "themes": [
+        "conversation"
+      ]
+    },
+    {
+      "id": "nov05-practice-snow",
+      "collection": "grammar-verbs",
+      "greek": "Χιονίζει.",
+      "prompt": {
+        "en": "It is snowing.",
+        "ru": "Идёт снег.",
+        "zh": "正在下雪。"
+      },
+      "pronunciation": {
+        "en": "khio-NI-zi",
+        "ru": "хио-НИ-зи"
+      },
+      "themes": [
+        "conversation"
+      ]
+    },
+    {
+      "id": "nov05-practice-windy",
+      "collection": "grammar-verbs-b1",
+      "greek": "Φυσάει.",
+      "prompt": {
+        "en": "It is windy / the wind is blowing.",
+        "ru": "Дует ветер.",
+        "zh": "刮风。"
+      },
+      "pronunciation": {
+        "en": "fi-SA-i",
+        "ru": "фи-СА-и"
+      },
+      "themes": [
+        "conversation"
+      ],
+      "alternatives": [
+        "Φυσά."
+      ]
+    },
+    {
+      "id": "nov05-practice-depends",
+      "collection": "phrases-social",
+      "greek": "Εξαρτάται.",
+      "prompt": {
+        "en": "It depends.",
+        "ru": "Зависит от обстоятельств.",
+        "zh": "看情况。"
+      },
+      "pronunciation": {
+        "en": "e-ksar-TA-te",
+        "ru": "э-ксар-ТА-тэ"
+      },
+      "themes": [
+        "conversation"
+      ]
+    },
+    {
+      "id": "nov05-practice-birthday-question",
+      "collection": "phrases-social",
+      "greek": "Πότε είναι τα γενέθλιά σου;",
+      "prompt": {
+        "en": "When is your birthday? (informal)",
+        "ru": "Когда у тебя день рождения?",
+        "zh": "你的生日是什么时候？"
+      },
+      "pronunciation": {
+        "en": "PO-te I-ne ta ye-NE-thli-A su",
+        "ru": "ПО-тэ И-нэ та йэ-НЭ-сли-А су"
+      },
+      "themes": [
+        "time"
+      ],
+      "explanation": {
+        "en": "Γενέθλια is plural. Before the unstressed σου it takes an extra accent: γενέθλιά σου.",
+        "ru": "Γενέθλια — множественное число. Перед безударным σου добавляется второе ударение: γενέθλιά σου.",
+        "zh": "Γενέθλια 是复数。在非重读的 σου 前要加第二个重音：γενέθλιά σου。"
+      }
+    },
+    {
+      "id": "nov05-practice-day-question",
+      "collection": "phrases-everyday",
+      "greek": "Τι μέρα είναι σήμερα;",
+      "prompt": {
+        "en": "What day of the week is it today?",
+        "ru": "Какой сегодня день недели?",
+        "zh": "今天星期几？"
+      },
+      "pronunciation": {
+        "en": "ti ME-ra I-ne SI-me-ra",
+        "ru": "ти МЭ-ра И-нэ СИ-мэ-ра"
+      },
+      "themes": [
+        "time"
+      ]
+    },
+    {
+      "id": "nov05-practice-date-question",
+      "collection": "phrases-everyday",
+      "greek": "Πόσες έχουμε σήμερα;",
+      "prompt": {
+        "en": "What is today’s date? (everyday expression)",
+        "ru": "Какое сегодня число? (разговорное выражение)",
+        "zh": "今天几号？"
+      },
+      "pronunciation": {
+        "en": "PO-ses E-khu-me SI-me-ra",
+        "ru": "ПО-сэс Э-ху-мэ СИ-мэ-ра"
+      },
+      "themes": [
+        "time"
+      ]
+    },
+    {
+      "id": "nov05-practice-long-duration",
+      "collection": "grammar-questions",
+      "greek": "Πόσον καιρό μαθαίνεις ελληνικά;",
+      "prompt": {
+        "en": "How long have you been learning Greek? (informal; months or years)",
+        "ru": "Как давно ты учишь греческий? (месяцы или годы)",
+        "zh": "你学希腊语多久了？（月或年）"
+      },
+      "pronunciation": {
+        "en": "PO-son ke-RO ma-THE-nis e-li-ni-KA",
+        "ru": "ПО-сон кэ-РО ма-СЭ-нис э-ли-ни-КА"
+      },
+      "themes": [
+        "time"
+      ],
+      "acceptedAnswers": [
+        "Πόσο καιρό μαθαίνεις ελληνικά;"
+      ],
+      "explanation": {
+        "en": "Use πόσον καιρό for a longer period. Greek present tense describes an action still continuing; English often uses “have been”.",
+        "ru": "Πόσον καιρό — о длительном периоде. Для продолжающегося действия используется настоящее время.",
+        "zh": "Πόσον καιρό 询问较长时间。仍在持续的动作使用希腊语现在时。"
+      }
+    },
+    {
+      "id": "nov05-practice-short-duration",
+      "collection": "grammar-questions",
+      "greek": "Πόση ώρα περιμένεις;",
+      "prompt": {
+        "en": "How long have you been waiting? (informal; minutes or hours)",
+        "ru": "Сколько времени ты ждёшь? (минуты или часы)",
+        "zh": "你等了多久？（分钟或小时）"
+      },
+      "pronunciation": {
+        "en": "PO-si O-ra pe-ri-ME-nis",
+        "ru": "ПО-си О-ра пэ-ри-МЭ-нис"
+      },
+      "themes": [
+        "time"
+      ],
+      "explanation": {
+        "en": "Πόση ώρα asks about a shorter duration, usually minutes or hours; πόσον καιρό usually concerns days, months or years.",
+        "ru": "Πόση ώρα — обычно о минутах или часах; πόσον καιρό — о днях, месяцах или годах.",
+        "zh": "Πόση ώρα 通常问分钟或小时；πόσον καιρό 通常问天、月或年。"
+      }
+    },
+    {
+      "id": "nov05-practice-age-question",
+      "collection": "grammar-questions",
+      "greek": "Πόσων χρονών είσαι;",
+      "prompt": {
+        "en": "How old are you? (informal)",
+        "ru": "Сколько тебе лет?",
+        "zh": "你几岁？"
+      },
+      "pronunciation": {
+        "en": "PO-son khro-NON I-se",
+        "ru": "ПО-сон хро-НОН И-сэ"
+      },
+      "themes": [
+        "time"
+      ],
+      "explanation": {
+        "en": "Age uses the genitive χρονών. Duration uses χρόνια: δύο χρόνια = for two years.",
+        "ru": "Возраст: родительный падеж χρονών. Длительность: χρόνια — например, δύο χρόνια, «два года».",
+        "zh": "年龄用属格 χρονών；持续时间用 χρόνια，如 δύο χρόνια 表示两年。"
+      }
+    },
+    {
+      "id": "nov05-practice-ongoing-duration",
+      "collection": "grammar-nouns",
+      "greek": "Μένω εδώ και έναν χρόνο στην Κύπρο.",
+      "prompt": {
+        "en": "I have been living in Cyprus for a year (using “for” to emphasise the duration).",
+        "ru": "Живу на Кипре уже год (с выражением, подчёркивающим длительность).",
+        "zh": "我在塞浦路斯已经住了一年（强调持续时间）。"
+      },
+      "pronunciation": {
+        "en": "ME-no e-DHO ke E-nan KHRO-no stin KI-pro",
+        "ru": "МЭ-но э-ДО кэ Э-нан ХРО-но стин КИ-про"
+      },
+      "themes": [
+        "time"
+      ],
+      "acceptedAnswers": [
+        "Μένω στην Κύπρο εδώ και έναν χρόνο.",
+        "Μένω εδώ και ένα χρόνο στην Κύπρο.",
+        "Μένω στην Κύπρο εδώ και ένα χρόνο."
+      ],
+      "explanation": {
+        "en": "Εδώ και + duration emphasises how long something has continued. Use the present tense. Έναν χρόνο is accusative duration; age uses χρονών.",
+        "ru": "Εδώ και + длительность подчёркивает, сколько времени продолжается действие. Используйте настоящее время. Έναν χρόνο — длительность в винительном падеже; для возраста — χρονών.",
+        "zh": "Εδώ και 加时间段强调持续了多久，动词用现在时。Έναν χρόνο 是表示持续时间的宾格；年龄用 χρονών。"
+      }
+    },
+    {
+      "id": "nov05-practice-in-month",
+      "collection": "grammar-nouns",
+      "greek": "Τον Ιανουάριο κάνει κρύο.",
+      "prompt": {
+        "en": "It is cold in January.",
+        "ru": "В январе холодно.",
+        "zh": "一月天气冷。"
+      },
+      "pronunciation": {
+        "en": "ton ia-nu-A-ri-o KA-ni KRI-o",
+        "ru": "тон иа-ну-А-ри-о КА-ни КРИ-о"
+      },
+      "themes": [
+        "time"
+      ]
+    },
+    {
+      "id": "nov05-practice-on-weekday",
+      "collection": "grammar-nouns",
+      "greek": "Την Δευτέρα δουλεύω.",
+      "prompt": {
+        "en": "I work on Monday.",
+        "ru": "В понедельник работаю.",
+        "zh": "星期一我工作。"
+      },
+      "pronunciation": {
+        "en": "tin dhef-TE-ra dhu-LEV-o",
+        "ru": "тин дэф-ТЭ-ра ду-ЛЭВ-о"
+      },
+      "themes": [
+        "time"
+      ]
+    },
+    {
+      "id": "nov05-practice-nothing-negative",
+      "collection": "grammar-questions",
+      "greek": "Δεν θέλω τίποτα.",
+      "prompt": {
+        "en": "I don’t want anything.",
+        "ru": "Ничего не хочу.",
+        "zh": "我什么也不想要。"
+      },
+      "pronunciation": {
+        "en": "dhen THE-lo TI-po-ta",
+        "ru": "дэн СЭ-ло ТИ-по-та"
+      },
+      "themes": [
+        "conversation"
+      ]
+    },
+    {
+      "id": "nov05-practice-thousands",
+      "collection": "grammar-gender",
+      "greek": "Τρεις χιλιάδες.",
+      "prompt": {
+        "en": "Three thousand (feminine agreement with “thousands”).",
+        "ru": "Три тысячи (согласование с существительным «тысячи»).",
+        "zh": "三千（与“千”这个阴性名词一致）。"
+      },
+      "pronunciation": {
+        "en": "tris khi-LIA-dhes",
+        "ru": "трис хи-ЛИА-дэс"
+      },
+      "themes": [
+        "conversation"
+      ],
+      "explanation": {
+        "en": "Χιλιάδα is feminine, so use τρεις χιλιάδες, not τρία χιλιάδες. This pattern covers other counts of thousands too.",
+        "ru": "Χιλιάδα — женского рода: τρεις χιλιάδες, не τρία χιλιάδες. То же правило применяется к другим количествам тысяч.",
+        "zh": "Χιλιάδα 是阴性，因此用 τρεις χιλιάδες，不用 τρία χιλιάδες。其他千位数也遵循此规则。"
+      }
+    },
+    {
+      "id": "nov05-practice-say-you",
+      "collection": "grammar-verbs",
+      "greek": "λες",
+      "prompt": {
+        "en": "You say (singular, informal)",
+        "ru": "Говоришь (произносишь что-то конкретное)",
+        "zh": "你说（具体内容）"
+      },
+      "pronunciation": {
+        "en": "les",
+        "ru": "лэс"
+      },
+      "themes": [
+        "conversation"
+      ]
+    },
+    {
+      "id": "nov05-practice-say-he",
+      "collection": "grammar-verbs",
+      "greek": "λέει",
+      "prompt": {
+        "en": "He says",
+        "ru": "Говорит (он, произносит что-то конкретное)",
+        "zh": "他说（具体内容）"
+      },
+      "pronunciation": {
+        "en": "LE-i",
+        "ru": "ЛЭ-и"
+      },
+      "themes": [
+        "conversation"
+      ]
+    },
+    {
+      "id": "nov05-practice-say-we",
+      "collection": "grammar-verbs",
+      "greek": "λέμε",
+      "prompt": {
+        "en": "We say",
+        "ru": "Говорим (произносим что-то конкретное)",
+        "zh": "我们说（具体内容）"
+      },
+      "pronunciation": {
+        "en": "LE-me",
+        "ru": "ЛЭ-мэ"
+      },
+      "themes": [
+        "conversation"
+      ]
+    },
+    {
+      "id": "nov05-practice-say-you-plural",
+      "collection": "grammar-verbs",
+      "greek": "λέτε",
+      "prompt": {
+        "en": "You say (plural)",
+        "ru": "Говорите (вы, несколько человек, произносите что-то конкретное)",
+        "zh": "你们说（具体内容）"
+      },
+      "pronunciation": {
+        "en": "LE-te",
+        "ru": "ЛЭ-тэ"
+      },
+      "themes": [
+        "conversation"
+      ]
+    },
+    {
+      "id": "nov05-practice-say-they",
+      "collection": "grammar-verbs",
+      "greek": "λένε",
+      "prompt": {
+        "en": "They say",
+        "ru": "Говорят (произносят что-то конкретное)",
+        "zh": "他们说（具体内容）"
+      },
+      "pronunciation": {
+        "en": "LE-ne",
+        "ru": "ЛЭ-нэ"
+      },
+      "themes": [
+        "conversation"
+      ]
+    },
+    {
+      "id": "nov05-practice-eat-he",
+      "collection": "grammar-verbs",
+      "greek": "τρώει",
+      "prompt": {
+        "en": "He eats",
+        "ru": "Ест (он)",
+        "zh": "他吃"
+      },
+      "pronunciation": {
+        "en": "TRO-i",
+        "ru": "ТРО-и"
+      },
+      "themes": [
+        "conversation"
+      ]
+    },
+    {
+      "id": "nov05-practice-eat-we",
+      "collection": "grammar-verbs",
+      "greek": "τρώμε",
+      "prompt": {
+        "en": "We eat",
+        "ru": "Едим",
+        "zh": "我们吃"
+      },
+      "pronunciation": {
+        "en": "TRO-me",
+        "ru": "ТРО-мэ"
+      },
+      "themes": [
+        "conversation"
+      ]
+    },
+    {
+      "id": "nov05-practice-eat-you-plural",
+      "collection": "grammar-verbs",
+      "greek": "τρώτε",
+      "prompt": {
+        "en": "You eat (plural)",
+        "ru": "Едите (вы, несколько человек)",
+        "zh": "你们吃"
+      },
+      "pronunciation": {
+        "en": "TRO-te",
+        "ru": "ТРО-тэ"
+      },
+      "themes": [
+        "conversation"
+      ]
+    },
+    {
+      "id": "nov05-practice-eat-they",
+      "collection": "grammar-verbs",
+      "greek": "τρώνε",
+      "prompt": {
+        "en": "They eat",
+        "ru": "Едят",
+        "zh": "他们吃"
+      },
+      "pronunciation": {
+        "en": "TRO-ne",
+        "ru": "ТРО-нэ"
+      },
+      "themes": [
+        "conversation"
+      ]
+    },
+    {
+      "id": "nov05-practice-hear-you",
+      "collection": "grammar-verbs",
+      "greek": "ακούς",
+      "prompt": {
+        "en": "You hear / listen (singular, informal)",
+        "ru": "Слышишь / слушаешь",
+        "zh": "你听"
+      },
+      "pronunciation": {
+        "en": "a-KUS",
+        "ru": "а-КУС"
+      },
+      "themes": [
+        "conversation"
+      ]
+    },
+    {
+      "id": "nov05-practice-hear-he",
+      "collection": "grammar-verbs",
+      "greek": "ακούει",
+      "prompt": {
+        "en": "He hears / listens",
+        "ru": "Слышит / слушает (он)",
+        "zh": "他听"
+      },
+      "pronunciation": {
+        "en": "a-KU-i",
+        "ru": "а-КУ-и"
+      },
+      "themes": [
+        "conversation"
+      ]
+    },
+    {
+      "id": "nov05-practice-hear-we",
+      "collection": "grammar-verbs",
+      "greek": "ακούμε",
+      "prompt": {
+        "en": "We hear / listen",
+        "ru": "Слышим / слушаем",
+        "zh": "我们听"
+      },
+      "pronunciation": {
+        "en": "a-KU-me",
+        "ru": "а-КУ-мэ"
+      },
+      "themes": [
+        "conversation"
+      ]
+    },
+    {
+      "id": "nov05-practice-hear-you-plural",
+      "collection": "grammar-verbs",
+      "greek": "ακούτε",
+      "prompt": {
+        "en": "You hear / listen (plural)",
+        "ru": "Слышите / слушаете (вы, несколько человек)",
+        "zh": "你们听"
+      },
+      "pronunciation": {
+        "en": "a-KU-te",
+        "ru": "а-КУ-тэ"
+      },
+      "themes": [
+        "conversation"
+      ]
+    },
+    {
+      "id": "nov05-practice-hear-they",
+      "collection": "grammar-verbs",
+      "greek": "ακούνε",
+      "prompt": {
+        "en": "They hear / listen",
+        "ru": "Слышат / слушают",
+        "zh": "他们听"
+      },
+      "pronunciation": {
+        "en": "a-KU-ne",
+        "ru": "а-КУ-нэ"
+      },
+      "themes": [
+        "conversation"
+      ],
+      "alternatives": [
+        "ακούν"
+      ]
+    }
+  ]
+}

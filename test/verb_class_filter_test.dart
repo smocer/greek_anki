@@ -49,14 +49,15 @@ void main() {
 
   test('each active verb is classified and other verb types stay unforced', () {
     final collection = verbs();
-    const otherTypes = {'είμαι', 'λέγομαι', 'βρέχομαι', 'κοιμάμαι'};
     for (final card in collection.deck.cards) {
       final classes = (collection.themes[card.id] ?? {}).intersection(
         verbClasses,
       );
       expect(
         classes.isEmpty,
-        otherTypes.contains(card.greek),
+        // Passive/middle present forms (and είμαι) are outside the four
+        // active patterns, including newly imported verbs such as εξαρτώμαι.
+        card.greek.endsWith('μαι'),
         reason: card.greek,
       );
     }

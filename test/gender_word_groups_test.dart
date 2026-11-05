@@ -42,4 +42,28 @@ void main() {
     expect(matcher.matches('μητέρα', father), isFalse);
     expect(matcher.matches('πατέρας', mother), isFalse);
   });
+
+  test('breakfast does not accept the morning adjective gender forms', () {
+    final nouns = currentDictionary.collections.singleWhere(
+      (collection) => collection.deck.id == 'words-nouns',
+    );
+    final breakfast = nouns.deck.cards.singleWhere(
+      (card) => card.greek == 'το πρωινό',
+    );
+    const matcher = GreekAnswer();
+    for (final answer in ['πρωινό', 'το πρωινό']) {
+      expect(matcher.matches(answer, breakfast), isTrue);
+    }
+    for (final answer in ['πρωινός', 'πρωινή', 'ο πρωινό', 'πρωινο']) {
+      expect(matcher.matches(answer, breakfast), isFalse, reason: answer);
+    }
+    final descriptions = currentDictionary.collections.singleWhere(
+      (collection) => collection.deck.id == 'words-descriptions',
+    );
+    final morning = descriptions.deck.cards.singleWhere(
+      (card) => card.wordGroup == 'morning',
+    );
+    expect(matcher.matches('πρωινός', morning), isTrue);
+    expect(matcher.matches('πρωινή', morning), isTrue);
+  });
 }
