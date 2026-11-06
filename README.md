@@ -36,6 +36,8 @@ Choose **Learn & repeat** for unfamiliar material, or **Review all** to check ev
 
 **Review all:** each easy word is checked once. Difficult words return between other cards, including at the end of the batch. This mode always includes every card in the current filter, even cards not yet due.
 
+The progress bar tracks the **first pass**, counting each card once. Below it, **Follow-up** shows how many words still need practice and how many successful spaced checks remain. Familiar cards used to separate difficult-word checks are labelled **Spacing review**, with a countdown that includes the current card. This makes the extra practice visible without promising a fixed finish count: another mistake can add checks. The info button explains these counters; deferred words are listed separately.
+
 After a mistake, a word needs **two successful recalls after a gap**. A quick correction after seeing the answer is useful practice but does not finish the word. The gap is eight other answers, reduced for smaller available pools. Recent difficulty from previous sessions also triggers confirmation. After three failures, **Leave for later** lets you finish the rest; deferred cards stay due and the summary lists them separately from remembered cards.
 
 Back and page reload preserve the selected batch, answers, confirmation steps and review rotation. Another round starts only after finishing the current one. Saved sessions from earlier versions remain usable.

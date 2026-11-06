@@ -7,6 +7,9 @@ import 'package:greek_anki/data/study_session_store.dart';
 import 'package:greek_anki/domain/app_language.dart';
 import 'package:greek_anki/domain/learning_progress.dart';
 import 'package:greek_anki/domain/review_selection.dart';
+import 'package:greek_anki/domain/study_session.dart';
+import 'package:greek_anki/domain/study_session_store.dart';
+import 'package:greek_anki/domain/curriculum.dart';
 import 'package:greek_anki/domain/vocabulary.dart';
 import 'package:greek_anki/presentation/app_strings.dart';
 import 'package:greek_anki/presentation/study_screen.dart';
@@ -33,6 +36,91 @@ void main() {
 
   for (final language in AppLanguage.values) {
     final strings = AppStrings(language);
+    for (final mode in StudyMode.values) {
+      testWidgets(
+        'tail progress explains spacing on phone (${language.code}, $mode)',
+        (tester) async {
+          phone(tester);
+          final deck = currentDictionary.learningDecks.singleWhere(
+            (d) => d.id == 'words-verbs',
+          );
+          final cards = deck.cards.take(87).toList();
+          final session = StudySession(
+            cards: cards,
+            mode: mode,
+            style: SessionStyle.reviewAll,
+            shuffle: false,
+          );
+          addTearDown(session.dispose);
+          for (var i = 0; i < 87; i++) {
+            if (mode == StudyMode.typing) {
+              if (i < 85) {
+                session.checkAnswer(session.current.greek);
+              } else {
+                session.skip();
+              }
+            } else {
+              session.reveal();
+            }
+            session.advance(correct: i < 85);
+          }
+          final sessions = MemoryStudySessionStore();
+          await sessions.write(
+            studySessionKey(
+              deck: deck,
+              mode: mode,
+              limit: null,
+              order: CardOrder.random,
+              style: SessionStyle.reviewAll,
+            ),
+            session.snapshot,
+          );
+          final progress = LearningProgress(MemoryProgressStore());
+          addTearDown(progress.dispose);
+          await tester.pumpWidget(
+            MaterialApp(
+              theme: appTheme,
+              locale: Locale(language.code),
+              supportedLocales: const [
+                Locale('en'),
+                Locale('ru'),
+                Locale('zh'),
+              ],
+              localizationsDelegates: GlobalMaterialLocalizations.delegates,
+              home: StudyScreen(
+                deck: deck,
+                cards: cards,
+                mode: mode,
+                style: SessionStyle.reviewAll,
+                sessionLimit: null,
+                progress: progress,
+                sessionStore: sessions,
+              ),
+            ),
+          );
+          await tester.pumpAndSettle();
+          expect(find.text(strings.firstPassProgress(87, 87)), findsOneWidget);
+          expect(find.text(strings.followUpProgress(2, 4)), findsOneWidget);
+          expect(find.text(strings.spacingReview(7)), findsOneWidget);
+          expect(find.text(strings.progress(85, 87)), findsNothing);
+          expect(
+            tester
+                .widget<LinearProgressIndicator>(
+                  find.byType(LinearProgressIndicator),
+                )
+                .value,
+            1,
+          );
+          final action = mode == StudyMode.typing
+              ? find.byKey(const ValueKey('check-typing'))
+              : find.text(strings.revealAnswer);
+          expect(tester.getRect(action).bottom, lessThanOrEqualTo(700));
+          await tap(tester, find.byTooltip(strings.sessionProgressHelp));
+          expect(find.text(strings.sessionProgressExplanation), findsOneWidget);
+          expect(tester.takeException(), isNull);
+        },
+      );
+    }
     testWidgets(
       'Review all is reachable and includes the whole filter (${language.code})',
       (tester) async {

@@ -107,6 +107,68 @@ void main() {
   );
 
   for (final mode in StudyMode.values) {
+    test('87-card progress separates coverage, checks and spacing ($mode)', () {
+      final session = StudySession(
+        cards: cards.take(87).toList(),
+        mode: mode,
+        style: SessionStyle.reviewAll,
+        shuffle: false,
+        random: Random(42),
+      );
+      addTearDown(session.dispose);
+      for (var i = 0; i < 87; i++) {
+        expect(session.checkedCount, i);
+        expect(session.uncheckedCount, 87 - i);
+        answer(session, correct: i < 85);
+      }
+      expect(session.completed, 85);
+      expect(session.checkedCount, 87);
+      expect(session.uncheckedCount, 0);
+      expect(session.awaitingConfirmation, 2);
+      expect(session.confirmationsRemaining, 4);
+      expect(session.isSpacingReview, isTrue);
+      expect(session.spacingCardsRemaining, 7);
+
+      final restored = StudySession.restore(
+        cards: cards,
+        snapshot: decodeStudySession(encodeStudySession(session.snapshot)),
+      );
+      addTearDown(restored.dispose);
+      expect(restored.checkedCount, 87);
+      expect(restored.confirmationsRemaining, 4);
+      expect(restored.spacingCardsRemaining, 7);
+      expect(restored.isSpacingReview, isTrue);
+
+      var extraCards = 0;
+      for (; !restored.isComplete && extraCards < 60; extraCards++) {
+        final checks = restored.confirmationsRemaining;
+        final wait = restored.spacingCardsRemaining;
+        final confirmation = restored.isConfirmation;
+        if (confirmation) {
+          expect(wait, 0);
+          expect(
+            restored.currentConfirmationsRemaining,
+            inInclusiveRange(1, 2),
+          );
+        } else {
+          expect(restored.isSpacingReview, isTrue);
+          expect(wait, greaterThan(0));
+        }
+        answer(restored);
+        expect(restored.checkedCount, 87);
+        expect(
+          restored.confirmationsRemaining,
+          checks - (confirmation ? 1 : 0),
+        );
+        if (!confirmation) expect(restored.spacingCardsRemaining, wait - 1);
+      }
+      expect(restored.isComplete, isTrue);
+      expect(extraCards, greaterThan(4));
+      expect(restored.confirmationsRemaining, 0);
+      expect(restored.spacingCardsRemaining, 0);
+      expect(restored.isSpacingReview, isFalse);
+    });
+
     for (final style in SessionStyle.values) {
       test(
         'last-word lapse needs two delayed confirmations ($style, $mode)',
@@ -225,8 +287,30 @@ void main() {
     answer(session);
     expect(session.completed, 0);
     expect(session.awaitingConfirmation, 1);
+    expect(session.confirmationsRemaining, 2);
+    expect(session.checkedCount, 1);
     answer(session);
     expect(session.completed, 1);
+  });
+
+  test('a lapse on a spacing card adds checks without reducing coverage', () {
+    final session = StudySession(
+      cards: cards.take(12).toList(),
+      mode: StudyMode.typing,
+      style: SessionStyle.reviewAll,
+      shuffle: false,
+    );
+    addTearDown(session.dispose);
+    for (var i = 0; i < 12; i++) {
+      answer(session, correct: i < 11);
+    }
+    expect(session.isSpacingReview, isTrue);
+    expect(session.confirmationsRemaining, 2);
+    answer(session, correct: false);
+    expect(session.checkedCount, 12);
+    expect(session.uncheckedCount, 0);
+    expect(session.awaitingConfirmation, 2);
+    expect(session.confirmationsRemaining, 4);
   });
 
   test('accent-only mistakes remain wrong and have a distinct outcome', () {
@@ -313,6 +397,8 @@ void main() {
     }
     expect(session.canDefer, isTrue);
     session.deferCurrent();
+    expect(session.confirmationsRemaining, 0);
+    expect(session.awaitingConfirmation, 0);
     final snapshot = decodeStudySession(encodeStudySession(session.snapshot));
     session.dispose();
     session = StudySession.restore(cards: cards, snapshot: snapshot);

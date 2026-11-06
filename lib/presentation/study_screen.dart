@@ -312,7 +312,8 @@ class _StudyScreenState extends State<StudyScreen> {
                   session: _session,
                   title: context.localize(widget.deck.title),
                 ),
-                if (_session.isConfirmation) ...[
+                if (_session.isConfirmation &&
+                    _session.style != SessionStyle.reviewAll) ...[
                   const SizedBox(height: 6),
                   Text(
                     context.strings.confirmationHint,
@@ -609,34 +610,122 @@ class _SessionProgress extends StatelessWidget {
   final String title;
 
   @override
-  Widget build(BuildContext context) => Column(
-    children: [
-      Row(
-        children: [
-          Expanded(
-            child: Text(
-              session.isReview
-                  ? '$title · ${context.strings.sessionReview}'
-                  : title,
+  Widget build(BuildContext context) {
+    if (session.style == SessionStyle.reviewAll) {
+      return _ReviewAllProgress(session: session, title: title);
+    }
+    return Column(
+      children: [
+        Row(
+          children: [
+            Expanded(
+              child: Text(
+                session.isReview
+                    ? '$title · ${context.strings.sessionReview}'
+                    : title,
+                style: const TextStyle(fontSize: 12, color: Palette.muted),
+              ),
+            ),
+            Text(
+              context.strings.progress(session.completed, session.total),
               style: const TextStyle(fontSize: 12, color: Palette.muted),
             ),
-          ),
-          Text(
-            context.strings.progress(session.completed, session.total),
-            style: const TextStyle(fontSize: 12, color: Palette.muted),
-          ),
-        ],
-      ),
-      const SizedBox(height: 12),
-      LinearProgressIndicator(
-        value: session.progress,
-        semanticsLabel: context.strings.progressAccessibility(
-          session.completed,
-          session.total,
+          ],
         ),
-      ),
-    ],
-  );
+        const SizedBox(height: 12),
+        LinearProgressIndicator(
+          value: session.progress,
+          semanticsLabel: context.strings.progressAccessibility(
+            session.completed,
+            session.total,
+          ),
+        ),
+      ],
+    );
+  }
+}
+
+class _ReviewAllProgress extends StatelessWidget {
+  const _ReviewAllProgress({required this.session, required this.title});
+
+  final StudySession session;
+  final String title;
+
+  @override
+  Widget build(BuildContext context) {
+    final strings = context.strings;
+    final coverage = strings.firstPassProgress(
+      session.checkedCount,
+      session.total,
+    );
+    final current = session.isReviewing
+        ? strings.reviewCard
+        : session.isConfirmation
+        ? strings.currentConfirmation(session.currentConfirmationsRemaining)
+        : session.isSpacingReview
+        ? strings.spacingReview(session.spacingCardsRemaining)
+        : strings.firstPassCard;
+    return Column(
+      key: const ValueKey('review-all-progress'),
+      crossAxisAlignment: CrossAxisAlignment.stretch,
+      children: [
+        Row(
+          children: [
+            Expanded(
+              child: Text(
+                title,
+                style: const TextStyle(fontSize: 12, color: Palette.muted),
+              ),
+            ),
+            IconButton(
+              tooltip: strings.sessionProgressHelp,
+              icon: const Icon(Icons.info_outline_rounded, size: 20),
+              onPressed: () => showDialog<void>(
+                context: context,
+                builder: (context) => AlertDialog(
+                  title: Text(strings.sessionProgressHelp),
+                  content: Text(strings.sessionProgressExplanation),
+                  actions: [
+                    TextButton(
+                      onPressed: () => Navigator.pop(context),
+                      child: Text(
+                        MaterialLocalizations.of(context).closeButtonLabel,
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+            ),
+          ],
+        ),
+        Text(coverage, style: const TextStyle(fontWeight: FontWeight.w600)),
+        const SizedBox(height: 6),
+        LinearProgressIndicator(
+          value: session.checkedCount / session.total,
+          semanticsLabel: coverage,
+        ),
+        const SizedBox(height: 6),
+        if (session.uncheckedCount > 0)
+          Text(strings.uncheckedCards(session.uncheckedCount)),
+        if (session.awaitingConfirmation > 0)
+          Text(
+            strings.followUpProgress(
+              session.awaitingConfirmation,
+              session.confirmationsRemaining,
+            ),
+            style: const TextStyle(fontWeight: FontWeight.w600),
+          ),
+        if (session.deferredCount > 0)
+          Text(strings.deferredCount(session.deferredCount)),
+        const SizedBox(height: 6),
+        Text(
+          current,
+          key: const ValueKey('current-review-purpose'),
+          style: const TextStyle(fontSize: 12, color: Palette.muted),
+        ),
+      ],
+    );
+  }
 }
 
 class _QuestionCard extends StatelessWidget {

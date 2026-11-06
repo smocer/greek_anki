@@ -453,6 +453,51 @@ class AppStrings {
   String get checkAnswer => _pick('Check answer', 'Проверить', '检查答案');
   String get dontKnow => _pick('I don’t know yet', 'Пока не знаю', '还不知道');
   String get sessionReview => _pick('Quick review', 'Повторение', '快速复习');
+  String firstPassProgress(int checked, int total) => _pick(
+    'First pass: $checked / $total checked',
+    'Первый круг: $checked / $total проверено',
+    '首轮：已检查 $checked / $total 张',
+  );
+  String uncheckedCards(int count) => _pick(
+    'Not checked yet: $count',
+    'Ещё не проверено: $count',
+    '尚未检查：$count 张',
+  );
+  String followUpProgress(int words, int checks) => _pick(
+    'Follow-up words: $words\nSuccessful checks left: $checks',
+    'Слов на закреплении: $words\nВерных ответов осталось: $checks',
+    '巩固：$words 个词\n还需正确回答 $checks 次',
+  );
+  String get firstPassCard =>
+      _pick('Now: first check', 'Сейчас: первая проверка', '当前：首次检查');
+  String currentConfirmation(int remaining) => _pick(
+    'Now: follow-up · successful checks left for this word: $remaining',
+    'Сейчас: закрепление · этому слову нужно верных ответов: $remaining',
+    '当前：巩固 · 此词还需正确回答 $remaining 次',
+  );
+  String spacingReview(int remaining) => _pick(
+    'Spacing review · cards until the next follow-up: $remaining',
+    'Повторение для паузы · до закрепления карточек: $remaining',
+    '间隔复习 · 再练 $remaining 张后检查难词',
+  );
+  String get sessionProgressHelp =>
+      _pick('What remains?', 'Сколько осталось?', '还剩多少？');
+  String get sessionProgressExplanation => _pick(
+    'The first pass counts each card once. Difficult words need successful '
+        'checks after a gap. Familiar cards fill that gap and are not extra '
+        'unfinished words. The countdown includes the card on screen. '
+        'Mistakes can add more checks, so the total number of answers is not '
+        'fixed. Words left for later do not hold up this session.',
+    'В первом круге каждая карточка считается один раз. Сложным словам '
+        'нужны верные ответы после паузы. Знакомые карточки заполняют паузу '
+        'и не добавляются к числу незавершённых слов. Обратный отсчёт включает '
+        'текущую карточку. Ошибки могут добавить проверки, поэтому число '
+        'ответов до конца не фиксировано. Слова, оставленные на потом, '
+        'не задерживают завершение занятия.',
+    '首轮中每张卡只计一次。难词需要间隔后正确回答。熟悉的词用于填充间隔，'
+        '不算额外未完成的词。倒计时包含当前词卡。答错可能增加检查次数，'
+        '因此剩余答题总数并不固定。留待以后练习的词不会阻止本轮完成。',
+  );
   String progress(int completed, int total) => _pick(
     '$completed / $total remembered',
     '$completed / $total выучено',

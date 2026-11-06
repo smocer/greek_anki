@@ -281,6 +281,33 @@ class StudySession extends ChangeNotifier {
       .where((key) => (_evidence[key]?.confirmations ?? 0) == 0)
       .length;
   int get deferredCount => _deferred.length;
+  int get checkedCount => _seen.length;
+  int get uncheckedCount => total - checkedCount;
+  int get confirmationsRemaining => _evidence.entries
+      .where((entry) => !_deferred.contains(entry.key))
+      .fold(0, (count, entry) => count + entry.value.confirmations);
+
+  /// Cards needed before any outstanding word is eligible for a spaced check.
+  /// Includes the current spacing card; this is not a session finish estimate.
+  int get spacingCardsRemaining {
+    final waits = _evidence.entries
+        .where(
+          (entry) =>
+              !_deferred.contains(entry.key) && entry.value.confirmations > 0,
+        )
+        .map((entry) => _confirmationWait(entry.value));
+    return waits.isEmpty ? 0 : waits.reduce(min);
+  }
+
+  int _confirmationWait(PracticeEvidence evidence) =>
+      max(0, _minimumGap - (_turn - evidence.lastTurn! - 1));
+
+  bool get isSpacingReview =>
+      style == SessionStyle.reviewAll &&
+      !isReviewing &&
+      !isComplete &&
+      uncheckedCount == 0 &&
+      !isConfirmation;
   int get awaitingConfirmation => _evidence.entries
       .where((e) => !_deferred.contains(e.key) && e.value.confirmations > 0)
       .length;
@@ -288,6 +315,8 @@ class StudySession extends ChangeNotifier {
       !isComplete &&
       !isReviewing &&
       (_evidence[currentKey]?.confirmations ?? 0) > 0;
+  int get currentConfirmationsRemaining =>
+      isConfirmation ? _evidence[currentKey]!.confirmations : 0;
   bool get canDefer =>
       !isComplete &&
       !isReviewing &&
@@ -500,10 +529,7 @@ class StudySession extends ChangeNotifier {
           (_evidence[key]?.confirmations ?? 0) > 0;
     }).toList();
     final ready = retries
-        .where(
-          (card) =>
-              _turn - _evidence[_cardKey(card)]!.lastTurn! - 1 >= _minimumGap,
-        )
+        .where((card) => _confirmationWait(_evidence[_cardKey(card)]!) == 0)
         .toList();
     if (ready.isNotEmpty && (_pending.isEmpty || _turn % 4 == 3)) {
       _window.add(_selectReview(ready, turn: _turn));
