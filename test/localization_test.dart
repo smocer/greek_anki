@@ -8,6 +8,7 @@ import 'package:greek_anki/domain/app_language.dart';
 import 'package:greek_anki/domain/greek_answer.dart';
 import 'package:greek_anki/domain/learning_progress.dart';
 import 'package:greek_anki/domain/vocabulary.dart';
+import 'package:greek_anki/domain/vocabulary_category.dart';
 import 'package:greek_anki/presentation/app_strings.dart';
 import 'package:greek_anki/presentation/study_screen.dart';
 import 'package:greek_anki/presentation/theme.dart';
@@ -102,10 +103,14 @@ void main() {
     final language = MemoryLanguageStore();
     final store = MemoryProgressStore();
     final progress = LearningProgress(store);
+    final activeDeck = currentDictionary.learningDecks.singleWhere(
+      (deck) => deck.id == 'words-verbs',
+    );
+    final activeCard = newestFirst(activeDeck.cards).first;
     await progress.record(
-      deck: deck,
+      deck: activeDeck,
       mode: StudyMode.flashcards,
-      card: seven,
+      card: activeCard,
       correct: true,
     );
     final records = Map.of(store.records);
@@ -134,12 +139,9 @@ void main() {
     );
     await tester.tap(find.byKey(const ValueKey('collection-words')));
     await tester.pumpAndSettle();
-    await tester.tap(find.text('Числа').last);
+    await tester.tap(find.text('Глаголы').last);
     await tester.pumpAndSettle();
-    final numberCount = currentDictionary.learningDecks
-        .singleWhere((deck) => deck.id == 'words-numbers')
-        .cards
-        .length;
+    final numberCount = activeDeck.cards.length;
     await tester.scrollUntilVisible(
       find.text('Повторить: ${numberCount - 1} · Выучено: 1/$numberCount'),
       120,
@@ -169,24 +171,18 @@ void main() {
     );
     await tester.tap(find.byKey(const ValueKey('collection-words')));
     await tester.pumpAndSettle();
-    await tester.tap(find.text('Числа').last);
+    await tester.tap(find.text('Глаголы').last);
     await tester.pumpAndSettle();
     await tester.tap(find.text('Все слова'));
     await tester.pumpAndSettle();
     await tester.scrollUntilVisible(
-      find.text('ми-ДЭН'),
+      find.text(activeCard.pronunciation.ru),
       220,
       scrollable: find.byType(Scrollable).last,
     );
-    expect(find.text('ми-ДЭН'), findsOneWidget);
-    await tester.scrollUntilVisible(
-      find.text('эф-ТА'),
-      220,
-      scrollable: find.byType(Scrollable).last,
-    );
-    expect(find.text('εφτά'), findsOneWidget);
-    expect(find.text('Также верно: επτά'), findsOneWidget);
-    Navigator.of(tester.element(find.text('эф-ТА'))).pop();
+    expect(find.text(activeCard.displayedAnswer), findsOneWidget);
+    expect(find.text(activeCard.pronunciation.ru), findsOneWidget);
+    Navigator.of(tester.element(find.text(activeCard.pronunciation.ru))).pop();
     await tester.pumpAndSettle();
     await tester.scrollUntilVisible(
       find.text('English'),

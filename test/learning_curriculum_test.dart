@@ -22,7 +22,7 @@ void main() {
         (section) =>
             learningCollections.where((c) => c.section == section).length,
       ),
-      [7, 3, 8],
+      [6, 3, 8],
     );
     for (final collection in learningCollections) {
       final cards = collection.deck.cards;
@@ -204,7 +204,8 @@ void main() {
       store.records['articles-cases.typing.book-nom'] = record;
       final progress = LearningProgress(store);
       await progress.load(learningDecks);
-      expect(progress.learned(deck('words-numbers'), StudyMode.typing), 1);
+      expect(learningDecks.any((deck) => deck.id == 'words-numbers'), isFalse);
+      expect(store.records['numbers-0-10.typing.number-7'], record);
       expect(progress.learned(deck('words-verbs'), StudyMode.typing), 1);
       expect(progress.learned(deck('grammar-possession'), StudyMode.typing), 1);
       expect(progress.learned(deck('words-nouns'), StudyMode.typing), 0);

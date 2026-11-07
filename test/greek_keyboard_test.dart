@@ -70,6 +70,10 @@ void main() {
       );
       await tap(tester, find.byIcon(Icons.backspace_outlined));
       expect(controller.text, isEmpty);
+      for (final letter in 'μαΐου'.split('')) {
+        await tap(tester, find.text(letter));
+      }
+      expect(controller.text, 'μαΐου');
     },
   );
 

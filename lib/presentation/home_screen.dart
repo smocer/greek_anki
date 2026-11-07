@@ -11,6 +11,7 @@ import '../domain/vocabulary.dart';
 import 'alphabet_screen.dart';
 import 'app_strings.dart';
 import 'clock_drill_screen.dart';
+import 'random_drill_screen.dart';
 import 'grammar_screen.dart';
 import 'language_switch.dart';
 import 'labeled_field.dart';
@@ -297,6 +298,35 @@ class _HomeScreenState extends State<HomeScreen> with WidgetsBindingObserver {
                   textAlign: TextAlign.center,
                   style: const TextStyle(fontSize: 12, color: Palette.muted),
                 ),
+                for (final kind in RandomDrillKind.values) ...[
+                  const SizedBox(height: 12),
+                  OutlinedButton.icon(
+                    key: ValueKey('${kind.name}-drill'),
+                    onPressed: () => Navigator.of(context).push(
+                      MaterialPageRoute<void>(
+                        builder: (_) => RandomDrillScreen(kind: kind),
+                      ),
+                    ),
+                    icon: Icon(
+                      kind == RandomDrillKind.number
+                          ? Icons.numbers_rounded
+                          : Icons.calendar_month_rounded,
+                    ),
+                    label: Text(
+                      kind == RandomDrillKind.number
+                          ? context.strings.numberDrill
+                          : context.strings.dateDrill,
+                    ),
+                  ),
+                  const SizedBox(height: 6),
+                  Text(
+                    kind == RandomDrillKind.number
+                        ? context.strings.numberDrillDescription
+                        : context.strings.dateDrillDescription,
+                    textAlign: TextAlign.center,
+                    style: const TextStyle(fontSize: 12, color: Palette.muted),
+                  ),
+                ],
                 const SizedBox(height: 24),
                 Text(
                   widget.updates == null

@@ -2,6 +2,7 @@ import 'package:flutter/widgets.dart';
 
 import '../domain/app_language.dart';
 import '../domain/curriculum.dart';
+import '../domain/date_drill.dart';
 import '../domain/review_selection.dart';
 import '../domain/vocabulary_category.dart';
 
@@ -234,6 +235,41 @@ class AppStrings {
   );
   String get hardMode => _pick('Hard mode', 'Сложный режим', '默写模式');
   String get clockDrill => _pick('Clock drill', 'Тренировка часов', '时钟练习');
+  String get numberDrill => _pick('Number drill', 'Тренировка чисел', '数字练习');
+  String get dateDrill => _pick('Date & time drill', 'Дата и время', '日期与时间练习');
+  String get numberDrillDescription => _pick(
+    'Random numbers from 0 to 10,000 · Unlimited practice',
+    'Случайные числа от 0 до 10 000 · Без ограничений',
+    '0 至 10,000 的随机数字 · 无限练习',
+  );
+  String get dateDrillDescription => _pick(
+    'Weekdays, dates and times · Two separate answers',
+    'Дни недели, даты и время · Два отдельных ответа',
+    '星期、日期和时间 · 分别作答',
+  );
+  String get dateAnswerLabel =>
+      _pick('Weekday + date', 'День недели + дата', '星期 + 日期');
+  String get timeAnswerLabel =>
+      _pick('Time + part of day', 'Время + часть суток', '时间 + 时段');
+  String get nextDrill => _pick('Next question', 'Следующее задание', '下一题');
+  String get drillHelp => _pick('How to answer', 'Как отвечать', '作答说明');
+  String get numberDrillInstructions => _pick(
+    'Write the number in Greek words, using the neutral counting form (ένα, τρία, τέσσερα). Every integer from 0 to 10,000 is equally likely. Accents matter; common spelling variants are accepted. No progress tracking.',
+    'Напишите число греческими словами в обычной счётной форме среднего рода (ένα, τρία, τέσσερα). Все целые числа от 0 до 10 000 равновероятны. Ударения обязательны; распространённые варианты написания принимаются. Прогресс не записывается.',
+    '用希腊语写出数字，采用中性计数形式（ένα、τρία、τέσσερα）。0 至 10,000 的每个整数概率相同。必须写重音；接受常见拼写变体。不记录进度。',
+  );
+  String get dateDrillInstructions => _pick(
+    'Write two answers in Greek words. Date: weekday, day and month, without the year (e.g. το Σάββατο επτά Νοεμβρίου). Time: hours, minutes and part of day (e.g. έντεκα και πενήντα το πρωί). You can use past or to, with or without είναι or στις/στη. The date may come before the weekday; the part of day may come before the time. Accents matter.\n\nThe picture uses morning 05–12, midday 12–15, afternoon 15–19, evening 19–24 and night 00–05. Questions use the current year and any minute. No progress tracking.',
+    'Два ответа греческими словами. Дата: день недели, число и месяц без года (например, το Σάββατο επτά Νοεμβρίου). Время: часы, минуты и часть суток (например, έντεκα και πενήντα το πρωί). Можно использовать και или παρά, с είναι или στις/στη либо без них. Дату можно поставить перед днём недели, часть суток — перед временем. Ударения обязательны.\n\nНа рисунке: утро 05–12, полдень 12–15, вторая половина дня 15–19, вечер 19–24, ночь 00–05. Даты текущего года, минуты любые. Прогресс не записывается.',
+    '用希腊语分别作答。日期：星期、日和月，不写年份（如 το Σάββατο επτά Νοεμβρίου）。时间：小时、分钟和时段（如 έντεκα και πενήντα το πρωί）。可用 και 或 παρά，可加或省略 είναι、στις/στη。日期可放在星期前，时段可放在时间前。必须写重音。\n\n图片按以下时段划分：早晨 05–12、中午 12–15、下午 15–19、晚间 19–24、夜里 00–05。题目使用当年日期，分钟不限。不记录进度。',
+  );
+  String dayPeriod(DayPeriod period) => switch (period) {
+    DayPeriod.morning => _pick('Morning', 'Утро', '早晨'),
+    DayPeriod.midday => _pick('Midday', 'Полдень', '中午'),
+    DayPeriod.afternoon => _pick('Afternoon', 'Вторая половина дня', '下午'),
+    DayPeriod.evening => _pick('Evening', 'Вечер', '晚间'),
+    DayPeriod.night => _pick('Night', 'Ночь', '夜里'),
+  };
   String get clockDrillDescription => _pick(
     'Random times · Endless practice',
     'Случайное время · Без ограничений',

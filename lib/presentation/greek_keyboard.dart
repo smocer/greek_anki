@@ -39,7 +39,7 @@ class GreekKeyboard extends StatelessWidget {
   @override
   Widget build(BuildContext context) => Column(
     children: [
-      for (final row in ['ςερτυθιοπ', 'ασδφγηξκλ', 'ζχψωβνμ', 'άέήίόύώ'])
+      for (final row in ['ςερτυθιοπ', 'ασδφγηξκλ', 'ζχψωβνμ', 'άέήίόύώΐ'])
         Padding(
           padding: const EdgeInsets.only(bottom: 4),
           child: Row(

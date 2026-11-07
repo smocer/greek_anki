@@ -4,8 +4,10 @@ import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:greek_anki/app.dart';
 import 'package:greek_anki/data/greek_decks.dart';
+import 'package:greek_anki/data/dictionary.dart';
 import 'package:greek_anki/domain/learning_progress.dart';
 import 'package:greek_anki/domain/vocabulary.dart';
+import 'package:greek_anki/domain/vocabulary_category.dart';
 import 'package:greek_anki/presentation/study_screen.dart';
 import 'package:greek_anki/presentation/theme.dart';
 
@@ -74,22 +76,28 @@ void main() {
     await tester.pumpAndSettle();
     await tester.tap(find.byKey(const ValueKey('collection-words')));
     await tester.pumpAndSettle();
-    await tester.tap(find.text('Numbers').last);
+    expect(find.text('Numbers'), findsNothing);
+    await tester.tap(find.text('Verbs').last);
     await tester.pumpAndSettle();
+    final previewCards = newestFirst(
+      currentDictionary.learningDecks
+          .singleWhere((deck) => deck.id == 'words-verbs')
+          .cards,
+    );
     await tester.tap(find.text('Browse'));
     await tester.pumpAndSettle();
     await tester.scrollUntilVisible(
-      find.text('μηδέν'),
+      find.text(previewCards.first.displayedAnswer),
       240,
       scrollable: find.byType(Scrollable).last,
     );
-    expect(find.text('μηδέν'), findsOneWidget);
+    expect(find.text(previewCards.first.displayedAnswer), findsOneWidget);
     await tester.scrollUntilVisible(
-      find.text('δέκα'),
+      find.text(previewCards[1].displayedAnswer),
       240,
       scrollable: find.byType(Scrollable).last,
     );
-    expect(find.text('δέκα'), findsOneWidget);
+    expect(find.text(previewCards[1].displayedAnswer), findsOneWidget);
     expect(tester.takeException(), isNull);
   });
 

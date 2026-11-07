@@ -9,7 +9,7 @@ Learn modern Greek with English and Russian explanations. Works in a browser on 
 
 ## Choose what to learn
 
-- **Words:** nouns, verbs, pronouns, adjectives/adverbs, connecting words/prepositions and numbers. Names & places is a separate group for personal names, places, languages and nationalities. Practise individual meanings and spellings. Nouns use their base form; their article is optional in your answer and visible when you reveal it. Verbs use the first-person present.
+- **Words:** nouns, verbs, pronouns, adjectives/adverbs, connecting words/prepositions. Names & places is a separate group for personal names, places, languages and nationalities. Practise individual meanings and spellings. Nouns use their base form; their article is optional in your answer and visible when you reveal it. Verbs use the first-person present.
 - **Phrases:** social conversations, classroom language and everyday situations, including phone conversations.
 - **Grammar:** articles/gender, noun forms/cases, verb forms, location/origin, possession and questions/negation. Practise using familiar vocabulary in different grammatical roles.
 - **Reference:** the alphabet, handwriting, sounds and grammar tables.
@@ -27,6 +27,10 @@ schedules. You can also revisit the last card from the completion screen.
 **Hard mode:** type using the built-in Greek keyboard or your device keyboard. Grammar prompts are entirely in English or Russian: translate the complete phrase. Greek answers and explanations appear only after checking. There are no Greek sentence hints or fill-in-the-blank prompts.
 
 Correct stress is required. Missing, misplaced or extra accents are incorrect. Capitalization and sentence punctuation are optional. Articles are optional for noun vocabulary; grammatical endings and articles remain part of phrase and grammar answers. Standard listed alternatives such as **εφτά / επτά**, **οκτώ / οχτώ** and **εννέα / εννιά** are accepted. The default for 7 is **εφτά**.
+
+**Number drill:** uniformly random integers from 0 through 10,000, inclusive. Type the Greek counting form (neuter), check it, and continue indefinitely. Common spellings are accepted; accents are required. This replaces the Numbers word category.
+
+**Date & time drill:** a random date and minute in the current year, shown in your interface language without the year and with a 12-hour clock. A sun/moon picture and a translated caption identify morning, midday, afternoon, evening or night using the lesson's boundaries (05, 12, 15, 19 and 00). Answer in two fields: weekday + day + month, and time + part of day. Each field is checked independently. Simple word-order variants and both και / παρά times are accepted; no general sentence parser is used. Number and date drills save no progress and exit with Back.
 
 **Clock drill:** read a random analog clock and type the time in Greek. Times use five-minute steps on a 12-hour face. Check your answer, see the correct wording, then choose **Next clock** for another time. Spoken forms with **και**, **παρά**, **τέταρτο** and **μισή**, as well as numeric minute wording, are accepted; **είναι** is optional. Accents and feminine hour forms still matter. This drill runs indefinitely, keeps no progress or scores, and exits with the back button.
 

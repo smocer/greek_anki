@@ -4,7 +4,7 @@
 
 Unfinished flashcard and hard-mode batches resume after closing the study screen or reloading the page. The saved batch retains its learned cards, remaining queue, review window and counters. Each selected card pool, mode, batch size and ordering has its own saved session. Completing the batch shows «Μπράβο!» and clears that session so the next round can start fresh.
 
-Seven broad groups cover nouns, names and places, verbs, pronouns, adjectives/adverbs, connecting words/prepositions and numbers. Themes such as family, food, places and classroom are optional filters within a group.
+Six broad groups cover nouns, names and places, verbs, pronouns, adjectives/adverbs and connecting words/prepositions. Themes such as family, food, places and classroom are optional filters within a group.
 
 **Names & places** contains personal names, countries, cities, continents, languages and nationalities. These do not appear in the general noun collection. The word γλώσσα (“language”) is a common noun and stays in **Nouns**. Names still appear where needed in phrases and grammar exercises.
 
@@ -14,9 +14,9 @@ Verb cards teach first-person present forms, such as μένω, διαβάζω, �
 
 Pronouns include personal and demonstrative forms, question words and all seven forms μου, σου, του, της, μας, σας, τους. Each word card combines its taught meanings, such as “my” and “to me” for μου. The same forms also appear in possession and likes practice, where the full sentence identifies the intended meaning.
 
-Numbers combine units, teens, tens, hundreds up to 900, 1000 and selected compound numbers in one group. Practice distinguishes εκατό (100) from εκατόν in numbers such as εκατόν δέκα (110).
+Numbers are practised in the separate **Number drill**, which generates any integer from 0 through 10,000 with equal probability. Answers use the neutral counting form, including feminine thousands (τρεις χιλιάδες). Number agreement with nouns stays in grammar, such as τρεις γυναίκες and τρία παιδιά.
 
-The existing number cards for 1, 3 and 4 also accept their gender forms: ένας / μία / ένα, τρεις / τρία and τέσσερις / τέσσερα. Grammar practice requires agreement with the noun, as in τρεις γυναίκες and τρία παιδιά.
+The **Date & time drill** covers the current year's dates and every minute. The date and time are separate Greek answers: weekday, feminine day count and genitive month; then a twelve-hour time and part of day. A schematic sun/moon picture identifies the lesson's five periods. Both drills run indefinitely without recording progress.
 
 ## Phrases
 

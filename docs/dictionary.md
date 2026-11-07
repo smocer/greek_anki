@@ -64,7 +64,8 @@ Multiple collections can reference one definition to avoid maintaining duplicate
 
 `collection` identifies an existing learning group, such as `words-nouns`,
 `words-names`, `words-verbs`, `words-pronouns`, `words-descriptions`, `words-connectors`,
-`words-numbers`, `phrases-social`, `phrases-classroom`, or `phrases-everyday`.
+`phrases-social`, `phrases-classroom`, or `phrases-everyday`.
+The former `words-numbers` collection is archived and not offered for learning. Do not add number/date/time examples there; the random number, date and clock drills cover them.
 For grammar exercises, use a `grammar-*` collection ID from the base dictionary.
 Unknown collection IDs produce an error.
 

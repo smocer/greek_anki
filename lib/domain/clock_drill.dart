@@ -1,15 +1,22 @@
 import 'dart:math';
 
 import 'greek_text.dart';
+import 'number_drill.dart';
 
-/// A position on a twelve-hour clock, in five-minute steps.
+/// A twelve-hour time. The clock drill uses five-minute steps; date practice
+/// uses [ClockTime.toMinute] for arbitrary minutes.
 class ClockTime {
-  ClockTime(this.hour, this.minute) {
-    RangeError.checkValueInInterval(hour, 1, 12, 'hour');
-    RangeError.checkValueInInterval(minute, 0, 55, 'minute');
+  factory ClockTime(int hour, int minute) {
+    final time = ClockTime.toMinute(hour, minute);
     if (minute % 5 != 0) {
       throw ArgumentError.value(minute, 'minute', 'Must be a multiple of five');
     }
+    return time;
+  }
+
+  ClockTime.toMinute(this.hour, this.minute) {
+    RangeError.checkValueInInterval(hour, 1, 12, 'hour');
+    RangeError.checkValueInInterval(minute, 0, 59, 'minute');
   }
 
   final int hour;
@@ -53,19 +60,7 @@ class GreekClockAnswer {
     ['έντεκα'],
     ['δώδεκα'],
   ];
-  static const _minutes = {
-    5: 'πέντε',
-    10: 'δέκα',
-    15: 'δεκαπέντε',
-    20: 'είκοσι',
-    25: 'είκοσι πέντε',
-    30: 'τριάντα',
-    35: 'τριάντα πέντε',
-    40: 'σαράντα',
-    45: 'σαράντα πέντε',
-    50: 'πενήντα',
-    55: 'πενήντα πέντε',
-  };
+  static const _numbers = GreekNumberAnswer();
   static const _halfHours = [
     <String>[],
     ['μιάμιση'],
@@ -90,8 +85,9 @@ class GreekClockAnswer {
       15 => '$hour και τέταρτο',
       30 => '$hour και μισή',
       45 => '${_hours[time.nextHour].first} παρά τέταρτο',
-      > 30 => '${_hours[time.nextHour].first} παρά ${_minutes[60 - minute]}',
-      _ => '$hour και ${_minutes[minute]}',
+      > 30 =>
+        '${_hours[time.nextHour].first} παρά ${_numbers.display(60 - minute)}',
+      _ => '$hour και ${_numbers.display(minute)}',
     };
     return 'Είναι $phrase.';
   }
@@ -101,28 +97,36 @@ class GreekClockAnswer {
     return answersFor(time).any((answer) => GreekText.answerKey(answer) == key);
   }
 
-  Iterable<String> answersFor(ClockTime time) sync* {
+  Iterable<String> phrasesFor(ClockTime time) sync* {
     final phrases = <String>{};
     for (final hour in _hours[time.hour]) {
       if (time.minute == 0) {
         phrases.addAll([hour, '$hour ακριβώς', '$hour η ώρα']);
       } else {
-        final minutes = _minutes[time.minute]!;
-        phrases.addAll(['$hour και $minutes', '$hour και $minutes λεπτά']);
+        for (final minutes in _numbers.answersFor(time.minute)) {
+          final unit = time.minute == 1 ? 'λεπτό' : 'λεπτά';
+          phrases.addAll(['$hour και $minutes', '$hour και $minutes $unit']);
+        }
         if (time.minute == 15) phrases.add('$hour και τέταρτο');
         if (time.minute == 30) phrases.add('$hour και μισή');
       }
     }
     if (time.minute > 30) {
       for (final hour in _hours[time.nextHour]) {
-        final minutes = _minutes[60 - time.minute]!;
-        phrases.addAll(['$hour παρά $minutes', '$hour παρά $minutes λεπτά']);
+        for (final minutes in _numbers.answersFor(60 - time.minute)) {
+          final unit = time.minute == 59 ? 'λεπτό' : 'λεπτά';
+          phrases.addAll(['$hour παρά $minutes', '$hour παρά $minutes $unit']);
+        }
         if (time.minute == 45) phrases.add('$hour παρά τέταρτο');
       }
     }
     if (time.minute == 30) phrases.addAll(_halfHours[time.hour]);
 
-    for (final phrase in phrases) {
+    yield* phrases;
+  }
+
+  Iterable<String> answersFor(ClockTime time) sync* {
+    for (final phrase in phrasesFor(time)) {
       yield phrase;
       yield 'Είναι $phrase';
       if (!phrase.endsWith('η ώρα')) yield 'Η ώρα είναι $phrase';
