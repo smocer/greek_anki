@@ -12,8 +12,9 @@
         "zh": "国家"
       },
       "pronunciation": {
-        "en": "HO-ra",
-        "ru": "ХО-ра"
+        "en": "KHO-ra",
+        "ru": "ХО-ра",
+        "zh": "KHO-ra"
       },
       "labels": [
         "noun"
@@ -35,7 +36,8 @@
       },
       "pronunciation": {
         "en": "a-THI-na",
-        "ru": "а-THИ-на"
+        "ru": "а-ТИ-на",
+        "zh": "a-THI-na"
       },
       "labels": [
         "noun"
@@ -62,7 +64,8 @@
       },
       "pronunciation": {
         "en": "A-los",
-        "ru": "А-лос"
+        "ru": "А-лос",
+        "zh": "A-los"
       },
       "labels": [
         "pronoun"
@@ -83,7 +86,8 @@
           "answerDisplay": "άλλος",
           "pronunciation": {
             "en": "A-los",
-            "ru": "А-лос"
+            "ru": "А-лос",
+            "zh": "A-los"
           }
         },
         {
@@ -91,7 +95,8 @@
           "answerDisplay": "άλλη",
           "pronunciation": {
             "en": "A-li",
-            "ru": "А-ли"
+            "ru": "А-ли",
+            "zh": "A-li"
           }
         },
         {
@@ -99,14 +104,25 @@
           "answerDisplay": "άλλο",
           "pronunciation": {
             "en": "A-lo",
-            "ru": "А-ло"
+            "ru": "А-ло",
+            "zh": "A-lo"
           }
         }
       ],
       "explanation": {
-        "en": "Masculine άλλος, feminine άλλη, neuter άλλο. Μια άλλη χώρα means “another country”.",
+        "en": "Άλλος, άλλη and άλλο mean other or another and agree with the noun: μια άλλη χώρα — another country. They can also stand alone: κάποιος άλλος — someone else.",
         "ru": "Мужской род — άλλος, женский — άλλη, средний — άλλο. Μια άλλη χώρα — «другая страна».",
         "zh": "阳性 άλλος、阴性 άλλη、中性 άλλο。Μια άλλη χώρα 意为“另一个国家”。"
+      },
+      "contextExample": {
+        "en": "Θέλω ένα ___ βιβλίο. — I want another book.",
+        "ru": "Θέλω ένα ___ βιβλίο. — Я хочу другую книгу.",
+        "zh": "Θέλω ένα ___ βιβλίο. — 我想要另一本书。"
+      },
+      "meaning": {
+        "en": "Write the missing Greek word.",
+        "ru": "Напишите только пропущенное слово.",
+        "zh": "只填写空缺的词。"
       }
     },
     {
@@ -120,7 +136,8 @@
       },
       "pronunciation": {
         "en": "KA-pyos",
-        "ru": "КА-пьос"
+        "ru": "КА-пьос",
+        "zh": "KA-pyos"
       },
       "labels": [
         "pronoun"
@@ -142,7 +159,8 @@
           "answerDisplay": "κάποιος",
           "pronunciation": {
             "en": "KA-pyos",
-            "ru": "КА-пьос"
+            "ru": "КА-пьос",
+            "zh": "KA-pyos"
           }
         },
         {
@@ -150,7 +168,8 @@
           "answerDisplay": "κάποια",
           "pronunciation": {
             "en": "KA-pya",
-            "ru": "КА-пья"
+            "ru": "КА-пья",
+            "zh": "KA-pya"
           }
         },
         {
@@ -158,7 +177,8 @@
           "answerDisplay": "κάποιο",
           "pronunciation": {
             "en": "KA-pyo",
-            "ru": "КА-пьо"
+            "ru": "КА-пьо",
+            "zh": "KA-pyo"
           }
         },
         {
@@ -166,14 +186,25 @@
           "answerDisplay": "κάποιον",
           "pronunciation": {
             "en": "KA-pyon",
-            "ru": "КА-пьон"
+            "ru": "КА-пьон",
+            "zh": "KA-pyon"
           }
         }
       ],
       "explanation": {
-        "en": "Κάποιος, κάποια, κάποιο are masculine, feminine and neuter. Κάποιον is masculine accusative, as in μιλάω για κάποιον (“I talk about someone”).",
+        "en": "Κάποιος, κάποια and κάποιο are masculine, feminine and neuter. They can mean someone or some before a noun: κάποια μέρα — some day. Κάποιον is masculine accusative, as in μιλάω για κάποιον — I talk about someone.",
         "ru": "Κάποιος, κάποια, κάποιο — формы мужского, женского и среднего рода. Κάποιον — винительный падеж мужского рода: μιλάω για κάποιον — «я говорю о ком-то».",
-        "zh": "Κάποιος、κάποια、κάποιο 分别为阳性、阴性、中性。Κάποιον 是阳性宾格，如 μιλάω για κάποιον（我谈论某个人）。"
+        "zh": "Κάποιος、κάποια、κάποιο 分别为阳性、阴性、中性，可表示“某人、某个”。阳性宾格为 κάποιον。"
+      },
+      "contextExample": {
+        "en": "___ είναι στην πόρτα. — Someone is at the door.",
+        "ru": "___ είναι εδώ. — Здесь кто-то есть.",
+        "zh": "___ είναι στην πόρτα. — 门口有个人。"
+      },
+      "meaning": {
+        "en": "Write the missing Greek word.",
+        "ru": "Напишите только пропущенное слово.",
+        "zh": "只填写空缺的词。"
       }
     },
     {
@@ -181,13 +212,14 @@
       "collection": "words-nouns",
       "greek": "σειρά",
       "prompt": {
-        "en": "Turn / order (in a sequence)",
+        "en": "Turn / order / row / series",
         "ru": "Очередь / порядок",
         "zh": "轮次／顺序"
       },
       "pronunciation": {
         "en": "si-RA",
-        "ru": "си-РА"
+        "ru": "си-РА",
+        "zh": "si-RA"
       },
       "labels": [
         "noun"
@@ -198,9 +230,19 @@
       ],
       "answerDisplay": "η σειρά",
       "explanation": {
-        "en": "Η σειρά μου means “my turn”. Here σειρά refers to taking turns or an order in a sequence.",
-        "ru": "Η σειρά μου — «моя очередь». Здесь σειρά означает очередь или порядок следования.",
-        "zh": "Η σειρά μου 意为“轮到我”。这里 σειρά 表示轮次或顺序。"
+        "en": "Σειρά means an order or sequence, a row, or a turn: η σειρά μου — my turn. It can also mean a television series.",
+        "ru": "Η σειρά — порядок следования, ряд или очередь. Η σειρά μου — «моя очередь», στη σειρά — «по порядку».",
+        "zh": "Σειρά 可指顺序或轮次。例如 Είναι η σειρά μου.（轮到我了。）"
+      },
+      "contextExample": {
+        "en": "Τώρα είναι η ___ μου. — It is my turn now.",
+        "ru": "Τώρα είναι η ___ μου. — Теперь моя очередь.",
+        "zh": "Τώρα είναι η ___ μου. — 现在轮到我了。"
+      },
+      "meaning": {
+        "en": "Write the missing Greek word.",
+        "ru": "Напишите только пропущенное слово.",
+        "zh": "只填写空缺的词。"
       }
     },
     {
@@ -214,7 +256,8 @@
       },
       "pronunciation": {
         "en": "ohkh",
-        "ru": "ох"
+        "ru": "ох",
+        "zh": "ohkh"
       },
       "labels": [
         "interjection"
@@ -223,9 +266,19 @@
         "conversation"
       ],
       "explanation": {
-        "en": "An exclamation of dismay, surprise or pain; in the dialogue the speaker has just missed the trolleybus.",
-        "ru": "Возглас досады, удивления или боли; в диалоге герой замечает, что троллейбус уже уехал.",
-        "zh": "表示懊恼、惊讶或疼痛的感叹词；对话中说话者刚错过了无轨电车。"
+        "en": "Ωχ expresses pain, dismay or surprise: Ωχ, το ξέχασα! — Oh no, I forgot it!",
+        "ru": "Ωχ — возглас боли, досады или неприятного удивления: «ой!», «ох!» Например: ωχ, πονάει! — «ой, больно!»",
+        "zh": "Ωχ 表示懊恼、惊讶或疼痛，如 Ωχ, πονάει!（哎呀，好痛！）。"
+      },
+      "contextExample": {
+        "en": "___, το ξέχασα! — Oh no, I forgot it!",
+        "ru": "___, πονάει! — Ой, больно!",
+        "zh": "___, πονάει! — 哎呀，好痛！"
+      },
+      "meaning": {
+        "en": "Write the missing Greek word.",
+        "ru": "Напишите только пропущенное слово.",
+        "zh": "只填写空缺的词。"
       }
     },
     {
@@ -239,7 +292,8 @@
       },
       "pronunciation": {
         "en": "a-fe-ti-RI-a",
-        "ru": "а-фэ-ти-РИ-а"
+        "ru": "а-фэ-ти-РИ-а",
+        "zh": "a-fe-ti-RI-a"
       },
       "labels": [
         "noun"
@@ -261,7 +315,8 @@
       },
       "pronunciation": {
         "en": "TER-ma",
-        "ru": "ТЭР-ма"
+        "ru": "ТЭР-ма",
+        "zh": "TER-ma"
       },
       "labels": [
         "noun"
@@ -283,7 +338,8 @@
       },
       "pronunciation": {
         "en": "ko-lim-vi-TI-ri-o",
-        "ru": "ко-лим-ви-ТИ-ри-о"
+        "ru": "ко-лим-ви-ТИ-ри-о",
+        "zh": "ko-lim-vi-TI-ri-o"
       },
       "labels": [
         "noun"
@@ -304,7 +360,8 @@
       },
       "pronunciation": {
         "en": "STA-dhi-o",
-        "ru": "СТА-ди-о"
+        "ru": "СТА-ди-о",
+        "zh": "STA-dhi-o"
       },
       "labels": [
         "noun"
@@ -325,7 +382,8 @@
       },
       "pronunciation": {
         "en": "AL-sos",
-        "ru": "АЛ-сос"
+        "ru": "АЛ-сос",
+        "zh": "AL-sos"
       },
       "labels": [
         "noun"
@@ -345,8 +403,9 @@
         "zh": "理工大学"
       },
       "pronunciation": {
-        "en": "po-li-te-HNI-o",
-        "ru": "по-ли-тэ-ХНИ-о"
+        "en": "po-li-te-KHNI-o",
+        "ru": "по-ли-тэ-ХНИ-о",
+        "zh": "po-li-te-KHNI-o"
       },
       "labels": [
         "noun"
@@ -368,7 +427,8 @@
       },
       "pronunciation": {
         "en": "AN-glos",
-        "ru": "АН-глос"
+        "ru": "АН-глос",
+        "zh": "AN-glos"
       },
       "labels": [
         "noun"
@@ -387,7 +447,8 @@
           "answerDisplay": "ο Άγγλος",
           "pronunciation": {
             "en": "AN-glos",
-            "ru": "АН-глос"
+            "ru": "АН-глос",
+            "zh": "AN-glos"
           }
         },
         {
@@ -395,7 +456,8 @@
           "answerDisplay": "η Αγγλίδα",
           "pronunciation": {
             "en": "an-GLI-dha",
-            "ru": "ан-ГЛИ-да"
+            "ru": "ан-ГЛИ-да",
+            "zh": "an-GLI-dha"
           }
         }
       ]

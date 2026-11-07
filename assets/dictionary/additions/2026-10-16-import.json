@@ -25,6 +25,21 @@
       "reviewIdentity": {
         "deckId": "words-descriptions",
         "cardId": "oct16-perhaps"
+      },
+      "contextExample": {
+        "en": "___ έρθω αύριο. — Perhaps I will come tomorrow.",
+        "ru": "___ έρθει αύριο. — Возможно, он придёт завтра.",
+        "zh": "___ έρθω αύριο. — 我也许明天来。"
+      },
+      "explanation": {
+        "en": "Ίσως means perhaps or maybe: Ίσως έρθω — Maybe I will come. It can introduce a possibility without making it a question.",
+        "ru": "Ίσως — «возможно», «может быть»: ίσως έρθει — «возможно, он придёт». Выражает неуверенность, а не вопрос.",
+        "zh": "Ίσως 表示“也许”，用来表达可能性。"
+      },
+      "meaning": {
+        "en": "Write the missing Greek word.",
+        "ru": "Напишите только пропущенное слово.",
+        "zh": "只填写空缺的词。"
       }
     },
     {
@@ -37,9 +52,9 @@
         "zh": "飞行员学校"
       },
       "pronunciation": {
-        "en": "sko-LI pi-LO-ton",
-        "ru": "ско-ЛИ пи-ЛО-тон",
-        "zh": "sko-LI pi-LO-ton"
+        "en": "skho-LI pi-LO-ton",
+        "ru": "схо-ЛИ пи-ЛО-тон",
+        "zh": "skho-LI pi-LO-ton"
       },
       "labels": [
         "noun"
@@ -156,6 +171,21 @@
       "reviewIdentity": {
         "deckId": "words-descriptions",
         "cardId": "oct16-obviously"
+      },
+      "contextExample": {
+        "en": "___ δεν είναι εδώ. — Apparently, he is not here.",
+        "ru": "___ δεν ξέρει. — По-видимому, он не знает.",
+        "zh": "___ είναι κουρασμένος. — 看来他累了。"
+      },
+      "explanation": {
+        "en": "Προφανώς means evidently, apparently or obviously: the speaker draws a conclusion from what seems clear.",
+        "ru": "Προφανώς — «очевидно», «по-видимому». Говорящий делает вывод из известных обстоятельств: προφανώς δεν ξέρει — «по-видимому, он не знает».",
+        "zh": "Προφανώς 表示“显然、看来”，可说明说话人根据情况作出的判断。"
+      },
+      "meaning": {
+        "en": "Write the missing Greek word.",
+        "ru": "Напишите только пропущенное слово.",
+        "zh": "只填写空缺的词。"
       }
     },
     {
@@ -163,9 +193,9 @@
       "collection": "words-adjectives",
       "greek": "δύσκολο",
       "prompt": {
-        "en": "Difficult (neuter singular)",
-        "ru": "Трудное (средний род)",
-        "zh": "困难的（中性单数形式）"
+        "en": "Difficult",
+        "ru": "Трудный",
+        "zh": "困难的"
       },
       "pronunciation": {
         "en": "DHIS-ko-lo",
@@ -181,6 +211,11 @@
       "reviewIdentity": {
         "deckId": "words-descriptions",
         "cardId": "oct16-difficult"
+      },
+      "explanation": {
+        "en": "Δύσκολος, δύσκολη and δύσκολο mean difficult. The ending agrees with the noun: Το μάθημα είναι δύσκολο — The lesson is difficult.",
+        "ru": "Δύσκολος, δύσκολη, δύσκολο — «трудный». Форма зависит от рода греческого существительного: το μάθημα είναι δύσκολο — «урок трудный». В греческом μάθημα среднего рода, поэтому δύσκολο. В ответе принимаются все три родовые формы.",
+        "zh": "形容词 δύσκολος、δύσκολη、δύσκολο 都表示“困难的”，分别为阳性、阴性、中性。词尾与名词一致，如 Το μάθημα είναι δύσκολο.（这节课很难。）本词卡接受这三种形式。"
       }
     },
     {
@@ -211,8 +246,8 @@
       "greek": "όπως",
       "prompt": {
         "en": "As / like / for example",
-        "ru": "Как; например",
-        "zh": "像……一样；例如"
+        "ru": "Как / например",
+        "zh": "像……一样／例如"
       },
       "pronunciation": {
         "en": "O-pos",
@@ -224,7 +259,22 @@
       ],
       "themes": [
         "conversation"
-      ]
+      ],
+      "contextExample": {
+        "en": "Κάνε το ___ στο παράδειγμα. — Do it as in the example.",
+        "ru": "Κάνε ___ θέλεις. — Делай как хочешь.",
+        "zh": "Κάνε το ___ στο παράδειγμα. — 按例子那样做。"
+      },
+      "explanation": {
+        "en": "Όπως means as or in the way that: όπως στο παράδειγμα — as in the example. It can also introduce an example: φρούτα, όπως μήλα — fruit, such as apples. Use πώς to ask how.",
+        "ru": "Όπως — «как», «таким же образом»: όπως θέλεις — «как хочешь», όπως στο παράδειγμα — «как в примере». Может вводить пример: φρούτα, όπως μήλα — «фрукты, например яблоки». Вопросительное «как?» — πώς.",
+        "zh": "Όπως 表示“像……一样、按照……”，如 όπως στο παράδειγμα（如例子所示）；也可举例，如 φρούτα, όπως μήλα（水果，例如苹果）。询问“怎样”用 πώς。"
+      },
+      "meaning": {
+        "en": "Write the missing Greek word.",
+        "ru": "Напишите только пропущенное слово.",
+        "zh": "只填写空缺的词。"
+      }
     },
     {
       "id": "oct16-private-school",
@@ -283,9 +333,9 @@
       "collection": "words-nouns",
       "greek": "φιλικός χώρος",
       "prompt": {
-        "en": "Friendly space / environment",
-        "ru": "Дружелюбная среда",
-        "zh": "友善的空间；友好的环境"
+        "en": "Welcoming place / environment",
+        "ru": "Доброжелательная обстановка",
+        "zh": "友好的环境"
       },
       "pronunciation": {
         "en": "fi-li-KOS KHO-ros",
@@ -298,16 +348,21 @@
       "themes": [
         "places"
       ],
-      "answerDisplay": "ο φιλικός χώρος"
+      "answerDisplay": "ο φιλικός χώρος",
+      "explanation": {
+        "en": "Φιλικός χώρος describes a welcoming place or environment, for example in an advertisement.",
+        "ru": "Φιλικός χώρος — место с доброжелательной обстановкой. Такое выражение встречается, например, в объявлениях о работе.",
+        "zh": "Φιλικός χώρος 指让人感到亲切、舒适的场所或环境，常见于广告等介绍文字中。"
+      }
     },
     {
       "id": "oct16-remuneration",
       "collection": "words-nouns",
       "greek": "αμοιβή",
       "prompt": {
-        "en": "Remuneration / pay",
-        "ru": "Вознаграждение; оплата",
-        "zh": "报酬；薪酬"
+        "en": "Pay / remuneration",
+        "ru": "Оплата / вознаграждение",
+        "zh": "报酬／薪酬"
       },
       "pronunciation": {
         "en": "a-mi-VI",
@@ -329,11 +384,11 @@
       "prompt": {
         "en": "Full-time working hours",
         "ru": "Полный рабочий день",
-        "zh": "全日制工作时间；全职"
+        "zh": "全职工作时间／全职"
       },
       "pronunciation": {
         "en": "PLI-res o-RA-ri-o",
-        "ru": "ПЛИ-рес о-РА-ри-о",
+        "ru": "ПЛИ-рэс о-РА-ри-о",
         "zh": "PLI-res o-RA-ri-o"
       },
       "labels": [
@@ -369,8 +424,8 @@
       "greek": "γνώση",
       "prompt": {
         "en": "Knowledge / understanding",
-        "ru": "Знание; понимание",
-        "zh": "知识；了解"
+        "ru": "Знание / понимание",
+        "zh": "知识／了解"
       },
       "pronunciation": {
         "en": "GHNO-si",
@@ -449,7 +504,22 @@
       "themes": [
         "conversation"
       ],
-      "answerDisplay": "ο τύπος"
+      "answerDisplay": "ο τύπος",
+      "explanation": {
+        "en": "Τύπος can mean a type or kind, a form (such as a verb form), or informally a guy. Ο Τύπος can also mean the press: newspapers and journalism.",
+        "ru": "Ο τύπος имеет несколько значений: тип или разновидность; форма слова; разговорное «парень», «тип»; собирательное «пресса». Например: ο τύπος του ρήματος — «форма глагола».",
+        "zh": "Τύπος 可表示类型、形式（如动词形式），口语中也可指“家伙”。Ο Τύπος 还可统称报刊或新闻界。Ο τύπος του ρήματος 表示“动词的形式”。"
+      },
+      "contextExample": {
+        "en": "Αυτός ο ___ μένει εδώ. — That guy lives here.",
+        "ru": "Αυτός ο ___ μένει εδώ. — Этот парень живёт здесь.",
+        "zh": "Αυτός ο ___ μένει εδώ. — 这个家伙住在这里。"
+      },
+      "meaning": {
+        "en": "Write the missing Greek word.",
+        "ru": "Напишите только пропущенное слово.",
+        "zh": "只填写空缺的词。"
+      }
     },
     {
       "id": "oct16-ever-never",
@@ -474,6 +544,21 @@
       "reviewIdentity": {
         "deckId": "words-descriptions",
         "cardId": "oct16-ever-never"
+      },
+      "contextExample": {
+        "en": "Δεν πάω ___ εκεί. — I never go there.",
+        "ru": "Δεν καπνίζω ___. — Я никогда не курю.",
+        "zh": "Δεν πίνω ___ καφέ. — 我从不喝咖啡。"
+      },
+      "explanation": {
+        "en": "Ποτέ means never with a negative verb: Δεν πάω ποτέ — I never go. In a question it can mean ever: Έχεις πάει ποτέ; — Have you ever been?",
+        "ru": "Ποτέ с отрицанием означает «никогда»: δεν καπνίζω ποτέ — «я никогда не курю». В вопросе может означать «когда-нибудь»: πήγες ποτέ εκεί; — «ты когда-нибудь там был?» Не путайте с πότε — «когда?».",
+        "zh": "Ποτέ 在否定句中表示“从不”，在疑问句中可表示“曾经”。例如 Δεν πίνω ποτέ καφέ.（我从不喝咖啡。）"
+      },
+      "meaning": {
+        "en": "Write the missing Greek word.",
+        "ru": "Напишите только пропущенное слово.",
+        "zh": "只填写空缺的词。"
       }
     },
     {
@@ -495,7 +580,22 @@
       ],
       "themes": [
         "time"
-      ]
+      ],
+      "contextExample": {
+        "en": "Τρώω ___ πεινάω. — I eat when I am hungry.",
+        "ru": "Τρώω ___ πεινάω. — Я ем, когда голоден.",
+        "zh": "Τρώω ___ πεινάω. — 我饿的时候就吃东西。"
+      },
+      "explanation": {
+        "en": "Όταν joins a time clause: Τρώω όταν πεινάω — I eat when I am hungry. Use πότε to ask when.",
+        "ru": "Όταν — союз «когда», который вводит придаточное времени: τρώω όταν πεινάω — «я ем, когда голоден». Для самостоятельного вопроса «когда?» используется πότε.",
+        "zh": "Όταν 引导时间从句，表示“当……的时候”，如 Τρώω όταν πεινάω.（我饿的时候就吃东西。）询问“什么时候”用 πότε。"
+      },
+      "meaning": {
+        "en": "Write the missing Greek word.",
+        "ru": "Напишите только пропущенное слово.",
+        "zh": "只填写空缺的词。"
+      }
     },
     {
       "id": "oct16-dance-verb",
@@ -525,8 +625,8 @@
       "greek": "χορός",
       "prompt": {
         "en": "Dance / ball / chorus",
-        "ru": "Танец; бал; хор",
-        "zh": "舞蹈；舞会；合唱队（依语境）"
+        "ru": "Танец / бал / хор",
+        "zh": "舞蹈／舞会／合唱队（依语境）"
       },
       "pronunciation": {
         "en": "kho-ROS",
@@ -539,7 +639,22 @@
       "themes": [
         "home"
       ],
-      "answerDisplay": "ο χορός"
+      "answerDisplay": "ο χορός",
+      "explanation": {
+        "en": "Ο χορός means a dance or a dance event, such as a ball. It can also mean the chorus in drama or a group of singers in a church. A singing choir is usually χορωδία. The verb χορεύω means I dance.",
+        "ru": "Ο χορός — танец или мероприятие с танцами, бал. Существительное мужского рода; χορεύω — «я танцую». В театре и церковной традиции χορός может означать хор; обычное название певческого коллектива — χορωδία.",
+        "zh": "阳性名词 χορός 可指舞蹈或舞会，也可指古希腊戏剧中的歌队。一般的歌唱合唱团通常用 χορωδία；动词 χορεύω 表示“我跳舞”。"
+      },
+      "contextExample": {
+        "en": "Ο ___ αρχίζει στις οκτώ. — The dance begins at eight.",
+        "ru": "Ο ___ αρχίζει στις οκτώ. — Танец начинается в восемь.",
+        "zh": "Ο ___ αρχίζει στις οκτώ. — 舞会八点开始。"
+      },
+      "meaning": {
+        "en": "Write the missing Greek word.",
+        "ru": "Напишите только пропущенное слово.",
+        "zh": "只填写空缺的词。"
+      }
     },
     {
       "id": "oct16-traffic-light",
@@ -547,8 +662,8 @@
       "greek": "φανάρι",
       "prompt": {
         "en": "Traffic light / lantern",
-        "ru": "Светофор; фонарь",
-        "zh": "交通信号灯；灯笼"
+        "ru": "Светофор / фонарь",
+        "zh": "交通信号灯／灯笼"
       },
       "pronunciation": {
         "en": "fa-NA-ri",
@@ -561,7 +676,17 @@
       "themes": [
         "places"
       ],
-      "answerDisplay": "το φανάρι"
+      "answerDisplay": "το φανάρι",
+      "contextExample": {
+        "en": "Το ___ είναι κόκκινο. — The traffic light is red.",
+        "ru": "Το ___ είναι κόκκινο. — На светофоре красный свет.",
+        "zh": "Το ___ είναι κόκκινο. — 交通信号灯是红的。"
+      },
+      "meaning": {
+        "en": "Write the missing Greek word.",
+        "ru": "Напишите только пропущенное слово.",
+        "zh": "只填写空缺的词。"
+      }
     },
     {
       "id": "oct16-car",
@@ -590,9 +715,9 @@
       "collection": "words-adjectives",
       "greek": "κόκκινος",
       "prompt": {
-        "en": "Red (neuter singular)",
-        "ru": "Красное (средний род)",
-        "zh": "红色；红色的（中性单数）"
+        "en": "Red",
+        "ru": "Красный",
+        "zh": "红色的"
       },
       "pronunciation": {
         "en": "KO-ki-nos",
@@ -643,7 +768,12 @@
       "alternatives": [
         "κόκκινη",
         "κόκκινο"
-      ]
+      ],
+      "explanation": {
+        "ru": "Κόκκινος, κόκκινη, κόκκινο — «красный». Форма зависит от рода греческого существительного: κόκκινο φανάρι — «красный светофор». Принимаются все три формы.",
+        "en": "Κόκκινος, κόκκινη and κόκκινο mean red. The ending agrees with the Greek noun: κόκκινο φανάρι — red traffic light.",
+        "zh": "Κόκκινος、κόκκινη、κόκκινο 都表示“红色的”，形式随希腊语名词的性变化，如 κόκκινο φανάρι（红色信号灯）。本词卡接受这三种形式。"
+      }
     },
     {
       "id": "oct16-something",
@@ -651,8 +781,8 @@
       "greek": "κάτι",
       "prompt": {
         "en": "Something / some",
-        "ru": "Что-то; кое-что; немного",
-        "zh": "某事；某物；一些"
+        "ru": "Что-то / кое-что / немного",
+        "zh": "某事／某物／一些"
       },
       "pronunciation": {
         "en": "KA-ti",
@@ -664,7 +794,22 @@
       ],
       "themes": [
         "conversation"
-      ]
+      ],
+      "explanation": {
+        "en": "Κάτι is an invariable pronoun meaning something: Θέλω κάτι — I want something. Before a plural noun it can informally mean some: κάτι φίλοι — some friends; κάτι λεφτά — some money.",
+        "ru": "Κάτι — неизменяемое местоимение «что-то», «что-нибудь»: θέλω κάτι — «я хочу что-нибудь». Перед существительным во множественном числе разговорно обозначает неопределённое количество: κάτι φίλοι — «какие-то друзья», κάτι λεφτά — «немного денег».",
+        "zh": "Κάτι 是不变形代词，单独使用表示“某事、某物”，如 Θέλω κάτι.（我想要点东西。）口语中放在复数名词前也可表示“一些”，如 κάτι φίλοι（一些朋友）、κάτι λεφτά（一点钱）。"
+      },
+      "contextExample": {
+        "en": "Θέλω ___. — I want something.",
+        "ru": "Θέλω ___. — Я хочу что-нибудь.",
+        "zh": "Θέλω ___ να φάω. — 我想吃点东西。"
+      },
+      "meaning": {
+        "en": "Write the missing Greek word.",
+        "ru": "Напишите только пропущенное слово.",
+        "zh": "只填写空缺的词。"
+      }
     },
     {
       "id": "oct16-take",

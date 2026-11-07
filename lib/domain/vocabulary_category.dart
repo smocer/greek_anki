@@ -127,7 +127,7 @@ class VocabularyCatalog {
     id: 'category-${label.name}',
     title: labelTitle(label),
     subtitle: const LocalizedText(
-      en: 'Words from across your vocabulary',
+      en: 'Words from all your lessons',
       ru: 'Слова из всех тем',
     ),
     cover: label == VocabularyLabel.noun ? 'ο · η · το' : labelTitle(label).en,

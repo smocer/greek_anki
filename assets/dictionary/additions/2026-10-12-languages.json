@@ -13,7 +13,8 @@
       },
       "pronunciation": {
         "en": "e-te-RI-a",
-        "ru": "э-тэ-РИ-а"
+        "ru": "э-тэ-РИ-а",
+        "zh": "e-te-RI-a"
       },
       "themes": [
         "places"
@@ -23,7 +24,8 @@
       ],
       "explanation": {
         "en": "Feminine.",
-        "ru": "Женский род."
+        "ru": "Женский род.",
+        "zh": "阴性名词：η εταιρεία。"
       },
       "answerDisplay": "η εταιρεία",
       "alternatives": [
@@ -43,8 +45,9 @@
         "zh": "专业学校／学院（专业培训）"
       },
       "pronunciation": {
-        "en": "sho-LI",
-        "ru": "схо-ЛИ"
+        "en": "skho-LI",
+        "ru": "схо-ЛИ",
+        "zh": "skho-LI"
       },
       "themes": [
         "classroom"
@@ -54,7 +57,8 @@
       ],
       "explanation": {
         "en": "A school or faculty for a particular field: σχολή πιλότων = flight school. Σχολείο is the usual word for a general school.",
-        "ru": "Σχολή — учебное заведение или факультет по определённой специальности: σχολή πιλότων — лётная школа. Обычная школа — σχολείο."
+        "ru": "Σχολή — учебное заведение или факультет по определённой специальности: σχολή πιλότων — лётная школа. Обычная школа — σχολείο.",
+        "zh": "指专门领域的学校或学院，如 σχολή πιλότων（飞行学校）。普通学校通常用 σχολείο。"
       },
       "answerDisplay": "η σχολή"
     },
@@ -70,7 +74,7 @@
       "pronunciation": {
         "en": "bar",
         "ru": "бар",
-        "zh": "酒吧"
+        "zh": "bar"
       },
       "themes": [
         "places"
@@ -80,7 +84,8 @@
       ],
       "explanation": {
         "en": "Neuter.",
-        "ru": "Средний род."
+        "ru": "Средний род.",
+        "zh": "中性不变格名词：το μπαρ。"
       },
       "answerDisplay": "το μπαρ"
     },
@@ -91,11 +96,12 @@
       "prompt": {
         "en": "Province / district",
         "ru": "Провинция / округ",
-        "zh": "外省；乡间；地方地区"
+        "zh": "行政区／首都以外的地区"
       },
       "pronunciation": {
-        "en": "e-par-HI-a",
-        "ru": "э-пар-ХИ-а"
+        "en": "e-par-KHI-a",
+        "ru": "э-пар-ХИ-а",
+        "zh": "e-par-KHI-a"
       },
       "themes": [
         "places"
@@ -105,7 +111,8 @@
       ],
       "explanation": {
         "en": "Feminine. An administrative district, including in Cyprus; also the provinces or countryside outside the capital. It does not mean municipality.",
-        "ru": "Женский род. Административный округ, в том числе на Кипре; также провинция, местность вне столицы. Это не муниципалитет."
+        "ru": "Женский род. Административный округ, в том числе на Кипре; также провинция, местность вне столицы. Это не муниципалитет.",
+        "zh": "阴性名词，可指行政区（包括塞浦路斯的区），也可指首都以外的地区或乡间；不是“市镇”的意思。"
       },
       "answerDisplay": "η επαρχία"
     },
@@ -120,7 +127,8 @@
       },
       "pronunciation": {
         "en": "TMI-ma",
-        "ru": "ТМИ-ма"
+        "ru": "ТМИ-ма",
+        "zh": "TMI-ma"
       },
       "themes": [
         "places"
@@ -130,7 +138,8 @@
       ],
       "explanation": {
         "en": "Neuter.",
-        "ru": "Средний род."
+        "ru": "Средний род.",
+        "zh": "中性名词。"
       },
       "answerDisplay": "το τμήμα"
     },
@@ -145,7 +154,8 @@
       },
       "pronunciation": {
         "en": "MAR-ke-ting",
-        "ru": "МАР-кэ-тинг"
+        "ru": "МАР-кэ-тинг",
+        "zh": "MAR-ke-ting"
       },
       "themes": [
         "people"
@@ -155,7 +165,8 @@
       ],
       "explanation": {
         "en": "Neuter, indeclinable. This names the field, not a person working in it.",
-        "ru": "Средний род, не склоняется. Это сфера деятельности, а не «маркетолог»."
+        "ru": "Средний род, не склоняется. Это сфера деятельности, а не «маркетолог».",
+        "zh": "中性不变格名词，表示市场营销这一领域，不指从业人员。"
       },
       "answerDisplay": "το μάρκετινγκ"
     },
@@ -170,7 +181,8 @@
       },
       "pronunciation": {
         "en": "om-BRE-la",
-        "ru": "ом-БРЭ-ла"
+        "ru": "ом-БРЭ-ла",
+        "zh": "om-BRE-la"
       },
       "themes": [
         "home"
@@ -180,7 +192,8 @@
       ],
       "explanation": {
         "en": "Feminine.",
-        "ru": "Женский род."
+        "ru": "Женский род.",
+        "zh": "阴性名词。"
       },
       "answerDisplay": "η ομπρέλα"
     },
@@ -194,8 +207,9 @@
         "zh": "雨"
       },
       "pronunciation": {
-        "en": "vro-HI",
-        "ru": "вро-ХИ"
+        "en": "vro-KHI",
+        "ru": "вро-ХИ",
+        "zh": "vro-KHI"
       },
       "themes": [
         "home"
@@ -205,7 +219,8 @@
       ],
       "explanation": {
         "en": "Feminine.",
-        "ru": "Женский род."
+        "ru": "Женский род.",
+        "zh": "阴性名词。"
       },
       "answerDisplay": "η βροχή"
     },
@@ -220,7 +235,8 @@
       },
       "pronunciation": {
         "en": "a-LI-thia",
-        "ru": "а-ЛИ-тья"
+        "ru": "а-ЛИ-тья",
+        "zh": "a-LI-thia"
       },
       "themes": [
         "conversation"
@@ -230,7 +246,8 @@
       ],
       "explanation": {
         "en": "Feminine.",
-        "ru": "Женский род."
+        "ru": "Женский род.",
+        "zh": "阴性名词。"
       },
       "answerDisplay": "η αλήθεια"
     },
@@ -245,7 +262,8 @@
       },
       "pronunciation": {
         "en": "PSE-ma",
-        "ru": "ПСЭ-ма"
+        "ru": "ПСЭ-ма",
+        "zh": "PSE-ma"
       },
       "themes": [
         "conversation"
@@ -255,7 +273,8 @@
       ],
       "explanation": {
         "en": "Neuter.",
-        "ru": "Средний род."
+        "ru": "Средний род.",
+        "zh": "中性名词。"
       },
       "answerDisplay": "το ψέμα"
     },
@@ -270,7 +289,8 @@
       },
       "pronunciation": {
         "en": "lef-TA",
-        "ru": "лэф-ТА"
+        "ru": "лэф-ТА",
+        "zh": "lef-TA"
       },
       "themes": [
         "home"
@@ -280,7 +300,8 @@
       ],
       "explanation": {
         "en": "Neuter plural.",
-        "ru": "Средний род, множественное число."
+        "ru": "Средний род, множественное число.",
+        "zh": "中性复数名词。"
       },
       "answerDisplay": "τα λεφτά"
     },
@@ -295,7 +316,8 @@
       },
       "pronunciation": {
         "en": "dro-PI",
-        "ru": "дро-ПИ"
+        "ru": "дро-ПИ",
+        "zh": "dro-PI"
       },
       "themes": [
         "conversation"
@@ -305,7 +327,8 @@
       ],
       "explanation": {
         "en": "Feminine.",
-        "ru": "Женский род."
+        "ru": "Женский род.",
+        "zh": "阴性名词。"
       },
       "answerDisplay": "η ντροπή"
     },
@@ -320,7 +343,8 @@
       },
       "pronunciation": {
         "en": "PAR-ko",
-        "ru": "ПАР-ко"
+        "ru": "ПАР-ко",
+        "zh": "PAR-ko"
       },
       "themes": [
         "places"
@@ -330,7 +354,8 @@
       ],
       "explanation": {
         "en": "Neuter.",
-        "ru": "Средний род."
+        "ru": "Средний род.",
+        "zh": "中性名词。"
       },
       "answerDisplay": "το πάρκο"
     },
@@ -345,7 +370,8 @@
       },
       "pronunciation": {
         "en": "GHLO-sa",
-        "ru": "ГЛО-са"
+        "ru": "ГЛО-са",
+        "zh": "GHLO-sa"
       },
       "themes": [
         "classroom"
@@ -355,7 +381,8 @@
       ],
       "explanation": {
         "en": "Feminine.",
-        "ru": "Женский род."
+        "ru": "Женский род.",
+        "zh": "阴性名词。"
       },
       "answerDisplay": "η γλώσσα"
     },
@@ -370,7 +397,8 @@
       },
       "pronunciation": {
         "en": "e-RO-ti-si",
-        "ru": "э-РО-ти-си"
+        "ru": "э-РО-ти-си",
+        "zh": "e-RO-ti-si"
       },
       "themes": [
         "classroom"
@@ -380,7 +408,8 @@
       ],
       "explanation": {
         "en": "Feminine.",
-        "ru": "Женский род."
+        "ru": "Женский род.",
+        "zh": "阴性名词。"
       },
       "answerDisplay": "η ερώτηση"
     },
@@ -395,7 +424,8 @@
       },
       "pronunciation": {
         "en": "a-PAN-di-si",
-        "ru": "а-ПАН-ди-си"
+        "ru": "а-ПАН-ди-си",
+        "zh": "a-PAN-di-si"
       },
       "themes": [
         "classroom"
@@ -405,7 +435,8 @@
       ],
       "explanation": {
         "en": "Feminine.",
-        "ru": "Женский род."
+        "ru": "Женский род.",
+        "zh": "阴性名词。"
       },
       "answerDisplay": "η απάντηση"
     },
@@ -420,7 +451,8 @@
       },
       "pronunciation": {
         "en": "e-LEF-the-ros e-pang-ghel-ma-TI-as / e-LEF-the-ri e-pang-ghel-ma-TI-as",
-        "ru": "э-ЛЭФ-тэ-рос э-панг-гель-ма-ТИ-ас / э-ЛЭФ-тэ-ри э-панг-гель-ма-ТИ-ас"
+        "ru": "э-ЛЭФ-тэ-рос э-панг-гель-ма-ТИ-ас / э-ЛЭФ-тэ-ри э-панг-гель-ма-ТИ-ас",
+        "zh": "e-LEF-the-ros e-pang-ghel-ma-TI-as / e-LEF-the-ri e-pang-ghel-ma-TI-as"
       },
       "themes": [
         "people"
@@ -429,8 +461,9 @@
         "noun"
       ],
       "explanation": {
-        "en": "Either gender form is accepted in word practice. The article shows the gender.",
-        "ru": "В тренировке слов принимается форма любого рода. Артикль показывает род."
+        "en": "Ελεύθερος επαγγελματίας (masculine) or ελεύθερη επαγγελματίας (feminine) means a self-employed professional. Ελεύθερος changes to agree with the person.",
+        "ru": "В тренировке слов принимается форма любого рода. Артикль показывает род.",
+        "zh": "自由职业者，男性用 ο ελεύθερος επαγγελματίας，女性用 η ελεύθερη επαγγελματίας。"
       },
       "wordGroup": "freelancer",
       "forms": [
@@ -439,7 +472,8 @@
           "answerDisplay": "ο ελεύθερος επαγγελματίας",
           "pronunciation": {
             "en": "e-LEF-the-ros e-pang-ghel-ma-TI-as",
-            "ru": "э-ЛЭФ-тэ-рос э-панг-гель-ма-ТИ-ас"
+            "ru": "э-ЛЭФ-тэ-рос э-панг-гель-ма-ТИ-ас",
+            "zh": "e-LEF-the-ros e-pang-ghel-ma-TI-as"
           }
         },
         {
@@ -447,7 +481,8 @@
           "answerDisplay": "η ελεύθερη επαγγελματίας",
           "pronunciation": {
             "en": "e-LEF-the-ri e-pang-ghel-ma-TI-as",
-            "ru": "э-ЛЭФ-тэ-ри э-панг-гель-ма-ТИ-ас"
+            "ru": "э-ЛЭФ-тэ-ри э-панг-гель-ма-ТИ-ас",
+            "zh": "e-LEF-the-ri e-pang-ghel-ma-TI-as"
           }
         }
       ],
@@ -471,7 +506,8 @@
       },
       "pronunciation": {
         "en": "af-to-er-gho-dho-TU-me-nos / af-to-er-gho-dho-TU-me-ni",
-        "ru": "аф-то-эр-го-до-ТУ-мэ-нос / аф-то-эр-го-до-ТУ-мэ-ни"
+        "ru": "аф-то-эр-го-до-ТУ-мэ-нос / аф-то-эр-го-до-ТУ-мэ-ни",
+        "zh": "af-to-er-gho-dho-TU-me-nos / af-to-er-gho-dho-TU-me-ni"
       },
       "themes": [
         "people"
@@ -481,7 +517,8 @@
       ],
       "explanation": {
         "en": "Used in Cyprus for someone who works for themselves. Masculine -ος, feminine -η.",
-        "ru": "На Кипре так называют того, кто работает на себя. Мужской род на -ος, женский на -η."
+        "ru": "На Кипре так называют того, кто работает на себя. Мужской род на -ος, женский на -η.",
+        "zh": "塞浦路斯用语，指为自己工作的人。阳性以 -ος 结尾，阴性以 -η 结尾。"
       },
       "wordGroup": "self-employed",
       "forms": [
@@ -490,7 +527,8 @@
           "answerDisplay": "αυτοεργοδοτούμενος",
           "pronunciation": {
             "en": "af-to-er-gho-dho-TU-me-nos",
-            "ru": "аф-то-эр-го-до-ТУ-мэ-нос"
+            "ru": "аф-то-эр-го-до-ТУ-мэ-нос",
+            "zh": "af-to-er-gho-dho-TU-me-nos"
           }
         },
         {
@@ -498,7 +536,8 @@
           "answerDisplay": "αυτοεργοδοτούμενη",
           "pronunciation": {
             "en": "af-to-er-gho-dho-TU-me-ni",
-            "ru": "аф-то-эр-го-до-ТУ-мэ-ни"
+            "ru": "аф-то-эр-го-до-ТУ-мэ-ни",
+            "zh": "af-to-er-gho-dho-TU-me-ni"
           }
         },
         {
@@ -536,7 +575,8 @@
       },
       "pronunciation": {
         "en": "kti-NI-a-tros / kti-NI-a-tros",
-        "ru": "кти-НИ-а-трос / кти-НИ-а-трос"
+        "ru": "кти-НИ-а-трос / кти-НИ-а-трос",
+        "zh": "kti-NI-a-tros / kti-NI-a-tros"
       },
       "themes": [
         "people"
@@ -546,7 +586,8 @@
       ],
       "explanation": {
         "en": "The same noun is used for a man or a woman; only ο / η changes.",
-        "ru": "Само слово одинаково для мужчины и женщины; меняется только артикль ο / η."
+        "ru": "Само слово одинаково для мужчины и женщины; меняется только артикль ο / η.",
+        "zh": "男女均使用 κτηνίατρος，冠词分别用 ο、η。"
       },
       "wordGroup": "veterinarian",
       "forms": [
@@ -555,7 +596,8 @@
           "answerDisplay": "ο κτηνίατρος",
           "pronunciation": {
             "en": "kti-NI-a-tros",
-            "ru": "кти-НИ-а-трос"
+            "ru": "кти-НИ-а-трос",
+            "zh": "kti-NI-a-tros"
           }
         },
         {
@@ -563,7 +605,8 @@
           "answerDisplay": "η κτηνίατρος",
           "pronunciation": {
             "en": "kti-NI-a-tros",
-            "ru": "кти-НИ-а-трос"
+            "ru": "кти-НИ-а-трос",
+            "zh": "kti-NI-a-tros"
           }
         }
       ],
@@ -585,7 +628,8 @@
       },
       "pronunciation": {
         "en": "ksi-lur-GHOS / ksi-lur-GHOS",
-        "ru": "кси-лур-ГОС / кси-лур-ГОС"
+        "ru": "кси-лур-ГОС / кси-лур-ГОС",
+        "zh": "ksi-lur-GHOS / ksi-lur-GHOS"
       },
       "themes": [
         "people"
@@ -595,7 +639,8 @@
       ],
       "explanation": {
         "en": "The same noun is used for a man or a woman; only ο / η changes.",
-        "ru": "Само слово одинаково для мужчины и женщины; меняется только артикль ο / η."
+        "ru": "Само слово одинаково для мужчины и женщины; меняется только артикль ο / η.",
+        "zh": "男女均使用 ξυλουργός，冠词分别用 ο、η。"
       },
       "wordGroup": "carpenter",
       "forms": [
@@ -604,7 +649,8 @@
           "answerDisplay": "ο ξυλουργός",
           "pronunciation": {
             "en": "ksi-lur-GHOS",
-            "ru": "кси-лур-ГОС"
+            "ru": "кси-лур-ГОС",
+            "zh": "ksi-lur-GHOS"
           }
         },
         {
@@ -612,7 +658,8 @@
           "answerDisplay": "η ξυλουργός",
           "pronunciation": {
             "en": "ksi-lur-GHOS",
-            "ru": "кси-лур-ГОС"
+            "ru": "кси-лур-ГОС",
+            "zh": "ksi-lur-GHOS"
           }
         }
       ],
@@ -634,7 +681,8 @@
       },
       "pronunciation": {
         "en": "yim-na-STIS / yim-NA-stria",
-        "ru": "йим-на-СТИС / йим-НА-стри-а"
+        "ru": "йим-на-СТИС / йим-НА-стри-а",
+        "zh": "yim-na-STIS / yim-NA-stria"
       },
       "themes": [
         "people"
@@ -643,8 +691,9 @@
         "noun"
       ],
       "explanation": {
-        "en": "Either gender form is accepted in word practice. The article shows the gender.",
-        "ru": "В тренировке слов принимается форма любого рода. Артикль показывает род."
+        "en": "Γυμναστής (masculine) and γυμνάστρια (feminine) can mean a fitness trainer or a physical education teacher.",
+        "ru": "В тренировке слов принимается форма любого рода. Артикль показывает род.",
+        "zh": "男性用 ο γυμναστής，女性用 η γυμνάστρια，可指健身教练或体育教师。"
       },
       "wordGroup": "fitness-trainer",
       "forms": [
@@ -653,7 +702,8 @@
           "answerDisplay": "ο γυμναστής",
           "pronunciation": {
             "en": "yim-na-STIS",
-            "ru": "йим-на-СТИС"
+            "ru": "йим-на-СТИС",
+            "zh": "yim-na-STIS"
           }
         },
         {
@@ -661,7 +711,8 @@
           "answerDisplay": "η γυμνάστρια",
           "pronunciation": {
             "en": "yim-NA-stria",
-            "ru": "йим-НА-стри-а"
+            "ru": "йим-НА-стри-а",
+            "zh": "yim-NA-stria"
           }
         }
       ],
@@ -681,11 +732,12 @@
       "prompt": {
         "en": "Wet",
         "ru": "Мокрый",
-        "zh": "湿的；被淋湿的（阴性单数）"
+        "zh": "湿的／被淋湿的"
       },
       "pronunciation": {
         "en": "vre-GHME-nos / vre-GHME-ni / vre-GHME-no",
-        "ru": "врэ-ГМЭ-нос / врэ-ГМЭ-ни / врэ-ГМЭ-но"
+        "ru": "врэ-ГМЭ-нос / врэ-ГМЭ-ни / врэ-ГМЭ-но",
+        "zh": "vre-GHME-nos / vre-GHME-ni / vre-GHME-no"
       },
       "themes": [
         "home"
@@ -695,7 +747,8 @@
       ],
       "explanation": {
         "en": "Masculine βρεγμένος, feminine βρεγμένη, neuter βρεγμένο. Είμαι βρεγμένος = I am wet (a man speaking).",
-        "ru": "Мужской род — βρεγμένος, женский — βρεγμένη, средний — βρεγμένο. Είμαι βρεγμένος — «я мокрый»."
+        "ru": "Мужской род — βρεγμένος, женский — βρεγμένη, средний — βρεγμένο. Είμαι βρεγμένος — «я мокрый».",
+        "zh": "形容词有三种性形式：βρεγμένος、βρεγμένη、βρεγμένο。例如 Τα ρούχα είναι βρεγμένα.（衣服湿了。）"
       },
       "wordGroup": "wet",
       "forms": [
@@ -704,7 +757,8 @@
           "answerDisplay": "βρεγμένος",
           "pronunciation": {
             "en": "vre-GHME-nos",
-            "ru": "врэ-ГМЭ-нос"
+            "ru": "врэ-ГМЭ-нос",
+            "zh": "vre-GHME-nos"
           }
         },
         {
@@ -712,7 +766,8 @@
           "answerDisplay": "βρεγμένη",
           "pronunciation": {
             "en": "vre-GHME-ni",
-            "ru": "врэ-ГМЭ-ни"
+            "ru": "врэ-ГМЭ-ни",
+            "zh": "vre-GHME-ni"
           }
         },
         {
@@ -720,7 +775,8 @@
           "answerDisplay": "βρεγμένο",
           "pronunciation": {
             "en": "vre-GHME-no",
-            "ru": "врэ-ГМЭ-но"
+            "ru": "врэ-ГМЭ-но",
+            "zh": "vre-GHME-no"
           }
         }
       ],
@@ -750,7 +806,8 @@
       },
       "pronunciation": {
         "en": "E-li-nas / e-li-NI-dha",
-        "ru": "Э-ли-нас / э-ли-НИ-да"
+        "ru": "Э-ли-нас / э-ли-НИ-да",
+        "zh": "E-li-nas / e-li-NI-dha"
       },
       "themes": [
         "people"
@@ -759,8 +816,9 @@
         "noun"
       ],
       "explanation": {
-        "en": "A person’s nationality, not the language. Masculine and feminine forms share this card; either is accepted. Nationalities start with a capital letter.",
-        "ru": "Национальность человека, а не название языка. Формы мужского и женского рода собраны в одной карточке; принимается любая. Национальности пишутся с заглавной буквы."
+        "en": "A nationality noun for a person, written with a capital letter. ο Έλληνας; η Ελληνίδα. The language name is a different word.",
+        "ru": "Национальность человека, а не название языка. Формы мужского и женского рода собраны в одной карточке; принимается любая. Национальности пишутся с заглавной буквы.",
+        "zh": "表示某国人，首字母大写。男性和女性形式均可作答；语言名称通常使用小写。"
       },
       "wordGroup": "nationality-greek",
       "forms": [
@@ -769,7 +827,8 @@
           "answerDisplay": "ο Έλληνας",
           "pronunciation": {
             "en": "E-li-nas",
-            "ru": "Э-ли-нас"
+            "ru": "Э-ли-нас",
+            "zh": "E-li-nas"
           }
         },
         {
@@ -777,7 +836,8 @@
           "answerDisplay": "η Ελληνίδα",
           "pronunciation": {
             "en": "e-li-NI-dha",
-            "ru": "э-ли-НИ-да"
+            "ru": "э-ли-НИ-да",
+            "zh": "e-li-NI-dha"
           }
         }
       ],
@@ -805,7 +865,8 @@
       },
       "pronunciation": {
         "en": "i-spa-NOS / i-spa-NI-dha",
-        "ru": "и-спа-НОС / и-спа-НИ-да"
+        "ru": "и-спа-НОС / и-спа-НИ-да",
+        "zh": "i-spa-NOS / i-spa-NI-dha"
       },
       "themes": [
         "people"
@@ -814,8 +875,9 @@
         "noun"
       ],
       "explanation": {
-        "en": "A person’s nationality, not the language. Masculine and feminine forms share this card; either is accepted. Nationalities start with a capital letter.",
-        "ru": "Национальность человека, а не название языка. Формы мужского и женского рода собраны в одной карточке; принимается любая. Национальности пишутся с заглавной буквы."
+        "en": "A nationality noun for a person, written with a capital letter. ο Ισπανός; η Ισπανίδα. The language name is a different word.",
+        "ru": "Национальность человека, а не название языка. Формы мужского и женского рода собраны в одной карточке; принимается любая. Национальности пишутся с заглавной буквы.",
+        "zh": "表示某国人，首字母大写。男性和女性形式均可作答；语言名称通常使用小写。"
       },
       "wordGroup": "nationality-spanish",
       "forms": [
@@ -824,7 +886,8 @@
           "answerDisplay": "ο Ισπανός",
           "pronunciation": {
             "en": "i-spa-NOS",
-            "ru": "и-спа-НОС"
+            "ru": "и-спа-НОС",
+            "zh": "i-spa-NOS"
           }
         },
         {
@@ -832,7 +895,8 @@
           "answerDisplay": "η Ισπανίδα",
           "pronunciation": {
             "en": "i-spa-NI-dha",
-            "ru": "и-спа-НИ-да"
+            "ru": "и-спа-НИ-да",
+            "zh": "i-spa-NI-dha"
           }
         }
       ],
@@ -860,7 +924,8 @@
       },
       "pronunciation": {
         "en": "RO-sos / ro-SI-dha",
-        "ru": "РО-сос / ро-СИ-да"
+        "ru": "РО-сос / ро-СИ-да",
+        "zh": "RO-sos / ro-SI-dha"
       },
       "themes": [
         "people"
@@ -869,8 +934,9 @@
         "noun"
       ],
       "explanation": {
-        "en": "A person’s nationality, not the language. Masculine and feminine forms share this card; either is accepted. Nationalities start with a capital letter.",
-        "ru": "Национальность человека, а не название языка. Формы мужского и женского рода собраны в одной карточке; принимается любая. Национальности пишутся с заглавной буквы."
+        "en": "A nationality noun for a person, written with a capital letter. ο Ρώσος; η Ρωσίδα. The language name is a different word.",
+        "ru": "Национальность человека, а не название языка. Формы мужского и женского рода собраны в одной карточке; принимается любая. Национальности пишутся с заглавной буквы.",
+        "zh": "表示某国人，首字母大写。男性和女性形式均可作答；语言名称通常使用小写。"
       },
       "wordGroup": "nationality-russian",
       "forms": [
@@ -879,7 +945,8 @@
           "answerDisplay": "ο Ρώσος",
           "pronunciation": {
             "en": "RO-sos",
-            "ru": "РО-сос"
+            "ru": "РО-сос",
+            "zh": "RO-sos"
           }
         },
         {
@@ -887,7 +954,8 @@
           "answerDisplay": "η Ρωσίδα",
           "pronunciation": {
             "en": "ro-SI-dha",
-            "ru": "ро-СИ-да"
+            "ru": "ро-СИ-да",
+            "zh": "ro-SI-dha"
           }
         }
       ],
@@ -915,7 +983,8 @@
       },
       "pronunciation": {
         "en": "el-ve-TOS / el-ve-TI-dha",
-        "ru": "эль-вэ-ТОС / эль-вэ-ТИ-да"
+        "ru": "эль-вэ-ТОС / эль-вэ-ТИ-да",
+        "zh": "el-ve-TOS / el-ve-TI-dha"
       },
       "themes": [
         "people"
@@ -924,8 +993,9 @@
         "noun"
       ],
       "explanation": {
-        "en": "A person’s nationality, not the language. Masculine and feminine forms share this card; either is accepted. Nationalities start with a capital letter.",
-        "ru": "Национальность человека, а не название языка. Формы мужского и женского рода собраны в одной карточке; принимается любая. Национальности пишутся с заглавной буквы."
+        "en": "A nationality noun for a person, written with a capital letter. ο Ελβετός; η Ελβετίδα. The language name is a different word.",
+        "ru": "Национальность человека, а не название языка. Формы мужского и женского рода собраны в одной карточке; принимается любая. Национальности пишутся с заглавной буквы.",
+        "zh": "表示某国人，首字母大写。男性和女性形式均可作答；语言名称通常使用小写。"
       },
       "wordGroup": "nationality-swiss",
       "forms": [
@@ -934,7 +1004,8 @@
           "answerDisplay": "ο Ελβετός",
           "pronunciation": {
             "en": "el-ve-TOS",
-            "ru": "эль-вэ-ТОС"
+            "ru": "эль-вэ-ТОС",
+            "zh": "el-ve-TOS"
           }
         },
         {
@@ -942,7 +1013,8 @@
           "answerDisplay": "η Ελβετίδα",
           "pronunciation": {
             "en": "el-ve-TI-dha",
-            "ru": "эль-вэ-ТИ-да"
+            "ru": "эль-вэ-ТИ-да",
+            "zh": "el-ve-TI-dha"
           }
         }
       ],
@@ -970,7 +1042,8 @@
       },
       "pronunciation": {
         "en": "af-stra-LOS / af-stra-LE-za",
-        "ru": "аф-стра-ЛОС / аф-стра-ЛЭ-за"
+        "ru": "аф-стра-ЛОС / аф-стра-ЛЭ-за",
+        "zh": "af-stra-LOS / af-stra-LE-za"
       },
       "themes": [
         "people"
@@ -979,8 +1052,9 @@
         "noun"
       ],
       "explanation": {
-        "en": "A person’s nationality, not the language. Masculine and feminine forms share this card; either is accepted. Nationalities start with a capital letter.",
-        "ru": "Национальность человека, а не название языка. Формы мужского и женского рода собраны в одной карточке; принимается любая. Национальности пишутся с заглавной буквы."
+        "en": "A nationality noun for a person, written with a capital letter. ο Αυστραλός; η Αυστραλέζα. The language name is a different word.",
+        "ru": "Национальность человека, а не название языка. Формы мужского и женского рода собраны в одной карточке; принимается любая. Национальности пишутся с заглавной буквы.",
+        "zh": "表示某国人，首字母大写。男性和女性形式均可作答；语言名称通常使用小写。"
       },
       "wordGroup": "nationality-australian",
       "forms": [
@@ -989,7 +1063,8 @@
           "answerDisplay": "ο Αυστραλός",
           "pronunciation": {
             "en": "af-stra-LOS",
-            "ru": "аф-стра-ЛОС"
+            "ru": "аф-стра-ЛОС",
+            "zh": "af-stra-LOS"
           }
         },
         {
@@ -997,7 +1072,8 @@
           "answerDisplay": "η Αυστραλέζα",
           "pronunciation": {
             "en": "af-stra-LE-za",
-            "ru": "аф-стра-ЛЭ-за"
+            "ru": "аф-стра-ЛЭ-за",
+            "zh": "af-stra-LE-za"
           }
         }
       ],
@@ -1025,7 +1101,8 @@
       },
       "pronunciation": {
         "en": "po-lo-NOS / po-lo-NI / po-lo-NE-za",
-        "ru": "по-ло-НОС / по-ло-НИ / по-ло-НЭ-за"
+        "ru": "по-ло-НОС / по-ло-НИ / по-ло-НЭ-за",
+        "zh": "po-lo-NOS / po-lo-NI / po-lo-NE-za"
       },
       "themes": [
         "people"
@@ -1034,8 +1111,9 @@
         "noun"
       ],
       "explanation": {
-        "en": "A person’s nationality, not the language. Masculine and feminine forms share this card; either is accepted. Nationalities start with a capital letter.",
-        "ru": "Национальность человека, а не название языка. Формы мужского и женского рода собраны в одной карточке; принимается любая. Национальности пишутся с заглавной буквы."
+        "en": "A nationality noun for a person, written with a capital letter. ο Πολωνός; η Πολωνή; η Πολωνέζα. The language name is a different word.",
+        "ru": "Национальность человека, а не название языка. Формы мужского и женского рода собраны в одной карточке; принимается любая. Национальности пишутся с заглавной буквы.",
+        "zh": "表示某国人，首字母大写。男性和女性形式均可作答；语言名称通常使用小写。"
       },
       "wordGroup": "nationality-polish",
       "forms": [
@@ -1044,7 +1122,8 @@
           "answerDisplay": "ο Πολωνός",
           "pronunciation": {
             "en": "po-lo-NOS",
-            "ru": "по-ло-НОС"
+            "ru": "по-ло-НОС",
+            "zh": "po-lo-NOS"
           }
         },
         {
@@ -1052,7 +1131,8 @@
           "answerDisplay": "η Πολωνή",
           "pronunciation": {
             "en": "po-lo-NI",
-            "ru": "по-ло-НИ"
+            "ru": "по-ло-НИ",
+            "zh": "po-lo-NI"
           }
         },
         {
@@ -1060,7 +1140,8 @@
           "answerDisplay": "η Πολωνέζα",
           "pronunciation": {
             "en": "po-lo-NE-za",
-            "ru": "по-ло-НЭ-за"
+            "ru": "по-ло-НЭ-за",
+            "zh": "po-lo-NE-za"
           }
         }
       ],
@@ -1090,7 +1171,8 @@
       },
       "pronunciation": {
         "en": "su-i-DHOS / su-i-DHE-za",
-        "ru": "су-и-ДОС / су-и-ДЭ-за"
+        "ru": "су-и-ДОС / су-и-ДЭ-за",
+        "zh": "su-i-DHOS / su-i-DHE-za"
       },
       "themes": [
         "people"
@@ -1099,8 +1181,9 @@
         "noun"
       ],
       "explanation": {
-        "en": "A person’s nationality, not the language. Masculine and feminine forms share this card; either is accepted. Nationalities start with a capital letter.",
-        "ru": "Национальность человека, а не название языка. Формы мужского и женского рода собраны в одной карточке; принимается любая. Национальности пишутся с заглавной буквы."
+        "en": "A nationality noun for a person, written with a capital letter. ο Σουηδός; η Σουηδέζα. The language name is a different word.",
+        "ru": "Национальность человека, а не название языка. Формы мужского и женского рода собраны в одной карточке; принимается любая. Национальности пишутся с заглавной буквы.",
+        "zh": "表示某国人，首字母大写。男性和女性形式均可作答；语言名称通常使用小写。"
       },
       "wordGroup": "nationality-swedish",
       "forms": [
@@ -1109,7 +1192,8 @@
           "answerDisplay": "ο Σουηδός",
           "pronunciation": {
             "en": "su-i-DHOS",
-            "ru": "су-и-ДОС"
+            "ru": "су-и-ДОС",
+            "zh": "su-i-DHOS"
           }
         },
         {
@@ -1117,7 +1201,8 @@
           "answerDisplay": "η Σουηδέζα",
           "pronunciation": {
             "en": "su-i-DHE-za",
-            "ru": "су-и-ДЭ-за"
+            "ru": "су-и-ДЭ-за",
+            "zh": "su-i-DHE-za"
           }
         }
       ],
@@ -1145,7 +1230,8 @@
       },
       "pronunciation": {
         "en": "ki-NE-zos / ki-NE-za",
-        "ru": "ки-НЭ-зос / ки-НЭ-за"
+        "ru": "ки-НЭ-зос / ки-НЭ-за",
+        "zh": "ki-NE-zos / ki-NE-za"
       },
       "themes": [
         "people"
@@ -1154,8 +1240,9 @@
         "noun"
       ],
       "explanation": {
-        "en": "A person’s nationality, not the language. Masculine and feminine forms share this card; either is accepted. Nationalities start with a capital letter.",
-        "ru": "Национальность человека, а не название языка. Формы мужского и женского рода собраны в одной карточке; принимается любая. Национальности пишутся с заглавной буквы."
+        "en": "A nationality noun for a person, written with a capital letter. ο Κινέζος; η Κινέζα. The language name is a different word.",
+        "ru": "Национальность человека, а не название языка. Формы мужского и женского рода собраны в одной карточке; принимается любая. Национальности пишутся с заглавной буквы.",
+        "zh": "表示某国人，首字母大写。男性和女性形式均可作答；语言名称通常使用小写。"
       },
       "wordGroup": "nationality-chinese",
       "forms": [
@@ -1164,7 +1251,8 @@
           "answerDisplay": "ο Κινέζος",
           "pronunciation": {
             "en": "ki-NE-zos",
-            "ru": "ки-НЭ-зос"
+            "ru": "ки-НЭ-зос",
+            "zh": "ki-NE-zos"
           }
         },
         {
@@ -1172,7 +1260,8 @@
           "answerDisplay": "η Κινέζα",
           "pronunciation": {
             "en": "ki-NE-za",
-            "ru": "ки-НЭ-за"
+            "ru": "ки-НЭ-за",
+            "zh": "ki-NE-za"
           }
         }
       ],
@@ -1200,7 +1289,8 @@
       },
       "pronunciation": {
         "en": "ya-po-NE-zos / ya-po-NE-za / I-a-po-nas",
-        "ru": "я-по-НЭ-зос / я-по-НЭ-за / И-а-по-нас"
+        "ru": "я-по-НЭ-зос / я-по-НЭ-за / И-а-по-нас",
+        "zh": "ya-po-NE-zos / ya-po-NE-za / I-a-po-nas"
       },
       "themes": [
         "people"
@@ -1209,8 +1299,9 @@
         "noun"
       ],
       "explanation": {
-        "en": "A person’s nationality, not the language. Masculine and feminine forms share this card; either is accepted. Nationalities start with a capital letter.",
-        "ru": "Национальность человека, а не название языка. Формы мужского и женского рода собраны в одной карточке; принимается любая. Национальности пишутся с заглавной буквы."
+        "en": "A nationality noun for a person, written with a capital letter. ο Γιαπωνέζος; η Γιαπωνέζα; ο Ιάπωνας. The language name is a different word.",
+        "ru": "Национальность человека, а не название языка. Формы мужского и женского рода собраны в одной карточке; принимается любая. Национальности пишутся с заглавной буквы.",
+        "zh": "表示某国人，首字母大写。男性和女性形式均可作答；语言名称通常使用小写。"
       },
       "wordGroup": "nationality-japanese",
       "forms": [
@@ -1219,7 +1310,8 @@
           "answerDisplay": "ο Γιαπωνέζος",
           "pronunciation": {
             "en": "ya-po-NE-zos",
-            "ru": "я-по-НЭ-зос"
+            "ru": "я-по-НЭ-зос",
+            "zh": "ya-po-NE-zos"
           }
         },
         {
@@ -1227,7 +1319,8 @@
           "answerDisplay": "η Γιαπωνέζα",
           "pronunciation": {
             "en": "ya-po-NE-za",
-            "ru": "я-по-НЭ-за"
+            "ru": "я-по-НЭ-за",
+            "zh": "ya-po-NE-za"
           }
         },
         {
@@ -1235,7 +1328,8 @@
           "answerDisplay": "ο Ιάπωνας",
           "pronunciation": {
             "en": "I-a-po-nas",
-            "ru": "И-а-по-нас"
+            "ru": "И-а-по-нас",
+            "zh": "I-a-po-nas"
           }
         }
       ],
@@ -1265,7 +1359,8 @@
       },
       "pronunciation": {
         "en": "al-va-NOS / al-va-NI / al-va-NI-dha",
-        "ru": "аль-ва-НОС / аль-ва-НИ / аль-ва-НИ-да"
+        "ru": "аль-ва-НОС / аль-ва-НИ / аль-ва-НИ-да",
+        "zh": "al-va-NOS / al-va-NI / al-va-NI-dha"
       },
       "themes": [
         "people"
@@ -1274,8 +1369,9 @@
         "noun"
       ],
       "explanation": {
-        "en": "A person’s nationality, not the language. Masculine and feminine forms share this card; either is accepted. Nationalities start with a capital letter.",
-        "ru": "Национальность человека, а не название языка. Формы мужского и женского рода собраны в одной карточке; принимается любая. Национальности пишутся с заглавной буквы."
+        "en": "A nationality noun for a person, written with a capital letter. ο Αλβανός; η Αλβανή; η Αλβανίδα. The language name is a different word.",
+        "ru": "Национальность человека, а не название языка. Формы мужского и женского рода собраны в одной карточке; принимается любая. Национальности пишутся с заглавной буквы.",
+        "zh": "表示某国人，首字母大写。男性和女性形式均可作答；语言名称通常使用小写。"
       },
       "wordGroup": "nationality-albanian",
       "forms": [
@@ -1284,7 +1380,8 @@
           "answerDisplay": "ο Αλβανός",
           "pronunciation": {
             "en": "al-va-NOS",
-            "ru": "аль-ва-НОС"
+            "ru": "аль-ва-НОС",
+            "zh": "al-va-NOS"
           }
         },
         {
@@ -1292,7 +1389,8 @@
           "answerDisplay": "η Αλβανή",
           "pronunciation": {
             "en": "al-va-NI",
-            "ru": "аль-ва-НИ"
+            "ru": "аль-ва-НИ",
+            "zh": "al-va-NI"
           }
         },
         {
@@ -1300,7 +1398,8 @@
           "answerDisplay": "η Αλβανίδα",
           "pronunciation": {
             "en": "al-va-NI-dha",
-            "ru": "аль-ва-НИ-да"
+            "ru": "аль-ва-НИ-да",
+            "zh": "al-va-NI-dha"
           }
         }
       ],
@@ -1330,7 +1429,8 @@
       },
       "pronunciation": {
         "en": "u-kra-NOS / u-kra-NI",
-        "ru": "у-кра-НОС / у-кра-НИ"
+        "ru": "у-кра-НОС / у-кра-НИ",
+        "zh": "u-kra-NOS / u-kra-NI"
       },
       "themes": [
         "people"
@@ -1339,8 +1439,9 @@
         "noun"
       ],
       "explanation": {
-        "en": "A person’s nationality, not the language. Masculine and feminine forms share this card; either is accepted. Nationalities start with a capital letter.",
-        "ru": "Национальность человека, а не название языка. Формы мужского и женского рода собраны в одной карточке; принимается любая. Национальности пишутся с заглавной буквы."
+        "en": "A nationality noun for a person, written with a capital letter. ο Ουκρανός; η Ουκρανή. The language name is a different word.",
+        "ru": "Национальность человека, а не название языка. Формы мужского и женского рода собраны в одной карточке; принимается любая. Национальности пишутся с заглавной буквы.",
+        "zh": "表示某国人，首字母大写。男性和女性形式均可作答；语言名称通常使用小写。"
       },
       "wordGroup": "nationality-ukrainian",
       "forms": [
@@ -1349,7 +1450,8 @@
           "answerDisplay": "ο Ουκρανός",
           "pronunciation": {
             "en": "u-kra-NOS",
-            "ru": "у-кра-НОС"
+            "ru": "у-кра-НОС",
+            "zh": "u-kra-NOS"
           }
         },
         {
@@ -1357,7 +1459,8 @@
           "answerDisplay": "η Ουκρανή",
           "pronunciation": {
             "en": "u-kra-NI",
-            "ru": "у-кра-НИ"
+            "ru": "у-кра-НИ",
+            "zh": "u-kra-NI"
           }
         }
       ],
@@ -1380,12 +1483,13 @@
       "greek": "Ιρακινός",
       "prompt": {
         "en": "Iraqi (person)",
-        "ru": "Иракец",
+        "ru": "Иракец / иракчанка",
         "zh": "伊拉克人"
       },
       "pronunciation": {
         "en": "i-ra-ki-NOS / i-ra-ki-NI",
-        "ru": "и-ра-ки-НОС / и-ра-ки-НИ"
+        "ru": "и-ра-ки-НОС / и-ра-ки-НИ",
+        "zh": "i-ra-ki-NOS / i-ra-ki-NI"
       },
       "themes": [
         "people"
@@ -1394,8 +1498,9 @@
         "noun"
       ],
       "explanation": {
-        "en": "A person’s nationality, not the language. Masculine and feminine forms share this card; either is accepted. Nationalities start with a capital letter.",
-        "ru": "Национальность человека, а не название языка. Формы мужского и женского рода собраны в одной карточке; принимается любая. Национальности пишутся с заглавной буквы."
+        "en": "A nationality noun for a person, written with a capital letter. ο Ιρακινός; η Ιρακινή. The language name is a different word.",
+        "ru": "Ο Ιρακινός — иракец, η Ιρακινή — иракчанка. Это названия жителей, а не языка; пишутся с заглавной буквы. Принимаются обе формы.",
+        "zh": "表示某国人，首字母大写。男性和女性形式均可作答；语言名称通常使用小写。"
       },
       "wordGroup": "nationality-iraqi",
       "forms": [
@@ -1404,7 +1509,8 @@
           "answerDisplay": "ο Ιρακινός",
           "pronunciation": {
             "en": "i-ra-ki-NOS",
-            "ru": "и-ра-ки-НОС"
+            "ru": "и-ра-ки-НОС",
+            "zh": "i-ra-ki-NOS"
           }
         },
         {
@@ -1412,7 +1518,8 @@
           "answerDisplay": "η Ιρακινή",
           "pronunciation": {
             "en": "i-ra-ki-NI",
-            "ru": "и-ра-ки-НИ"
+            "ru": "и-ра-ки-НИ",
+            "zh": "i-ra-ki-NI"
           }
         }
       ],
@@ -1440,7 +1547,8 @@
       },
       "pronunciation": {
         "en": "e-YIP-ti-os / e-YIP-tia",
-        "ru": "э-ЙИП-ти-ос / э-ЙИП-тья"
+        "ru": "э-ЙИП-ти-ос / э-ЙИП-тья",
+        "zh": "e-YIP-ti-os / e-YIP-tia"
       },
       "themes": [
         "people"
@@ -1449,8 +1557,9 @@
         "noun"
       ],
       "explanation": {
-        "en": "A person’s nationality, not the language. Masculine and feminine forms share this card; either is accepted. Nationalities start with a capital letter.",
-        "ru": "Национальность человека, а не название языка. Формы мужского и женского рода собраны в одной карточке; принимается любая. Национальности пишутся с заглавной буквы."
+        "en": "A nationality noun for a person, written with a capital letter. ο Αιγύπτιος; η Αιγύπτια. The language name is a different word.",
+        "ru": "Национальность человека, а не название языка. Формы мужского и женского рода собраны в одной карточке; принимается любая. Национальности пишутся с заглавной буквы.",
+        "zh": "表示某国人，首字母大写。男性和女性形式均可作答；语言名称通常使用小写。"
       },
       "wordGroup": "nationality-egyptian",
       "forms": [
@@ -1459,7 +1568,8 @@
           "answerDisplay": "ο Αιγύπτιος",
           "pronunciation": {
             "en": "e-YIP-ti-os",
-            "ru": "э-ЙИП-ти-ос"
+            "ru": "э-ЙИП-ти-ос",
+            "zh": "e-YIP-ti-os"
           }
         },
         {
@@ -1467,7 +1577,8 @@
           "answerDisplay": "η Αιγύπτια",
           "pronunciation": {
             "en": "e-YIP-tia",
-            "ru": "э-ЙИП-тья"
+            "ru": "э-ЙИП-тья",
+            "zh": "e-YIP-tia"
           }
         }
       ],
@@ -1495,7 +1606,8 @@
       },
       "pronunciation": {
         "en": "VUL-gha-ros / vul-GHA-ra",
-        "ru": "ВУЛ-га-рос / вул-ГА-ра"
+        "ru": "ВУЛ-га-рос / вул-ГА-ра",
+        "zh": "VUL-gha-ros / vul-GHA-ra"
       },
       "themes": [
         "people"
@@ -1504,8 +1616,9 @@
         "noun"
       ],
       "explanation": {
-        "en": "A person’s nationality, not the language. Masculine and feminine forms share this card; either is accepted. Nationalities start with a capital letter.",
-        "ru": "Национальность человека, а не название языка. Формы мужского и женского рода собраны в одной карточке; принимается любая. Национальности пишутся с заглавной буквы."
+        "en": "A nationality noun for a person, written with a capital letter. ο Βούλγαρος; η Βουλγάρα. The language name is a different word.",
+        "ru": "Национальность человека, а не название языка. Формы мужского и женского рода собраны в одной карточке; принимается любая. Национальности пишутся с заглавной буквы.",
+        "zh": "表示某国人，首字母大写。男性和女性形式均可作答；语言名称通常使用小写。"
       },
       "wordGroup": "nationality-bulgarian",
       "forms": [
@@ -1514,7 +1627,8 @@
           "answerDisplay": "ο Βούλγαρος",
           "pronunciation": {
             "en": "VUL-gha-ros",
-            "ru": "ВУЛ-га-рос"
+            "ru": "ВУЛ-га-рос",
+            "zh": "VUL-gha-ros"
           }
         },
         {
@@ -1522,7 +1636,8 @@
           "answerDisplay": "η Βουλγάρα",
           "pronunciation": {
             "en": "vul-GHA-ra",
-            "ru": "вул-ГА-ра"
+            "ru": "вул-ГА-ра",
+            "zh": "vul-GHA-ra"
           }
         }
       ],
@@ -1550,7 +1665,8 @@
       },
       "pronunciation": {
         "en": "TUR-kos / tur-KA-la",
-        "ru": "ТУР-кос / тур-КА-ла"
+        "ru": "ТУР-кос / тур-КА-ла",
+        "zh": "TUR-kos / tur-KA-la"
       },
       "themes": [
         "people"
@@ -1559,8 +1675,9 @@
         "noun"
       ],
       "explanation": {
-        "en": "A person’s nationality, not the language. Masculine and feminine forms share this card; either is accepted. Nationalities start with a capital letter.",
-        "ru": "Национальность человека, а не название языка. Формы мужского и женского рода собраны в одной карточке; принимается любая. Национальности пишутся с заглавной буквы."
+        "en": "A nationality noun for a person, written with a capital letter. ο Τούρκος; η Τουρκάλα. The language name is a different word.",
+        "ru": "Национальность человека, а не название языка. Формы мужского и женского рода собраны в одной карточке; принимается любая. Национальности пишутся с заглавной буквы.",
+        "zh": "表示某国人，首字母大写。男性和女性形式均可作答；语言名称通常使用小写。"
       },
       "wordGroup": "nationality-turkish",
       "forms": [
@@ -1569,7 +1686,8 @@
           "answerDisplay": "ο Τούρκος",
           "pronunciation": {
             "en": "TUR-kos",
-            "ru": "ТУР-кос"
+            "ru": "ТУР-кос",
+            "zh": "TUR-kos"
           }
         },
         {
@@ -1577,7 +1695,8 @@
           "answerDisplay": "η Τουρκάλα",
           "pronunciation": {
             "en": "tur-KA-la",
-            "ru": "тур-КА-ла"
+            "ru": "тур-КА-ла",
+            "zh": "tur-KA-la"
           }
         }
       ],
@@ -1605,7 +1724,8 @@
       },
       "pronunciation": {
         "en": "i-ta-LOS / i-ta-LI-dha",
-        "ru": "и-та-ЛОС / и-та-ЛИ-да"
+        "ru": "и-та-ЛОС / и-та-ЛИ-да",
+        "zh": "i-ta-LOS / i-ta-LI-dha"
       },
       "themes": [
         "people"
@@ -1614,8 +1734,9 @@
         "noun"
       ],
       "explanation": {
-        "en": "A person’s nationality, not the language. Masculine and feminine forms share this card; either is accepted. Nationalities start with a capital letter.",
-        "ru": "Национальность человека, а не название языка. Формы мужского и женского рода собраны в одной карточке; принимается любая. Национальности пишутся с заглавной буквы."
+        "en": "A nationality noun for a person, written with a capital letter. ο Ιταλός; η Ιταλίδα. The language name is a different word.",
+        "ru": "Национальность человека, а не название языка. Формы мужского и женского рода собраны в одной карточке; принимается любая. Национальности пишутся с заглавной буквы.",
+        "zh": "表示某国人，首字母大写。男性和女性形式均可作答；语言名称通常使用小写。"
       },
       "wordGroup": "nationality-italian",
       "forms": [
@@ -1624,7 +1745,8 @@
           "answerDisplay": "ο Ιταλός",
           "pronunciation": {
             "en": "i-ta-LOS",
-            "ru": "и-та-ЛОС"
+            "ru": "и-та-ЛОС",
+            "zh": "i-ta-LOS"
           }
         },
         {
@@ -1632,7 +1754,8 @@
           "answerDisplay": "η Ιταλίδα",
           "pronunciation": {
             "en": "i-ta-LI-dha",
-            "ru": "и-та-ЛИ-да"
+            "ru": "и-та-ЛИ-да",
+            "zh": "i-ta-LI-dha"
           }
         }
       ],
@@ -1660,7 +1783,8 @@
       },
       "pronunciation": {
         "en": "yer-ma-NOS / yer-ma-NI-dha",
-        "ru": "йэр-ма-НОС / йэр-ма-НИ-да"
+        "ru": "йэр-ма-НОС / йэр-ма-НИ-да",
+        "zh": "yer-ma-NOS / yer-ma-NI-dha"
       },
       "themes": [
         "people"
@@ -1669,8 +1793,9 @@
         "noun"
       ],
       "explanation": {
-        "en": "A person’s nationality, not the language. Masculine and feminine forms share this card; either is accepted. Nationalities start with a capital letter.",
-        "ru": "Национальность человека, а не название языка. Формы мужского и женского рода собраны в одной карточке; принимается любая. Национальности пишутся с заглавной буквы."
+        "en": "A nationality noun for a person, written with a capital letter. ο Γερμανός; η Γερμανίδα. The language name is a different word.",
+        "ru": "Национальность человека, а не название языка. Формы мужского и женского рода собраны в одной карточке; принимается любая. Национальности пишутся с заглавной буквы.",
+        "zh": "表示某国人，首字母大写。男性和女性形式均可作答；语言名称通常使用小写。"
       },
       "wordGroup": "nationality-german",
       "forms": [
@@ -1679,7 +1804,8 @@
           "answerDisplay": "ο Γερμανός",
           "pronunciation": {
             "en": "yer-ma-NOS",
-            "ru": "йэр-ма-НОС"
+            "ru": "йэр-ма-НОС",
+            "zh": "yer-ma-NOS"
           }
         },
         {
@@ -1687,7 +1813,8 @@
           "answerDisplay": "η Γερμανίδα",
           "pronunciation": {
             "en": "yer-ma-NI-dha",
-            "ru": "йэр-ма-НИ-да"
+            "ru": "йэр-ма-НИ-да",
+            "zh": "yer-ma-NI-dha"
           }
         }
       ],
@@ -1715,7 +1842,8 @@
       },
       "pronunciation": {
         "en": "i-spa-ni-KA",
-        "ru": "и-спа-ни-КА"
+        "ru": "и-спа-ни-КА",
+        "zh": "i-spa-ni-KA"
       },
       "themes": [
         "classroom"
@@ -1725,7 +1853,8 @@
       ],
       "explanation": {
         "en": "Language name: neuter plural. Usually no article after μιλάω: μιλάω ισπανικά.",
-        "ru": "Название языка: средний род, множественное число. После μιλάω артикль обычно не нужен: μιλάω ισπανικά."
+        "ru": "Название языка: средний род, множественное число. После μιλάω артикль обычно не нужен: μιλάω ισπανικά.",
+        "zh": "语言名称采用中性复数。放在 μιλάω 后通常省略冠词，如 μιλάω ισπανικά（我说西班牙语）。"
       },
       "answerDisplay": "τα ισπανικά",
       "reviewIdentity": {
@@ -1744,7 +1873,8 @@
       },
       "pronunciation": {
         "en": "ro-si-KA",
-        "ru": "ро-си-КА"
+        "ru": "ро-си-КА",
+        "zh": "ro-si-KA"
       },
       "themes": [
         "classroom"
@@ -1754,7 +1884,8 @@
       ],
       "explanation": {
         "en": "Language name: neuter plural. Usually no article after μιλάω: μιλάω ρωσικά.",
-        "ru": "Название языка: средний род, множественное число. После μιλάω артикль обычно не нужен: μιλάω ρωσικά."
+        "ru": "Название языка: средний род, множественное число. После μιλάω артикль обычно не нужен: μιλάω ρωσικά.",
+        "zh": "语言名称采用中性复数。放在 μιλάω 后通常省略冠词，如 μιλάω ρωσικά（我说俄语）。"
       },
       "answerDisplay": "τα ρωσικά",
       "alternatives": [
@@ -1779,7 +1910,8 @@
       },
       "pronunciation": {
         "en": "yer-ma-ni-KA",
-        "ru": "йэр-ма-ни-КА"
+        "ru": "йэр-ма-ни-КА",
+        "zh": "yer-ma-ni-KA"
       },
       "themes": [
         "classroom"
@@ -1789,7 +1921,8 @@
       ],
       "explanation": {
         "en": "Language name: neuter plural. Usually no article after μιλάω: μιλάω γερμανικά.",
-        "ru": "Название языка: средний род, множественное число. После μιλάω артикль обычно не нужен: μιλάω γερμανικά."
+        "ru": "Название языка: средний род, множественное число. После μιλάω артикль обычно не нужен: μιλάω γερμανικά.",
+        "zh": "语言名称采用中性复数。放在 μιλάω 后通常省略冠词，如 μιλάω γερμανικά（我说德语）。"
       },
       "answerDisplay": "τα γερμανικά",
       "reviewIdentity": {
@@ -1808,7 +1941,8 @@
       },
       "pronunciation": {
         "en": "gha-li-KA",
-        "ru": "га-ли-КА"
+        "ru": "га-ли-КА",
+        "zh": "gha-li-KA"
       },
       "themes": [
         "classroom"
@@ -1818,7 +1952,8 @@
       ],
       "explanation": {
         "en": "Language name: neuter plural. Usually no article after μιλάω: μιλάω γαλλικά.",
-        "ru": "Название языка: средний род, множественное число. После μιλάω артикль обычно не нужен: μιλάω γαλλικά."
+        "ru": "Название языка: средний род, множественное число. После μιλάω артикль обычно не нужен: μιλάω γαλλικά.",
+        "zh": "语言名称采用中性复数。放在 μιλάω 后通常省略冠词，如 μιλάω γαλλικά（我说法语）。"
       },
       "answerDisplay": "τα γαλλικά",
       "reviewIdentity": {
@@ -1837,7 +1972,8 @@
       },
       "pronunciation": {
         "en": "i-ta-li-KA",
-        "ru": "и-та-ли-КА"
+        "ru": "и-та-ли-КА",
+        "zh": "i-ta-li-KA"
       },
       "themes": [
         "classroom"
@@ -1847,7 +1983,8 @@
       ],
       "explanation": {
         "en": "Language name: neuter plural. Usually no article after μιλάω: μιλάω ιταλικά.",
-        "ru": "Название языка: средний род, множественное число. После μιλάω артикль обычно не нужен: μιλάω ιταλικά."
+        "ru": "Название языка: средний род, множественное число. После μιλάω артикль обычно не нужен: μιλάω ιταλικά.",
+        "zh": "语言名称采用中性复数。放在 μιλάω 后通常省略冠词，如 μιλάω ιταλικά（我说意大利语）。"
       },
       "answerDisplay": "τα ιταλικά",
       "reviewIdentity": {
@@ -1866,7 +2003,8 @@
       },
       "pronunciation": {
         "en": "ang-gli-KA",
-        "ru": "анг-гли-КА"
+        "ru": "анг-гли-КА",
+        "zh": "ang-gli-KA"
       },
       "themes": [
         "classroom"
@@ -1876,7 +2014,8 @@
       ],
       "explanation": {
         "en": "Language name: neuter plural. Usually no article after μιλάω: μιλάω αγγλικά.",
-        "ru": "Название языка: средний род, множественное число. После μιλάω артикль обычно не нужен: μιλάω αγγλικά."
+        "ru": "Название языка: средний род, множественное число. После μιλάω артикль обычно не нужен: μιλάω αγγλικά.",
+        "zh": "语言名称采用中性复数。放在 μιλάω 后通常省略冠词，如 μιλάω αγγλικά（我说英语）。"
       },
       "answerDisplay": "τα αγγλικά",
       "reviewIdentity": {
@@ -1895,7 +2034,8 @@
       },
       "pronunciation": {
         "en": "po-lo-ni-KA",
-        "ru": "по-ло-ни-КА"
+        "ru": "по-ло-ни-КА",
+        "zh": "po-lo-ni-KA"
       },
       "themes": [
         "classroom"
@@ -1905,7 +2045,8 @@
       ],
       "explanation": {
         "en": "Language name: neuter plural. Usually no article after μιλάω: μιλάω πολωνικά.",
-        "ru": "Название языка: средний род, множественное число. После μιλάω артикль обычно не нужен: μιλάω πολωνικά."
+        "ru": "Название языка: средний род, множественное число. После μιλάω артикль обычно не нужен: μιλάω πολωνικά.",
+        "zh": "语言名称采用中性复数。放在 μιλάω 后通常省略冠词，如 μιλάω πολωνικά（我说波兰语）。"
       },
       "answerDisplay": "τα πολωνικά",
       "reviewIdentity": {
@@ -1924,7 +2065,8 @@
       },
       "pronunciation": {
         "en": "su-i-dhi-KA",
-        "ru": "су-и-ди-КА"
+        "ru": "су-и-ди-КА",
+        "zh": "su-i-dhi-KA"
       },
       "themes": [
         "classroom"
@@ -1934,7 +2076,8 @@
       ],
       "explanation": {
         "en": "Language name: neuter plural. Usually no article after μιλάω: μιλάω σουηδικά.",
-        "ru": "Название языка: средний род, множественное число. После μιλάω артикль обычно не нужен: μιλάω σουηδικά."
+        "ru": "Название языка: средний род, множественное число. После μιλάω артикль обычно не нужен: μιλάω σουηδικά.",
+        "zh": "语言名称采用中性复数。放在 μιλάω 后通常省略冠词，如 μιλάω σουηδικά（我说瑞典语）。"
       },
       "answerDisplay": "τα σουηδικά",
       "reviewIdentity": {
@@ -1953,7 +2096,8 @@
       },
       "pronunciation": {
         "en": "ki-NE-zi-ka",
-        "ru": "ки-НЭ-зи-ка"
+        "ru": "ки-НЭ-зи-ка",
+        "zh": "ki-NE-zi-ka"
       },
       "themes": [
         "classroom"
@@ -1963,7 +2107,8 @@
       ],
       "explanation": {
         "en": "Language name: neuter plural. Usually no article after μιλάω: μιλάω κινέζικα.",
-        "ru": "Название языка: средний род, множественное число. После μιλάω артикль обычно не нужен: μιλάω κινέζικα."
+        "ru": "Название языка: средний род, множественное число. После μιλάω артикль обычно не нужен: μιλάω κινέζικα.",
+        "zh": "语言名称采用中性复数。放在 μιλάω 后通常省略冠词，如 μιλάω κινέζικα（我说中文）。"
       },
       "answerDisplay": "τα κινέζικα",
       "alternatives": [
@@ -1988,7 +2133,8 @@
       },
       "pronunciation": {
         "en": "ya-po-NE-zi-ka",
-        "ru": "я-по-НЭ-зи-ка"
+        "ru": "я-по-НЭ-зи-ка",
+        "zh": "ya-po-NE-zi-ka"
       },
       "themes": [
         "classroom"
@@ -1998,7 +2144,8 @@
       ],
       "explanation": {
         "en": "Language name: neuter plural. Usually no article after μιλάω: μιλάω γιαπωνέζικα.",
-        "ru": "Название языка: средний род, множественное число. После μιλάω артикль обычно не нужен: μιλάω γιαπωνέζικα."
+        "ru": "Название языка: средний род, множественное число. После μιλάω артикль обычно не нужен: μιλάω γιαπωνέζικα.",
+        "zh": "语言名称采用中性复数。放在 μιλάω 后通常省略冠词，如 μιλάω γιαπωνέζικα（我说日语）。"
       },
       "answerDisplay": "τα γιαπωνέζικα",
       "alternatives": [
@@ -2023,7 +2170,8 @@
       },
       "pronunciation": {
         "en": "al-va-ni-KA",
-        "ru": "аль-ва-ни-КА"
+        "ru": "аль-ва-ни-КА",
+        "zh": "al-va-ni-KA"
       },
       "themes": [
         "classroom"
@@ -2033,7 +2181,8 @@
       ],
       "explanation": {
         "en": "Language name: neuter plural. Usually no article after μιλάω: μιλάω αλβανικά.",
-        "ru": "Название языка: средний род, множественное число. После μιλάω артикль обычно не нужен: μιλάω αλβανικά."
+        "ru": "Название языка: средний род, множественное число. После μιλάω артикль обычно не нужен: μιλάω αλβανικά.",
+        "zh": "语言名称采用中性复数。放在 μιλάω 后通常省略冠词，如 μιλάω αλβανικά（我说阿尔巴尼亚语）。"
       },
       "answerDisplay": "τα αλβανικά",
       "reviewIdentity": {
@@ -2052,7 +2201,8 @@
       },
       "pronunciation": {
         "en": "u-kra-ni-KA",
-        "ru": "у-кра-ни-КА"
+        "ru": "у-кра-ни-КА",
+        "zh": "u-kra-ni-KA"
       },
       "themes": [
         "classroom"
@@ -2062,7 +2212,8 @@
       ],
       "explanation": {
         "en": "Language name: neuter plural. Usually no article after μιλάω: μιλάω ουκρανικά.",
-        "ru": "Название языка: средний род, множественное число. После μιλάω артикль обычно не нужен: μιλάω ουκρανικά."
+        "ru": "Название языка: средний род, множественное число. После μιλάω артикль обычно не нужен: μιλάω ουκρανικά.",
+        "zh": "语言名称采用中性复数。放在 μιλάω 后通常省略冠词，如 μιλάω ουκρανικά（我说乌克兰语）。"
       },
       "answerDisplay": "τα ουκρανικά",
       "reviewIdentity": {
@@ -2081,7 +2232,8 @@
       },
       "pronunciation": {
         "en": "a-ra-vi-KA",
-        "ru": "а-ра-ви-КА"
+        "ru": "а-ра-ви-КА",
+        "zh": "a-ra-vi-KA"
       },
       "themes": [
         "classroom"
@@ -2091,7 +2243,8 @@
       ],
       "explanation": {
         "en": "Language name: neuter plural. Usually no article after μιλάω: μιλάω αραβικά.",
-        "ru": "Название языка: средний род, множественное число. После μιλάω артикль обычно не нужен: μιλάω αραβικά."
+        "ru": "Название языка: средний род, множественное число. После μιλάω артикль обычно не нужен: μιλάω αραβικά.",
+        "zh": "语言名称采用中性复数。放在 μιλάω 后通常省略冠词，如 μιλάω αραβικά（我说阿拉伯语）。"
       },
       "answerDisplay": "τα αραβικά",
       "reviewIdentity": {
@@ -2110,7 +2263,8 @@
       },
       "pronunciation": {
         "en": "vul-gha-ri-KA",
-        "ru": "вул-га-ри-КА"
+        "ru": "вул-га-ри-КА",
+        "zh": "vul-gha-ri-KA"
       },
       "themes": [
         "classroom"
@@ -2120,7 +2274,8 @@
       ],
       "explanation": {
         "en": "Language name: neuter plural. Usually no article after μιλάω: μιλάω βουλγαρικά.",
-        "ru": "Название языка: средний род, множественное число. После μιλάω артикль обычно не нужен: μιλάω βουλγαρικά."
+        "ru": "Название языка: средний род, множественное число. После μιλάω артикль обычно не нужен: μιλάω βουλγαρικά.",
+        "zh": "语言名称采用中性复数。放在 μιλάω 后通常省略冠词，如 μιλάω βουλγαρικά（我说保加利亚语）。"
       },
       "answerDisplay": "τα βουλγαρικά",
       "alternatives": [
@@ -2145,7 +2300,8 @@
       },
       "pronunciation": {
         "en": "tur-ki-KA",
-        "ru": "тур-ки-КА"
+        "ru": "тур-ки-КА",
+        "zh": "tur-ki-KA"
       },
       "themes": [
         "classroom"
@@ -2155,7 +2311,8 @@
       ],
       "explanation": {
         "en": "Language name: neuter plural. Usually no article after μιλάω: μιλάω τουρκικά.",
-        "ru": "Название языка: средний род, множественное число. После μιλάω артикль обычно не нужен: μιλάω τουρκικά."
+        "ru": "Название языка: средний род, множественное число. После μιλάω артикль обычно не нужен: μιλάω τουρκικά.",
+        "zh": "语言名称采用中性复数。放在 μιλάω 后通常省略冠词，如 μιλάω τουρκικά（我说土耳其语）。"
       },
       "answerDisplay": "τα τουρκικά",
       "reviewIdentity": {
@@ -2174,7 +2331,8 @@
       },
       "pronunciation": {
         "en": "al-va-NI-a",
-        "ru": "аль-ва-НИ-а"
+        "ru": "аль-ва-НИ-а",
+        "zh": "al-va-NI-a"
       },
       "themes": [
         "places"
@@ -2184,7 +2342,8 @@
       ],
       "explanation": {
         "en": "Feminine.",
-        "ru": "Женский род."
+        "ru": "Женский род.",
+        "zh": "阴性名词。"
       },
       "answerDisplay": "η Αλβανία"
     },
@@ -2199,7 +2358,8 @@
       },
       "pronunciation": {
         "en": "su-i-DHI-a",
-        "ru": "су-и-ДИ-а"
+        "ru": "су-и-ДИ-а",
+        "zh": "su-i-DHI-a"
       },
       "themes": [
         "places"
@@ -2209,7 +2369,8 @@
       ],
       "explanation": {
         "en": "Feminine.",
-        "ru": "Женский род."
+        "ru": "Женский род.",
+        "zh": "阴性名词。"
       },
       "answerDisplay": "η Σουηδία"
     },
@@ -2224,7 +2385,8 @@
       },
       "pronunciation": {
         "en": "po-lo-NI-a",
-        "ru": "по-ло-НИ-а"
+        "ru": "по-ло-НИ-а",
+        "zh": "po-lo-NI-a"
       },
       "themes": [
         "places"
@@ -2234,7 +2396,8 @@
       ],
       "explanation": {
         "en": "Feminine.",
-        "ru": "Женский род."
+        "ru": "Женский род.",
+        "zh": "阴性名词。"
       },
       "answerDisplay": "η Πολωνία"
     },
@@ -2249,7 +2412,8 @@
       },
       "pronunciation": {
         "en": "ia-po-NI-a",
-        "ru": "я-по-НИ-а"
+        "ru": "я-по-НИ-а",
+        "zh": "ia-po-NI-a"
       },
       "themes": [
         "places"
@@ -2259,7 +2423,8 @@
       ],
       "explanation": {
         "en": "Feminine.",
-        "ru": "Женский род."
+        "ru": "Женский род.",
+        "zh": "阴性名词。"
       },
       "answerDisplay": "η Ιαπωνία"
     },
@@ -2274,7 +2439,8 @@
       },
       "pronunciation": {
         "en": "af-stra-LI-a",
-        "ru": "аф-стра-ЛИ-а"
+        "ru": "аф-стра-ЛИ-а",
+        "zh": "af-stra-LI-a"
       },
       "themes": [
         "places"
@@ -2284,7 +2450,8 @@
       ],
       "explanation": {
         "en": "Feminine.",
-        "ru": "Женский род."
+        "ru": "Женский род.",
+        "zh": "阴性名词。"
       },
       "answerDisplay": "η Αυστραλία"
     },
@@ -2299,7 +2466,8 @@
       },
       "pronunciation": {
         "en": "VO-ria a-me-ri-KI",
-        "ru": "ВО-рья а-мэ-ри-КИ"
+        "ru": "ВО-рья а-мэ-ри-КИ",
+        "zh": "VO-ria a-me-ri-KI"
       },
       "themes": [
         "places"
@@ -2309,7 +2477,8 @@
       ],
       "explanation": {
         "en": "Feminine.",
-        "ru": "Женский род."
+        "ru": "Женский род.",
+        "zh": "阴性名词。"
       },
       "answerDisplay": "η Βόρεια Αμερική"
     },
@@ -2324,7 +2493,8 @@
       },
       "pronunciation": {
         "en": "NO-tia a-me-ri-KI",
-        "ru": "НО-тья а-мэ-ри-КИ"
+        "ru": "НО-тья а-мэ-ри-КИ",
+        "zh": "NO-tia a-me-ri-KI"
       },
       "themes": [
         "places"
@@ -2334,7 +2504,8 @@
       ],
       "explanation": {
         "en": "Feminine.",
-        "ru": "Женский род."
+        "ru": "Женский род.",
+        "zh": "阴性名词。"
       },
       "answerDisplay": "η Νότια Αμερική"
     },
@@ -2823,11 +2994,12 @@
       "prompt": {
         "en": "Unfortunately",
         "ru": "К сожалению",
-        "zh": "不幸地；遗憾的是"
+        "zh": "不幸的是／遗憾的是"
       },
       "pronunciation": {
-        "en": "dhis-ti-HOS",
-        "ru": "дис-ти-ХОС"
+        "en": "dhis-ti-KHOS",
+        "ru": "дис-ти-ХОС",
+        "zh": "dhis-ti-HOS"
       },
       "themes": [
         "conversation"
@@ -2838,6 +3010,21 @@
       "reviewIdentity": {
         "deckId": "words-descriptions",
         "cardId": "languages-unfortunately"
+      },
+      "contextExample": {
+        "en": "___, δεν μπορώ να έρθω. — Unfortunately, I can’t come.",
+        "ru": "___, δεν μπορώ. — К сожалению, я не могу.",
+        "zh": "___, δεν μπορώ να έρθω. — 遗憾的是，我来不了。"
+      },
+      "explanation": {
+        "en": "Δυστυχώς means unfortunately and comments on an unwelcome situation.",
+        "ru": "Δυστυχώς — «к сожалению»: δυστυχώς, δεν μπορώ — «к сожалению, я не могу». Выражает сожаление о сообщаемом.",
+        "zh": "Δυστυχώς 用来表达对某件事的遗憾，表示“不幸的是、遗憾的是”。"
+      },
+      "meaning": {
+        "en": "Write the missing Greek word.",
+        "ru": "Напишите только пропущенное слово.",
+        "zh": "只填写空缺的词。"
       }
     },
     {
@@ -2846,12 +3033,13 @@
       "greek": "αρκετά",
       "prompt": {
         "en": "Enough / fairly",
-        "ru": "Достаточно",
+        "ru": "Достаточно / довольно",
         "zh": "足够；相当；不少（依语境）"
       },
       "pronunciation": {
         "en": "ar-ke-TA",
-        "ru": "ар-кэ-ТА"
+        "ru": "ар-кэ-ТА",
+        "zh": "ar-ke-TA"
       },
       "themes": [
         "conversation"
@@ -2860,12 +3048,23 @@
         "adverb"
       ],
       "explanation": {
-        "en": "Αρκετά καλά = fairly / quite well. Αρκετά can also mean “enough”.",
-        "ru": "Αρκετά καλά — «довольно хорошо». Арκετά также значит «достаточно»."
+        "en": "Αρκετά can mean enough or quite/fairly: Έφαγα αρκετά — I ate enough; αρκετά καλά — quite well. It does not change gender when used as an adverb.",
+        "ru": "Αρκετά καλά — «довольно хорошо». Арκετά также значит «достаточно».",
+        "zh": "Αρκετά 可表示数量足够，也可表示程度较高，如 αρκετά καλά（相当好）。"
       },
       "reviewIdentity": {
         "deckId": "words-descriptions",
         "cardId": "languages-fairly"
+      },
+      "contextExample": {
+        "en": "Μιλάω ελληνικά ___ καλά. — I speak Greek fairly well.",
+        "ru": "Μιλάω ___ καλά. — Я говорю довольно хорошо.",
+        "zh": "Μιλάω ___ καλά ελληνικά. — 我的希腊语说得相当好。"
+      },
+      "meaning": {
+        "en": "Write the missing Greek word.",
+        "ru": "Напишите только пропущенное слово.",
+        "zh": "只填写空缺的词。"
       }
     },
     {
@@ -2879,7 +3078,8 @@
       },
       "pronunciation": {
         "en": "LI-gho",
-        "ru": "ЛИ-го"
+        "ru": "ЛИ-го",
+        "zh": "LI-gho"
       },
       "themes": [
         "conversation"
@@ -2890,6 +3090,21 @@
       "reviewIdentity": {
         "deckId": "words-descriptions",
         "cardId": "languages-little"
+      },
+      "contextExample": {
+        "en": "Μιλάω ___ ελληνικά. — I speak a little Greek.",
+        "ru": "Μιλάω ___ ελληνικά. — Я немного говорю по-гречески.",
+        "zh": "Θέλω ___ νερό. — 我想要一点水。"
+      },
+      "explanation": {
+        "en": "Λίγο can mean a little in amount or degree: μιλάω λίγο — I speak a little. Before a noun, λίγος, λίγη, λίγο can function as an adjective and change form.",
+        "ru": "Λίγο как наречие означает «немного»: μιλάω λίγο ελληνικά — «я немного говорю по-гречески». В таком употреблении не меняется по родам.",
+        "zh": "Λίγο 表示少量或较低程度：λίγο νερό（一点水）、λίγο κουρασμένος（有点累）。"
+      },
+      "meaning": {
+        "en": "Write the missing Greek word.",
+        "ru": "Напишите только пропущенное слово.",
+        "zh": "只填写空缺的词。"
       }
     },
     {
@@ -2898,12 +3113,13 @@
       "greek": "καθόλου",
       "prompt": {
         "en": "Not at all (in a negative statement)",
-        "ru": "Совсем не (в отрицательном высказывании)",
+        "ru": "Совсем (с отрицанием — «совсем не»)",
         "zh": "一点也不（用于否定）；究竟、丝毫（用于疑问等）"
       },
       "pronunciation": {
         "en": "ka-THO-lu",
-        "ru": "ка-ТО-лу"
+        "ru": "ка-ТО-лу",
+        "zh": "ka-THO-lu"
       },
       "themes": [
         "conversation"
@@ -2912,12 +3128,23 @@
         "adverb"
       ],
       "explanation": {
-        "en": "With δεν: Δεν μιλάω καθόλου ελληνικά = I do not speak Greek at all. As a short negative answer, καθόλου means “not at all”.",
-        "ru": "С отрицанием δεν: Δεν μιλάω καθόλου ελληνικά — «Я совсем не говорю по-гречески». Краткий отрицательный ответ καθόλου — «совсем нет»."
+        "en": "With a negative verb, καθόλου means at all: Δεν ξέρω καθόλου — I don’t know at all. As a short negative reply it means not at all. It can also mean at all in a question.",
+        "ru": "С отрицанием δεν: Δεν μιλάω καθόλου ελληνικά — «Я совсем не говорю по-гречески». Краткий отрицательный ответ καθόλου — «совсем нет».",
+        "zh": "Καθόλου 与 δεν 连用表示“一点也不”，也可单独作否定回答；在疑问句中可表示“有没有、是否有一点”。"
       },
       "reviewIdentity": {
         "deckId": "words-descriptions",
         "cardId": "languages-not-at-all"
+      },
+      "contextExample": {
+        "en": "Δεν μιλάω ___ ελληνικά. — I don’t speak Greek at all.",
+        "ru": "Δεν μιλάω ___ γερμανικά. — Я совсем не говорю по-немецки.",
+        "zh": "Δεν μιλάω ___ ελληνικά. — 我一点希腊语也不会说。"
+      },
+      "meaning": {
+        "en": "Write the missing Greek word.",
+        "ru": "Напишите только пропущенное слово.",
+        "zh": "只填写空缺的词。"
       }
     },
     {
@@ -2931,7 +3158,8 @@
       },
       "pronunciation": {
         "en": "TO-so",
-        "ru": "ТО-со"
+        "ru": "ТО-со",
+        "zh": "TO-so"
       },
       "themes": [
         "conversation"
@@ -2940,12 +3168,23 @@
         "adverb"
       ],
       "explanation": {
-        "en": "Τόσο καλά = so well; δεν μιλάω τόσο καλά = I do not speak so well.",
-        "ru": "Τόσο καλά — «так хорошо»; δεν μιλάω τόσο καλά — «я не так хорошо говорю»."
+        "en": "Τόσο can express degree or amount: τόσο καλά — so well; τόσο πολύ — so much. Before nouns, τόσος, τόση, τόσο change for gender and number.",
+        "ru": "Τόσο καλά — «так хорошо»; δεν μιλάω τόσο καλά — «я не так хорошо говорю».",
+        "zh": "Τόσο 表示“这么、那么”，描述程度或数量：τόσο καλά（那么好）。"
       },
       "reviewIdentity": {
         "deckId": "words-descriptions",
         "cardId": "languages-so"
+      },
+      "contextExample": {
+        "en": "Δεν μιλάω ___ καλά. — I don’t speak that well.",
+        "ru": "Δεν μιλάω ___ καλά. — Я говорю не настолько хорошо.",
+        "zh": "Δεν μιλάω ___ καλά ελληνικά. — 我的希腊语说得没有那么好。"
+      },
+      "meaning": {
+        "en": "Write the missing Greek word.",
+        "ru": "Напишите только пропущенное слово.",
+        "zh": "只填写空缺的词。"
       }
     },
     {
@@ -2955,11 +3194,12 @@
       "prompt": {
         "en": "That (I know that…)",
         "ru": "Что (знаю, что…)",
-        "zh": "（引导从句）……这件事（我知道……）"
+        "zh": "引出“知道、说”等动词后面的内容"
       },
       "pronunciation": {
         "en": "O-ti",
-        "ru": "О-ти"
+        "ru": "О-ти",
+        "zh": "O-ti"
       },
       "themes": [
         "conversation"
@@ -2968,8 +3208,19 @@
         "conjunction"
       ],
       "explanation": {
-        "en": "Ξέρω ότι… means “I know that…”, not “I know about…”.",
-        "ru": "Ξέρω ότι… — «я знаю, что…», а не «я знаю о…»."
+        "en": "Ότι introduces a clause meaning that: Ξέρω ότι είναι εδώ — I know that he is here. It differs from ό,τι, which means whatever.",
+        "ru": "Ότι — союз «что»: ξέρω ότι είναι εδώ — «я знаю, что он здесь». Не путайте с ό,τι («всё, что»), которое пишется с запятой внутри слова.",
+        "zh": "Ότι 引出所知道、所说、所想的内容，如 Ξέρω ότι είσαι εδώ.（我知道你在这里。）不要与 ό,τι（任何……的事物）混淆。"
+      },
+      "contextExample": {
+        "en": "Ξέρω ___ είναι εδώ. — I know that he is here.",
+        "ru": "Ξέρω ___ είναι εδώ. — Я знаю, что он здесь.",
+        "zh": "Ξέρω ___ είσαι εδώ. — 我知道你在这里。"
+      },
+      "meaning": {
+        "en": "Write the missing Greek word.",
+        "ru": "Напишите только пропущенное слово.",
+        "zh": "只填写空缺的词。"
       }
     },
     {
@@ -2983,14 +3234,30 @@
       },
       "pronunciation": {
         "en": "KRI-ma",
-        "ru": "КРИ-ма"
+        "ru": "КРИ-ма",
+        "zh": "KRI-ma"
       },
       "themes": [
         "conversation"
       ],
       "labels": [
         "interjection"
-      ]
+      ],
+      "contextExample": {
+        "en": "___ που δεν μπορείς να έρθεις! — What a pity you can’t come!",
+        "ru": "___ που φεύγεις. — Жаль, что ты уходишь.",
+        "zh": "Είναι ___! — 真可惜！"
+      },
+      "explanation": {
+        "en": "Κρίμα! expresses regret or disappointment: Κρίμα που φεύγεις — It is a pity you are leaving. As a noun, το κρίμα can also mean a sin or wrongdoing.",
+        "ru": "Κρίμα как реплика означает «жаль», «как жаль»: κρίμα που φεύγεις — «жаль, что ты уходишь».",
+        "zh": "Κρίμα 可独立表达惋惜，也用于 Είναι κρίμα.（真可惜。）"
+      },
+      "meaning": {
+        "en": "Write the missing Greek word.",
+        "ru": "Напишите только пропущенное слово.",
+        "zh": "只填写空缺的词。"
+      }
     },
     {
       "id": "languages-certainly",
@@ -2998,19 +3265,35 @@
       "greek": "μάλιστα",
       "prompt": {
         "en": "Certainly / I see (acknowledgement)",
-        "ru": "Конечно / понятно (подтверждение)",
+        "ru": "Да / верно / понятно",
         "zh": "是的；当然；而且"
       },
       "pronunciation": {
         "en": "MA-li-sta",
-        "ru": "МА-ли-ста"
+        "ru": "МА-ли-ста",
+        "zh": "MA-li-sta"
       },
       "themes": [
         "conversation"
       ],
       "labels": [
         "interjection"
-      ]
+      ],
+      "contextExample": {
+        "en": "___, καταλαβαίνω. — I see, I understand.",
+        "ru": "___, καταλαβαίνω. — Да, я понимаю.",
+        "zh": "— Είστε ο κύριος Νίκος; — ___. — “您是尼科斯先生吗？”“正是。”"
+      },
+      "explanation": {
+        "en": "Μάλιστα can acknowledge information (I see), express a firm or polite yes (certainly), or add emphasis (indeed). Tone and context determine the sense.",
+        "ru": "Μάλιστα — утвердительный ответ, часто вежливое «да», «верно». Также может означать «понятно», подтверждая, что вы услышали собеседника. Интонация влияет на оттенок.",
+        "zh": "Μάλιστα 可用于肯定或郑重应答“是的”，在其他结构中还可加强语气或补充信息。"
+      },
+      "meaning": {
+        "en": "Write the missing Greek word.",
+        "ru": "Напишите только пропущенное слово.",
+        "zh": "只填写空缺的词。"
+      }
     },
     {
       "id": "languages-speak-greek-question",

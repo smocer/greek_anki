@@ -164,7 +164,7 @@ void main() {
     final card = word('countries.germany');
     await open(tester, card, mode: StudyMode.typing);
     expect(find.byType(PronunciationButton), findsNothing);
-    await tester.tap(find.byTooltip('Use phone keyboard'));
+    await tester.tap(find.byTooltip('Use device keyboard'));
     await tester.pumpAndSettle();
     await tester.enterText(
       find.byKey(const ValueKey('greek-answer')),

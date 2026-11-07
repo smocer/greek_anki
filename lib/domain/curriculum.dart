@@ -23,7 +23,7 @@ enum LearningTheme {
   family(LocalizedText(en: 'Family', ru: 'Семья', zh: '家庭')),
   classroom(LocalizedText(en: 'Classroom', ru: 'Учёба', zh: '课堂')),
   home(
-    LocalizedText(en: 'Home & everyday life', ru: 'Дом и быт', zh: '家庭与日常生活'),
+    LocalizedText(en: 'Home & everyday life', ru: 'Дом и быт', zh: '居家与日常生活'),
   ),
   food(LocalizedText(en: 'Food & drink', ru: 'Еда и напитки', zh: '饮食')),
   places(LocalizedText(en: 'Places', ru: 'Места', zh: '地点')),

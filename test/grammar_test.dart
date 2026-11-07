@@ -96,7 +96,7 @@ void main() {
     await tester.pumpAndSettle();
     await tester.tap(find.text('Reference'));
     await tester.pumpAndSettle();
-    expect(find.text('Alphabets'), findsOneWidget);
+    expect(find.text('Alphabet'), findsOneWidget);
     await tester.tap(find.text('Grammar tables'));
     await tester.pumpAndSettle();
     expect(find.byType(GrammarScreen), findsOneWidget);

@@ -13,7 +13,8 @@
       },
       "pronunciation": {
         "en": "mu-si-KI",
-        "ru": "му-си-КИ"
+        "ru": "му-си-КИ",
+        "zh": "mu-si-KI"
       },
       "themes": [
         "conversation"
@@ -39,7 +40,8 @@
       },
       "pronunciation": {
         "en": "ath-li-ti-ZMOS",
-        "ru": "ат-ли-ти-ЗМОС"
+        "ru": "ат-ли-ти-ЗМОС",
+        "zh": "ath-li-ti-ZMOS"
       },
       "themes": [
         "conversation"
@@ -65,7 +67,8 @@
       },
       "pronunciation": {
         "en": "ghra-ma-ti-KI",
-        "ru": "гра-ма-ти-КИ"
+        "ru": "гра-ма-ти-КИ",
+        "zh": "ghra-ma-ti-KI"
       },
       "themes": [
         "classroom"
@@ -91,7 +94,8 @@
       },
       "pronunciation": {
         "en": "po-DHI-la-to",
-        "ru": "по-ДИ-ла-то"
+        "ru": "по-ДИ-ла-то",
+        "zh": "po-DHI-la-to"
       },
       "themes": [
         "travel"
@@ -117,7 +121,8 @@
       },
       "pronunciation": {
         "en": "U-zo",
-        "ru": "У-зо"
+        "ru": "У-зо",
+        "zh": "U-zo"
       },
       "themes": [
         "food"
@@ -137,13 +142,14 @@
       "collection": "words-nouns",
       "greek": "ιστορία",
       "prompt": {
-        "en": "History",
+        "en": "History / story",
         "ru": "История",
         "zh": "历史"
       },
       "pronunciation": {
         "en": "i-sto-RI-a",
-        "ru": "и-сто-РИ-а"
+        "ru": "и-сто-РИ-а",
+        "zh": "i-sto-RI-a"
       },
       "themes": [
         "classroom"
@@ -152,11 +158,21 @@
         "noun"
       ],
       "explanation": {
-        "en": "Feminine.",
+        "en": "Ιστορία means history or a story: η ιστορία της Ελλάδας — the history of Greece; μια ιστορία — a story.",
         "ru": "В греческом женский род.",
         "zh": "阴性名词。"
       },
-      "answerDisplay": "η ιστορία"
+      "answerDisplay": "η ιστορία",
+      "contextExample": {
+        "en": "Αυτή είναι η ___ της Ελλάδας. — This is the history of Greece.",
+        "ru": "Αυτή είναι η ___ της Ελλάδας. — Это история Греции.",
+        "zh": "Αυτή είναι η ___ της Ελλάδας. — 这是希腊的历史。"
+      },
+      "meaning": {
+        "en": "Write the missing Greek word.",
+        "ru": "Напишите только пропущенное слово.",
+        "zh": "只填写空缺的词。"
+      }
     },
     {
       "id": "likes-philosophy",
@@ -169,7 +185,8 @@
       },
       "pronunciation": {
         "en": "fi-lo-so-FI-a",
-        "ru": "фи-ло-со-ФИ-а"
+        "ru": "фи-ло-со-ФИ-а",
+        "zh": "fi-lo-so-FI-a"
       },
       "themes": [
         "classroom"
@@ -189,13 +206,14 @@
       "collection": "words-nouns",
       "greek": "πολιτική",
       "prompt": {
-        "en": "Politics",
+        "en": "Politics / policy",
         "ru": "Политика",
         "zh": "政治"
       },
       "pronunciation": {
         "en": "po-li-ti-KI",
-        "ru": "по-ли-ти-КИ"
+        "ru": "по-ли-ти-КИ",
+        "zh": "po-li-ti-KI"
       },
       "themes": [
         "conversation"
@@ -204,11 +222,21 @@
         "noun"
       ],
       "explanation": {
-        "en": "Feminine.",
+        "en": "Πολιτική can mean politics or a policy. It is a feminine noun: η πολιτική.",
         "ru": "В греческом женский род.",
         "zh": "阴性名词。"
       },
-      "answerDisplay": "η πολιτική"
+      "answerDisplay": "η πολιτική",
+      "contextExample": {
+        "en": "Με ενδιαφέρει η ___. — I am interested in politics.",
+        "ru": "Με ενδιαφέρει η ___. — Меня интересует политика.",
+        "zh": "Με ενδιαφέρει η ___. — 我对政治感兴趣。"
+      },
+      "meaning": {
+        "en": "Write the missing Greek word.",
+        "ru": "Напишите только пропущенное слово.",
+        "zh": "只填写空缺的词。"
+      }
     },
     {
       "id": "likes-souvlaki",
@@ -221,7 +249,8 @@
       },
       "pronunciation": {
         "en": "su-VLA-ki",
-        "ru": "су-ВЛА-ки"
+        "ru": "су-ВЛА-ки",
+        "zh": "su-VLA-ki"
       },
       "themes": [
         "food"
@@ -247,7 +276,8 @@
       },
       "pronunciation": {
         "en": "ki-THA-ra",
-        "ru": "ки-ТА-ра"
+        "ru": "ки-ТА-ра",
+        "zh": "ki-THA-ra"
       },
       "themes": [
         "conversation"
@@ -273,7 +303,8 @@
       },
       "pronunciation": {
         "en": "ti-le-O-ra-si",
-        "ru": "ти-лэ-О-ра-си"
+        "ru": "ти-лэ-О-ра-си",
+        "zh": "ti-le-O-ra-si"
       },
       "themes": [
         "home"
@@ -299,7 +330,8 @@
       },
       "pronunciation": {
         "en": "VOL-ta",
-        "ru": "ВОЛ-та"
+        "ru": "ВОЛ-та",
+        "zh": "VOL-ta"
       },
       "themes": [
         "travel"
@@ -321,11 +353,12 @@
       "prompt": {
         "en": "Frappé (iced coffee)",
         "ru": "Фраппе (холодный кофе)",
-        "zh": "冰咖啡"
+        "zh": "希腊泡沫冰咖啡"
       },
       "pronunciation": {
         "en": "fra-PE",
-        "ru": "фра-ПЭ"
+        "ru": "фра-ПЭ",
+        "zh": "fra-PE"
       },
       "themes": [
         "food"
@@ -336,7 +369,7 @@
       "explanation": {
         "en": "Neuter. Both το φραπέ and ο φραπές are standard forms.",
         "ru": "В греческом средний род. Допустимы две формы: το φραπέ и ο φραπές.",
-        "zh": "中性。το φραπέ 和 ο φραπές 都是标准形式。"
+        "zh": "用即溶咖啡打出泡沫制成的希腊冰咖啡。中性 το φραπέ 和阳性 ο φραπές 都是常用形式。"
       },
       "answerDisplay": "το φραπέ / ο φραπές",
       "wordGroup": "frappe",
@@ -349,7 +382,8 @@
           "answerDisplay": "το φραπέ",
           "pronunciation": {
             "en": "fra-PE",
-            "ru": "фра-ПЭ"
+            "ru": "фра-ПЭ",
+            "zh": "fra-PE"
           }
         },
         {
@@ -357,7 +391,8 @@
           "answerDisplay": "ο φραπές",
           "pronunciation": {
             "en": "fra-PES",
-            "ru": "фра-ПЭС"
+            "ru": "фра-ПЭС",
+            "zh": "fra-PES"
           }
         }
       ]
@@ -373,7 +408,8 @@
       },
       "pronunciation": {
         "en": "pa-RI-si",
-        "ru": "па-РИ-си"
+        "ru": "па-РИ-си",
+        "zh": "pa-RI-si"
       },
       "themes": [
         "places"
@@ -399,7 +435,8 @@
       },
       "pronunciation": {
         "en": "lon-DHI-no",
-        "ru": "лон-ДИ-но"
+        "ru": "лон-ДИ-но",
+        "zh": "lon-DHI-no"
       },
       "themes": [
         "places"
@@ -425,7 +462,8 @@
       },
       "pronunciation": {
         "en": "NE-a i-OR-ki",
-        "ru": "НЭ-а и-ОР-ки"
+        "ru": "НЭ-а и-ОР-ки",
+        "zh": "NE-a i-OR-ki"
       },
       "themes": [
         "places"
@@ -451,7 +489,8 @@
       },
       "pronunciation": {
         "en": "ki-ni-ma-to-GHRA-fos",
-        "ru": "ки-ни-ма-то-ГРА-фос"
+        "ru": "ки-ни-ма-то-ГРА-фос",
+        "zh": "ki-ni-ma-to-GHRA-fos"
       },
       "themes": [
         "conversation"
@@ -460,9 +499,9 @@
         "noun"
       ],
       "explanation": {
-        "en": "Also means cinema as an art form, not only the building.",
-        "ru": "Помимо кинотеатра, слово означает кино как искусство.",
-        "zh": "也表示电影艺术，不仅指电影院建筑。"
+        "en": "Κινηματογράφος means a cinema or film as an art form. It is masculine: ο κινηματογράφος; στον κινηματογράφο means at or to the cinema.",
+        "ru": "Ο κινηματογράφος — кинотеатр или кино как искусство. Существительное мужского рода, как русское «кинематограф». В винительном падеже исчезает -ς: στον κινηματογράφο — «в кинотеатре» или «в кинотеатр».",
+        "zh": "Κινηματογράφος 既可指电影院，也可指电影艺术。阳性名词：ο κινηματογράφος；στον κινηματογράφο 表示“在电影院”。"
       },
       "answerDisplay": "ο κινηματογράφος"
     },
@@ -691,7 +730,8 @@
       },
       "pronunciation": {
         "en": "sin",
-        "ru": "син"
+        "ru": "син",
+        "zh": "sin"
       },
       "themes": [
         "classroom"
@@ -700,13 +740,23 @@
         "preposition"
       ],
       "explanation": {
-        "en": "Reads an arithmetic sign, for example δύο συν τρία.",
+        "en": "Συν reads the plus sign in arithmetic: δύο συν τρία — two plus three.",
         "ru": "Так читают знак арифметического действия: δύο συν τρία.",
-        "zh": "用于读算术符号，例如 δύο συν τρία。"
+        "zh": "Συν 用来读加号，例如 δύο συν τρία（两加三）。"
       },
       "reviewIdentity": {
         "deckId": "words-connectors",
         "cardId": "likes-plus"
+      },
+      "contextExample": {
+        "en": "Δύο ___ τρία κάνει πέντε. — Two plus three equals five.",
+        "ru": "Δύο ___ τρία κάνουν πέντε. — Два плюс три равняется пяти.",
+        "zh": "Δύο ___ τρία κάνει πέντε. — 两加三等于五。"
+      },
+      "meaning": {
+        "en": "Write the missing Greek word.",
+        "ru": "Напишите только пропущенное слово.",
+        "zh": "只填写空缺的词。"
       }
     },
     {
@@ -720,7 +770,8 @@
       },
       "pronunciation": {
         "en": "plin",
-        "ru": "плин"
+        "ru": "плин",
+        "zh": "plin"
       },
       "themes": [
         "classroom"
@@ -729,13 +780,23 @@
         "preposition"
       ],
       "explanation": {
-        "en": "Reads an arithmetic sign, for example πέντε πλην δύο.",
+        "en": "Πλην reads the minus sign in arithmetic: πέντε πλην δύο — five minus two. It can also mean except in more formal language.",
         "ru": "Так читают знак арифметического действия: πέντε πλην δύο.",
-        "zh": "用于读算术符号，例如 πέντε πλην δύο。"
+        "zh": "Πλην 用来读减号，例如 πέντε πλην δύο（五减二）。"
       },
       "reviewIdentity": {
         "deckId": "words-connectors",
         "cardId": "likes-minus"
+      },
+      "contextExample": {
+        "en": "Πέντε ___ δύο κάνει τρία. — Five minus two equals three.",
+        "ru": "Πέντε ___ δύο κάνουν τρία. — Пять минус два равняется трём.",
+        "zh": "Πέντε ___ δύο κάνει τρία. — 五减二等于三。"
+      },
+      "meaning": {
+        "en": "Write the missing Greek word.",
+        "ru": "Напишите только пропущенное слово.",
+        "zh": "只填写空缺的词。"
       }
     },
     {
@@ -749,7 +810,8 @@
       },
       "pronunciation": {
         "en": "e-PI",
-        "ru": "э-ПИ"
+        "ru": "э-ПИ",
+        "zh": "e-PI"
       },
       "themes": [
         "classroom"
@@ -758,13 +820,23 @@
         "preposition"
       ],
       "explanation": {
-        "en": "Reads an arithmetic sign, for example δύο επί τρία.",
+        "en": "Επί reads the multiplication sign: δύο επί τρία — two times three. It also has other, often formal, prepositional uses.",
         "ru": "Так читают знак арифметического действия: δύο επί τρία.",
-        "zh": "用于读算术符号，例如 δύο επί τρία。"
+        "zh": "Επί 用来读乘号，例如 δύο επί τρία（两乘三）。"
       },
       "reviewIdentity": {
         "deckId": "words-connectors",
         "cardId": "likes-times"
+      },
+      "contextExample": {
+        "en": "Δύο ___ τρία κάνει έξι. — Two times three equals six.",
+        "ru": "Δύο ___ τρία κάνουν έξι. — Два умножить на три равняется шести.",
+        "zh": "Δύο ___ τρία κάνει έξι. — 两乘三等于六。"
+      },
+      "meaning": {
+        "en": "Write the missing Greek word.",
+        "ru": "Напишите только пропущенное слово.",
+        "zh": "只填写空缺的词。"
       }
     },
     {
@@ -778,7 +850,8 @@
       },
       "pronunciation": {
         "en": "dhi-A",
-        "ru": "ди-А"
+        "ru": "ди-А",
+        "zh": "dhi-A"
       },
       "themes": [
         "classroom"
@@ -787,13 +860,23 @@
         "preposition"
       ],
       "explanation": {
-        "en": "Reads an arithmetic sign, for example έξι διά δύο.",
+        "en": "Διά reads the division sign: έξι διά δύο — six divided by two. Keep its written accent.",
         "ru": "Так читают знак арифметического действия: έξι διά δύο.",
-        "zh": "用于读算术符号，例如 έξι διά δύο。"
+        "zh": "Διά 用来读除号，例如 έξι διά δύο（六除以二）。"
       },
       "reviewIdentity": {
         "deckId": "words-connectors",
         "cardId": "likes-divided-by"
+      },
+      "contextExample": {
+        "en": "Έξι ___ δύο κάνει τρία. — Six divided by two equals three.",
+        "ru": "Έξι ___ δύο κάνουν τρία. — Шесть разделить на два равняется трём.",
+        "zh": "Έξι ___ δύο κάνει τρία. — 六除以二等于三。"
+      },
+      "meaning": {
+        "en": "Write the missing Greek word.",
+        "ru": "Напишите только пропущенное слово.",
+        "zh": "只填写空缺的词。"
       }
     },
     {
@@ -802,12 +885,13 @@
       "greek": "να",
       "prompt": {
         "en": "To (before a verb, as in “I like to read”)",
-        "ru": "Частица перед действием в конструкции «мне нравится читать»",
-        "zh": "用于动词前，表示“做某事”，如“我喜欢阅读”"
+        "ru": "Частица перед глаголом: «хочу читать»",
+        "zh": "连接动词，表示想做、要做等（小品词）"
       },
       "pronunciation": {
         "en": "na",
-        "ru": "на"
+        "ru": "на",
+        "zh": "na"
       },
       "themes": [
         "conversation"
@@ -816,9 +900,19 @@
         "particle"
       ],
       "explanation": {
-        "en": "Να introduces a verb: μου αρέσει να διαβάζω. The following verb still changes with the person: σου αρέσει να διαβάζεις.",
-        "ru": "После να глагол сохраняет личное окончание: μου αρέσει να διαβάζω — «мне нравится читать», σου αρέσει να διαβάζεις — «тебе нравится читать».",
-        "zh": "Να 引出动词：μου αρέσει να διαβάζω。后面的动词仍须随人称变化：σου αρέσει να διαβάζεις。"
+        "en": "Να introduces a verb in constructions such as θέλω να φύγω — I want to leave. The following verb still changes for person: θέλεις να φύγεις — you want to leave. It is not a general translation of English to.",
+        "ru": "Να вводит глагол в личной форме: θέλω να διαβάσω — «я хочу почитать». Греческого инфинитива в такой конструкции нет: μου αρέσει να διαβάζω — «мне нравится читать», σου αρέσει να διαβάζεις — «тебе нравится читать».",
+        "zh": "Να 引出动词，常用于愿望、目的等结构。后面的动词仍需随人称变化：θέλω να διαβάζω（我想读书）、θέλεις να διαβάζεις（你想读书）。"
+      },
+      "contextExample": {
+        "en": "Θέλω ___ φύγω. — I want to leave.",
+        "ru": "Θέλω ___ διαβάσω. — Я хочу почитать.",
+        "zh": "Θέλω ___ διαβάσω. — 我想读书。"
+      },
+      "meaning": {
+        "en": "Write the missing Greek word.",
+        "ru": "Напишите только пропущенное слово.",
+        "zh": "只填写空缺的词。"
       }
     },
     {
@@ -828,11 +922,12 @@
       "prompt": {
         "en": "To you (informal)",
         "ru": "Тебе",
-        "zh": "对你／给你（非正式）"
+        "zh": "给你／对你（弱式间接宾语，单数）"
       },
       "pronunciation": {
         "en": "su",
-        "ru": "су"
+        "ru": "су",
+        "zh": "su"
       },
       "themes": [
         "conversation"
@@ -841,11 +936,21 @@
         "pronoun"
       ],
       "explanation": {
-        "en": "Before αρέσει / αρέσουν, this identifies the person who likes something. The same form can also express possession after a noun.",
-        "ru": "Перед αρέσει / αρέσουν показывает, кому что-то нравится. После существительного эта же форма может обозначать принадлежность.",
-        "zh": "放在 αρέσει／αρέσουν 前时，表示喜欢某事物的人。同一形式放在名词后也可表示所属关系。"
+        "en": "Σου is the short genitive pronoun used as an indirect object: Σου δίνω το βιβλίο — I give you the book. With αρέσει it identifies who likes something. After a noun, the same form is possessive.",
+        "ru": "Σου при глаголе — слабая форма родительного падежа, часто соответствующая русскому «тебе»: σου αρέσει η μουσική — «тебе нравится музыка». После существительного та же форма выражает принадлежность: «твой».",
+        "zh": "Σου 作弱式间接宾语时表示“给你／对你”。Σου αρέσει η μουσική. 意为“你喜欢音乐”；放在名词后则表示“你的”。"
       },
-      "senseKey": "indirect-object"
+      "senseKey": "indirect-object",
+      "contextExample": {
+        "en": "___ δίνω το βιβλίο. — I give you the book. (one person, informal)",
+        "ru": "___ αρέσει η μουσική. — Тебе нравится музыка.",
+        "zh": "___ αρέσει η μουσική. — 你喜欢音乐。"
+      },
+      "meaning": {
+        "en": "Write the missing Greek word.",
+        "ru": "Напишите только пропущенное слово.",
+        "zh": "只填写空缺的词。"
+      }
     },
     {
       "id": "likes-to-him",
@@ -854,11 +959,12 @@
       "prompt": {
         "en": "To him / it",
         "ru": "Ему",
-        "zh": "对他／它"
+        "zh": "给他／对他（弱式间接宾语；也可指中性对象）"
       },
       "pronunciation": {
         "en": "tu",
-        "ru": "ту"
+        "ru": "ту",
+        "zh": "tu"
       },
       "themes": [
         "conversation"
@@ -867,11 +973,21 @@
         "pronoun"
       ],
       "explanation": {
-        "en": "Before αρέσει / αρέσουν, this identifies the person who likes something. The same form can also express possession after a noun.",
-        "ru": "Перед αρέσει / αρέσουν показывает, кому что-то нравится. После существительного эта же форма может обозначать принадлежность.",
-        "zh": "放在 αρέσει／αρέσουν 前时，表示喜欢某事物的人。同一形式放在名词后也可表示所属关系。"
+        "en": "Του is the short genitive pronoun used as an indirect object: Του δίνω το βιβλίο — I give him the book. With αρέσει it identifies who likes something. After a noun, the same form is possessive.",
+        "ru": "Του при глаголе — слабая форма родительного падежа, часто соответствующая русскому «ему»: του αρέσει η μουσική — «ему нравится музыка». После существительного та же форма выражает принадлежность: «его».",
+        "zh": "Του 作弱式间接宾语时表示“给他／对他”，也可指中性对象。Του αρέσει η μουσική. 意为“他喜欢音乐”。"
       },
-      "senseKey": "indirect-object"
+      "senseKey": "indirect-object",
+      "contextExample": {
+        "en": "___ δίνω το βιβλίο. — I give him the book.",
+        "ru": "___ αρέσει η μουσική. — Ему нравится музыка.",
+        "zh": "___ αρέσει η μουσική. — 他喜欢音乐。"
+      },
+      "meaning": {
+        "en": "Write the missing Greek word.",
+        "ru": "Напишите только пропущенное слово.",
+        "zh": "只填写空缺的词。"
+      }
     },
     {
       "id": "likes-to-her",
@@ -880,11 +996,12 @@
       "prompt": {
         "en": "To her",
         "ru": "Ей",
-        "zh": "对她"
+        "zh": "给她／对她（弱式间接宾语）"
       },
       "pronunciation": {
         "en": "tis",
-        "ru": "тис"
+        "ru": "тис",
+        "zh": "tis"
       },
       "themes": [
         "conversation"
@@ -893,11 +1010,21 @@
         "pronoun"
       ],
       "explanation": {
-        "en": "Before αρέσει / αρέσουν, this identifies the person who likes something. The same form can also express possession after a noun.",
-        "ru": "Перед αρέσει / αρέσουν показывает, кому что-то нравится. После существительного эта же форма может обозначать принадлежность.",
-        "zh": "放在 αρέσει／αρέσουν 前时，表示喜欢某事物的人。同一形式放在名词后也可表示所属关系。"
+        "en": "Της is the short genitive pronoun used as an indirect object: Της δίνω το βιβλίο — I give her the book. With αρέσει it identifies who likes something. After a noun, the same form is possessive.",
+        "ru": "Της при глаголе — слабая форма родительного падежа, часто соответствующая русскому «ей»: της αρέσει η μουσική — «ей нравится музыка». После существительного та же форма выражает принадлежность: «её».",
+        "zh": "Της 作弱式间接宾语时表示“给她／对她”。Της αρέσει η μουσική. 意为“她喜欢音乐”；直接宾语“她”用 την。"
       },
-      "senseKey": "indirect-object"
+      "senseKey": "indirect-object",
+      "contextExample": {
+        "en": "___ δίνω το βιβλίο. — I give her the book.",
+        "ru": "___ αρέσει η μουσική. — Ей нравится музыка.",
+        "zh": "___ αρέσει η μουσική. — 她喜欢音乐。"
+      },
+      "meaning": {
+        "en": "Write the missing Greek word.",
+        "ru": "Напишите только пропущенное слово.",
+        "zh": "只填写空缺的词。"
+      }
     },
     {
       "id": "likes-to-us",
@@ -906,11 +1033,12 @@
       "prompt": {
         "en": "To us",
         "ru": "Нам",
-        "zh": "对我们"
+        "zh": "给我们／对我们（弱式间接宾语）"
       },
       "pronunciation": {
         "en": "mas",
-        "ru": "мас"
+        "ru": "мас",
+        "zh": "mas"
       },
       "themes": [
         "conversation"
@@ -919,11 +1047,21 @@
         "pronoun"
       ],
       "explanation": {
-        "en": "Before αρέσει / αρέσουν, this identifies the person who likes something. The same form can also express possession after a noun.",
-        "ru": "Перед αρέσει / αρέσουν показывает, кому что-то нравится. После существительного эта же форма может обозначать принадлежность.",
-        "zh": "放在 αρέσει／αρέσουν 前时，表示喜欢某事物的人。同一形式放在名词后也可表示所属关系。"
+        "en": "Μας is the short genitive pronoun used as an indirect object: Μας δίνω το βιβλίο — I give us the book. With αρέσει it identifies who likes something. After a noun, the same form is possessive.",
+        "ru": "Μας при глаголе — слабая форма родительного падежа, часто соответствующая русскому «нам»: μας αρέσει η μουσική — «нам нравится музыка». После существительного та же форма выражает принадлежность: «наш».",
+        "zh": "Μας 作弱式间接宾语时表示“给我们／对我们”。Μας αρέσει η μουσική. 意为“我们喜欢音乐”。"
       },
-      "senseKey": "indirect-object"
+      "senseKey": "indirect-object",
+      "contextExample": {
+        "en": "___ δίνω το βιβλίο. — I give us the book.",
+        "ru": "___ αρέσει η μουσική. — Нам нравится музыка.",
+        "zh": "___ αρέσει η μουσική. — 我们喜欢音乐。"
+      },
+      "meaning": {
+        "en": "Write the missing Greek word.",
+        "ru": "Напишите только пропущенное слово.",
+        "zh": "只填写空缺的词。"
+      }
     },
     {
       "id": "likes-to-you-plural",
@@ -932,11 +1070,12 @@
       "prompt": {
         "en": "To you (plural or polite)",
         "ru": "Вам",
-        "zh": "对你们／您"
+        "zh": "给你们／对你们；给您／对您（弱式间接宾语）"
       },
       "pronunciation": {
         "en": "sas",
-        "ru": "сас"
+        "ru": "сас",
+        "zh": "sas"
       },
       "themes": [
         "conversation"
@@ -945,11 +1084,21 @@
         "pronoun"
       ],
       "explanation": {
-        "en": "Before αρέσει / αρέσουν, this identifies the person who likes something. The same form can also express possession after a noun.",
-        "ru": "Перед αρέσει / αρέσουν показывает, кому что-то нравится. После существительного эта же форма может обозначать принадлежность.",
-        "zh": "放在 αρέσει／αρέσουν 前时，表示喜欢某事物的人。同一形式放在名词后也可表示所属关系。"
+        "en": "Σας is the short genitive pronoun used as an indirect object: Σας δίνω το βιβλίο — I give you the book. With αρέσει it identifies who likes something. After a noun, the same form is possessive.",
+        "ru": "Σας при глаголе — слабая форма родительного падежа, часто соответствующая русскому «вам»: σας αρέσει η μουσική — «вам нравится музыка». После существительного та же форма выражает принадлежность: «ваш».",
+        "zh": "Σας 作弱式间接宾语时表示“给你们／对你们”，也可礼貌地指一个人“您”。Σας αρέσει η μουσική. 意为“你们／您喜欢音乐”。"
       },
-      "senseKey": "indirect-object"
+      "senseKey": "indirect-object",
+      "contextExample": {
+        "en": "___ δίνω το βιβλίο. — I give you the book. (plural or polite)",
+        "ru": "___ αρέσει η μουσική. — Вам нравится музыка.",
+        "zh": "___ αρέσει η μουσική. — 你们喜欢音乐。"
+      },
+      "meaning": {
+        "en": "Write the missing Greek word.",
+        "ru": "Напишите только пропущенное слово.",
+        "zh": "只填写空缺的词。"
+      }
     },
     {
       "id": "likes-to-them",
@@ -958,11 +1107,12 @@
       "prompt": {
         "en": "To them",
         "ru": "Им",
-        "zh": "对他们／她们／它们"
+        "zh": "给他们／对他们（弱式间接宾语，不分性）"
       },
       "pronunciation": {
         "en": "tus",
-        "ru": "тус"
+        "ru": "тус",
+        "zh": "tus"
       },
       "themes": [
         "conversation"
@@ -971,11 +1121,21 @@
         "pronoun"
       ],
       "explanation": {
-        "en": "Before αρέσει / αρέσουν, this identifies the person who likes something. The same form can also express possession after a noun.",
-        "ru": "Перед αρέσει / αρέσουν показывает, кому что-то нравится. После существительного эта же форма может обозначать принадлежность.",
-        "zh": "放在 αρέσει／αρέσουν 前时，表示喜欢某事物的人。同一形式放在名词后也可表示所属关系。"
+        "en": "Τους is the short genitive pronoun used as an indirect object: Τους δίνω το βιβλίο — I give them the book. With αρέσει it identifies who likes something. After a noun, the same form is possessive.",
+        "ru": "Τους при глаголе — слабая форма родительного падежа, часто соответствующая русскому «им»: τους αρέσει η μουσική — «им нравится музыка». После существительного та же форма выражает принадлежность: «их».",
+        "zh": "Τους 作弱式间接宾语时不区分性，表示“给他们／她们／它们”。Τους αρέσει η μουσική. 意为“他们喜欢音乐”。"
       },
-      "senseKey": "indirect-object"
+      "senseKey": "indirect-object",
+      "contextExample": {
+        "en": "___ δίνω το βιβλίο. — I give them the book.",
+        "ru": "___ αρέσει η μουσική. — Им нравится музыка.",
+        "zh": "___ αρέσει η μουσική. — 他们喜欢音乐。"
+      },
+      "meaning": {
+        "en": "Write the missing Greek word.",
+        "ru": "Напишите только пропущенное слово.",
+        "zh": "只填写空缺的词。"
+      }
     },
     {
       "id": "likes-thats-all",

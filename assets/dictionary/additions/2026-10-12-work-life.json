@@ -13,11 +13,13 @@
       },
       "pronunciation": {
         "en": "zo-I",
-        "ru": "зо-И"
+        "ru": "зо-И",
+        "zh": "zo-I"
       },
       "explanation": {
-        "en": "Feminine, like Russian жизнь. Related to ζω, “I live”.",
-        "ru": "Женский род, как у русского «жизнь». Связано с ζω — «я живу»."
+        "en": "A feminine noun: η ζωή. Related to ζω, “I live”.",
+        "ru": "Женский род, как у русского «жизнь». Связано с ζω — «я живу».",
+        "zh": "阴性名词：η ζωή；与 ζω（我生活）有关。"
       },
       "themes": [
         "home"
@@ -38,11 +40,13 @@
       },
       "pronunciation": {
         "en": "ZO-o",
-        "ru": "ЗО-о"
+        "ru": "ЗО-о",
+        "zh": "ZO-o"
       },
       "explanation": {
-        "en": "Neuter, like Russian животное. Pronounce both vowels; stress the first.",
-        "ru": "Средний род, как «животное». Две гласные произносятся раздельно; ударение на первой: ЗО-о."
+        "en": "A neuter noun: το ζώο. Pronounce both vowels and stress the first.",
+        "ru": "Средний род, как «животное». Две гласные произносятся раздельно; ударение на первой: ЗО-о.",
+        "zh": "中性名词：το ζώο。两个元音都要读出，重音在第一个元音上。"
       },
       "themes": [
         "home"
@@ -63,11 +67,13 @@
       },
       "pronunciation": {
         "en": "ta-KSI-dhi",
-        "ru": "та-КСИ-ди"
+        "ru": "та-КСИ-ди",
+        "zh": "ta-KSI-dhi"
       },
       "explanation": {
         "en": "Neuter. Compare ταξιδεύω, “I travel”; do not confuse ταξίδι with ταξί, “taxi”.",
-        "ru": "Средний род. Ταξιδεύω — «я путешествую». Не путайте ταξίδι с ταξί — «такси»."
+        "ru": "Средний род. Ταξιδεύω — «я путешествую». Не путайте ταξίδι с ταξί — «такси».",
+        "zh": "中性名词：το ταξίδι；相关动词 ταξιδεύω 表示旅行。不要与 ταξί（出租车）混淆。"
       },
       "themes": [
         "travel"
@@ -88,11 +94,13 @@
       },
       "pronunciation": {
         "en": "e-li-ni-KA",
-        "ru": "э-ли-ни-КА"
+        "ru": "э-ли-ни-КА",
+        "zh": "e-li-ni-KA"
       },
       "explanation": {
         "en": "Language names such as τα ελληνικά use a neuter plural form. In μιλάω ελληνικά, the article is normally omitted.",
-        "ru": "Название языка — среднего рода во множественном числе: τα ελληνικά, хотя по-русски «греческий язык» — единственное число. Μιλάω ελληνικά — «я говорю по-гречески», без артикля."
+        "ru": "Название языка — среднего рода во множественном числе: τα ελληνικά, хотя по-русски «греческий язык» — единственное число. Μιλάω ελληνικά — «я говорю по-гречески», без артикля.",
+        "zh": "语言名称采用中性复数。放在 μιλάω 后通常省略冠词，如 μιλάω ελληνικά（我说希腊语）。"
       },
       "themes": [
         "classroom"
@@ -117,11 +125,13 @@
       },
       "pronunciation": {
         "en": "ta-MI-o",
-        "ru": "та-МИ-о"
+        "ru": "та-МИ-о",
+        "zh": "ta-MI-o"
       },
       "explanation": {
         "en": "Neuter. The place is το ταμείο; the person working there is ο ταμίας or η ταμίας.",
-        "ru": "Касса — το ταμείο, средний род. Кассир — ο ταμίας или η ταμίας."
+        "ru": "Касса — το ταμείο, средний род. Кассир — ο ταμίας или η ταμίας.",
+        "zh": "中性名词，指收银台；收银员用 ο ταμίας 或 η ταμίας。"
       },
       "themes": [
         "places"
@@ -142,11 +152,13 @@
       },
       "pronunciation": {
         "en": "MA-na-dzer",
-        "ru": "МА-на-дзэр"
+        "ru": "МА-на-дзэр",
+        "zh": "MA-na-dzer"
       },
       "explanation": {
         "en": "A borrowing from English manager. The word does not change for a woman; the article does.",
-        "ru": "Заимствование из английского manager, как русское «менеджер». Слово не склоняется; ο — о мужчине, η — о женщине."
+        "ru": "Заимствование из английского manager, как русское «менеджер». Слово не склоняется; ο — о мужчине, η — о женщине.",
+        "zh": "来自英语 manager，词形不随人的性别变化，冠词用 ο 或 η。"
       },
       "themes": [
         "people"
@@ -162,7 +174,8 @@
           "answerDisplay": "ο μάνατζερ",
           "pronunciation": {
             "en": "MA-na-dzer",
-            "ru": "МА-на-дзэр"
+            "ru": "МА-на-дзэр",
+            "zh": "MA-na-dzer"
           }
         },
         {
@@ -170,7 +183,8 @@
           "answerDisplay": "η μάνατζερ",
           "pronunciation": {
             "en": "MA-na-dzer",
-            "ru": "МА-на-дзэр"
+            "ru": "МА-на-дзэр",
+            "zh": "MA-na-dzer"
           }
         }
       ],
@@ -187,11 +201,13 @@
       },
       "pronunciation": {
         "en": "ek-pe-dhef-TIS",
-        "ru": "эк-пэ-дэф-ТИС"
+        "ru": "эк-пэ-дэф-ТИС",
+        "zh": "ek-pe-dhef-TIS"
       },
       "explanation": {
         "en": "A person who trains or instructs; the feminine form is εκπαιδεύτρια.",
-        "ru": "Тот, кто обучает практическим навыкам. Мужчина — εκπαιδευτής, женщина — εκπαιδεύτρια. Ευ перед τ произносится как «эф»."
+        "ru": "Тот, кто обучает практическим навыкам. Мужчина — εκπαιδευτής, женщина — εκπαιδεύτρια. Ευ перед τ произносится как «эф».",
+        "zh": "指训练或指导他人的人；女性形式为 εκπαιδεύτρια。"
       },
       "themes": [
         "people",
@@ -208,7 +224,8 @@
           "answerDisplay": "ο εκπαιδευτής",
           "pronunciation": {
             "en": "ek-pe-dhef-TIS",
-            "ru": "эк-пэ-дэф-ТИС"
+            "ru": "эк-пэ-дэф-ТИС",
+            "zh": "ek-pe-dhef-TIS"
           }
         },
         {
@@ -216,7 +233,8 @@
           "answerDisplay": "η εκπαιδεύτρια",
           "pronunciation": {
             "en": "ek-pe-DHEF-tria",
-            "ru": "эк-пэ-ДЭФ-три-а"
+            "ru": "эк-пэ-ДЭФ-три-а",
+            "zh": "ek-pe-DHEF-tria"
           }
         }
       ],
@@ -235,11 +253,13 @@
       },
       "pronunciation": {
         "en": "a-sti-no-mi-KOS",
-        "ru": "а-сти-но-ми-КОС"
+        "ru": "а-сти-но-ми-КОС",
+        "zh": "a-sti-no-mi-KOS"
       },
       "explanation": {
         "en": "The same noun is used for a man or a woman: ο αστυνομικός / η αστυνομικός.",
-        "ru": "Слово одинаковое для мужчины и женщины: ο αστυνομικός / η αστυνομικός. Меняется только артикль."
+        "ru": "Слово одинаковое для мужчины и женщины: ο αστυνομικός / η αστυνομικός. Меняется только артикль.",
+        "zh": "男女均使用 αστυνομικός，冠词分别用 ο、η。"
       },
       "themes": [
         "people"
@@ -255,7 +275,8 @@
           "answerDisplay": "ο αστυνομικός",
           "pronunciation": {
             "en": "a-sti-no-mi-KOS",
-            "ru": "а-сти-но-ми-КОС"
+            "ru": "а-сти-но-ми-КОС",
+            "zh": "a-sti-no-mi-KOS"
           }
         },
         {
@@ -263,7 +284,8 @@
           "answerDisplay": "η αστυνομικός",
           "pronunciation": {
             "en": "a-sti-no-mi-KOS",
-            "ru": "а-сти-но-ми-КОС"
+            "ru": "а-сти-но-ми-КОС",
+            "zh": "a-sti-no-mi-KOS"
           }
         }
       ],
@@ -280,11 +302,13 @@
       },
       "pronunciation": {
         "en": "dhi-dha-kto-ri-KOS fi-ti-TIS",
-        "ru": "ди-да-кто-ри-КОС фи-ти-ТИС"
+        "ru": "ди-да-кто-ри-КОС фи-ти-ТИС",
+        "zh": "dhi-dha-kto-ri-KOS fi-ti-TIS"
       },
       "explanation": {
-        "en": "Another expression for someone studying for a doctorate, not the degree itself. Compare υποψήφιος διδάκτορας.",
-        "ru": "Студент программы PhD; речь о человеке, а не о самой степени. Ещё одно выражение — υποψήφιος διδάκτορας. В женском роде меняются оба слова: διδακτορική φοιτήτρια."
+        "en": "A person studying for a doctorate: ο υποψήφιος διδάκτορας or ο διδακτορικός φοιτητής (masculine); η υποψήφια διδάκτορας or η διδακτορική φοιτήτρια (feminine). Διδάκτορας on its own refers to someone who already holds a doctorate.",
+        "ru": "Ο υποψήφιος διδάκτορας — аспирант, η υποψήφια διδάκτορας — аспирантка: человек, готовящий диссертацию на степень PhD. То же значение передают διδακτορικός φοιτητής и διδακτορική φοιτήτρια; в женском роде меняются оба слова. Διδάκτορας без υποψήφιος обозначает человека, уже получившего докторскую степень.",
+        "zh": "指正在攻读博士学位的人：男性用 ο υποψήφιος διδάκτορας，女性用 η υποψήφια διδάκτορας；也可说 διδακτορικός φοιτητής／διδακτορική φοιτήτρια。Διδάκτορας 单独使用时指已获得博士学位的人。"
       },
       "themes": [
         "people",
@@ -301,7 +325,8 @@
           "answerDisplay": "ο διδακτορικός φοιτητής",
           "pronunciation": {
             "en": "dhi-dha-kto-ri-KOS fi-ti-TIS",
-            "ru": "ди-да-кто-ри-КОС фи-ти-ТИС"
+            "ru": "ди-да-кто-ри-КОС фи-ти-ТИС",
+            "zh": "dhi-dha-kto-ri-KOS fi-ti-TIS"
           }
         },
         {
@@ -309,7 +334,8 @@
           "answerDisplay": "η διδακτορική φοιτήτρια",
           "pronunciation": {
             "en": "dhi-dha-kto-ri-KI fi-TI-tria",
-            "ru": "ди-да-кто-ри-КИ фи-ТИ-три-а"
+            "ru": "ди-да-кто-ри-КИ фи-ТИ-три-а",
+            "zh": "dhi-dha-kto-ri-KI fi-TI-tria"
           }
         }
       ],
@@ -328,11 +354,13 @@
       },
       "pronunciation": {
         "en": "fi-sio-the-ra-pef-TIS",
-        "ru": "фи-си-о-тэ-ра-пэф-ТИС"
+        "ru": "фи-си-о-тэ-ра-пэф-ТИС",
+        "zh": "fi-sio-the-ra-pef-TIS"
       },
       "explanation": {
-        "en": "Φυσιοθεραπευτής and φυσικοθεραπευτής are both used; the feminine forms are φυσιοθεραπεύτρια and φυσικοθεραπεύτρια.",
-        "ru": "Допустимы φυσιοθεραπευτής и φυσικοθεραπευτής. Женские формы: φυσιοθεραπεύτρια и φυσικοθεραπεύτρια. Корень похож на русское «физиотерапия»."
+        "en": "A physiotherapist or physical therapist: ο φυσικοθεραπευτής or ο φυσιοθεραπευτής (masculine); η φυσικοθεραπεύτρια or η φυσιοθεραπεύτρια (feminine). Both spellings are used.",
+        "ru": "Ο φυσικοθεραπευτής — физиотерапевт-мужчина, η φυσικοθεραπεύτρια — физиотерапевт-женщина. Также допустимы формы φυσιοθεραπευτής и φυσιοθεραπεύτρια. Корень похож на русское «физиотерапия». В ответе артикль можно опустить.",
+        "zh": "物理治疗师：男性用 ο φυσικοθεραπευτής，女性用 η φυσικοθεραπεύτρια。另一组常见形式是 φυσιοθεραπευτής／φυσιοθεραπεύτρια。单词练习中可省略冠词。"
       },
       "themes": [
         "people"
@@ -348,7 +376,8 @@
           "answerDisplay": "ο φυσιοθεραπευτής",
           "pronunciation": {
             "en": "fi-sio-the-ra-pef-TIS",
-            "ru": "фи-си-о-тэ-ра-пэф-ТИС"
+            "ru": "фи-си-о-тэ-ра-пэф-ТИС",
+            "zh": "fi-sio-the-ra-pef-TIS"
           }
         },
         {
@@ -356,7 +385,8 @@
           "answerDisplay": "η φυσιοθεραπεύτρια",
           "pronunciation": {
             "en": "fi-sio-the-ra-PEF-tria",
-            "ru": "фи-си-о-тэ-ра-ПЭФ-три-а"
+            "ru": "фи-си-о-тэ-ра-ПЭФ-три-а",
+            "zh": "fi-sio-the-ra-PEF-tria"
           }
         }
       ],
@@ -608,11 +638,13 @@
       },
       "pronunciation": {
         "en": "E-kso",
-        "ru": "Э-ксо"
+        "ru": "Э-ксо",
+        "zh": "E-kso"
       },
       "explanation": {
-        "en": "Έξω από means “outside of”.",
-        "ru": "Έξω από — «снаружи», «за пределами чего-либо»."
+        "en": "Έξω means outside. Use έξω από before a place: έξω από το σπίτι — outside the house.",
+        "ru": "Έξω από — «снаружи», «за пределами чего-либо».",
+        "zh": "Έξω 表示“外面”，έξω από 表示“在……外面”。"
       },
       "themes": [
         "places"
@@ -623,6 +655,16 @@
       "reviewIdentity": {
         "deckId": "words-descriptions",
         "cardId": "work-life-outside"
+      },
+      "contextExample": {
+        "en": "Τα παιδιά παίζουν ___. — The children are playing outside.",
+        "ru": "Τα παιδιά είναι ___. — Дети на улице.",
+        "zh": "Τα παιδιά είναι ___. — 孩子们在外面。"
+      },
+      "meaning": {
+        "en": "Write the missing Greek word.",
+        "ru": "Напишите только пропущенное слово.",
+        "zh": "只填写空缺的词。"
       }
     },
     {
@@ -636,11 +678,13 @@
       },
       "pronunciation": {
         "en": "ma-ZI",
-        "ru": "ма-ЗИ"
+        "ru": "ма-ЗИ",
+        "zh": "ma-ZI"
       },
       "explanation": {
-        "en": "Μαζί με means “together with”.",
-        "ru": "Μαζί με — «вместе с». В греческом после με используется винительный, хотя по-русски после «с» — творительный."
+        "en": "Μαζί means together. Use μαζί με before a noun, or a genitive pronoun: μαζί με τη Μαρία — together with Maria; μαζί μου — with me.",
+        "ru": "Μαζί με — «вместе с». В греческом после με используется винительный, хотя по-русски после «с» — творительный.",
+        "zh": "Μαζί 表示“一起”；μαζί με 表示“和……一起”。"
       },
       "themes": [
         "conversation"
@@ -651,6 +695,16 @@
       "reviewIdentity": {
         "deckId": "words-descriptions",
         "cardId": "work-life-together"
+      },
+      "contextExample": {
+        "en": "Πάμε ___. — Let’s go together.",
+        "ru": "Πάμε ___. — Пойдём вместе.",
+        "zh": "Πάμε ___. — 我们一起去。"
+      },
+      "meaning": {
+        "en": "Write the missing Greek word.",
+        "ru": "Напишите только пропущенное слово.",
+        "zh": "只填写空缺的词。"
       }
     },
     {
@@ -664,11 +718,13 @@
       },
       "pronunciation": {
         "en": "en-DA-ksi",
-        "ru": "эн-ДА-кси"
+        "ru": "эн-ДА-кси",
+        "zh": "en-DA-ksi"
       },
       "explanation": {
-        "en": "A response meaning “okay”, or a description meaning “all right”.",
-        "ru": "В ответе — «ладно», «хорошо»; о состоянии — «в порядке». Не переводится буквально по частям."
+        "en": "Εντάξει means okay or all right. It can express agreement or describe something as satisfactory: Εντάξει, πάμε — Okay, let’s go.",
+        "ru": "Εντάξει в ответе означает «ладно», «хорошо»: εντάξει, έρχομαι — «ладно, я иду». В είμαι εντάξει означает «я в порядке».",
+        "zh": "Εντάξει 可表示“没问题、情况正常”，也可作为应答“好的”。"
       },
       "themes": [
         "conversation"
@@ -680,6 +736,16 @@
       "reviewIdentity": {
         "deckId": "words-descriptions",
         "cardId": "work-life-okay"
+      },
+      "contextExample": {
+        "en": "Όλα είναι ___. — Everything is all right.",
+        "ru": "___, έρχομαι. — Ладно, я иду.",
+        "zh": "Όλα είναι ___. — 一切都没问题。"
+      },
+      "meaning": {
+        "en": "Write the missing Greek word.",
+        "ru": "Напишите только пропущенное слово.",
+        "zh": "只填写空缺的词。"
       }
     },
     {
@@ -693,11 +759,13 @@
       },
       "pronunciation": {
         "en": "po-LI",
-        "ru": "по-ЛИ"
+        "ru": "по-ЛИ",
+        "zh": "po-LI"
       },
       "explanation": {
-        "en": "An adverb: πολύ καλά means “very well”; ταξιδεύω πολύ means “I travel a lot”.",
-        "ru": "Наречие: πολύ καλά — «очень хорошо», ταξιδεύω πολύ — «я много путешествую». Пишется с υ на конце."
+        "en": "Πολύ is an invariable adverb meaning very or a lot: πολύ καλά — very well; ταξιδεύω πολύ — I travel a lot. The adjective much/many has forms such as πολύς, πολλή, πολύ.",
+        "ru": "Наречие: πολύ καλά — «очень хорошо», ταξιδεύω πολύ — «я много путешествую». Пишется с υ на конце.",
+        "zh": "Πολύ 作副词时表示“很、非常”或“很多”，如 πολύ καλά（很好）、ταξιδεύω πολύ（我经常旅行）。"
       },
       "themes": [
         "conversation"
@@ -708,6 +776,16 @@
       "reviewIdentity": {
         "deckId": "words-descriptions",
         "cardId": "work-life-very"
+      },
+      "contextExample": {
+        "en": "Μιλάω ___ καλά ελληνικά. — I speak Greek very well.",
+        "ru": "Μιλάει ___ καλά. — Он говорит очень хорошо.",
+        "zh": "Είμαι ___ καλά. — 我很好。"
+      },
+      "meaning": {
+        "en": "Write the missing Greek word.",
+        "ru": "Напишите только пропущенное слово.",
+        "zh": "只填写空缺的词。"
       }
     },
     {

@@ -12,8 +12,9 @@
         "zh": "游戏／玩具"
       },
       "pronunciation": {
-        "en": "peh-NI-dhi",
-        "ru": "пэх-НИ-ди"
+        "en": "pekh-NI-dhi",
+        "ru": "пэх-НИ-ди",
+        "zh": "pekh-NI-dhi"
       },
       "themes": [
         "home"
@@ -26,20 +27,31 @@
         "ru": "В греческом средний род.",
         "zh": "中性名词。"
       },
-      "answerDisplay": "το παιχνίδι"
+      "answerDisplay": "το παιχνίδι",
+      "contextExample": {
+        "en": "Αυτό είναι το αγαπημένο μου ___. — This is my favourite game.",
+        "ru": "Αυτό είναι το αγαπημένο μου ___. — Это моя любимая игра.",
+        "zh": "Αυτό είναι το αγαπημένο μου ___. — 这是我最喜欢的游戏。"
+      },
+      "meaning": {
+        "en": "Write the missing Greek word.",
+        "ru": "Напишите только пропущенное слово.",
+        "zh": "只填写空缺的词。"
+      }
     },
     {
       "id": "transport-match",
       "collection": "words-nouns",
       "greek": "αγώνας",
       "prompt": {
-        "en": "Match / competition",
+        "en": "Match / race / competition",
         "ru": "Матч / соревнование",
         "zh": "比赛"
       },
       "pronunciation": {
         "en": "a-GHO-nas",
-        "ru": "а-ГО-нас"
+        "ru": "а-ГО-нас",
+        "zh": "a-GHO-nas"
       },
       "themes": [
         "conversation"
@@ -48,7 +60,7 @@
         "noun"
       ],
       "explanation": {
-        "en": "Masculine.",
+        "en": "Αγώνας can mean a sports match, race or competition. More generally it can mean a struggle or effort towards a goal: ο αγώνας για την ειρήνη — the struggle for peace.",
         "ru": "В греческом мужской род.",
         "zh": "阳性名词。"
       },
@@ -64,8 +76,9 @@
         "zh": "爱好"
       },
       "pronunciation": {
-        "en": "HO-bi",
-        "ru": "ХО-би"
+        "en": "KHO-bi",
+        "ru": "ХО-би",
+        "zh": "KHO-bi"
       },
       "themes": [
         "conversation"
@@ -91,7 +104,8 @@
       },
       "pronunciation": {
         "en": "en-dhia-FE-ron-da",
-        "ru": "эн-дья-ФЭ-рон-да"
+        "ru": "эн-дья-ФЭ-рон-да",
+        "zh": "en-dhia-FE-ron-da"
       },
       "themes": [
         "conversation"
@@ -100,9 +114,9 @@
         "noun"
       ],
       "explanation": {
-        "en": "Neuter plural. Here the plural means interests or pastimes. The singular is το ενδιαφέρον.",
+        "en": "Τα ενδιαφέροντα means interests or pastimes. The singular το ενδιαφέρον means interest, as in interest in a subject.",
         "ru": "Средний род, множественное число. Здесь множественное число означает увлечения. Единственное число — το ενδιαφέρον (интерес).",
-        "zh": "中性复数。 这里的复数表示兴趣爱好，单数为 το ενδιαφέρον。"
+        "zh": "中性复数，表示兴趣爱好；单数为 το ενδιαφέρον。"
       },
       "answerDisplay": "τα ενδιαφέροντα"
     },
@@ -117,7 +131,8 @@
       },
       "pronunciation": {
         "en": "KRE-as",
-        "ru": "КРЭ-ас"
+        "ru": "КРЭ-ас",
+        "zh": "KRE-as"
       },
       "themes": [
         "food"
@@ -143,7 +158,8 @@
       },
       "pronunciation": {
         "en": "mi-ha-NI",
-        "ru": "ми-ха-НИ"
+        "ru": "ми-ха-НИ",
+        "zh": "mi-kha-NI"
       },
       "themes": [
         "travel"
@@ -156,7 +172,17 @@
         "ru": "В греческом женский род. В разговоре о транспорте μηχανή — мотоцикл. В другом контексте это машина, механизм или двигатель.",
         "zh": "阴性名词。 谈交通时指摩托车，其他语境中也可指机器或发动机。"
       },
-      "answerDisplay": "η μηχανή"
+      "answerDisplay": "η μηχανή",
+      "contextExample": {
+        "en": "Η ___ μου είναι στο πάρκινγκ. — My motorcycle is in the car park.",
+        "ru": "Η ___ μου είναι στο πάρκινγκ. — Мой мотоцикл на парковке.",
+        "zh": "Η ___ μου είναι στο πάρκινγκ. — 我的摩托车在停车场。"
+      },
+      "meaning": {
+        "en": "Write the missing Greek word.",
+        "ru": "Напишите только пропущенное слово.",
+        "zh": "只填写空缺的词。"
+      }
     },
     {
       "id": "transport-message",
@@ -169,7 +195,8 @@
       },
       "pronunciation": {
         "en": "MI-ni-ma",
-        "ru": "МИ-ни-ма"
+        "ru": "МИ-ни-ма",
+        "zh": "MI-ni-ma"
       },
       "themes": [
         "phone"
@@ -195,7 +222,8 @@
       },
       "pronunciation": {
         "en": "KOZ-mos",
-        "ru": "КОЗ-мос"
+        "ru": "КОЗ-мос",
+        "zh": "KOZ-mos"
       },
       "themes": [
         "people",
@@ -205,11 +233,21 @@
         "noun"
       ],
       "explanation": {
-        "en": "Masculine.",
+        "en": "Κόσμος means world, or collectively people: όλος ο κόσμος — the whole world / everyone. In the people sense it is still grammatically singular: Έχει πολύ κόσμο — There are lots of people.",
         "ru": "В греческом мужской род.",
         "zh": "阳性名词。"
       },
-      "answerDisplay": "ο κόσμος"
+      "answerDisplay": "ο κόσμος",
+      "contextExample": {
+        "en": "Ο ___ είναι μεγάλος. — The world is big.",
+        "ru": "Ο ___ είναι μεγάλος. — Мир большой.",
+        "zh": "Ο ___ είναι μεγάλος. — 世界很大。"
+      },
+      "meaning": {
+        "en": "Write the missing Greek word.",
+        "ru": "Напишите только пропущенное слово.",
+        "zh": "只填写空缺的词。"
+      }
     },
     {
       "id": "transport-full-stop",
@@ -222,7 +260,8 @@
       },
       "pronunciation": {
         "en": "te-LI-a",
-        "ru": "тэ-ЛИ-а"
+        "ru": "тэ-ЛИ-а",
+        "zh": "te-LI-a"
       },
       "themes": [
         "classroom"
@@ -242,13 +281,14 @@
       "collection": "words-nouns",
       "greek": "κόμμα",
       "prompt": {
-        "en": "Comma (punctuation)",
+        "en": "Comma / political party",
         "ru": "Запятая",
         "zh": "逗号"
       },
       "pronunciation": {
         "en": "KO-ma",
-        "ru": "КО-ма"
+        "ru": "КО-ма",
+        "zh": "KO-ma"
       },
       "themes": [
         "classroom"
@@ -257,11 +297,21 @@
         "noun"
       ],
       "explanation": {
-        "en": "Neuter.",
+        "en": "Το κόμμα means a comma in writing. It also means a political party; the context distinguishes the meanings.",
         "ru": "В греческом средний род.",
         "zh": "中性名词。"
       },
-      "answerDisplay": "το κόμμα"
+      "answerDisplay": "το κόμμα",
+      "contextExample": {
+        "en": "Εδώ χρειάζεται ένα ___. — A comma is needed here.",
+        "ru": "Εδώ χρειάζεται ένα ___. — Здесь нужна запятая.",
+        "zh": "Εδώ χρειάζεται ένα ___. — 这里需要一个逗号。"
+      },
+      "meaning": {
+        "en": "Write the missing Greek word.",
+        "ru": "Напишите только пропущенное слово.",
+        "zh": "只填写空缺的词。"
+      }
     },
     {
       "id": "transport-question-mark",
@@ -274,7 +324,8 @@
       },
       "pronunciation": {
         "en": "e-ro-ti-ma-ti-KO",
-        "ru": "э-ро-ти-ма-ти-КО"
+        "ru": "э-ро-ти-ма-ти-КО",
+        "zh": "e-ro-ti-ma-ti-KO"
       },
       "themes": [
         "classroom"
@@ -300,7 +351,8 @@
       },
       "pronunciation": {
         "en": "TO-nos",
-        "ru": "ТО-нос"
+        "ru": "ТО-нос",
+        "zh": "TO-nos"
       },
       "themes": [
         "classroom"
@@ -309,11 +361,21 @@
         "noun"
       ],
       "explanation": {
-        "en": "Masculine.",
+        "en": "Ο τόνος can mean spoken stress or the written accent mark: πού has a τόνος. It can also mean a tone of voice.",
         "ru": "В греческом мужской род.",
         "zh": "阳性名词。"
       },
-      "answerDisplay": "ο τόνος"
+      "answerDisplay": "ο τόνος",
+      "contextExample": {
+        "en": "Ο ___ είναι στο πρώτο φωνήεν. — The accent is on the first vowel.",
+        "ru": "Ο ___ είναι στο πρώτο φωνήεν. — Знак ударения стоит над первой гласной.",
+        "zh": "Ο ___ είναι στο πρώτο φωνήεν. — 重音标在第一个元音上。"
+      },
+      "meaning": {
+        "en": "Write the missing Greek word.",
+        "ru": "Напишите только пропущенное слово.",
+        "zh": "只填写空缺的词。"
+      }
     },
     {
       "id": "transport-trolleybus",
@@ -326,7 +388,8 @@
       },
       "pronunciation": {
         "en": "TRO-lei",
-        "ru": "ТРО-лэй"
+        "ru": "ТРО-лэй",
+        "zh": "TRO-lei"
       },
       "themes": [
         "travel"
@@ -352,7 +415,8 @@
       },
       "pronunciation": {
         "en": "tram",
-        "ru": "трам"
+        "ru": "трам",
+        "zh": "tram"
       },
       "themes": [
         "travel"
@@ -378,7 +442,8 @@
       },
       "pronunciation": {
         "en": "i-si-TI-ri-o",
-        "ru": "и-си-ТИ-ри-о"
+        "ru": "и-си-ТИ-ри-о",
+        "zh": "i-si-TI-ri-o"
       },
       "themes": [
         "travel"
@@ -404,7 +469,8 @@
       },
       "pronunciation": {
         "en": "pe-rip-te-RAS",
-        "ru": "пэ-рип-тэ-РАС"
+        "ru": "пэ-рип-тэ-РАС",
+        "zh": "pe-rip-te-RAS"
       },
       "themes": [
         "people"
@@ -430,7 +496,8 @@
       },
       "pronunciation": {
         "en": "KEN-dro",
-        "ru": "КЭН-дро"
+        "ru": "КЭН-дро",
+        "zh": "KEN-dro"
       },
       "themes": [
         "places"
@@ -456,7 +523,8 @@
       },
       "pronunciation": {
         "en": "ev-RO",
-        "ru": "эв-РО"
+        "ru": "эв-РО",
+        "zh": "ev-RO"
       },
       "themes": [
         "travel"
@@ -476,13 +544,14 @@
       "collection": "words-nouns",
       "greek": "λεπτό",
       "prompt": {
-        "en": "Minute",
+        "en": "Minute / euro cent",
         "ru": "Минута",
         "zh": "分钟"
       },
       "pronunciation": {
         "en": "lep-TO",
-        "ru": "лэп-ТО"
+        "ru": "лэп-ТО",
+        "zh": "lep-TO"
       },
       "themes": [
         "time"
@@ -491,11 +560,21 @@
         "noun"
       ],
       "explanation": {
-        "en": "Neuter.",
+        "en": "Το λεπτό means a minute. It also means a cent, one hundredth of a euro. Plural: τα λεπτά.",
         "ru": "В греческом средний род.",
         "zh": "中性名词。"
       },
-      "answerDisplay": "το λεπτό"
+      "answerDisplay": "το λεπτό",
+      "contextExample": {
+        "en": "Περίμενε ένα ___. — Wait one minute.",
+        "ru": "Περίμενε ένα ___. — Подожди минуту.",
+        "zh": "Περίμενε ένα ___. — 等一分钟。"
+      },
+      "meaning": {
+        "en": "Write the missing Greek word.",
+        "ru": "Напишите только пропущенное слово.",
+        "zh": "只填写空缺的词。"
+      }
     },
     {
       "id": "transport-street-market",
@@ -508,7 +587,8 @@
       },
       "pronunciation": {
         "en": "la-i-KI",
-        "ru": "ла-и-КИ"
+        "ru": "ла-и-КИ",
+        "zh": "la-i-KI"
       },
       "themes": [
         "places",
@@ -535,7 +615,8 @@
       },
       "pronunciation": {
         "en": "PO-dhi",
-        "ru": "ПО-ди"
+        "ru": "ПО-ди",
+        "zh": "PO-dhi"
       },
       "themes": [
         "travel"
@@ -548,7 +629,17 @@
         "ru": "В греческом средний род. Множественное число — τα πόδια. Με τα πόδια — пешком.",
         "zh": "中性名词。 复数为 τα πόδια。Με τα πόδια 表示步行。"
       },
-      "answerDisplay": "το πόδι"
+      "answerDisplay": "το πόδι",
+      "contextExample": {
+        "en": "Πονάει το ___ μου. — My foot hurts.",
+        "ru": "Πονάει το ___ μου. — У меня болит нога.",
+        "zh": "Πονάει το ___ μου. — 我的脚疼。"
+      },
+      "meaning": {
+        "en": "Write the missing Greek word.",
+        "ru": "Напишите только пропущенное слово.",
+        "zh": "只填写空缺的词。"
+      }
     },
     {
       "id": "transport-electric-railway",
@@ -557,11 +648,12 @@
       "prompt": {
         "en": "Electric railway / urban train",
         "ru": "Электричка / городской электропоезд",
-        "zh": "城市电气铁路／电车"
+        "zh": "电气铁路（雅典市内铁路）"
       },
       "pronunciation": {
         "en": "i-lek-tri-KOS",
-        "ru": "и-лэк-три-КОС"
+        "ru": "и-лэк-три-КОС",
+        "zh": "i-lek-tri-KOS"
       },
       "themes": [
         "travel"
@@ -570,11 +662,21 @@
         "noun"
       ],
       "explanation": {
-        "en": "Masculine. Short for ο ηλεκτρικός σιδηρόδρομος; in the Athens dialogue, the electric railway between Piraeus and Kifisia.",
+        "en": "Ο ηλεκτρικός is short for ο ηλεκτρικός σιδηρόδρομος, electric railway. In Athens it commonly refers to Metro Line 1, between Piraeus and Kifisia.",
         "ru": "В греческом мужской род. Сокращение от ο ηλεκτρικός σιδηρόδρομος. В диалоге об Афинах так называют электричку между Пиреем и Кифисьей.",
-        "zh": "阳性名词。 ο ηλεκτρικός σιδηρόδρομος 的简称。课文中指比雷埃夫斯至基菲夏的城市铁路。"
+        "zh": "Ο ηλεκτρικός σιδηρόδρομος 的简称。雅典的 ο ηλεκτρικός 通常指连接比雷埃夫斯和基菲夏的市内铁路。"
       },
-      "answerDisplay": "ο ηλεκτρικός"
+      "answerDisplay": "ο ηλεκτρικός",
+      "contextExample": {
+        "en": "Ο ___ πάει στον Πειραιά. — The electric train goes to Piraeus.",
+        "ru": "Ο ___ πάει στον Πειραιά. — Электричка идёт в Пирей.",
+        "zh": "Ο ___ πάει στον Πειραιά. — 这趟市内列车开往比雷埃夫斯。"
+      },
+      "meaning": {
+        "en": "Write the missing Greek word.",
+        "ru": "Напишите только пропущенное слово.",
+        "zh": "只填写空缺的词。"
+      }
     },
     {
       "id": "transport-line",
@@ -587,7 +689,8 @@
       },
       "pronunciation": {
         "en": "ghra-MI",
-        "ru": "гра-МИ"
+        "ru": "гра-МИ",
+        "zh": "ghra-MI"
       },
       "themes": [
         "travel"
@@ -613,7 +716,8 @@
       },
       "pronunciation": {
         "en": "pro-I",
-        "ru": "про-И"
+        "ru": "про-И",
+        "zh": "pro-I"
       },
       "themes": [
         "time"
@@ -633,13 +737,14 @@
       "collection": "words-nouns",
       "greek": "βράδυ",
       "prompt": {
-        "en": "Evening",
+        "en": "Evening / night",
         "ru": "Вечер",
         "zh": "晚上"
       },
       "pronunciation": {
         "en": "VRA-dhi",
-        "ru": "ВРА-ди"
+        "ru": "ВРА-ди",
+        "zh": "VRA-dhi"
       },
       "themes": [
         "time"
@@ -770,7 +875,8 @@
       },
       "pronunciation": {
         "en": "me-GHA-los",
-        "ru": "мэ-ГА-лос"
+        "ru": "мэ-ГА-лос",
+        "zh": "me-GHA-los"
       },
       "themes": [
         "conversation"
@@ -779,7 +885,7 @@
         "adjective"
       ],
       "explanation": {
-        "en": "The ending agrees with the Greek noun. Any listed gender form is accepted in this word card.",
+        "en": "Μεγάλος, μεγάλη and μεγάλο mean big or large. For a person, μεγάλος can also mean older or grown-up: ο μεγάλος αδερφός μου — my older brother.",
         "ru": "Окончание зависит от рода греческого существительного. В этой карточке принимается любая из трёх форм.",
         "zh": "词尾与希腊语名词的性一致。本单词卡接受列出的三种性别形式。"
       },
@@ -795,7 +901,8 @@
           "answerDisplay": "μεγάλος",
           "pronunciation": {
             "en": "me-GHA-los",
-            "ru": "мэ-ГА-лос"
+            "ru": "мэ-ГА-лос",
+            "zh": "me-GHA-los"
           }
         },
         {
@@ -803,7 +910,8 @@
           "answerDisplay": "μεγάλη",
           "pronunciation": {
             "en": "me-GHA-li",
-            "ru": "мэ-ГА-ли"
+            "ru": "мэ-ГА-ли",
+            "zh": "me-GHA-li"
           }
         },
         {
@@ -811,7 +919,8 @@
           "answerDisplay": "μεγάλο",
           "pronunciation": {
             "en": "me-GHA-lo",
-            "ru": "мэ-ГА-ло"
+            "ru": "мэ-ГА-ло",
+            "zh": "me-GHA-lo"
           }
         }
       ],
@@ -831,7 +940,8 @@
       },
       "pronunciation": {
         "en": "mi-KROS",
-        "ru": "ми-КРОС"
+        "ru": "ми-КРОС",
+        "zh": "mi-KROS"
       },
       "themes": [
         "conversation"
@@ -840,7 +950,7 @@
         "adjective"
       ],
       "explanation": {
-        "en": "The ending agrees with the Greek noun. Any listed gender form is accepted in this word card.",
+        "en": "Μικρός, μικρή and μικρό mean small or little. For a person, μικρός can also mean young or younger: ο μικρός αδερφός μου — my younger brother.",
         "ru": "Окончание зависит от рода греческого существительного. В этой карточке принимается любая из трёх форм.",
         "zh": "词尾与希腊语名词的性一致。本单词卡接受列出的三种性别形式。"
       },
@@ -856,7 +966,8 @@
           "answerDisplay": "μικρός",
           "pronunciation": {
             "en": "mi-KROS",
-            "ru": "ми-КРОС"
+            "ru": "ми-КРОС",
+            "zh": "mi-KROS"
           }
         },
         {
@@ -864,7 +975,8 @@
           "answerDisplay": "μικρή",
           "pronunciation": {
             "en": "mi-KRI",
-            "ru": "ми-КРИ"
+            "ru": "ми-КРИ",
+            "zh": "mi-KRI"
           }
         },
         {
@@ -872,7 +984,8 @@
           "answerDisplay": "μικρό",
           "pronunciation": {
             "en": "mi-KRO",
-            "ru": "ми-КРО"
+            "ru": "ми-КРО",
+            "zh": "mi-KRO"
           }
         }
       ],
@@ -892,7 +1005,8 @@
       },
       "pronunciation": {
         "en": "I-dhios",
-        "ru": "И-дьос"
+        "ru": "И-дьос",
+        "zh": "I-dhios"
       },
       "themes": [
         "conversation"
@@ -901,7 +1015,7 @@
         "adjective"
       ],
       "explanation": {
-        "en": "The ending agrees with the Greek noun. Any listed gender form is accepted in this word card.",
+        "en": "Ίδιος, ίδια and ίδιο mean the same or identical. They agree with the noun: το ίδιο βιβλίο — the same book.",
         "ru": "Окончание зависит от рода греческого существительного. В этой карточке принимается любая из трёх форм.",
         "zh": "词尾与希腊语名词的性一致。本单词卡接受列出的三种性别形式。"
       },
@@ -917,7 +1031,8 @@
           "answerDisplay": "ίδιος",
           "pronunciation": {
             "en": "I-dhios",
-            "ru": "И-дьос"
+            "ru": "И-дьос",
+            "zh": "I-dhios"
           }
         },
         {
@@ -925,7 +1040,8 @@
           "answerDisplay": "ίδια",
           "pronunciation": {
             "en": "I-dhia",
-            "ru": "И-дья"
+            "ru": "И-дья",
+            "zh": "I-dhia"
           }
         },
         {
@@ -933,7 +1049,8 @@
           "answerDisplay": "ίδιο",
           "pronunciation": {
             "en": "I-dhio",
-            "ru": "И-дьо"
+            "ru": "И-дьо",
+            "zh": "I-dhio"
           }
         }
       ],
@@ -953,7 +1070,8 @@
       },
       "pronunciation": {
         "en": "e-PO-me-nos",
-        "ru": "э-ПО-мэ-нос"
+        "ru": "э-ПО-мэ-нос",
+        "zh": "e-PO-me-nos"
       },
       "themes": [
         "conversation"
@@ -962,7 +1080,7 @@
         "adjective"
       ],
       "explanation": {
-        "en": "The ending agrees with the Greek noun. Any listed gender form is accepted in this word card.",
+        "en": "Επόμενος, επόμενη and επόμενο mean next. They agree with the noun: την επόμενη μέρα — the next day.",
         "ru": "Окончание зависит от рода греческого существительного. В этой карточке принимается любая из трёх форм.",
         "zh": "词尾与希腊语名词的性一致。本单词卡接受列出的三种性别形式。"
       },
@@ -978,7 +1096,8 @@
           "answerDisplay": "επόμενος",
           "pronunciation": {
             "en": "e-PO-me-nos",
-            "ru": "э-ПО-мэ-нос"
+            "ru": "э-ПО-мэ-нос",
+            "zh": "e-PO-me-nos"
           }
         },
         {
@@ -986,7 +1105,8 @@
           "answerDisplay": "επόμενη",
           "pronunciation": {
             "en": "e-PO-me-ni",
-            "ru": "э-ПО-мэ-ни"
+            "ru": "э-ПО-мэ-ни",
+            "zh": "e-PO-me-ni"
           }
         },
         {
@@ -994,7 +1114,8 @@
           "answerDisplay": "επόμενο",
           "pronunciation": {
             "en": "e-PO-me-no",
-            "ru": "э-ПО-мэ-но"
+            "ru": "э-ПО-мэ-но",
+            "zh": "e-PO-me-no"
           }
         }
       ],
@@ -1014,7 +1135,8 @@
       },
       "pronunciation": {
         "en": "SI-ghu-ra",
-        "ru": "СИ-гу-ра"
+        "ru": "СИ-гу-ра",
+        "zh": "SI-ghu-ra"
       },
       "themes": [
         "conversation"
@@ -1025,6 +1147,21 @@
       "reviewIdentity": {
         "deckId": "words-descriptions",
         "cardId": "transport-certainly"
+      },
+      "contextExample": {
+        "en": "Θα έρθω ___. — I will come for sure.",
+        "ru": "___ θα έρθει. — Он наверняка придёт.",
+        "zh": "___ θα έρθει. — 他一定会来。"
+      },
+      "explanation": {
+        "en": "Σίγουρα is an adverb meaning certainly or for sure: Σίγουρα θα έρθει — He or she will definitely come. The adjective sure changes form: σίγουρος, σίγουρη, σίγουρο.",
+        "ru": "Σίγουρα — «наверняка», «точно», «несомненно»: σίγουρα ξέρει — «он наверняка знает». Это наречие; прилагательное «уверенный» — σίγουρος.",
+        "zh": "Σίγουρα 是副词，可表示“肯定、一定”，如 Σίγουρα θα έρθει.（他一定会来。）"
+      },
+      "meaning": {
+        "en": "Write the missing Greek word.",
+        "ru": "Напишите только пропущенное слово.",
+        "zh": "只填写空缺的词。"
       }
     },
     {
@@ -1038,7 +1175,8 @@
       },
       "pronunciation": {
         "en": "me-TA",
-        "ru": "мэ-ТА"
+        "ru": "мэ-ТА",
+        "zh": "me-TA"
       },
       "themes": [
         "time"
@@ -1049,6 +1187,21 @@
       "reviewIdentity": {
         "deckId": "words-descriptions",
         "cardId": "transport-afterwards"
+      },
+      "contextExample": {
+        "en": "Πρώτα τρώω και ___ φεύγω. — First I eat and then I leave.",
+        "ru": "Θα έρθω ___. — Я приду потом.",
+        "zh": "Θα έρθω ___. — 我之后会来。"
+      },
+      "explanation": {
+        "en": "Μετά means then or afterwards on its own. Before a noun or pronoun it can mean after: μετά το μάθημα — after the lesson.",
+        "ru": "Μετά без дополнения означает «потом», «затем»: θα έρθω μετά — «я приду потом». Перед существительным может быть предлогом «после»: μετά το μάθημα — «после урока».",
+        "zh": "Μετά 单独作副词表示“之后、然后”；后接名词时也可作介词，如 μετά το μάθημα（下课后）。"
+      },
+      "meaning": {
+        "en": "Write the missing Greek word.",
+        "ru": "Напишите только пропущенное слово.",
+        "zh": "只填写空缺的词。"
       }
     },
     {
@@ -1062,7 +1215,8 @@
       },
       "pronunciation": {
         "en": "li-PON",
-        "ru": "ли-ПОН"
+        "ru": "ли-ПОН",
+        "zh": "li-PON"
       },
       "themes": [
         "conversation"
@@ -1073,6 +1227,21 @@
       "reviewIdentity": {
         "deckId": "words-connectors",
         "cardId": "transport-so"
+      },
+      "contextExample": {
+        "en": "___, τι κάνουμε τώρα; — Well then, what do we do now?",
+        "ru": "___, πάμε; — Ну что, пойдём?",
+        "zh": "___, πάμε! — 那么，我们走吧！"
+      },
+      "explanation": {
+        "en": "Λοιπόν connects a conclusion or the next step in a conversation: so, then, or well then.",
+        "ru": "Λοιπόν связывает реплики или вводит вывод: «итак», «ну что ж», «значит». Например: λοιπόν, πάμε; — «ну что, пойдём?»",
+        "zh": "Λοιπόν 可用来推进话题或引出结论，表示“那么、好吧”。"
+      },
+      "meaning": {
+        "en": "Write the missing Greek word.",
+        "ru": "Напишите только пропущенное слово.",
+        "zh": "只填写空缺的词。"
       }
     },
     {
@@ -1086,7 +1255,8 @@
       },
       "pronunciation": {
         "en": "pi-re-AS",
-        "ru": "пи-рэ-АС"
+        "ru": "пи-рэ-АС",
+        "zh": "pi-re-AS"
       },
       "themes": [
         "places",
@@ -1113,7 +1283,8 @@
       },
       "pronunciation": {
         "en": "ki-PSE-li",
-        "ru": "ки-ПСЭ-ли"
+        "ru": "ки-ПСЭ-ли",
+        "zh": "ki-PSE-li"
       },
       "themes": [
         "places",
@@ -1140,7 +1311,8 @@
       },
       "pronunciation": {
         "en": "SIN-dagh-ma",
-        "ru": "СИН-даг-ма"
+        "ru": "СИН-даг-ма",
+        "zh": "SIN-dagh-ma"
       },
       "themes": [
         "places",
@@ -1167,7 +1339,8 @@
       },
       "pronunciation": {
         "en": "o-MO-nia",
-        "ru": "о-МО-нья"
+        "ru": "о-МО-нья",
+        "zh": "o-MO-nia"
       },
       "themes": [
         "places",
@@ -1194,7 +1367,8 @@
       },
       "pronunciation": {
         "en": "ki-fi-SIA",
-        "ru": "ки-фи-СЬЯ"
+        "ru": "ки-фи-СЬЯ",
+        "zh": "ki-fi-SIA"
       },
       "themes": [
         "places",
@@ -1221,7 +1395,8 @@
       },
       "pronunciation": {
         "en": "A-yios dhi-MI-tri-os",
-        "ru": "А-йос ди-МИ-три-ос"
+        "ru": "А-йос ди-МИ-три-ос",
+        "zh": "A-yios dhi-MI-tri-os"
       },
       "themes": [
         "places",
@@ -1248,7 +1423,8 @@
       },
       "pronunciation": {
         "en": "DHAF-ni",
-        "ru": "ДАФ-ни"
+        "ru": "ДАФ-ни",
+        "zh": "DHAF-ni"
       },
       "themes": [
         "places",
@@ -1275,7 +1451,8 @@
       },
       "pronunciation": {
         "en": "NE-o FA-li-ro",
-        "ru": "НЭ-о ФА-ли-ро"
+        "ru": "НЭ-о ФА-ли-ро",
+        "zh": "NE-o FA-li-ro"
       },
       "themes": [
         "places",
@@ -1302,7 +1479,8 @@
       },
       "pronunciation": {
         "en": "A-yios i-o-A-nis",
-        "ru": "А-йос и-о-А-нис"
+        "ru": "А-йос и-о-А-нис",
+        "zh": "A-yios i-o-A-nis"
       },
       "themes": [
         "places",
@@ -1329,7 +1507,8 @@
       },
       "pronunciation": {
         "en": "a-KRO-po-li",
-        "ru": "а-КРО-по-ли"
+        "ru": "а-КРО-по-ли",
+        "zh": "a-KRO-po-li"
       },
       "themes": [
         "places",
@@ -1356,7 +1535,8 @@
       },
       "pronunciation": {
         "en": "A-yios an-TO-ni-os",
-        "ru": "А-йос ан-ТО-ни-ос"
+        "ru": "А-йос ан-ТО-ни-ос",
+        "zh": "A-yios an-TO-ni-os"
       },
       "themes": [
         "places",
@@ -1383,7 +1563,8 @@
       },
       "pronunciation": {
         "en": "e-GHA-le-o",
-        "ru": "э-ГА-лэ-о"
+        "ru": "э-ГА-лэ-о",
+        "zh": "e-GHA-le-o"
       },
       "themes": [
         "places",
@@ -1410,7 +1591,8 @@
       },
       "pronunciation": {
         "en": "FA-li-ro",
-        "ru": "ФА-ли-ро"
+        "ru": "ФА-ли-ро",
+        "zh": "FA-li-ro"
       },
       "themes": [
         "places",
@@ -1437,7 +1619,8 @@
       },
       "pronunciation": {
         "en": "lan-ga-DHAS",
-        "ru": "лан-га-ДАС"
+        "ru": "лан-га-ДАС",
+        "zh": "lan-ga-DHAS"
       },
       "themes": [
         "places",
@@ -1464,7 +1647,8 @@
       },
       "pronunciation": {
         "en": "ka-MA-ra",
-        "ru": "ка-МА-ра"
+        "ru": "ка-МА-ра",
+        "zh": "ka-MA-ra"
       },
       "themes": [
         "places",
@@ -1491,7 +1675,8 @@
       },
       "pronunciation": {
         "en": "thes-sa-lo-NI-ki",
-        "ru": "тэс-са-ло-НИ-ки"
+        "ru": "тэс-са-ло-НИ-ки",
+        "zh": "thes-sa-lo-NI-ki"
       },
       "themes": [
         "places",

@@ -168,17 +168,17 @@ void main() {
       }
 
       await tap(find.text('Reveal answer'));
-      await tap(find.text('Got it'));
+      await tap(find.text('I remembered'));
       expect(store.writes, 1);
       await tap(previous);
       expect(find.text(cards.first.greek), findsOneWidget);
-      expect(find.text('Got it'), findsNothing);
+      expect(find.text('I remembered'), findsNothing);
       expect(find.text('Again'), findsNothing);
       await tap(find.byKey(const ValueKey('next-card')));
       expect(find.text(cards[1].greek), findsNothing);
       expect(store.writes, 1);
       await tap(find.text('Reveal answer'));
-      await tap(find.text('Got it'));
+      await tap(find.text('I remembered'));
       expect(store.writes, 2);
       expect(find.text('Μπράβο!'), findsOneWidget);
       await tap(previous);

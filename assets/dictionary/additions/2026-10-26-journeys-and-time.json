@@ -445,7 +445,8 @@
       },
       "pronunciation": {
         "en": "e-pi-stro-FI",
-        "ru": "э-пи-стро-ФИ"
+        "ru": "э-пи-стро-ФИ",
+        "zh": "e-pi-stro-FI"
       },
       "themes": [
         "travel"
@@ -471,7 +472,8 @@
       },
       "pronunciation": {
         "en": "me-si-ME-ri",
-        "ru": "мэ-си-МЭ-ри"
+        "ru": "мэ-си-МЭ-ри",
+        "zh": "me-si-ME-ri"
       },
       "themes": [
         "time"
@@ -497,7 +499,8 @@
       },
       "pronunciation": {
         "en": "a-PO-yev-ma",
-        "ru": "а-ПО-йэв-ма"
+        "ru": "а-ПО-йэв-ма",
+        "zh": "a-PO-yev-ma"
       },
       "themes": [
         "time"
@@ -523,7 +526,8 @@
       },
       "pronunciation": {
         "en": "NIKH-ta",
-        "ru": "НИХ-та"
+        "ru": "НИХ-та",
+        "zh": "NIKH-ta"
       },
       "themes": [
         "time"
@@ -549,7 +553,8 @@
       },
       "pronunciation": {
         "en": "dhef-te-RO-lep-to",
-        "ru": "дэф-тэ-РО-лэп-то"
+        "ru": "дэф-тэ-РО-лэп-то",
+        "zh": "dhef-te-RO-lep-to"
       },
       "themes": [
         "time"
@@ -575,7 +580,8 @@
       },
       "pronunciation": {
         "en": "TE-tar-to",
-        "ru": "ТЭ-тар-то"
+        "ru": "ТЭ-тар-то",
+        "zh": "TE-tar-to"
       },
       "themes": [
         "time"
@@ -583,7 +589,17 @@
       "answerDisplay": "το τέταρτο",
       "labels": [
         "noun"
-      ]
+      ],
+      "contextExample": {
+        "en": "Θα φύγω σε ένα ___. — I will leave in a quarter of an hour.",
+        "ru": "Θα φύγω σε ένα ___. — Я уйду через четверть часа.",
+        "zh": "Θα φύγω σε ένα ___. — 我一刻钟后出发。"
+      },
+      "meaning": {
+        "en": "Write the missing Greek word.",
+        "ru": "Напишите только пропущенное слово.",
+        "zh": "只填写空缺的词。"
+      }
     },
     {
       "id": "journeys-travel-agency",
@@ -596,7 +612,8 @@
       },
       "pronunciation": {
         "en": "ta-ksi-dhio-ti-KO ghra-FI-o",
-        "ru": "та-кси-дьо-ти-КО гра-ФИ-о"
+        "ru": "та-кси-дьо-ти-КО гра-ФИ-о",
+        "zh": "ta-ksi-dhio-ti-KO ghra-FI-o"
       },
       "themes": [
         "travel",
@@ -618,7 +635,8 @@
       },
       "pronunciation": {
         "en": "PEM-pti",
-        "ru": "ПЭМ-пти"
+        "ru": "ПЭМ-пти",
+        "zh": "PEM-pti"
       },
       "themes": [
         "time"
@@ -644,7 +662,8 @@
       },
       "pronunciation": {
         "en": "ta-ksi-DZIS",
-        "ru": "та-кси-ДЗИС"
+        "ru": "та-кси-ДЗИС",
+        "zh": "ta-ksi-DZIS"
       },
       "themes": [
         "people",
@@ -666,7 +685,8 @@
       },
       "pronunciation": {
         "en": "ka-lo-KE-ri",
-        "ru": "ка-ло-КЭ-ри"
+        "ru": "ка-ло-КЭ-ри",
+        "zh": "ka-lo-KE-ri"
       },
       "themes": [
         "time"
@@ -687,7 +707,8 @@
       },
       "pronunciation": {
         "en": "pan-DU",
-        "ru": "пан-ДУ"
+        "ru": "пан-ДУ",
+        "zh": "pan-DU"
       },
       "themes": [
         "places"
@@ -698,6 +719,21 @@
       "reviewIdentity": {
         "deckId": "words-descriptions",
         "cardId": "journeys-everywhere"
+      },
+      "contextExample": {
+        "en": "Σε ψάχνω ___. — I am looking for you everywhere.",
+        "ru": "Σε ψάχνω ___. — Я ищу тебя везде.",
+        "zh": "Σε ψάχνω ___. — 我到处找你。"
+      },
+      "explanation": {
+        "en": "Παντού means everywhere: Έχει κόσμο παντού — There are people everywhere.",
+        "ru": "Παντού — «везде», «всюду»; при движении также «повсюду»: σε ψάχνω παντού — «я ищу тебя везде».",
+        "zh": "Παντού 表示“到处”，形式不变。"
+      },
+      "meaning": {
+        "en": "Write the missing Greek word.",
+        "ru": "Напишите только пропущенное слово.",
+        "zh": "只填写空缺的词。"
       }
     },
     {
@@ -711,7 +747,8 @@
       },
       "pronunciation": {
         "en": "pu-the-NA",
-        "ru": "пу-тэ-НА"
+        "ru": "пу-тэ-НА",
+        "zh": "pu-the-NA"
       },
       "themes": [
         "places"
@@ -720,13 +757,23 @@
         "adverb"
       ],
       "explanation": {
-        "en": "With a verb, normally use δεν as well: Δεν πάω πουθενά.",
-        "ru": "В отрицательном предложении нужно и δεν: Δεν πάω πουθενά — «Я никуда не иду».",
-        "zh": "在否定句中也用 δεν：Δεν πάω πουθενά（我哪儿也不去）。"
+        "en": "Πουθενά means nowhere with a negative verb: Δεν πάω πουθενά — I am not going anywhere. In a question it can mean anywhere: Πας πουθενά; — Are you going anywhere?",
+        "ru": "Πουθενά с отрицанием означает «нигде» или «никуда»: δεν πάω πουθενά — «я никуда не иду». В вопросе может означать «куда-нибудь»: θα πας πουθενά; — «ты куда-нибудь пойдёшь?»",
+        "zh": "Πουθενά 在否定句中表示“哪里也不”，通常与 δεν 连用。疑问句中也可询问是否去过某处。"
       },
       "reviewIdentity": {
         "deckId": "words-descriptions",
         "cardId": "journeys-nowhere"
+      },
+      "contextExample": {
+        "en": "Δεν πάω ___. — I am not going anywhere.",
+        "ru": "Δεν πάω ___. — Я никуда не иду.",
+        "zh": "Δεν πάω ___. — 我哪儿也不去。"
+      },
+      "meaning": {
+        "en": "Write the missing Greek word.",
+        "ru": "Напишите только пропущенное слово.",
+        "zh": "只填写空缺的词。"
       }
     },
     {
@@ -740,7 +787,8 @@
       },
       "pronunciation": {
         "en": "pe-RI-pu",
-        "ru": "пэ-РИ-пу"
+        "ru": "пэ-РИ-пу",
+        "zh": "pe-RI-pu"
       },
       "themes": [
         "time"
@@ -751,6 +799,21 @@
       "reviewIdentity": {
         "deckId": "words-descriptions",
         "cardId": "journeys-approximately"
+      },
+      "contextExample": {
+        "en": "Θέλω ___ δέκα λεπτά. — I need about ten minutes.",
+        "ru": "Είναι ___ δέκα. — Сейчас примерно десять.",
+        "zh": "Είναι ___ πέντε η ώρα. — 现在大约五点。"
+      },
+      "explanation": {
+        "en": "Περίπου means approximately or about when estimating an amount, time or number: περίπου δέκα — about ten.",
+        "ru": "Περίπου обозначает приблизительность: περίπου δέκα λεπτά — «около десяти минут».",
+        "zh": "Περίπου 表示“大约”，放在数量或时间附近。"
+      },
+      "meaning": {
+        "en": "Write the missing Greek word.",
+        "ru": "Напишите только пропущенное слово.",
+        "zh": "只填写空缺的词。"
       }
     },
     {
@@ -764,7 +827,8 @@
       },
       "pronunciation": {
         "en": "a-kri-VOS",
-        "ru": "а-кри-ВОС"
+        "ru": "а-кри-ВОС",
+        "zh": "a-kri-VOS"
       },
       "themes": [
         "time"
@@ -773,13 +837,23 @@
         "adverb"
       ],
       "explanation": {
-        "en": "With a clock time, ακριβώς means exactly on the hour.",
+        "en": "Ακριβώς means exactly or precisely. After an hour it means on the dot: τρεις ακριβώς — exactly three o’clock.",
         "ru": "При указании времени ακριβώς значит «ровно».",
-        "zh": "用于报时可表示“整点”。"
+        "zh": "Ακριβώς 表示“准确地、恰好”；报时中可表示“整”。"
       },
       "reviewIdentity": {
         "deckId": "words-descriptions",
         "cardId": "journeys-exactly"
+      },
+      "contextExample": {
+        "en": "Είναι τρεις ___. — It is exactly three o’clock.",
+        "ru": "Είναι δέκα ___. — Сейчас ровно десять.",
+        "zh": "Είναι πέντε ___. — 现在是五点整。"
+      },
+      "meaning": {
+        "en": "Write the missing Greek word.",
+        "ru": "Напишите только пропущенное слово.",
+        "zh": "只填写空缺的词。"
       }
     },
     {
@@ -793,7 +867,8 @@
       },
       "pronunciation": {
         "en": "GHRI-gho-ra",
-        "ru": "ГРИ-го-ра"
+        "ru": "ГРИ-го-ра",
+        "zh": "GHRI-gho-ra"
       },
       "themes": [
         "travel"
@@ -804,6 +879,21 @@
       "reviewIdentity": {
         "deckId": "words-descriptions",
         "cardId": "journeys-quickly"
+      },
+      "contextExample": {
+        "en": "Μιλάς πολύ ___. — You speak very quickly.",
+        "ru": "Μιλάει ___. — Он говорит быстро.",
+        "zh": "Έλα ___. — 快来。"
+      },
+      "explanation": {
+        "en": "Γρήγορα is an adverb meaning quickly or fast. It does not change for gender: τρέχει γρήγορα — he or she runs fast.",
+        "ru": "Γρήγορα — наречие «быстро»: μιλάει γρήγορα — «он говорит быстро». Прилагательное «быстрый» — γρήγορος.",
+        "zh": "Γρήγορα 是副词，表示动作速度快，如 Έλα γρήγορα.（快来。）"
+      },
+      "meaning": {
+        "en": "Write the missing Greek word.",
+        "ru": "Напишите только пропущенное слово.",
+        "zh": "只填写空缺的词。"
       }
     },
     {
@@ -812,12 +902,13 @@
       "greek": "μισός",
       "prompt": {
         "en": "Half",
-        "ru": "Половина",
+        "ru": "Пол- / половина",
         "zh": "一半"
       },
       "pronunciation": {
         "en": "mi-SOS",
-        "ru": "ми-СОС"
+        "ru": "ми-СОС",
+        "zh": "mi-SOS"
       },
       "themes": [
         "time"
@@ -837,7 +928,8 @@
           "answerDisplay": "μισός",
           "pronunciation": {
             "en": "mi-SOS",
-            "ru": "ми-СОС"
+            "ru": "ми-СОС",
+            "zh": "mi-SOS"
           }
         },
         {
@@ -845,7 +937,8 @@
           "answerDisplay": "μισή",
           "pronunciation": {
             "en": "mi-SI",
-            "ru": "ми-СИ"
+            "ru": "ми-СИ",
+            "zh": "mi-SI"
           }
         },
         {
@@ -853,13 +946,14 @@
           "answerDisplay": "μισό",
           "pronunciation": {
             "en": "mi-SO",
-            "ru": "ми-СО"
+            "ru": "ми-СО",
+            "zh": "mi-SO"
           }
         }
       ],
       "explanation": {
         "en": "The form agrees with the noun: μισή ώρα, but μισό λεπτό.",
-        "ru": "Форма зависит от рода существительного: μισή ώρα, но μισό λεπτό.",
+        "ru": "Μισός, μισή, μισό обозначают половину и согласуются с существительным: μισή ώρα — «полчаса», μισό λεπτό — «полминуты». Для отвлечённого понятия «половина» используется το μισό.",
         "zh": "形式与名词的性一致：μισή ώρα，但 μισό λεπτό。"
       },
       "reviewIdentity": {
@@ -878,7 +972,8 @@
       },
       "pronunciation": {
         "en": "e-pi-KIN-dhi-nos",
-        "ru": "э-пи-КИН-ди-нос"
+        "ru": "э-пи-КИН-ди-нос",
+        "zh": "e-pi-KIN-dhi-nos"
       },
       "themes": [
         "travel"
@@ -898,7 +993,8 @@
           "answerDisplay": "επικίνδυνος",
           "pronunciation": {
             "en": "e-pi-KIN-dhi-nos",
-            "ru": "э-пи-КИН-ди-нос"
+            "ru": "э-пи-КИН-ди-нос",
+            "zh": "e-pi-KIN-dhi-nos"
           }
         },
         {
@@ -906,7 +1002,8 @@
           "answerDisplay": "επικίνδυνη",
           "pronunciation": {
             "en": "e-pi-KIN-dhi-ni",
-            "ru": "э-пи-КИН-ди-ни"
+            "ru": "э-пи-КИН-ди-ни",
+            "zh": "e-pi-KIN-dhi-ni"
           }
         },
         {
@@ -914,12 +1011,13 @@
           "answerDisplay": "επικίνδυνο",
           "pronunciation": {
             "en": "e-pi-KIN-dhi-no",
-            "ru": "э-пи-КИН-ди-но"
+            "ru": "э-пи-КИН-ди-но",
+            "zh": "e-pi-KIN-dhi-no"
           }
         }
       ],
       "explanation": {
-        "en": "Masculine, feminine and neuter forms. Any listed form is accepted in this vocabulary card.",
+        "en": "Επικίνδυνος, επικίνδυνη and επικίνδυνο mean dangerous. They agree with the noun: ένας επικίνδυνος δρόμος — a dangerous road.",
         "ru": "Формы мужского, женского и среднего рода. В этой карточке принимается любая из них.",
         "zh": "依次为阳性、阴性、中性。本词汇卡接受这三种形式。"
       },
@@ -934,12 +1032,13 @@
       "greek": "στις",
       "prompt": {
         "en": "At / to the (feminine plural)",
-        "ru": "В / к (женский род, множественное число)",
+        "ru": "В / на / к (с артиклем женского рода множественного числа)",
         "zh": "在／到（阴性复数定冠词）"
       },
       "pronunciation": {
         "en": "stis",
-        "ru": "стис"
+        "ru": "стис",
+        "zh": "stis"
       },
       "themes": [
         "places",
@@ -950,13 +1049,23 @@
         "article"
       ],
       "explanation": {
-        "en": "Σε + τις → στις, not σε + την. Used before feminine plural nouns and most clock hours.",
-        "ru": "Σε + τις → στις; это множественное число. Σε + την → στην. Στις употребляется с существительными женского рода во множественном числе и при указании большинства часов.",
-        "zh": "Σε + τις 缩合为 στις，阴性复数；σε + την 则为 στην。Στις 也用于多数钟点之前。"
+        "en": "Στις combines σε + τις, the feminine plural accusative article. It is used before feminine plural nouns and most clock hours: στις τρεις — at three. At one is στη μία.",
+        "ru": "Στις — слияние σε и τις, артикля женского рода во множественном числе: στις στάσεις — «на остановках». Также употребляется при указании времени: στις τρεις — «в три часа»; но «в час» — στη μία.",
+        "zh": "Στις 由 σε + τις 缩合而成，配合阴性复数宾格；报时也常用 στις，如 στις πέντε（在五点）。"
       },
       "reviewIdentity": {
         "deckId": "words-connectors",
         "cardId": "journeys-at-feminine-plural"
+      },
+      "contextExample": {
+        "en": "Φεύγω ___ τρεις. — I leave at three.",
+        "ru": "Φεύγω ___ τρεις. — Я уезжаю в три часа.",
+        "zh": "Θα έρθω ___ πέντε. — 我会在五点来。"
+      },
+      "meaning": {
+        "en": "Write the missing Greek word.",
+        "ru": "Напишите только пропущенное слово.",
+        "zh": "只填写空缺的词。"
       }
     },
     {
@@ -970,7 +1079,8 @@
       },
       "pronunciation": {
         "en": "pa-RA",
-        "ru": "па-РА"
+        "ru": "па-РА",
+        "zh": "pa-RA"
       },
       "themes": [
         "time"
@@ -979,13 +1089,23 @@
         "preposition"
       ],
       "explanation": {
-        "en": "Names the minutes remaining until the following hour, rather than minutes past.",
-        "ru": "Указывает, сколько минут осталось до следующего часа.",
-        "zh": "表示距离下一整点还剩多少分钟。"
+        "en": "Παρά introduces the minutes before the next hour: τρεις παρά δέκα — ten to three. It has other uses outside time expressions, including except or rather than.",
+        "ru": "Παρά при указании времени означает «без»: έξι παρά δέκα — «без десяти шесть». После παρά называют, сколько минут осталось до указанного часа.",
+        "zh": "Παρά 在报时中表示距离下一整点还差多久：πέντε παρά δέκα（差十分五点）。"
       },
       "reviewIdentity": {
         "deckId": "words-connectors",
         "cardId": "journeys-to-before-time"
+      },
+      "contextExample": {
+        "en": "Είναι τρεις ___ δέκα. — It is ten to three.",
+        "ru": "Είναι έξι ___ δέκα. — Сейчас без десяти шесть.",
+        "zh": "Είναι πέντε ___ δέκα. — 现在差十分五点。"
+      },
+      "meaning": {
+        "en": "Write the missing Greek word.",
+        "ru": "Напишите только пропущенное слово.",
+        "zh": "只填写空缺的词。"
       }
     },
     {
@@ -999,7 +1119,8 @@
       },
       "pronunciation": {
         "en": "ME-khri",
-        "ru": "МЭ-хри"
+        "ru": "МЭ-хри",
+        "zh": "ME-khri"
       },
       "themes": [
         "travel",
@@ -1009,13 +1130,23 @@
         "preposition"
       ],
       "explanation": {
-        "en": "Marks a limit in time or space.",
-        "ru": "Обозначает предел во времени или пространстве.",
-        "zh": "表示时间或空间的界限。"
+        "en": "Μέχρι marks a limit in time or space: μέχρι τις πέντε — until five; μέχρι το σπίτι — as far as the house.",
+        "ru": "Μέχρι обозначает предел во времени или пространстве: μέχρι αύριο — «до завтра», μέχρι τον σταθμό — «до станции». С существительным обычно используется винительный падеж.",
+        "zh": "Μέχρι 表示时间或空间的终点，如 μέχρι τις πέντε（直到五点）、μέχρι το σπίτι（到家为止）。"
       },
       "reviewIdentity": {
         "deckId": "words-connectors",
         "cardId": "journeys-until"
+      },
+      "contextExample": {
+        "en": "Δουλεύω ___ τις πέντε. — I work until five.",
+        "ru": "Δουλεύω ___ τις πέντε. — Я работаю до пяти.",
+        "zh": "Δουλεύω ___ τις πέντε. — 我工作到五点。"
+      },
+      "meaning": {
+        "en": "Write the missing Greek word.",
+        "ru": "Напишите только пропущенное слово.",
+        "zh": "只填写空缺的词。"
       }
     },
     {
@@ -1029,7 +1160,8 @@
       },
       "pronunciation": {
         "en": "kon-stan-di-NU-po-li",
-        "ru": "кон-стан-ди-НУ-по-ли"
+        "ru": "кон-стан-ди-НУ-по-ли",
+        "zh": "kon-stan-di-NU-po-li"
       },
       "themes": [
         "places",

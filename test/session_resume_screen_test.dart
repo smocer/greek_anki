@@ -118,7 +118,7 @@ void main() {
       final sessions = MemoryStudySessionStore();
       final reviews = MemoryProgressStore();
       await openHarness(tester, mode, sessions, reviews);
-      final next = mode == StudyMode.typing ? 'Continue' : 'Got it';
+      final next = mode == StudyMode.typing ? 'Continue' : 'I remembered';
       for (var i = 0; i < 3; i++) {
         await submit(tester, mode, smallDeck, sessions);
         await tap(tester, find.text(next));
@@ -210,18 +210,18 @@ void main() {
       await tap(tester, find.text('Verbs').last);
       await tap(tester, find.byKey(const ValueKey('session-all')));
       await tester.scrollUntilVisible(
-        find.text('Hard mode'),
+        find.text('Writing practice'),
         200,
         scrollable: find.byType(Scrollable).first,
       );
-      await tap(tester, find.text('Hard mode'));
+      await tap(tester, find.text('Writing practice'));
       expect(
         find.text('50 / ${verbs.cards.length} remembered'),
         findsOneWidget,
       );
       expect(find.text(previous.current.prompt.en), findsOneWidget);
       await tap(tester, find.byIcon(Icons.close_rounded));
-      await tap(tester, find.text('Hard mode'));
+      await tap(tester, find.text('Writing practice'));
       expect(
         find.text('50 / ${verbs.cards.length} remembered'),
         findsOneWidget,
@@ -239,7 +239,7 @@ void main() {
       await openHarness(tester, StudyMode.flashcards, sessions, reviews);
       await tap(tester, find.text('Reveal answer'));
       sessions.shouldFail = true;
-      await tap(tester, find.text('Got it'));
+      await tap(tester, find.text('I remembered'));
       expect(find.text('1 / 6 remembered'), findsOneWidget);
       expect(
         find.text('Could not save progress. Please retry before leaving.'),

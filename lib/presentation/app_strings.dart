@@ -29,18 +29,18 @@ class AppStrings {
   String get wordSearch => _pick('Word search', 'Поиск слов', '查找单词');
   String get greekWord => _pick('Greek word', 'Слово по-гречески', '希腊语单词');
   String get wordSearchHint => _pick(
-    'Words, phrases and grammar · Full or partial words · Accents optional.',
+    'Search words, phrases and grammar. Enter all or part of a word; accents are optional.',
     'Слова, фразы и грамматика · Слово или его часть · Ударения необязательны.',
     '搜索单词、短语和语法。输入单词或其中一部分；可不输入重音。',
   );
   String get clearSearch => _pick('Clear search', 'Очистить поиск', '清除搜索');
   String get noSearchResults =>
-      _pick('No matching words', 'Слова не найдены', '没有匹配的单词');
+      _pick('No matches', 'Слова не найдены', '没有匹配的单词');
   String searchResultCount(int count) =>
       _pick('Results: $count', 'Найдено: $count', '结果：$count');
   String get grammarTables =>
       _pick('Grammar tables', 'Грамматические таблицы', '语法表');
-  String get practiceGroup => _pick('Practice group', 'Что учим', '练习分组');
+  String get practiceGroup => _pick('Practice category', 'Что учим', '练习分组');
   String get filters => _pick('Filters', 'Фильтры', '筛选');
   String get clearFilters => _pick('Clear filters', 'Сбросить', '清除筛选');
   String get applyFilters => _pick('Apply filters', 'Применить', '应用筛选');
@@ -61,14 +61,14 @@ class AppStrings {
 
   String get excludeThemes => _pick('Exclude themes', 'Исключить темы', '排除主题');
   String get excludeThemesHint => _pick(
-    'Select one or more themes to leave out',
-    'Выберите одну или несколько тем для исключения',
+    'Choose themes to leave out',
+    'Отметьте темы, которые хотите пропустить',
     '可多选，排除属于任一所选主题的词卡',
   );
   String get sessionSize => _pick(
-    'Custom count: due cards first · All: every filtered card',
-    'Укажите количество: сначала повторение · Все: все карточки фильтра',
-    '自定义数量优先复习到期卡片 · 全部：练习当前筛选的所有词卡',
+    'Choose a number to practise cards due for review first, or All to practise every matching card.',
+    'При выборе количества сначала идут карточки для повторения. «Все» — все карточки с выбранными фильтрами.',
+    '自选数量：优先复习到期词卡 · 全部：练习筛选出的所有词卡',
   );
   String get sessionCount =>
       _pick('Cards per session', 'Карточек за раз', '每轮词卡数量');
@@ -76,7 +76,7 @@ class AppStrings {
   String get sessionStyle => _pick('Practice', 'Тип занятия', '练习方式');
   String sessionStyleTitle(SessionStyle style) => switch (style) {
     SessionStyle.learning => _pick(
-      'Learn & repeat',
+      'Learn & review',
       'Учить и повторять',
       '学习与复习',
     ),
@@ -84,24 +84,24 @@ class AppStrings {
   };
   String sessionStyleHint(SessionStyle style) => switch (style) {
     SessionStyle.learning => _pick(
-      'Three learning words plus reviews, with extra practice for recent mistakes.',
-      'Три слова для изучения и повторение с учётом недавних ошибок.',
-      '同时学习三个词，并优先复习最近答错的词。',
+      'Learn up to three words at a time, mixed with review. Recent mistakes get extra practice.',
+      'Учите по три слова, чередуя их с повторением. Слова с недавними ошибками встречаются чаще.',
+      '每次集中学习三个词，穿插复习，并加强最近答错的词。',
     ),
     SessionStyle.reviewAll => _pick(
-      'Check every filtered card. Difficult words return after a gap for two successful recalls.',
-      'Проверить все выбранные карточки. Сложные слова вернутся после паузы до двух верных ответов.',
-      '检查筛选出的全部词卡。难词会间隔出现，直到两次正确回忆。',
+      'Check every matching card. Difficult words return after other cards until you recall them correctly twice.',
+      'Пройдите все выбранные карточки. Чтобы закрепить сложное слово, вспомните его верно дважды, с перерывами.',
+      '逐张练习筛选出的词卡。难词会间隔出现，直到间隔后答对两次。',
     ),
   };
   String get confirmationHint => _pick(
-    'Needs spaced confirmation · Quick corrections do not finish this word.',
-    'Нужна проверка после паузы · Быстрого исправления недостаточно.',
-    '需要间隔后确认；刚看过答案后的改正不算完成。',
+    'Recall this word again after a few other cards. A quick correction does not complete it.',
+    'Чтобы закрепить слово, вспомните его после нескольких других карточек. Одного исправления сразу после ошибки недостаточно.',
+    '需要隔一段练习后再答对；刚看过答案就改对，还不算掌握。',
   );
   String get difficultCardHint => _pick(
-    'This word has needed several tries. Review its explanation, or leave it for later.',
-    'Это слово вызвало несколько ошибок. Посмотрите объяснение или оставьте его на потом.',
+    'This word is taking a few tries. Read the explanation, or leave it for later.',
+    'Это слово пока не запомнилось. Прочитайте объяснение или оставьте его на потом.',
     '这个词已多次答错。可以查看解释，或留待以后练习。',
   );
   String get leaveForLater =>
@@ -110,7 +110,7 @@ class AppStrings {
       _pick('Session complete', 'Занятие завершено', '本轮完成');
   String get deferredNote => _pick(
     'Some words still need practice. They remain due for review.',
-    'Некоторые слова ещё требуют практики. Они останутся в очереди на повторение.',
+    'Некоторые слова стоит повторить ещё. Они останутся в очереди на повторение.',
     '部分词仍需练习，它们会保留在待复习列表中。',
   );
   String deferredCount(int count) => _pick(
@@ -121,33 +121,32 @@ class AppStrings {
   String get cardOrder => _pick('Card order', 'Порядок карточек', '词卡抽取顺序');
   String cardOrderTitle(CardOrder order) => switch (order) {
     CardOrder.random => _pick('Random', 'Случайный', '随机'),
-    CardOrder.alphabet => _pick('Alphabetical', 'По алфавиту', '按字母表'),
+    CardOrder.alphabet => _pick('Alphabetical', 'По алфавиту', '按字母顺序'),
     CardOrder.addedTime => _pick('Newest first', 'Сначала новые', '按时间（最新优先）'),
   };
   String get invalidSessionCount => _pick(
-    'Enter a positive number',
-    'Введите положительное число',
+    'Enter a whole number greater than zero',
+    'Введите целое число больше нуля',
     '请输入大于 0 的整数',
   );
   String get headline =>
-      _pick('Greek,\nby heart.', 'Греческий\nнаизусть.', '逆天希腊语的学习之旅');
+      _pick('Greek,\nby heart.', 'Греческий\nнаизусть.', '把希腊语记在心里。');
   String get tagline => _pick(
     'A little practice. A lasting memory.',
-    'Немного практики — надолго в памяти.',
-    '为了东罗马！！！😡',
+    'Понемногу каждый день — и слова запоминаются.',
+    '每天练一点，记得更牢。',
   );
-  String get languageLabel =>
-      _pick('Learning language', 'Язык обучения', '学习语言');
-  String get alphabetTitle => _pick('Alphabets', 'Алфавит', '字母表');
+  String get languageLabel => _pick('App language', 'Язык обучения', '学习语言');
+  String get alphabetTitle => _pick('Alphabet', 'Алфавит', '字母表');
   String get grammarTitle => _pick('Grammar', 'Грамматика', '语法');
   String get grammarIntro => _pick(
-    'Modern Greek reference · Rules, examples and conjugation tables. Start with είμαι, then explore verbs, noun cases and prepositions.',
+    'Modern Greek rules, examples and tables. Start with είμαι, then explore verbs, noun cases and prepositions.',
     'Справочник современного греческого · Правила, примеры и таблицы. Начните с είμαι, затем изучайте глаголы, падежи и предлоги.',
     '现代希腊语参考 · 规则、例句和变位表。从 είμαι 开始，再学习动词、名词的格和介词。',
   );
   String get grammarTableHint => _pick(
-    'Swipe tables sideways to see all forms.',
-    'Прокрутите таблицы вбок, чтобы увидеть все формы.',
+    'Scroll tables sideways to see all forms.',
+    'Прокрутите таблицу вправо или влево, чтобы увидеть все формы.',
     '左右滑动表格，查看所有形式。',
   );
   String get listen => _pick('Listen', 'Слушать', '听发音');
@@ -157,15 +156,15 @@ class AppStrings {
   String get reviewCard =>
       _pick('Review previous cards', 'Просмотр карточек', '回看词卡');
   String get reviewHistoryHint => _pick(
-    'Reviewing does not change your progress.',
+    'Looking back at earlier cards does not change your progress.',
     'Просмотр не изменяет прогресс.',
-    '回看不会重复记录学习进度。',
+    '回看不会改变学习进度。',
   );
-  String get letterPairs => _pick('Letter pairs', 'Сочетания', '字母组合');
+  String get letterPairs => _pick('Letter pairs', 'Сочетания букв', '字母组合');
   String get letterPairsIntro => _pick(
-    'Two letters, a new sound. Listen to the example words. A diaeresis (ϊ, ϋ) separates vowel pairs: αϊ and οϊ are read separately.',
+    'Some letter pairs make a single sound; others change with the next letter. Listen to the examples. A diaeresis (ϊ, ϋ) means the vowels are pronounced separately, as in αϊ and οϊ.',
     'Две буквы — новое звучание. Слушайте примеры. Две точки (ϊ, ϋ) разделяют гласные: αϊ и οϊ читаются раздельно.',
-    '两个字母，新的发音。请听例词。分音符（ϊ、ϋ）表示元音分开读：αϊ 和 οϊ 需分别发音。',
+    '有些字母组合会形成新的发音，请听例词。分音符（ϊ、ϋ）表示相邻元音要分开读，如 αϊ、οϊ。',
   );
   String get audioError => _pick(
     'Could not play audio. Please try again.',
@@ -200,7 +199,7 @@ class AppStrings {
   String get strokeOrder => _pick('Stroke order', 'Порядок штрихов', '笔顺');
   String get handwritingNote => _pick(
     'One suggested handwriting style. Follow the numbered starting points and the moving pen. Other handwriting styles are also valid.',
-    'Один из вариантов написания. Следуйте номерам начала штрихов и движению пера. Возможны и другие варианты.',
+    'Один из вариантов написания от руки. Цифры показывают, где начинать каждый штрих; перо — как его вести. Допустимы и другие варианты.',
     '这是一种手写方式。请跟随标号起点和笔尖移动练习，其他手写方式也可以。',
   );
   String get uppercase => _pick('Uppercase', 'Заглавная', '大写');
@@ -214,7 +213,7 @@ class AppStrings {
     '第 $current / $total 笔',
   );
   String get languageSaveError => _pick(
-    'Could not save the language. Please try again.',
+    'Could not save your language setting. Please try again.',
     'Не удалось сохранить язык. Попробуйте ещё раз.',
     '无法保存语言设置，请重试。',
   );
@@ -231,14 +230,14 @@ class AppStrings {
   String get flashcardsDescription => _pick(
     'Think, flip, remember.',
     'Вспомните, откройте, запомните.',
-    '翻来覆去,这还得熬多久~',
+    '先回忆，再翻面查看答案。',
   );
-  String get hardMode => _pick('Hard mode', 'Сложный режим', '默写模式');
-  String get clockDrill => _pick('Clock drill', 'Тренировка часов', '时钟练习');
+  String get hardMode => _pick('Writing practice', 'Письменный ответ', '默写模式');
+  String get clockDrill => _pick('Clock drill', 'Время на часах', '时钟练习');
   String get numberDrill => _pick('Number drill', 'Тренировка чисел', '数字练习');
   String get dateDrill => _pick('Date & time drill', 'Дата и время', '日期与时间练习');
   String get numberDrillDescription => _pick(
-    'Random numbers from 0 to 10,000 · Unlimited practice',
+    'Random numbers from 0 to 10,000 · Practise as long as you like',
     'Случайные числа от 0 до 10 000 · Без ограничений',
     '0 至 10,000 的随机数字 · 无限练习',
   );
@@ -254,12 +253,12 @@ class AppStrings {
   String get nextDrill => _pick('Next question', 'Следующее задание', '下一题');
   String get drillHelp => _pick('How to answer', 'Как отвечать', '作答说明');
   String get numberDrillInstructions => _pick(
-    'Write the number in Greek words, using the neutral counting form (ένα, τρία, τέσσερα). Every integer from 0 to 10,000 is equally likely. Accents matter; common spelling variants are accepted. No progress tracking.',
+    'Write the number in Greek words, using the neuter counting forms (ένα, τρία, τέσσερα). Every whole number from 0 to 10,000 is equally likely. Accents matter; common spelling variants are accepted. Progress is not saved for this drill.',
     'Напишите число греческими словами в обычной счётной форме среднего рода (ένα, τρία, τέσσερα). Все целые числа от 0 до 10 000 равновероятны. Ударения обязательны; распространённые варианты написания принимаются. Прогресс не записывается.',
     '用希腊语写出数字，采用中性计数形式（ένα、τρία、τέσσερα）。0 至 10,000 的每个整数概率相同。必须写重音；接受常见拼写变体。不记录进度。',
   );
   String get dateDrillInstructions => _pick(
-    'Write two answers in Greek words. Date: weekday, day and month, without the year (e.g. το Σάββατο επτά Νοεμβρίου). Time: hours, minutes and part of day (e.g. έντεκα και πενήντα το πρωί). You can use past or to, with or without είναι or στις/στη. The date may come before the weekday; the part of day may come before the time. Accents matter.\n\nThe picture uses morning 05–12, midday 12–15, afternoon 15–19, evening 19–24 and night 00–05. Questions use the current year and five-minute steps. No progress tracking.',
+    'Write two answers in Greek words. Date: weekday, day and month, without the year (e.g. το Σάββατο επτά Νοεμβρίου). Time: hours, minutes and part of day (e.g. έντεκα και πενήντα το πρωί). Use και for minutes past or παρά for minutes to the hour, with or without είναι or στις/στη. The date may come before the weekday; the part of day may come before the time. Accents matter.\n\nThe picture uses morning 05–12, midday 12–15, afternoon 15–19, evening 19–24 and night 00–05. Dates are from the current year; times are in five-minute steps. Progress is not saved for this drill.',
     'Два ответа греческими словами. Дата: день недели, число и месяц без года (например, το Σάββατο επτά Νοεμβρίου). Время: часы, минуты и часть суток (например, έντεκα και πενήντα το πρωί). Можно использовать και или παρά, с είναι или στις/στη либо без них. Дату можно поставить перед днём недели, часть суток — перед временем. Ударения обязательны.\n\nНа рисунке: утро 05–12, полдень 12–15, вторая половина дня 15–19, вечер 19–24, ночь 00–05. Даты текущего года, время с шагом в пять минут. Прогресс не записывается.',
     '用希腊语分别作答。日期：星期、日和月，不写年份（如 το Σάββατο επτά Νοεμβρίου）。时间：小时、分钟和时段（如 έντεκα και πενήντα το πρωί）。可用 και 或 παρά，可加或省略 είναι、στις/στη。日期可放在星期前，时段可放在时间前。必须写重音。\n\n图片按以下时段划分：早晨 05–12、中午 12–15、下午 15–19、晚间 19–24、夜里 00–05。题目使用当年日期，时间以五分钟为间隔。不记录进度。',
   );
@@ -271,15 +270,15 @@ class AppStrings {
     DayPeriod.night => _pick('Night', 'Ночь', '夜里'),
   };
   String get clockDrillDescription => _pick(
-    'Random times · Endless practice',
+    'Random times · Practise as long as you like',
     'Случайное время · Без ограничений',
     '随机时间 · 无限练习',
   );
   String get clockQuestion =>
       _pick('What time is it?', 'Который час?', '现在几点？');
   String get clockInstructions => _pick(
-    'Write the time in Greek, using 1–12. Accents count.',
-    'Напишите время по-гречески, используя часы от 1 до 12. Ударения важны.',
+    'Write the time in Greek words, using the 12-hour clock. Accents must be correct.',
+    'Напишите время по-гречески словами. Часы указывайте от 1 до 12. Знаки ударения обязательны.',
     '用希腊语写出时间，小时使用 1–12。重音必须正确。',
   );
   String clockReading(String time) => _pick(
@@ -287,15 +286,15 @@ class AppStrings {
     'Стрелочные часы показывают $time',
     '指针时钟显示 $time',
   );
-  String get nextClock => _pick('Next clock', 'Следующие часы', '下一个时钟');
+  String get nextClock => _pick('Next clock', 'Следующее время', '下一个时钟');
   String get hardDescription => _pick(
     'Write the answer in Greek.',
     'Напишите ответ по-гречески.',
-    '用希腊键盘拼写',
+    '用希腊语键盘拼写',
   );
   String get offlineFooter => _pick(
-    'Offline. At your pace. Progress saved.',
-    'Без интернета. В своём темпе. Прогресс сохранён.',
+    'Practise offline, at your own pace. Your progress is saved.',
+    'Учитесь без интернета и в своём темпе. Прогресс сохраняется.',
     '离线学习，自定节奏，自动保存进度。',
   );
   String get browserFooter => _pick(
@@ -306,8 +305,8 @@ class AppStrings {
   String get updateAvailable =>
       _pick('An update is ready', 'Доступно обновление', '有可用更新');
   String get updateNote => _pick(
-    'Refresh to get the latest lessons. Your saved progress stays.',
-    'Обновите страницу, чтобы получить новые уроки. Сохранённый прогресс останется.',
+    'Refresh to get the latest lessons and improvements. Your saved progress will be kept.',
+    'Обновите страницу, чтобы открыть новые уроки. Ваш прогресс сохранится.',
     '刷新即可获取最新课程，已保存的进度会保留。',
   );
   String get updateAction =>
@@ -336,9 +335,9 @@ class AppStrings {
   String get useCategory =>
       _pick('Use this category', 'Выбрать эту категорию', '使用此分类');
   String get vocabularyPreview =>
-      _pick('Vocabulary preview', 'Предпросмотр слов', '词库预览');
+      _pick('Browse vocabulary', 'Список слов', '词库预览');
   String wordCount(int count) =>
-      _pick('$count words', '$count слов', '$count 个词');
+      _pick('Words: $count', 'Слов: $count', '$count 个词');
   String get additionPeriod => _pick('Added', 'Добавлено', '添加时间');
   String periodTitle(VocabularyPeriod period) => switch (period) {
     VocabularyPeriod.all => _pick('All weeks', 'Все недели', '全部时间'),
@@ -348,9 +347,9 @@ class AppStrings {
   };
   String get sourceExample => _pick('Source', 'Источник', '来源');
   String wordCategoryHint(int count) => _pick(
-    'Words from sentences and vocabulary · Practice uses $count source cards.',
-    'Слова из предложений и словаря · Для практики: $count исходных карточек.',
-    '来自句子和词库的词语 · 使用 $count 张来源卡片练习。',
+    'Words from lessons and vocabulary · Practice includes $count cards.',
+    'Слова из уроков · Карточек для практики: $count.',
+    '汇集句子和词库中的词语 · 共 $count 张原始词卡可供练习',
   );
   String get searchVocabulary => _pick(
     'Search words or translations',
@@ -363,26 +362,23 @@ class AppStrings {
     '此分类中没有匹配的词语',
   );
   String get latestWeek =>
-      _pick('Latest addition week', 'Последняя неделя добавления', '最近添加的一周');
-  String get previousWeek => _pick(
-    'Previous addition week',
-    'Предыдущая неделя добавления',
-    '前一次添加的一周',
-  );
+      _pick('Most recent additions', 'Последнее пополнение', '最近添加的一周');
+  String get previousWeek =>
+      _pick('Previous additions', 'Предыдущее пополнение', '上一次添加内容的那一周');
   String get olderWeeks =>
-      _pick('Earlier / undated', 'Ранее / без даты', '更早／无日期');
+      _pick('Older or undated', 'Ранее / без даты', '更早／无日期');
   String get unknownWeek =>
       _pick('Addition date unknown', 'Дата добавления неизвестна', '添加日期未知');
   String weekOf(String date) => date == '2026-09-28'
       ? _pick(
-          'Week of 9.28 and before',
+          'Week of 28 September and earlier',
           'Неделя с 28.09 и ранее',
           '9 月 28 日当周及更早',
         )
       : _pick('Week of $date', 'Неделя с $date', '$date 当周');
   String get categoryHint => _pick(
-    'Newest additions first · Topic also includes phrases and sentences.',
-    'Новые добавления сверху · В темах также есть фразы и предложения.',
+    'Newest additions first · Topics also include phrases and sentences.',
+    'Новые материалы в начале списка. В темах есть слова, фразы и предложения.',
     '最新添加的内容在前 · 主题也包含短语和句子。',
   );
   String get topics => _pick('Topics', 'Темы', '主题');
@@ -392,8 +388,8 @@ class AppStrings {
     '选择主题 · $count',
   );
   String topicSummary(int topics, int cards) => _pick(
-    '$topics short decks · $cards cards',
-    '$topics небольшие колоды · $cards карточек',
+    'Topics: $topics · Cards: $cards',
+    'Колоды: $topics · карточки: $cards',
     '$topics 个小卡组 · $cards 张卡片',
   );
   String get searchTopics =>
@@ -431,7 +427,7 @@ class AppStrings {
   String get pronunciationNote => _pick(
     'Pronunciation is approximate. CAPITALS mark stress. DH is “th” in “this”; TH is “th” in “think”. KH is like “ch” in Scottish “loch”; GH is a softer, continuous g. Before front vowels Greek γ approaches y. Use the Greek spelling as your reference.',
     'Транскрипция — приблизительная подсказка, не точная фонетика. ЗАГЛАВНЫЕ — ударение. δ («д») и θ («т») произносятся с языком между зубами: δ звонко, θ глухо. γ («г») — щелевой звук, перед э/и ближе к «й»; χ перед э/и мягче русского «х». Сверяйтесь с греческим написанием.',
-    '发音提示仅供参考，大写字母表示重音。DH 类似英语 this 中的 th，TH 类似 think 中的 th。KH 类似苏格兰语 loch 中的 ch；GH 是较柔和、连续的 g 音。γ 在前元音前接近 y 音。请以希腊语拼写和音频为准。',
+    '发音提示使用拉丁字母近似转写，大写表示重音。DH 是浊齿擦音 /ð/，TH 是清齿擦音 /θ/；KH 是清软腭擦音 /x/，GH 是浊软腭擦音 /ɣ/。γ 在 /e/、/i/ 前读 /ʝ/，接近 y 音。请以音频为准。',
   );
   String get backToDecks => _pick('Back to decks', 'К колодам', '返回卡组');
   String get sessionSaveError => _pick(
@@ -451,7 +447,7 @@ class AppStrings {
   String get didYouRemember => _pick(
     'Did you remember the Greek answer?',
     'Удалось вспомнить греческий ответ?',
-    '你记住希腊语答案了吗？',
+    '你能想起希腊语答案吗？',
   );
   String get sayBeforeFlip => _pick(
     'Say it in Greek before you flip.',
@@ -463,13 +459,13 @@ class AppStrings {
   String get revealAnswer => _pick('Reveal answer', 'Показать ответ', '显示答案');
   String get again => _pick('Again', 'Ещё раз', '再来一次');
   String get repeatSoon => _pick('Repeat soon', 'Скоро повторим', '稍后复习');
-  String get gotIt => _pick('Got it', 'Помню', '记住了');
+  String get gotIt => _pick('I remembered', 'Помню', '记住了');
   String get savingProgress =>
       _pick('Saving your progress…', 'Сохраняем прогресс…', '正在保存进度…');
   String get missedCardsReturn => _pick(
-    'Missed cards return until you remember them.',
-    'Забытые карточки вернутся, пока вы их не запомните.',
-    '忘记的卡片会再次出现，直到你记住为止。',
+    'Missed cards return after a gap so you can practise recalling them.',
+    'Слова, которые не удалось вспомнить, появятся снова.',
+    '没记住的词会再次出现，隔一段练习后再确认是否掌握。',
   );
   String get writeInGreek =>
       _pick('Write it in Greek', 'Напишите по-гречески', '用希腊语写出来');
@@ -483,56 +479,57 @@ class AppStrings {
     '使用希腊字母 · 必须标重音 · 标点可省略',
   );
   String get phoneKeyboard =>
-      _pick('Use phone keyboard', 'Клавиатура телефона', '使用手机键盘');
+      _pick('Use device keyboard', 'Клавиатура телефона', '使用手机键盘');
   String get greekKeyboard =>
       _pick('Use Greek keyboard', 'Греческая клавиатура', '使用希腊语键盘');
   String get checkAnswer => _pick('Check answer', 'Проверить', '检查答案');
   String get dontKnow => _pick('I don’t know yet', 'Пока не знаю', '还不知道');
   String get sessionReview => _pick('Quick review', 'Повторение', '快速复习');
   String firstPassProgress(int checked, int total) => _pick(
-    'First pass: $checked / $total checked',
-    'Первый круг: $checked / $total проверено',
-    '首轮：已检查 $checked / $total 张',
+    'Cards seen: $checked / $total',
+    'Пройдено карточек: $checked из $total',
+    '首次作答：已看 $checked / $total 张',
   );
   String uncheckedCards(int count) => _pick(
-    'Not checked yet: $count',
-    'Ещё не проверено: $count',
-    '尚未检查：$count 张',
+    'Not seen yet: $count',
+    'Ещё не встречались: $count',
+    '尚未看过：$count 张',
   );
   String followUpProgress(int words, int checks) => _pick(
-    'Follow-up words: $words\nSuccessful checks left: $checks',
-    'Слов на закреплении: $words\nВерных ответов осталось: $checks',
-    '巩固：$words 个词\n还需正确回答 $checks 次',
+    'Words to confirm: $words\nCorrect recalls still needed: $checks',
+    'Осталось закрепить слов: $words\nНужно верных ответов: $checks',
+    '待巩固：$words 个词\n间隔后还需答对 $checks 次',
   );
   String get firstPassCard =>
-      _pick('Now: first check', 'Сейчас: первая проверка', '当前：首次检查');
+      _pick('New card in this session', 'Впервые в этом занятии', '当前：首次作答');
   String currentConfirmation(int remaining) => _pick(
-    'Now: follow-up · successful checks left for this word: $remaining',
-    'Сейчас: закрепление · этому слову нужно верных ответов: $remaining',
-    '当前：巩固 · 此词还需正确回答 $remaining 次',
+    'Confirming this word · correct recalls still needed: $remaining',
+    'Закрепляем слово · ещё верных ответов: $remaining',
+    '当前：巩固 · 此词间隔后还需答对 $remaining 次',
   );
   String spacingReview(int remaining) => _pick(
-    'Spacing review · cards until the next follow-up: $remaining',
-    'Повторение для паузы · до закрепления карточек: $remaining',
-    '间隔复习 · 再练 $remaining 张后检查难词',
+    'Review between checks · next check in $remaining cards',
+    'Повторяем знакомое · карточек до сложного слова: $remaining',
+    '穿插复习 · 距下次巩固还需练 $remaining 张（含当前卡）',
   );
   String get sessionProgressHelp =>
-      _pick('What remains?', 'Сколько осталось?', '还剩多少？');
+      _pick('Understanding your progress', 'Сколько осталось?', '还剩多少？');
   String get sessionProgressExplanation => _pick(
-    'The first pass counts each card once. Difficult words need successful '
-        'checks after a gap. Familiar cards fill that gap and are not extra '
-        'unfinished words. The countdown includes the card on screen. '
-        'Mistakes can add more checks, so the total number of answers is not '
-        'fixed. Words left for later do not hold up this session.',
-    'В первом круге каждая карточка считается один раз. Сложным словам '
-        'нужны верные ответы после паузы. Знакомые карточки заполняют паузу '
-        'и не добавляются к числу незавершённых слов. Обратный отсчёт включает '
-        'текущую карточку. Ошибки могут добавить проверки, поэтому число '
-        'ответов до конца не фиксировано. Слова, оставленные на потом, '
-        'не задерживают завершение занятия.',
-    '首轮中每张卡只计一次。难词需要间隔后正确回答。熟悉的词用于填充间隔，'
-        '不算额外未完成的词。倒计时包含当前词卡。答错可能增加检查次数，'
-        '因此剩余答题总数并不固定。留待以后练习的词不会阻止本轮完成。',
+    'Cards seen counts each card once. Difficult words need correct recalls '
+        'after other cards. Familiar cards fill the gap without adding to '
+        'the words you still need to finish. The countdown includes the '
+        'card on screen. Mistakes can add more checks, so the total number '
+        'of answers can change. Words left for later do not hold up this session.',
+    'Пройденные карточки считаются по одной, даже если вы отвечали на них '
+        'несколько раз. Сложные слова нужно вспомнить верно с перерывами. '
+        'Между такими проверками появляются знакомые карточки: они помогают '
+        'выдержать интервал. Счётчик до следующей проверки включает текущую '
+        'карточку. Новая ошибка может добавить повторения, поэтому точное '
+        'число ответов до конца заранее неизвестно. Слова, оставленные на потом, '
+        'не мешают завершить занятие.',
+    '首次作答的进度只把每张卡计入一次。难词需要隔一段练习后再答对。熟悉的词会穿插出现，'
+        '帮助拉开间隔，不算新的待学词。间隔计数包含当前词卡。答错可能增加确认次数，'
+        '所以剩余答题总次数并不固定。选择留待以后练习的词不会影响本轮结束。',
   );
   String progress(int completed, int total) => _pick(
     '$completed / $total remembered',
@@ -545,7 +542,7 @@ class AppStrings {
     '已记住 $completed 张，共 $total 张',
   );
   String get learningDirection =>
-      _pick('English → Greek', 'Русский → Греческий', '中文 → 希腊语');
+      _pick('English → Greek', 'Русский → греческий', '中文 → 希腊语');
   String get tapToTurn =>
       _pick('Tap to turn over', 'Нажмите, чтобы открыть', '点按翻面');
   String get oneWordCloser =>
@@ -565,10 +562,10 @@ class AppStrings {
   String get completionTagline => _pick(
     'A little more Greek, by heart.',
     'Ещё немного греческого наизусть.',
-    '又用心记住了一点希腊语。',
+    '又记住了一点希腊语。',
   );
   String wordsRemembered(int count) => _pick(
-    '$count cards remembered',
+    'Cards remembered: $count',
     'Выучено карточек: $count',
     '已记住 $count 张卡片',
   );
@@ -578,12 +575,12 @@ class AppStrings {
     '首次答对 $correct 张，共 $total 张',
   );
   String extraPractice(int count) => _pick(
-    '$count extra ${count == 1 ? 'practice' : 'practices'}',
+    'Extra reviews: $count',
     'Дополнительных повторов: $count',
     '$count 次额外练习',
   );
   String get completionNote => _pick(
-    'Progress saved. Future reviews adapt to your recall history.',
+    'Progress saved. Future reviews are scheduled based on your answers.',
     'Прогресс сохранён. Сроки повторения учитывают ваши ответы.',
     '进度已保存。后续复习时间会根据你的回忆记录调整。',
   );

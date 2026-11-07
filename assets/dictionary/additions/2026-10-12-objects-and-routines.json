@@ -13,7 +13,8 @@
       },
       "pronunciation": {
         "en": "stath-MOS",
-        "ru": "статх-МОС"
+        "ru": "стат-МОС",
+        "zh": "stath-MOS"
       },
       "labels": [
         "noun"
@@ -40,7 +41,8 @@
       },
       "pronunciation": {
         "en": "ro-LO-i",
-        "ru": "ро-ЛО-и"
+        "ru": "ро-ЛО-и",
+        "zh": "ro-LO-i"
       },
       "labels": [
         "noun"
@@ -60,13 +62,14 @@
       "collection": "words-nouns",
       "greek": "χορός",
       "prompt": {
-        "en": "Dance (noun)",
-        "ru": "Танец",
-        "zh": "舞蹈（名词）"
+        "en": "Dance / ball / chorus",
+        "ru": "Танец / бал / хор",
+        "zh": "舞蹈／舞会／合唱队（依语境）"
       },
       "pronunciation": {
-        "en": "ho-ROS",
-        "ru": "хо-РОС"
+        "en": "kho-ROS",
+        "ru": "хо-РОС",
+        "zh": "ho-ROS"
       },
       "labels": [
         "noun"
@@ -75,9 +78,9 @@
         "conversation"
       ],
       "explanation": {
-        "en": "The noun χορός means dance; χορεύω means I dance.",
-        "ru": "Χορός — танец, χορεύω — я танцую. Мужской род.",
-        "zh": "名词 χορός 表示舞蹈；χορεύω 表示“我跳舞”。"
+        "en": "Ο χορός means a dance or a dance event, such as a ball. It can also mean the chorus in drama or a group of singers in a church. A singing choir is usually χορωδία. The verb χορεύω means I dance.",
+        "ru": "Ο χορός — танец или мероприятие с танцами, бал. Существительное мужского рода; χορεύω — «я танцую». В театре и церковной традиции χορός может означать хор; обычное название певческого коллектива — χορωδία.",
+        "zh": "阳性名词 χορός 可指舞蹈或舞会，也可指古希腊戏剧中的歌队。一般的歌唱合唱团通常用 χορωδία；动词 χορεύω 表示“我跳舞”。"
       },
       "answerDisplay": "ο χορός"
     },
@@ -86,13 +89,14 @@
       "collection": "words-nouns",
       "greek": "φανάρι",
       "prompt": {
-        "en": "Traffic light",
-        "ru": "Светофор",
-        "zh": "交通信号灯"
+        "en": "Traffic light / lantern",
+        "ru": "Светофор / фонарь",
+        "zh": "交通信号灯／灯笼"
       },
       "pronunciation": {
         "en": "fa-NA-ri",
-        "ru": "фа-НА-ри"
+        "ru": "фа-НА-ри",
+        "zh": "fa-NA-ri"
       },
       "labels": [
         "noun"
@@ -102,10 +106,20 @@
       ],
       "explanation": {
         "en": "A traffic light in the street; the same word can also mean a lantern.",
-        "ru": "Здесь — светофор. Слово также может означать фонарь. Средний род.",
-        "zh": "这里指街上的交通信号灯；这个词也可表示灯笼。"
+        "ru": "Το φανάρι — светофор или фонарь, существительное среднего рода. Например: κόκκινο φανάρι — «красный сигнал светофора».",
+        "zh": "Φανάρι 可指交通信号灯或灯笼。例如 Το φανάρι είναι κόκκινο.（信号灯是红的。）"
       },
-      "answerDisplay": "το φανάρι"
+      "answerDisplay": "το φανάρι",
+      "contextExample": {
+        "en": "Το ___ είναι κόκκινο. — The traffic light is red.",
+        "ru": "Το ___ είναι κόκκινο. — На светофоре красный свет.",
+        "zh": "Το ___ είναι κόκκινο. — 交通信号灯是红的。"
+      },
+      "meaning": {
+        "en": "Write the missing Greek word.",
+        "ru": "Напишите только пропущенное слово.",
+        "zh": "只填写空缺的词。"
+      }
     },
     {
       "id": "objects-car",
@@ -118,7 +132,8 @@
       },
       "pronunciation": {
         "en": "af-to-KI-ni-to",
-        "ru": "аф-то-КИ-ни-то"
+        "ru": "аф-то-КИ-ни-то",
+        "zh": "af-to-KI-ni-to"
       },
       "labels": [
         "noun"
@@ -139,7 +154,8 @@
       },
       "pronunciation": {
         "en": "ME-ra",
-        "ru": "МЭ-ра"
+        "ru": "МЭ-ра",
+        "zh": "ME-ra"
       },
       "labels": [
         "noun"
@@ -171,7 +187,8 @@
       },
       "pronunciation": {
         "en": "ki-rya-KI",
-        "ru": "ки-рья-КИ"
+        "ru": "ки-рья-КИ",
+        "zh": "ki-rya-KI"
       },
       "labels": [
         "noun"
@@ -180,9 +197,9 @@
         "time"
       ],
       "explanation": {
-        "en": "Weekday names begin with a capital letter. Here Κυριακή is the day of the week.",
-        "ru": "Название дня недели пишется с заглавной буквы. Здесь Κυριακή — воскресенье. Женский род.",
-        "zh": "星期名称首字母大写。这里 Κυριακή 指星期日。"
+        "en": "Κυριακή is Sunday. Greek weekday names begin with a capital letter: την Κυριακή — on Sunday.",
+        "ru": "Η Κυριακή — воскресенье. Названия дней недели в греческом пишутся с заглавной буквы.",
+        "zh": "星期名称首字母大写：Κυριακή 表示星期日。"
       },
       "answerDisplay": "η Κυριακή"
     },
@@ -197,7 +214,8 @@
       },
       "pronunciation": {
         "en": "O-ra",
-        "ru": "О-ра"
+        "ru": "О-ра",
+        "zh": "O-ra"
       },
       "labels": [
         "noun"
@@ -210,7 +228,17 @@
         "ru": "Множественное число — ώρες. Πρωινές ώρες — утренние часы. Женский род.",
         "zh": "复数为 ώρες。Πρωινές ώρες 表示上午时段。"
       },
-      "answerDisplay": "η ώρα"
+      "answerDisplay": "η ώρα",
+      "contextExample": {
+        "en": "Έχω μία ___ πριν φύγω. — I have one hour before I leave.",
+        "ru": "Έχω μία ___ πριν φύγω. — У меня есть час до ухода.",
+        "zh": "Έχω μία ___ πριν φύγω. — 我离开前还有一个小时。"
+      },
+      "meaning": {
+        "en": "Write the missing Greek word.",
+        "ru": "Напишите только пропущенное слово.",
+        "zh": "只填写空缺的词。"
+      }
     },
     {
       "id": "objects-year",
@@ -219,11 +247,12 @@
       "prompt": {
         "en": "Year / time",
         "ru": "Год / время",
-        "zh": "年／次"
+        "zh": "年／时间"
       },
       "pronunciation": {
         "en": "HRO-nos",
-        "ru": "ХРО-нос"
+        "ru": "ХРО-нос",
+        "zh": "HRO-nos"
       },
       "labels": [
         "noun"
@@ -236,7 +265,17 @@
         "ru": "Δέκα χρονών — десяти лет. Χρόνος означает год или время в целом. Мужской род.",
         "zh": "表示年龄时，δέκα χρονών 意为十岁。Χρόνος 可指一年或泛指时间。"
       },
-      "answerDisplay": "ο χρόνος"
+      "answerDisplay": "ο χρόνος",
+      "contextExample": {
+        "en": "Περνάει γρήγορα ο ___. — Time passes quickly.",
+        "ru": "Περνάει γρήγορα ο ___. — Время быстро проходит.",
+        "zh": "Περνάει γρήγορα ο ___. — 时间过得很快。"
+      },
+      "meaning": {
+        "en": "Write the missing Greek word.",
+        "ru": "Напишите только пропущенное слово.",
+        "zh": "只填写空缺的词。"
+      }
     },
     {
       "id": "objects-advert",
@@ -249,7 +288,8 @@
       },
       "pronunciation": {
         "en": "an-ghe-LI-a",
-        "ru": "ан-гэ-ЛИ-а"
+        "ru": "ан-гэ-ЛИ-а",
+        "zh": "an-ghe-LI-a"
       },
       "labels": [
         "noun"
@@ -274,8 +314,9 @@
         "zh": "空间／区域"
       },
       "pronunciation": {
-        "en": "HO-ros",
-        "ru": "ХО-рос"
+        "en": "KHO-ros",
+        "ru": "ХО-рос",
+        "zh": "HO-ros"
       },
       "labels": [
         "noun"
@@ -297,11 +338,12 @@
       "prompt": {
         "en": "Pay / remuneration",
         "ru": "Оплата / вознаграждение",
-        "zh": "报酬"
+        "zh": "报酬／薪酬"
       },
       "pronunciation": {
         "en": "a-mi-VI",
-        "ru": "а-ми-ВИ"
+        "ru": "а-ми-ВИ",
+        "zh": "a-mi-VI"
       },
       "labels": [
         "noun"
@@ -327,7 +369,8 @@
       },
       "pronunciation": {
         "en": "ghra-ma-TI-a",
-        "ru": "гра-ма-ТИ-а"
+        "ru": "гра-ма-ТИ-а",
+        "zh": "ghra-ma-TI-a"
       },
       "labels": [
         "noun"
@@ -353,7 +396,8 @@
       },
       "pronunciation": {
         "en": "o-RA-ri-o",
-        "ru": "о-РА-ри-о"
+        "ru": "о-РА-ри-о",
+        "zh": "o-RA-ri-o"
       },
       "labels": [
         "noun"
@@ -379,7 +423,8 @@
       },
       "pronunciation": {
         "en": "re-se-PSYON",
-        "ru": "рэ-сэ-ПСЬОН"
+        "ru": "рэ-сэ-ПСЬОН",
+        "zh": "re-se-PSYON"
       },
       "labels": [
         "noun"
@@ -400,13 +445,14 @@
       "collection": "words-nouns",
       "greek": "γνώση",
       "prompt": {
-        "en": "Knowledge",
-        "ru": "Знание",
-        "zh": "知识"
+        "en": "Knowledge / understanding",
+        "ru": "Знание / понимание",
+        "zh": "知识／了解"
       },
       "pronunciation": {
         "en": "GHNO-si",
-        "ru": "ГНО-си"
+        "ru": "ГНО-си",
+        "zh": "GHNO-si"
       },
       "labels": [
         "noun"
@@ -417,7 +463,7 @@
       "explanation": {
         "en": "Καλή γνώση αγγλικών means a good knowledge of English.",
         "ru": "Καλή γνώση αγγλικών — хорошее знание английского. Женский род.",
-        "zh": "Καλή γνώση αγγλικών 表示良好的英语知识。"
+        "zh": "Καλή γνώση αγγλικών 表示“具备良好的英语水平”。"
       },
       "answerDisplay": "η γνώση"
     },
@@ -432,7 +478,8 @@
       },
       "pronunciation": {
         "en": "i-RA-kli-o",
-        "ru": "и-РА-кли-о"
+        "ru": "и-РА-кли-о",
+        "zh": "i-RA-kli-o"
       },
       "labels": [
         "noun"
@@ -454,7 +501,8 @@
       },
       "pronunciation": {
         "en": "mo-na-sti-RA-ki",
-        "ru": "мо-на-сти-РА-ки"
+        "ru": "мо-на-сти-РА-ки",
+        "zh": "mo-na-sti-RA-ki"
       },
       "labels": [
         "noun"
@@ -476,7 +524,8 @@
       },
       "pronunciation": {
         "en": "pa-NO-ra-ma",
-        "ru": "па-НО-ра-ма"
+        "ru": "па-НО-ра-ма",
+        "zh": "pa-NO-ra-ma"
       },
       "labels": [
         "noun"
@@ -498,7 +547,8 @@
       },
       "pronunciation": {
         "en": "KRI-ti",
-        "ru": "КРИ-ти"
+        "ru": "КРИ-ти",
+        "zh": "KRI-ti"
       },
       "labels": [
         "noun"
@@ -683,7 +733,8 @@
       },
       "pronunciation": {
         "en": "DHIS-ko-los",
-        "ru": "ДИС-ко-лос"
+        "ru": "ДИС-ко-лос",
+        "zh": "DHIS-ko-los"
       },
       "labels": [
         "adjective"
@@ -692,9 +743,9 @@
         "conversation"
       ],
       "explanation": {
-        "en": "The ending follows the Greek noun: το μάθημα είναι δύσκολο. Any listed gender form is accepted here.",
-        "ru": "Окончание зависит от рода греческого существительного: το μάθημα είναι δύσκολο — урок трудный. Здесь принимается любая из трёх форм.",
-        "zh": "词尾须与希腊语名词一致：το μάθημα είναι δύσκολο。此单词卡接受列出的各性形式。"
+        "en": "Δύσκολος, δύσκολη and δύσκολο mean difficult. The ending agrees with the noun: Το μάθημα είναι δύσκολο — The lesson is difficult.",
+        "ru": "Δύσκολος, δύσκολη, δύσκολο — «трудный». Форма зависит от рода греческого существительного: το μάθημα είναι δύσκολο — «урок трудный». В греческом μάθημα среднего рода, поэтому δύσκολο. В ответе принимаются все три родовые формы.",
+        "zh": "形容词 δύσκολος、δύσκολη、δύσκολο 都表示“困难的”，分别为阳性、阴性、中性。词尾与名词一致，如 Το μάθημα είναι δύσκολο.（这节课很难。）本词卡接受这三种形式。"
       },
       "wordGroup": "difficult",
       "forms": [
@@ -703,7 +754,8 @@
           "answerDisplay": "δύσκολος",
           "pronunciation": {
             "en": "DHIS-ko-los",
-            "ru": "ДИС-ко-лос"
+            "ru": "ДИС-ко-лос",
+            "zh": "DHIS-ko-los"
           }
         },
         {
@@ -711,7 +763,8 @@
           "answerDisplay": "δύσκολη",
           "pronunciation": {
             "en": "DHIS-ko-li",
-            "ru": "ДИС-ко-ли"
+            "ru": "ДИС-ко-ли",
+            "zh": "DHIS-ko-li"
           }
         },
         {
@@ -719,7 +772,8 @@
           "answerDisplay": "δύσκολο",
           "pronunciation": {
             "en": "DHIS-ko-lo",
-            "ru": "ДИС-ко-ло"
+            "ru": "ДИС-ко-ло",
+            "zh": "DHIS-ko-lo"
           }
         }
       ],
@@ -744,7 +798,8 @@
       },
       "pronunciation": {
         "en": "i-dhi-o-ti-KOS",
-        "ru": "и-ди-о-ти-КОС"
+        "ru": "и-ди-о-ти-КОС",
+        "zh": "i-dhi-o-ti-KOS"
       },
       "labels": [
         "adjective"
@@ -764,7 +819,8 @@
           "answerDisplay": "ιδιωτικός",
           "pronunciation": {
             "en": "i-dhi-o-ti-KOS",
-            "ru": "и-ди-о-ти-КОС"
+            "ru": "и-ди-о-ти-КОС",
+            "zh": "i-dhi-o-ti-KOS"
           }
         },
         {
@@ -772,7 +828,8 @@
           "answerDisplay": "ιδιωτική",
           "pronunciation": {
             "en": "i-dhi-o-ti-KI",
-            "ru": "и-ди-о-ти-КИ"
+            "ru": "и-ди-о-ти-КИ",
+            "zh": "i-dhi-o-ti-KI"
           }
         },
         {
@@ -780,7 +837,8 @@
           "answerDisplay": "ιδιωτικό",
           "pronunciation": {
             "en": "i-dhi-o-ti-KO",
-            "ru": "и-ди-о-ти-КО"
+            "ru": "и-ди-о-ти-КО",
+            "zh": "i-dhi-o-ti-KO"
           }
         }
       ],
@@ -805,7 +863,8 @@
       },
       "pronunciation": {
         "en": "fi-li-KOS",
-        "ru": "фи-ли-КОС"
+        "ru": "фи-ли-КОС",
+        "zh": "fi-li-KOS"
       },
       "labels": [
         "adjective"
@@ -815,7 +874,7 @@
       ],
       "explanation": {
         "en": "Related to φίλος, friend. Φιλικός χώρος in an advertisement describes a welcoming environment.",
-        "ru": "Связано с φίλος — друг. Φιλικός χώρος в объявлении — доброжелательная обстановка.",
+        "ru": "Φιλικός — «дружелюбный», «дружественный», «дружеский». Φιλική ατμόσφαιρα — «дружеская атмосфера». Род прилагательного зависит от греческого существительного.",
         "zh": "与 φίλος（朋友）相关。广告中的 φιλικός χώρος 表示友好的环境。"
       },
       "wordGroup": "friendly",
@@ -825,7 +884,8 @@
           "answerDisplay": "φιλικός",
           "pronunciation": {
             "en": "fi-li-KOS",
-            "ru": "фи-ли-КОС"
+            "ru": "фи-ли-КОС",
+            "zh": "fi-li-KOS"
           }
         },
         {
@@ -833,7 +893,8 @@
           "answerDisplay": "φιλική",
           "pronunciation": {
             "en": "fi-li-KI",
-            "ru": "фи-ли-КИ"
+            "ru": "фи-ли-КИ",
+            "zh": "fi-li-KI"
           }
         },
         {
@@ -841,7 +902,8 @@
           "answerDisplay": "φιλικό",
           "pronunciation": {
             "en": "fi-li-KO",
-            "ru": "фи-ли-КО"
+            "ru": "фи-ли-КО",
+            "zh": "fi-li-KO"
           }
         }
       ],
@@ -866,7 +928,8 @@
       },
       "pronunciation": {
         "en": "PLI-ris",
-        "ru": "ПЛИ-рис"
+        "ru": "ПЛИ-рис",
+        "zh": "PLI-ris"
       },
       "labels": [
         "adjective"
@@ -886,7 +949,8 @@
           "answerDisplay": "πλήρης",
           "pronunciation": {
             "en": "PLI-ris",
-            "ru": "ПЛИ-рис"
+            "ru": "ПЛИ-рис",
+            "zh": "PLI-ris"
           }
         },
         {
@@ -894,7 +958,8 @@
           "answerDisplay": "πλήρες",
           "pronunciation": {
             "en": "PLI-res",
-            "ru": "ПЛИ-рэс"
+            "ru": "ПЛИ-рэс",
+            "zh": "PLI-res"
           }
         }
       ],
@@ -918,7 +983,8 @@
       },
       "pronunciation": {
         "en": "pro-i-NOS",
-        "ru": "про-и-НОС"
+        "ru": "про-и-НОС",
+        "zh": "pro-i-NOS"
       },
       "labels": [
         "adjective"
@@ -928,7 +994,7 @@
       ],
       "explanation": {
         "en": "Πρωινές ώρες means morning hours; πρωινές agrees with the feminine plural ώρες.",
-        "ru": "Πρωινές ώρες — утренние часы. Здесь πρωινές — форма женского рода множественного числа, как и ώρες.",
+        "ru": "Πρωινός, πρωινή, πρωινό — «утренний»: πρωινές ώρες — «утренние часы». Существительное το πρωινό означает «завтрак» и изучается отдельно.",
         "zh": "Πρωινές ώρες 表示上午时段；πρωινές 与阴性复数 ώρες 一致。"
       },
       "wordGroup": "morning",
@@ -938,7 +1004,8 @@
           "answerDisplay": "πρωινός",
           "pronunciation": {
             "en": "pro-i-NOS",
-            "ru": "про-и-НОС"
+            "ru": "про-и-НОС",
+            "zh": "pro-i-NOS"
           }
         },
         {
@@ -946,7 +1013,8 @@
           "answerDisplay": "πρωινή",
           "pronunciation": {
             "en": "pro-i-NI",
-            "ru": "про-и-НИ"
+            "ru": "про-и-НИ",
+            "zh": "pro-i-NI"
           }
         },
         {
@@ -954,7 +1022,8 @@
           "answerDisplay": "πρωινό",
           "pronunciation": {
             "en": "pro-i-NO",
-            "ru": "про-и-НО"
+            "ru": "про-и-НО",
+            "zh": "pro-i-NO"
           }
         }
       ],
@@ -979,7 +1048,8 @@
       },
       "pronunciation": {
         "en": "ka-LOS",
-        "ru": "ка-ЛОС"
+        "ru": "ка-ЛОС",
+        "zh": "ka-LOS"
       },
       "labels": [
         "adjective"
@@ -990,7 +1060,7 @@
       "explanation": {
         "en": "Καλή αμοιβή = good pay. The adjective describes a noun; καλά means well.",
         "ru": "Καλή αμοιβή — хорошая оплата. Καλός описывает предмет или человека, а καλά — наречие «хорошо».",
-        "zh": "Καλή αμοιβή 表示报酬优厚。形容词修饰名词；καλά 表示“好地”。"
+        "zh": "形容词 καλός、καλή、καλό 表示“好的”，与名词保持一致；副词 καλά 描述方式，如 Μιλάει καλά.（他说得很好。）"
       },
       "wordGroup": "good",
       "forms": [
@@ -999,7 +1069,8 @@
           "answerDisplay": "καλός",
           "pronunciation": {
             "en": "ka-LOS",
-            "ru": "ка-ЛОС"
+            "ru": "ка-ЛОС",
+            "zh": "ka-LOS"
           }
         },
         {
@@ -1007,7 +1078,8 @@
           "answerDisplay": "καλή",
           "pronunciation": {
             "en": "ka-LI",
-            "ru": "ка-ЛИ"
+            "ru": "ка-ЛИ",
+            "zh": "ka-LI"
           }
         },
         {
@@ -1015,7 +1087,8 @@
           "answerDisplay": "καλό",
           "pronunciation": {
             "en": "ka-LO",
-            "ru": "ка-ЛО"
+            "ru": "ка-ЛО",
+            "zh": "ka-LO"
           }
         }
       ],
@@ -1034,13 +1107,14 @@
       "collection": "words-pronouns",
       "greek": "ποιον",
       "prompt": {
-        "en": "Whom? (masculine singular)",
+        "en": "Who? / whom? (masculine direct object)",
         "ru": "Кого? (мужской род, единственное число)",
         "zh": "谁？（宾格，阳性单数）"
       },
       "pronunciation": {
         "en": "pyon",
-        "ru": "пьон"
+        "ru": "пьон",
+        "zh": "pyon"
       },
       "labels": [
         "pronoun"
@@ -1049,9 +1123,19 @@
         "conversation"
       ],
       "explanation": {
-        "en": "Accusative of ποιος: Ποιον ξέρεις; Who do you know? Like ποιος, ποιον is written without an accent.",
+        "en": "Ποιον is the masculine singular accusative of ποιος: Ποιον ξέρεις; — Who do you know? It can also mean which before a masculine object noun. It has no written accent.",
         "ru": "Винительный падеж от ποιος: Ποιον ξέρεις; — Кого ты знаешь? Ποιος — «кто», ποιον — «кого». Обе формы пишутся без знака ударения.",
-        "zh": "ποιος 的宾格：Ποιον ξέρεις;（你认识谁？）。与 ποιος 一样，ποιον 不写重音。"
+        "zh": "Ποιον 是 ποιος 的阳性单数宾格，用来询问宾语“谁”。它只有一个音节，不标重音。"
+      },
+      "contextExample": {
+        "en": "___ ξέρεις; — Who do you know? (masculine)",
+        "ru": "___ περιμένεις; — Кого ты ждёшь? (мужчину)",
+        "zh": "___ ξέρεις; — 你认识谁？"
+      },
+      "meaning": {
+        "en": "Write the missing Greek word.",
+        "ru": "Напишите только пропущенное слово.",
+        "zh": "只填写空缺的词。"
       }
     },
     {
@@ -1059,13 +1143,14 @@
       "collection": "words-pronouns",
       "greek": "κάτι",
       "prompt": {
-        "en": "Something",
-        "ru": "Что-то",
-        "zh": "某事／某物"
+        "en": "Something / some",
+        "ru": "Что-то / кое-что / немного",
+        "zh": "某事／某物／一些"
       },
       "pronunciation": {
         "en": "KA-ti",
-        "ru": "КА-ти"
+        "ru": "КА-ти",
+        "zh": "KA-ti"
       },
       "labels": [
         "pronoun"
@@ -1074,9 +1159,19 @@
         "conversation"
       ],
       "explanation": {
-        "en": "An invariable pronoun: θέλω κάτι, I want something.",
-        "ru": "Неизменяемое местоимение: θέλω κάτι — я хочу что-то.",
-        "zh": "不变形代词：θέλω κάτι（我想要某物）。"
+        "en": "Κάτι is an invariable pronoun meaning something: Θέλω κάτι — I want something. Before a plural noun it can informally mean some: κάτι φίλοι — some friends; κάτι λεφτά — some money.",
+        "ru": "Κάτι — неизменяемое местоимение «что-то», «что-нибудь»: θέλω κάτι — «я хочу что-нибудь». Перед существительным во множественном числе разговорно обозначает неопределённое количество: κάτι φίλοι — «какие-то друзья», κάτι λεφτά — «немного денег».",
+        "zh": "Κάτι 是不变形代词，单独使用表示“某事、某物”，如 Θέλω κάτι.（我想要点东西。）口语中放在复数名词前也可表示“一些”，如 κάτι φίλοι（一些朋友）、κάτι λεφτά（一点钱）。"
+      },
+      "contextExample": {
+        "en": "Θέλω ___. — I want something.",
+        "ru": "Θέλω ___. — Я хочу что-нибудь.",
+        "zh": "Θέλω ___ να φάω. — 我想吃点东西。"
+      },
+      "meaning": {
+        "en": "Write the missing Greek word.",
+        "ru": "Напишите только пропущенное слово.",
+        "zh": "只填写空缺的词。"
       }
     },
     {
@@ -1090,7 +1185,8 @@
       },
       "pronunciation": {
         "en": "KA-the",
-        "ru": "КА-тхэ"
+        "ru": "КА-тэ",
+        "zh": "KA-the"
       },
       "labels": [
         "pronoun"
@@ -1099,9 +1195,19 @@
         "time"
       ],
       "explanation": {
-        "en": "Used before a singular noun and does not change form: κάθε μέρα, every day.",
-        "ru": "Ставится перед существительным в единственном числе и не изменяется: κάθε μέρα — каждый день.",
-        "zh": "用于单数名词前，形式不变：κάθε μέρα（每天）。"
+        "en": "Κάθε is invariable and goes before a singular noun: κάθε μέρα — every day; κάθε παιδί — each child.",
+        "ru": "Κάθε — «каждый», «каждая», «каждое». Не изменяется: κάθε μέρα — «каждый день». При обозначении повторяющихся промежутков возможно множественное число: κάθε δέκα λεπτά — «каждые десять минут».",
+        "zh": "Κάθε 放在单数名词前表示“每个”，形式不变：κάθε μέρα（每天）。"
+      },
+      "contextExample": {
+        "en": "Δουλεύω ___ μέρα. — I work every day.",
+        "ru": "Δουλεύω ___ μέρα. — Я работаю каждый день.",
+        "zh": "Πίνω καφέ ___ μέρα. — 我每天喝咖啡。"
+      },
+      "meaning": {
+        "en": "Write the missing Greek word.",
+        "ru": "Напишите только пропущенное слово.",
+        "zh": "只填写空缺的词。"
       }
     },
     {
@@ -1109,13 +1215,14 @@
       "collection": "words-pronouns",
       "greek": "μας",
       "prompt": {
-        "en": "Us (as in “call us”)",
+        "en": "Us (unstressed direct object)",
         "ru": "Нас (прямое дополнение)",
-        "zh": "我们（宾格，如“给我们打电话”）"
+        "zh": "我们（弱式直接宾语）"
       },
       "pronunciation": {
         "en": "mas",
-        "ru": "мас"
+        "ru": "мас",
+        "zh": "mas"
       },
       "labels": [
         "pronoun"
@@ -1124,24 +1231,35 @@
         "phone"
       ],
       "explanation": {
-        "en": "In Πάρε μας τηλέφωνο, μας is the object us. After a noun it means our: το σπίτι μας.",
-        "ru": "В Πάρε μας τηλέφωνο местоимение μας — прямое дополнение «нас». По-русски естественно «позвони нам»: падежи в двух языках не совпадают. После существительного μας означает «наш».",
-        "zh": "Πάρε μας τηλέφωνο 中的 μας 是宾语“我们”。放在名词后则表示“我们的”，如 το σπίτι μας。"
+        "en": "Μας is the short direct-object form of εμείς: Μας βλέπεις; — Do you see us? The same form can mean to us with a verb or our after a noun.",
+        "ru": "Μας — слабая форма «нас» в винительном падеже: μας βλέπει — «он нас видит». В выражении πάρε μας τηλέφωνο по-русски говорят «позвони нам», но греческое μας остаётся прямым дополнением. Та же форма может выражать «нам» или «наш» в других конструкциях.",
+        "zh": "Μας 作弱式直接宾语时表示“我们”，如 Μας βλέπει.（他看见我们了。）同一词形也可作间接宾语或表示“我们的”，须看句子结构。"
       },
-      "senseKey": "direct-object"
+      "senseKey": "direct-object",
+      "contextExample": {
+        "en": "___ βλέπεις; — Do you see us?",
+        "ru": "___ βλέπει. — Он нас видит.",
+        "zh": "Ο Γιάννης ___ βλέπει. — 约翰看见我们了。"
+      },
+      "meaning": {
+        "en": "Write the missing Greek word.",
+        "ru": "Напишите только пропущенное слово.",
+        "zh": "只填写空缺的词。"
+      }
     },
     {
       "id": "objects-when-clause",
       "collection": "words-connectors",
       "greek": "όταν",
       "prompt": {
-        "en": "When (joining clauses)",
-        "ru": "Когда (соединяет части предложения)",
-        "zh": "当……时（连接从句）"
+        "en": "When (conjunction)",
+        "ru": "Когда (союз)",
+        "zh": "当……的时候"
       },
       "pronunciation": {
         "en": "O-tan",
-        "ru": "О-тан"
+        "ru": "О-тан",
+        "zh": "O-tan"
       },
       "labels": [
         "conjunction"
@@ -1150,9 +1268,19 @@
         "time"
       ],
       "explanation": {
-        "en": "Όταν introduces a time clause: I eat when I am hungry. A question uses πότε: when do you eat?",
-        "ru": "Όταν вводит придаточное времени: «я ем, когда голоден». В вопросе «когда ты ешь?» используется πότε.",
-        "zh": "Όταν 引导时间从句，如“我饿的时候吃饭”。询问时间时用 πότε。"
+        "en": "Όταν joins a time clause: Τρώω όταν πεινάω — I eat when I am hungry. Use πότε to ask when.",
+        "ru": "Όταν — союз «когда», который вводит придаточное времени: τρώω όταν πεινάω — «я ем, когда голоден». Для самостоятельного вопроса «когда?» используется πότε.",
+        "zh": "Όταν 引导时间从句，表示“当……的时候”，如 Τρώω όταν πεινάω.（我饿的时候就吃东西。）询问“什么时候”用 πότε。"
+      },
+      "contextExample": {
+        "en": "Τρώω ___ πεινάω. — I eat when I am hungry.",
+        "ru": "Τρώω ___ πεινάω. — Я ем, когда голоден.",
+        "zh": "Τρώω ___ πεινάω. — 我饿的时候就吃东西。"
+      },
+      "meaning": {
+        "en": "Write the missing Greek word.",
+        "ru": "Напишите только пропущенное слово.",
+        "zh": "只填写空缺的词。"
       }
     },
     {
@@ -1160,13 +1288,14 @@
       "collection": "words-connectors",
       "greek": "όπως",
       "prompt": {
-        "en": "As / like (in the same way)",
-        "ru": "Как (таким же образом)",
-        "zh": "像……一样"
+        "en": "As / like / for example",
+        "ru": "Как / например",
+        "zh": "像……一样／例如"
       },
       "pronunciation": {
         "en": "O-pos",
-        "ru": "О-пос"
+        "ru": "О-пос",
+        "zh": "O-pos"
       },
       "labels": [
         "conjunction"
@@ -1175,9 +1304,19 @@
         "classroom"
       ],
       "explanation": {
-        "en": "Όπως στο παράδειγμα means as in the example. A question asking how uses πώς.",
-        "ru": "Όπως στο παράδειγμα — как в примере. Вопрос «как?» — πώς.",
-        "zh": "Όπως στο παράδειγμα 表示“如例子所示”。询问“如何”时用 πώς。"
+        "en": "Όπως means as or in the way that: όπως στο παράδειγμα — as in the example. It can also introduce an example: φρούτα, όπως μήλα — fruit, such as apples. Use πώς to ask how.",
+        "ru": "Όπως — «как», «таким же образом»: όπως θέλεις — «как хочешь», όπως στο παράδειγμα — «как в примере». Может вводить пример: φρούτα, όπως μήλα — «фрукты, например яблоки». Вопросительное «как?» — πώς.",
+        "zh": "Όπως 表示“像……一样、按照……”，如 όπως στο παράδειγμα（如例子所示）；也可举例，如 φρούτα, όπως μήλα（水果，例如苹果）。询问“怎样”用 πώς。"
+      },
+      "contextExample": {
+        "en": "Κάνε το ___ στο παράδειγμα. — Do it as in the example.",
+        "ru": "Κάνε ___ θέλεις. — Делай как хочешь.",
+        "zh": "Κάνε το ___ στο παράδειγμα. — 按例子那样做。"
+      },
+      "meaning": {
+        "en": "Write the missing Greek word.",
+        "ru": "Напишите только пропущенное слово.",
+        "zh": "只填写空缺的词。"
       }
     },
     {

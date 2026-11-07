@@ -63,11 +63,11 @@ void main() {
     );
     expect(find.text('Flashcards'), findsOneWidget);
     await tester.scrollUntilVisible(
-      find.text('Hard mode'),
+      find.text('Writing practice'),
       150,
       scrollable: find.byType(Scrollable).first,
     );
-    expect(find.text('Hard mode'), findsOneWidget);
+    expect(find.text('Writing practice'), findsOneWidget);
     await tester.scrollUntilVisible(
       find.byKey(const ValueKey('collection-words')),
       -120,
@@ -116,12 +116,12 @@ void main() {
     expect(find.text('ένα'), findsNothing);
     await tester.tap(find.text('Reveal answer'));
     await tester.pumpAndSettle();
-    await tester.tap(find.text('Got it'));
+    await tester.tap(find.text('I remembered'));
     await tester.pumpAndSettle();
     expect(find.text('Μπράβο!'), findsNothing);
     await tester.tap(find.text('Reveal answer'));
     await tester.pumpAndSettle();
-    await tester.tap(find.text('Got it'));
+    await tester.tap(find.text('I remembered'));
     await tester.pumpAndSettle();
     expect(find.text('Μπράβο!'), findsOneWidget);
     expect(find.text('0 of 1 on the first try'), findsOneWidget);
@@ -239,7 +239,7 @@ void main() {
       }
       // Switch to native input once to exercise both supported keyboards.
       if (index == 0) {
-        await tester.tap(find.byTooltip('Use phone keyboard'));
+        await tester.tap(find.byTooltip('Use device keyboard'));
         await tester.pumpAndSettle();
       }
       await tester.enterText(find.byType(TextField), card.greek);

@@ -76,7 +76,7 @@ void main() {
     );
     await tapVisible(tester, 'English');
     expect(find.text('Nouns'), findsOneWidget);
-    await tapVisible(tester, 'Hard mode');
+    await tapVisible(tester, 'Writing practice');
     expect(find.byType(StudyScreen), findsOneWidget);
     expect(find.text('Pencil'), findsOneWidget);
     expect(find.text('το μολύβι'), findsNothing);
@@ -146,8 +146,8 @@ void main() {
       ),
     );
     await tester.pumpAndSettle();
-    await tester.ensureVisible(find.byTooltip('Use phone keyboard'));
-    await tester.tap(find.byTooltip('Use phone keyboard'));
+    await tester.ensureVisible(find.byTooltip('Use device keyboard'));
+    await tester.tap(find.byTooltip('Use device keyboard'));
     await tester.pumpAndSettle();
     await tester.enterText(
       find.byKey(const ValueKey('greek-answer')),

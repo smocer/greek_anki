@@ -158,7 +158,8 @@ void main() {
       expect(first.reviewAliases, isNotEmpty);
     }
     final him = card('words-pronouns', 'him-object');
-    expect(him.prompt.ru, contains('его зовут'));
+    expect(him.prompt.ru, 'Его (кого? — мужской род)');
+    expect(him.contextExample!.ru, contains('___'));
     expect(matcher.matches('του', him), isFalse);
     final her = card('words-pronouns', 'her-object');
     expect(matcher.matches('την', her), isTrue);

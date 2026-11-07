@@ -260,7 +260,7 @@ void main() {
     await tester.tap(find.text('Русский'));
     await tester.pumpAndSettle();
     expect(
-      find.text('Could not save the language. Please try again.'),
+      find.text('Could not save your language setting. Please try again.'),
       findsOneWidget,
     );
     expect(find.text('Greek, by heart.'), findsOneWidget);
@@ -284,12 +284,12 @@ void main() {
     );
     await tester.pumpAndSettle();
     await tester.scrollUntilVisible(
-      find.text('Сложный режим'),
+      find.text('Письменный ответ'),
       220,
       scrollable: find.byType(Scrollable).first,
     );
     await tester.pumpAndSettle();
-    await tester.tap(find.text('Сложный режим'));
+    await tester.tap(find.text('Письменный ответ'));
     await tester.pumpAndSettle();
     expect(find.byType(StudyScreen), findsOneWidget);
     await tester.scrollUntilVisible(

@@ -56,7 +56,10 @@ void main() {
       await tester.ensureVisible(input);
       await tester.enterText(input, '0');
       await tester.pumpAndSettle();
-      expect(find.text('Enter a positive number'), findsOneWidget);
+      expect(
+        find.text('Enter a whole number greater than zero'),
+        findsOneWidget,
+      );
       await tester.enterText(input, '3');
       await tapText(tester, 'Flashcards');
       expect(
@@ -272,8 +275,8 @@ void main() {
           await tapText(
             tester,
             LocalizedText(
-              en: 'Hard mode',
-              ru: 'Сложный режим',
+              en: 'Writing practice',
+              ru: 'Письменный ответ',
               zh: '默写模式',
             ).resolve(language),
           );
@@ -349,8 +352,8 @@ void main() {
         await tapText(
           tester,
           LocalizedText(
-            en: 'Hard mode',
-            ru: 'Сложный режим',
+            en: 'Writing practice',
+            ru: 'Письменный ответ',
             zh: '默写模式',
           ).resolve(language),
         );
@@ -421,8 +424,8 @@ void main() {
         await tapText(
           tester,
           LocalizedText(
-            en: 'Hard mode',
-            ru: 'Сложный режим',
+            en: 'Writing practice',
+            ru: 'Письменный ответ',
             zh: '默写模式',
           ).resolve(language),
         );
@@ -471,7 +474,7 @@ void main() {
     );
     await tester.pumpAndSettle();
     await tapText(tester, 'Apply filters');
-    await tapText(tester, 'Hard mode');
+    await tapText(tester, 'Writing practice');
     expect(find.text('This is her bag.'), findsOneWidget);
     expect(find.text('Αυτή είναι η τσάντα της.'), findsNothing);
     expect(find.byType(CardExplanation), findsNothing);
@@ -524,7 +527,7 @@ void main() {
     final firstBatch = screen.cards.map((c) => c.prompt.en).toSet();
     for (var i = 0; i < 45 && find.text('Μπράβο!').evaluate().isEmpty; i++) {
       await tapText(tester, 'Reveal answer');
-      await tapText(tester, 'Got it');
+      await tapText(tester, 'I remembered');
     }
     expect(find.text('15 of 15 on the first try'), findsOneWidget);
     await tapText(tester, 'Next batch');
@@ -537,7 +540,7 @@ void main() {
         expect(find.text(prompt), findsNothing);
       }
       await tapText(tester, 'Reveal answer');
-      await tapText(tester, 'Got it');
+      await tapText(tester, 'I remembered');
     }
     expect(find.text('15 of 15 on the first try'), findsOneWidget);
     expect(tester.takeException(), isNull);

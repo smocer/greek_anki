@@ -13,7 +13,8 @@
       },
       "pronunciation": {
         "en": "PLI-o",
-        "ru": "ПЛИ-о"
+        "ru": "ПЛИ-о",
+        "zh": "PLI-o"
       },
       "labels": [
         "noun"
@@ -34,7 +35,8 @@
       },
       "pronunciation": {
         "en": "PRO-ta-si",
-        "ru": "ПРО-та-си"
+        "ru": "ПРО-та-си",
+        "zh": "PRO-ta-si"
       },
       "labels": [
         "noun"
@@ -42,7 +44,17 @@
       "themes": [
         "classroom"
       ],
-      "answerDisplay": "η πρόταση"
+      "answerDisplay": "η πρόταση",
+      "contextExample": {
+        "en": "Αυτή η ___ έχει έξι λέξεις. — This sentence has six words.",
+        "ru": "Αυτή η ___ έχει έξι λέξεις. — В этом предложении шесть слов.",
+        "zh": "Αυτή η ___ έχει έξι λέξεις. — 这个句子有六个词。"
+      },
+      "meaning": {
+        "en": "Write the missing Greek word.",
+        "ru": "Напишите только пропущенное слово.",
+        "zh": "只填写空缺的词。"
+      }
     },
     {
       "id": "nov05-leave-message",
@@ -97,7 +109,8 @@
       },
       "pronunciation": {
         "en": "RO-los",
-        "ru": "РО-лос"
+        "ru": "РО-лос",
+        "zh": "RO-los"
       },
       "labels": [
         "noun"
@@ -118,7 +131,8 @@
       },
       "pronunciation": {
         "en": "pe-LA-tis",
-        "ru": "пэ-ЛА-тис"
+        "ru": "пэ-ЛА-тис",
+        "zh": "pe-LA-tis"
       },
       "labels": [
         "noun"
@@ -139,7 +153,8 @@
       },
       "pronunciation": {
         "en": "pro-i-NO",
-        "ru": "про-и-НО"
+        "ru": "про-и-НО",
+        "zh": "pro-i-NO"
       },
       "labels": [
         "noun"
@@ -152,6 +167,16 @@
         "en": "As a neuter noun, το πρωινό means breakfast. The adjective πρωινός means morning / early; its masculine or feminine forms do not mean breakfast.",
         "ru": "Существительное το πρωινό — завтрак. Прилагательное πρωινός — утренний; его мужская и женская формы не означают завтрак.",
         "zh": "中性名词 το πρωινό 表示早餐。形容词 πρωινός 表示早晨的；其阳性和阴性形式不表示早餐。"
+      },
+      "contextExample": {
+        "en": "Το ___ είναι έτοιμο. — Breakfast is ready.",
+        "ru": "Το ___ είναι έτοιμο. — Завтрак готов.",
+        "zh": "Το ___ είναι έτοιμο. — 早餐准备好了。"
+      },
+      "meaning": {
+        "en": "Write the missing Greek word.",
+        "ru": "Напишите только пропущенное слово.",
+        "zh": "只填写空缺的词。"
       }
     },
     {
@@ -165,7 +190,8 @@
       },
       "pronunciation": {
         "en": "ra-dhi-O-fo-no",
-        "ru": "ра-ди-О-фо-но"
+        "ru": "ра-ди-О-фо-но",
+        "zh": "ra-dhi-O-fo-no"
       },
       "labels": [
         "noun"
@@ -186,7 +212,8 @@
       },
       "pronunciation": {
         "en": "dhef-TE-ra",
-        "ru": "дэф-ТЭ-ра"
+        "ru": "дэф-ТЭ-ра",
+        "zh": "dhef-TE-ra"
       },
       "labels": [
         "noun"
@@ -207,7 +234,8 @@
       },
       "pronunciation": {
         "en": "TRI-ti",
-        "ru": "ТРИ-ти"
+        "ru": "ТРИ-ти",
+        "zh": "TRI-ti"
       },
       "labels": [
         "noun"
@@ -228,7 +256,8 @@
       },
       "pronunciation": {
         "en": "te-TAR-ti",
-        "ru": "тэ-ТАР-ти"
+        "ru": "тэ-ТАР-ти",
+        "zh": "te-TAR-ti"
       },
       "labels": [
         "noun"
@@ -249,7 +278,8 @@
       },
       "pronunciation": {
         "en": "pa-ra-ske-VI",
-        "ru": "па-ра-скэ-ВИ"
+        "ru": "па-ра-скэ-ВИ",
+        "zh": "pa-ra-ske-VI"
       },
       "labels": [
         "noun"
@@ -270,7 +300,8 @@
       },
       "pronunciation": {
         "en": "SA-va-to",
-        "ru": "СА-ва-то"
+        "ru": "СА-ва-то",
+        "zh": "SA-va-to"
       },
       "labels": [
         "noun"
@@ -291,7 +322,8 @@
       },
       "pronunciation": {
         "en": "sa-va-to-KI-ri-a-ko",
-        "ru": "са-ва-то-КИ-ри-а-ко"
+        "ru": "са-ва-то-КИ-ри-а-ко",
+        "zh": "sa-va-to-KI-ri-a-ko"
       },
       "labels": [
         "noun"
@@ -312,7 +344,8 @@
       },
       "pronunciation": {
         "en": "no-RIS",
-        "ru": "но-РИС"
+        "ru": "но-РИС",
+        "zh": "no-RIS"
       },
       "labels": [
         "adverb"
@@ -323,6 +356,21 @@
       "reviewIdentity": {
         "deckId": "words-descriptions",
         "cardId": "nov05-early"
+      },
+      "contextExample": {
+        "en": "Ξυπνάω ___. — I wake up early.",
+        "ru": "Φεύγω ___. — Я ухожу рано.",
+        "zh": "Ήρθα ___. — 我来早了。"
+      },
+      "explanation": {
+        "en": "Νωρίς means early: Φεύγω νωρίς — I leave early. The opposite, late, is αργά.",
+        "ru": "Νωρίς — «рано»: φεύγω νωρίς — «я ухожу рано». Противоположное слово — αργά, «поздно».",
+        "zh": "Νωρίς 是时间副词，表示“早”。"
+      },
+      "meaning": {
+        "en": "Write the missing Greek word.",
+        "ru": "Напишите только пропущенное слово.",
+        "zh": "只填写空缺的词。"
       }
     },
     {
@@ -336,7 +384,8 @@
       },
       "pronunciation": {
         "en": "ar-GHA",
-        "ru": "ар-ГА"
+        "ru": "ар-ГА",
+        "zh": "ar-GHA"
       },
       "labels": [
         "adverb"
@@ -347,6 +396,21 @@
       "reviewIdentity": {
         "deckId": "words-descriptions",
         "cardId": "nov05-late"
+      },
+      "contextExample": {
+        "en": "Φεύγω πολύ ___. — I leave very late.",
+        "ru": "Φτάνω ___. — Я приезжаю поздно.",
+        "zh": "Ήρθα ___. — 我来晚了。"
+      },
+      "explanation": {
+        "en": "Αργά can mean late in time or slowly in speed: φεύγω αργά — I leave late; μιλάω αργά — I speak slowly.",
+        "ru": "Αργά означает «поздно» или «медленно»: φτάνω αργά — «я приезжаю поздно», μιλάω αργά — «я говорю медленно». Значение определяет ситуация.",
+        "zh": "Αργά 可表示时间晚或动作慢，由语境区分：ήρθα αργά（我来晚了）、μιλάει αργά（他说得慢）。"
+      },
+      "meaning": {
+        "en": "Write the missing Greek word.",
+        "ru": "Напишите только пропущенное слово.",
+        "zh": "只填写空缺的词。"
       }
     },
     {
@@ -360,7 +424,8 @@
       },
       "pronunciation": {
         "en": "skhe-DHON",
-        "ru": "схэ-ДОН"
+        "ru": "схэ-ДОН",
+        "zh": "skhe-DHON"
       },
       "labels": [
         "adverb"
@@ -371,6 +436,21 @@
       "reviewIdentity": {
         "deckId": "words-descriptions",
         "cardId": "nov05-almost"
+      },
+      "contextExample": {
+        "en": "Είναι ___ έτοιμο. — It is almost ready.",
+        "ru": "Είναι ___ έτοιμο. — Это почти готово.",
+        "zh": "Είμαι ___ έτοιμος. — 我差不多准备好了。"
+      },
+      "explanation": {
+        "en": "Σχεδόν means almost or nearly: σχεδόν κάθε μέρα — almost every day.",
+        "ru": "Σχεδόν — «почти»: σχεδόν έτοιμο — «почти готово».",
+        "zh": "Σχεδόν 表示“几乎、差不多”，如 σχεδόν έτοιμος（差不多准备好了）。"
+      },
+      "meaning": {
+        "en": "Write the missing Greek word.",
+        "ru": "Напишите только пропущенное слово.",
+        "zh": "只填写空缺的词。"
       }
     },
     {
@@ -384,7 +464,8 @@
       },
       "pronunciation": {
         "en": "si-NI-thos",
-        "ru": "си-НИ-сос"
+        "ru": "си-НИ-тос",
+        "zh": "si-NI-thos"
       },
       "labels": [
         "adverb"
@@ -395,6 +476,21 @@
       "reviewIdentity": {
         "deckId": "words-descriptions",
         "cardId": "nov05-usually"
+      },
+      "contextExample": {
+        "en": "___ πίνω καφέ το πρωί. — I usually drink coffee in the morning.",
+        "ru": "___ πίνω καφέ. — Обычно я пью кофе.",
+        "zh": "___ πίνω καφέ το πρωί. — 我通常早上喝咖啡。"
+      },
+      "explanation": {
+        "en": "Συνήθως means usually and describes what happens most of the time.",
+        "ru": "Συνήθως — «обычно»: συνήθως πίνω καφέ — «обычно я пью кофе». Описывает привычку или частую ситуацию.",
+        "zh": "Συνήθως 表示“通常”，描述一般习惯。"
+      },
+      "meaning": {
+        "en": "Write the missing Greek word.",
+        "ru": "Напишите только пропущенное слово.",
+        "zh": "只填写空缺的词。"
       }
     },
     {
@@ -408,7 +504,8 @@
       },
       "pronunciation": {
         "en": "si-KHNA",
-        "ru": "си-ХНА"
+        "ru": "си-ХНА",
+        "zh": "si-KHNA"
       },
       "labels": [
         "adverb"
@@ -419,6 +516,21 @@
       "reviewIdentity": {
         "deckId": "words-descriptions",
         "cardId": "nov05-often"
+      },
+      "contextExample": {
+        "en": "Πηγαίνω ___ στο πάρκο. — I often go to the park.",
+        "ru": "Πάω ___ εκεί. — Я часто туда хожу.",
+        "zh": "Πάω ___ στο σινεμά. — 我经常去看电影。"
+      },
+      "explanation": {
+        "en": "Συχνά means often or frequently: Τα λέμε συχνά — We talk often.",
+        "ru": "Συχνά — «часто»: πάω συχνά εκεί — «я часто туда хожу». Противоположное слово — σπάνια, «редко».",
+        "zh": "Συχνά 表示“经常”，描述较高频率。"
+      },
+      "meaning": {
+        "en": "Write the missing Greek word.",
+        "ru": "Напишите только пропущенное слово.",
+        "zh": "只填写空缺的词。"
       }
     },
     {
@@ -432,7 +544,8 @@
       },
       "pronunciation": {
         "en": "SPA-nia",
-        "ru": "СПА-ниа"
+        "ru": "СПА-ниа",
+        "zh": "SPA-nia"
       },
       "labels": [
         "adverb"
@@ -443,6 +556,21 @@
       "reviewIdentity": {
         "deckId": "words-descriptions",
         "cardId": "nov05-rarely"
+      },
+      "contextExample": {
+        "en": "Πηγαίνω ___ στο θέατρο. — I rarely go to the theatre.",
+        "ru": "Πάω ___ εκεί. — Я редко туда хожу.",
+        "zh": "Πάω ___ στο σινεμά. — 我很少去看电影。"
+      },
+      "explanation": {
+        "en": "Σπάνια means rarely or seldom as an adverb. It does not change for gender: Βγαίνω σπάνια — I rarely go out.",
+        "ru": "Σπάνια — «редко»: πάω σπάνια εκεί — «я редко туда хожу». Это наречие; в этом значении по родам не меняется.",
+        "zh": "Σπάνια 作副词表示“很少、难得”，不需要加否定词。"
+      },
+      "meaning": {
+        "en": "Write the missing Greek word.",
+        "ru": "Напишите только пропущенное слово.",
+        "zh": "只填写空缺的词。"
       }
     },
     {
@@ -456,7 +584,8 @@
       },
       "pronunciation": {
         "en": "PSO-nia",
-        "ru": "ПСО-ниа"
+        "ru": "ПСО-ниа",
+        "zh": "PSO-nia"
       },
       "labels": [
         "noun"
@@ -466,7 +595,7 @@
       ],
       "answerDisplay": "τα ψώνια",
       "explanation": {
-        "en": "Normally plural for shopping or purchases; no separate singular card is needed for this meaning.",
+        "en": "Τα ψώνια means shopping or the things bought. Κάνω ψώνια — I do some shopping; κουβαλάω τα ψώνια — I carry the shopping.",
         "ru": "В значении «покупки» обычно употребляется множественное число.",
         "zh": "表示购物或购买的东西时通常用复数。"
       }
@@ -482,7 +611,8 @@
       },
       "pronunciation": {
         "en": "fa-yi-TO",
-        "ru": "фа-йи-ТО"
+        "ru": "фа-йи-ТО",
+        "zh": "fa-yi-TO"
       },
       "labels": [
         "noun"
@@ -503,7 +633,8 @@
       },
       "pronunciation": {
         "en": "IP-nos",
-        "ru": "ИП-нос"
+        "ru": "ИП-нос",
+        "zh": "IP-nos"
       },
       "labels": [
         "noun"
@@ -524,7 +655,8 @@
       },
       "pronunciation": {
         "en": "me-si-me-ria-NO",
-        "ru": "мэ-си-мэ-риа-НО"
+        "ru": "мэ-си-мэ-риа-НО",
+        "zh": "me-si-me-ria-NO"
       },
       "labels": [
         "noun"
@@ -545,7 +677,8 @@
       },
       "pronunciation": {
         "en": "vra-dhi-NO",
-        "ru": "вра-ди-НО"
+        "ru": "вра-ди-НО",
+        "zh": "vra-dhi-NO"
       },
       "labels": [
         "noun"
@@ -566,7 +699,8 @@
       },
       "pronunciation": {
         "en": "po-TO",
-        "ru": "по-ТО"
+        "ru": "по-ТО",
+        "zh": "po-TO"
       },
       "labels": [
         "noun"
@@ -592,7 +726,8 @@
       },
       "pronunciation": {
         "en": "fo-RA",
-        "ru": "фо-РА"
+        "ru": "фо-РА",
+        "zh": "fo-RA"
       },
       "labels": [
         "noun"
@@ -600,7 +735,22 @@
       "themes": [
         "time"
       ],
-      "answerDisplay": "η φορά"
+      "answerDisplay": "η φορά",
+      "explanation": {
+        "en": "Φορά counts an occurrence: μία φορά — once; δύο φορές — twice. It does not mean time on a clock, which is ώρα.",
+        "ru": "Φορά обозначает отдельный случай или повторение: μία φορά — «один раз», δύο φορές — «два раза». Время на часах — ώρα, а не φορά.",
+        "zh": "Φορά 用来表示次数：μία φορά（一次）、δύο φορές（两次）。钟表上的时间用 ώρα。"
+      },
+      "contextExample": {
+        "en": "Είναι η πρώτη ___. — It is the first time.",
+        "ru": "Είναι η πρώτη ___. — Это первый раз.",
+        "zh": "Είναι η πρώτη ___. — 这是第一次。"
+      },
+      "meaning": {
+        "en": "Write the missing Greek word.",
+        "ru": "Напишите только пропущенное слово.",
+        "zh": "只填写空缺的词。"
+      }
     },
     {
       "id": "nov05-cinema-informal",
@@ -613,7 +763,8 @@
       },
       "pronunciation": {
         "en": "si-ne-MA",
-        "ru": "си-нэ-МА"
+        "ru": "си-нэ-МА",
+        "zh": "si-ne-MA"
       },
       "labels": [
         "noun"
@@ -634,7 +785,8 @@
       },
       "pronunciation": {
         "en": "ME-so",
-        "ru": "МЭ-со"
+        "ru": "МЭ-со",
+        "zh": "ME-so"
       },
       "labels": [
         "noun"
@@ -642,7 +794,22 @@
       "themes": [
         "travel"
       ],
-      "answerDisplay": "το μέσο"
+      "answerDisplay": "το μέσο",
+      "explanation": {
+        "en": "Το μέσο means a means or method: μέσο μεταφοράς — means of transport. The plural μέσα is used in μέσα μαζικής μεταφοράς — public transport.",
+        "ru": "Το μέσο — средство или способ: μέσο μεταφοράς — «средство передвижения». Множественное число — μέσα; μέσα μαζικής μεταφοράς — «общественный транспорт».",
+        "zh": "Το μέσο 表示手段或方法，如 μέσο μεταφοράς（交通工具）。复数 μέσα 用于 μέσα μαζικής μεταφοράς（公共交通工具）。"
+      },
+      "contextExample": {
+        "en": "Το τρένο είναι ένα ___ μεταφοράς. — The train is a means of transport.",
+        "ru": "Το τρένο είναι ένα ___ μεταφοράς. — Поезд — средство передвижения.",
+        "zh": "Το τρένο είναι ένα ___ μεταφοράς. — 火车是一种交通工具。"
+      },
+      "meaning": {
+        "en": "Write the missing Greek word.",
+        "ru": "Напишите только пропущенное слово.",
+        "zh": "只填写空缺的词。"
+      }
     },
     {
       "id": "nov05-word",
@@ -655,7 +822,8 @@
       },
       "pronunciation": {
         "en": "LE-ksi",
-        "ru": "ЛЭ-кси"
+        "ru": "ЛЭ-кси",
+        "zh": "LE-ksi"
       },
       "labels": [
         "noun"
@@ -676,7 +844,8 @@
       },
       "pronunciation": {
         "en": "I-meil",
-        "ru": "И-мэил"
+        "ru": "И-мэил",
+        "zh": "I-meil"
       },
       "labels": [
         "noun"
@@ -743,7 +912,8 @@
       },
       "pronunciation": {
         "en": "yim-na-STI-ri-o",
-        "ru": "йим-на-СТИ-ри-о"
+        "ru": "йим-на-СТИ-ри-о",
+        "zh": "yim-na-STI-ri-o"
       },
       "labels": [
         "noun"
@@ -764,7 +934,8 @@
       },
       "pronunciation": {
         "en": "pa-RE-a",
-        "ru": "па-РЭ-а"
+        "ru": "па-РЭ-а",
+        "zh": "pa-RE-a"
       },
       "labels": [
         "noun"
@@ -772,7 +943,22 @@
       "themes": [
         "people"
       ],
-      "answerDisplay": "η παρέα"
+      "answerDisplay": "η παρέα",
+      "explanation": {
+        "en": "Παρέα means a group of friends or company in the social sense: Πάμε παρέα — Let’s go together. A business company is εταιρεία.",
+        "ru": "Παρέα — компания друзей или совместное времяпрепровождение: πάμε παρέα — «пойдём вместе». Компания в смысле фирмы — εταιρεία.",
+        "zh": "Παρέα 可指一群朋友，也可表示有人陪伴。Πάμε παρέα. 表示“我们一起去吧。”商业意义上的公司用 εταιρεία。"
+      },
+      "contextExample": {
+        "en": "Η ___ μου είναι εδώ. — My group of friends is here.",
+        "ru": "Η ___ μου είναι εδώ. — Моя компания здесь.",
+        "zh": "Η ___ μου είναι εδώ. — 我的朋友们在这里。"
+      },
+      "meaning": {
+        "en": "Write the missing Greek word.",
+        "ru": "Напишите только пропущенное слово.",
+        "zh": "只填写空缺的词。"
+      }
     },
     {
       "id": "nov05-idea",
@@ -785,7 +971,8 @@
       },
       "pronunciation": {
         "en": "i-DHE-a",
-        "ru": "и-ДЭ-а"
+        "ru": "и-ДЭ-а",
+        "zh": "i-DHE-a"
       },
       "labels": [
         "noun"
@@ -806,7 +993,8 @@
       },
       "pronunciation": {
         "en": "ev-dho-MA-dha",
-        "ru": "эв-до-МА-да"
+        "ru": "эв-до-МА-да",
+        "zh": "ev-dho-MA-dha"
       },
       "labels": [
         "noun"
@@ -827,7 +1015,8 @@
       },
       "pronunciation": {
         "en": "MI-nas",
-        "ru": "МИ-нас"
+        "ru": "МИ-нас",
+        "zh": "MI-nas"
       },
       "labels": [
         "noun"
@@ -842,20 +1031,36 @@
       "collection": "words-pronouns",
       "greek": "τίποτα",
       "prompt": {
-        "en": "Nothing / anything (in questions)",
+        "en": "Nothing / anything",
         "ru": "Ничего / что-нибудь (в вопросах)",
         "zh": "什么也没有／什么（疑问句中）"
       },
       "pronunciation": {
         "en": "TI-po-ta",
-        "ru": "ТИ-по-та"
+        "ru": "ТИ-по-та",
+        "zh": "TI-po-ta"
       },
       "labels": [
         "pronoun"
       ],
       "themes": [
         "conversation"
-      ]
+      ],
+      "explanation": {
+        "en": "Τίποτα means nothing in a negative sentence, usually together with δεν: Δεν θέλω τίποτα — I don’t want anything. In questions it can mean anything: Θέλεις τίποτα; — Do you want anything?",
+        "ru": "Τίποτα с отрицанием означает «ничего»: δεν θέλω τίποτα — «я ничего не хочу». В вопросе может означать «что-нибудь»: θέλεις τίποτα; — «ты хочешь что-нибудь?»",
+        "zh": "Τίποτα 在否定句中表示“什么也没有”，通常与 δεν 连用；在疑问句中可表示“有什么”。Τίποτε 是另一种形式。"
+      },
+      "contextExample": {
+        "en": "Δεν θέλω ___. — I don’t want anything.",
+        "ru": "Δεν θέλω ___. — Я ничего не хочу.",
+        "zh": "Δεν θέλω ___. — 我什么也不想要。"
+      },
+      "meaning": {
+        "en": "Write the missing Greek word.",
+        "ru": "Напишите только пропущенное слово.",
+        "zh": "只填写空缺的词。"
+      }
     },
     {
       "id": "nov05-day-after-tomorrow",
@@ -868,7 +1073,8 @@
       },
       "pronunciation": {
         "en": "me-THAV-ri-o",
-        "ru": "мэ-САВ-ри-о"
+        "ru": "мэ-ТАВ-ри-о",
+        "zh": "me-THAV-ri-o"
       },
       "labels": [
         "adverb"
@@ -879,6 +1085,21 @@
       "reviewIdentity": {
         "deckId": "words-descriptions",
         "cardId": "nov05-day-after-tomorrow"
+      },
+      "contextExample": {
+        "en": "Φεύγω ___. — I am leaving the day after tomorrow.",
+        "ru": "Φεύγω ___. — Я уезжаю послезавтра.",
+        "zh": "Θα έρθω ___. — 我后天会来。"
+      },
+      "explanation": {
+        "en": "Μεθαύριο means the day after tomorrow, one day after αύριο.",
+        "ru": "Μεθαύριο — «послезавтра»: φεύγω μεθαύριο — «я уезжаю послезавтра». Не путайте с αύριο — «завтра».",
+        "zh": "Μεθαύριο 表示“后天”，即明天的下一天。"
+      },
+      "meaning": {
+        "en": "Write the missing Greek word.",
+        "ru": "Напишите только пропущенное слово.",
+        "zh": "只填写空缺的词。"
       }
     },
     {
@@ -888,18 +1109,34 @@
       "prompt": {
         "en": "But (short emphatic word)",
         "ru": "Но / да ведь (короткое слово)",
-        "zh": "可是（简短的强调词）"
+        "zh": "可是／但是（带强调语气）"
       },
       "pronunciation": {
         "en": "ma",
-        "ru": "ма"
+        "ru": "ма",
+        "zh": "ma"
       },
       "labels": [
         "conjunction"
       ],
       "themes": [
         "conversation"
-      ]
+      ],
+      "contextExample": {
+        "en": "___ δεν έχω χρόνο! — But I don’t have time!",
+        "ru": "___ δεν ξέρω! — Да ведь я не знаю!",
+        "zh": "___ δεν ξέρω! — 可是我不知道啊！"
+      },
+      "explanation": {
+        "en": "Μα is a short, often emphatic but. It commonly introduces an objection or protest: Μα δεν μπορώ! — But I can’t!",
+        "ru": "Μα — короткий союз «но», часто с оттенком возражения или удивления: μα δεν ξέρω! — «да ведь я не знаю!»",
+        "zh": "Μα 表示带强调的转折或反驳，类似“可是、但是”。"
+      },
+      "meaning": {
+        "en": "Write the missing Greek word.",
+        "ru": "Напишите только пропущенное слово.",
+        "zh": "只填写空缺的词。"
+      }
     },
     {
       "id": "nov05-kiss",
@@ -912,7 +1149,8 @@
       },
       "pronunciation": {
         "en": "fi-LI",
-        "ru": "фи-ЛИ"
+        "ru": "фи-ЛИ",
+        "zh": "fi-LI"
       },
       "labels": [
         "noun"
@@ -933,7 +1171,8 @@
       },
       "pronunciation": {
         "en": "ke-ROS",
-        "ru": "кэ-РОС"
+        "ru": "кэ-РОС",
+        "zh": "ke-ROS"
       },
       "labels": [
         "noun"
@@ -941,7 +1180,22 @@
       "themes": [
         "time"
       ],
-      "answerDisplay": "ο καιρός"
+      "answerDisplay": "ο καιρός",
+      "explanation": {
+        "en": "Καιρός means weather or a period of time: καλός καιρός — good weather; έχω καιρό να σε δω — I haven’t seen you for a long time.",
+        "ru": "Καιρός означает погоду или промежуток времени: καλός καιρός — «хорошая погода», έχω καιρό να σε δω — «я давно тебя не видел».",
+        "zh": "Καιρός 可表示天气或一段时间：καλός καιρός（好天气）；Έχω καιρό να σε δω.（我很久没见你了。）"
+      },
+      "contextExample": {
+        "en": "Ο ___ είναι καλός. — The weather is good.",
+        "ru": "Ο ___ είναι καλός. — Погода хорошая.",
+        "zh": "Ο ___ είναι καλός. — 天气很好。"
+      },
+      "meaning": {
+        "en": "Write the missing Greek word.",
+        "ru": "Напишите только пропущенное слово.",
+        "zh": "只填写空缺的词。"
+      }
     },
     {
       "id": "nov05-heat",
@@ -954,7 +1208,8 @@
       },
       "pronunciation": {
         "en": "ZES-ti",
-        "ru": "ЗЭС-ти"
+        "ru": "ЗЭС-ти",
+        "zh": "ZES-ti"
       },
       "labels": [
         "noun"
@@ -962,7 +1217,22 @@
       "themes": [
         "time"
       ],
-      "answerDisplay": "η ζέστη"
+      "answerDisplay": "η ζέστη",
+      "explanation": {
+        "en": "Η ζέστη is heat or hot weather: Κάνει ζέστη — It is hot. The adjective hot or warm is ζεστός, ζεστή, ζεστό.",
+        "ru": "Η ζέστη — жара, тепло как состояние: κάνει ζέστη — «жарко». Прилагательное «горячий» или «тёплый» имеет формы ζεστός, ζεστή, ζεστό.",
+        "zh": "Η ζέστη 是名词，表示炎热或热天气：Κάνει ζέστη.（天气很热。）表示“热的、温暖的”时用形容词 ζεστός、ζεστή、ζεστό。"
+      },
+      "contextExample": {
+        "en": "Κάνει ___. — It is hot.",
+        "ru": "Κάνει ___. — Жарко.",
+        "zh": "Κάνει ___. — 天气很热。"
+      },
+      "meaning": {
+        "en": "Write the missing Greek word.",
+        "ru": "Напишите только пропущенное слово.",
+        "zh": "只填写空缺的词。"
+      }
     },
     {
       "id": "nov05-cold",
@@ -975,7 +1245,8 @@
       },
       "pronunciation": {
         "en": "KRI-o",
-        "ru": "КРИ-о"
+        "ru": "КРИ-о",
+        "zh": "KRI-o"
       },
       "labels": [
         "noun"
@@ -983,7 +1254,22 @@
       "themes": [
         "time"
       ],
-      "answerDisplay": "το κρύο"
+      "answerDisplay": "το κρύο",
+      "explanation": {
+        "en": "Το κρύο is cold or cold weather: Κάνει κρύο — It is cold. To describe a noun, use the adjective κρύος, κρύα, κρύο.",
+        "ru": "Το κρύο — холод: κάνει κρύο — «холодно». Чтобы описать предмет, используйте прилагательное «холодный»: κρύος, κρύα, κρύο по родам.",
+        "zh": "Το κρύο 是名词，表示寒冷或冷天气：Κάνει κρύο.（天气很冷。）修饰名词时用形容词 κρύος、κρύα、κρύο。"
+      },
+      "contextExample": {
+        "en": "Κάνει ___. — It is cold.",
+        "ru": "Κάνει ___. — Холодно.",
+        "zh": "Κάνει ___. — 天气很冷。"
+      },
+      "meaning": {
+        "en": "Write the missing Greek word.",
+        "ru": "Напишите только пропущенное слово.",
+        "zh": "只填写空缺的词。"
+      }
     },
     {
       "id": "nov05-cold-adjective",
@@ -1056,7 +1342,8 @@
       },
       "pronunciation": {
         "en": "ia-nu-A-ri-os",
-        "ru": "иа-ну-А-ри-ос"
+        "ru": "иа-ну-А-ри-ос",
+        "zh": "ia-nu-A-ri-os"
       },
       "labels": [
         "noun"
@@ -1077,7 +1364,8 @@
       },
       "pronunciation": {
         "en": "fe-vru-A-ri-os",
-        "ru": "фэ-вру-А-ри-ос"
+        "ru": "фэ-вру-А-ри-ос",
+        "zh": "fe-vru-A-ri-os"
       },
       "labels": [
         "noun"
@@ -1098,7 +1386,8 @@
       },
       "pronunciation": {
         "en": "MAR-ti-os",
-        "ru": "МАР-ти-ос"
+        "ru": "МАР-ти-ос",
+        "zh": "MAR-ti-os"
       },
       "labels": [
         "noun"
@@ -1119,7 +1408,8 @@
       },
       "pronunciation": {
         "en": "a-PRI-li-os",
-        "ru": "а-ПРИ-ли-ос"
+        "ru": "а-ПРИ-ли-ос",
+        "zh": "a-PRI-li-os"
       },
       "labels": [
         "noun"
@@ -1140,7 +1430,8 @@
       },
       "pronunciation": {
         "en": "MA-i-os",
-        "ru": "МА-и-ос"
+        "ru": "МА-и-ос",
+        "zh": "MA-i-os"
       },
       "labels": [
         "noun"
@@ -1161,7 +1452,8 @@
       },
       "pronunciation": {
         "en": "i-U-ni-os",
-        "ru": "и-У-ни-ос"
+        "ru": "и-У-ни-ос",
+        "zh": "i-U-ni-os"
       },
       "labels": [
         "noun"
@@ -1182,7 +1474,8 @@
       },
       "pronunciation": {
         "en": "i-U-li-os",
-        "ru": "и-У-ли-ос"
+        "ru": "и-У-ли-ос",
+        "zh": "i-U-li-os"
       },
       "labels": [
         "noun"
@@ -1203,7 +1496,8 @@
       },
       "pronunciation": {
         "en": "AV-ghu-stos",
-        "ru": "АВ-гу-стос"
+        "ru": "АВ-гу-стос",
+        "zh": "AV-ghu-stos"
       },
       "labels": [
         "noun"
@@ -1224,7 +1518,8 @@
       },
       "pronunciation": {
         "en": "sep-TEM-vri-os",
-        "ru": "сэп-ТЭМ-ври-ос"
+        "ru": "сэп-ТЭМ-ври-ос",
+        "zh": "sep-TEM-vri-os"
       },
       "labels": [
         "noun"
@@ -1245,7 +1540,8 @@
       },
       "pronunciation": {
         "en": "ok-TO-vri-os",
-        "ru": "ок-ТО-ври-ос"
+        "ru": "ок-ТО-ври-ос",
+        "zh": "ok-TO-vri-os"
       },
       "labels": [
         "noun"
@@ -1266,7 +1562,8 @@
       },
       "pronunciation": {
         "en": "no-EM-vri-os",
-        "ru": "но-ЭМ-ври-ос"
+        "ru": "но-ЭМ-ври-ос",
+        "zh": "no-EM-vri-os"
       },
       "labels": [
         "noun"
@@ -1287,7 +1584,8 @@
       },
       "pronunciation": {
         "en": "dhe-KEM-vri-os",
-        "ru": "дэ-КЭМ-ври-ос"
+        "ru": "дэ-КЭМ-ври-ос",
+        "zh": "dhe-KEM-vri-os"
       },
       "labels": [
         "noun"
@@ -1308,7 +1606,8 @@
       },
       "pronunciation": {
         "en": "khi-MO-nas",
-        "ru": "хи-МО-нас"
+        "ru": "хи-МО-нас",
+        "zh": "khi-MO-nas"
       },
       "labels": [
         "noun"
@@ -1329,7 +1628,8 @@
       },
       "pronunciation": {
         "en": "A-ni-ksi",
-        "ru": "А-ни-кси"
+        "ru": "А-ни-кси",
+        "zh": "A-ni-ksi"
       },
       "labels": [
         "noun"
@@ -1350,7 +1650,8 @@
       },
       "pronunciation": {
         "en": "fthi-NO-po-ro",
-        "ru": "фси-НО-по-ро"
+        "ru": "фти-НО-по-ро",
+        "zh": "fthi-NO-po-ro"
       },
       "labels": [
         "noun"
@@ -1371,7 +1672,8 @@
       },
       "pronunciation": {
         "en": "ski",
-        "ru": "ски"
+        "ru": "ски",
+        "zh": "ski"
       },
       "labels": [
         "noun"
@@ -1392,7 +1694,8 @@
       },
       "pronunciation": {
         "en": "BA-nio",
-        "ru": "БА-нио"
+        "ru": "БА-нио",
+        "zh": "BA-nio"
       },
       "labels": [
         "noun"
@@ -1400,7 +1703,22 @@
       "themes": [
         "home"
       ],
-      "answerDisplay": "το μπάνιο"
+      "answerDisplay": "το μπάνιο",
+      "explanation": {
+        "en": "Το μπάνιο can mean a bath, a swim or a bathroom. Κάνω μπάνιο can mean I bathe or I go swimming; context makes the meaning clear.",
+        "ru": "Το μπάνιο может означать ванну, купание или ванную комнату. Κάνω μπάνιο — «я моюсь» или «я купаюсь»; значение зависит от ситуации.",
+        "zh": "Το μπάνιο 可指洗澡、游泳或浴室。Κάνω μπάνιο 可表示“我洗澡”或“我游泳”，具体意思由语境决定。"
+      },
+      "contextExample": {
+        "en": "Το ___ είναι δίπλα στην κουζίνα. — The bathroom is next to the kitchen.",
+        "ru": "Το ___ είναι δίπλα στην κουζίνα. — Ванная комната рядом с кухней.",
+        "zh": "Το ___ είναι δίπλα στην κουζίνα. — 浴室在厨房旁边。"
+      },
+      "meaning": {
+        "en": "Write the missing Greek word.",
+        "ru": "Напишите только пропущенное слово.",
+        "zh": "只填写空缺的词。"
+      }
     },
     {
       "id": "nov05-neighbourhood",
@@ -1413,7 +1731,8 @@
       },
       "pronunciation": {
         "en": "yi-to-NIA",
-        "ru": "йи-то-НИА"
+        "ru": "йи-то-НЬЯ",
+        "zh": "yi-to-NIA"
       },
       "labels": [
         "noun"
@@ -1434,7 +1753,8 @@
       },
       "pronunciation": {
         "en": "ran-de-VU",
-        "ru": "ран-дэ-ВУ"
+        "ru": "ран-дэ-ВУ",
+        "zh": "ran-de-VU"
       },
       "labels": [
         "noun"
@@ -1442,7 +1762,22 @@
       "themes": [
         "conversation"
       ],
-      "answerDisplay": "το ραντεβού"
+      "answerDisplay": "το ραντεβού",
+      "explanation": {
+        "en": "Ραντεβού is an indeclinable neuter noun for an arranged meeting, appointment or romantic date: Έχω ραντεβού — I have an appointment.",
+        "ru": "Το ραντεβού — заранее назначенная встреча, приём у специалиста или романтическое свидание. Существительное среднего рода, не склоняется: έχω ραντεβού — «у меня назначена встреча».",
+        "zh": "Ραντεβού 是中性不变格名词，可指约好的会面、预约或恋爱约会。Έχω ραντεβού. 表示“我有个约会／预约”。"
+      },
+      "contextExample": {
+        "en": "Έχω ___ με τον γιατρό. — I have an appointment with the doctor.",
+        "ru": "Έχω ___ με τον γιατρό. — У меня назначена встреча с врачом.",
+        "zh": "Έχω ___ με τον γιατρό. — 我约好了去看医生。"
+      },
+      "meaning": {
+        "en": "Write the missing Greek word.",
+        "ru": "Напишите только пропущенное слово.",
+        "zh": "只填写空缺的词。"
+      }
     },
     {
       "id": "nov05-tired",
@@ -1455,7 +1790,7 @@
       },
       "pronunciation": {
         "en": "ku-ras-ME-nos",
-        "ru": "ку-рас-МЕ-нос",
+        "ru": "ку-раз-МЭ-нос",
         "zh": "ku-ras-ME-nos"
       },
       "labels": [
@@ -1475,7 +1810,7 @@
           "answerDisplay": "κουρασμένος",
           "pronunciation": {
             "en": "ku-ras-ME-nos",
-            "ru": "ку-рас-МЕ-нос",
+            "ru": "ку-раз-МЭ-нос",
             "zh": "ku-ras-ME-nos"
           }
         },
@@ -1484,7 +1819,7 @@
           "answerDisplay": "κουρασμένη",
           "pronunciation": {
             "en": "ku-ras-ME-ni",
-            "ru": "ку-рас-МЕ-ни",
+            "ru": "ку-раз-МЭ-ни",
             "zh": "ku-ras-ME-ni"
           }
         },
@@ -1493,7 +1828,7 @@
           "answerDisplay": "κουρασμένο",
           "pronunciation": {
             "en": "ku-ras-ME-no",
-            "ru": "ку-рас-МЕ-но",
+            "ru": "ку-раз-МЭ-но",
             "zh": "ku-ras-ME-no"
           }
         }
@@ -1536,7 +1871,8 @@
       },
       "pronunciation": {
         "en": "a-PO-pse",
-        "ru": "а-ПО-псэ"
+        "ru": "а-ПО-псэ",
+        "zh": "a-PO-pse"
       },
       "labels": [
         "adverb"
@@ -1547,6 +1883,21 @@
       "reviewIdentity": {
         "deckId": "words-descriptions",
         "cardId": "nov05-tonight"
+      },
+      "contextExample": {
+        "en": "Θα βγούμε ___. — We will go out tonight.",
+        "ru": "Θα έρθω ___. — Я приду сегодня вечером.",
+        "zh": "Θα έρθω ___. — 我今晚会来。"
+      },
+      "explanation": {
+        "en": "Απόψε means tonight or this evening: Τα λέμε απόψε — See you tonight.",
+        "ru": "Απόψε — «сегодня вечером» или «сегодня ночью». Обозначает вечер или ночь, относящиеся к текущему дню.",
+        "zh": "Απόψε 表示“今晚”，具体指当晚的时间。"
+      },
+      "meaning": {
+        "en": "Write the missing Greek word.",
+        "ru": "Напишите только пропущенное слово.",
+        "zh": "只填写空缺的词。"
       }
     },
     {
@@ -1560,7 +1911,8 @@
       },
       "pronunciation": {
         "en": "so-va-RA",
-        "ru": "со-ва-РА"
+        "ru": "со-ва-РА",
+        "zh": "so-va-RA"
       },
       "labels": [
         "adverb"
@@ -1571,6 +1923,21 @@
       "reviewIdentity": {
         "deckId": "words-descriptions",
         "cardId": "nov05-seriously"
+      },
+      "contextExample": {
+        "en": "Μιλάω ___. — I am speaking seriously.",
+        "ru": "Μιλάω ___. — Я говорю серьёзно.",
+        "zh": "Μιλάω ___. — 我是认真的。"
+      },
+      "explanation": {
+        "en": "Σοβαρά is an adverb meaning seriously. As a question, Σοβαρά; means Really? The adjective serious changes gender: σοβαρός, σοβαρή, σοβαρό.",
+        "ru": "Σοβαρά — «серьёзно»: μιλάω σοβαρά — «я говорю серьёзно». Вопрос Σοβαρά; выражает удивление: «Серьёзно?», «Правда?»",
+        "zh": "Σοβαρά 可表示“认真地、严肃地”；单独问 Σοβαρά; 时常相当于“真的吗？”"
+      },
+      "meaning": {
+        "en": "Write the missing Greek word.",
+        "ru": "Напишите только пропущенное слово.",
+        "zh": "只填写空缺的词。"
       }
     },
     {
@@ -1584,7 +1951,8 @@
       },
       "pronunciation": {
         "en": "ka-TA",
-        "ru": "ка-ТА"
+        "ru": "ка-ТА",
+        "zh": "ka-TA"
       },
       "labels": [
         "preposition"
@@ -1595,6 +1963,21 @@
       "reviewIdentity": {
         "deckId": "words-connectors",
         "cardId": "nov05-around-time"
+      },
+      "contextExample": {
+        "en": "Θα έρθω ___ τις τρεις. — I will come around three.",
+        "ru": "Θα έρθω ___ τις οχτώ. — Я приду около восьми.",
+        "zh": "Θα έρθω ___ τις πέντε. — 我大约五点来。"
+      },
+      "explanation": {
+        "en": "With a time, κατά means around or about: κατά τις τρεις — around three. It also has other uses, such as against with a genitive noun.",
+        "ru": "Κατά перед указанием времени означает «около», «примерно»: κατά τις οχτώ — «около восьми». У предлога есть и другие значения, которые зависят от сочетания.",
+        "zh": "Κατά 在时间表达中可表示“大约”，如 κατά τις πέντε（大约五点）。"
+      },
+      "meaning": {
+        "en": "Write the missing Greek word.",
+        "ru": "Напишите только пропущенное слово.",
+        "zh": "只填写空缺的词。"
       }
     },
     {
@@ -1608,7 +1991,8 @@
       },
       "pronunciation": {
         "en": "te-NI-a",
-        "ru": "тэ-НИ-а"
+        "ru": "тэ-НИ-а",
+        "zh": "te-NI-a"
       },
       "labels": [
         "noun"
@@ -1629,7 +2013,8 @@
       },
       "pronunciation": {
         "en": "a-DZEN-da",
-        "ru": "а-ДЗЭН-да"
+        "ru": "а-ДЗЭН-да",
+        "zh": "a-DZEN-da"
       },
       "labels": [
         "noun"
@@ -1650,7 +2035,8 @@
       },
       "pronunciation": {
         "en": "ma-YI-re-ma",
-        "ru": "ма-ЙИ-рэ-ма"
+        "ru": "ма-ЙИ-рэ-ма",
+        "zh": "ma-YI-re-ma"
       },
       "labels": [
         "noun"
@@ -1671,7 +2057,8 @@
       },
       "pronunciation": {
         "en": "BA-sket",
-        "ru": "БА-скэт"
+        "ru": "БА-скэт",
+        "zh": "BA-sket"
       },
       "labels": [
         "noun"
@@ -1692,7 +2079,8 @@
       },
       "pronunciation": {
         "en": "PIA-to",
-        "ru": "ПИА-то"
+        "ru": "ПЬЯ-то",
+        "zh": "PIA-to"
       },
       "labels": [
         "noun"
@@ -1700,7 +2088,22 @@
       "themes": [
         "food"
       ],
-      "answerDisplay": "το πιάτο"
+      "answerDisplay": "το πιάτο",
+      "explanation": {
+        "en": "Πιάτο means a plate or a prepared dish: ένα πιάτο σούπα — a plate of soup. Plural: τα πιάτα.",
+        "ru": "Το πιάτο — тарелка или приготовленное блюдо. Ένα πιάτο σούπα — «тарелка супа». Множественное число — τα πιάτα.",
+        "zh": "Πιάτο 可指盘子或一道菜，如 ένα πιάτο σούπα（一份汤）。复数为 τα πιάτα。"
+      },
+      "contextExample": {
+        "en": "Το ___ είναι στο τραπέζι. — The plate is on the table.",
+        "ru": "Το ___ είναι στο τραπέζι. — Тарелка на столе.",
+        "zh": "Το ___ είναι στο τραπέζι. — 盘子在桌上。"
+      },
+      "meaning": {
+        "en": "Write the missing Greek word.",
+        "ru": "Напишите только пропущенное слово.",
+        "zh": "只填写空缺的词。"
+      }
     },
     {
       "id": "nov05-adjacent",
@@ -1773,7 +2176,8 @@
       },
       "pronunciation": {
         "en": "ku-ZI-na",
-        "ru": "ку-ЗИ-на"
+        "ru": "ку-ЗИ-на",
+        "zh": "ku-ZI-na"
       },
       "labels": [
         "noun"
@@ -1781,7 +2185,22 @@
       "themes": [
         "home"
       ],
-      "answerDisplay": "η κουζίνα"
+      "answerDisplay": "η κουζίνα",
+      "explanation": {
+        "en": "Κουζίνα means a kitchen or a cuisine: ελληνική κουζίνα — Greek cuisine. It can also refer to a cooker.",
+        "ru": "Η κουζίνα — кухня как помещение или кулинарная традиция: ελληνική κουζίνα — «греческая кухня». Также может означать кухонную плиту.",
+        "zh": "Κουζίνα 可指厨房或菜系，如 ελληνική κουζίνα（希腊菜）；也可指炉灶。"
+      },
+      "contextExample": {
+        "en": "Η ___ είναι μικρή. — The kitchen is small.",
+        "ru": "Η ___ είναι μικρή. — Кухня маленькая.",
+        "zh": "Η ___ είναι μικρή. — 厨房很小。"
+      },
+      "meaning": {
+        "en": "Write the missing Greek word.",
+        "ru": "Напишите только пропущенное слово.",
+        "zh": "只填写空缺的词。"
+      }
     },
     {
       "id": "nov05-classmate",
@@ -1794,7 +2213,8 @@
       },
       "pronunciation": {
         "en": "si-ma-thi-TIS",
-        "ru": "си-ма-си-ТИС"
+        "ru": "си-ма-ти-ТИС",
+        "zh": "si-ma-thi-TIS"
       },
       "labels": [
         "noun"
@@ -1836,7 +2256,8 @@
       },
       "pronunciation": {
         "en": "VA-zo",
-        "ru": "ВА-зо"
+        "ru": "ВА-зо",
+        "zh": "VA-zo"
       },
       "labels": [
         "noun"
@@ -1857,7 +2278,8 @@
       },
       "pronunciation": {
         "en": "ko-PE-la",
-        "ru": "ко-ПЭ-ла"
+        "ru": "ко-ПЭ-ла",
+        "zh": "ko-PE-la"
       },
       "labels": [
         "noun"
@@ -1870,6 +2292,16 @@
         "en": "A girl or young woman; can also mean girlfriend in context. Compare κορίτσι, often a child.",
         "ru": "Девушка, молодая женщина; по контексту также девушка-партнёр. Κορίτσι часто означает девочку.",
         "zh": "女孩或年轻女子；在语境中也可指女朋友。Κορίτσι 常指小女孩。"
+      },
+      "contextExample": {
+        "en": "Αυτή είναι η ___ μου. — This is my girlfriend.",
+        "ru": "Αυτή είναι η ___ μου. — Это моя девушка.",
+        "zh": "Αυτή είναι η ___ μου. — 这是我的女朋友。"
+      },
+      "meaning": {
+        "en": "Write the missing Greek word.",
+        "ru": "Напишите только пропущенное слово.",
+        "zh": "只填写空缺的词。"
       }
     },
     {
@@ -1904,7 +2336,8 @@
       },
       "pronunciation": {
         "en": "e-NI-kio",
-        "ru": "э-НИ-кио"
+        "ru": "э-НИ-кио",
+        "zh": "e-NI-kio"
       },
       "labels": [
         "noun"
@@ -1925,7 +2358,8 @@
       },
       "pronunciation": {
         "en": "lo-gha-ria-ZMOS",
-        "ru": "ло-га-риа-ЗМОС"
+        "ru": "ло-га-риа-ЗМОС",
+        "zh": "lo-gha-ria-ZMOS"
       },
       "labels": [
         "noun"
@@ -1938,6 +2372,16 @@
         "en": "A bill to pay, or an account.",
         "ru": "Счёт к оплате или учётная запись / банковский счёт.",
         "zh": "应付账单，也可指账户。"
+      },
+      "contextExample": {
+        "en": "Ο ___ είναι είκοσι ευρώ. — The bill is twenty euros.",
+        "ru": "Ο ___ είναι είκοσι ευρώ. — Счёт на двадцать евро.",
+        "zh": "Ο ___ είναι είκοσι ευρώ. — 账单金额是二十欧元。"
+      },
+      "meaning": {
+        "en": "Write the missing Greek word.",
+        "ru": "Напишите только пропущенное слово.",
+        "zh": "只填写空缺的词。"
       }
     },
     {
@@ -1993,7 +2437,8 @@
       },
       "pronunciation": {
         "en": "a-ri-ste-RA",
-        "ru": "а-ри-стэ-РА"
+        "ru": "а-ри-стэ-РА",
+        "zh": "a-ri-ste-RA"
       },
       "labels": [
         "adverb"
@@ -2004,6 +2449,21 @@
       "reviewIdentity": {
         "deckId": "words-descriptions",
         "cardId": "nov05-left"
+      },
+      "contextExample": {
+        "en": "Στρίψε ___. — Turn left.",
+        "ru": "Στρίψε ___. — Поверни налево.",
+        "zh": "Στρίψε ___. — 向左转。"
+      },
+      "explanation": {
+        "en": "Αριστερά means left or to the left as an adverb: Στρίψε αριστερά — Turn left. It does not change for gender.",
+        "ru": "Αριστερά означает и положение «слева», и направление «налево»: είναι αριστερά — «это слева», στρίψε αριστερά — «поверни налево».",
+        "zh": "Αριστερά 作方位副词表示“在左边、向左”；不随性、数变化。"
+      },
+      "meaning": {
+        "en": "Write the missing Greek word.",
+        "ru": "Напишите только пропущенное слово.",
+        "zh": "只填写空缺的词。"
       }
     },
     {
@@ -2017,7 +2477,8 @@
       },
       "pronunciation": {
         "en": "dhe-KSIA",
-        "ru": "дэ-КСИА"
+        "ru": "дэ-КСЬЯ",
+        "zh": "dhe-KSIA"
       },
       "labels": [
         "adverb"
@@ -2028,6 +2489,21 @@
       "reviewIdentity": {
         "deckId": "words-descriptions",
         "cardId": "nov05-right"
+      },
+      "contextExample": {
+        "en": "Στρίψε ___. — Turn right.",
+        "ru": "Στρίψε ___. — Поверни направо.",
+        "zh": "Στρίψε ___. — 向右转。"
+      },
+      "explanation": {
+        "en": "Δεξιά means right or to the right as an adverb: Στρίψε δεξιά — Turn right. It does not change for gender.",
+        "ru": "Δεξιά означает и положение «справа», и направление «направо»: είναι δεξιά — «это справа», στρίψε δεξιά — «поверни направо».",
+        "zh": "Δεξιά 作方位副词表示“在右边、向右”；不随性、数变化。"
+      },
+      "meaning": {
+        "en": "Write the missing Greek word.",
+        "ru": "Напишите только пропущенное слово.",
+        "zh": "只填写空缺的词。"
       }
     },
     {
@@ -2041,7 +2517,8 @@
       },
       "pronunciation": {
         "en": "ef-THI-a",
-        "ru": "эф-СИ-а"
+        "ru": "эф-ТИ-а",
+        "zh": "ef-THI-a"
       },
       "labels": [
         "adverb"
@@ -2052,6 +2529,21 @@
       "reviewIdentity": {
         "deckId": "words-descriptions",
         "cardId": "nov05-straight"
+      },
+      "contextExample": {
+        "en": "Πήγαινε ___. — Go straight ahead.",
+        "ru": "Πήγαινε ___. — Иди прямо.",
+        "zh": "Πήγαινε ___. — 一直向前走。"
+      },
+      "explanation": {
+        "en": "Ευθεία means straight ahead when giving directions: Πήγαινε ευθεία — Go straight ahead. In this use it is an adverb.",
+        "ru": "Ευθεία в указаниях пути означает «прямо»: πήγαινε ευθεία — «иди прямо».",
+        "zh": "Ευθεία 在指路时作副词，表示“直走”。"
+      },
+      "meaning": {
+        "en": "Write the missing Greek word.",
+        "ru": "Напишите только пропущенное слово.",
+        "zh": "只填写空缺的词。"
       }
     },
     {
@@ -2065,7 +2557,8 @@
       },
       "pronunciation": {
         "en": "vu-NO",
-        "ru": "ву-НО"
+        "ru": "ву-НО",
+        "zh": "vu-NO"
       },
       "labels": [
         "noun"
@@ -2082,7 +2575,7 @@
       "prompt": {
         "en": "Simple / single (one-way ticket)",
         "ru": "Простой / в одну сторону (о билете)",
-        "zh": "简单的／单程的"
+        "zh": "简单的／单程的（形容词）"
       },
       "pronunciation": {
         "en": "a-PLOS",
@@ -2133,7 +2626,12 @@
       "alternatives": [
         "απλή",
         "απλό"
-      ]
+      ],
+      "explanation": {
+        "en": "Απλός, απλή and απλό mean simple or plain. Απλό εισιτήριο is a single or one-way ticket. The adverbs απλά (in a simple way; also just) and απλώς (just or merely) do not change for gender.",
+        "ru": "Απλός, απλή, απλό — прилагательное «простой»: απλή ερώτηση — «простой вопрос». Απλό εισιτήριο — «билет в одну сторону». Наречие απλά означает «просто, понятным способом», а απλώς — «просто, всего лишь»; наречия по родам не меняются.",
+        "zh": "形容词 απλός、απλή、απλό 可表示简单的；απλό εισιτήριο 指单程票。副词 απλά 表示“以简单的方式”，απλώς 表示“只是”，不能当作本词的性别变体。"
+      }
     },
     {
       "id": "nov05-more",
@@ -2146,7 +2644,8 @@
       },
       "pronunciation": {
         "en": "pio",
-        "ru": "пио"
+        "ru": "пьо",
+        "zh": "pio"
       },
       "labels": [
         "adverb"
@@ -2157,6 +2656,21 @@
       "reviewIdentity": {
         "deckId": "words-descriptions",
         "cardId": "nov05-more"
+      },
+      "contextExample": {
+        "en": "Αυτό είναι ___ μεγάλο. — This is bigger.",
+        "ru": "Αυτό είναι ___ μεγάλο. — Это больше.",
+        "zh": "Αυτό είναι ___ μεγάλο. — 这个更大。"
+      },
+      "explanation": {
+        "en": "Πιο forms a comparison before an adjective or adverb: πιο μεγάλο — bigger; πιο γρήγορα — faster. It has no written accent and is different from ποιο, which.",
+        "ru": "Πιο ставится перед прилагательным или наречием для сравнения: πιο μεγάλο — «больше», πιο γρήγορα — «быстрее». Не изменяется. Не путайте с ποιο — вопросительным «какое?».",
+        "zh": "Πιο 放在形容词或副词前构成比较，如 πιο μεγάλο（更大的）、πιο γρήγορα（更快地）。不要与 ποιο（哪一个）混淆。"
+      },
+      "meaning": {
+        "en": "Write the missing Greek word.",
+        "ru": "Напишите только пропущенное слово.",
+        "zh": "只填写空缺的词。"
       }
     },
     {
@@ -2170,7 +2684,8 @@
       },
       "pronunciation": {
         "en": "KAR-ta",
-        "ru": "КАР-та"
+        "ru": "КАР-та",
+        "zh": "KAR-ta"
       },
       "labels": [
         "noun"
@@ -2191,7 +2706,8 @@
       },
       "pronunciation": {
         "en": "me-tri-TA",
-        "ru": "мэ-три-ТА"
+        "ru": "мэ-три-ТА",
+        "zh": "me-tri-TA"
       },
       "labels": [
         "noun"
@@ -2199,7 +2715,12 @@
       "themes": [
         "home"
       ],
-      "answerDisplay": "τα μετρητά"
+      "answerDisplay": "τα μετρητά",
+      "explanation": {
+        "en": "Τα μετρητά means cash and is neuter plural: Πληρώνω με μετρητά — I pay in cash.",
+        "ru": "Τα μετρητά — наличные деньги, средний род во множественном числе. Πληρώνω με μετρητά — «я плачу наличными».",
+        "zh": "Τα μετρητά 表示现金，是中性复数。Πληρώνω με μετρητά. 表示“我用现金付款”。"
+      }
     },
     {
       "id": "nov05-discount",
@@ -2212,7 +2733,8 @@
       },
       "pronunciation": {
         "en": "EK-pto-si",
-        "ru": "ЭК-пто-си"
+        "ru": "ЭК-пто-си",
+        "zh": "EK-pto-si"
       },
       "labels": [
         "noun"
@@ -2233,7 +2755,8 @@
       },
       "pronunciation": {
         "en": "SI-no-lo",
-        "ru": "СИ-но-ло"
+        "ru": "СИ-но-ло",
+        "zh": "SI-no-lo"
       },
       "labels": [
         "noun"
@@ -2254,7 +2777,8 @@
       },
       "pronunciation": {
         "en": "fi pi a",
-        "ru": "фи пи а"
+        "ru": "фи пи АЛ-фа",
+        "zh": "fi pi a"
       },
       "labels": [
         "noun"
@@ -2278,7 +2802,8 @@
       },
       "pronunciation": {
         "en": "kho-RIS",
-        "ru": "хо-РИС"
+        "ru": "хо-РИС",
+        "zh": "kho-RIS"
       },
       "labels": [
         "preposition"
@@ -2289,6 +2814,21 @@
       "reviewIdentity": {
         "deckId": "words-connectors",
         "cardId": "nov05-without"
+      },
+      "contextExample": {
+        "en": "Πίνω καφέ ___ ζάχαρη. — I drink coffee without sugar.",
+        "ru": "Πίνω καφέ ___ ζάχαρη. — Я пью кофе без сахара.",
+        "zh": "Θέλω καφέ ___ ζάχαρη. — 我要不加糖的咖啡。"
+      },
+      "explanation": {
+        "en": "Χωρίς means without and normally takes the accusative: χωρίς ζάχαρη — without sugar. Before a verb, use χωρίς να: χωρίς να ξέρω — without knowing.",
+        "ru": "Χωρίς — «без», обычно с винительным падежом: χωρίς ζάχαρη — «без сахара». Также может стоять перед να с глаголом: χωρίς να ξέρω — «не зная».",
+        "zh": "Χωρίς 表示“没有、不带”，后面通常接宾格：χωρίς ζάχαρη（不加糖）。"
+      },
+      "meaning": {
+        "en": "Write the missing Greek word.",
+        "ru": "Напишите только пропущенное слово.",
+        "zh": "只填写空缺的词。"
       }
     },
     {
@@ -2302,7 +2842,8 @@
       },
       "pronunciation": {
         "en": "SI-ne-fo",
-        "ru": "СИ-нэ-фо"
+        "ru": "СИ-нэ-фо",
+        "zh": "SI-ne-fo"
       },
       "labels": [
         "noun"
@@ -2323,7 +2864,8 @@
       },
       "pronunciation": {
         "en": "si-ne-FIA",
-        "ru": "си-нэ-ФИА"
+        "ru": "си-нэ-ФЬЯ",
+        "zh": "si-ne-FIA"
       },
       "labels": [
         "noun"
@@ -2344,7 +2886,8 @@
       },
       "pronunciation": {
         "en": "a-E-ras",
-        "ru": "а-Э-рас"
+        "ru": "а-Э-рас",
+        "zh": "a-E-ras"
       },
       "labels": [
         "noun"
@@ -2409,7 +2952,8 @@
       },
       "pronunciation": {
         "en": "ye-NE-thli-a",
-        "ru": "йэ-НЭ-сли-а"
+        "ru": "йэ-НЭ-тли-а",
+        "zh": "ye-NE-thli-a"
       },
       "labels": [
         "noun"
@@ -2417,7 +2961,12 @@
       "themes": [
         "time"
       ],
-      "answerDisplay": "τα γενέθλια"
+      "answerDisplay": "τα γενέθλια",
+      "explanation": {
+        "en": "Τα γενέθλια means birthday and is always plural in this sense: Έχω γενέθλια σήμερα — It is my birthday today.",
+        "ru": "Τα γενέθλια — день рождения. В этом значении слово всегда стоит во множественном числе: έχω γενέθλια σήμερα — «у меня сегодня день рождения».",
+        "zh": "Τα γενέθλια 表示生日，这个意思使用复数形式。Έχω γενέθλια σήμερα. 表示“今天是我的生日”。"
+      }
     },
     {
       "id": "nov05-sometime",
@@ -2430,7 +2979,8 @@
       },
       "pronunciation": {
         "en": "KA-po-te",
-        "ru": "КА-по-тэ"
+        "ru": "КА-по-тэ",
+        "zh": "KA-po-te"
       },
       "labels": [
         "adverb"
@@ -2439,13 +2989,23 @@
         "time"
       ],
       "explanation": {
-        "en": "Κάποτε can mean at some time in the past or future, or occasionally. Μερικές φορές is a clear everyday way to say sometimes.",
+        "en": "Κάποτε can mean at some time in the past or future, or occasionally: Κάποτε έμενα εδώ — I once lived here. Μερικές φορές is a clear everyday way to say sometimes.",
         "ru": "Κάποτε — когда-то, когда-нибудь, а также порой. Для обычного «иногда» подходит μερικές φορές.",
-        "zh": "Κάποτε 可指过去或未来某时，也可表示偶尔。常用 μερικές φορές 表示有时。"
+        "zh": "Κάποτε 可指过去某时，也可指将来某时或偶尔；具体意思由时态和语境确定。"
       },
       "reviewIdentity": {
         "deckId": "words-descriptions",
         "cardId": "nov05-sometime"
+      },
+      "contextExample": {
+        "en": "Θα πάω εκεί ___. — I will go there sometime.",
+        "ru": "___ θα πάω εκεί. — Когда-нибудь я туда поеду.",
+        "zh": "___ έμενα στην Αθήνα. — 我曾经住在雅典。"
+      },
+      "meaning": {
+        "en": "Write the missing Greek word.",
+        "ru": "Напишите только пропущенное слово.",
+        "zh": "只填写空缺的词。"
       }
     },
     {
@@ -2453,13 +3013,14 @@
       "collection": "words-prepositions",
       "greek": "ως",
       "prompt": {
-        "en": "Until / as far as (short form)",
+        "en": "Until / as far as",
         "ru": "До (короткий предлог)",
         "zh": "直到（简短形式）"
       },
       "pronunciation": {
         "en": "os",
-        "ru": "ос"
+        "ru": "ос",
+        "zh": "os"
       },
       "labels": [
         "preposition"
@@ -2470,6 +3031,21 @@
       "reviewIdentity": {
         "deckId": "words-connectors",
         "cardId": "nov05-until"
+      },
+      "contextExample": {
+        "en": "Θα μείνω ___ το βράδυ. — I will stay until the evening.",
+        "ru": "Δουλεύω ___ το βράδυ. — Я работаю до вечера.",
+        "zh": "Δουλεύω ___ τις πέντε. — 我工作到五点。"
+      },
+      "explanation": {
+        "en": "Ως can mark a limit in time or space, like έως: ως το βράδυ — until the evening; ως το σπίτι — as far as the house. In a different use it means as, for example ως δάσκαλος — as a teacher.",
+        "ru": "Ως в значении «до» обозначает предел: ως το βράδυ — «до вечера», ως το σπίτι — «до дома». В этом употреблении близко к μέχρι; у ως есть и другие значения.",
+        "zh": "Ως 可表示时间或空间的界限“直到”，如 ως τις πέντε（直到五点）；也有“作为”等其他用法。"
+      },
+      "meaning": {
+        "en": "Write the missing Greek word.",
+        "ru": "Напишите только пропущенное слово.",
+        "zh": "只填写空缺的词。"
       }
     },
     {
@@ -2483,7 +3059,8 @@
       },
       "pronunciation": {
         "en": "PA-tra",
-        "ru": "ПА-тра"
+        "ru": "ПА-тра",
+        "zh": "PA-tra"
       },
       "labels": [
         "noun"
@@ -2504,7 +3081,8 @@
       },
       "pronunciation": {
         "en": "a-le-ksan-DHRU-po-li",
-        "ru": "а-лэ-ксан-ДРУ-по-ли"
+        "ru": "а-лэ-ксан-ДРУ-по-ли",
+        "zh": "a-le-ksan-DHRU-po-li"
       },
       "labels": [
         "noun"
@@ -2525,7 +3103,8 @@
       },
       "pronunciation": {
         "en": "VO-los",
-        "ru": "ВО-лос"
+        "ru": "ВО-лос",
+        "zh": "VO-los"
       },
       "labels": [
         "noun"
@@ -2546,7 +3125,8 @@
       },
       "pronunciation": {
         "en": "KA-i-ro",
-        "ru": "КА-и-ро"
+        "ru": "КА-и-ро",
+        "zh": "KA-i-ro"
       },
       "labels": [
         "noun"
@@ -2567,7 +3147,8 @@
       },
       "pronunciation": {
         "en": "i-ghu-me-NI-tsa",
-        "ru": "и-гу-мэ-НИ-ца"
+        "ru": "и-гу-мэ-НИ-ца",
+        "zh": "i-ghu-me-NI-tsa"
       },
       "labels": [
         "noun"
@@ -2588,7 +3169,8 @@
       },
       "pronunciation": {
         "en": "BA-ri",
-        "ru": "БА-ри"
+        "ru": "БА-ри",
+        "zh": "BA-ri"
       },
       "labels": [
         "noun"
@@ -2609,7 +3191,8 @@
       },
       "pronunciation": {
         "en": "PIR-ghos",
-        "ru": "ПИР-гос"
+        "ru": "ПИР-гос",
+        "zh": "PIR-ghos"
       },
       "labels": [
         "noun"
@@ -2630,7 +3213,8 @@
       },
       "pronunciation": {
         "en": "SE-ri-fos",
-        "ru": "СЭ-ри-фос"
+        "ru": "СЭ-ри-фос",
+        "zh": "SE-ri-fos"
       },
       "labels": [
         "noun"
@@ -2651,7 +3235,8 @@
       },
       "pronunciation": {
         "en": "ra-FI-na",
-        "ru": "ра-ФИ-на"
+        "ru": "ра-ФИ-на",
+        "zh": "ra-FI-na"
       },
       "labels": [
         "noun"
@@ -2672,7 +3257,8 @@
       },
       "pronunciation": {
         "en": "LAV-ri-o",
-        "ru": "ЛАВ-ри-о"
+        "ru": "ЛАВ-ри-о",
+        "zh": "LAV-ri-o"
       },
       "labels": [
         "noun"
@@ -2693,7 +3279,8 @@
       },
       "pronunciation": {
         "en": "NE-a i-o-NI-a",
-        "ru": "НЭ-а и-о-НИ-а"
+        "ru": "НЭ-а и-о-НИ-а",
+        "zh": "NE-a i-o-NI-a"
       },
       "labels": [
         "noun"
@@ -2709,12 +3296,13 @@
       "greek": "Αττική",
       "prompt": {
         "en": "Attica / Attiki",
-        "ru": "Аттика / Аттики",
+        "ru": "Аттика / Аттики (район и станция Афин)",
         "zh": "阿提卡"
       },
       "pronunciation": {
         "en": "a-ti-KI",
-        "ru": "а-ти-КИ"
+        "ru": "а-ти-КИ",
+        "zh": "a-ti-KI"
       },
       "labels": [
         "noun"
@@ -2722,7 +3310,12 @@
       "themes": [
         "places"
       ],
-      "answerDisplay": "η Αττική"
+      "answerDisplay": "η Αττική",
+      "explanation": {
+        "ru": "Η Αττική — Аттика, область Греции. В Афинах это также название района и станции метро, которое по-русски обычно передают как «Аттики».",
+        "en": "Η Αττική is Attica, the region of Greece that includes Athens. Attiki is also the name of an Athens neighbourhood and metro station.",
+        "zh": "Η Αττική 是希腊的阿提卡地区。雅典也有同名街区和地铁站。"
+      }
     },
     {
       "id": "nov05-eritrea",
@@ -2735,7 +3328,8 @@
       },
       "pronunciation": {
         "en": "e-ri-THRE-a",
-        "ru": "э-ри-СРЭ-а"
+        "ru": "э-ри-ТРЭ-а",
+        "zh": "e-ri-THRE-a"
       },
       "labels": [
         "noun"
@@ -2756,7 +3350,8 @@
       },
       "pronunciation": {
         "en": "FI-dzi",
-        "ru": "ФИ-дзи"
+        "ru": "ФИ-дзи",
+        "zh": "FI-dzi"
       },
       "labels": [
         "noun"
@@ -2777,7 +3372,8 @@
       },
       "pronunciation": {
         "en": "FO-klant",
-        "ru": "ФО-клант"
+        "ru": "ФО-клант",
+        "zh": "FO-klant"
       },
       "labels": [
         "noun"
@@ -2801,7 +3397,8 @@
       },
       "pronunciation": {
         "en": "e-stho-NI-a",
-        "ru": "э-ссо-НИ-а"
+        "ru": "эс-то-НИ-а",
+        "zh": "e-stho-NI-a"
       },
       "labels": [
         "noun"
@@ -2822,7 +3419,8 @@
       },
       "pronunciation": {
         "en": "KHA-i-fa",
-        "ru": "ХА-и-фа"
+        "ru": "ХА-и-фа",
+        "zh": "KHA-i-fa"
       },
       "labels": [
         "noun"
@@ -2843,7 +3441,8 @@
       },
       "pronunciation": {
         "en": "li-thu-a-NI-a",
-        "ru": "ли-су-а-НИ-а"
+        "ru": "ли-ту-а-НИ-а",
+        "zh": "li-thu-a-NI-a"
       },
       "labels": [
         "noun"
@@ -2864,7 +3463,8 @@
       },
       "pronunciation": {
         "en": "fi-li-PI-nes",
-        "ru": "фи-ли-ПИ-нэс"
+        "ru": "фи-ли-ПИ-нэс",
+        "zh": "fi-li-PI-nes"
       },
       "labels": [
         "noun"
@@ -2885,7 +3485,8 @@
       },
       "pronunciation": {
         "en": "e-thi-o-PI-a",
-        "ru": "э-си-о-ПИ-а"
+        "ru": "э-ти-о-ПИ-а",
+        "zh": "e-thi-o-PI-a"
       },
       "labels": [
         "noun"
@@ -2906,7 +3507,8 @@
       },
       "pronunciation": {
         "en": "fin-lan-DHI-a",
-        "ru": "фин-лан-ДИ-а"
+        "ru": "фин-лан-ДИ-а",
+        "zh": "fin-lan-DHI-a"
       },
       "labels": [
         "noun"
@@ -2927,7 +3529,8 @@
       },
       "pronunciation": {
         "en": "RE-thim-no",
-        "ru": "РЭ-сим-но"
+        "ru": "РЭ-тим-но",
+        "zh": "RE-thim-no"
       },
       "labels": [
         "noun"
@@ -2948,7 +3551,8 @@
       },
       "pronunciation": {
         "en": "ghli-FA-dha",
-        "ru": "гли-ФА-да"
+        "ru": "гли-ФА-да",
+        "zh": "ghli-FA-dha"
       },
       "labels": [
         "noun"
@@ -2969,7 +3573,8 @@
       },
       "pronunciation": {
         "en": "KO-rin-thos",
-        "ru": "КО-рин-сос"
+        "ru": "КО-рин-тос",
+        "zh": "KO-rin-thos"
       },
       "labels": [
         "noun"
@@ -2990,7 +3595,8 @@
       },
       "pronunciation": {
         "en": "FLO-ri-na",
-        "ru": "ФЛО-ри-на"
+        "ru": "ФЛО-ри-на",
+        "zh": "FLO-ri-na"
       },
       "labels": [
         "noun"
@@ -3011,7 +3617,8 @@
       },
       "pronunciation": {
         "en": "SO-fia",
-        "ru": "СО-фиа"
+        "ru": "СО-фиа",
+        "zh": "SO-fia"
       },
       "labels": [
         "noun"
@@ -3032,7 +3639,8 @@
       },
       "pronunciation": {
         "en": "vagh-DHA-ti",
-        "ru": "ваг-ДА-ти"
+        "ru": "ваг-ДА-ти",
+        "zh": "vagh-DHA-ti"
       },
       "labels": [
         "noun"
@@ -3053,7 +3661,8 @@
       },
       "pronunciation": {
         "en": "vu-dha-PE-sti",
-        "ru": "ву-да-ПЭ-сти"
+        "ru": "ву-да-ПЭ-сти",
+        "zh": "vu-dha-PE-sti"
       },
       "labels": [
         "noun"
@@ -3074,7 +3683,8 @@
       },
       "pronunciation": {
         "en": "dha-ma-SKOS",
-        "ru": "да-ма-СКОС"
+        "ru": "да-ма-СКОС",
+        "zh": "dha-ma-SKOS"
       },
       "labels": [
         "noun"
@@ -3095,7 +3705,8 @@
       },
       "pronunciation": {
         "en": "dhu-VLI-no",
-        "ru": "ду-ВЛИ-но"
+        "ru": "ду-ВЛИ-но",
+        "zh": "dhu-VLI-no"
       },
       "labels": [
         "noun"
@@ -3116,7 +3727,8 @@
       },
       "pronunciation": {
         "en": "THI-va",
-        "ru": "СИ-ва"
+        "ru": "ТИ-ва",
+        "zh": "THI-va"
       },
       "labels": [
         "noun"
@@ -3137,7 +3749,8 @@
       },
       "pronunciation": {
         "en": "an-DHO-ra",
-        "ru": "ан-ДО-ра"
+        "ru": "ан-ДО-ра",
+        "zh": "an-DHO-ra"
       },
       "labels": [
         "noun"
@@ -3161,7 +3774,8 @@
       },
       "pronunciation": {
         "en": "ver-MU-dhes",
-        "ru": "вэр-МУ-дэс"
+        "ru": "вэр-МУ-дэс",
+        "zh": "ver-MU-dhes"
       },
       "labels": [
         "noun"
@@ -3182,7 +3796,8 @@
       },
       "pronunciation": {
         "en": "in-DHI-a",
-        "ru": "ин-ДИ-а"
+        "ru": "ин-ДИ-а",
+        "zh": "in-DHI-a"
       },
       "labels": [
         "noun"
@@ -3203,7 +3818,8 @@
       },
       "pronunciation": {
         "en": "i-or-dha-NI-a",
-        "ru": "и-ор-да-НИ-а"
+        "ru": "и-ор-да-НИ-а",
+        "zh": "i-or-dha-NI-a"
       },
       "labels": [
         "noun"
@@ -3224,7 +3840,8 @@
       },
       "pronunciation": {
         "en": "ir-lan-DHI-a",
-        "ru": "ир-лан-ДИ-а"
+        "ru": "ир-лан-ДИ-а",
+        "zh": "ir-lan-DHI-a"
       },
       "labels": [
         "noun"
@@ -3245,7 +3862,8 @@
       },
       "pronunciation": {
         "en": "sa-u-dhi-KI a-ra-VI-a",
-        "ru": "са-у-ди-КИ а-ра-ВИ-а"
+        "ru": "са-у-ди-КИ а-ра-ВИ-а",
+        "zh": "sa-u-dhi-KI a-ra-VI-a"
       },
       "labels": [
         "noun"
@@ -3266,7 +3884,8 @@
       },
       "pronunciation": {
         "en": "ZA-kin-thos",
-        "ru": "ЗА-кин-сос"
+        "ru": "ЗА-кин-тос",
+        "zh": "ZA-kin-thos"
       },
       "labels": [
         "noun"
@@ -3287,7 +3906,8 @@
       },
       "pronunciation": {
         "en": "dhi-dhi-MO-ti-kho",
-        "ru": "ди-ди-МО-ти-хо"
+        "ru": "ди-ди-МО-ти-хо",
+        "zh": "dhi-dhi-MO-ti-kho"
       },
       "labels": [
         "noun"
@@ -3308,7 +3928,8 @@
       },
       "pronunciation": {
         "en": "RO-dhos",
-        "ru": "РО-дос"
+        "ru": "РО-дос",
+        "zh": "RO-dhos"
       },
       "labels": [
         "noun"
@@ -3329,7 +3950,8 @@
       },
       "pronunciation": {
         "en": "ma-DHRI-ti",
-        "ru": "ма-ДРИ-ти"
+        "ru": "ма-ДРИ-ти",
+        "zh": "ma-DHRI-ti"
       },
       "labels": [
         "noun"
@@ -3350,7 +3972,8 @@
       },
       "pronunciation": {
         "en": "vo-ta-ni-KOS",
-        "ru": "во-та-ни-КОС"
+        "ru": "во-та-ни-КОС",
+        "zh": "vo-ta-ni-KOS"
       },
       "labels": [
         "noun"
@@ -3371,7 +3994,8 @@
       },
       "pronunciation": {
         "en": "ka-li-THE-a",
-        "ru": "ка-ли-СЭ-а"
+        "ru": "ка-ли-ТЭ-а",
+        "zh": "ka-li-THE-a"
       },
       "labels": [
         "noun"
@@ -3392,7 +4016,8 @@
       },
       "pronunciation": {
         "en": "A-yios ar-TE-mi-os",
-        "ru": "А-йиос ар-ТЭ-ми-ос"
+        "ru": "А-йиос ар-ТЭ-ми-ос",
+        "zh": "A-yios ar-TE-mi-os"
       },
       "labels": [
         "noun"
@@ -3413,7 +4038,8 @@
       },
       "pronunciation": {
         "en": "ke-sa-ria-NI",
-        "ru": "кэ-са-риа-НИ"
+        "ru": "кэ-са-риа-НИ",
+        "zh": "ke-sa-ria-NI"
       },
       "labels": [
         "noun"
@@ -3434,7 +4060,8 @@
       },
       "pronunciation": {
         "en": "vra-zi-LI-a",
-        "ru": "вра-зи-ЛИ-а"
+        "ru": "вра-зи-ЛИ-а",
+        "zh": "vra-zi-LI-a"
       },
       "labels": [
         "noun"
