@@ -5,40 +5,39 @@ import 'number_drill_test.dart' show FixedRandom;
 
 void main() {
   const answer = GreekDateAnswer();
-  test(
-    'current year, leap years and last minute are generated as civil dates',
-    () {
-      var year = 2026;
-      final random = FixedRandom(0);
-      final generator = DateDrillGenerator(
-        random: random,
-        now: () => DateTime(year, 7),
-      );
-      expect(generator.next().date, DateTime.utc(2026));
-      expect(random.bound, 365 * 24 * 60);
-      year = 2028;
-      expect(generator.next().date, DateTime.utc(2028));
-      expect(random.bound, 366 * 24 * 60);
-      final last = DateDrillGenerator(
-        random: FixedRandom(366 * 1440 - 1),
-        now: () => DateTime(2028),
-      );
-      expect(last.next().date, DateTime.utc(2028, 12, 31, 23, 59));
-      final sample = DateDrillGenerator(
-        random: Random(5),
-        now: () => DateTime(2026),
-      );
-      final months = <int>{}, minutes = <int>{};
-      for (var i = 0; i < 5000; i++) {
-        final date = sample.next().date;
-        expect(date.year, 2026);
-        months.add(date.month);
-        minutes.add(date.minute);
-      }
-      expect(months.length, 12);
-      expect(minutes.length, 60);
-    },
-  );
+  test('current year and leap years generate only five-minute civil times', () {
+    var year = 2026;
+    final random = FixedRandom(0);
+    final generator = DateDrillGenerator(
+      random: random,
+      now: () => DateTime(year, 7),
+    );
+    expect(generator.next().date, DateTime.utc(2026));
+    expect(random.bound, 365 * 24 * 12);
+    year = 2028;
+    expect(generator.next().date, DateTime.utc(2028));
+    expect(random.bound, 366 * 24 * 12);
+    final last = DateDrillGenerator(
+      random: FixedRandom(366 * 288 - 1),
+      now: () => DateTime(2028),
+    );
+    expect(last.next().date, DateTime.utc(2028, 12, 31, 23, 55));
+    final sample = DateDrillGenerator(
+      random: Random(5),
+      now: () => DateTime(2026),
+    );
+    final months = <int>{}, minutes = <int>{};
+    for (var i = 0; i < 5000; i++) {
+      final date = sample.next().date;
+      expect(date.year, 2026);
+      expect(date.minute % 5, 0);
+      expect(date.second, 0);
+      months.add(date.month);
+      minutes.add(date.minute);
+    }
+    expect(months.length, 12);
+    expect(minutes, {0, 5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55});
+  });
   test('every day and minute has an accepted display answer', () {
     for (var day = 0; day < 366; day++) {
       final q = DateDrillQuestion(DateTime.utc(2028).add(Duration(days: day)));

@@ -61,7 +61,7 @@ void main() {
                 kind: kind,
                 numbers: NumberGenerator(random: FixedRandom(3456)),
                 dates: DateDrillGenerator(
-                  random: FixedRandom(minute),
+                  random: FixedRandom(minute ~/ 5),
                   now: () => DateTime(2026),
                 ),
               ),

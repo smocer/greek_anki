@@ -44,9 +44,9 @@ class DateDrillGenerator {
     final year = _now().year;
     // UTC civil dates avoid missing/repeated hours at daylight-saving changes.
     final start = DateTime.utc(year);
-    final minutes = DateTime.utc(year + 1).difference(start).inMinutes;
+    final slots = DateTime.utc(year + 1).difference(start).inMinutes ~/ 5;
     return DateDrillQuestion(
-      start.add(Duration(minutes: _random.nextInt(minutes))),
+      start.add(Duration(minutes: _random.nextInt(slots) * 5)),
     );
   }
 }

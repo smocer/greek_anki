@@ -16,7 +16,7 @@ Pronouns include personal and demonstrative forms, question words and all seven 
 
 Numbers are practised in the separate **Number drill**, which generates any integer from 0 through 10,000 with equal probability. Answers use the neutral counting form, including feminine thousands (τρεις χιλιάδες). Number agreement with nouns stays in grammar, such as τρεις γυναίκες and τρία παιδιά.
 
-The **Date & time drill** covers the current year's dates and every minute. The date and time are separate Greek answers: weekday, feminine day count and genitive month; then a twelve-hour time and part of day. A schematic sun/moon picture identifies the lesson's five periods. Both drills run indefinitely without recording progress.
+The **Date & time drill** covers the current year's dates with times in five-minute steps. The date and time are separate Greek answers: weekday, feminine day count and genitive month; then a twelve-hour time and part of day. A schematic sun/moon picture identifies the lesson's five periods. Both drills run indefinitely without recording progress.
 
 ## Phrases
 
