@@ -9,6 +9,8 @@ class VocabularyCard {
     required this.greek,
     required this.pronunciation,
     this.explanation,
+    this.contextExample,
+    this.senseKey,
     this.alternatives = const [],
     this.acceptedAnswers = const [],
     this.reviewIdentity,
@@ -29,6 +31,9 @@ class VocabularyCard {
   final String greek;
   final LocalizedText pronunciation;
   final LocalizedText? explanation;
+  // Optional Greek sentence with a blank and a localized translation.
+  final LocalizedText? contextExample;
+  final String? senseKey;
   final List<String> alternatives;
   // Valid full phrasings (for example, an optional subject pronoun) need not
   // crowd the displayed spelling alternatives on a revealed card.
@@ -60,6 +65,8 @@ class VocabularyCard {
     greek: greek,
     pronunciation: pronunciation,
     explanation: explanation,
+    contextExample: contextExample,
+    senseKey: senseKey,
     alternatives: alternatives,
     acceptedAnswers: acceptedAnswers,
     reviewIdentity: reviewIdentity ?? this.reviewIdentity,

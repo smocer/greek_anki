@@ -18,7 +18,8 @@ int consolidateWordData(Map<String, dynamic> root) {
         entry['greek'],
         for (final form in entry['forms'] as List? ?? []) form['greek'],
       ]) {
-        final normalized = GreekText.answerKey(form as String);
+        final normalized =
+            '${collection['deck']['id']}:${entry['senseKey'] ?? ''}:${GreekText.answerKey(form as String)}';
         if (formGroups.containsKey(normalized) &&
             formGroups[normalized] != group) {
           throw FormatException('Conflicting wordGroup for $form');
@@ -38,10 +39,12 @@ int consolidateWordData(Map<String, dynamic> root) {
     if (collection['section'] != 'words') continue;
     for (final key in List<String>.from(collection['deck']['cards'])) {
       final word = GreekText.answerKey(cards[key]['greek'] as String);
-      final group = cards[key]['wordGroup'] ?? formGroups[word];
+      final scope =
+          '${collection['deck']['id']}:${cards[key]['senseKey'] ?? ''}';
+      final group = cards[key]['wordGroup'] ?? formGroups['$scope:$word'];
       groups
           .putIfAbsent(
-            group == null ? 'word:$word' : 'group:$group',
+            group == null ? '$scope:word:$word' : '$scope:group:$group',
             () => <String>{},
           )
           .add(key);

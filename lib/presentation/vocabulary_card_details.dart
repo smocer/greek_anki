@@ -53,6 +53,10 @@ class VocabularyCardDetails extends StatelessWidget {
             style: const TextStyle(fontSize: 12, color: Palette.muted),
           ),
         ],
+        if (card.contextExample != null) ...[
+          const SizedBox(height: 8),
+          Text(context.localize(card.contextExample!)),
+        ],
         if (card.explanation != null) ...[
           const SizedBox(height: 12),
           Text(

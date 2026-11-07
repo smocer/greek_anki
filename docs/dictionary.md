@@ -63,7 +63,7 @@ Multiple collections can reference one definition to avoid maintaining duplicate
    the merged dictionary.
 
 `collection` identifies an existing learning group, such as `words-nouns`,
-`words-names`, `words-verbs`, `words-pronouns`, `words-descriptions`, `words-connectors`,
+`words-names`, `words-verbs`, `words-pronouns`, `words-adjectives`, `words-adverbs`, `words-prepositions`, `words-connectors`,
 `phrases-social`, `phrases-classroom`, or `phrases-everyday`.
 The former `words-numbers` collection is archived and not offered for learning. Do not add number/date/time examples there; the random number, date and clock drills cover them.
 For grammar exercises, use a `grammar-*` collection ID from the base dictionary.
@@ -130,7 +130,7 @@ exercises still require their specified articles, and stress remains mandatory.
 used by the weekly filters.
 
 Supported `labels`: `noun`, `verb`, `adjective`, `adverb`, `pronoun`, `article`,
-`preposition`, `conjunction`, `numeral`, and `interjection`.
+`preposition`, `conjunction`, `numeral`, `interjection`, and `particle`.
 
 Supported themes: `people`, `family`, `classroom`, `home`, `food`, `places`,
 `travel`, `phone`, `time`, and `conversation`.
@@ -165,3 +165,7 @@ The old Dart dictionary lives in `tool/legacy_data/` and is used only by histori
 regression tests and migration tools. The app does not read it. Do not edit those
 files to update learning content. `tool/migrate_dictionary.dart` is a one-time
 export tool and refuses to overwrite an existing dictionary.
+
+### Context and separate uses
+
+`contextExample` is localized text containing a short Greek sentence with one `___` blank and a translation. Use it for ambiguous word prompts; the learner enters only the missing word. `senseKey` separates uses within a category (for example possessive versus indirect-object pronouns). Word consolidation is scoped to collection and sense, so homographs in different categories remain independent. Preserve review identities when moving entries.

@@ -313,6 +313,8 @@ class _DictionaryReader {
       'greek',
       'pronunciation',
       'explanation',
+      'contextExample',
+      'senseKey',
       'alternatives',
       'acceptedAnswers',
       'reviewIdentity',
@@ -347,6 +349,12 @@ class _DictionaryReader {
       explanation: data['explanation'] == null
           ? null
           : text(data['explanation'], '$path.explanation'),
+      contextExample: data['contextExample'] == null
+          ? null
+          : text(data['contextExample'], '$path.contextExample'),
+      senseKey: data['senseKey'] == null
+          ? null
+          : string(data['senseKey'], '$path.senseKey'),
       alternatives: strings(data['alternatives'], '$path.alternatives'),
       acceptedAnswers: strings(
         data['acceptedAnswers'],

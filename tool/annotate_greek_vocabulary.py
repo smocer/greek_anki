@@ -12,7 +12,7 @@ ROOT = Path(__file__).resolve().parent.parent
 PIPELINE_VERSION = '2'
 POS = {'NOUN':'noun', 'PROPN':'noun', 'VERB':'verb', 'AUX':'verb', 'ADJ':'adjective',
        'ADV':'adverb', 'PRON':'pronoun', 'ADP':'preposition', 'CCONJ':'conjunction',
-       'SCONJ':'conjunction', 'NUM':'numeral', 'INTJ':'interjection'}
+       'SCONJ':'conjunction', 'PART':'particle', 'NUM':'numeral', 'INTJ':'interjection'}
 ARTICLES = {'ο','η','το','οι','τα','τον','την','τη','του','της','τους','τις','των'}
 FUSED = {'στο','στη','στην','στον','στα','στους','στις'}
 ONE = {'ένα','ένας','έναν','μια','μία','μιας','μίας'}

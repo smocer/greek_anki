@@ -37064,9 +37064,9 @@
     "words-pronouns/possessive-my": {
       "id": "possessive-my",
       "prompt": {
-        "en": "My (possessive) / To me (as in “tell me”)",
-        "ru": "Мой / Мне (как в «скажи мне»)",
-        "zh": "我的／给我"
+        "en": "My (possessive)",
+        "ru": "Мой",
+        "zh": "我的"
       },
       "meaning": {
         "en": "Translate into Greek.",
@@ -37079,8 +37079,9 @@
         "ru": "му"
       },
       "explanation": {
-        "en": "A possessive follows the noun and does not change with its gender: το βιβλίο μου.\n\nΠες μου means tell me. This is an object pronoun, not possession.",
-        "ru": "μου — «мой». Ставится после существительного: το βιβλίο μου. Указывает, к кому относится книга; не меняется по роду или числу существительного.\n\nΠες μου — «скажи мне»: кому? После существительного μου выражает принадлежность."
+        "en": "My (possessive)",
+        "ru": "Мой",
+        "zh": "我的"
       },
       "reviewIdentity": {
         "deckId": "october-lesson",
@@ -37090,29 +37091,11 @@
         "pronoun"
       ],
       "addedWeek": "2026-10-05",
-      "senses": [
-        {
-          "en": "My (possessive)",
-          "ru": "Мой",
-          "zh": "我的"
-        },
-        {
-          "en": "To me (as in “tell me”)",
-          "ru": "Мне (как в «скажи мне»)",
-          "zh": "给我"
-        }
-      ],
       "alternatives": [],
       "acceptedAnswers": [],
-      "aliases": [
-        "to-me"
-      ],
-      "reviewAliases": [
-        {
-          "deckId": "october-lesson",
-          "cardId": "to-me"
-        }
-      ]
+      "aliases": [],
+      "reviewAliases": [],
+      "senseKey": "possessive"
     },
     "words-pronouns/possessive-your": {
       "id": "possessive-your",
@@ -37142,7 +37125,8 @@
       "labels": [
         "pronoun"
       ],
-      "addedWeek": "2026-10-05"
+      "addedWeek": "2026-10-05",
+      "senseKey": "possessive"
     },
     "words-pronouns/possessive-his": {
       "id": "possessive-his",
@@ -37172,7 +37156,8 @@
       "labels": [
         "pronoun"
       ],
-      "addedWeek": "2026-10-05"
+      "addedWeek": "2026-10-05",
+      "senseKey": "possessive"
     },
     "words-pronouns/possessive-her": {
       "id": "possessive-her",
@@ -37203,7 +37188,8 @@
       "labels": [
         "pronoun"
       ],
-      "addedWeek": "2026-10-05"
+      "addedWeek": "2026-10-05",
+      "senseKey": "possessive"
     },
     "words-pronouns/possessive-our": {
       "id": "possessive-our",
@@ -37233,14 +37219,15 @@
       "labels": [
         "pronoun"
       ],
-      "addedWeek": "2026-10-05"
+      "addedWeek": "2026-10-05",
+      "senseKey": "possessive"
     },
     "words-pronouns/possessive-your-plural": {
       "id": "possessive-your-plural",
       "prompt": {
-        "en": "Your (possessive, polite/plural) / You (unstressed object, polite/plural)",
-        "ru": "Ваш / Вас (безударное дополнение)",
-        "zh": "你们的／您的（所属）；你们／您（非重读宾语）"
+        "en": "Your (possessive, polite/plural)",
+        "ru": "Ваш",
+        "zh": "你们的／您的（所属）"
       },
       "meaning": {
         "en": "Translate into Greek.",
@@ -37253,8 +37240,9 @@
         "ru": "сас"
       },
       "explanation": {
-        "en": "A possessive follows the noun and does not change with its gender: το βιβλίο σας.\n\nΠώς σας λένε; is a polite or plural name question.",
-        "ru": "σας — «ваш». Ставится после существительного: το βιβλίο σας. Указывает, к кому относится книга; не меняется по роду или числу существительного.\n\nΠώς σας λένε; — «как Вас зовут?». После существительного σας означает «ваш»."
+        "en": "Your (possessive, polite/plural)",
+        "ru": "Ваш",
+        "zh": "你们的／您的（所属）"
       },
       "reviewIdentity": {
         "deckId": "october-lesson",
@@ -37264,29 +37252,11 @@
         "pronoun"
       ],
       "addedWeek": "2026-10-05",
-      "senses": [
-        {
-          "en": "Your (possessive, polite/plural)",
-          "ru": "Ваш",
-          "zh": "你们的／您的（所属）"
-        },
-        {
-          "en": "You (unstressed object, polite/plural)",
-          "ru": "Вас (безударное дополнение)",
-          "zh": "你们／您（非重读宾语）"
-        }
-      ],
       "alternatives": [],
       "acceptedAnswers": [],
-      "aliases": [
-        "you-object-polite"
-      ],
-      "reviewAliases": [
-        {
-          "deckId": "october-lesson",
-          "cardId": "you-object-polite"
-        }
-      ]
+      "aliases": [],
+      "reviewAliases": [],
+      "senseKey": "possessive"
     },
     "words-pronouns/possessive-their": {
       "id": "possessive-their",
@@ -37316,14 +37286,15 @@
       "labels": [
         "pronoun"
       ],
-      "addedWeek": "2026-10-05"
+      "addedWeek": "2026-10-05",
+      "senseKey": "possessive"
     },
     "words-pronouns/me-object": {
       "id": "me-object",
       "prompt": {
-        "en": "Me (unstressed object, as in “they call me”) / With",
-        "ru": "Меня (безударное, как в «меня зовут») / С (вместе с)",
-        "zh": "我（非重读宾语）／和"
+        "en": "Me (unstressed direct object)",
+        "ru": "Меня (безударная форма)",
+        "zh": "我（非重读直接宾语）"
       },
       "meaning": {
         "en": "Translate into Greek.",
@@ -37336,48 +37307,35 @@
         "ru": "мэ"
       },
       "explanation": {
-        "en": "Με λένε… means they call me…; compare με meaning with.\n\nΜε takes the accusative, for example με τη Μαρία.",
-        "ru": "Με λένε… — «меня зовут». То же написание у предлога με «с», смысл определяет контекст.\n\nВ русском «с Марией» — творительный; в греческом με τη Μαρία — винительный. Με без ударения."
+        "en": "Me (unstressed direct object)",
+        "ru": "Меня (безударная форма)",
+        "zh": "我（非重读直接宾语）"
       },
       "reviewIdentity": {
         "deckId": "october-lesson",
         "cardId": "me-object"
       },
       "labels": [
-        "pronoun",
-        "preposition"
+        "pronoun"
       ],
       "addedWeek": "2026-09-28",
-      "senses": [
-        {
-          "en": "Me (unstressed object, as in “they call me”)",
-          "ru": "Меня (безударное, как в «меня зовут»)",
-          "zh": "我（宾语）"
-        },
-        {
-          "en": "With",
-          "ru": "С (вместе с)",
-          "zh": "和；用"
-        }
-      ],
       "alternatives": [],
       "acceptedAnswers": [],
-      "aliases": [
-        "lesson-connectors.with"
-      ],
-      "reviewAliases": [
-        {
-          "deckId": "lesson-connectors",
-          "cardId": "with"
-        }
-      ]
+      "aliases": [],
+      "reviewAliases": [],
+      "contextExample": {
+        "en": "___ βλέπεις; — Do you see me?",
+        "ru": "___ βλέπεις; — Ты меня видишь?",
+        "zh": "___ βλέπεις; — 你看见我了吗？"
+      },
+      "senseKey": "direct-object"
     },
     "words-pronouns/you-object": {
       "id": "you-object",
       "prompt": {
-        "en": "You (unstressed object, informal) / In / at / to (preposition)",
-        "ru": "Тебя (безударное, на ты) / В / на / к (предлог)",
-        "zh": "你（非重读宾语）／在；到"
+        "en": "You (unstressed direct object, singular)",
+        "ru": "Тебя (безударная форма)",
+        "zh": "你（非重读直接宾语）"
       },
       "meaning": {
         "en": "Translate into Greek.",
@@ -37390,41 +37348,28 @@
         "ru": "сэ"
       },
       "explanation": {
-        "en": "Πώς σε λένε; means what is your name?\n\nWith the definite article: στον, στην, στο.",
-        "ru": "Πώς σε λένε; — «как тебя зовут?». Здесь σε — «тебя», а не предлог «в/на».\n\nОбозначает место и направление. Σε + артикль: στον, στην, στο."
+        "en": "You (unstressed direct object, singular)",
+        "ru": "Тебя (безударная форма)",
+        "zh": "你（非重读直接宾语）"
       },
       "reviewIdentity": {
         "deckId": "october-lesson",
         "cardId": "you-object"
       },
       "labels": [
-        "pronoun",
-        "preposition"
+        "pronoun"
       ],
       "addedWeek": "2026-10-05",
-      "senses": [
-        {
-          "en": "You (unstressed object, informal)",
-          "ru": "Тебя (безударное, на ты)",
-          "zh": "你"
-        },
-        {
-          "en": "In / at / to (preposition)",
-          "ru": "В / на / к (предлог)",
-          "zh": "在；到"
-        }
-      ],
       "alternatives": [],
       "acceptedAnswers": [],
-      "aliases": [
-        "in-word"
-      ],
-      "reviewAliases": [
-        {
-          "deckId": "october-lesson",
-          "cardId": "in-word"
-        }
-      ]
+      "aliases": [],
+      "reviewAliases": [],
+      "contextExample": {
+        "en": "___ βλέπω. — I see you.",
+        "ru": "___ βλέπω. — Вижу тебя.",
+        "zh": "___ βλέπω. — 我看见你了。"
+      },
+      "senseKey": "direct-object"
     },
     "words-pronouns/you-emphatic": {
       "id": "you-emphatic",
@@ -38035,9 +37980,9 @@
     "words-descriptions/questions.why": {
       "id": "questions.why",
       "prompt": {
-        "en": "Why? / Because",
-        "ru": "Почему? / зачем? / Потому что",
-        "zh": "为什么？／因为"
+        "en": "Why?",
+        "ru": "Почему?",
+        "zh": "为什么？"
       },
       "meaning": {
         "en": "Write the question word or phrase.",
@@ -38050,16 +37995,16 @@
         "ru": "я-ТИ"
       },
       "explanation": {
-        "en": "Also means because in an answer.\n\nThe same word as why; here it introduces a reason.",
-        "ru": "Как вопрос — «почему/зачем?», в ответе — «потому что». Значение зависит от контекста.\n\nОдна форма для «почему?» и «потому что»: связь вопроса и ответа нужно понимать по контексту."
+        "en": "Why?",
+        "ru": "Почему?",
+        "zh": "为什么？"
       },
       "reviewIdentity": {
         "deckId": "questions",
         "cardId": "why"
       },
       "labels": [
-        "adverb",
-        "conjunction"
+        "adverb"
       ],
       "addedWeek": "2026-09-28",
       "words": [
@@ -38075,29 +38020,16 @@
           "addedWeek": "2026-09-28"
         }
       ],
-      "senses": [
-        {
-          "en": "Why?",
-          "ru": "Почему? / зачем?",
-          "zh": "为什么？"
-        },
-        {
-          "en": "Because",
-          "ru": "Потому что",
-          "zh": "因为"
-        }
-      ],
       "alternatives": [],
       "acceptedAnswers": [],
-      "aliases": [
-        "small-words.because"
-      ],
-      "reviewAliases": [
-        {
-          "deckId": "small-words",
-          "cardId": "because"
-        }
-      ]
+      "aliases": [],
+      "reviewAliases": [],
+      "contextExample": {
+        "en": "___ φεύγεις; — Why are you leaving?",
+        "ru": "___ φεύγεις; — Почему ты уходишь?",
+        "zh": "___ φεύγεις; — 你为什么离开？"
+      },
+      "senseKey": "why"
     },
     "words-descriptions/small-talk-replies.fairly-well": {
       "id": "small-talk-replies.fairly-well",
@@ -38481,7 +38413,8 @@
         }
       ],
       "alternatives": [
-        "παντρεμένη"
+        "παντρεμένη",
+        "παντρεμένο"
       ],
       "acceptedAnswers": [
         "παντρεμένος",
@@ -38503,9 +38436,18 @@
             "en": "pan-dre-ME-ni",
             "ru": "пан-дрэ-МЭ-ни"
           }
+        },
+        {
+          "greek": "παντρεμένο",
+          "answerDisplay": "παντρεμένο",
+          "pronunciation": {
+            "en": "pan-dre-ME-no",
+            "ru": "пан-дрэ-МЕ-но",
+            "zh": "pan-dre-ME-no"
+          }
         }
       ],
-      "answerDisplay": "παντρεμένος / παντρεμένη",
+      "answerDisplay": "παντρεμένος / παντρεμένη / παντρεμένο",
       "aliases": [
         "family-status-married-woman"
       ],
@@ -38554,7 +38496,8 @@
         }
       ],
       "alternatives": [
-        "ελεύθερη"
+        "ελεύθερη",
+        "ελεύθερο"
       ],
       "acceptedAnswers": [
         "ελεύθερος",
@@ -38576,9 +38519,18 @@
             "en": "e-LEF-the-ri",
             "ru": "э-ЛЭФ-тэ-ри"
           }
+        },
+        {
+          "greek": "ελεύθερο",
+          "answerDisplay": "ελεύθερο",
+          "pronunciation": {
+            "en": "e-LEF-the-ro",
+            "ru": "э-ЛЕФ-тэ-ро",
+            "zh": "e-LEF-the-ro"
+          }
         }
       ],
-      "answerDisplay": "ελεύθερος / ελεύθερη",
+      "answerDisplay": "ελεύθερος / ελεύθερη / ελεύθερο",
       "aliases": [
         "family-status-single-woman"
       ],
@@ -38627,7 +38579,8 @@
         }
       ],
       "alternatives": [
-        "χωρισμένη"
+        "χωρισμένη",
+        "χωρισμένο"
       ],
       "acceptedAnswers": [
         "χωρισμένος",
@@ -38649,9 +38602,18 @@
             "en": "kho-riz-ME-ni",
             "ru": "хо-риз-МЭ-ни"
           }
+        },
+        {
+          "greek": "χωρισμένο",
+          "answerDisplay": "χωρισμένο",
+          "pronunciation": {
+            "en": "kho-ris-ME-no",
+            "ru": "хо-рис-МЕ-но",
+            "zh": "kho-ris-ME-no"
+          }
         }
       ],
-      "answerDisplay": "χωρισμένος / χωρισμένη",
+      "answerDisplay": "χωρισμένος / χωρισμένη / χωρισμένο",
       "aliases": [
         "family-status-divorced-woman"
       ],
@@ -38704,10 +38666,11 @@
         "ru": "Переведите на греческий.",
         "zh": "请翻译成希腊语。"
       },
-      "greek": "σωστό",
+      "greek": "σωστός",
       "pronunciation": {
-        "en": "so-STO",
-        "ru": "со-СТО"
+        "en": "so-STOS",
+        "ru": "со-СТОС",
+        "zh": "so-STOS"
       },
       "explanation": {
         "en": "Adjective forms: σωστός, σωστή, σωστό. The exercise label uses the neuter form.",
@@ -38720,7 +38683,42 @@
       "labels": [
         "adjective"
       ],
-      "addedWeek": "2026-10-05"
+      "addedWeek": "2026-10-05",
+      "wordGroup": "audit-correct",
+      "forms": [
+        {
+          "greek": "σωστός",
+          "answerDisplay": "σωστός",
+          "pronunciation": {
+            "en": "so-STOS",
+            "ru": "со-СТОС",
+            "zh": "so-STOS"
+          }
+        },
+        {
+          "greek": "σωστή",
+          "answerDisplay": "σωστή",
+          "pronunciation": {
+            "en": "so-STI",
+            "ru": "со-СТИ",
+            "zh": "so-STI"
+          }
+        },
+        {
+          "greek": "σωστό",
+          "answerDisplay": "σωστό",
+          "pronunciation": {
+            "en": "so-STO",
+            "ru": "со-СТО",
+            "zh": "so-STO"
+          }
+        }
+      ],
+      "answerDisplay": "σωστός / σωστή / σωστό",
+      "alternatives": [
+        "σωστή",
+        "σωστό"
+      ]
     },
     "words-descriptions/again": {
       "id": "again",
@@ -38845,6 +38843,9 @@
           "tag": "PART",
           "addedWeek": "2026-09-28"
         }
+      ],
+      "labels": [
+        "particle"
       ]
     },
     "words-connectors/lesson-connectors.or": {
@@ -38927,6 +38928,9 @@
           "tag": "ADV",
           "addedWeek": "2026-09-28"
         }
+      ],
+      "labels": [
+        "particle"
       ]
     },
     "words-connectors/small-words.and": {
@@ -39182,7 +39186,10 @@
         "deckId": "october-lesson",
         "cardId": "from-word"
       },
-      "addedWeek": "2026-10-05"
+      "addedWeek": "2026-10-05",
+      "labels": [
+        "preposition"
+      ]
     },
     "words-numbers/numbers-0-10.number-0": {
       "id": "numbers-0-10.number-0",
@@ -58794,6 +58801,224 @@
         "deckId": "grammar-verbs-b2",
         "cardId": "b2-can-they"
       }
+    },
+    "words-prepositions/lesson-connectors.with": {
+      "id": "lesson-connectors.with",
+      "prompt": {
+        "en": "With",
+        "ru": "С (вместе с)",
+        "zh": "和……一起"
+      },
+      "meaning": {
+        "en": "Translate into Greek.",
+        "ru": "Переведите на греческий.",
+        "zh": "请翻译成希腊语。"
+      },
+      "greek": "με",
+      "pronunciation": {
+        "en": "me",
+        "ru": "мэ"
+      },
+      "explanation": {
+        "en": "A preposition followed by the accusative; expresses company or means.",
+        "ru": "Предлог с винительным падежом: совместность или средство действия.",
+        "zh": "介词，后接宾格，表示陪同或方式。"
+      },
+      "reviewIdentity": {
+        "deckId": "lesson-connectors",
+        "cardId": "with"
+      },
+      "labels": [
+        "preposition"
+      ],
+      "addedWeek": "2026-09-28",
+      "alternatives": [],
+      "acceptedAnswers": [],
+      "aliases": [],
+      "reviewAliases": [],
+      "senseKey": "with",
+      "contextExample": {
+        "en": "Πάω ___ τη Μαρία. — I am going with Maria.",
+        "ru": "Πάω ___ τη Μαρία. — Иду с Марией.",
+        "zh": "Πάω ___ τη Μαρία. — 我和玛丽亚一起去。"
+      }
+    },
+    "words-prepositions/in-word": {
+      "id": "in-word",
+      "prompt": {
+        "en": "In / at / to",
+        "ru": "В / на / к",
+        "zh": "在／到"
+      },
+      "meaning": {
+        "en": "Translate into Greek.",
+        "ru": "Переведите на греческий.",
+        "zh": "请翻译成希腊语。"
+      },
+      "greek": "σε",
+      "pronunciation": {
+        "en": "se",
+        "ru": "сэ"
+      },
+      "explanation": {
+        "en": "A preposition followed by the accusative, for location or destination.",
+        "ru": "Предлог с винительным падежом, обозначающий место или направление.",
+        "zh": "介词，后接宾格，表示位置或目的地。"
+      },
+      "reviewIdentity": {
+        "deckId": "october-lesson",
+        "cardId": "in-word"
+      },
+      "labels": [
+        "preposition"
+      ],
+      "addedWeek": "2026-10-05",
+      "alternatives": [],
+      "acceptedAnswers": [],
+      "aliases": [],
+      "reviewAliases": [],
+      "senseKey": "in-at-to",
+      "contextExample": {
+        "en": "Μένω ___ ένα σπίτι. — I live in a house.",
+        "ru": "Μένω ___ ένα σπίτι. — Живу в доме.",
+        "zh": "Μένω ___ ένα σπίτι. — 我住在一所房子里。"
+      }
+    },
+    "words-connectors/small-words.because": {
+      "id": "small-words.because",
+      "prompt": {
+        "en": "Because",
+        "ru": "Потому что",
+        "zh": "因为"
+      },
+      "meaning": {
+        "en": "Write the question word or phrase.",
+        "ru": "Напишите вопросительное слово или фразу.",
+        "zh": "写出疑问词或短语。"
+      },
+      "greek": "γιατί",
+      "pronunciation": {
+        "en": "ya-TI",
+        "ru": "я-ТИ"
+      },
+      "explanation": {
+        "en": "Introduces the reason for something.",
+        "ru": "Вводит причину действия.",
+        "zh": "引出原因。"
+      },
+      "reviewIdentity": {
+        "deckId": "small-words",
+        "cardId": "because"
+      },
+      "labels": [
+        "conjunction"
+      ],
+      "addedWeek": "2026-09-28",
+      "words": [
+        {
+          "surface": "γιατί",
+          "lemma": "γιατί",
+          "start": 0,
+          "end": 5,
+          "labels": [
+            "adverb"
+          ],
+          "tag": "SCONJ",
+          "addedWeek": "2026-09-28"
+        }
+      ],
+      "alternatives": [],
+      "acceptedAnswers": [],
+      "aliases": [],
+      "reviewAliases": [],
+      "senseKey": "because",
+      "contextExample": {
+        "en": "Τρώω ___ πεινάω. — I eat because I am hungry.",
+        "ru": "Τρώω ___ πεινάω. — Ем, потому что голоден.",
+        "zh": "Τρώω ___ πεινάω. — 我吃东西，因为我饿了。"
+      }
+    },
+    "words-pronouns/to-me": {
+      "id": "to-me",
+      "prompt": {
+        "en": "To me",
+        "ru": "Мне",
+        "zh": "给我"
+      },
+      "meaning": {
+        "en": "Translate into Greek.",
+        "ru": "Переведите на греческий.",
+        "zh": "请翻译成希腊语。"
+      },
+      "greek": "μου",
+      "pronunciation": {
+        "en": "mu",
+        "ru": "му"
+      },
+      "explanation": {
+        "en": "To me",
+        "ru": "Мне",
+        "zh": "给我"
+      },
+      "reviewIdentity": {
+        "deckId": "october-lesson",
+        "cardId": "to-me"
+      },
+      "labels": [
+        "pronoun"
+      ],
+      "addedWeek": "2026-10-05",
+      "alternatives": [],
+      "acceptedAnswers": [],
+      "aliases": [],
+      "reviewAliases": [],
+      "senseKey": "indirect-object",
+      "contextExample": {
+        "en": "___ δίνεις το βιβλίο; — Will you give me the book?",
+        "ru": "___ δίνεις το βιβλίο; — Дашь мне книгу?",
+        "zh": "___ δίνεις το βιβλίο; — 你把书给我好吗？"
+      }
+    },
+    "words-pronouns/you-object-polite": {
+      "id": "you-object-polite",
+      "prompt": {
+        "en": "You (direct object, plural or polite)",
+        "ru": "Вас (безударная форма)",
+        "zh": "你们／您（非重读直接宾语）"
+      },
+      "meaning": {
+        "en": "Translate into Greek.",
+        "ru": "Переведите на греческий.",
+        "zh": "请翻译成希腊语。"
+      },
+      "greek": "σας",
+      "pronunciation": {
+        "en": "sas",
+        "ru": "сас"
+      },
+      "explanation": {
+        "en": "You (direct object, plural or polite)",
+        "ru": "Вас (безударная форма)",
+        "zh": "你们／您（非重读直接宾语）"
+      },
+      "reviewIdentity": {
+        "deckId": "october-lesson",
+        "cardId": "you-object-polite"
+      },
+      "labels": [
+        "pronoun"
+      ],
+      "addedWeek": "2026-10-05",
+      "alternatives": [],
+      "acceptedAnswers": [],
+      "aliases": [],
+      "reviewAliases": [],
+      "senseKey": "direct-object",
+      "contextExample": {
+        "en": "___ βλέπω. — I see you (plural or polite).",
+        "ru": "___ βλέπω. — Вижу вас.",
+        "zh": "___ βλέπω. — 我看见你们了。"
+      }
     }
   },
   "decks": [
@@ -61080,7 +61305,6 @@
           "zh": "学习每个单词的意思和拼写。"
         },
         "cards": [
-          "words-pronouns/questions.how-much",
           "words-pronouns/questions.what",
           "words-pronouns/questions.which-neuter",
           "words-pronouns/questions.who-man",
@@ -61110,13 +61334,12 @@
           "words-pronouns/family-her-object",
           "words-pronouns/family-it-object",
           "words-pronouns/family-everyone",
-          "words-pronouns/family-everything"
+          "words-pronouns/family-everything",
+          "words-pronouns/to-me",
+          "words-pronouns/you-object-polite"
         ]
       },
       "themes": {
-        "questions.how-much": [
-          "conversation"
-        ],
         "questions.what": [
           "conversation"
         ],
@@ -61209,30 +61432,86 @@
         ],
         "family-everyone": [
           "conversation"
+        ],
+        "to-me": [
+          "conversation"
+        ],
+        "you-object-polite": [
+          "conversation"
         ]
       }
     },
     {
       "section": "words",
       "deck": {
-        "id": "words-descriptions",
+        "id": "words-adjectives",
         "title": {
-          "en": "Adjectives & adverbs",
-          "ru": "Прилагательные и наречия",
-          "zh": "形容词与副词"
+          "en": "Adjectives",
+          "ru": "Прилагательные",
+          "zh": "形容词"
         },
         "subtitle": {
-          "en": "Describe things, time and place",
-          "ru": "Признаки, время и место",
-          "zh": "描述事物、时间与地点"
+          "en": "Describe people and things",
+          "ru": "Признаки людей и предметов",
+          "zh": "描述人和事物"
         },
-        "cover": "ξανά",
+        "cover": "καλός",
         "note": {
           "en": "Learn the meaning and spelling of each word.",
           "ru": "Учите значение и написание каждого слова.",
           "zh": "学习每个单词的意思和拼写。"
         },
         "cards": [
+          "words-descriptions/family-status-married-man",
+          "words-descriptions/family-status-single-man",
+          "words-descriptions/family-status-divorced-man",
+          "words-descriptions/wrong",
+          "words-descriptions/correct"
+        ]
+      },
+      "themes": {
+        "family-status-married-man": [
+          "family",
+          "people"
+        ],
+        "family-status-single-man": [
+          "family",
+          "people"
+        ],
+        "family-status-divorced-man": [
+          "family",
+          "people"
+        ],
+        "wrong": [
+          "conversation"
+        ],
+        "correct": [
+          "conversation"
+        ]
+      }
+    },
+    {
+      "section": "words",
+      "deck": {
+        "id": "words-adverbs",
+        "title": {
+          "en": "Adverbs",
+          "ru": "Наречия",
+          "zh": "副词"
+        },
+        "subtitle": {
+          "en": "How, when and where",
+          "ru": "Как, когда и где",
+          "zh": "怎样、何时、何地"
+        },
+        "cover": "πάντα",
+        "note": {
+          "en": "Learn the meaning and spelling of each word.",
+          "ru": "Учите значение и написание каждого слова.",
+          "zh": "学习每个单词的意思和拼写。"
+        },
+        "cards": [
+          "words-pronouns/questions.how-much",
           "words-descriptions/addresses-nearby.far",
           "words-descriptions/addresses-nearby.near",
           "words-descriptions/how-are-you.fine",
@@ -61250,16 +61529,16 @@
           "words-descriptions/small-words.there",
           "words-descriptions/small-words.today",
           "words-descriptions/small-words.tomorrow",
-          "words-descriptions/family-status-married-man",
-          "words-descriptions/family-status-single-man",
-          "words-descriptions/family-status-divorced-man",
-          "words-descriptions/wrong",
-          "words-descriptions/correct",
           "words-descriptions/again",
-          "words-descriptions/only"
+          "words-descriptions/only",
+          "words-connectors/small-words.no",
+          "words-connectors/small-words.yes"
         ]
       },
       "themes": {
+        "questions.how-much": [
+          "conversation"
+        ],
         "addresses-nearby.far": [
           "places"
         ],
@@ -61282,6 +61561,9 @@
           "time"
         ],
         "questions.where": [
+          "conversation"
+        ],
+        "questions.why": [
           "conversation"
         ],
         "small-talk-replies.fairly-well": [
@@ -61308,32 +61590,59 @@
         "small-words.tomorrow": [
           "time"
         ],
-        "wrong": [
-          "conversation"
-        ],
-        "correct": [
-          "conversation"
-        ],
         "again": [
           "conversation"
         ],
         "only": [
           "conversation"
         ],
-        "questions.why": [
+        "small-words.no": [
           "conversation"
         ],
-        "family-status-married-man": [
-          "family",
-          "people"
+        "small-words.yes": [
+          "conversation"
+        ]
+      }
+    },
+    {
+      "section": "words",
+      "deck": {
+        "id": "words-prepositions",
+        "title": {
+          "en": "Prepositions",
+          "ru": "Предлоги",
+          "zh": "介词"
+        },
+        "subtitle": {
+          "en": "Place, direction and other relationships",
+          "ru": "Место, направление и другие отношения",
+          "zh": "位置、方向及其他关系"
+        },
+        "cover": "με",
+        "note": {
+          "en": "Learn the meaning and spelling of each word.",
+          "ru": "Учите значение и написание каждого слова.",
+          "zh": "学习每个单词的意思和拼写。"
+        },
+        "cards": [
+          "words-prepositions/lesson-connectors.with",
+          "words-connectors/family-for",
+          "words-connectors/from-word",
+          "words-prepositions/in-word"
+        ]
+      },
+      "themes": {
+        "lesson-connectors.with": [
+          "conversation"
         ],
-        "family-status-single-man": [
-          "family",
-          "people"
+        "family-for": [
+          "conversation"
         ],
-        "family-status-divorced-man": [
-          "family",
-          "people"
+        "from-word": [
+          "conversation"
+        ],
+        "in-word": [
+          "conversation"
         ]
       }
     },
@@ -61342,14 +61651,14 @@
       "deck": {
         "id": "words-connectors",
         "title": {
-          "en": "Connecting words & prepositions",
-          "ru": "Связки и предлоги",
-          "zh": "连接词与介词"
+          "en": "Linking words & particles",
+          "ru": "Союзы и частицы",
+          "zh": "连接词与小品词"
         },
         "subtitle": {
-          "en": "Small words that connect a sentence",
-          "ru": "Короткие слова для связи в предложении",
-          "zh": "连接句子的小词"
+          "en": "Link ideas, negate and respond",
+          "ru": "Связь мыслей, отрицание и ответы",
+          "zh": "连接意思、否定与应答"
         },
         "cover": "και",
         "note": {
@@ -61361,15 +61670,9 @@
           "words-connectors/lesson-connectors.not",
           "words-connectors/lesson-connectors.or",
           "words-connectors/lesson-connectors.perhaps",
-          "words-pronouns/me-object",
           "words-connectors/small-words.and",
-          "words-descriptions/questions.why",
-          "words-connectors/small-words.but",
-          "words-connectors/small-words.no",
-          "words-connectors/small-words.yes",
-          "words-connectors/family-for",
-          "words-connectors/from-word",
-          "words-pronouns/you-object"
+          "words-connectors/small-words.because",
+          "words-connectors/small-words.but"
         ]
       },
       "themes": {
@@ -61388,25 +61691,7 @@
         "small-words.but": [
           "conversation"
         ],
-        "small-words.no": [
-          "conversation"
-        ],
-        "small-words.yes": [
-          "conversation"
-        ],
-        "from-word": [
-          "conversation"
-        ],
-        "me-object": [
-          "conversation"
-        ],
-        "you-object": [
-          "conversation"
-        ],
-        "questions.why": [
-          "conversation"
-        ],
-        "family-for": [
+        "small-words.because": [
           "conversation"
         ]
       }

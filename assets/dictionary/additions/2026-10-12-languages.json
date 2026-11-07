@@ -462,7 +462,7 @@
     },
     {
       "id": "languages-self-employed",
-      "collection": "words-descriptions",
+      "collection": "words-adjectives",
       "greek": "αυτοεργοδοτούμενος",
       "prompt": {
         "en": "Self-employed (Cypriot usage)",
@@ -500,16 +500,30 @@
             "en": "af-to-er-gho-dho-TU-me-ni",
             "ru": "аф-то-эр-го-до-ТУ-мэ-ни"
           }
+        },
+        {
+          "greek": "αυτοεργοδοτούμενο",
+          "answerDisplay": "αυτοεργοδοτούμενο",
+          "pronunciation": {
+            "en": "af-to-er-gho-dho-TU-me-no",
+            "ru": "аф-то-эр-го-до-ТУ-мэ-но",
+            "zh": "af-to-er-gho-dho-TU-me-no"
+          }
         }
       ],
-      "answerDisplay": "αυτοεργοδοτούμενος / αυτοεργοδοτούμενη",
+      "answerDisplay": "αυτοεργοδοτούμενος / αυτοεργοδοτούμενη / αυτοεργοδοτούμενο",
       "alternatives": [
-        "αυτοεργοδοτούμενη"
+        "αυτοεργοδοτούμενη",
+        "αυτοεργοδοτούμενο"
       ],
       "acceptedAnswers": [
         "αυτοεργοδοτούμενος",
         "αυτοεργοδοτούμενη"
-      ]
+      ],
+      "reviewIdentity": {
+        "deckId": "words-descriptions",
+        "cardId": "languages-self-employed"
+      }
     },
     {
       "id": "languages-veterinarian",
@@ -662,7 +676,7 @@
     },
     {
       "id": "languages-wet",
-      "collection": "words-descriptions",
+      "collection": "words-adjectives",
       "greek": "βρεγμένος",
       "prompt": {
         "en": "Wet",
@@ -719,7 +733,11 @@
         "βρεγμένος",
         "βρεγμένη",
         "βρεγμένο"
-      ]
+      ],
+      "reviewIdentity": {
+        "deckId": "words-descriptions",
+        "cardId": "languages-wet"
+      }
     },
     {
       "id": "languages-nationality-greek",
@@ -2800,7 +2818,7 @@
     },
     {
       "id": "languages-unfortunately",
-      "collection": "words-descriptions",
+      "collection": "words-adverbs",
       "greek": "δυστυχώς",
       "prompt": {
         "en": "Unfortunately",
@@ -2816,11 +2834,15 @@
       ],
       "labels": [
         "adverb"
-      ]
+      ],
+      "reviewIdentity": {
+        "deckId": "words-descriptions",
+        "cardId": "languages-unfortunately"
+      }
     },
     {
       "id": "languages-fairly",
-      "collection": "words-descriptions",
+      "collection": "words-adverbs",
       "greek": "αρκετά",
       "prompt": {
         "en": "Enough / fairly",
@@ -2840,11 +2862,15 @@
       "explanation": {
         "en": "Αρκετά καλά = fairly / quite well. Αρκετά can also mean “enough”.",
         "ru": "Αρκετά καλά — «довольно хорошо». Арκετά также значит «достаточно»."
+      },
+      "reviewIdentity": {
+        "deckId": "words-descriptions",
+        "cardId": "languages-fairly"
       }
     },
     {
       "id": "languages-little",
-      "collection": "words-descriptions",
+      "collection": "words-adverbs",
       "greek": "λίγο",
       "prompt": {
         "en": "A little",
@@ -2860,11 +2886,15 @@
       ],
       "labels": [
         "adverb"
-      ]
+      ],
+      "reviewIdentity": {
+        "deckId": "words-descriptions",
+        "cardId": "languages-little"
+      }
     },
     {
       "id": "languages-not-at-all",
-      "collection": "words-descriptions",
+      "collection": "words-adverbs",
       "greek": "καθόλου",
       "prompt": {
         "en": "Not at all (in a negative statement)",
@@ -2884,11 +2914,15 @@
       "explanation": {
         "en": "With δεν: Δεν μιλάω καθόλου ελληνικά = I do not speak Greek at all. As a short negative answer, καθόλου means “not at all”.",
         "ru": "С отрицанием δεν: Δεν μιλάω καθόλου ελληνικά — «Я совсем не говорю по-гречески». Краткий отрицательный ответ καθόλου — «совсем нет»."
+      },
+      "reviewIdentity": {
+        "deckId": "words-descriptions",
+        "cardId": "languages-not-at-all"
       }
     },
     {
       "id": "languages-so",
-      "collection": "words-descriptions",
+      "collection": "words-adverbs",
       "greek": "τόσο",
       "prompt": {
         "en": "So / that much",
@@ -2908,6 +2942,10 @@
       "explanation": {
         "en": "Τόσο καλά = so well; δεν μιλάω τόσο καλά = I do not speak so well.",
         "ru": "Τόσο καλά — «так хорошо»; δεν μιλάω τόσο καλά — «я не так хорошо говорю»."
+      },
+      "reviewIdentity": {
+        "deckId": "words-descriptions",
+        "cardId": "languages-so"
       }
     },
     {

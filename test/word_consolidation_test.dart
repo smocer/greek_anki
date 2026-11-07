@@ -41,53 +41,25 @@ Map<String, dynamic> duplicateWords() {
 }
 
 void main() {
-  test(
-    'one definition preserves both senses, labels, themes and review aliases',
-    () {
-      final data = duplicateWords();
-      expect(consolidateWordData(data), 1);
-      final dictionary = GreekDictionary.parse(jsonEncode(data));
-      final first = dictionary.collections.first.deck.cards.single;
-      final second = dictionary.collections.last.deck.cards.single;
-      expect(identical(first, second), isTrue);
-      expect(data['cards'].length, 1);
-      expect(first.prompt.en, 'Me / With');
-      expect(first.senses.map((sense) => sense.ru), ['Меня', 'С']);
-      expect(first.labels.map((label) => label.name), [
-        'pronoun',
-        'preposition',
-      ]);
-      expect(first.explanation!.en, contains('Object pronoun.'));
-      expect(first.explanation!.en, contains('A preposition.'));
-      expect(first.aliases, ['with']);
-      expect(first.reviewAliases.single.cardId, 'with');
-      expect(
-        dictionary.collections.first.availableThemes.map((theme) => theme.name),
-        containsAll(['conversation', 'home']),
-      );
-      final once = jsonEncode(data);
-      expect(consolidateWordData(data), 0);
-      expect(jsonEncode(data), once);
-    },
-  );
+  test('homographs in different categories remain separate', () {
+    final data = duplicateWords();
+    expect(consolidateWordData(data), 0);
+    final dictionary = GreekDictionary.parse(jsonEncode(data));
+    final first = dictionary.collections.first.deck.cards.single;
+    final second = dictionary.collections.last.deck.cards.single;
+    expect(first.prompt.en, 'Me');
+    expect(second.prompt.en, 'With');
+    expect(identical(first, second), isFalse);
+  });
 
-  test(
-    'grammar exercises remain unchanged even when they reference the same definition',
-    () {
-      final data = duplicateWords();
-      final grammar = jsonDecode(jsonEncode(data['collections'][0]));
-      grammar['section'] = 'grammar';
-      grammar['deck']['id'] = 'grammar-pronouns';
-      data['collections'].add(grammar);
-      consolidateWordData(data);
-      final dictionary = GreekDictionary.parse(jsonEncode(data));
-      expect(dictionary.collections.last.deck.cards.single.prompt.en, 'Me');
-      expect(
-        dictionary.collections.first.deck.cards.single.prompt.en,
-        'Me / With',
-      );
-    },
-  );
+  test('explicit senses within one category remain separate', () {
+    final data = duplicateWords();
+    data['collections'].removeLast();
+    data['collections'][0]['deck']['cards'].add('with');
+    data['cards']['hello']['senseKey'] = 'direct-object';
+    data['cards']['with']['senseKey'] = 'indirect-object';
+    expect(consolidateWordData(data), 0);
+  });
 
   test('stress stays significant when identifying duplicate words', () {
     final data = duplicateWords();
@@ -125,6 +97,8 @@ void main() {
     'an old merged-away review loads and later canonical reviews take priority',
     () async {
       final data = duplicateWords();
+      data['collections'].removeLast();
+      data['collections'][0]['deck']['cards'].add('with');
       consolidateWordData(data);
       final dictionary = GreekDictionary.parse(jsonEncode(data));
       final store = MemoryProgressStore();

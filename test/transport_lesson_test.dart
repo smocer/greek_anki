@@ -95,7 +95,7 @@ void main() {
       expect(matcher.matches('το ενδιαφέρον', interests), isFalse);
       for (final answer in ['επόμενος', 'επόμενη', 'επόμενο']) {
         expect(
-          matcher.matches(answer, card('words-descriptions', 'next')),
+          matcher.matches(answer, card('words-adjectives', 'next')),
           isTrue,
         );
       }

@@ -678,7 +678,7 @@
     },
     {
       "id": "journeys-everywhere",
-      "collection": "words-descriptions",
+      "collection": "words-adverbs",
       "greek": "παντού",
       "prompt": {
         "en": "Everywhere",
@@ -694,11 +694,15 @@
       ],
       "labels": [
         "adverb"
-      ]
+      ],
+      "reviewIdentity": {
+        "deckId": "words-descriptions",
+        "cardId": "journeys-everywhere"
+      }
     },
     {
       "id": "journeys-nowhere",
-      "collection": "words-descriptions",
+      "collection": "words-adverbs",
       "greek": "πουθενά",
       "prompt": {
         "en": "Nowhere / anywhere (with negation)",
@@ -719,11 +723,15 @@
         "en": "With a verb, normally use δεν as well: Δεν πάω πουθενά.",
         "ru": "В отрицательном предложении нужно и δεν: Δεν πάω πουθενά — «Я никуда не иду».",
         "zh": "在否定句中也用 δεν：Δεν πάω πουθενά（我哪儿也不去）。"
+      },
+      "reviewIdentity": {
+        "deckId": "words-descriptions",
+        "cardId": "journeys-nowhere"
       }
     },
     {
       "id": "journeys-approximately",
-      "collection": "words-descriptions",
+      "collection": "words-adverbs",
       "greek": "περίπου",
       "prompt": {
         "en": "Approximately / about",
@@ -739,11 +747,15 @@
       ],
       "labels": [
         "adverb"
-      ]
+      ],
+      "reviewIdentity": {
+        "deckId": "words-descriptions",
+        "cardId": "journeys-approximately"
+      }
     },
     {
       "id": "journeys-exactly",
-      "collection": "words-descriptions",
+      "collection": "words-adverbs",
       "greek": "ακριβώς",
       "prompt": {
         "en": "Exactly / precisely",
@@ -764,11 +776,15 @@
         "en": "With a clock time, ακριβώς means exactly on the hour.",
         "ru": "При указании времени ακριβώς значит «ровно».",
         "zh": "用于报时可表示“整点”。"
+      },
+      "reviewIdentity": {
+        "deckId": "words-descriptions",
+        "cardId": "journeys-exactly"
       }
     },
     {
       "id": "journeys-quickly",
-      "collection": "words-descriptions",
+      "collection": "words-adverbs",
       "greek": "γρήγορα",
       "prompt": {
         "en": "Quickly / fast",
@@ -784,11 +800,15 @@
       ],
       "labels": [
         "adverb"
-      ]
+      ],
+      "reviewIdentity": {
+        "deckId": "words-descriptions",
+        "cardId": "journeys-quickly"
+      }
     },
     {
       "id": "journeys-half",
-      "collection": "words-descriptions",
+      "collection": "words-adjectives",
       "greek": "μισός",
       "prompt": {
         "en": "Half",
@@ -841,11 +861,15 @@
         "en": "The form agrees with the noun: μισή ώρα, but μισό λεπτό.",
         "ru": "Форма зависит от рода существительного: μισή ώρα, но μισό λεπτό.",
         "zh": "形式与名词的性一致：μισή ώρα，但 μισό λεπτό。"
+      },
+      "reviewIdentity": {
+        "deckId": "words-descriptions",
+        "cardId": "journeys-half"
       }
     },
     {
       "id": "journeys-dangerous",
-      "collection": "words-descriptions",
+      "collection": "words-adjectives",
       "greek": "επικίνδυνος",
       "prompt": {
         "en": "Dangerous",
@@ -898,11 +922,15 @@
         "en": "Masculine, feminine and neuter forms. Any listed form is accepted in this vocabulary card.",
         "ru": "Формы мужского, женского и среднего рода. В этой карточке принимается любая из них.",
         "zh": "依次为阳性、阴性、中性。本词汇卡接受这三种形式。"
+      },
+      "reviewIdentity": {
+        "deckId": "words-descriptions",
+        "cardId": "journeys-dangerous"
       }
     },
     {
       "id": "journeys-at-feminine-plural",
-      "collection": "words-connectors",
+      "collection": "words-prepositions",
       "greek": "στις",
       "prompt": {
         "en": "At / to the (feminine plural)",
@@ -925,11 +953,15 @@
         "en": "Σε + τις → στις, not σε + την. Used before feminine plural nouns and most clock hours.",
         "ru": "Σε + τις → στις; это множественное число. Σε + την → στην. Στις употребляется с существительными женского рода во множественном числе и при указании большинства часов.",
         "zh": "Σε + τις 缩合为 στις，阴性复数；σε + την 则为 στην。Στις 也用于多数钟点之前。"
+      },
+      "reviewIdentity": {
+        "deckId": "words-connectors",
+        "cardId": "journeys-at-feminine-plural"
       }
     },
     {
       "id": "journeys-to-before-time",
-      "collection": "words-connectors",
+      "collection": "words-prepositions",
       "greek": "παρά",
       "prompt": {
         "en": "To / before (telling the time)",
@@ -950,11 +982,15 @@
         "en": "Names the minutes remaining until the following hour, rather than minutes past.",
         "ru": "Указывает, сколько минут осталось до следующего часа.",
         "zh": "表示距离下一整点还剩多少分钟。"
+      },
+      "reviewIdentity": {
+        "deckId": "words-connectors",
+        "cardId": "journeys-to-before-time"
       }
     },
     {
       "id": "journeys-until",
-      "collection": "words-connectors",
+      "collection": "words-prepositions",
       "greek": "μέχρι",
       "prompt": {
         "en": "Until / as far as",
@@ -976,6 +1012,10 @@
         "en": "Marks a limit in time or space.",
         "ru": "Обозначает предел во времени или пространстве.",
         "zh": "表示时间或空间的界限。"
+      },
+      "reviewIdentity": {
+        "deckId": "words-connectors",
+        "cardId": "journeys-until"
       }
     },
     {

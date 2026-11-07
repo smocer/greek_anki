@@ -4,7 +4,7 @@
 
 Unfinished flashcard and hard-mode batches resume after closing the study screen or reloading the page. The saved batch retains its learned cards, remaining queue, review window and counters. Each selected card pool, mode, batch size and ordering has its own saved session. Completing the batch shows «Μπράβο!» and clears that session so the next round can start fresh.
 
-Six broad groups cover nouns, names and places, verbs, pronouns, adjectives/adverbs and connecting words/prepositions. Themes such as family, food, places and classroom are optional filters within a group.
+Eight broad groups cover nouns, names and places, verbs, pronouns, adjectives, adverbs, prepositions, and linking words/particles. Themes such as family, food, places and classroom are optional filters within a group.
 
 **Names & places** contains personal names, countries, cities, continents, languages and nationalities. These do not appear in the general noun collection. The word γλώσσα (“language”) is a common noun and stays in **Nouns**. Names still appear where needed in phrases and grammar exercises.
 

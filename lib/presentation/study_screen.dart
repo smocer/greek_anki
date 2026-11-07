@@ -312,14 +312,6 @@ class _StudyScreenState extends State<StudyScreen> {
                   session: _session,
                   title: context.localize(widget.deck.title),
                 ),
-                if (_session.isConfirmation &&
-                    _session.style != SessionStyle.reviewAll) ...[
-                  const SizedBox(height: 6),
-                  Text(
-                    context.strings.confirmationHint,
-                    style: const TextStyle(fontSize: 12, color: Palette.muted),
-                  ),
-                ],
                 if (_session.canDefer) ...[
                   const SizedBox(height: 8),
                   Text(
@@ -541,6 +533,13 @@ class _StudyScreenState extends State<StudyScreen> {
         textAlign: TextAlign.center,
         style: const TextStyle(color: Palette.muted),
       ),
+      if (card.contextExample != null) ...[
+        const SizedBox(height: 8),
+        Text(
+          context.localize(card.contextExample!),
+          textAlign: TextAlign.center,
+        ),
+      ],
       const SizedBox(height: 12),
       TextField(
         key: const ValueKey('greek-answer'),
@@ -611,37 +610,7 @@ class _SessionProgress extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    if (session.style == SessionStyle.reviewAll) {
-      return _ReviewAllProgress(session: session, title: title);
-    }
-    return Column(
-      children: [
-        Row(
-          children: [
-            Expanded(
-              child: Text(
-                session.isReview
-                    ? '$title · ${context.strings.sessionReview}'
-                    : title,
-                style: const TextStyle(fontSize: 12, color: Palette.muted),
-              ),
-            ),
-            Text(
-              context.strings.progress(session.completed, session.total),
-              style: const TextStyle(fontSize: 12, color: Palette.muted),
-            ),
-          ],
-        ),
-        const SizedBox(height: 12),
-        LinearProgressIndicator(
-          value: session.progress,
-          semanticsLabel: context.strings.progressAccessibility(
-            session.completed,
-            session.total,
-          ),
-        ),
-      ],
-    );
+    return _ReviewAllProgress(session: session, title: title);
   }
 }
 
@@ -664,6 +633,8 @@ class _ReviewAllProgress extends StatelessWidget {
         ? strings.currentConfirmation(session.currentConfirmationsRemaining)
         : session.isSpacingReview
         ? strings.spacingReview(session.spacingCardsRemaining)
+        : session.isReview
+        ? strings.sessionReview
         : strings.firstPassCard;
     return Column(
       key: const ValueKey('review-all-progress'),
@@ -698,6 +669,8 @@ class _ReviewAllProgress extends StatelessWidget {
             ),
           ],
         ),
+        if (session.style == SessionStyle.learning)
+          Text(strings.progress(session.completed, session.total)),
         Text(coverage, style: const TextStyle(fontWeight: FontWeight.w600)),
         const SizedBox(height: 6),
         LinearProgressIndicator(
@@ -756,6 +729,13 @@ class _QuestionCard extends StatelessWidget {
         textAlign: TextAlign.center,
         style: const TextStyle(fontSize: 17, color: Palette.muted),
       ),
+      if (card.contextExample != null) ...[
+        const SizedBox(height: 12),
+        Text(
+          context.localize(card.contextExample!),
+          textAlign: TextAlign.center,
+        ),
+      ],
       const SizedBox(height: 30),
       Row(
         mainAxisSize: MainAxisSize.min,

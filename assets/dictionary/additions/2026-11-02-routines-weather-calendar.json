@@ -303,7 +303,7 @@
     },
     {
       "id": "nov05-early",
-      "collection": "words-descriptions",
+      "collection": "words-adverbs",
       "greek": "νωρίς",
       "prompt": {
         "en": "Early",
@@ -319,11 +319,15 @@
       ],
       "themes": [
         "time"
-      ]
+      ],
+      "reviewIdentity": {
+        "deckId": "words-descriptions",
+        "cardId": "nov05-early"
+      }
     },
     {
       "id": "nov05-late",
-      "collection": "words-descriptions",
+      "collection": "words-adverbs",
       "greek": "αργά",
       "prompt": {
         "en": "Late / slowly",
@@ -339,11 +343,15 @@
       ],
       "themes": [
         "time"
-      ]
+      ],
+      "reviewIdentity": {
+        "deckId": "words-descriptions",
+        "cardId": "nov05-late"
+      }
     },
     {
       "id": "nov05-almost",
-      "collection": "words-descriptions",
+      "collection": "words-adverbs",
       "greek": "σχεδόν",
       "prompt": {
         "en": "Almost / nearly",
@@ -359,11 +367,15 @@
       ],
       "themes": [
         "time"
-      ]
+      ],
+      "reviewIdentity": {
+        "deckId": "words-descriptions",
+        "cardId": "nov05-almost"
+      }
     },
     {
       "id": "nov05-usually",
-      "collection": "words-descriptions",
+      "collection": "words-adverbs",
       "greek": "συνήθως",
       "prompt": {
         "en": "Usually",
@@ -379,11 +391,15 @@
       ],
       "themes": [
         "time"
-      ]
+      ],
+      "reviewIdentity": {
+        "deckId": "words-descriptions",
+        "cardId": "nov05-usually"
+      }
     },
     {
       "id": "nov05-often",
-      "collection": "words-descriptions",
+      "collection": "words-adverbs",
       "greek": "συχνά",
       "prompt": {
         "en": "Often",
@@ -399,11 +415,15 @@
       ],
       "themes": [
         "time"
-      ]
+      ],
+      "reviewIdentity": {
+        "deckId": "words-descriptions",
+        "cardId": "nov05-often"
+      }
     },
     {
       "id": "nov05-rarely",
-      "collection": "words-descriptions",
+      "collection": "words-adverbs",
       "greek": "σπάνια",
       "prompt": {
         "en": "Rarely",
@@ -419,7 +439,11 @@
       ],
       "themes": [
         "time"
-      ]
+      ],
+      "reviewIdentity": {
+        "deckId": "words-descriptions",
+        "cardId": "nov05-rarely"
+      }
     },
     {
       "id": "nov05-shopping",
@@ -835,7 +859,7 @@
     },
     {
       "id": "nov05-day-after-tomorrow",
-      "collection": "words-descriptions",
+      "collection": "words-adverbs",
       "greek": "μεθαύριο",
       "prompt": {
         "en": "The day after tomorrow",
@@ -851,27 +875,11 @@
       ],
       "themes": [
         "time"
-      ]
-    },
-    {
-      "id": "nov05-hey",
-      "collection": "words-connectors",
-      "greek": "βρε",
-      "prompt": {
-        "en": "Hey! (very informal address)",
-        "ru": "Эй! / ну! (фамильярное обращение)",
-        "zh": "喂！（很随意的称呼）"
-      },
-      "pronunciation": {
-        "en": "vre",
-        "ru": "врэ"
-      },
-      "labels": [
-        "interjection"
       ],
-      "themes": [
-        "conversation"
-      ]
+      "reviewIdentity": {
+        "deckId": "words-descriptions",
+        "cardId": "nov05-day-after-tomorrow"
+      }
     },
     {
       "id": "nov05-but-ma",
@@ -979,7 +987,7 @@
     },
     {
       "id": "nov05-cold-adjective",
-      "collection": "words-descriptions",
+      "collection": "words-adjectives",
       "greek": "κρύος",
       "prompt": {
         "en": "Cold (adjective)",
@@ -988,13 +996,53 @@
       },
       "pronunciation": {
         "en": "KRI-os",
-        "ru": "КРИ-ос"
+        "ru": "КРИ-ос",
+        "zh": "KRI-os"
       },
       "labels": [
         "adjective"
       ],
       "themes": [
         "food"
+      ],
+      "reviewIdentity": {
+        "deckId": "words-descriptions",
+        "cardId": "nov05-cold-adjective"
+      },
+      "wordGroup": "audit-nov05-cold-adjective",
+      "forms": [
+        {
+          "greek": "κρύος",
+          "answerDisplay": "κρύος",
+          "pronunciation": {
+            "en": "KRI-os",
+            "ru": "КРИ-ос",
+            "zh": "KRI-os"
+          }
+        },
+        {
+          "greek": "κρύα",
+          "answerDisplay": "κρύα",
+          "pronunciation": {
+            "en": "KRI-a",
+            "ru": "КРИ-а",
+            "zh": "KRI-a"
+          }
+        },
+        {
+          "greek": "κρύο",
+          "answerDisplay": "κρύο",
+          "pronunciation": {
+            "en": "KRI-o",
+            "ru": "КРИ-о",
+            "zh": "KRI-o"
+          }
+        }
+      ],
+      "answerDisplay": "κρύος / κρύα / κρύο",
+      "alternatives": [
+        "κρύα",
+        "κρύο"
       ]
     },
     {
@@ -1398,7 +1446,7 @@
     },
     {
       "id": "nov05-tired",
-      "collection": "words-descriptions",
+      "collection": "words-adjectives",
       "greek": "κουρασμένος",
       "prompt": {
         "en": "Tired",
@@ -1406,14 +1454,54 @@
         "zh": "累的"
       },
       "pronunciation": {
-        "en": "ku-ra-ZME-nos",
-        "ru": "ку-ра-ЗМЭ-нос"
+        "en": "ku-ras-ME-nos",
+        "ru": "ку-рас-МЕ-нос",
+        "zh": "ku-ras-ME-nos"
       },
       "labels": [
         "adjective"
       ],
       "themes": [
         "people"
+      ],
+      "reviewIdentity": {
+        "deckId": "words-descriptions",
+        "cardId": "nov05-tired"
+      },
+      "wordGroup": "audit-nov05-tired",
+      "forms": [
+        {
+          "greek": "κουρασμένος",
+          "answerDisplay": "κουρασμένος",
+          "pronunciation": {
+            "en": "ku-ras-ME-nos",
+            "ru": "ку-рас-МЕ-нос",
+            "zh": "ku-ras-ME-nos"
+          }
+        },
+        {
+          "greek": "κουρασμένη",
+          "answerDisplay": "κουρασμένη",
+          "pronunciation": {
+            "en": "ku-ras-ME-ni",
+            "ru": "ку-рас-МЕ-ни",
+            "zh": "ku-ras-ME-ni"
+          }
+        },
+        {
+          "greek": "κουρασμένο",
+          "answerDisplay": "κουρασμένο",
+          "pronunciation": {
+            "en": "ku-ras-ME-no",
+            "ru": "ку-рас-МЕ-но",
+            "zh": "ku-ras-ME-no"
+          }
+        }
+      ],
+      "answerDisplay": "κουρασμένος / κουρασμένη / κουρασμένο",
+      "alternatives": [
+        "κουρασμένη",
+        "κουρασμένο"
       ]
     },
     {
@@ -1439,7 +1527,7 @@
     },
     {
       "id": "nov05-tonight",
-      "collection": "words-descriptions",
+      "collection": "words-adverbs",
       "greek": "απόψε",
       "prompt": {
         "en": "Tonight",
@@ -1455,11 +1543,15 @@
       ],
       "themes": [
         "time"
-      ]
+      ],
+      "reviewIdentity": {
+        "deckId": "words-descriptions",
+        "cardId": "nov05-tonight"
+      }
     },
     {
       "id": "nov05-seriously",
-      "collection": "words-descriptions",
+      "collection": "words-adverbs",
       "greek": "σοβαρά",
       "prompt": {
         "en": "Seriously / really",
@@ -1475,11 +1567,15 @@
       ],
       "themes": [
         "conversation"
-      ]
+      ],
+      "reviewIdentity": {
+        "deckId": "words-descriptions",
+        "cardId": "nov05-seriously"
+      }
     },
     {
       "id": "nov05-around-time",
-      "collection": "words-connectors",
+      "collection": "words-prepositions",
       "greek": "κατά",
       "prompt": {
         "en": "Around / about (a time)",
@@ -1495,27 +1591,11 @@
       ],
       "themes": [
         "time"
-      ]
-    },
-    {
-      "id": "nov05-sure",
-      "collection": "words-connectors",
-      "greek": "αμέ",
-      "prompt": {
-        "en": "Sure! / absolutely! (informal)",
-        "ru": "Ещё бы! / конечно! (разговорное)",
-        "zh": "当然！（口语）"
-      },
-      "pronunciation": {
-        "en": "a-ME",
-        "ru": "а-МЭ"
-      },
-      "labels": [
-        "interjection"
       ],
-      "themes": [
-        "conversation"
-      ]
+      "reviewIdentity": {
+        "deckId": "words-connectors",
+        "cardId": "nov05-around-time"
+      }
     },
     {
       "id": "nov05-film",
@@ -1624,7 +1704,7 @@
     },
     {
       "id": "nov05-adjacent",
-      "collection": "words-descriptions",
+      "collection": "words-adjectives",
       "greek": "διπλανός",
       "prompt": {
         "en": "Next-door / adjacent",
@@ -1633,13 +1713,53 @@
       },
       "pronunciation": {
         "en": "dhi-pla-NOS",
-        "ru": "ди-пла-НОС"
+        "ru": "ди-пла-НОС",
+        "zh": "dhi-pla-NOS"
       },
       "labels": [
         "adjective"
       ],
       "themes": [
         "people"
+      ],
+      "reviewIdentity": {
+        "deckId": "words-descriptions",
+        "cardId": "nov05-adjacent"
+      },
+      "wordGroup": "audit-nov05-adjacent",
+      "forms": [
+        {
+          "greek": "διπλανός",
+          "answerDisplay": "διπλανός",
+          "pronunciation": {
+            "en": "dhi-pla-NOS",
+            "ru": "ди-пла-НОС",
+            "zh": "dhi-pla-NOS"
+          }
+        },
+        {
+          "greek": "διπλανή",
+          "answerDisplay": "διπλανή",
+          "pronunciation": {
+            "en": "dhi-pla-NI",
+            "ru": "ди-пла-НИ",
+            "zh": "dhi-pla-NI"
+          }
+        },
+        {
+          "greek": "διπλανό",
+          "answerDisplay": "διπλανό",
+          "pronunciation": {
+            "en": "dhi-pla-NO",
+            "ru": "ди-пла-НО",
+            "zh": "dhi-pla-NO"
+          }
+        }
+      ],
+      "answerDisplay": "διπλανός / διπλανή / διπλανό",
+      "alternatives": [
+        "διπλανή",
+        "διπλανό"
       ]
     },
     {
@@ -1864,7 +1984,7 @@
     },
     {
       "id": "nov05-left",
-      "collection": "words-descriptions",
+      "collection": "words-adverbs",
       "greek": "αριστερά",
       "prompt": {
         "en": "Left / to the left",
@@ -1880,11 +2000,15 @@
       ],
       "themes": [
         "travel"
-      ]
+      ],
+      "reviewIdentity": {
+        "deckId": "words-descriptions",
+        "cardId": "nov05-left"
+      }
     },
     {
       "id": "nov05-right",
-      "collection": "words-descriptions",
+      "collection": "words-adverbs",
       "greek": "δεξιά",
       "prompt": {
         "en": "Right / to the right",
@@ -1900,11 +2024,15 @@
       ],
       "themes": [
         "travel"
-      ]
+      ],
+      "reviewIdentity": {
+        "deckId": "words-descriptions",
+        "cardId": "nov05-right"
+      }
     },
     {
       "id": "nov05-straight",
-      "collection": "words-descriptions",
+      "collection": "words-adverbs",
       "greek": "ευθεία",
       "prompt": {
         "en": "Straight ahead",
@@ -1920,7 +2048,11 @@
       ],
       "themes": [
         "travel"
-      ]
+      ],
+      "reviewIdentity": {
+        "deckId": "words-descriptions",
+        "cardId": "nov05-straight"
+      }
     },
     {
       "id": "nov05-mountain",
@@ -1945,7 +2077,7 @@
     },
     {
       "id": "nov05-simple",
-      "collection": "words-descriptions",
+      "collection": "words-adjectives",
       "greek": "απλός",
       "prompt": {
         "en": "Simple / single (one-way ticket)",
@@ -1954,18 +2086,58 @@
       },
       "pronunciation": {
         "en": "a-PLOS",
-        "ru": "а-ПЛОС"
+        "ru": "а-ПЛОС",
+        "zh": "a-PLOS"
       },
       "labels": [
         "adjective"
       ],
       "themes": [
         "travel"
+      ],
+      "reviewIdentity": {
+        "deckId": "words-descriptions",
+        "cardId": "nov05-simple"
+      },
+      "wordGroup": "audit-nov05-simple",
+      "forms": [
+        {
+          "greek": "απλός",
+          "answerDisplay": "απλός",
+          "pronunciation": {
+            "en": "a-PLOS",
+            "ru": "а-ПЛОС",
+            "zh": "a-PLOS"
+          }
+        },
+        {
+          "greek": "απλή",
+          "answerDisplay": "απλή",
+          "pronunciation": {
+            "en": "a-PLI",
+            "ru": "а-ПЛИ",
+            "zh": "a-PLI"
+          }
+        },
+        {
+          "greek": "απλό",
+          "answerDisplay": "απλό",
+          "pronunciation": {
+            "en": "a-PLO",
+            "ru": "а-ПЛО",
+            "zh": "a-PLO"
+          }
+        }
+      ],
+      "answerDisplay": "απλός / απλή / απλό",
+      "alternatives": [
+        "απλή",
+        "απλό"
       ]
     },
     {
       "id": "nov05-more",
-      "collection": "words-descriptions",
+      "collection": "words-adverbs",
       "greek": "πιο",
       "prompt": {
         "en": "More (comparison)",
@@ -1981,7 +2153,11 @@
       ],
       "themes": [
         "conversation"
-      ]
+      ],
+      "reviewIdentity": {
+        "deckId": "words-descriptions",
+        "cardId": "nov05-more"
+      }
     },
     {
       "id": "nov05-card",
@@ -2093,7 +2269,7 @@
     },
     {
       "id": "nov05-without",
-      "collection": "words-connectors",
+      "collection": "words-prepositions",
       "greek": "χωρίς",
       "prompt": {
         "en": "Without",
@@ -2109,7 +2285,11 @@
       ],
       "themes": [
         "conversation"
-      ]
+      ],
+      "reviewIdentity": {
+        "deckId": "words-connectors",
+        "cardId": "nov05-without"
+      }
     },
     {
       "id": "nov05-cloud",
@@ -2241,7 +2421,7 @@
     },
     {
       "id": "nov05-sometime",
-      "collection": "words-descriptions",
+      "collection": "words-adverbs",
       "greek": "κάποτε",
       "prompt": {
         "en": "Sometime / once / occasionally",
@@ -2262,11 +2442,15 @@
         "en": "Κάποτε can mean at some time in the past or future, or occasionally. Μερικές φορές is a clear everyday way to say sometimes.",
         "ru": "Κάποτε — когда-то, когда-нибудь, а также порой. Для обычного «иногда» подходит μερικές φορές.",
         "zh": "Κάποτε 可指过去或未来某时，也可表示偶尔。常用 μερικές φορές 表示有时。"
+      },
+      "reviewIdentity": {
+        "deckId": "words-descriptions",
+        "cardId": "nov05-sometime"
       }
     },
     {
       "id": "nov05-until",
-      "collection": "words-connectors",
+      "collection": "words-prepositions",
       "greek": "ως",
       "prompt": {
         "en": "Until / as far as (short form)",
@@ -2282,7 +2466,11 @@
       ],
       "themes": [
         "travel"
-      ]
+      ],
+      "reviewIdentity": {
+        "deckId": "words-connectors",
+        "cardId": "nov05-until"
+      }
     },
     {
       "id": "nov05-patras",

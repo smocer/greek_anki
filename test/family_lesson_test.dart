@@ -69,7 +69,7 @@ void main() {
       );
       expect(
         collection(
-          'words-descriptions',
+          'words-adjectives',
         ).deck.cards.expand((c) => [c.greek, ...c.forms.map((f) => f.greek)]),
         containsAll([
           'παντρεμένος',

@@ -682,7 +682,7 @@
     },
     {
       "id": "likes-plus",
-      "collection": "words-connectors",
+      "collection": "words-prepositions",
       "greek": "συν",
       "prompt": {
         "en": "Plus (+)",
@@ -703,11 +703,15 @@
         "en": "Reads an arithmetic sign, for example δύο συν τρία.",
         "ru": "Так читают знак арифметического действия: δύο συν τρία.",
         "zh": "用于读算术符号，例如 δύο συν τρία。"
+      },
+      "reviewIdentity": {
+        "deckId": "words-connectors",
+        "cardId": "likes-plus"
       }
     },
     {
       "id": "likes-minus",
-      "collection": "words-connectors",
+      "collection": "words-prepositions",
       "greek": "πλην",
       "prompt": {
         "en": "Minus (−)",
@@ -728,11 +732,15 @@
         "en": "Reads an arithmetic sign, for example πέντε πλην δύο.",
         "ru": "Так читают знак арифметического действия: πέντε πλην δύο.",
         "zh": "用于读算术符号，例如 πέντε πλην δύο。"
+      },
+      "reviewIdentity": {
+        "deckId": "words-connectors",
+        "cardId": "likes-minus"
       }
     },
     {
       "id": "likes-times",
-      "collection": "words-connectors",
+      "collection": "words-prepositions",
       "greek": "επί",
       "prompt": {
         "en": "Times / multiplied by (×)",
@@ -753,11 +761,15 @@
         "en": "Reads an arithmetic sign, for example δύο επί τρία.",
         "ru": "Так читают знак арифметического действия: δύο επί τρία.",
         "zh": "用于读算术符号，例如 δύο επί τρία。"
+      },
+      "reviewIdentity": {
+        "deckId": "words-connectors",
+        "cardId": "likes-times"
       }
     },
     {
       "id": "likes-divided-by",
-      "collection": "words-connectors",
+      "collection": "words-prepositions",
       "greek": "διά",
       "prompt": {
         "en": "Divided by (÷)",
@@ -778,6 +790,10 @@
         "en": "Reads an arithmetic sign, for example έξι διά δύο.",
         "ru": "Так читают знак арифметического действия: έξι διά δύο.",
         "zh": "用于读算术符号，例如 έξι διά δύο。"
+      },
+      "reviewIdentity": {
+        "deckId": "words-connectors",
+        "cardId": "likes-divided-by"
       }
     },
     {
@@ -797,7 +813,7 @@
         "conversation"
       ],
       "labels": [
-        "conjunction"
+        "particle"
       ],
       "explanation": {
         "en": "Να introduces a verb: μου αρέσει να διαβάζω. The following verb still changes with the person: σου αρέσει να διαβάζεις.",
@@ -828,7 +844,8 @@
         "en": "Before αρέσει / αρέσουν, this identifies the person who likes something. The same form can also express possession after a noun.",
         "ru": "Перед αρέσει / αρέσουν показывает, кому что-то нравится. После существительного эта же форма может обозначать принадлежность.",
         "zh": "放在 αρέσει／αρέσουν 前时，表示喜欢某事物的人。同一形式放在名词后也可表示所属关系。"
-      }
+      },
+      "senseKey": "indirect-object"
     },
     {
       "id": "likes-to-him",
@@ -853,7 +870,8 @@
         "en": "Before αρέσει / αρέσουν, this identifies the person who likes something. The same form can also express possession after a noun.",
         "ru": "Перед αρέσει / αρέσουν показывает, кому что-то нравится. После существительного эта же форма может обозначать принадлежность.",
         "zh": "放在 αρέσει／αρέσουν 前时，表示喜欢某事物的人。同一形式放在名词后也可表示所属关系。"
-      }
+      },
+      "senseKey": "indirect-object"
     },
     {
       "id": "likes-to-her",
@@ -878,7 +896,8 @@
         "en": "Before αρέσει / αρέσουν, this identifies the person who likes something. The same form can also express possession after a noun.",
         "ru": "Перед αρέσει / αρέσουν показывает, кому что-то нравится. После существительного эта же форма может обозначать принадлежность.",
         "zh": "放在 αρέσει／αρέσουν 前时，表示喜欢某事物的人。同一形式放在名词后也可表示所属关系。"
-      }
+      },
+      "senseKey": "indirect-object"
     },
     {
       "id": "likes-to-us",
@@ -903,7 +922,8 @@
         "en": "Before αρέσει / αρέσουν, this identifies the person who likes something. The same form can also express possession after a noun.",
         "ru": "Перед αρέσει / αρέσουν показывает, кому что-то нравится. После существительного эта же форма может обозначать принадлежность.",
         "zh": "放在 αρέσει／αρέσουν 前时，表示喜欢某事物的人。同一形式放在名词后也可表示所属关系。"
-      }
+      },
+      "senseKey": "indirect-object"
     },
     {
       "id": "likes-to-you-plural",
@@ -928,7 +948,8 @@
         "en": "Before αρέσει / αρέσουν, this identifies the person who likes something. The same form can also express possession after a noun.",
         "ru": "Перед αρέσει / αρέσουν показывает, кому что-то нравится. После существительного эта же форма может обозначать принадлежность.",
         "zh": "放在 αρέσει／αρέσουν 前时，表示喜欢某事物的人。同一形式放在名词后也可表示所属关系。"
-      }
+      },
+      "senseKey": "indirect-object"
     },
     {
       "id": "likes-to-them",
@@ -953,7 +974,8 @@
         "en": "Before αρέσει / αρέσουν, this identifies the person who likes something. The same form can also express possession after a noun.",
         "ru": "Перед αρέσει / αρέσουν показывает, кому что-то нравится. После существительного эта же форма может обозначать принадлежность.",
         "zh": "放在 αρέσει／αρέσουν 前时，表示喜欢某事物的人。同一形式放在名词后也可表示所属关系。"
-      }
+      },
+      "senseKey": "indirect-object"
     },
     {
       "id": "likes-thats-all",

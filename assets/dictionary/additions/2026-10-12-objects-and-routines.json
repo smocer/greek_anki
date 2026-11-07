@@ -674,7 +674,7 @@
     },
     {
       "id": "objects-difficult",
-      "collection": "words-descriptions",
+      "collection": "words-adjectives",
       "greek": "δύσκολος",
       "prompt": {
         "en": "Difficult",
@@ -727,11 +727,15 @@
       "alternatives": [
         "δύσκολη",
         "δύσκολο"
-      ]
+      ],
+      "reviewIdentity": {
+        "deckId": "words-descriptions",
+        "cardId": "objects-difficult"
+      }
     },
     {
       "id": "objects-private",
-      "collection": "words-descriptions",
+      "collection": "words-adjectives",
       "greek": "ιδιωτικός",
       "prompt": {
         "en": "Private (not state-run)",
@@ -784,11 +788,15 @@
       "alternatives": [
         "ιδιωτική",
         "ιδιωτικό"
-      ]
+      ],
+      "reviewIdentity": {
+        "deckId": "words-descriptions",
+        "cardId": "objects-private"
+      }
     },
     {
       "id": "objects-friendly",
-      "collection": "words-descriptions",
+      "collection": "words-adjectives",
       "greek": "φιλικός",
       "prompt": {
         "en": "Friendly",
@@ -841,11 +849,15 @@
       "alternatives": [
         "φιλική",
         "φιλικό"
-      ]
+      ],
+      "reviewIdentity": {
+        "deckId": "words-descriptions",
+        "cardId": "objects-friendly"
+      }
     },
     {
       "id": "objects-full",
-      "collection": "words-descriptions",
+      "collection": "words-adjectives",
       "greek": "πλήρης",
       "prompt": {
         "en": "Full / complete",
@@ -889,11 +901,15 @@
       "answerDisplay": "πλήρης / πλήρες",
       "alternatives": [
         "πλήρες"
-      ]
+      ],
+      "reviewIdentity": {
+        "deckId": "words-descriptions",
+        "cardId": "objects-full"
+      }
     },
     {
       "id": "objects-morning",
-      "collection": "words-descriptions",
+      "collection": "words-adjectives",
       "greek": "πρωινός",
       "prompt": {
         "en": "Morning (adjective)",
@@ -946,11 +962,15 @@
       "alternatives": [
         "πρωινή",
         "πρωινό"
-      ]
+      ],
+      "reviewIdentity": {
+        "deckId": "words-descriptions",
+        "cardId": "objects-morning"
+      }
     },
     {
       "id": "objects-good",
-      "collection": "words-descriptions",
+      "collection": "words-adjectives",
       "greek": "καλός",
       "prompt": {
         "en": "Good (adjective)",
@@ -1003,7 +1023,11 @@
       "alternatives": [
         "καλή",
         "καλό"
-      ]
+      ],
+      "reviewIdentity": {
+        "deckId": "words-descriptions",
+        "cardId": "objects-good"
+      }
     },
     {
       "id": "objects-whom",
@@ -1103,7 +1127,8 @@
         "en": "In Πάρε μας τηλέφωνο, μας is the object us. After a noun it means our: το σπίτι μας.",
         "ru": "В Πάρε μας τηλέφωνο местоимение μας — прямое дополнение «нас». По-русски естественно «позвони нам»: падежи в двух языках не совпадают. После существительного μας означает «наш».",
         "zh": "Πάρε μας τηλέφωνο 中的 μας 是宾语“我们”。放在名词后则表示“我们的”，如 το σπίτι μας。"
-      }
+      },
+      "senseKey": "direct-object"
     },
     {
       "id": "objects-when-clause",

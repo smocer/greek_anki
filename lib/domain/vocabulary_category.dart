@@ -13,6 +13,7 @@ enum VocabularyLabel {
   conjunction,
   numeral,
   interjection,
+  particle,
 }
 
 enum VocabularyPeriod {
@@ -207,6 +208,11 @@ LocalizedText labelTitle(VocabularyLabel label) => switch (label) {
     en: 'Numeral',
     zh: '数词',
     ru: 'Числительное',
+  ),
+  VocabularyLabel.particle => const LocalizedText(
+    en: 'Particle',
+    ru: 'Частица',
+    zh: '小品词',
   ),
   VocabularyLabel.interjection => const LocalizedText(
     en: 'Interjection',

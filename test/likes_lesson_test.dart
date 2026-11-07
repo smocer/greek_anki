@@ -110,7 +110,7 @@ void main() {
   );
 
   test(
-    'new indirect-object senses preserve existing pronoun progress',
+    'separate indirect-object cards preserve possessive pronoun progress',
     () async {
       final pronouns = deck('words-pronouns');
       final store = MemoryProgressStore();
@@ -123,9 +123,19 @@ void main() {
         ('σας', 'possessive-your-plural', 'Вам'),
         ('τους', 'possessive-their', 'Им'),
       ]) {
-        final word = pronouns.cards.singleWhere((c) => c.greek == greek);
+        final word = pronouns.cards.singleWhere(
+          (c) => c.greek == greek && c.senseKey == 'possessive',
+        );
         expect(word.id, id);
-        expect(word.senses.map((s) => s.ru), contains(sense));
+        expect(
+          pronouns.cards
+              .singleWhere(
+                (c) => c.greek == greek && c.senseKey == 'indirect-object',
+              )
+              .prompt
+              .ru,
+          contains(sense),
+        );
         expect(word.addedWeek, '2026-10-05');
         for (final mode in StudyMode.values) {
           final key = 'october-lesson.${mode.name}.$id';

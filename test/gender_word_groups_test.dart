@@ -58,7 +58,7 @@ void main() {
       expect(matcher.matches(answer, breakfast), isFalse, reason: answer);
     }
     final descriptions = currentDictionary.collections.singleWhere(
-      (collection) => collection.deck.id == 'words-descriptions',
+      (collection) => collection.deck.id == 'words-adjectives',
     );
     final morning = descriptions.deck.cards.singleWhere(
       (card) => card.wordGroup == 'morning',

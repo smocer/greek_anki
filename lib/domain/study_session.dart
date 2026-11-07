@@ -303,11 +303,7 @@ class StudySession extends ChangeNotifier {
       max(0, _minimumGap - (_turn - evidence.lastTurn! - 1));
 
   bool get isSpacingReview =>
-      style == SessionStyle.reviewAll &&
-      !isReviewing &&
-      !isComplete &&
-      uncheckedCount == 0 &&
-      !isConfirmation;
+      !isReviewing && !isComplete && uncheckedCount == 0 && !isConfirmation;
   int get awaitingConfirmation => _evidence.entries
       .where((e) => !_deferred.contains(e.key) && e.value.confirmations > 0)
       .length;
@@ -461,7 +457,13 @@ class StudySession extends ChangeNotifier {
       _window.clear();
       return;
     }
-    if (style == SessionStyle.reviewAll) {
+    if (style == SessionStyle.reviewAll || uncheckedCount == 0) {
+      // Once every word has been seen, schedule confirmations from the whole
+      // batch. A four-card rotating window cannot satisfy an eight-card gap.
+      if (style == SessionStyle.learning) {
+        _window.clear();
+        _pending.clear(); // Seen failures are now scheduled through evidence.
+      }
       _fillReviewAll();
       return;
     }

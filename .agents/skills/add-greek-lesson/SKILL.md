@@ -34,14 +34,17 @@ For a requested preview, group the proposal into words, phrases and grammar, giv
 
 ### Words
 
-- Use existing broad collections: `words-nouns`, `words-names`, `words-verbs`, `words-pronouns`, `words-descriptions`, `words-connectors`. Use themes and the weekly filter for navigation. Do not create a category for each lesson, profession, verb or number range.
+- Use existing broad collections: `words-nouns`, `words-names`, `words-verbs`, `words-pronouns`, `words-adjectives`, `words-adverbs`, `words-prepositions`, `words-connectors`. Use themes and the weekly filter for navigation. Do not create a category for each lesson, profession, verb or number range.
 - Add each word once in its most basic form, even when the sources contain several inflections. For nouns, normally use nominative singular; do not add separate vocabulary cards for plurals or other cases. For verbs, use the first-person singular present form specified below. If the base word already exists, another inflection is not a new vocabulary addition.
 - Apply the same principle to numbers, dates, times and similar patterned expressions. Add genuinely new basic vocabulary once; do not create cards for every gender/case variant, compound number, concrete date or clock time that illustrates an already covered pattern. Use the dedicated random number, date and clock drills for these patterns. The former `words-numbers` collection is retired: do not add cards to it or recreate a Numbers word category. Number agreement with nouns may still belong in grammar if the drill is new.
 - Put personal names, countries, cities and continents in **Names & places**, not ordinary nouns. Names may still occur naturally in phrases and grammar. Profession and family-member words are common nouns.
 - Noun vocabulary asks for the base word. Show the article in the revealed answer and explain gender where useful; accept the noun with or without its correct article. Do not accept an incorrect article. Article practice belongs in grammar.
 - Combine masculine/feminine forms with the same meaning through the existing `wordGroup` mechanism. Use a neutral prompt and allow either form, while showing the other form after checking. Extend an existing group instead of adding another independent gender card. Group synonyms only when they genuinely share the intended meaning; preserve distinctions between senses.
 - Verb vocabulary uses first-person singular present forms and matching translations, such as `νομίζω` — “I think” / “Я думаю”. Do not label these as infinitives. Do not add full conjugations for every new verb.
-- Apply the base-form rule to pronouns as well; do not add every inflected form merely because it appears in the lesson. Distinguish possessive, object and demonstrative senses explicitly, using the current multi-sense representation where appropriate.
+- Apply the base-form rule to pronouns as well; do not add every inflected form merely because it appears in the lesson. Distinguish possessive, object and demonstrative senses explicitly, using distinct `senseKey` values when the same spelling needs different prompts. Never combine a preposition with a pronoun simply because the Greek spelling matches.
+
+- Audit the actual part of speech and general meaning, including incidental exercise vocabulary. Avoid explanations such as “here it means” without a self-contained context. Preserve legitimate distinctions: adverbs do not have gender; adjectives do. Accept correct gender forms for neutral adjective vocabulary prompts, not unrelated adverbs.
+- Short or ambiguous word prompts need `contextExample`: a short Greek sentence with exactly one `___` blank, followed by its translation in each locale. Ask for the missing word only. The target must not be printed in the Greek sentence. Keep full grammatical explanations on the answer side.
 
 ### Phrases and grammar
 

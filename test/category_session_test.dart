@@ -11,7 +11,9 @@ void main() {
       () {
         final catalog = VocabularyCatalog(greekDecks);
         for (final label in VocabularyLabel.values.where(
-          (label) => label != VocabularyLabel.topic,
+          (label) =>
+              label != VocabularyLabel.topic &&
+              label != VocabularyLabel.particle,
         )) {
           final cards = catalog.category(label).cards;
           expect(cards, isNotEmpty);

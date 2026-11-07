@@ -599,7 +599,7 @@
     },
     {
       "id": "work-life-outside",
-      "collection": "words-descriptions",
+      "collection": "words-adverbs",
       "greek": "έξω",
       "prompt": {
         "en": "Outside",
@@ -619,11 +619,15 @@
       ],
       "labels": [
         "adverb"
-      ]
+      ],
+      "reviewIdentity": {
+        "deckId": "words-descriptions",
+        "cardId": "work-life-outside"
+      }
     },
     {
       "id": "work-life-together",
-      "collection": "words-descriptions",
+      "collection": "words-adverbs",
       "greek": "μαζί",
       "prompt": {
         "en": "Together",
@@ -643,11 +647,15 @@
       ],
       "labels": [
         "adverb"
-      ]
+      ],
+      "reviewIdentity": {
+        "deckId": "words-descriptions",
+        "cardId": "work-life-together"
+      }
     },
     {
       "id": "work-life-okay",
-      "collection": "words-descriptions",
+      "collection": "words-adverbs",
       "greek": "εντάξει",
       "prompt": {
         "en": "Okay / all right",
@@ -668,11 +676,15 @@
       "labels": [
         "adverb",
         "interjection"
-      ]
+      ],
+      "reviewIdentity": {
+        "deckId": "words-descriptions",
+        "cardId": "work-life-okay"
+      }
     },
     {
       "id": "work-life-very",
-      "collection": "words-descriptions",
+      "collection": "words-adverbs",
       "greek": "πολύ",
       "prompt": {
         "en": "Very / a lot",
@@ -692,7 +704,11 @@
       ],
       "labels": [
         "adverb"
-      ]
+      ],
+      "reviewIdentity": {
+        "deckId": "words-descriptions",
+        "cardId": "work-life-very"
+      }
     },
     {
       "id": "work-life-looking-for-work",

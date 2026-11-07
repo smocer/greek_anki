@@ -14,7 +14,7 @@ from zoneinfo import ZoneInfo
 
 ROOT = Path(__file__).resolve().parent.parent
 LABELS = {'noun', 'verb', 'adjective', 'adverb', 'pronoun', 'article',
-          'preposition', 'conjunction', 'numeral', 'interjection'}
+          'preposition', 'conjunction', 'numeral', 'interjection', 'particle'}
 
 def monday(date):
     return (date - dt.timedelta(days=date.weekday())).isoformat()

@@ -22,7 +22,7 @@ void main() {
         (section) =>
             learningCollections.where((c) => c.section == section).length,
       ),
-      [6, 3, 8],
+      [8, 3, 8],
     );
     for (final collection in learningCollections) {
       final cards = collection.deck.cards;
@@ -99,7 +99,7 @@ void main() {
         'νούμερο',
         'λείπω',
         'λάθος',
-        'σωστό',
+        'σωστός',
         'ξανά',
         'μόνο',
       ]) {
@@ -123,7 +123,7 @@ void main() {
       }
       expect(
         pronouns
-            .where((c) => c.greek == 'μου')
+            .where((c) => c.greek == 'μου' && c.senseKey == 'possessive')
             .map((c) => c.prompt.en)
             .toSet()
             .length,

@@ -1362,7 +1362,7 @@
     {
       "id": "professions-unemployed-male",
       "greek": "άνεργος",
-      "answerDisplay": "ο άνεργος / η άνεργη",
+      "answerDisplay": "άνεργος / άνεργη / άνεργο",
       "prompt": {
         "en": "Unemployed",
         "ru": "Безработный / безработная",
@@ -1396,12 +1396,13 @@
         }
       ],
       "alternatives": [
-        "άνεργη"
+        "άνεργη",
+        "άνεργο"
       ],
       "forms": [
         {
           "greek": "άνεργος",
-          "answerDisplay": "ο άνεργος",
+          "answerDisplay": "άνεργος",
           "pronunciation": {
             "en": "A-ner-ghos",
             "ru": "А-нэр-гос"
@@ -1409,10 +1410,19 @@
         },
         {
           "greek": "άνεργη",
-          "answerDisplay": "η άνεργη",
+          "answerDisplay": "άνεργη",
           "pronunciation": {
             "en": "A-ner-yi",
             "ru": "А-нэр-йи"
+          }
+        },
+        {
+          "greek": "άνεργο",
+          "answerDisplay": "άνεργο",
+          "pronunciation": {
+            "en": "A-ner-gho",
+            "ru": "А-нер-го",
+            "zh": "A-ner-gho"
           }
         }
       ],
@@ -1425,7 +1435,7 @@
           "cardId": "professions-unemployed-female"
         }
       ],
-      "collection": "words-descriptions",
+      "collection": "words-adjectives",
       "themes": [
         "people"
       ]

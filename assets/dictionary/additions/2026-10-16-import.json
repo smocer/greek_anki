@@ -4,7 +4,7 @@
   "words": [
     {
       "id": "oct16-perhaps",
-      "collection": "words-descriptions",
+      "collection": "words-adverbs",
       "greek": "ίσως",
       "prompt": {
         "en": "Perhaps / maybe",
@@ -21,7 +21,11 @@
       ],
       "themes": [
         "conversation"
-      ]
+      ],
+      "reviewIdentity": {
+        "deckId": "words-descriptions",
+        "cardId": "oct16-perhaps"
+      }
     },
     {
       "id": "oct16-flight-school",
@@ -131,7 +135,7 @@
     },
     {
       "id": "oct16-obviously",
-      "collection": "words-descriptions",
+      "collection": "words-adverbs",
       "greek": "προφανώς",
       "prompt": {
         "en": "Obviously / apparently",
@@ -148,11 +152,15 @@
       ],
       "themes": [
         "conversation"
-      ]
+      ],
+      "reviewIdentity": {
+        "deckId": "words-descriptions",
+        "cardId": "oct16-obviously"
+      }
     },
     {
       "id": "oct16-difficult",
-      "collection": "words-descriptions",
+      "collection": "words-adjectives",
       "greek": "δύσκολο",
       "prompt": {
         "en": "Difficult (neuter singular)",
@@ -169,7 +177,11 @@
       ],
       "themes": [
         "conversation"
-      ]
+      ],
+      "reviewIdentity": {
+        "deckId": "words-descriptions",
+        "cardId": "oct16-difficult"
+      }
     },
     {
       "id": "oct16-continue",
@@ -441,7 +453,7 @@
     },
     {
       "id": "oct16-ever-never",
-      "collection": "words-descriptions",
+      "collection": "words-adverbs",
       "greek": "ποτέ",
       "prompt": {
         "en": "Ever / never (with negation)",
@@ -458,7 +470,11 @@
       ],
       "themes": [
         "time"
-      ]
+      ],
+      "reviewIdentity": {
+        "deckId": "words-descriptions",
+        "cardId": "oct16-ever-never"
+      }
     },
     {
       "id": "oct16-when-conjunction",
@@ -571,23 +587,62 @@
     },
     {
       "id": "oct16-red",
-      "collection": "words-descriptions",
-      "greek": "κόκκινο",
+      "collection": "words-adjectives",
+      "greek": "κόκκινος",
       "prompt": {
         "en": "Red (neuter singular)",
         "ru": "Красное (средний род)",
         "zh": "红色；红色的（中性单数）"
       },
       "pronunciation": {
-        "en": "KO-ki-no",
-        "ru": "КО-ки-но",
-        "zh": "KO-ki-no"
+        "en": "KO-ki-nos",
+        "ru": "КО-ки-нос",
+        "zh": "KO-ki-nos"
       },
       "labels": [
         "adjective"
       ],
       "themes": [
         "home"
+      ],
+      "reviewIdentity": {
+        "deckId": "words-descriptions",
+        "cardId": "oct16-red"
+      },
+      "wordGroup": "audit-oct16-red",
+      "forms": [
+        {
+          "greek": "κόκκινος",
+          "answerDisplay": "κόκκινος",
+          "pronunciation": {
+            "en": "KO-ki-nos",
+            "ru": "КО-ки-нос",
+            "zh": "KO-ki-nos"
+          }
+        },
+        {
+          "greek": "κόκκινη",
+          "answerDisplay": "κόκκινη",
+          "pronunciation": {
+            "en": "KO-ki-ni",
+            "ru": "КО-ки-ни",
+            "zh": "KO-ki-ni"
+          }
+        },
+        {
+          "greek": "κόκκινο",
+          "answerDisplay": "κόκκινο",
+          "pronunciation": {
+            "en": "KO-ki-no",
+            "ru": "КО-ки-но",
+            "zh": "KO-ki-no"
+          }
+        }
+      ],
+      "answerDisplay": "κόκκινος / κόκκινη / κόκκινο",
+      "alternatives": [
+        "κόκκινη",
+        "κόκκινο"
       ]
     },
     {

@@ -106,6 +106,68 @@ void main() {
     },
   );
 
+  for (final size in [4, 9, 15, 87]) {
+    test('learning finishes after every new word initially fails ($size)', () {
+      final batch = cards.take(size).toList();
+      final session = StudySession(
+        cards: batch,
+        mode: StudyMode.typing,
+        style: SessionStyle.learning,
+        shuffle: false,
+        random: Random(4),
+      );
+      addTearDown(session.dispose);
+      final seen = <String>{};
+      var turns = 0;
+      while (!session.isComplete && turns < size * 12 + 40) {
+        final first = seen.add(session.currentKey);
+        answer(session, correct: !first);
+        turns++;
+      }
+      expect(session.isComplete, isTrue, reason: 'stalled after $turns turns');
+      expect(session.confirmationsRemaining, 0);
+      expect(session.completed, size);
+    });
+  }
+
+  test(
+    'learning tail only confirms after the full cooldown, including after reload',
+    () {
+      var session = StudySession(
+        cards: cards.take(15).toList(),
+        mode: StudyMode.typing,
+        shuffle: false,
+        random: Random(31),
+      );
+      final seen = <String>{};
+      var turns = 0;
+      while (session.uncheckedCount > 0 && turns++ < 300) {
+        answer(session, correct: !seen.add(session.currentKey));
+      }
+      expect(session.uncheckedCount, 0);
+      final saved = session.snapshot;
+      session.dispose();
+      session = StudySession.restore(
+        cards: cards.take(15).toList(),
+        snapshot: saved,
+        random: Random(31),
+      );
+      addTearDown(session.dispose);
+      while (!session.isComplete && turns++ < 600) {
+        final before = session.snapshot;
+        if (session.isConfirmation) {
+          final evidence = before.evidence[session.currentKey]!;
+          expect(
+            before.turn - evidence.lastTurn! - 1,
+            greaterThanOrEqualTo(ReviewSelection.cooldown),
+          );
+        }
+        answer(session);
+      }
+      expect(session.isComplete, isTrue);
+    },
+  );
+
   for (final mode in StudyMode.values) {
     test('87-card progress separates coverage, checks and spacing ($mode)', () {
       final session = StudySession(

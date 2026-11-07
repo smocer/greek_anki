@@ -43,7 +43,7 @@ void main() {
   });
 
   test('gender variants and articles stay flexible only in vocabulary', () {
-    final adjective = card('words-descriptions', 'difficult');
+    final adjective = card('words-adjectives', 'difficult');
     for (final answer in ['δύσκολος', 'δύσκολη', 'δύσκολο']) {
       expect(matcher.matches(answer, adjective), isTrue);
     }
@@ -51,7 +51,7 @@ void main() {
     final lesson = card('grammar-nouns', 'lesson-subject');
     expect(matcher.matches('Το μάθημα είναι δύσκολο.', lesson), isTrue);
     expect(matcher.matches('Το μάθημα είναι δύσκολος.', lesson), isFalse);
-    final full = card('words-descriptions', 'full');
+    final full = card('words-adjectives', 'full');
     expect(matcher.matches('πλήρης', full), isTrue);
     expect(matcher.matches('πλήρες', full), isTrue);
     expect(
@@ -96,41 +96,37 @@ void main() {
     },
   );
 
-  test(
-    'new senses merge into known words without resetting review history',
-    () async {
-      final pronouns = deck('words-pronouns');
-      final verbs = deck('words-verbs');
-      final us = pronouns.cards.singleWhere((c) => c.greek == 'μας');
-      final seek = verbs.cards.singleWhere((c) => c.greek == 'ζητάω');
-      expect(
-        us.senses.map((s) => s.ru),
-        containsAll(['Наш', 'Нас (прямое дополнение)']),
-      );
-      expect(us.aliases, contains('objects-us-object'));
-      expect(us.addedWeek, '2026-10-05');
-      expect(seek.aliases, contains('objects-seek-staff'));
-      expect(
-        seek.senses.map((s) => s.ru),
-        contains('Ищу (например, сотрудника)'),
-      );
-      expect(matcher.matches('ζητώ', seek), isTrue);
+  test('distinct pronoun senses preserve their own review history', () async {
+    final pronouns = deck('words-pronouns');
+    final verbs = deck('words-verbs');
+    final us = pronouns.cards.singleWhere(
+      (c) => c.greek == 'μας' && c.senseKey == 'possessive',
+    );
+    final seek = verbs.cards.singleWhere((c) => c.greek == 'ζητάω');
+    expect(pronouns.cards.where((c) => c.greek == 'μας'), hasLength(3));
+    expect(us.prompt.ru, 'Наш');
+    expect(us.addedWeek, '2026-10-05');
+    expect(seek.aliases, contains('objects-seek-staff'));
+    expect(
+      seek.senses.map((s) => s.ru),
+      contains('Ищу (например, сотрудника)'),
+    );
+    expect(matcher.matches('ζητώ', seek), isTrue);
 
-      final store = MemoryProgressStore();
-      final saved = ReviewSchedule(level: 3, dueAt: DateTime.utc(2099));
-      for (final mode in StudyMode.values) {
-        store.records['october-lesson.${mode.name}.possessive-our'] = saved;
-        store.records['words-verbs.${mode.name}.languages-request'] = saved;
-      }
-      final progress = LearningProgress(store);
-      addTearDown(progress.dispose);
-      await progress.load(currentDictionary.learningDecks);
-      for (final mode in StudyMode.values) {
-        expect(progress.learned(pronouns, mode), 1);
-        expect(progress.learned(verbs, mode), 1);
-        expect(progress.dueCards(pronouns, mode), isNot(contains(us)));
-        expect(progress.dueCards(verbs, mode), isNot(contains(seek)));
-      }
-    },
-  );
+    final store = MemoryProgressStore();
+    final saved = ReviewSchedule(level: 3, dueAt: DateTime.utc(2099));
+    for (final mode in StudyMode.values) {
+      store.records['october-lesson.${mode.name}.possessive-our'] = saved;
+      store.records['words-verbs.${mode.name}.languages-request'] = saved;
+    }
+    final progress = LearningProgress(store);
+    addTearDown(progress.dispose);
+    await progress.load(currentDictionary.learningDecks);
+    for (final mode in StudyMode.values) {
+      expect(progress.learned(pronouns, mode), 1);
+      expect(progress.learned(verbs, mode), 1);
+      expect(progress.dueCards(pronouns, mode), isNot(contains(us)));
+      expect(progress.dueCards(verbs, mode), isNot(contains(seek)));
+    }
+  });
 }

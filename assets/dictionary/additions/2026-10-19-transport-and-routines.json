@@ -761,7 +761,7 @@
     },
     {
       "id": "transport-big",
-      "collection": "words-descriptions",
+      "collection": "words-adjectives",
       "greek": "μεγάλος",
       "prompt": {
         "en": "Big",
@@ -814,11 +814,15 @@
             "ru": "мэ-ГА-ло"
           }
         }
-      ]
+      ],
+      "reviewIdentity": {
+        "deckId": "words-descriptions",
+        "cardId": "transport-big"
+      }
     },
     {
       "id": "transport-small",
-      "collection": "words-descriptions",
+      "collection": "words-adjectives",
       "greek": "μικρός",
       "prompt": {
         "en": "Small",
@@ -871,11 +875,15 @@
             "ru": "ми-КРО"
           }
         }
-      ]
+      ],
+      "reviewIdentity": {
+        "deckId": "words-descriptions",
+        "cardId": "transport-small"
+      }
     },
     {
       "id": "transport-same",
-      "collection": "words-descriptions",
+      "collection": "words-adjectives",
       "greek": "ίδιος",
       "prompt": {
         "en": "Same",
@@ -928,11 +936,15 @@
             "ru": "И-дьо"
           }
         }
-      ]
+      ],
+      "reviewIdentity": {
+        "deckId": "words-descriptions",
+        "cardId": "transport-same"
+      }
     },
     {
       "id": "transport-next",
-      "collection": "words-descriptions",
+      "collection": "words-adjectives",
       "greek": "επόμενος",
       "prompt": {
         "en": "Next",
@@ -985,11 +997,15 @@
             "ru": "э-ПО-мэ-но"
           }
         }
-      ]
+      ],
+      "reviewIdentity": {
+        "deckId": "words-descriptions",
+        "cardId": "transport-next"
+      }
     },
     {
       "id": "transport-certainly",
-      "collection": "words-descriptions",
+      "collection": "words-adverbs",
       "greek": "σίγουρα",
       "prompt": {
         "en": "Certainly / for sure",
@@ -1005,11 +1021,15 @@
       ],
       "labels": [
         "adverb"
-      ]
+      ],
+      "reviewIdentity": {
+        "deckId": "words-descriptions",
+        "cardId": "transport-certainly"
+      }
     },
     {
       "id": "transport-afterwards",
-      "collection": "words-descriptions",
+      "collection": "words-adverbs",
       "greek": "μετά",
       "prompt": {
         "en": "Then / afterwards",
@@ -1025,11 +1045,15 @@
       ],
       "labels": [
         "adverb"
-      ]
+      ],
+      "reviewIdentity": {
+        "deckId": "words-descriptions",
+        "cardId": "transport-afterwards"
+      }
     },
     {
       "id": "transport-so",
-      "collection": "words-connectors",
+      "collection": "words-adverbs",
       "greek": "λοιπόν",
       "prompt": {
         "en": "So / well then",
@@ -1044,8 +1068,12 @@
         "conversation"
       ],
       "labels": [
-        "conjunction"
-      ]
+        "adverb"
+      ],
+      "reviewIdentity": {
+        "deckId": "words-connectors",
+        "cardId": "transport-so"
+      }
     },
     {
       "id": "transport-piraeus",

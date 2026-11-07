@@ -81,7 +81,7 @@ void main() {
       });
 
       for (final remaining in [1, 2]) {
-        test('$remaining remaining targets stay in a four-word mix', () {
+        test('$remaining remaining targets receive spaced checks', () {
           final session = sessionWith(7);
           final learned = <String>{};
           for (
@@ -108,7 +108,7 @@ void main() {
             expect(session.completed, session.total - remaining);
             expect(session.isComplete, isFalse);
           }
-          expect(reviews, 6 * (4 - remaining));
+          expect(reviews, greaterThanOrEqualTo(6 * (4 - remaining)));
           complete(session);
         });
       }

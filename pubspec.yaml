@@ -32,5 +32,8 @@ flutter:
     - assets/audio/greek/words-verbs/
     - assets/audio/greek/words-pronouns/
     - assets/audio/greek/words-descriptions/
+    - assets/audio/greek/words-adjectives/
+    - assets/audio/greek/words-adverbs/
+    - assets/audio/greek/words-prepositions/
     - assets/audio/greek/words-connectors/
     - assets/audio/greek/words-numbers/
