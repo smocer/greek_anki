@@ -22,7 +22,7 @@ void main() {
         (section) =>
             learningCollections.where((c) => c.section == section).length,
       ),
-      [8, 3, 8],
+      [8, 3, 9],
     );
     for (final collection in learningCollections) {
       final cards = collection.deck.cards;

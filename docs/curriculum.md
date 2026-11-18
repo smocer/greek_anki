@@ -44,13 +44,14 @@ Relationship phrases practise παντρεμένος / παντρεμένη, ε�
 
 ## Grammar
 
-Eight groups organise practice by skill:
+Nine groups organise practice by skill:
 
 - **Articles and gender:** twelve familiar nouns in “This is…” sentences, masculine/feminine relationship-status forms, and όλοι / όλες / όλα. Agreement follows the Greek noun, even when its Russian translation has a different gender.
 - **Noun forms and cases:** subjects, objects, possession, plurals and forms of address; names after τον / την λένε and the accusative after από / σε / με / για. Practise ο σταθμός → τον σταθμό and replacing objects with τον / την / το, including negative replies such as Όχι, δεν τον ξέρω. Contrast Μου αρέσει ο καφές with Προτιμώ τον καφέ.
 - **Verb forms:** six persons of μένω, διαβάζω and καταλαβαίνω, alongside the distinct patterns είμαι, λέγομαι and τραγουδώ. Likes practice covers all seven short pronouns with αρέσει, plural αρέσουν, Μου αρέσεις and activities with να. The verb after να agrees with the person doing the activity: Μας αρέσει να κολυμπάμε.
 - **B1 verb forms:** μιλάω and αγαπάω in all six persons, accepting contracted alternatives such as μιλώ and αγαπώ.
 - **B2 verb forms:** μπορώ and οδηγώ in all six persons, contrasting endings such as -είς / -εί with B1 -άς / -άει. B1 and B2 here name conjugation classes, not language proficiency levels.
+- **Past & future:** a separate notebook-based set for κάνω, έχω, είμαι, πάω, λέω and θέλω, plus impersonal έπρεπε. These tense forms stay in grammar and do not enter the vocabulary verb collection.
 
 In Words → Verbs → Filters, the topic list also offers **A, B1, B2 and AB**.
 AB includes ακούω, λέω, πάω and τρώω, following the class terminology in

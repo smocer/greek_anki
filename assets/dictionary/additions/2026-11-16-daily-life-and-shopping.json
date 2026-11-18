@@ -1,0 +1,3953 @@
+{
+  "schemaVersion": 1,
+  "addedWeek": "2026-11-16",
+  "words": [
+    {
+      "id": "nov18-glass",
+      "collection": "words-nouns",
+      "greek": "ποτήρι",
+      "prompt": {
+        "en": "Drinking glass",
+        "ru": "Стакан / бокал",
+        "zh": "玻璃杯"
+      },
+      "pronunciation": {
+        "en": "po-TI-ri",
+        "ru": "по-ТИ-ри",
+        "zh": "po-TI-ri"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "food"
+      ],
+      "answerDisplay": "το ποτήρι",
+      "explanation": {
+        "en": "Ποτήρι is a drinking glass, not a teacup.",
+        "ru": "Ποτήρι — стакан или бокал, не чайная чашка.",
+        "zh": "Ποτήρι 指玻璃杯或高脚杯，不是茶杯。"
+      }
+    },
+    {
+      "id": "nov18-excursion",
+      "collection": "words-nouns",
+      "greek": "εκδρομή",
+      "prompt": {
+        "en": "Excursion / day trip",
+        "ru": "Экскурсия / поездка на отдых",
+        "zh": "短途旅行／郊游"
+      },
+      "pronunciation": {
+        "en": "ek-dhro-MI",
+        "ru": "эк-зро-МИ",
+        "zh": "ek-dhro-MI"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "travel"
+      ],
+      "answerDisplay": "η εκδρομή"
+    },
+    {
+      "id": "nov18-garden",
+      "collection": "words-nouns",
+      "greek": "κήπος",
+      "prompt": {
+        "en": "Garden",
+        "ru": "Сад",
+        "zh": "花园"
+      },
+      "pronunciation": {
+        "en": "KI-pos",
+        "ru": "КИ-пос",
+        "zh": "KI-pos"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "home"
+      ],
+      "answerDisplay": "ο κήπος"
+    },
+    {
+      "id": "nov18-work",
+      "collection": "words-nouns",
+      "greek": "εργασία",
+      "prompt": {
+        "en": "Work / assignment",
+        "ru": "Работа / задание",
+        "zh": "工作／作业"
+      },
+      "pronunciation": {
+        "en": "er-gha-SI-a",
+        "ru": "эр-га-СИ-а",
+        "zh": "er-gha-SI-a"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "classroom"
+      ],
+      "answerDisplay": "η εργασία"
+    },
+    {
+      "id": "nov18-work-result",
+      "collection": "words-nouns",
+      "greek": "έργο",
+      "prompt": {
+        "en": "Work / creation / project",
+        "ru": "Произведение / результат труда / проект",
+        "zh": "作品／工程"
+      },
+      "pronunciation": {
+        "en": "ER-gho",
+        "ru": "ЭР-го",
+        "zh": "ER-gho"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "conversation"
+      ],
+      "answerDisplay": "το έργο",
+      "explanation": {
+        "en": "Έργο is a result of work, a project, or an artistic work; it can also refer to a film or play. Εργασία and δουλειά describe work or employment.",
+        "ru": "Έργο — результат труда, проект, произведение; также фильм или спектакль. Εργασία и δουλειά — работа или занятость.",
+        "zh": "Έργο 指劳动成果、工程或艺术作品，也可指电影、戏剧；εργασία 和 δουλειά 指工作。"
+      }
+    },
+    {
+      "id": "nov18-team",
+      "collection": "words-nouns",
+      "greek": "ομάδα",
+      "prompt": {
+        "en": "Team / group",
+        "ru": "Команда / группа",
+        "zh": "团队／小组"
+      },
+      "pronunciation": {
+        "en": "o-MA-dha",
+        "ru": "о-МА-за",
+        "zh": "o-MA-dha"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "people"
+      ],
+      "answerDisplay": "η ομάδα"
+    },
+    {
+      "id": "nov18-wood",
+      "collection": "words-nouns",
+      "greek": "ξύλο",
+      "prompt": {
+        "en": "Wood / piece of wood",
+        "ru": "Дерево (материал) / деревяшка",
+        "zh": "木材／木头"
+      },
+      "pronunciation": {
+        "en": "KSI-lo",
+        "ru": "КСИ-ло",
+        "zh": "KSI-lo"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "home"
+      ],
+      "answerDisplay": "το ξύλο",
+      "explanation": {
+        "en": "Ξύλο is wood as a material or a piece of wood. A living tree is δέντρο.",
+        "ru": "Ξύλο — древесина или деревяшка. Растущее дерево — δέντρο.",
+        "zh": "Ξύλο 指木材或一块木头；生长的树是 δέντρο。"
+      }
+    },
+    {
+      "id": "nov18-beginning",
+      "collection": "words-nouns",
+      "greek": "αρχή",
+      "prompt": {
+        "en": "Beginning",
+        "ru": "Начало",
+        "zh": "开始／开端"
+      },
+      "pronunciation": {
+        "en": "ar-KHI",
+        "ru": "ар-ХИ",
+        "zh": "ar-KHI"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "time"
+      ],
+      "answerDisplay": "η αρχή"
+    },
+    {
+      "id": "nov18-washing-machine",
+      "collection": "words-nouns",
+      "greek": "πλυντήριο",
+      "prompt": {
+        "en": "Washing machine / washer",
+        "ru": "Стиральная машина",
+        "zh": "洗衣机"
+      },
+      "pronunciation": {
+        "en": "plin-DI-ri-o",
+        "ru": "плин-ДИ-ри-о",
+        "zh": "plin-DI-ri-o"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "home"
+      ],
+      "answerDisplay": "το πλυντήριο",
+      "explanation": {
+        "en": "Πλυντήριο is a washing appliance: πλυντήριο ρούχων washes clothes; πλυντήριο πιάτων is a dishwasher.",
+        "ru": "Πλυντήριο — моющая машина: πλυντήριο ρούχων — стиральная, πλυντήριο πιάτων — посудомоечная.",
+        "zh": "Πλυντήριο 泛指清洗机器：πλυντήριο ρούχων 是洗衣机，πλυντήριο πιάτων 是洗碗机。"
+      }
+    },
+    {
+      "id": "nov18-shower",
+      "collection": "words-nouns",
+      "greek": "ντους",
+      "prompt": {
+        "en": "Shower",
+        "ru": "Душ",
+        "zh": "淋浴"
+      },
+      "pronunciation": {
+        "en": "dus",
+        "ru": "дус",
+        "zh": "dus"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "home"
+      ],
+      "answerDisplay": "το ντους"
+    },
+    {
+      "id": "nov18-smoke",
+      "collection": "words-nouns",
+      "greek": "καπνός",
+      "prompt": {
+        "en": "Smoke / tobacco",
+        "ru": "Дым / табак",
+        "zh": "烟／烟草"
+      },
+      "pronunciation": {
+        "en": "kap-NOS",
+        "ru": "кап-НОС",
+        "zh": "kap-NOS"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "home"
+      ],
+      "answerDisplay": "ο καπνός"
+    },
+    {
+      "id": "nov18-room",
+      "collection": "words-nouns",
+      "greek": "δωμάτιο",
+      "prompt": {
+        "en": "Room",
+        "ru": "Комната",
+        "zh": "房间"
+      },
+      "pronunciation": {
+        "en": "dho-MA-ti-o",
+        "ru": "зо-МА-ти-о",
+        "zh": "dho-MA-ti-o"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "home"
+      ],
+      "answerDisplay": "το δωμάτιο"
+    },
+    {
+      "id": "nov18-gift",
+      "collection": "words-nouns",
+      "greek": "δώρο",
+      "prompt": {
+        "en": "Gift",
+        "ru": "Подарок",
+        "zh": "礼物"
+      },
+      "pronunciation": {
+        "en": "DHO-ro",
+        "ru": "ЗО-ро",
+        "zh": "DHO-ro"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "home"
+      ],
+      "answerDisplay": "το δώρο"
+    },
+    {
+      "id": "nov18-sugar",
+      "collection": "words-nouns",
+      "greek": "ζάχαρη",
+      "prompt": {
+        "en": "Sugar",
+        "ru": "Сахар",
+        "zh": "糖"
+      },
+      "pronunciation": {
+        "en": "ZA-kha-ri",
+        "ru": "ЗА-ха-ри",
+        "zh": "ZA-kha-ri"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "food"
+      ],
+      "answerDisplay": "η ζάχαρη"
+    },
+    {
+      "id": "nov18-milk",
+      "collection": "words-nouns",
+      "greek": "γάλα",
+      "prompt": {
+        "en": "Milk",
+        "ru": "Молоко",
+        "zh": "牛奶"
+      },
+      "pronunciation": {
+        "en": "GHA-la",
+        "ru": "ГА-ла",
+        "zh": "GHA-la"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "food"
+      ],
+      "answerDisplay": "το γάλα"
+    },
+    {
+      "id": "nov18-coconut",
+      "collection": "words-nouns",
+      "greek": "καρύδα",
+      "prompt": {
+        "en": "Coconut",
+        "ru": "Кокос",
+        "zh": "椰子"
+      },
+      "pronunciation": {
+        "en": "ka-RI-dha",
+        "ru": "ка-РИ-за",
+        "zh": "ka-RI-dha"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "food"
+      ],
+      "answerDisplay": "η καρύδα"
+    },
+    {
+      "id": "nov18-almond",
+      "collection": "words-nouns",
+      "greek": "αμύγδαλο",
+      "prompt": {
+        "en": "Almond",
+        "ru": "Миндаль",
+        "zh": "杏仁"
+      },
+      "pronunciation": {
+        "en": "a-MIGH-dha-lo",
+        "ru": "а-МИГ-за-ло",
+        "zh": "a-MIGH-dha-lo"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "food"
+      ],
+      "answerDisplay": "το αμύγδαλο"
+    },
+    {
+      "id": "nov18-oats",
+      "collection": "words-nouns",
+      "greek": "βρώμη",
+      "prompt": {
+        "en": "Oats",
+        "ru": "Овёс",
+        "zh": "燕麦"
+      },
+      "pronunciation": {
+        "en": "VRO-mi",
+        "ru": "ВРО-ми",
+        "zh": "VRO-mi"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "food"
+      ],
+      "answerDisplay": "η βρώμη"
+    },
+    {
+      "id": "nov18-city",
+      "collection": "words-nouns",
+      "greek": "πόλη",
+      "prompt": {
+        "en": "City / town",
+        "ru": "Город",
+        "zh": "城市"
+      },
+      "pronunciation": {
+        "en": "PO-li",
+        "ru": "ПО-ли",
+        "zh": "PO-li"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "places"
+      ],
+      "answerDisplay": "η πόλη"
+    },
+    {
+      "id": "nov18-village",
+      "collection": "words-nouns",
+      "greek": "χωριό",
+      "prompt": {
+        "en": "Village",
+        "ru": "Деревня / село",
+        "zh": "村庄"
+      },
+      "pronunciation": {
+        "en": "kho-RYO",
+        "ru": "хо-РЬО",
+        "zh": "kho-RYO"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "places"
+      ],
+      "answerDisplay": "το χωριό"
+    },
+    {
+      "id": "nov18-honey",
+      "collection": "words-nouns",
+      "greek": "μέλι",
+      "prompt": {
+        "en": "Honey",
+        "ru": "Мёд",
+        "zh": "蜂蜜"
+      },
+      "pronunciation": {
+        "en": "ME-li",
+        "ru": "МЭ-ли",
+        "zh": "ME-li"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "food"
+      ],
+      "answerDisplay": "το μέλι"
+    },
+    {
+      "id": "nov18-newspaper",
+      "collection": "words-nouns",
+      "greek": "εφημερίδα",
+      "prompt": {
+        "en": "Newspaper",
+        "ru": "Газета",
+        "zh": "报纸"
+      },
+      "pronunciation": {
+        "en": "e-fi-me-RI-dha",
+        "ru": "э-фи-мэ-РИ-за",
+        "zh": "e-fi-me-RI-dha"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "conversation"
+      ],
+      "answerDisplay": "η εφημερίδα"
+    },
+    {
+      "id": "nov18-sport",
+      "collection": "words-nouns",
+      "greek": "σπορ",
+      "prompt": {
+        "en": "Sport (loanword)",
+        "ru": "Спорт (заимствованное слово)",
+        "zh": "体育运动（外来词）"
+      },
+      "pronunciation": {
+        "en": "spor",
+        "ru": "спор",
+        "zh": "spor"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "conversation"
+      ],
+      "answerDisplay": "το σπορ"
+    },
+    {
+      "id": "nov18-statistics",
+      "collection": "words-nouns",
+      "greek": "στατιστικά",
+      "prompt": {
+        "en": "Statistics / statistical figures",
+        "ru": "Статистика / статистические данные",
+        "zh": "统计数据"
+      },
+      "pronunciation": {
+        "en": "sta-ti-sti-KA",
+        "ru": "ста-ти-сти-КА",
+        "zh": "sta-ti-sti-KA"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "classroom"
+      ],
+      "answerDisplay": "τα στατιστικά"
+    },
+    {
+      "id": "nov18-nap",
+      "collection": "words-nouns",
+      "greek": "υπνάκος",
+      "prompt": {
+        "en": "Nap",
+        "ru": "Короткий сон / дрёма",
+        "zh": "小睡"
+      },
+      "pronunciation": {
+        "en": "ip-NA-kos",
+        "ru": "ип-НА-кос",
+        "zh": "ip-NA-kos"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "home"
+      ],
+      "answerDisplay": "ο υπνάκος"
+    },
+    {
+      "id": "nov18-tutoring-school",
+      "collection": "words-nouns",
+      "greek": "φροντιστήριο",
+      "prompt": {
+        "en": "Private tutoring school",
+        "ru": "Учебные курсы / центр дополнительного обучения",
+        "zh": "课外辅导学校"
+      },
+      "pronunciation": {
+        "en": "fron-di-STI-ri-o",
+        "ru": "фрон-ди-СТИ-ри-о",
+        "zh": "fron-di-STI-ri-o"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "classroom"
+      ],
+      "answerDisplay": "το φροντιστήριο"
+    },
+    {
+      "id": "nov18-pee",
+      "collection": "words-nouns",
+      "greek": "τσίσα",
+      "prompt": {
+        "en": "Pee (children’s word)",
+        "ru": "Пи-пи (детское слово)",
+        "zh": "尿尿（儿语）"
+      },
+      "pronunciation": {
+        "en": "TSI-sa",
+        "ru": "ЦИ-са",
+        "zh": "TSI-sa"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "home"
+      ],
+      "answerDisplay": "τα τσίσα"
+    },
+    {
+      "id": "nov18-poo",
+      "collection": "words-nouns",
+      "greek": "κακά",
+      "prompt": {
+        "en": "Poo (children’s word)",
+        "ru": "Каки (детское слово)",
+        "zh": "便便（儿语）"
+      },
+      "pronunciation": {
+        "en": "ka-KA",
+        "ru": "ка-КА",
+        "zh": "ka-KA"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "home"
+      ],
+      "answerDisplay": "τα κακά"
+    },
+    {
+      "id": "nov18-baby",
+      "collection": "words-nouns",
+      "greek": "μωρό",
+      "prompt": {
+        "en": "Baby",
+        "ru": "Младенец",
+        "zh": "婴儿"
+      },
+      "pronunciation": {
+        "en": "mo-RO",
+        "ru": "мо-РО",
+        "zh": "mo-RO"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "family"
+      ],
+      "answerDisplay": "το μωρό"
+    },
+    {
+      "id": "nov18-exercise",
+      "collection": "words-nouns",
+      "greek": "γυμναστική",
+      "prompt": {
+        "en": "Physical exercise / gymnastics",
+        "ru": "Физкультура / гимнастика",
+        "zh": "体育锻炼／体操"
+      },
+      "pronunciation": {
+        "en": "yim-na-sti-KI",
+        "ru": "иим-на-сти-КИ",
+        "zh": "yim-na-sti-KI"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "conversation"
+      ],
+      "answerDisplay": "η γυμναστική"
+    },
+    {
+      "id": "nov18-party",
+      "collection": "words-nouns",
+      "greek": "πάρτι",
+      "prompt": {
+        "en": "Party",
+        "ru": "Вечеринка",
+        "zh": "聚会／派对"
+      },
+      "pronunciation": {
+        "en": "PAR-ti",
+        "ru": "ПАР-ти",
+        "zh": "PAR-ti"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "conversation"
+      ],
+      "answerDisplay": "το πάρτι"
+    },
+    {
+      "id": "nov18-datum",
+      "collection": "words-nouns",
+      "greek": "στοιχείο",
+      "prompt": {
+        "en": "Element / item of information",
+        "ru": "Элемент / сведение",
+        "zh": "元素／一项资料"
+      },
+      "pronunciation": {
+        "en": "sti-KHI-o",
+        "ru": "сти-ХИ-о",
+        "zh": "sti-KHI-o"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "classroom"
+      ],
+      "answerDisplay": "το στοιχείο"
+    },
+    {
+      "id": "nov18-politician",
+      "collection": "words-nouns",
+      "greek": "πολιτικός",
+      "prompt": {
+        "en": "Politician",
+        "ru": "Политик",
+        "zh": "政治家"
+      },
+      "pronunciation": {
+        "en": "po-li-ti-KOS",
+        "ru": "по-ли-ти-КОС",
+        "zh": "po-li-ti-KOS"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "people"
+      ],
+      "answerDisplay": "ο πολιτικός"
+    },
+    {
+      "id": "nov18-fax",
+      "collection": "words-nouns",
+      "greek": "φαξ",
+      "prompt": {
+        "en": "Fax",
+        "ru": "Факс",
+        "zh": "传真"
+      },
+      "pronunciation": {
+        "en": "faks",
+        "ru": "факс",
+        "zh": "faks"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "phone"
+      ],
+      "answerDisplay": "το φαξ"
+    },
+    {
+      "id": "nov18-jungle",
+      "collection": "words-nouns",
+      "greek": "ζούγκλα",
+      "prompt": {
+        "en": "Jungle",
+        "ru": "Джунгли",
+        "zh": "丛林"
+      },
+      "pronunciation": {
+        "en": "ZUN-gla",
+        "ru": "ЗУН-гла",
+        "zh": "ZUN-gla"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "places"
+      ],
+      "answerDisplay": "η ζούγκλα"
+    },
+    {
+      "id": "nov18-cardigan",
+      "collection": "words-nouns",
+      "greek": "ζακέτα",
+      "prompt": {
+        "en": "Cardigan / light jacket",
+        "ru": "Кофта / лёгкая куртка",
+        "zh": "开衫／薄外套"
+      },
+      "pronunciation": {
+        "en": "za-KE-ta",
+        "ru": "за-КЭ-та",
+        "zh": "za-KE-ta"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "home"
+      ],
+      "answerDisplay": "η ζακέτα"
+    },
+    {
+      "id": "nov18-position",
+      "collection": "words-nouns",
+      "greek": "θέση",
+      "prompt": {
+        "en": "Position / place / seat",
+        "ru": "Место / положение",
+        "zh": "位置／座位"
+      },
+      "pronunciation": {
+        "en": "THE-si",
+        "ru": "ТЭ-си",
+        "zh": "THE-si"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "places"
+      ],
+      "answerDisplay": "η θέση"
+    },
+    {
+      "id": "nov18-small-bottle",
+      "collection": "words-nouns",
+      "greek": "μπουκαλάκι",
+      "prompt": {
+        "en": "Small bottle",
+        "ru": "Бутылочка",
+        "zh": "小瓶子"
+      },
+      "pronunciation": {
+        "en": "bu-ka-LA-ki",
+        "ru": "бу-ка-ЛА-ки",
+        "zh": "bu-ka-LA-ki"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "food"
+      ],
+      "answerDisplay": "το μπουκαλάκι"
+    },
+    {
+      "id": "nov18-water",
+      "collection": "words-nouns",
+      "greek": "νερό",
+      "prompt": {
+        "en": "Water",
+        "ru": "Вода",
+        "zh": "水"
+      },
+      "pronunciation": {
+        "en": "ne-RO",
+        "ru": "нэ-РО",
+        "zh": "ne-RO"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "food"
+      ],
+      "answerDisplay": "το νερό"
+    },
+    {
+      "id": "nov18-fridge",
+      "collection": "words-nouns",
+      "greek": "ψυγείο",
+      "prompt": {
+        "en": "Refrigerator",
+        "ru": "Холодильник",
+        "zh": "冰箱"
+      },
+      "pronunciation": {
+        "en": "psi-YI-o",
+        "ru": "пси-ЙИ-о",
+        "zh": "psi-YI-o"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "home"
+      ],
+      "answerDisplay": "το ψυγείο"
+    },
+    {
+      "id": "nov18-small-change",
+      "collection": "words-nouns",
+      "greek": "ψιλά",
+      "prompt": {
+        "en": "Small change / coins",
+        "ru": "Мелочь (деньги)",
+        "zh": "零钱／硬币"
+      },
+      "pronunciation": {
+        "en": "psi-LA",
+        "ru": "пси-ЛА",
+        "zh": "psi-LA"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "conversation"
+      ],
+      "answerDisplay": "τα ψιλά",
+      "explanation": {
+        "en": "Τα ψιλά is a plural noun for coins or small-denomination money; τα ρέστα is money returned after payment.",
+        "ru": "Τα ψιλά — мелкие деньги; употребляется во множественном числе. Τα ρέστα — сдача после оплаты.",
+        "zh": "Τα ψιλά 是复数名词，指硬币或小额零钱；τα ρέστα 指付款后的找零。"
+      }
+    },
+    {
+      "id": "nov18-change-money",
+      "collection": "words-nouns",
+      "greek": "ρέστα",
+      "prompt": {
+        "en": "Change (money returned)",
+        "ru": "Сдача",
+        "zh": "找零"
+      },
+      "pronunciation": {
+        "en": "RE-sta",
+        "ru": "РЭ-ста",
+        "zh": "RE-sta"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "conversation"
+      ],
+      "answerDisplay": "τα ρέστα"
+    },
+    {
+      "id": "nov18-match",
+      "collection": "words-nouns",
+      "greek": "σπίρτο",
+      "prompt": {
+        "en": "Match (for lighting a fire)",
+        "ru": "Спичка",
+        "zh": "火柴"
+      },
+      "pronunciation": {
+        "en": "SPIR-to",
+        "ru": "СПИР-то",
+        "zh": "SPIR-to"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "home"
+      ],
+      "answerDisplay": "το σπίρτο"
+    },
+    {
+      "id": "nov18-magazine",
+      "collection": "words-nouns",
+      "greek": "περιοδικό",
+      "prompt": {
+        "en": "Magazine",
+        "ru": "Журнал",
+        "zh": "杂志"
+      },
+      "pronunciation": {
+        "en": "pe-ri-o-dhi-KO",
+        "ru": "пэ-ри-о-зи-КО",
+        "zh": "pe-ri-o-dhi-KO"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "conversation"
+      ],
+      "answerDisplay": "το περιοδικό"
+    },
+    {
+      "id": "nov18-phonecard",
+      "collection": "words-nouns",
+      "greek": "τηλεκάρτα",
+      "prompt": {
+        "en": "Prepaid phone card",
+        "ru": "Телефонная карта",
+        "zh": "电话卡"
+      },
+      "pronunciation": {
+        "en": "ti-le-KAR-ta",
+        "ru": "ти-лэ-КАР-та",
+        "zh": "ti-le-KAR-ta"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "phone"
+      ],
+      "answerDisplay": "η τηλεκάρτα"
+    },
+    {
+      "id": "nov18-stamp",
+      "collection": "words-nouns",
+      "greek": "γραμματόσημο",
+      "prompt": {
+        "en": "Postage stamp",
+        "ru": "Почтовая марка",
+        "zh": "邮票"
+      },
+      "pronunciation": {
+        "en": "ghra-ma-TO-si-mo",
+        "ru": "гра-ма-ТО-си-мо",
+        "zh": "ghra-ma-TO-si-mo"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "conversation"
+      ],
+      "answerDisplay": "το γραμματόσημο"
+    },
+    {
+      "id": "nov18-tissue",
+      "collection": "words-nouns",
+      "greek": "χαρτομάντιλο",
+      "prompt": {
+        "en": "Paper tissue",
+        "ru": "Бумажный платок / салфетка",
+        "zh": "纸巾"
+      },
+      "pronunciation": {
+        "en": "khar-to-MAN-di-lo",
+        "ru": "хар-то-МАН-ди-ло",
+        "zh": "khar-to-MAN-di-lo"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "home"
+      ],
+      "answerDisplay": "το χαρτομάντιλο"
+    },
+    {
+      "id": "nov18-sweet",
+      "collection": "words-nouns",
+      "greek": "καραμέλα",
+      "prompt": {
+        "en": "Sweet / candy",
+        "ru": "Конфета / карамель",
+        "zh": "糖果"
+      },
+      "pronunciation": {
+        "en": "ka-ra-ME-la",
+        "ru": "ка-ра-МЭ-ла",
+        "zh": "ka-ra-ME-la"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "food"
+      ],
+      "answerDisplay": "η καραμέλα"
+    },
+    {
+      "id": "nov18-gum",
+      "collection": "words-nouns",
+      "greek": "τσίχλα",
+      "prompt": {
+        "en": "Chewing gum",
+        "ru": "Жевательная резинка",
+        "zh": "口香糖"
+      },
+      "pronunciation": {
+        "en": "TSI-khla",
+        "ru": "ЦИ-хла",
+        "zh": "TSI-khla"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "food"
+      ],
+      "answerDisplay": "η τσίχλα"
+    },
+    {
+      "id": "nov18-crisps",
+      "collection": "words-nouns",
+      "greek": "πατατάκια",
+      "prompt": {
+        "en": "Potato crisps / chips",
+        "ru": "Картофельные чипсы",
+        "zh": "薯片"
+      },
+      "pronunciation": {
+        "en": "pa-ta-TA-kya",
+        "ru": "па-та-ТА-кья",
+        "zh": "pa-ta-TA-kya"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "food"
+      ],
+      "answerDisplay": "τα πατατάκια"
+    },
+    {
+      "id": "nov18-soft-drink",
+      "collection": "words-nouns",
+      "greek": "αναψυκτικό",
+      "prompt": {
+        "en": "Soft drink",
+        "ru": "Безалкогольный прохладительный напиток",
+        "zh": "汽水／软饮料"
+      },
+      "pronunciation": {
+        "en": "a-na-psi-kti-KO",
+        "ru": "а-на-пси-кти-КО",
+        "zh": "a-na-psi-kti-KO"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "food"
+      ],
+      "answerDisplay": "το αναψυκτικό"
+    },
+    {
+      "id": "nov18-yogurt",
+      "collection": "words-nouns",
+      "greek": "γιαούρτι",
+      "prompt": {
+        "en": "Yogurt",
+        "ru": "Йогурт",
+        "zh": "酸奶"
+      },
+      "pronunciation": {
+        "en": "ya-UR-ti",
+        "ru": "иа-УР-ти",
+        "zh": "ya-UR-ti"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "food"
+      ],
+      "answerDisplay": "το γιαούρτι"
+    },
+    {
+      "id": "nov18-juice",
+      "collection": "words-nouns",
+      "greek": "χυμός",
+      "prompt": {
+        "en": "Juice",
+        "ru": "Сок",
+        "zh": "果汁"
+      },
+      "pronunciation": {
+        "en": "khi-MOS",
+        "ru": "хи-МОС",
+        "zh": "khi-MOS"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "food"
+      ],
+      "answerDisplay": "ο χυμός"
+    },
+    {
+      "id": "nov18-packet",
+      "collection": "words-nouns",
+      "greek": "πακέτο",
+      "prompt": {
+        "en": "Packet / package",
+        "ru": "Пачка / пакет / посылка",
+        "zh": "一包／包裹"
+      },
+      "pronunciation": {
+        "en": "pa-KE-to",
+        "ru": "па-КЭ-то",
+        "zh": "pa-KE-to"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "home"
+      ],
+      "answerDisplay": "το πακέτο"
+    },
+    {
+      "id": "nov18-box",
+      "collection": "words-nouns",
+      "greek": "κουτί",
+      "prompt": {
+        "en": "Box / tin",
+        "ru": "Коробка / банка",
+        "zh": "盒子／罐子"
+      },
+      "pronunciation": {
+        "en": "ku-TI",
+        "ru": "ку-ТИ",
+        "zh": "ku-TI"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "home"
+      ],
+      "answerDisplay": "το κουτί"
+    },
+    {
+      "id": "nov18-orange",
+      "collection": "words-nouns",
+      "greek": "πορτοκάλι",
+      "prompt": {
+        "en": "Orange (fruit)",
+        "ru": "Апельсин",
+        "zh": "橙子"
+      },
+      "pronunciation": {
+        "en": "por-to-KA-li",
+        "ru": "пор-то-КА-ли",
+        "zh": "por-to-KA-li"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "food"
+      ],
+      "answerDisplay": "το πορτοκάλι"
+    },
+    {
+      "id": "nov18-door",
+      "collection": "words-nouns",
+      "greek": "πόρτα",
+      "prompt": {
+        "en": "Door",
+        "ru": "Дверь",
+        "zh": "门"
+      },
+      "pronunciation": {
+        "en": "POR-ta",
+        "ru": "ПОР-та",
+        "zh": "POR-ta"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "home"
+      ],
+      "answerDisplay": "η πόρτα"
+    },
+    {
+      "id": "nov18-bread",
+      "collection": "words-nouns",
+      "greek": "ψωμί",
+      "prompt": {
+        "en": "Bread",
+        "ru": "Хлеб",
+        "zh": "面包"
+      },
+      "pronunciation": {
+        "en": "pso-MI",
+        "ru": "псо-МИ",
+        "zh": "pso-MI"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "food"
+      ],
+      "answerDisplay": "το ψωμί"
+    },
+    {
+      "id": "nov18-kilogram",
+      "collection": "words-nouns",
+      "greek": "κιλό",
+      "prompt": {
+        "en": "Kilogram / kilo",
+        "ru": "Килограмм",
+        "zh": "公斤"
+      },
+      "pronunciation": {
+        "en": "ki-LO",
+        "ru": "ки-ЛО",
+        "zh": "ki-LO"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "food"
+      ],
+      "answerDisplay": "το κιλό"
+    },
+    {
+      "id": "nov18-biscuit",
+      "collection": "words-nouns",
+      "greek": "βούτημα",
+      "prompt": {
+        "en": "Biscuit served with coffee or tea",
+        "ru": "Печенье к чаю или кофе",
+        "zh": "配茶或咖啡的小饼干"
+      },
+      "pronunciation": {
+        "en": "VU-ti-ma",
+        "ru": "ВУ-ти-ма",
+        "zh": "VU-ti-ma"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "food"
+      ],
+      "answerDisplay": "το βούτημα"
+    },
+    {
+      "id": "nov18-spinach-pie",
+      "collection": "words-nouns",
+      "greek": "σπανακόπιτα",
+      "prompt": {
+        "en": "Spinach pie",
+        "ru": "Пирог со шпинатом",
+        "zh": "菠菜馅饼"
+      },
+      "pronunciation": {
+        "en": "spa-na-KO-pi-ta",
+        "ru": "спа-на-КО-пи-та",
+        "zh": "spa-na-KO-pi-ta"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "food"
+      ],
+      "answerDisplay": "η σπανακόπιτα"
+    },
+    {
+      "id": "nov18-croissant",
+      "collection": "words-nouns",
+      "greek": "κρουασάν",
+      "prompt": {
+        "en": "Croissant",
+        "ru": "Круассан",
+        "zh": "可颂"
+      },
+      "pronunciation": {
+        "en": "kru-a-SAN",
+        "ru": "кру-а-САН",
+        "zh": "kru-a-SAN"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "food"
+      ],
+      "answerDisplay": "το κρουασάν"
+    },
+    {
+      "id": "nov18-bread-ring",
+      "collection": "words-nouns",
+      "greek": "κουλούρι",
+      "prompt": {
+        "en": "Bread ring (often sesame-covered)",
+        "ru": "Хлебный бублик (часто с кунжутом)",
+        "zh": "面包圈（常撒芝麻）"
+      },
+      "pronunciation": {
+        "en": "ku-LU-ri",
+        "ru": "ку-ЛУ-ри",
+        "zh": "ku-LU-ri"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "food"
+      ],
+      "answerDisplay": "το κουλούρι"
+    },
+    {
+      "id": "nov18-breadstick",
+      "collection": "words-nouns",
+      "greek": "κριτσίνι",
+      "prompt": {
+        "en": "Breadstick",
+        "ru": "Хлебная палочка",
+        "zh": "面包棒"
+      },
+      "pronunciation": {
+        "en": "kri-TSI-ni",
+        "ru": "кри-ЦИ-ни",
+        "zh": "kri-TSI-ni"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "food"
+      ],
+      "answerDisplay": "το κριτσίνι"
+    },
+    {
+      "id": "nov18-rusk",
+      "collection": "words-nouns",
+      "greek": "φρυγανιά",
+      "prompt": {
+        "en": "Rusk / crisp toast",
+        "ru": "Сухарик / подсушенный ломтик хлеба",
+        "zh": "烤面包干"
+      },
+      "pronunciation": {
+        "en": "fri-gha-NYA",
+        "ru": "фри-га-НЬЯ",
+        "zh": "fri-gha-NYA"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "food"
+      ],
+      "answerDisplay": "η φρυγανιά"
+    },
+    {
+      "id": "nov18-sandwich",
+      "collection": "words-nouns",
+      "greek": "σάντουιτς",
+      "prompt": {
+        "en": "Sandwich",
+        "ru": "Сэндвич / бутерброд",
+        "zh": "三明治"
+      },
+      "pronunciation": {
+        "en": "SAN-du-its",
+        "ru": "САН-ду-иц",
+        "zh": "SAN-du-its"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "food"
+      ],
+      "answerDisplay": "το σάντουιτς"
+    },
+    {
+      "id": "nov18-dessert",
+      "collection": "words-nouns",
+      "greek": "γλυκό",
+      "prompt": {
+        "en": "Sweet / dessert",
+        "ru": "Сладость / десерт",
+        "zh": "甜点"
+      },
+      "pronunciation": {
+        "en": "ghli-KO",
+        "ru": "гли-КО",
+        "zh": "ghli-KO"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "food"
+      ],
+      "answerDisplay": "το γλυκό",
+      "explanation": {
+        "en": "As a noun, το γλυκό is a sweet or dessert. Γλυκός / γλυκιά / γλυκό is the adjective sweet.",
+        "ru": "С артиклем το γλυκό — существительное «десерт, сладость». Γλυκός / γλυκιά / γλυκό — прилагательное «сладкий».",
+        "zh": "名词 το γλυκό 表示“甜点”；γλυκός／γλυκιά／γλυκό 是形容词“甜的”。"
+      }
+    },
+    {
+      "id": "nov18-aspirin",
+      "collection": "words-nouns",
+      "greek": "ασπιρίνη",
+      "prompt": {
+        "en": "Aspirin",
+        "ru": "Аспирин",
+        "zh": "阿司匹林"
+      },
+      "pronunciation": {
+        "en": "a-spi-RI-ni",
+        "ru": "а-спи-РИ-ни",
+        "zh": "a-spi-RI-ni"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "home"
+      ],
+      "answerDisplay": "η ασπιρίνη"
+    },
+    {
+      "id": "nov18-minimarket",
+      "collection": "words-nouns",
+      "greek": "μίνι μάρκετ",
+      "prompt": {
+        "en": "Convenience store / mini-market",
+        "ru": "Мини-маркет",
+        "zh": "便利店"
+      },
+      "pronunciation": {
+        "en": "MI-ni MAR-ket",
+        "ru": "МИ-ни МАР-кэт",
+        "zh": "MI-ni MAR-ket"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "places"
+      ],
+      "answerDisplay": "το μίνι μάρκετ",
+      "alternatives": [
+        "μίνι-μάρκετ",
+        "μίνι μάρκετ"
+      ]
+    },
+    {
+      "id": "nov18-pizza",
+      "collection": "words-nouns",
+      "greek": "πίτσα",
+      "prompt": {
+        "en": "Pizza",
+        "ru": "Пицца",
+        "zh": "披萨"
+      },
+      "pronunciation": {
+        "en": "PI-tsa",
+        "ru": "ПИ-ца",
+        "zh": "PI-tsa"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "food"
+      ],
+      "answerDisplay": "η πίτσα"
+    },
+    {
+      "id": "nov18-tea",
+      "collection": "words-nouns",
+      "greek": "τσάι",
+      "prompt": {
+        "en": "Tea",
+        "ru": "Чай",
+        "zh": "茶"
+      },
+      "pronunciation": {
+        "en": "TSA-i",
+        "ru": "ЦА-и",
+        "zh": "TSA-i"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "food"
+      ],
+      "answerDisplay": "το τσάι"
+    },
+    {
+      "id": "nov18-thing",
+      "collection": "words-nouns",
+      "greek": "πράγμα",
+      "prompt": {
+        "en": "Thing / object",
+        "ru": "Вещь / предмет",
+        "zh": "东西／物品"
+      },
+      "pronunciation": {
+        "en": "PRAGH-ma",
+        "ru": "ПРАГ-ма",
+        "zh": "PRAGH-ma"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "home"
+      ],
+      "answerDisplay": "το πράγμα"
+    },
+    {
+      "id": "nov18-greengrocer",
+      "collection": "words-nouns",
+      "greek": "μανάβης",
+      "prompt": {
+        "en": "Greengrocer",
+        "ru": "Продавец овощей и фруктов",
+        "zh": "蔬果商贩"
+      },
+      "pronunciation": {
+        "en": "ma-NA-vis",
+        "ru": "ма-НА-вис",
+        "zh": "ma-NA-vis"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "people"
+      ],
+      "answerDisplay": "ο μανάβης"
+    },
+    {
+      "id": "nov18-apple",
+      "collection": "words-nouns",
+      "greek": "μήλο",
+      "prompt": {
+        "en": "Apple",
+        "ru": "Яблоко",
+        "zh": "苹果"
+      },
+      "pronunciation": {
+        "en": "MI-lo",
+        "ru": "МИ-ло",
+        "zh": "MI-lo"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "food"
+      ],
+      "answerDisplay": "το μήλο"
+    },
+    {
+      "id": "nov18-tomato",
+      "collection": "words-nouns",
+      "greek": "ντομάτα",
+      "prompt": {
+        "en": "Tomato",
+        "ru": "Помидор",
+        "zh": "番茄"
+      },
+      "pronunciation": {
+        "en": "do-MA-ta",
+        "ru": "до-МА-та",
+        "zh": "do-MA-ta"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "food"
+      ],
+      "answerDisplay": "η ντομάτα"
+    },
+    {
+      "id": "nov18-salad",
+      "collection": "words-nouns",
+      "greek": "σαλάτα",
+      "prompt": {
+        "en": "Salad",
+        "ru": "Салат",
+        "zh": "沙拉"
+      },
+      "pronunciation": {
+        "en": "sa-LA-ta",
+        "ru": "са-ЛА-та",
+        "zh": "sa-LA-ta"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "food"
+      ],
+      "answerDisplay": "η σαλάτα"
+    },
+    {
+      "id": "nov18-cucumber",
+      "collection": "words-nouns",
+      "greek": "αγγούρι",
+      "prompt": {
+        "en": "Cucumber",
+        "ru": "Огурец",
+        "zh": "黄瓜"
+      },
+      "pronunciation": {
+        "en": "a-GU-ri",
+        "ru": "а-ГУ-ри",
+        "zh": "a-GU-ri"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "food"
+      ],
+      "answerDisplay": "το αγγούρι"
+    },
+    {
+      "id": "nov18-onion",
+      "collection": "words-nouns",
+      "greek": "κρεμμύδι",
+      "prompt": {
+        "en": "Onion",
+        "ru": "Лук (овощ)",
+        "zh": "洋葱"
+      },
+      "pronunciation": {
+        "en": "kre-MI-dhi",
+        "ru": "крэ-МИ-зи",
+        "zh": "kre-MI-dhi"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "food"
+      ],
+      "answerDisplay": "το κρεμμύδι"
+    },
+    {
+      "id": "nov18-fruit",
+      "collection": "words-nouns",
+      "greek": "φρούτο",
+      "prompt": {
+        "en": "Fruit",
+        "ru": "Фрукт",
+        "zh": "水果"
+      },
+      "pronunciation": {
+        "en": "FRU-to",
+        "ru": "ФРУ-то",
+        "zh": "FRU-to"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "food"
+      ],
+      "answerDisplay": "το φρούτο"
+    },
+    {
+      "id": "nov18-run",
+      "collection": "words-verbs",
+      "greek": "τρέχω",
+      "prompt": {
+        "en": "I run",
+        "ru": "Бегу / бегаю",
+        "zh": "我跑步"
+      },
+      "pronunciation": {
+        "en": "TRE-kho",
+        "ru": "ТРЭ-хо",
+        "zh": "TRE-kho"
+      },
+      "labels": [
+        "verb"
+      ],
+      "themes": [
+        "conversation",
+        "verbA"
+      ]
+    },
+    {
+      "id": "nov18-lose",
+      "collection": "words-verbs",
+      "greek": "χάνω",
+      "prompt": {
+        "en": "I lose / miss",
+        "ru": "Теряю / пропускаю",
+        "zh": "我丢失／错过"
+      },
+      "pronunciation": {
+        "en": "KHA-no",
+        "ru": "ХА-но",
+        "zh": "KHA-no"
+      },
+      "labels": [
+        "verb"
+      ],
+      "themes": [
+        "conversation",
+        "verbA"
+      ]
+    },
+    {
+      "id": "nov18-find",
+      "collection": "words-verbs",
+      "greek": "βρίσκω",
+      "prompt": {
+        "en": "I find",
+        "ru": "Нахожу",
+        "zh": "我找到"
+      },
+      "pronunciation": {
+        "en": "VRI-sko",
+        "ru": "ВРИ-ско",
+        "zh": "VRI-sko"
+      },
+      "labels": [
+        "verb"
+      ],
+      "themes": [
+        "conversation",
+        "verbA"
+      ]
+    },
+    {
+      "id": "nov18-clean",
+      "collection": "words-verbs",
+      "greek": "καθαρίζω",
+      "prompt": {
+        "en": "I clean",
+        "ru": "Убираю / чищу",
+        "zh": "我打扫／清洁"
+      },
+      "pronunciation": {
+        "en": "ka-tha-RI-zo",
+        "ru": "ка-та-РИ-зо",
+        "zh": "ka-tha-RI-zo"
+      },
+      "labels": [
+        "verb"
+      ],
+      "themes": [
+        "conversation",
+        "verbA"
+      ]
+    },
+    {
+      "id": "nov18-enter",
+      "collection": "words-verbs",
+      "greek": "μπαίνω",
+      "prompt": {
+        "en": "I go in / enter",
+        "ru": "Вхожу",
+        "zh": "我进入"
+      },
+      "pronunciation": {
+        "en": "BE-no",
+        "ru": "БЭ-но",
+        "zh": "BE-no"
+      },
+      "labels": [
+        "verb"
+      ],
+      "themes": [
+        "conversation",
+        "verbA"
+      ]
+    },
+    {
+      "id": "nov18-mean",
+      "collection": "words-verbs",
+      "greek": "εννοώ",
+      "prompt": {
+        "en": "I mean / have in mind",
+        "ru": "Имею в виду",
+        "zh": "我的意思是"
+      },
+      "pronunciation": {
+        "en": "e-no-O",
+        "ru": "э-но-О",
+        "zh": "e-no-O"
+      },
+      "labels": [
+        "verb"
+      ],
+      "themes": [
+        "conversation",
+        "verbB2"
+      ]
+    },
+    {
+      "id": "nov18-work-formal",
+      "collection": "words-verbs",
+      "greek": "εργάζομαι",
+      "prompt": {
+        "en": "I work (formal synonym)",
+        "ru": "Работаю (официальнее)",
+        "zh": "我工作（较正式）"
+      },
+      "pronunciation": {
+        "en": "er-GHA-zo-me",
+        "ru": "эр-ГА-зо-мэ",
+        "zh": "er-GHA-zo-me"
+      },
+      "labels": [
+        "verb"
+      ],
+      "themes": [
+        "conversation"
+      ]
+    },
+    {
+      "id": "nov18-bark",
+      "collection": "words-verbs",
+      "greek": "γαβγίζω",
+      "prompt": {
+        "en": "I bark",
+        "ru": "Лаю",
+        "zh": "我吠叫"
+      },
+      "pronunciation": {
+        "en": "ghav-YI-zo",
+        "ru": "гав-ЙИ-зо",
+        "zh": "ghav-YI-zo"
+      },
+      "labels": [
+        "verb"
+      ],
+      "themes": [
+        "conversation",
+        "verbA"
+      ]
+    },
+    {
+      "id": "nov18-meow",
+      "collection": "words-verbs",
+      "greek": "νιαουρίζω",
+      "prompt": {
+        "en": "I meow",
+        "ru": "Мяукаю",
+        "zh": "我喵喵叫"
+      },
+      "pronunciation": {
+        "en": "nya-u-RI-zo",
+        "ru": "ня-у-РИ-зо",
+        "zh": "nya-u-RI-zo"
+      },
+      "labels": [
+        "verb"
+      ],
+      "themes": [
+        "conversation",
+        "verbA"
+      ]
+    },
+    {
+      "id": "nov18-think",
+      "collection": "words-verbs",
+      "greek": "σκέφτομαι",
+      "prompt": {
+        "en": "I think / reflect (mental activity)",
+        "ru": "Думаю / размышляю",
+        "zh": "我思考"
+      },
+      "pronunciation": {
+        "en": "SKE-fto-me",
+        "ru": "СКЭ-фто-мэ",
+        "zh": "SKE-fto-me"
+      },
+      "labels": [
+        "verb"
+      ],
+      "themes": [
+        "conversation"
+      ],
+      "explanation": {
+        "en": "Σκέφτομαι describes thinking or reflecting. Νομίζω expresses an opinion or supposition.",
+        "ru": "Σκέφτομαι — размышляю, обдумываю. Νομίζω — думаю в значении «полагаю».",
+        "zh": "Σκέφτομαι 指思考的过程；νομίζω 表示“我认为／猜想”。"
+      }
+    },
+    {
+      "id": "nov18-cry",
+      "collection": "words-verbs",
+      "greek": "κλαίω",
+      "prompt": {
+        "en": "I cry / weep",
+        "ru": "Плачу",
+        "zh": "我哭"
+      },
+      "pronunciation": {
+        "en": "KLE-o",
+        "ru": "КЛЭ-о",
+        "zh": "KLE-o"
+      },
+      "labels": [
+        "verb"
+      ],
+      "themes": [
+        "conversation",
+        "verbAB"
+      ]
+    },
+    {
+      "id": "nov18-send",
+      "collection": "words-verbs",
+      "greek": "στέλνω",
+      "prompt": {
+        "en": "I send",
+        "ru": "Отправляю / посылаю",
+        "zh": "我发送／寄出"
+      },
+      "pronunciation": {
+        "en": "STEL-no",
+        "ru": "СТЭЛ-но",
+        "zh": "STEL-no"
+      },
+      "labels": [
+        "verb"
+      ],
+      "themes": [
+        "conversation",
+        "verbA"
+      ]
+    },
+    {
+      "id": "nov18-erase",
+      "collection": "words-verbs",
+      "greek": "σβήνω",
+      "prompt": {
+        "en": "I erase / turn off / put out",
+        "ru": "Стираю / выключаю / тушу",
+        "zh": "我擦掉／关掉／熄灭"
+      },
+      "pronunciation": {
+        "en": "ZVI-no",
+        "ru": "ЗВИ-но",
+        "zh": "ZVI-no"
+      },
+      "labels": [
+        "verb"
+      ],
+      "themes": [
+        "conversation",
+        "verbA"
+      ]
+    },
+    {
+      "id": "nov18-busy",
+      "collection": "words-adjectives",
+      "greek": "απασχολημένος",
+      "prompt": {
+        "en": "Busy / occupied",
+        "ru": "Занятый",
+        "zh": "忙碌的"
+      },
+      "pronunciation": {
+        "en": "a-pa-skho-li-ME-nos",
+        "ru": "а-па-схо-ли-МЭ-нос",
+        "zh": "a-pa-skho-li-ME-nos"
+      },
+      "labels": [
+        "adjective"
+      ],
+      "themes": [
+        "conversation"
+      ],
+      "wordGroup": "nov18-busy",
+      "alternatives": [
+        "απασχολημένη",
+        "απασχολημένο"
+      ],
+      "answerDisplay": "απασχολημένος / απασχολημένη / απασχολημένο",
+      "forms": [
+        {
+          "greek": "απασχολημένος",
+          "answerDisplay": "απασχολημένος",
+          "pronunciation": {
+            "en": "a-pa-skho-li-ME-nos",
+            "ru": "а-па-схо-ли-МЭ-нос",
+            "zh": "a-pa-skho-li-ME-nos"
+          }
+        },
+        {
+          "greek": "απασχολημένη",
+          "answerDisplay": "απασχολημένη",
+          "pronunciation": {
+            "en": "a-pa-skho-li-ME-ni",
+            "ru": "а-па-схо-ли-МЭ-ни",
+            "zh": "a-pa-skho-li-ME-ni"
+          }
+        },
+        {
+          "greek": "απασχολημένο",
+          "answerDisplay": "απασχολημένο",
+          "pronunciation": {
+            "en": "a-pa-skho-li-ME-no",
+            "ru": "а-па-схо-ли-МЭ-но",
+            "zh": "a-pa-skho-li-ME-no"
+          }
+        }
+      ]
+    },
+    {
+      "id": "nov18-first",
+      "collection": "words-adjectives",
+      "greek": "πρώτος",
+      "prompt": {
+        "en": "First (adjective)",
+        "ru": "Первый",
+        "zh": "第一的"
+      },
+      "pronunciation": {
+        "en": "PRO-tos",
+        "ru": "ПРО-тос",
+        "zh": "PRO-tos"
+      },
+      "labels": [
+        "adjective"
+      ],
+      "themes": [
+        "time"
+      ],
+      "wordGroup": "nov18-first",
+      "alternatives": [
+        "πρώτη",
+        "πρώτο"
+      ],
+      "answerDisplay": "πρώτος / πρώτη / πρώτο",
+      "forms": [
+        {
+          "greek": "πρώτος",
+          "answerDisplay": "πρώτος",
+          "pronunciation": {
+            "en": "PRO-tos",
+            "ru": "ПРО-тос",
+            "zh": "PRO-tos"
+          }
+        },
+        {
+          "greek": "πρώτη",
+          "answerDisplay": "πρώτη",
+          "pronunciation": {
+            "en": "PRO-ti",
+            "ru": "ПРО-ти",
+            "zh": "PRO-ti"
+          }
+        },
+        {
+          "greek": "πρώτο",
+          "answerDisplay": "πρώτο",
+          "pronunciation": {
+            "en": "PRO-to",
+            "ru": "ПРО-то",
+            "zh": "PRO-to"
+          }
+        }
+      ]
+    },
+    {
+      "id": "nov18-last",
+      "collection": "words-adjectives",
+      "greek": "τελευταίος",
+      "prompt": {
+        "en": "Last / final",
+        "ru": "Последний",
+        "zh": "最后的"
+      },
+      "pronunciation": {
+        "en": "te-lef-TE-os",
+        "ru": "тэ-лэф-ТЭ-ос",
+        "zh": "te-lef-TE-os"
+      },
+      "labels": [
+        "adjective"
+      ],
+      "themes": [
+        "time"
+      ],
+      "wordGroup": "nov18-last",
+      "alternatives": [
+        "τελευταία",
+        "τελευταίο"
+      ],
+      "answerDisplay": "τελευταίος / τελευταία / τελευταίο",
+      "forms": [
+        {
+          "greek": "τελευταίος",
+          "answerDisplay": "τελευταίος",
+          "pronunciation": {
+            "en": "te-lef-TE-os",
+            "ru": "тэ-лэф-ТЭ-ос",
+            "zh": "te-lef-TE-os"
+          }
+        },
+        {
+          "greek": "τελευταία",
+          "answerDisplay": "τελευταία",
+          "pronunciation": {
+            "en": "te-lef-TE-a",
+            "ru": "тэ-лэф-ТЭ-а",
+            "zh": "te-lef-TE-a"
+          }
+        },
+        {
+          "greek": "τελευταίο",
+          "answerDisplay": "τελευταίο",
+          "pronunciation": {
+            "en": "te-lef-TE-o",
+            "ru": "тэ-лэф-ТЭ-о",
+            "zh": "te-lef-TE-o"
+          }
+        }
+      ]
+    },
+    {
+      "id": "nov18-plain",
+      "collection": "words-adjectives",
+      "greek": "σκέτος",
+      "prompt": {
+        "en": "Plain / without additions (coffee: no sugar)",
+        "ru": "Без добавок (кофе — без сахара)",
+        "zh": "不加配料的（咖啡：无糖）"
+      },
+      "pronunciation": {
+        "en": "SKE-tos",
+        "ru": "СКЭ-тос",
+        "zh": "SKE-tos"
+      },
+      "labels": [
+        "adjective"
+      ],
+      "themes": [
+        "food"
+      ],
+      "wordGroup": "nov18-plain",
+      "alternatives": [
+        "σκέτη",
+        "σκέτο"
+      ],
+      "answerDisplay": "σκέτος / σκέτη / σκέτο",
+      "forms": [
+        {
+          "greek": "σκέτος",
+          "answerDisplay": "σκέτος",
+          "pronunciation": {
+            "en": "SKE-tos",
+            "ru": "СКЭ-тос",
+            "zh": "SKE-tos"
+          }
+        },
+        {
+          "greek": "σκέτη",
+          "answerDisplay": "σκέτη",
+          "pronunciation": {
+            "en": "SKE-ti",
+            "ru": "СКЭ-ти",
+            "zh": "SKE-ti"
+          }
+        },
+        {
+          "greek": "σκέτο",
+          "answerDisplay": "σκέτο",
+          "pronunciation": {
+            "en": "SKE-to",
+            "ru": "СКЭ-то",
+            "zh": "SKE-to"
+          }
+        }
+      ]
+    },
+    {
+      "id": "nov18-medium",
+      "collection": "words-adjectives",
+      "greek": "μέτριος",
+      "prompt": {
+        "en": "Moderate / medium (coffee: medium-sweet)",
+        "ru": "Средний / умеренный (кофе — умеренно сладкий)",
+        "zh": "中等的（咖啡：中甜）"
+      },
+      "pronunciation": {
+        "en": "ME-tri-os",
+        "ru": "МЭ-три-ос",
+        "zh": "ME-tri-os"
+      },
+      "labels": [
+        "adjective"
+      ],
+      "themes": [
+        "food"
+      ],
+      "wordGroup": "nov18-medium",
+      "alternatives": [
+        "μέτρια",
+        "μέτριο"
+      ],
+      "answerDisplay": "μέτριος / μέτρια / μέτριο",
+      "forms": [
+        {
+          "greek": "μέτριος",
+          "answerDisplay": "μέτριος",
+          "pronunciation": {
+            "en": "ME-tri-os",
+            "ru": "МЭ-три-ос",
+            "zh": "ME-tri-os"
+          }
+        },
+        {
+          "greek": "μέτρια",
+          "answerDisplay": "μέτρια",
+          "pronunciation": {
+            "en": "ME-tri-a",
+            "ru": "МЭ-три-а",
+            "zh": "ME-tri-a"
+          }
+        },
+        {
+          "greek": "μέτριο",
+          "answerDisplay": "μέτριο",
+          "pronunciation": {
+            "en": "ME-tri-o",
+            "ru": "МЭ-три-о",
+            "zh": "ME-tri-o"
+          }
+        }
+      ]
+    },
+    {
+      "id": "nov18-sweet-adjective",
+      "collection": "words-adjectives",
+      "greek": "γλυκός",
+      "prompt": {
+        "en": "Sweet (adjective)",
+        "ru": "Сладкий",
+        "zh": "甜的"
+      },
+      "pronunciation": {
+        "en": "ghli-KOS",
+        "ru": "гли-КОС",
+        "zh": "ghli-KOS"
+      },
+      "labels": [
+        "adjective"
+      ],
+      "themes": [
+        "food"
+      ],
+      "wordGroup": "nov18-sweet-adjective",
+      "alternatives": [
+        "γλυκιά",
+        "γλυκό"
+      ],
+      "answerDisplay": "γλυκός / γλυκιά / γλυκό",
+      "forms": [
+        {
+          "greek": "γλυκός",
+          "answerDisplay": "γλυκός",
+          "pronunciation": {
+            "en": "ghli-KOS",
+            "ru": "гли-КОС",
+            "zh": "ghli-KOS"
+          }
+        },
+        {
+          "greek": "γλυκιά",
+          "answerDisplay": "γλυκιά",
+          "pronunciation": {
+            "en": "ghli-KYA",
+            "ru": "гли-КЬЯ",
+            "zh": "ghli-KYA"
+          }
+        },
+        {
+          "greek": "γλυκό",
+          "answerDisplay": "γλυκό",
+          "pronunciation": {
+            "en": "ghli-KO",
+            "ru": "гли-КО",
+            "zh": "ghli-KO"
+          }
+        }
+      ]
+    },
+    {
+      "id": "nov18-classical",
+      "collection": "words-adjectives",
+      "greek": "κλασικός",
+      "prompt": {
+        "en": "Classical / classic",
+        "ru": "Классический",
+        "zh": "古典的／经典的"
+      },
+      "pronunciation": {
+        "en": "kla-si-KOS",
+        "ru": "кла-си-КОС",
+        "zh": "kla-si-KOS"
+      },
+      "labels": [
+        "adjective"
+      ],
+      "themes": [
+        "conversation"
+      ],
+      "wordGroup": "nov18-classical",
+      "alternatives": [
+        "κλασική",
+        "κλασικό"
+      ],
+      "answerDisplay": "κλασικός / κλασική / κλασικό",
+      "forms": [
+        {
+          "greek": "κλασικός",
+          "answerDisplay": "κλασικός",
+          "pronunciation": {
+            "en": "kla-si-KOS",
+            "ru": "кла-си-КОС",
+            "zh": "kla-si-KOS"
+          }
+        },
+        {
+          "greek": "κλασική",
+          "answerDisplay": "κλασική",
+          "pronunciation": {
+            "en": "kla-si-KI",
+            "ru": "кла-си-КИ",
+            "zh": "kla-si-KI"
+          }
+        },
+        {
+          "greek": "κλασικό",
+          "answerDisplay": "κλασικό",
+          "pronunciation": {
+            "en": "kla-si-KO",
+            "ru": "кла-си-КО",
+            "zh": "kla-si-KO"
+          }
+        }
+      ]
+    },
+    {
+      "id": "nov18-beloved",
+      "collection": "words-adjectives",
+      "greek": "αγαπημένος",
+      "prompt": {
+        "en": "Beloved / favourite",
+        "ru": "Любимый / дорогой",
+        "zh": "心爱的／最喜欢的"
+      },
+      "pronunciation": {
+        "en": "a-gha-pi-ME-nos",
+        "ru": "а-га-пи-МЭ-нос",
+        "zh": "a-gha-pi-ME-nos"
+      },
+      "labels": [
+        "adjective"
+      ],
+      "themes": [
+        "people"
+      ],
+      "wordGroup": "nov18-beloved",
+      "alternatives": [
+        "αγαπημένη",
+        "αγαπημένο"
+      ],
+      "answerDisplay": "αγαπημένος / αγαπημένη / αγαπημένο",
+      "forms": [
+        {
+          "greek": "αγαπημένος",
+          "answerDisplay": "αγαπημένος",
+          "pronunciation": {
+            "en": "a-gha-pi-ME-nos",
+            "ru": "а-га-пи-МЭ-нос",
+            "zh": "a-gha-pi-ME-nos"
+          }
+        },
+        {
+          "greek": "αγαπημένη",
+          "answerDisplay": "αγαπημένη",
+          "pronunciation": {
+            "en": "a-gha-pi-ME-ni",
+            "ru": "а-га-пи-МЭ-ни",
+            "zh": "a-gha-pi-ME-ni"
+          }
+        },
+        {
+          "greek": "αγαπημένο",
+          "answerDisplay": "αγαπημένο",
+          "pronunciation": {
+            "en": "a-gha-pi-ME-no",
+            "ru": "а-га-пи-МЭ-но",
+            "zh": "a-gha-pi-ME-no"
+          }
+        }
+      ]
+    },
+    {
+      "id": "nov18-country-style",
+      "collection": "words-adjectives",
+      "greek": "χωριάτικος",
+      "prompt": {
+        "en": "Country-style / rustic",
+        "ru": "Деревенский",
+        "zh": "乡村风味的"
+      },
+      "pronunciation": {
+        "en": "kho-RYA-ti-kos",
+        "ru": "хо-РИА-ти-кос",
+        "zh": "kho-RYA-ti-kos"
+      },
+      "labels": [
+        "adjective"
+      ],
+      "themes": [
+        "food"
+      ],
+      "wordGroup": "nov18-country-style",
+      "alternatives": [
+        "χωριάτικη",
+        "χωριάτικο"
+      ],
+      "answerDisplay": "χωριάτικος / χωριάτικη / χωριάτικο",
+      "forms": [
+        {
+          "greek": "χωριάτικος",
+          "answerDisplay": "χωριάτικος",
+          "pronunciation": {
+            "en": "kho-RYA-ti-kos",
+            "ru": "хо-РЬЯ-ти-кос",
+            "zh": "kho-RYA-ti-kos"
+          }
+        },
+        {
+          "greek": "χωριάτικη",
+          "answerDisplay": "χωριάτικη",
+          "pronunciation": {
+            "en": "kho-RYA-ti-ki",
+            "ru": "хо-РЬЯ-ти-ки",
+            "zh": "kho-RYA-ti-ki"
+          }
+        },
+        {
+          "greek": "χωριάτικο",
+          "answerDisplay": "χωριάτικο",
+          "pronunciation": {
+            "en": "kho-RYA-ti-ko",
+            "ru": "хо-РЬЯ-ти-ко",
+            "zh": "kho-RYA-ti-ko"
+          }
+        }
+      ]
+    },
+    {
+      "id": "nov18-black",
+      "collection": "words-adjectives",
+      "greek": "μαύρος",
+      "prompt": {
+        "en": "Black",
+        "ru": "Чёрный",
+        "zh": "黑色的"
+      },
+      "pronunciation": {
+        "en": "MAV-ros",
+        "ru": "МАВ-рос",
+        "zh": "MAV-ros"
+      },
+      "labels": [
+        "adjective"
+      ],
+      "themes": [
+        "home"
+      ],
+      "wordGroup": "nov18-black",
+      "alternatives": [
+        "μαύρη",
+        "μαύρο"
+      ],
+      "answerDisplay": "μαύρος / μαύρη / μαύρο",
+      "forms": [
+        {
+          "greek": "μαύρος",
+          "answerDisplay": "μαύρος",
+          "pronunciation": {
+            "en": "MAV-ros",
+            "ru": "МАВ-рос",
+            "zh": "MAV-ros"
+          }
+        },
+        {
+          "greek": "μαύρη",
+          "answerDisplay": "μαύρη",
+          "pronunciation": {
+            "en": "MAV-ri",
+            "ru": "МАВ-ри",
+            "zh": "MAV-ri"
+          }
+        },
+        {
+          "greek": "μαύρο",
+          "answerDisplay": "μαύρο",
+          "pronunciation": {
+            "en": "MAV-ro",
+            "ru": "МАВ-ро",
+            "zh": "MAV-ro"
+          }
+        }
+      ]
+    },
+    {
+      "id": "nov18-white",
+      "collection": "words-adjectives",
+      "greek": "άσπρος",
+      "prompt": {
+        "en": "White",
+        "ru": "Белый",
+        "zh": "白色的"
+      },
+      "pronunciation": {
+        "en": "AS-pros",
+        "ru": "АС-прос",
+        "zh": "AS-pros"
+      },
+      "labels": [
+        "adjective"
+      ],
+      "themes": [
+        "home"
+      ],
+      "wordGroup": "nov18-white",
+      "alternatives": [
+        "άσπρη",
+        "άσπρο"
+      ],
+      "answerDisplay": "άσπρος / άσπρη / άσπρο",
+      "forms": [
+        {
+          "greek": "άσπρος",
+          "answerDisplay": "άσπρος",
+          "pronunciation": {
+            "en": "AS-pros",
+            "ru": "АС-прос",
+            "zh": "AS-pros"
+          }
+        },
+        {
+          "greek": "άσπρη",
+          "answerDisplay": "άσπρη",
+          "pronunciation": {
+            "en": "AS-pri",
+            "ru": "АС-при",
+            "zh": "AS-pri"
+          }
+        },
+        {
+          "greek": "άσπρο",
+          "answerDisplay": "άσπρο",
+          "pronunciation": {
+            "en": "AS-pro",
+            "ru": "АС-про",
+            "zh": "AS-pro"
+          }
+        }
+      ]
+    },
+    {
+      "id": "nov18-fresh",
+      "collection": "words-adjectives",
+      "greek": "φρέσκος",
+      "prompt": {
+        "en": "Fresh",
+        "ru": "Свежий",
+        "zh": "新鲜的"
+      },
+      "pronunciation": {
+        "en": "FRE-skos",
+        "ru": "ФРЭ-скос",
+        "zh": "FRE-skos"
+      },
+      "labels": [
+        "adjective"
+      ],
+      "themes": [
+        "food"
+      ],
+      "wordGroup": "nov18-fresh",
+      "alternatives": [
+        "φρέσκια",
+        "φρέσκο"
+      ],
+      "answerDisplay": "φρέσκος / φρέσκια / φρέσκο",
+      "forms": [
+        {
+          "greek": "φρέσκος",
+          "answerDisplay": "φρέσκος",
+          "pronunciation": {
+            "en": "FRE-skos",
+            "ru": "ФРЭ-скос",
+            "zh": "FRE-skos"
+          }
+        },
+        {
+          "greek": "φρέσκια",
+          "answerDisplay": "φρέσκια",
+          "pronunciation": {
+            "en": "FRE-skya",
+            "ru": "ФРЭ-скья",
+            "zh": "FRE-skya"
+          }
+        },
+        {
+          "greek": "φρέσκο",
+          "answerDisplay": "φρέσκο",
+          "pronunciation": {
+            "en": "FRE-sko",
+            "ru": "ФРЭ-ско",
+            "zh": "FRE-sko"
+          }
+        }
+      ]
+    },
+    {
+      "id": "nov18-ready",
+      "collection": "words-adjectives",
+      "greek": "έτοιμος",
+      "prompt": {
+        "en": "Ready",
+        "ru": "Готовый",
+        "zh": "准备好的"
+      },
+      "pronunciation": {
+        "en": "E-ti-mos",
+        "ru": "Э-ти-мос",
+        "zh": "E-ti-mos"
+      },
+      "labels": [
+        "adjective"
+      ],
+      "themes": [
+        "conversation"
+      ],
+      "wordGroup": "nov18-ready",
+      "alternatives": [
+        "έτοιμη",
+        "έτοιμο"
+      ],
+      "answerDisplay": "έτοιμος / έτοιμη / έτοιμο",
+      "forms": [
+        {
+          "greek": "έτοιμος",
+          "answerDisplay": "έτοιμος",
+          "pronunciation": {
+            "en": "E-ti-mos",
+            "ru": "Э-ти-мос",
+            "zh": "E-ti-mos"
+          }
+        },
+        {
+          "greek": "έτοιμη",
+          "answerDisplay": "έτοιμη",
+          "pronunciation": {
+            "en": "E-ti-mi",
+            "ru": "Э-ти-ми",
+            "zh": "E-ti-mi"
+          }
+        },
+        {
+          "greek": "έτοιμο",
+          "answerDisplay": "έτοιμο",
+          "pronunciation": {
+            "en": "E-ti-mo",
+            "ru": "Э-ти-мо",
+            "zh": "E-ti-mo"
+          }
+        }
+      ]
+    },
+    {
+      "id": "nov18-greek-adjective",
+      "collection": "words-names",
+      "greek": "ελληνικός",
+      "prompt": {
+        "en": "Greek (describing a thing)",
+        "ru": "Греческий (о предмете)",
+        "zh": "希腊的（修饰事物）"
+      },
+      "pronunciation": {
+        "en": "e-li-ni-KOS",
+        "ru": "э-ли-ни-КОС",
+        "zh": "e-li-ni-KOS"
+      },
+      "labels": [
+        "adjective"
+      ],
+      "themes": [
+        "conversation"
+      ],
+      "alternatives": [
+        "ελληνική",
+        "ελληνικό"
+      ],
+      "answerDisplay": "ελληνικός / ελληνική / ελληνικό",
+      "forms": [
+        {
+          "greek": "ελληνικός",
+          "answerDisplay": "ελληνικός",
+          "pronunciation": {
+            "en": "e-li-ni-KOS",
+            "ru": "э-ли-ни-КОС",
+            "zh": "e-li-ni-KOS"
+          }
+        },
+        {
+          "greek": "ελληνική",
+          "answerDisplay": "ελληνική",
+          "pronunciation": {
+            "en": "e-li-ni-KI",
+            "ru": "э-ли-ни-КИ",
+            "zh": "e-li-ni-KI"
+          }
+        },
+        {
+          "greek": "ελληνικό",
+          "answerDisplay": "ελληνικό",
+          "pronunciation": {
+            "en": "e-li-ni-KO",
+            "ru": "э-ли-ни-КО",
+            "zh": "e-li-ni-KO"
+          }
+        }
+      ]
+    },
+    {
+      "id": "nov18-smyrna",
+      "collection": "words-names",
+      "greek": "Σμύρνη",
+      "prompt": {
+        "en": "Smyrna / Izmir",
+        "ru": "Смирна / Измир",
+        "zh": "士麦那／伊兹密尔"
+      },
+      "pronunciation": {
+        "en": "SMIR-ni",
+        "ru": "СМИР-ни",
+        "zh": "SMIR-ni"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "places"
+      ],
+      "answerDisplay": "η Σμύρνη"
+    },
+    {
+      "id": "nov18-iceland",
+      "collection": "words-names",
+      "greek": "Ισλανδία",
+      "prompt": {
+        "en": "Iceland",
+        "ru": "Исландия",
+        "zh": "冰岛"
+      },
+      "pronunciation": {
+        "en": "iz-lan-DHI-a",
+        "ru": "из-лан-ЗИ-а",
+        "zh": "iz-lan-DHI-a"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "places"
+      ],
+      "answerDisplay": "η Ισλανδία"
+    },
+    {
+      "id": "nov18-bosnia",
+      "collection": "words-names",
+      "greek": "Βοσνία",
+      "prompt": {
+        "en": "Bosnia",
+        "ru": "Босния",
+        "zh": "波斯尼亚"
+      },
+      "pronunciation": {
+        "en": "voz-NI-a",
+        "ru": "воз-НИ-а",
+        "zh": "voz-NI-a"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "places"
+      ],
+      "answerDisplay": "η Βοσνία"
+    },
+    {
+      "id": "nov18-zaire",
+      "collection": "words-names",
+      "greek": "Ζαΐρ",
+      "prompt": {
+        "en": "Zaire (former country name)",
+        "ru": "Заир (прежнее название страны)",
+        "zh": "扎伊尔（旧国名）"
+      },
+      "pronunciation": {
+        "en": "za-IR",
+        "ru": "за-ИР",
+        "zh": "za-IR"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "places"
+      ],
+      "answerDisplay": "το Ζαΐρ"
+    },
+    {
+      "id": "nov18-kazakhstan",
+      "collection": "words-names",
+      "greek": "Καζακστάν",
+      "prompt": {
+        "en": "Kazakhstan",
+        "ru": "Казахстан",
+        "zh": "哈萨克斯坦"
+      },
+      "pronunciation": {
+        "en": "ka-zak-STAN",
+        "ru": "ка-зак-СТАН",
+        "zh": "ka-zak-STAN"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "places"
+      ],
+      "answerDisplay": "το Καζακστάν"
+    },
+    {
+      "id": "nov18-azerbaijan",
+      "collection": "words-names",
+      "greek": "Αζερμπαϊτζάν",
+      "prompt": {
+        "en": "Azerbaijan",
+        "ru": "Азербайджан",
+        "zh": "阿塞拜疆"
+      },
+      "pronunciation": {
+        "en": "a-zer-bai-DZAN",
+        "ru": "а-зэр-баи-ДЗАН",
+        "zh": "a-zer-bai-DZAN"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "places"
+      ],
+      "answerDisplay": "το Αζερμπαϊτζάν"
+    },
+    {
+      "id": "nov18-bosnia-herzegovina",
+      "collection": "words-names",
+      "greek": "Βοσνία-Ερζεγοβίνη",
+      "prompt": {
+        "en": "Bosnia and Herzegovina",
+        "ru": "Босния и Герцеговина",
+        "zh": "波斯尼亚和黑塞哥维那"
+      },
+      "pronunciation": {
+        "en": "voz-NI-a er-ze-gho-VI-ni",
+        "ru": "воз-НИ-а эр-зэ-го-ВИ-ни",
+        "zh": "voz-NI-a er-ze-gho-VI-ni"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "places"
+      ],
+      "answerDisplay": "η Βοσνία-Ερζεγοβίνη",
+      "alternatives": [
+        "Βοσνία Ερζεγοβίνη",
+        "Βοσνία και Ερζεγοβίνη",
+        "η Βοσνία και Ερζεγοβίνη"
+      ]
+    },
+    {
+      "id": "nov18-venezuela",
+      "collection": "words-names",
+      "greek": "Βενεζουέλα",
+      "prompt": {
+        "en": "Venezuela",
+        "ru": "Венесуэла",
+        "zh": "委内瑞拉"
+      },
+      "pronunciation": {
+        "en": "ve-ne-zu-E-la",
+        "ru": "вэ-нэ-зу-Э-ла",
+        "zh": "ve-ne-zu-E-la"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "places"
+      ],
+      "answerDisplay": "η Βενεζουέλα"
+    },
+    {
+      "id": "nov18-kashmir",
+      "collection": "words-names",
+      "greek": "Κασμίρ",
+      "prompt": {
+        "en": "Kashmir",
+        "ru": "Кашмир",
+        "zh": "克什米尔"
+      },
+      "pronunciation": {
+        "en": "kaz-MIR",
+        "ru": "каз-МИР",
+        "zh": "kaz-MIR"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "places"
+      ],
+      "answerDisplay": "το Κασμίρ"
+    },
+    {
+      "id": "nov18-zanzibar",
+      "collection": "words-names",
+      "greek": "Ζανζιβάρη",
+      "prompt": {
+        "en": "Zanzibar",
+        "ru": "Занзибар",
+        "zh": "桑给巴尔"
+      },
+      "pronunciation": {
+        "en": "zan-zi-VA-ri",
+        "ru": "зан-зи-ВА-ри",
+        "zh": "zan-zi-VA-ri"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "places"
+      ],
+      "answerDisplay": "η Ζανζιβάρη"
+    },
+    {
+      "id": "nov18-yugoslavia",
+      "collection": "words-names",
+      "greek": "Γιουγκοσλαβία",
+      "prompt": {
+        "en": "Yugoslavia (former country)",
+        "ru": "Югославия (бывшее государство)",
+        "zh": "南斯拉夫（已解体国家）"
+      },
+      "pronunciation": {
+        "en": "yu-go-sla-VI-a",
+        "ru": "иу-го-сла-ВИ-а",
+        "zh": "yu-go-sla-VI-a"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "places"
+      ],
+      "answerDisplay": "η Γιουγκοσλαβία"
+    },
+    {
+      "id": "nov18-tanzania",
+      "collection": "words-names",
+      "greek": "Τανζανία",
+      "prompt": {
+        "en": "Tanzania",
+        "ru": "Танзания",
+        "zh": "坦桑尼亚"
+      },
+      "pronunciation": {
+        "en": "tan-za-NI-a",
+        "ru": "тан-за-НИ-а",
+        "zh": "tan-za-NI-a"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "places"
+      ],
+      "answerDisplay": "η Τανζανία"
+    },
+    {
+      "id": "nov18-zagreb",
+      "collection": "words-names",
+      "greek": "Ζάγκρεμπ",
+      "prompt": {
+        "en": "Zagreb",
+        "ru": "Загреб",
+        "zh": "萨格勒布"
+      },
+      "pronunciation": {
+        "en": "ZA-greb",
+        "ru": "ЗА-грэб",
+        "zh": "ZA-greb"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "places"
+      ],
+      "answerDisplay": "το Ζάγκρεμπ"
+    },
+    {
+      "id": "nov18-koukaki",
+      "collection": "words-names",
+      "greek": "Κουκάκι",
+      "prompt": {
+        "en": "Koukaki (Athens neighbourhood)",
+        "ru": "Кукаки (район Афин)",
+        "zh": "库卡基（雅典街区）"
+      },
+      "pronunciation": {
+        "en": "ku-KA-ki",
+        "ru": "ку-КА-ки",
+        "zh": "ku-KA-ki"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "places"
+      ],
+      "answerDisplay": "το Κουκάκι"
+    },
+    {
+      "id": "nov18-especially",
+      "collection": "words-adverbs",
+      "greek": "ειδικά",
+      "prompt": {
+        "en": "Especially / specifically",
+        "ru": "Особенно / специально",
+        "zh": "尤其／专门"
+      },
+      "pronunciation": {
+        "en": "i-dhi-KA",
+        "ru": "и-зи-КА",
+        "zh": "i-dhi-KA"
+      },
+      "labels": [
+        "adverb"
+      ],
+      "themes": [
+        "conversation"
+      ],
+      "meaning": {
+        "en": "Write the missing Greek word.",
+        "ru": "Напишите только пропущенное слово.",
+        "zh": "只填写空缺的词。"
+      },
+      "contextExample": {
+        "en": "Μου αρέσουν τα φρούτα, ___ τα μήλα. — I like fruit, especially apples.",
+        "ru": "Μου αρέσουν τα φρούτα, ___ τα μήλα. — Мне нравятся фрукты, особенно яблоки.",
+        "zh": "Μου αρέσουν τα φρούτα, ___ τα μήλα. — 我喜欢水果，尤其是苹果。"
+      },
+      "explanation": {
+        "en": "Ειδικά singles out something in particular; it can also mean specifically or specially.",
+        "ru": "Ειδικά выделяет что-то особо: «особенно». Также означает «специально, конкретно».",
+        "zh": "Ειδικά 用来突出某一项，表示“尤其”，也可表示“专门”。"
+      }
+    },
+    {
+      "id": "nov18-first-adverb",
+      "collection": "words-adverbs",
+      "greek": "πρώτα",
+      "prompt": {
+        "en": "First / first of all (adverb)",
+        "ru": "Сначала / сперва",
+        "zh": "首先／先"
+      },
+      "pronunciation": {
+        "en": "PRO-ta",
+        "ru": "ПРО-та",
+        "zh": "PRO-ta"
+      },
+      "labels": [
+        "adverb"
+      ],
+      "themes": [
+        "conversation"
+      ],
+      "meaning": {
+        "en": "Write the missing Greek word.",
+        "ru": "Напишите только пропущенное слово.",
+        "zh": "只填写空缺的词。"
+      },
+      "contextExample": {
+        "en": "___ τρώω και μετά δουλεύω. — First I eat, then I work.",
+        "ru": "___ τρώω και μετά δουλεύω. — Сначала ем, потом работаю.",
+        "zh": "___ τρώω και μετά δουλεύω. — 我先吃饭，再工作。"
+      },
+      "explanation": {
+        "en": "Πρώτα describes the order of actions. Πρώτος is the adjective first.",
+        "ru": "Πρώτα — «сначала», порядок действий. Прилагательное «первый» — πρώτος.",
+        "zh": "Πρώτα 表示动作顺序“先”；形容词“第一的”是 πρώτος。"
+      }
+    },
+    {
+      "id": "nov18-nobody",
+      "collection": "words-pronouns",
+      "greek": "κανείς",
+      "prompt": {
+        "en": "Nobody / anybody",
+        "ru": "Никто / кто-нибудь",
+        "zh": "没有人／有人"
+      },
+      "pronunciation": {
+        "en": "ka-NIS",
+        "ru": "ка-НИС",
+        "zh": "ka-NIS"
+      },
+      "labels": [
+        "pronoun"
+      ],
+      "themes": [
+        "conversation"
+      ],
+      "meaning": {
+        "en": "Write the missing Greek word.",
+        "ru": "Напишите только пропущенное слово.",
+        "zh": "只填写空缺的词。"
+      },
+      "contextExample": {
+        "en": "Δεν είναι ___ εδώ. — Nobody is here.",
+        "ru": "Δεν είναι ___ εδώ. — Здесь никого нет.",
+        "zh": "Δεν είναι ___ εδώ. — 这里没有人。"
+      },
+      "explanation": {
+        "en": "Κανείς or κανένας means nobody with negation, but anybody in questions. Feminine: καμία / καμιά; neuter: κανένα.",
+        "ru": "Κανείς / κανένας с отрицанием означает «никто», в вопросе — «кто-нибудь». Женский род: καμία / καμιά, средний: κανένα.",
+        "zh": "Κανείς／κανένας 与否定词连用表示“没有人”，在疑问句中可表示“有人”。阴性为 καμία／καμιά，中性为 κανένα。"
+      },
+      "alternatives": [
+        "κανένας"
+      ]
+    },
+    {
+      "id": "nov18-relative-that",
+      "collection": "words-pronouns",
+      "greek": "που",
+      "prompt": {
+        "en": "Who / which / that (relative word)",
+        "ru": "Который (связь с предыдущим существительным)",
+        "zh": "……的／关系代词"
+      },
+      "pronunciation": {
+        "en": "pu",
+        "ru": "пу",
+        "zh": "pu"
+      },
+      "labels": [
+        "pronoun"
+      ],
+      "themes": [
+        "conversation"
+      ],
+      "meaning": {
+        "en": "Write the missing Greek word.",
+        "ru": "Напишите только пропущенное слово.",
+        "zh": "只填写空缺的词。"
+      },
+      "contextExample": {
+        "en": "Το βιβλίο ___ διαβάζω είναι καλό. — The book that I am reading is good.",
+        "ru": "Το βιβλίο ___ διαβάζω είναι καλό. — Книга, которую я читаю, хорошая.",
+        "zh": "Το βιβλίο ___ διαβάζω είναι καλό. — 我正在读的书很好。"
+      },
+      "explanation": {
+        "en": "Unstressed που introduces a relative clause and does not change for gender or case. Stressed πού asks where.",
+        "ru": "Безударное που вводит придаточное: «который, которую» и т. д.; само не изменяется. Πού с ударением — вопрос «где?».",
+        "zh": "不带重音的 που 引导关系从句，不随性、格变化。带重音的 πού 表示“哪里”。"
+      }
+    },
+    {
+      "id": "nov18-if",
+      "collection": "words-connectors",
+      "greek": "αν",
+      "prompt": {
+        "en": "If",
+        "ru": "Если",
+        "zh": "如果"
+      },
+      "pronunciation": {
+        "en": "an",
+        "ru": "ан",
+        "zh": "an"
+      },
+      "labels": [
+        "conjunction"
+      ],
+      "themes": [
+        "conversation"
+      ],
+      "meaning": {
+        "en": "Write the missing Greek word.",
+        "ru": "Напишите только пропущенное слово.",
+        "zh": "只填写空缺的词。"
+      },
+      "contextExample": {
+        "en": "___ θέλεις, πάμε βόλτα. — If you want, let’s go for a walk.",
+        "ru": "___ θέλεις, πάμε βόλτα. — Если хочешь, пойдём гулять.",
+        "zh": "___ θέλεις, πάμε βόλτα. — 如果你愿意，我们去散步吧。"
+      },
+      "explanation": {
+        "en": "Αν introduces a condition. It can also mean whether after verbs such as ask or know.",
+        "ru": "Αν вводит условие «если». После «спрашивать, знать» может соответствовать русскому «ли».",
+        "zh": "Αν 引导条件，表示“如果”；在“询问、知道”等动词后也可表示“是否”。"
+      }
+    },
+    {
+      "id": "nov18-whatever",
+      "collection": "words-pronouns",
+      "greek": "ό,τι",
+      "prompt": {
+        "en": "Whatever / anything that",
+        "ru": "Что угодно / всё, что",
+        "zh": "无论什么／……的一切"
+      },
+      "pronunciation": {
+        "en": "O-ti",
+        "ru": "О-ти",
+        "zh": "O-ti"
+      },
+      "labels": [
+        "pronoun"
+      ],
+      "themes": [
+        "conversation"
+      ],
+      "meaning": {
+        "en": "Write the missing Greek word.",
+        "ru": "Напишите только пропущенное слово.",
+        "zh": "只填写空缺的词。"
+      },
+      "contextExample": {
+        "en": "Πάρε ___ θέλεις. — Take whatever you want.",
+        "ru": "Πάρε ___ θέλεις. — Бери всё, что хочешь.",
+        "zh": "Πάρε ___ θέλεις. — 拿你想要的任何东西。"
+      },
+      "explanation": {
+        "en": "Ό,τι is a relative pronoun meaning whatever or anything that. The comma distinguishes it from ότι, meaning that in “I know that…”.",
+        "ru": "Ό,τι — «всё, что / что угодно». Запятая отличает его от союза ότι — «что» в «я знаю, что…».",
+        "zh": "Ό,τι 表示“无论什么／……的一切”；逗号将它与引出内容从句的 ότι 区分开。"
+      }
+    },
+    {
+      "id": "nov18-afterwards",
+      "collection": "words-adverbs",
+      "greek": "ύστερα",
+      "prompt": {
+        "en": "Afterwards / then",
+        "ru": "Затем / потом",
+        "zh": "然后／随后"
+      },
+      "pronunciation": {
+        "en": "I-ste-ra",
+        "ru": "И-стэ-ра",
+        "zh": "I-ste-ra"
+      },
+      "labels": [
+        "adverb"
+      ],
+      "themes": [
+        "conversation"
+      ],
+      "meaning": {
+        "en": "Write the missing Greek word.",
+        "ru": "Напишите только пропущенное слово.",
+        "zh": "只填写空缺的词。"
+      },
+      "contextExample": {
+        "en": "Τρώω και ___ πίνω καφέ. — I eat and then drink coffee.",
+        "ru": "Τρώω και ___ πίνω καφέ. — Я ем, а потом пью кофе.",
+        "zh": "Τρώω και ___ πίνω καφέ. — 我吃完饭，然后喝咖啡。"
+      },
+      "explanation": {
+        "en": "Ύστερα indicates a later action. Ύστερα από + accusative means after something.",
+        "ru": "Ύστερα — «потом, затем». Ύστερα από с винительным падежом — «после чего-либо».",
+        "zh": "Ύστερα 表示“随后”；ύστερα από 加宾格表示“在……之后”。"
+      }
+    },
+    {
+      "id": "nov18-free",
+      "collection": "words-adverbs",
+      "greek": "δωρεάν",
+      "prompt": {
+        "en": "Free of charge",
+        "ru": "Бесплатно",
+        "zh": "免费"
+      },
+      "pronunciation": {
+        "en": "dho-re-AN",
+        "ru": "зо-рэ-АН",
+        "zh": "dho-re-AN"
+      },
+      "labels": [
+        "adverb"
+      ],
+      "themes": [
+        "conversation"
+      ],
+      "meaning": {
+        "en": "Write the missing Greek word.",
+        "ru": "Напишите только пропущенное слово.",
+        "zh": "只填写空缺的词。"
+      },
+      "contextExample": {
+        "en": "Το νερό είναι ___. — The water is free of charge.",
+        "ru": "Το νερό είναι ___. — Вода бесплатная.",
+        "zh": "Το νερό είναι ___. — 水是免费的。"
+      },
+      "explanation": {
+        "en": "Δωρεάν means without payment and is invariable. It does not mean available or unoccupied.",
+        "ru": "Δωρεάν — «без оплаты», неизменяемое слово. Не означает «свободный, незанятый».",
+        "zh": "Δωρεάν 表示“不收费”，词形不变；不表示“有空”或“自由”。"
+      }
+    },
+    {
+      "id": "nov18-around",
+      "collection": "words-adverbs",
+      "greek": "γύρω",
+      "prompt": {
+        "en": "Around / approximately",
+        "ru": "Вокруг / примерно",
+        "zh": "周围／大约"
+      },
+      "pronunciation": {
+        "en": "YI-ro",
+        "ru": "ЙИ-ро",
+        "zh": "YI-ro"
+      },
+      "labels": [
+        "adverb"
+      ],
+      "themes": [
+        "conversation"
+      ],
+      "meaning": {
+        "en": "Write the missing Greek word.",
+        "ru": "Напишите только пропущенное слово.",
+        "zh": "只填写空缺的词。"
+      },
+      "contextExample": {
+        "en": "Ξυπνάω ___ στις οχτώ. — I wake up at around eight.",
+        "ru": "Ξυπνάω ___ στις οχτώ. — Я просыпаюсь примерно в восемь.",
+        "zh": "Ξυπνάω ___ στις οχτώ. — 我大约八点醒来。"
+      },
+      "explanation": {
+        "en": "Γύρω means around. Γύρω στις + time means approximately at; γύρω από means around a place or object.",
+        "ru": "Γύρω — «вокруг». Γύρω στις перед временем означает «примерно в», γύρω από — «вокруг чего-либо».",
+        "zh": "Γύρω 表示“周围”；γύρω στις 加时间表示“大约在”，γύρω από 表示“围绕”。"
+      }
+    },
+    {
+      "id": "nov18-somewhere",
+      "collection": "words-adverbs",
+      "greek": "κάπου",
+      "prompt": {
+        "en": "Somewhere",
+        "ru": "Где-то / куда-то",
+        "zh": "某处"
+      },
+      "pronunciation": {
+        "en": "KA-pu",
+        "ru": "КА-пу",
+        "zh": "KA-pu"
+      },
+      "labels": [
+        "adverb"
+      ],
+      "themes": [
+        "conversation"
+      ],
+      "meaning": {
+        "en": "Write the missing Greek word.",
+        "ru": "Напишите только пропущенное слово.",
+        "zh": "只填写空缺的词。"
+      },
+      "contextExample": {
+        "en": "Το βιβλίο είναι ___ εδώ. — The book is somewhere here.",
+        "ru": "Το βιβλίο είναι ___ εδώ. — Книга где-то здесь.",
+        "zh": "Το βιβλίο είναι ___ εδώ. — 书就在这附近的某个地方。"
+      },
+      "explanation": {
+        "en": "Κάπου is an indefinite place adverb. The expression κάπου κάπου means every now and then.",
+        "ru": "Κάπου обозначает неопределённое место. Кάπου κάπου — устойчивое выражение «время от времени».",
+        "zh": "Κάπου 表示不确定的地点；κάπου κάπου 是“偶尔”的固定表达。"
+      }
+    },
+    {
+      "id": "nov18-must-leave",
+      "collection": "phrases-everyday",
+      "greek": "Πρέπει να φύγω.",
+      "prompt": {
+        "en": "I must leave.",
+        "ru": "Мне нужно уйти.",
+        "zh": "我必须离开。"
+      },
+      "pronunciation": {
+        "en": "PRE-pi na FI-gho",
+        "ru": "ПРЭ-пи на ФИ-го",
+        "zh": "PRE-pi na FI-gho"
+      },
+      "labels": [
+        "verb"
+      ],
+      "themes": [
+        "conversation"
+      ]
+    },
+    {
+      "id": "nov18-what-mean",
+      "collection": "phrases-social",
+      "greek": "Τι εννοείς;",
+      "prompt": {
+        "en": "What do you mean?",
+        "ru": "Что ты имеешь в виду?",
+        "zh": "你是什么意思？"
+      },
+      "pronunciation": {
+        "en": "ti e-no-IS",
+        "ru": "ти э-но-ИС",
+        "zh": "ti e-no-IS"
+      },
+      "labels": [
+        "topic"
+      ],
+      "themes": [
+        "conversation"
+      ]
+    },
+    {
+      "id": "nov18-have-things",
+      "collection": "phrases-everyday",
+      "greek": "Έχω δουλειές.",
+      "prompt": {
+        "en": "I have things to do.",
+        "ru": "У меня дела.",
+        "zh": "我有事要做。"
+      },
+      "pronunciation": {
+        "en": "E-kho dhu-LYES",
+        "ru": "Э-хо зу-ЛЬЕС",
+        "zh": "E-kho dhu-LYES"
+      },
+      "labels": [
+        "topic"
+      ],
+      "themes": [
+        "conversation"
+      ]
+    },
+    {
+      "id": "nov18-once-week",
+      "collection": "phrases-everyday",
+      "greek": "Μία φορά την εβδομάδα.",
+      "prompt": {
+        "en": "Once a week.",
+        "ru": "Раз в неделю.",
+        "zh": "每周一次。"
+      },
+      "pronunciation": {
+        "en": "MI-a fo-RA tin ev-dho-MA-dha",
+        "ru": "МИ-а фо-РА тин эв-зо-МА-за",
+        "zh": "MI-a fo-RA tin ev-dho-MA-dha"
+      },
+      "labels": [
+        "topic"
+      ],
+      "themes": [
+        "conversation"
+      ]
+    },
+    {
+      "id": "nov18-dishwasher",
+      "collection": "words-nouns",
+      "greek": "πλυντήριο πιάτων",
+      "prompt": {
+        "en": "Dishwasher",
+        "ru": "Посудомоечная машина",
+        "zh": "洗碗机"
+      },
+      "pronunciation": {
+        "en": "plin-DI-ri-o PYA-ton",
+        "ru": "плин-ДИ-ри-о ПЬЯ-тон",
+        "zh": "plin-DI-ri-o PYA-ton"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "home"
+      ],
+      "answerDisplay": "το πλυντήριο πιάτων"
+    },
+    {
+      "id": "nov18-with-milk",
+      "collection": "phrases-everyday",
+      "greek": "Με γάλα, χωρίς ζάχαρη.",
+      "prompt": {
+        "en": "With milk, without sugar.",
+        "ru": "С молоком, без сахара.",
+        "zh": "加奶，不加糖。"
+      },
+      "pronunciation": {
+        "en": "me GHA-la kho-RIS ZA-kha-ri",
+        "ru": "мэ ГА-ла хо-РИС ЗА-ха-ри",
+        "zh": "me GHA-la kho-RIS ZA-kha-ri"
+      },
+      "labels": [
+        "topic"
+      ],
+      "themes": [
+        "conversation"
+      ]
+    },
+    {
+      "id": "nov18-anything-else",
+      "collection": "phrases-everyday",
+      "greek": "Τίποτα άλλο;",
+      "prompt": {
+        "en": "Anything else?",
+        "ru": "Что-нибудь ещё?",
+        "zh": "还要别的吗？"
+      },
+      "pronunciation": {
+        "en": "TI-po-ta A-lo",
+        "ru": "ТИ-по-та А-ло",
+        "zh": "TI-po-ta A-lo"
+      },
+      "labels": [
+        "topic"
+      ],
+      "themes": [
+        "conversation"
+      ]
+    },
+    {
+      "id": "nov18-have-change",
+      "collection": "phrases-everyday",
+      "greek": "Έχετε ψιλά;",
+      "prompt": {
+        "en": "Do you have any small change?",
+        "ru": "У вас есть мелочь?",
+        "zh": "您有零钱吗？"
+      },
+      "pronunciation": {
+        "en": "E-khe-te psi-LA",
+        "ru": "Э-хэ-тэ пси-ЛА",
+        "zh": "E-khe-te psi-LA"
+      },
+      "labels": [
+        "topic"
+      ],
+      "themes": [
+        "conversation"
+      ]
+    },
+    {
+      "id": "nov18-your-change",
+      "collection": "phrases-everyday",
+      "greek": "Τα ρέστα σας.",
+      "prompt": {
+        "en": "Here is your change.",
+        "ru": "Ваша сдача.",
+        "zh": "这是找给您的零钱。"
+      },
+      "pronunciation": {
+        "en": "ta RE-sta sas",
+        "ru": "та РЭ-ста сас",
+        "zh": "ta RE-sta sas"
+      },
+      "labels": [
+        "topic"
+      ],
+      "themes": [
+        "conversation"
+      ]
+    },
+    {
+      "id": "nov18-how-much-all",
+      "collection": "phrases-everyday",
+      "greek": "Πόσο κάνουν όλα;",
+      "prompt": {
+        "en": "How much is everything?",
+        "ru": "Сколько стоит всё вместе?",
+        "zh": "一共多少钱？"
+      },
+      "pronunciation": {
+        "en": "PO-so KA-nun O-la",
+        "ru": "ПО-со КА-нун О-ла",
+        "zh": "PO-so KA-nun O-la"
+      },
+      "labels": [
+        "topic"
+      ],
+      "themes": [
+        "conversation"
+      ]
+    },
+    {
+      "id": "nov18-would-like",
+      "collection": "phrases-everyday",
+      "greek": "Τι θα ήθελες;",
+      "prompt": {
+        "en": "What would you like? (informal)",
+        "ru": "Что бы ты хотел / хотела?",
+        "zh": "你想要什么？（非敬语）"
+      },
+      "pronunciation": {
+        "en": "ti tha I-the-les",
+        "ru": "ти та И-тэ-лэс",
+        "zh": "ti tha I-the-les"
+      },
+      "labels": [
+        "topic"
+      ],
+      "themes": [
+        "conversation"
+      ],
+      "explanation": {
+        "en": "Θα ήθελες is a polite conditional: “would you like”, not the future “will want”.",
+        "ru": "Θα ήθελες — вежливое условное «ты бы хотел», а не будущее «будешь хотеть».",
+        "zh": "Θα ήθελες 是礼貌的条件表达“你想要……吗”，不是将来时“将会想要”。"
+      }
+    },
+    {
+      "id": "nov18-be-well",
+      "collection": "phrases-social",
+      "greek": "Να είσαι καλά!",
+      "prompt": {
+        "en": "Thanks — all the best! (informal)",
+        "ru": "Спасибо, всего тебе хорошего!",
+        "zh": "谢谢，祝你一切都好！"
+      },
+      "pronunciation": {
+        "en": "na I-se ka-LA",
+        "ru": "на И-сэ ка-ЛА",
+        "zh": "na I-se ka-LA"
+      },
+      "labels": [
+        "topic"
+      ],
+      "themes": [
+        "conversation"
+      ]
+    },
+    {
+      "id": "nov18-one-moment",
+      "collection": "phrases-everyday",
+      "greek": "Ένα λεπτάκι.",
+      "prompt": {
+        "en": "Just a moment.",
+        "ru": "Минутку.",
+        "zh": "稍等一下。"
+      },
+      "pronunciation": {
+        "en": "E-na le-PTA-ki",
+        "ru": "Э-на лэ-ПТА-ки",
+        "zh": "E-na le-PTA-ki"
+      },
+      "labels": [
+        "topic"
+      ],
+      "themes": [
+        "conversation"
+      ]
+    },
+    {
+      "id": "nov18-available",
+      "collection": "words-adjectives",
+      "greek": "ελεύθερος",
+      "senseKey": "available",
+      "wordGroup": "nov18-available",
+      "prompt": {
+        "en": "Free / available (time or person)",
+        "ru": "Свободный / незанятый",
+        "zh": "有空的／可用的"
+      },
+      "pronunciation": {
+        "en": "e-LEF-the-ros",
+        "ru": "э-ЛЭФ-тэ-рос",
+        "zh": "e-LEF-the-ros"
+      },
+      "labels": [
+        "adjective"
+      ],
+      "themes": [
+        "time"
+      ],
+      "alternatives": [
+        "ελεύθερη",
+        "ελεύθερο"
+      ],
+      "answerDisplay": "ελεύθερος / ελεύθερη / ελεύθερο",
+      "forms": [
+        {
+          "greek": "ελεύθερος",
+          "answerDisplay": "ελεύθερος",
+          "pronunciation": {
+            "en": "e-LEF-the-ros",
+            "ru": "э-ЛЭФ-тэ-рос",
+            "zh": "e-LEF-the-ros"
+          }
+        },
+        {
+          "greek": "ελεύθερη",
+          "answerDisplay": "ελεύθερη",
+          "pronunciation": {
+            "en": "e-LEF-the-ri",
+            "ru": "э-ЛЭФ-тэ-ри",
+            "zh": "e-LEF-the-ri"
+          }
+        },
+        {
+          "greek": "ελεύθερο",
+          "answerDisplay": "ελεύθερο",
+          "pronunciation": {
+            "en": "e-LEF-the-ro",
+            "ru": "э-ЛЭФ-тэ-ро",
+            "zh": "e-LEF-the-ro"
+          }
+        }
+      ],
+      "explanation": {
+        "en": "Ελεύθερος can describe someone who is not busy or time that is available. It can also mean single in relationship contexts. Δωρεάν means free of charge.",
+        "ru": "Ελεύθερος — незанятый человек или свободное время. В разговоре об отношениях — «неженатый». «Бесплатно» — δωρεάν.",
+        "zh": "Ελεύθερος 可指人有空或时间可支配；在感情语境中可指“单身”。“免费”是 δωρεάν。"
+      }
+    },
+    {
+      "id": "nov18-there-is-have",
+      "collection": "grammar-nouns",
+      "greek": "Έχει έναν γιατρό στο νοσοκομείο.",
+      "prompt": {
+        "en": "There is a doctor in the hospital.",
+        "ru": "В больнице есть врач.",
+        "zh": "医院里有一名医生。"
+      },
+      "meaning": {
+        "en": "Use the colloquial impersonal construction with the verb “have”.",
+        "ru": "Используйте разговорную безличную конструкцию с глаголом «иметь».",
+        "zh": "请用动词“有”的口语无人称结构。"
+      },
+      "pronunciation": {
+        "en": "E-khi E-nan ya-TRO sto no-so-ko-MI-o",
+        "ru": "Э-хи Э-нан я-ТРО сто но-со-ко-МИ-о",
+        "zh": "E-khi E-nan ya-TRO sto no-so-ko-MI-o"
+      },
+      "labels": [
+        "verb",
+        "noun"
+      ],
+      "themes": [
+        "places"
+      ],
+      "explanation": {
+        "en": "In colloquial Greek, impersonal έχει + accusative means there is / there are. Έχει stays singular. The alternative υπάρχει / υπάρχουν takes a nominative subject.",
+        "ru": "В разговорной речи безличное έχει с винительным падежом означает «есть, имеется». Έχει не меняется при множественном числе. Другая конструкция, υπάρχει / υπάρχουν, требует именительного падежа.",
+        "zh": "口语中，无人称 έχει 加宾格表示“有”，即使后接复数也不变。另一种结构 υπάρχει／υπάρχουν 后接主格主语。"
+      }
+    },
+    {
+      "id": "nov18-there-are-have",
+      "collection": "grammar-nouns",
+      "greek": "Έχει δύο γιατρούς στο νοσοκομείο.",
+      "prompt": {
+        "en": "There are two doctors in the hospital.",
+        "ru": "В больнице два врача.",
+        "zh": "医院里有两名医生。"
+      },
+      "meaning": {
+        "en": "Use the colloquial impersonal construction with the verb “have”.",
+        "ru": "Используйте разговорную безличную конструкцию с глаголом «иметь».",
+        "zh": "请用动词“有”的口语无人称结构。"
+      },
+      "pronunciation": {
+        "en": "E-khi DHI-o ya-TRUS sto no-so-ko-MI-o",
+        "ru": "Э-хи ЗИ-о я-ТРУС сто но-со-ко-МИ-о",
+        "zh": "E-khi DHI-o ya-TRUS sto no-so-ko-MI-o"
+      },
+      "labels": [
+        "verb",
+        "noun"
+      ],
+      "themes": [
+        "places"
+      ],
+      "explanation": {
+        "en": "In colloquial Greek, impersonal έχει + accusative means there is / there are. Έχει stays singular. The alternative υπάρχει / υπάρχουν takes a nominative subject.",
+        "ru": "В разговорной речи безличное έχει с винительным падежом означает «есть, имеется». Έχει не меняется при множественном числе. Другая конструкция, υπάρχει / υπάρχουν, требует именительного падежа.",
+        "zh": "口语中，无人称 έχει 加宾格表示“有”，即使后接复数也不变。另一种结构 υπάρχει／υπάρχουν 后接主格主语。"
+      }
+    },
+    {
+      "id": "nov18-match-items",
+      "collection": "words-verbs",
+      "greek": "αντιστοιχίζω",
+      "prompt": {
+        "en": "I match / pair corresponding items",
+        "ru": "Сопоставляю / подбираю соответствие",
+        "zh": "我配对／找出对应项"
+      },
+      "pronunciation": {
+        "en": "an-di-sti-KHI-zo",
+        "ru": "ан-ди-сти-ХИ-зо",
+        "zh": "an-di-sti-KHI-zo"
+      },
+      "labels": [
+        "verb"
+      ],
+      "themes": [
+        "classroom",
+        "verbA"
+      ]
+    }
+  ]
+}

@@ -59807,6 +59807,458 @@
         "ru": "___ βλέπω. — Я вас вижу.",
         "zh": "___ βλέπω. — 我看见你们了。"
       }
+    },
+    "grammar-past-future/notebook-do-past": {
+      "id": "notebook-do-past",
+      "greek": "έκανα",
+      "prompt": {
+        "en": "I did / made",
+        "ru": "Делал / сделал (я)",
+        "zh": "我做了"
+      },
+      "pronunciation": {
+        "en": "E-ka-na",
+        "ru": "Э-ка-на",
+        "zh": "E-ka-na"
+      },
+      "addedWeek": "2026-11-16",
+      "labels": [
+        "verb"
+      ],
+      "reviewIdentity": {
+        "deckId": "grammar-past-future",
+        "cardId": "notebook-do-past"
+      },
+      "meaning": {
+        "en": "Past tense, first person singular.",
+        "ru": "Прошедшее время, форма для «я».",
+        "zh": "过去时，第一人称单数。"
+      },
+      "explanation": {
+        "en": "Present: κάνω. Past: έκανα.",
+        "ru": "Настоящее время: κάνω. Прошедшее: έκανα.",
+        "zh": "现在时：κάνω。过去时：έκανα。"
+      },
+      "acceptedAnswers": [
+        "εγώ έκανα"
+      ]
+    },
+    "grammar-past-future/notebook-do-future": {
+      "id": "notebook-do-future",
+      "greek": "θα κάνω",
+      "prompt": {
+        "en": "I will do / make",
+        "ru": "Сделаю",
+        "zh": "我会做"
+      },
+      "pronunciation": {
+        "en": "tha KA-no",
+        "ru": "та КА-но",
+        "zh": "tha KA-no"
+      },
+      "addedWeek": "2026-11-16",
+      "labels": [
+        "verb"
+      ],
+      "reviewIdentity": {
+        "deckId": "grammar-past-future",
+        "cardId": "notebook-do-future"
+      },
+      "meaning": {
+        "en": "Future tense, first person singular.",
+        "ru": "Будущее время, форма для «я».",
+        "zh": "将来时，第一人称单数。"
+      },
+      "explanation": {
+        "en": "Present: κάνω. Future: θα κάνω.",
+        "ru": "Настоящее время: κάνω. Будущее: θα κάνω.",
+        "zh": "现在时：κάνω。将来时：θα κάνω。"
+      },
+      "acceptedAnswers": [
+        "εγώ θα κάνω"
+      ]
+    },
+    "grammar-past-future/notebook-have-past": {
+      "id": "notebook-have-past",
+      "greek": "είχα",
+      "prompt": {
+        "en": "I had",
+        "ru": "У меня было",
+        "zh": "我曾经有"
+      },
+      "pronunciation": {
+        "en": "I-kha",
+        "ru": "И-ха",
+        "zh": "I-kha"
+      },
+      "addedWeek": "2026-11-16",
+      "labels": [
+        "verb"
+      ],
+      "reviewIdentity": {
+        "deckId": "grammar-past-future",
+        "cardId": "notebook-have-past"
+      },
+      "meaning": {
+        "en": "Past state (imperfect), first person singular.",
+        "ru": "Состояние в прошлом (парата́тикос), форма для «я».",
+        "zh": "过去的状态（未完成过去时），第一人称单数。"
+      },
+      "explanation": {
+        "en": "Present: έχω. Past: είχα.",
+        "ru": "Настоящее время: έχω. Прошедшее: είχα.",
+        "zh": "现在时：έχω。过去时：είχα。"
+      },
+      "acceptedAnswers": [
+        "εγώ είχα"
+      ]
+    },
+    "grammar-past-future/notebook-have-future": {
+      "id": "notebook-have-future",
+      "greek": "θα έχω",
+      "prompt": {
+        "en": "I will have",
+        "ru": "У меня будет",
+        "zh": "我将会有"
+      },
+      "pronunciation": {
+        "en": "tha E-kho",
+        "ru": "та Э-хо",
+        "zh": "tha E-kho"
+      },
+      "addedWeek": "2026-11-16",
+      "labels": [
+        "verb"
+      ],
+      "reviewIdentity": {
+        "deckId": "grammar-past-future",
+        "cardId": "notebook-have-future"
+      },
+      "meaning": {
+        "en": "Future tense, first person singular.",
+        "ru": "Будущее время, форма для «я».",
+        "zh": "将来时，第一人称单数。"
+      },
+      "explanation": {
+        "en": "Present: έχω. Future: θα έχω.",
+        "ru": "Настоящее время: έχω. Будущее: θα έχω.",
+        "zh": "现在时：έχω。将来时：θα έχω。"
+      },
+      "acceptedAnswers": [
+        "εγώ θα έχω"
+      ]
+    },
+    "grammar-past-future/notebook-be-past": {
+      "id": "notebook-be-past",
+      "greek": "ήμουν",
+      "prompt": {
+        "en": "I was",
+        "ru": "Был / была (я)",
+        "zh": "我曾经是／在"
+      },
+      "pronunciation": {
+        "en": "I-mun",
+        "ru": "И-мун",
+        "zh": "I-mun"
+      },
+      "addedWeek": "2026-11-16",
+      "labels": [
+        "verb"
+      ],
+      "reviewIdentity": {
+        "deckId": "grammar-past-future",
+        "cardId": "notebook-be-past"
+      },
+      "meaning": {
+        "en": "Past state (imperfect), first person singular.",
+        "ru": "Состояние в прошлом (парата́тикос), форма для «я».",
+        "zh": "过去的状态（未完成过去时），第一人称单数。"
+      },
+      "explanation": {
+        "en": "Present: είμαι. Past: ήμουν.",
+        "ru": "Настоящее время: είμαι. Прошедшее: ήμουν.",
+        "zh": "现在时：είμαι。过去时：ήμουν。"
+      },
+      "acceptedAnswers": [
+        "εγώ ήμουν"
+      ]
+    },
+    "grammar-past-future/notebook-be-future": {
+      "id": "notebook-be-future",
+      "greek": "θα είμαι",
+      "prompt": {
+        "en": "I will be",
+        "ru": "Буду",
+        "zh": "我将会是／在"
+      },
+      "pronunciation": {
+        "en": "tha I-me",
+        "ru": "та И-мэ",
+        "zh": "tha I-me"
+      },
+      "addedWeek": "2026-11-16",
+      "labels": [
+        "verb"
+      ],
+      "reviewIdentity": {
+        "deckId": "grammar-past-future",
+        "cardId": "notebook-be-future"
+      },
+      "meaning": {
+        "en": "Future tense, first person singular.",
+        "ru": "Будущее время, форма для «я».",
+        "zh": "将来时，第一人称单数。"
+      },
+      "explanation": {
+        "en": "Present: είμαι. Future: θα είμαι.",
+        "ru": "Настоящее время: είμαι. Будущее: θα είμαι.",
+        "zh": "现在时：είμαι。将来时：θα είμαι。"
+      },
+      "acceptedAnswers": [
+        "εγώ θα είμαι"
+      ]
+    },
+    "grammar-past-future/notebook-go-past": {
+      "id": "notebook-go-past",
+      "greek": "πήγα",
+      "prompt": {
+        "en": "I went",
+        "ru": "Пошёл / пошла (я)",
+        "zh": "我去了"
+      },
+      "pronunciation": {
+        "en": "PI-gha",
+        "ru": "ПИ-га",
+        "zh": "PI-gha"
+      },
+      "addedWeek": "2026-11-16",
+      "labels": [
+        "verb"
+      ],
+      "reviewIdentity": {
+        "deckId": "grammar-past-future",
+        "cardId": "notebook-go-past"
+      },
+      "meaning": {
+        "en": "Completed past action (aorist), first person singular.",
+        "ru": "Завершённое действие в прошлом (ао́рист), форма для «я».",
+        "zh": "已完成的过去动作（简单过去时），第一人称单数。"
+      },
+      "explanation": {
+        "en": "Present: πάω. Past: πήγα.",
+        "ru": "Настоящее время: πάω. Прошедшее: πήγα.",
+        "zh": "现在时：πάω。过去时：πήγα。"
+      },
+      "acceptedAnswers": [
+        "εγώ πήγα"
+      ]
+    },
+    "grammar-past-future/notebook-go-future": {
+      "id": "notebook-go-future",
+      "greek": "θα πάω",
+      "prompt": {
+        "en": "I will go",
+        "ru": "Пойду",
+        "zh": "我会去"
+      },
+      "pronunciation": {
+        "en": "tha PA-o",
+        "ru": "та ПА-о",
+        "zh": "tha PA-o"
+      },
+      "addedWeek": "2026-11-16",
+      "labels": [
+        "verb"
+      ],
+      "reviewIdentity": {
+        "deckId": "grammar-past-future",
+        "cardId": "notebook-go-future"
+      },
+      "meaning": {
+        "en": "Single future action, first person singular.",
+        "ru": "Однократное будущее действие, форма для «я».",
+        "zh": "一次将来的动作，第一人称单数。"
+      },
+      "explanation": {
+        "en": "Present: πάω. Future: θα πάω.",
+        "ru": "Настоящее время: πάω. Будущее: θα πάω.",
+        "zh": "现在时：πάω。将来时：θα πάω。"
+      },
+      "acceptedAnswers": [
+        "εγώ θα πάω"
+      ]
+    },
+    "grammar-past-future/notebook-say-past": {
+      "id": "notebook-say-past",
+      "greek": "είπα",
+      "prompt": {
+        "en": "I said",
+        "ru": "Сказал / сказала (я)",
+        "zh": "我说了"
+      },
+      "pronunciation": {
+        "en": "I-pa",
+        "ru": "И-па",
+        "zh": "I-pa"
+      },
+      "addedWeek": "2026-11-16",
+      "labels": [
+        "verb"
+      ],
+      "reviewIdentity": {
+        "deckId": "grammar-past-future",
+        "cardId": "notebook-say-past"
+      },
+      "meaning": {
+        "en": "Completed past action (aorist), first person singular.",
+        "ru": "Завершённое действие в прошлом (ао́рист), форма для «я».",
+        "zh": "已完成的过去动作（简单过去时），第一人称单数。"
+      },
+      "explanation": {
+        "en": "Present: λέω. Past: είπα.",
+        "ru": "Настоящее время: λέω. Прошедшее: είπα.",
+        "zh": "现在时：λέω。过去时：είπα。"
+      },
+      "acceptedAnswers": [
+        "εγώ είπα"
+      ]
+    },
+    "grammar-past-future/notebook-say-future": {
+      "id": "notebook-say-future",
+      "greek": "θα πω",
+      "prompt": {
+        "en": "I will say",
+        "ru": "Скажу",
+        "zh": "我会说"
+      },
+      "pronunciation": {
+        "en": "tha po",
+        "ru": "та по",
+        "zh": "tha po"
+      },
+      "addedWeek": "2026-11-16",
+      "labels": [
+        "verb"
+      ],
+      "reviewIdentity": {
+        "deckId": "grammar-past-future",
+        "cardId": "notebook-say-future"
+      },
+      "meaning": {
+        "en": "Single future action, first person singular.",
+        "ru": "Однократное будущее действие, форма для «я».",
+        "zh": "一次将来的动作，第一人称单数。"
+      },
+      "explanation": {
+        "en": "Present: λέω. Future: θα πω.",
+        "ru": "Настоящее время: λέω. Будущее: θα πω.",
+        "zh": "现在时：λέω。将来时：θα πω。"
+      },
+      "acceptedAnswers": [
+        "εγώ θα πω"
+      ]
+    },
+    "grammar-past-future/notebook-want-past": {
+      "id": "notebook-want-past",
+      "greek": "ήθελα",
+      "prompt": {
+        "en": "I wanted",
+        "ru": "Хотел / хотела (я)",
+        "zh": "我当时想要"
+      },
+      "pronunciation": {
+        "en": "I-the-la",
+        "ru": "И-тэ-ла",
+        "zh": "I-the-la"
+      },
+      "addedWeek": "2026-11-16",
+      "labels": [
+        "verb"
+      ],
+      "reviewIdentity": {
+        "deckId": "grammar-past-future",
+        "cardId": "notebook-want-past"
+      },
+      "meaning": {
+        "en": "Past state (imperfect), first person singular.",
+        "ru": "Состояние в прошлом (парата́тикос), форма для «я».",
+        "zh": "过去的状态（未完成过去时），第一人称单数。"
+      },
+      "explanation": {
+        "en": "Present: θέλω. Past: ήθελα.",
+        "ru": "Настоящее время: θέλω. Прошедшее: ήθελα.",
+        "zh": "现在时：θέλω。过去时：ήθελα。"
+      },
+      "acceptedAnswers": [
+        "εγώ ήθελα"
+      ]
+    },
+    "grammar-past-future/notebook-want-future": {
+      "id": "notebook-want-future",
+      "greek": "θα θέλω",
+      "prompt": {
+        "en": "I will want",
+        "ru": "Буду хотеть",
+        "zh": "我将会想要"
+      },
+      "pronunciation": {
+        "en": "tha THE-lo",
+        "ru": "та ТЭ-ло",
+        "zh": "tha THE-lo"
+      },
+      "addedWeek": "2026-11-16",
+      "labels": [
+        "verb"
+      ],
+      "reviewIdentity": {
+        "deckId": "grammar-past-future",
+        "cardId": "notebook-want-future"
+      },
+      "meaning": {
+        "en": "Future tense, first person singular.",
+        "ru": "Будущее время, форма для «я».",
+        "zh": "将来时，第一人称单数。"
+      },
+      "explanation": {
+        "en": "Present: θέλω. Future: θα θέλω.",
+        "ru": "Настоящее время: θέλω. Будущее: θα θέλω.",
+        "zh": "现在时：θέλω。将来时：θα θέλω。"
+      },
+      "acceptedAnswers": [
+        "εγώ θα θέλω"
+      ]
+    },
+    "grammar-past-future/notebook-must-past": {
+      "id": "notebook-must-past",
+      "greek": "έπρεπε",
+      "prompt": {
+        "en": "It was necessary / one had to",
+        "ru": "Нужно было / следовало",
+        "zh": "当时必须／本应"
+      },
+      "pronunciation": {
+        "en": "E-pre-pe",
+        "ru": "Э-прэ-пэ",
+        "zh": "E-pre-pe"
+      },
+      "addedWeek": "2026-11-16",
+      "labels": [
+        "verb"
+      ],
+      "reviewIdentity": {
+        "deckId": "grammar-past-future",
+        "cardId": "notebook-must-past"
+      },
+      "meaning": {
+        "en": "Past tense of the impersonal expression “it is necessary”.",
+        "ru": "Прошедшее время безличного «нужно / следует».",
+        "zh": "无人称表达“有必要”的过去时。"
+      },
+      "explanation": {
+        "en": "Πρέπει is impersonal: πρέπει να φύγω — I must leave. Past: έπρεπε να φύγω — I had to leave. The person is expressed by the verb after να.",
+        "ru": "Πρέπει — безличное «нужно»: πρέπει να φύγω — «мне нужно уйти». В прошлом: έπρεπε να φύγω — «мне нужно было уйти». Лицо выражает глагол после να.",
+        "zh": "Πρέπει 是无人称表达；πρέπει να φύγω 意为“我必须离开”。过去形式为 έπρεπε να φύγω；人称由 να 后的动词表示。"
+      }
     }
   },
   "decks": [
@@ -64850,6 +65302,84 @@
         "family-not-married": [
           "family",
           "people"
+        ]
+      }
+    },
+    {
+      "section": "grammar",
+      "deck": {
+        "id": "grammar-past-future",
+        "title": {
+          "en": "Past & future",
+          "ru": "Прошедшее и будущее",
+          "zh": "过去时与将来时"
+        },
+        "subtitle": {
+          "en": "Verb forms from the notebook",
+          "ru": "Формы глаголов из тетради",
+          "zh": "笔记中的动词形式"
+        },
+        "cover": "ήμουν · θα είμαι",
+        "note": {
+          "en": "Practise only the past and future forms introduced in the notebook. Most answers are first person singular; the impersonal “had to” is marked separately.",
+          "ru": "Только формы прошедшего и будущего времени из тетради. Обычно требуется форма для «я»; безличное «нужно было» отмечено отдельно.",
+          "zh": "仅练习笔记中介绍的过去时和将来时形式。大多数题目要求第一人称单数；无人称的“当时必须”会单独标明。"
+        },
+        "cards": [
+          "grammar-past-future/notebook-do-past",
+          "grammar-past-future/notebook-do-future",
+          "grammar-past-future/notebook-have-past",
+          "grammar-past-future/notebook-have-future",
+          "grammar-past-future/notebook-be-past",
+          "grammar-past-future/notebook-be-future",
+          "grammar-past-future/notebook-go-past",
+          "grammar-past-future/notebook-go-future",
+          "grammar-past-future/notebook-say-past",
+          "grammar-past-future/notebook-say-future",
+          "grammar-past-future/notebook-want-past",
+          "grammar-past-future/notebook-want-future",
+          "grammar-past-future/notebook-must-past"
+        ]
+      },
+      "themes": {
+        "notebook-do-past": [
+          "time"
+        ],
+        "notebook-do-future": [
+          "time"
+        ],
+        "notebook-have-past": [
+          "time"
+        ],
+        "notebook-have-future": [
+          "time"
+        ],
+        "notebook-be-past": [
+          "time"
+        ],
+        "notebook-be-future": [
+          "time"
+        ],
+        "notebook-go-past": [
+          "time"
+        ],
+        "notebook-go-future": [
+          "time"
+        ],
+        "notebook-say-past": [
+          "time"
+        ],
+        "notebook-say-future": [
+          "time"
+        ],
+        "notebook-want-past": [
+          "time"
+        ],
+        "notebook-want-future": [
+          "time"
+        ],
+        "notebook-must-past": [
+          "time"
         ]
       }
     }

@@ -7,3 +7,7 @@ Changes: split into 24 letter names at the pauses, mono 24 kHz MP3.
 All 24 clips preserve the original speaker's pronunciation and voice.
 
 Example words (pair-*.mp3): Microsoft el-GR-AthinaNeural synthesis.
+
+Dictionary lesson clips (nov18-*): Greek synthesis using Microsoft
+el-GR-AthinaNeural or the macOS Melina voice where the remote service returned
+no audio. Existing dictionary recordings are preserved.
