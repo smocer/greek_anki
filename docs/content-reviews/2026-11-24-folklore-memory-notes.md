@@ -22,3 +22,13 @@ Each locale received an independent native-language editing pass across all four
 | σάντουιτς | Popular unconfirmed anecdote: the Earl eats bread and meat without leaving the gaming table. | [HISTORY, account of Grosley’s travel-book story](https://www.history.com/articles/sandwich-inventor-john-montagu-earl-of-sandwich) |
 
 The two food legends are deliberately included despite their uncertain historicity. Their labels preserve that uncertainty while retaining the memorable image. Other stories likewise remain literary narratives, rather than claims about real events.
+
+## Short Greek originals
+
+The yogurt card additionally gains an original proverb; the apple and Crete stories gain traditional expressions. All three have EN/RU/ZH translations and independent language review. The expressions are identified as expressions, not as ancient characters’ quoted dialogue.
+
+- «Όποιος καεί στο χυλό, φυσάει και το γιαούρτι.» One attested variant from [Triantafyllides, χυλός](https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/search.html?lq=χυλός), selected from the dictionary’s listed alternatives. The existing yogurt explanation is shortened to avoid repeating the same story twice.
+- «το μήλον της έριδος». Listed as an expression in [Triantafyllides, μήλο](https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/search.html?lq=μήλο). The note identifies μήλον as older/literary beside everyday μήλο.
+- «ο μίτος της Αριάδνης». The Greek Ministry of Education [history workbook](https://ebooks.edu.gr/ebooks/v/pdf/8547/539/10-0057-02_V2_Istoria_G-Dimotikou_Tetradio-Ergasion/) identifies Ariadne’s thread; the exact expression also appears as a [Greek Language Centre anthology title](https://www.greek-language.gr/digitalResources/ancient_greek/anthology/mythology/browse.html?text_id=249). The figurative thread of understanding a complex problem is supported by [Triantafyllides, μίτος](https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/search.html?lq=μίτος).
+
+The dictionary entries’ full HTML was read directly after the browser fetch returned 403. No generated Greek retelling is represented as a source quotation.
