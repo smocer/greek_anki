@@ -56,9 +56,9 @@
         "noun"
       ],
       "explanation": {
-        "en": "A school or faculty for a particular field: σχολή πιλότων = flight school. Σχολείο is the usual word for a general school.",
-        "ru": "Σχολή — учебное заведение или факультет по определённой специальности: σχολή πιλότων — лётная школа. Обычная школа — σχολείο.",
-        "zh": "指专门领域的学校或学院，如 σχολή πιλότων（飞行学校）。普通学校通常用 σχολείο。"
+        "en": "A school or faculty for a particular field: σχολή πιλότων = flight school. Σχολείο is the usual word for a general school.\n\nIts ancient ancestor meant leisure or free time, and then study and teaching. Picture time free from other work becoming time for learning: that is the surprising history shared by σχολή and σχολείο.",
+        "ru": "Σχολή — учебное заведение или факультет по определённой специальности: σχολή πιλότων — лётная школа. Обычная школа — σχολείο.\n\nДревнее σχολή означало досуг, а затем занятия и место учёбы. Отсюда и родственное σχολείο. У слова «школа» неожиданное начало: время, свободное для занятий и размышлений.",
+        "zh": "指专门领域的学校或学院，如 σχολή πιλότων（飞行学校）。普通学校通常用 σχολείο。\n\n古希腊语 σχολή 原指闲暇，后来又指学习和讲授。Σχολείο（学校）也属于这个词族：把空闲时间用于学习，正是一条好记的词义线索。"
       },
       "answerDisplay": "η σχολή"
     },
@@ -191,9 +191,9 @@
         "noun"
       ],
       "explanation": {
-        "en": "Feminine.",
-        "ru": "Женский род.",
-        "zh": "阴性名词。"
+        "en": "Feminine.\n\nBorrowed from Italian ombrella, ultimately related to Latin umbra, shade. Picture the shade beneath a beach umbrella: an ομπρέλα can protect you from sun as well as rain.",
+        "ru": "Женский род.\n\nСлово пришло из итальянского; его история ведёт к латинскому umbra — «тень». Зонт защищает не только от дождя, но и от солнца: представьте маленький переносной кусочек тени.",
+        "zh": "阴性名词。\n\n这个词借自意大利语，往前可追到拉丁语 umbra（阴影）。想象海滩上的遮阳伞投下一片阴凉，就能把“伞”和这个词根连起来。"
       },
       "answerDisplay": "η ομπρέλα"
     },
@@ -585,9 +585,9 @@
         "noun"
       ],
       "explanation": {
-        "en": "The same noun is used for a man or a woman; only ο / η changes.",
-        "ru": "Само слово одинаково для мужчины и женщины; меняется только артикль ο / η.",
-        "zh": "男女均使用 κτηνίατρος，冠词分别用 ο、η。"
+        "en": "The same noun is used for a man or a woman; only ο / η changes.\n\nThe first part refers to animals or livestock; -ίατρος means doctor. The same doctor element appears in παιδίατρος, paediatrician, and ψυχίατρος, psychiatrist. Think animal doctor to remember veterinarian.",
+        "ru": "Само слово одинаково для мужчины и женщины; меняется только артикль ο / η.\n\nОснова κτην- обозначает животных, а -ίατρος — врача. Тот же врачебный элемент узнаётся в словах «педиатр» и «психиатр». У κτηνίατρος пациенты — животные.",
+        "zh": "男女均使用 κτηνίατρος，冠词分别用 ο、η。\n\n前半部分与动物、牲畜有关，后面的 -ίατρος 表示医生。Παιδίατρος 是儿科医生，ψυχίατρος 是精神科医生；认出这个后半部分，就能猜到是在说某类医生。"
       },
       "wordGroup": "veterinarian",
       "forms": [
@@ -638,9 +638,9 @@
         "noun"
       ],
       "explanation": {
-        "en": "The same noun is used for a man or a woman; only ο / η changes.",
-        "ru": "Само слово одинаково для мужчины и женщины; меняется только артикль ο / η.",
-        "zh": "男女均使用 ξυλουργός，冠词分别用 ο、η。"
+        "en": "The same noun is used for a man or a woman; only ο / η changes.\n\nIts old components mean wood and work: a woodworker. You can connect it with ξύλο, wood, and imagine a carpenter working a piece of timber.",
+        "ru": "Само слово одинаково для мужчины и женщины; меняется только артикль ο / η.\n\nΞύλο — «дерево, древесина», έργο — «работа»: в названии профессии соединены дерево и работа с ним. Так длинное слово превращается в понятный образ мастера по дереву.",
+        "zh": "男女均使用 ξυλουργός，冠词分别用 ο、η。\n\n词根分别与 ξύλο（木材）和 έργο（工作）有关：做木头活儿的师傅，就是木匠。"
       },
       "wordGroup": "carpenter",
       "forms": [

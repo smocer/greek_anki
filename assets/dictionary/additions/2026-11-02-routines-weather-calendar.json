@@ -752,7 +752,12 @@
       "themes": [
         "places"
       ],
-      "answerDisplay": "το σινεμά"
+      "answerDisplay": "το σινεμά",
+      "explanation": {
+        "en": "An informal word for cinema, borrowed from French cinéma, itself short for cinématographe. It shares that history with the longer Greek κινηματογράφος. It is neuter and does not change its ending: το σινεμά.",
+        "ru": "Несклоняемое существительное среднего рода: το σινεμά. Пришло из французского cinéma, сокращения cinématographe. Поэтому короткое σινεμά и длинное κινηματογράφος исторически связаны: это две версии одного названия кино.",
+        "zh": "它借自法语 cinéma，是 cinématographe 的缩写。因此 σινεμά 和 κινηματογράφος 是同一名称的短、长两条分支。Σινεμά 是中性、不变格的名词：το σινεμά。"
+      }
     },
     {
       "id": "nov05-means",
@@ -901,7 +906,12 @@
       "themes": [
         "places"
       ],
-      "answerDisplay": "το γυμναστήριο"
+      "answerDisplay": "το γυμναστήριο",
+      "explanation": {
+        "en": "The gym word family is related to γυμνός, naked: ancient Greek athletes trained without clothes. That surprising historical connection links γυμναστήριο, gym, with γυμναστική, exercise. It says nothing about what to wear to a modern gym!",
+        "ru": "Το γυμναστήριο — спортзал, существительное среднего рода. Название связано с γυμνός — «обнажённый»: древнегреческие атлеты тренировались без одежды. Этот старый корень сохранился и в слове γυμναστική — «гимнастика, физкультура».",
+        "zh": "它与 γυμνός（赤裸的）同源，源头与古希腊运动员裸体训练的习俗有关。这个历史词根也藏在 γυμναστική（体育锻炼）里。"
+      }
     },
     {
       "id": "nov05-company",
@@ -977,7 +987,12 @@
       "themes": [
         "time"
       ],
-      "answerDisplay": "η εβδομάδα"
+      "answerDisplay": "η εβδομάδα",
+      "explanation": {
+        "en": "The older word meant a group of seven. That is the seven-day week hidden inside εβδομάδα; related έβδομος means seventh.",
+        "ru": "Древнее ἑβδομάς обозначало семёрку, группу из семи. Неделя — семь дней; тот же числовой корень есть в έβδομος, «седьмой». Так длинное название недели можно связать с её длиной.",
+        "zh": "这个词来自古希腊语 ἑβδομάς，意思是“七个组成的一组”：一周正好七天。Έβδομος（第七）也属于这个数字词族。"
+      }
     },
     {
       "id": "nov05-month",
@@ -1311,7 +1326,12 @@
       "themes": [
         "time"
       ],
-      "answerDisplay": "ο Ιανουάριος"
+      "answerDisplay": "ο Ιανουάριος",
+      "explanation": {
+        "en": "The name comes from Latin Ianuarius, the month of Janus, the Roman god associated with gateways and beginnings. A new year opening like a doorway is a useful memory image.",
+        "ru": "Название пришло из латинского: месяц посвящён Янусу, римскому богу входов и начал. Для запоминания представьте январь входом в новый год.",
+        "zh": "名字来自拉丁语，与罗马神话中守护门户和开端的雅努斯（Janus）有关。用“新年的门口”来联想一月，很容易记住这个开头。"
+      }
     },
     {
       "id": "nov05-february",
@@ -1355,7 +1375,12 @@
       "themes": [
         "time"
       ],
-      "answerDisplay": "ο Μάρτιος"
+      "answerDisplay": "ο Μάρτιος",
+      "explanation": {
+        "en": "The name comes from the Latin month named for Mars, the Roman god. Think of Mars to remember Μάρτιος, March.",
+        "ru": "Название восходит к латинскому Martius — месяцу Марса, римского бога. Поэтому греческий Μάρτιος легко узнаётся по русскому «март».",
+        "zh": "名字来自拉丁语 Martius，与罗马战神马尔斯（Mars）有关。它不像中文“三月”那样直接用数字命名。"
+      }
     },
     {
       "id": "nov05-april",
@@ -1443,7 +1468,12 @@
       "themes": [
         "time"
       ],
-      "answerDisplay": "ο Ιούλιος"
+      "answerDisplay": "ο Ιούλιος",
+      "explanation": {
+        "en": "This month’s name honours Julius Caesar: Ιούλιος is also the Greek form of Julius. Pair July with Julius, and August with Augustus.",
+        "ru": "Месяц назван в честь Юлия Цезаря: Ιούλιος и Юлий напоминают друг друга не случайно. Следующий Αύγουστος тоже хранит имя римского правителя — Августа.",
+        "zh": "七月的名字纪念尤利乌斯·凯撒（Julius Caesar）。把 Ιούλιος 和 Julius 的名字放在一起记，会比只背“七月”更有线索。"
+      }
     },
     {
       "id": "nov05-august",
@@ -1465,7 +1495,12 @@
       "themes": [
         "time"
       ],
-      "answerDisplay": "ο Αύγουστος"
+      "answerDisplay": "ο Αύγουστος",
+      "explanation": {
+        "en": "The month takes its name from Augustus. Pair Αύγουστος with Augustus and Ιούλιος with Julius Caesar: two names preserved in the calendar.",
+        "ru": "Месяц назван в честь Августа, римского правителя. Удобная пара: Ιούλιος — Юлий Цезарь, Αύγουστος — Август. Это переименованные месяцы, а не два новых месяца, вставленных в календарь.",
+        "zh": "八月的名字纪念罗马皇帝奥古斯都（Augustus）。七月 Ιούλιος 对应凯撒，八月 Αύγουστος 对应奥古斯都，可以成对记忆。"
+      }
     },
     {
       "id": "nov05-september",
@@ -1487,7 +1522,12 @@
       "themes": [
         "time"
       ],
-      "answerDisplay": "ο Σεπτέμβριος"
+      "answerDisplay": "ο Σεπτέμβριος",
+      "explanation": {
+        "en": "The name preserves Latin septem, seven, from the old order that counted March first. September is now month nine, but its name still remembers being seventh.",
+        "ru": "В латинском источнике названия спрятано septem — «семь». Старый счёт начинался с марта, поэтому нынешний девятый месяц сохранил «седьмое» имя. У следующих трёх месяцев та же история с числами восемь, девять и десять.",
+        "zh": "名字中的 Sept- 来自拉丁语 septem（七），保留了旧历的月份顺序：从三月算第一月，九月正好排第七。今天它表示九月。"
+      }
     },
     {
       "id": "nov05-october",
@@ -1509,7 +1549,12 @@
       "themes": [
         "time"
       ],
-      "answerDisplay": "ο Οκτώβριος"
+      "answerDisplay": "ο Οκτώβριος",
+      "explanation": {
+        "en": "The name preserves Latin octo, eight, from the old order that counted March first. October is now month ten. Notice the spelling Οκτώβριος: no μ before β, unlike Σεπτέμβριος and Νοέμβριος.",
+        "ru": "В основе латинского названия — octo, «восемь»: при счёте от марта октябрь был восьмым. Похожее греческое οκτώ помогает запомнить слово. Обратите внимание: Οκτώβριος пишется без μ, в отличие от соседних Σεπτέμβριος и Νοέμβριος.",
+        "zh": "名字来自拉丁语 October，里面的 octo 是“八”；从三月算第一月，十月排第八。注意标准写法 Οκτώβριος 没有 μ，和 Σεπτέμβριος、Νοέμβριος 不同。"
+      }
     },
     {
       "id": "nov05-november",
@@ -1531,7 +1576,12 @@
       "themes": [
         "time"
       ],
-      "answerDisplay": "ο Νοέμβριος"
+      "answerDisplay": "ο Νοέμβριος",
+      "explanation": {
+        "en": "The name preserves Latin novem, nine, from the old order that counted March first. November is now month eleven, but its name still remembers being ninth.",
+        "ru": "Латинская основа novem означает «девять». При старом счёте месяцев от марта ноябрь был девятым. Теперь он одиннадцатый, но название хранит прежний порядок.",
+        "zh": "这个月份名称最终来自拉丁语，其中 novem 是“九”。从三月算第一月，十一月排第九；旧名字留下了这条数字线索。"
+      }
     },
     {
       "id": "nov05-december",
@@ -1553,7 +1603,12 @@
       "themes": [
         "time"
       ],
-      "answerDisplay": "ο Δεκέμβριος"
+      "answerDisplay": "ο Δεκέμβριος",
+      "explanation": {
+        "en": "The name preserves Latin decem, ten, from the old order that counted March first. December is now month twelve, but its name still remembers being tenth.",
+        "ru": "В основе латинского названия — decem, «десять»: декабрь был десятым при счёте от марта. Похожее греческое δέκα помогает запомнить этот след старого календаря.",
+        "zh": "名字来自拉丁语，其中 decem 是“十”。从三月算第一月，十二月排第十；名字保留了旧顺序，今天则表示一年的第十二个月。"
+      }
     },
     {
       "id": "nov05-winter",
@@ -1597,7 +1652,12 @@
       "themes": [
         "time"
       ],
-      "answerDisplay": "η άνοιξη"
+      "answerDisplay": "η άνοιξη",
+      "explanation": {
+        "en": "Its older meaning was opening, related to ανοίγω, I open. The season took its name from the weather opening up after winter: a helpful picture for remembering spring.",
+        "ru": "Древнее ἄνοιξις означало «открытие». Весеннее значение появилось позже: после зимы погода словно раскрывается. Связь с ανοίγω — «открываю» помогает запомнить название весны.",
+        "zh": "它与 ανοίγω（打开）同源，古代形式本来有“打开”的意思，后来用于冬天过后天气转好的时节。可以把春天想成天气重新“打开”了。"
+      }
     },
     {
       "id": "nov05-autumn",
@@ -1619,7 +1679,12 @@
       "themes": [
         "time"
       ],
-      "answerDisplay": "το φθινόπωρο"
+      "answerDisplay": "το φθινόπωρο",
+      "explanation": {
+        "en": "The old compound combines a word for waning with ὀπώρα, late summer or the fruit season. Picture the fruit season drawing to a close to remember this longer word for autumn.",
+        "ru": "Древнее название соединяет идею убывания с ὀπώρα — поздним летом, порой плодов. Образ для запоминания: пора плодов идёт на убыль. Здесь подсказкой служат плоды и уходящее лето.",
+        "zh": "词源包含“渐渐消退”和“夏末、果实成熟的时节”两部分。可以想象盛夏和收获的时节逐渐退去，秋天便到了。"
+      }
     },
     {
       "id": "nov05-ski",
