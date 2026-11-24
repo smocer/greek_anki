@@ -1,3 +1,4 @@
+import 'support/session_progress_assertion.dart';
 import 'dart:math';
 
 import 'package:flutter/material.dart';
@@ -112,7 +113,7 @@ void main() {
     expect(find.text('ένα'), findsOneWidget);
     await tester.tap(find.text('Again'));
     await tester.pumpAndSettle();
-    expect(find.text('0 / 1 remembered'), findsOneWidget);
+    await expectRemembered(tester, '0 / 1 remembered');
     expect(find.text('ένα'), findsNothing);
     await tester.tap(find.text('Reveal answer'));
     await tester.pumpAndSettle();
@@ -190,7 +191,7 @@ void main() {
       find.text('Could not save progress. Please retry before leaving.'),
       findsOneWidget,
     );
-    expect(find.text('0 / 1 remembered'), findsOneWidget);
+    await expectRemembered(tester, '0 / 1 remembered');
     store.shouldFail = false;
     await tester.tap(find.text('Continue'));
     await tester.pumpAndSettle();
@@ -251,9 +252,9 @@ void main() {
       await tester.pumpAndSettle();
       remembered.add(card.id);
       if (remembered.length < cards.length) {
-        expect(
-          find.text('${remembered.length} / ${cards.length} remembered'),
-          findsOneWidget,
+        await expectRemembered(
+          tester,
+          '${remembered.length} / ${cards.length} remembered',
         );
       }
     }

@@ -28,11 +28,6 @@
         "zh": "中性名词。"
       },
       "answerDisplay": "το παιχνίδι",
-      "contextExample": {
-        "en": "Αυτό είναι το αγαπημένο μου ___. — This is my favourite game.",
-        "ru": "Αυτό είναι το αγαπημένο μου ___. — Это моя любимая игра.",
-        "zh": "Αυτό είναι το αγαπημένο μου ___. — 这是我最喜欢的游戏。"
-      },
       "meaning": {
         "en": "Write the missing Greek word.",
         "ru": "Напишите только пропущенное слово.",
@@ -630,11 +625,6 @@
         "zh": "中性名词。 复数为 τα πόδια。Με τα πόδια 表示步行。"
       },
       "answerDisplay": "το πόδι",
-      "contextExample": {
-        "en": "Πονάει το ___ μου. — My foot hurts.",
-        "ru": "Πονάει το ___ μου. — У меня болит нога.",
-        "zh": "Πονάει το ___ μου. — 我的脚疼。"
-      },
       "meaning": {
         "en": "Write the missing Greek word.",
         "ru": "Напишите только пропущенное слово.",
@@ -667,11 +657,6 @@
         "zh": "Ο ηλεκτρικός σιδηρόδρομος 的简称。雅典的 ο ηλεκτρικός 通常指连接比雷埃夫斯和基菲夏的市内铁路。"
       },
       "answerDisplay": "ο ηλεκτρικός",
-      "contextExample": {
-        "en": "Ο ___ πάει στον Πειραιά. — The electric train goes to Piraeus.",
-        "ru": "Ο ___ πάει στον Πειραιά. — Электричка идёт в Пирей.",
-        "zh": "Ο ___ πάει στον Πειραιά. — 这趟市内列车开往比雷埃夫斯。"
-      },
       "meaning": {
         "en": "Write the missing Greek word.",
         "ru": "Напишите только пропущенное слово.",
@@ -1148,11 +1133,6 @@
         "deckId": "words-descriptions",
         "cardId": "transport-certainly"
       },
-      "contextExample": {
-        "en": "Θα έρθω ___. — I will come for sure.",
-        "ru": "___ θα έρθει. — Он наверняка придёт.",
-        "zh": "___ θα έρθει. — 他一定会来。"
-      },
       "explanation": {
         "en": "Σίγουρα is an adverb meaning certainly or for sure: Σίγουρα θα έρθει — He or she will definitely come. The adjective sure changes form: σίγουρος, σίγουρη, σίγουρο.",
         "ru": "Σίγουρα — «наверняка», «точно», «несомненно»: σίγουρα ξέρει — «он наверняка знает». Это наречие; прилагательное «уверенный» — σίγουρος.",
@@ -1227,11 +1207,6 @@
       "reviewIdentity": {
         "deckId": "words-connectors",
         "cardId": "transport-so"
-      },
-      "contextExample": {
-        "en": "___, τι κάνουμε τώρα; — Well then, what do we do now?",
-        "ru": "___, πάμε; — Ну что, пойдём?",
-        "zh": "___, πάμε! — 那么，我们走吧！"
       },
       "explanation": {
         "en": "Λοιπόν connects a conclusion or the next step in a conversation: so, then, or well then.",

@@ -1,3 +1,4 @@
+import 'support/session_progress_assertion.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:greek_anki/app.dart';
@@ -123,7 +124,7 @@ void main() {
         await submit(tester, mode, smallDeck, sessions);
         await tap(tester, find.text(next));
       }
-      expect(find.text('3 / 6 remembered'), findsOneWidget);
+      await expectRemembered(tester, '3 / 6 remembered');
       await submit(tester, mode, smallDeck, sessions);
       final checkpoint = sessions.records.values.single;
       // System Back and the in-app close button must both preserve the batch.
@@ -132,7 +133,7 @@ void main() {
       expect(find.text('Open study'), findsOneWidget);
       await tap(tester, find.text('Open study'));
       expect(sessions.records.values.single, checkpoint);
-      expect(find.text('3 / 6 remembered'), findsOneWidget);
+      await expectRemembered(tester, '3 / 6 remembered');
       expect(find.text(next), findsOneWidget);
       if (mode == StudyMode.typing) {
         expect(find.text('Exactly right.'), findsOneWidget);
@@ -153,7 +154,7 @@ void main() {
       final reloadedReviews = MemoryProgressStore()
         ..records.addAll(reviews.records);
       await openHarness(tester, mode, reloadedSessions, reloadedReviews);
-      expect(find.text('3 / 6 remembered'), findsOneWidget);
+      await expectRemembered(tester, '3 / 6 remembered');
       await tap(tester, find.text(next));
       for (
         var turn = 0;
@@ -167,7 +168,7 @@ void main() {
       expect(find.text('6 of 6 on the first try'), findsOneWidget);
       expect(reloadedSessions.records, isEmpty);
       await tap(tester, find.text('Next batch'));
-      expect(find.text('0 / 6 remembered'), findsOneWidget);
+      await expectRemembered(tester, '0 / 6 remembered');
       expect(saved(reloadedSessions).cards, hasLength(6));
       expect(saved(reloadedSessions).learned, isEmpty);
       expect(tester.takeException(), isNull);
@@ -215,17 +216,11 @@ void main() {
         scrollable: find.byType(Scrollable).first,
       );
       await tap(tester, find.text('Writing practice'));
-      expect(
-        find.text('50 / ${verbs.cards.length} remembered'),
-        findsOneWidget,
-      );
+      await expectRemembered(tester, '50 / ${verbs.cards.length} remembered');
       expect(find.text(previous.current.prompt.en), findsOneWidget);
       await tap(tester, find.byIcon(Icons.close_rounded));
       await tap(tester, find.text('Writing practice'));
-      expect(
-        find.text('50 / ${verbs.cards.length} remembered'),
-        findsOneWidget,
-      );
+      await expectRemembered(tester, '50 / ${verbs.cards.length} remembered');
       expect(tester.takeException(), isNull);
     },
   );
@@ -240,7 +235,7 @@ void main() {
       await tap(tester, find.text('Reveal answer'));
       sessions.shouldFail = true;
       await tap(tester, find.text('I remembered'));
-      expect(find.text('1 / 6 remembered'), findsOneWidget);
+      await expectRemembered(tester, '1 / 6 remembered');
       expect(
         find.text('Could not save progress. Please retry before leaving.'),
         findsOneWidget,
@@ -252,7 +247,7 @@ void main() {
       await tap(tester, find.byIcon(Icons.close_rounded));
       expect(find.text('Open study'), findsOneWidget);
       await tap(tester, find.text('Open study'));
-      expect(find.text('1 / 6 remembered'), findsOneWidget);
+      await expectRemembered(tester, '1 / 6 remembered');
       expect(reviews.records.values.single.level, 1);
       expect(tester.takeException(), isNull);
     },
@@ -293,7 +288,7 @@ void main() {
     expect(sessions.records[key], original);
     sessions.shouldFail = false;
     await tap(tester, find.text('Try again'));
-    expect(find.text('1 / 6 remembered'), findsOneWidget);
+    await expectRemembered(tester, '1 / 6 remembered');
     expect(sessions.records[key], original);
     expect(tester.takeException(), isNull);
   });

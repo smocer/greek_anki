@@ -1,3 +1,4 @@
+import 'support/session_progress_assertion.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:flutter_test/flutter_test.dart';
@@ -159,17 +160,21 @@ void main() {
               tester,
               find.text(language == 'ru' ? 'Дальше' : 'Continue'),
             );
-            expect(
-              find.text(
-                correct
-                    ? (language == 'ru'
-                          ? '1 из 1 с первой попытки'
-                          : '1 of 1 on the first try')
-                    : (language == 'ru' ? '0 / 1 выучено' : '0 / 1 remembered'),
-              ),
-              findsOneWidget,
-              reason: input,
-            );
+            if (correct) {
+              expect(
+                find.text(
+                  language == 'ru'
+                      ? '1 из 1 с первой попытки'
+                      : '1 of 1 on the first try',
+                ),
+                findsOneWidget,
+              );
+            } else {
+              await expectRemembered(
+                tester,
+                language == 'ru' ? '0 / 1 выучено' : '0 / 1 remembered',
+              );
+            }
             expect(
               store.records.values.single.level,
               correct ? 1 : 0,

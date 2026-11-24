@@ -28,7 +28,7 @@ void main() {
 
   test('empty and unmatched searches do not return the whole catalog', () {
     final search = WordSearch(currentDictionary.collections);
-    for (final query in ['', '   ', ';;', 'αβγδεζηθικλ', 'dangerous']) {
+    for (final query in ['', '   ', ';;', 'αβγδεζηθικλ']) {
       expect(search.find(query), isEmpty, reason: query);
     }
   });
@@ -91,6 +91,39 @@ void main() {
     }
     expect(checkedCards, greaterThan(0));
   });
+
+  test(
+    'all translations and senses are searchable in every supported language',
+    () {
+      final search = WordSearch(currentDictionary.collections);
+      for (final collection in currentDictionary.collections) {
+        for (final card in collection.deck.cards) {
+          for (final language in AppLanguage.values) {
+            for (final text in [card.prompt, ...card.senses]) {
+              final query = text.resolve(language);
+              if (query.trim().isEmpty) continue;
+              final results = search.find(query.toUpperCase());
+              expect(
+                results.any(
+                  (result) =>
+                      identical(result, card) ||
+                      (card.reviewIdentity != null &&
+                          result.reviewIdentity?.key(StudyMode.flashcards) ==
+                              card.reviewIdentity!.key(StudyMode.flashcards)),
+                ),
+                isTrue,
+                reason: '${card.id}/${language.code}: $query',
+              );
+            }
+          }
+        }
+      }
+      for (final query in ['dangerous', 'опасн', '危险']) {
+        expect(search.find(query).map((c) => c.greek), contains('επικίνδυνος'));
+      }
+      expect(search.find('еще').map((c) => c.greek), contains('ακόμα'));
+    },
+  );
 
   test('shared cards appear once across Words, Phrases and Grammar', () {
     const text = LocalizedText(en: '', ru: '');

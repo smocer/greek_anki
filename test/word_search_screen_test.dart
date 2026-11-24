@@ -41,7 +41,11 @@ void main() {
       expect(find.byType(VocabularyCardDetails), findsNothing);
 
       final input = find.byKey(const ValueKey('word-search-query'));
-      await tester.enterText(input, 'επικ');
+      await tester.enterText(input, switch (language) {
+        AppLanguage.english => 'dangerous',
+        AppLanguage.russian => 'опасн',
+        AppLanguage.chinese => '危险',
+      });
       tester.view.viewInsets = const FakeViewPadding(bottom: 250);
       await tester.pumpAndSettle();
       expect(find.text(strings.searchResultCount(1)), findsOneWidget);

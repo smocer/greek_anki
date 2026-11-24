@@ -211,6 +211,8 @@ class _StudyScreenState extends State<StudyScreen> {
       }
       return Scaffold(
         appBar: AppBar(
+          toolbarHeight:
+              kToolbarHeight * MediaQuery.textScalerOf(context).scale(1),
           title: Text(
             _hard ? context.strings.hardMode : context.strings.flashcards,
           ),
@@ -219,21 +221,23 @@ class _StudyScreenState extends State<StudyScreen> {
           child: snapshot.hasError
               ? Padding(
                   padding: const EdgeInsets.all(24),
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      Text(
-                        context.strings.sessionLoadError,
-                        textAlign: TextAlign.center,
-                      ),
-                      const SizedBox(height: 16),
-                      FilledButton(
-                        onPressed: () => setState(() {
-                          _loading = _loadSession();
-                        }),
-                        child: Text(context.strings.tryAgain),
-                      ),
-                    ],
+                  child: SingleChildScrollView(
+                    child: Column(
+                      mainAxisSize: MainAxisSize.min,
+                      children: [
+                        Text(
+                          context.strings.sessionLoadError,
+                          textAlign: TextAlign.center,
+                        ),
+                        const SizedBox(height: 16),
+                        FilledButton(
+                          onPressed: () => setState(() {
+                            _loading = _loadSession();
+                          }),
+                          child: Text(context.strings.tryAgain),
+                        ),
+                      ],
+                    ),
                   ),
                 )
               : const CircularProgressIndicator(),
@@ -249,6 +253,8 @@ class _StudyScreenState extends State<StudyScreen> {
     },
     child: Scaffold(
       appBar: AppBar(
+        toolbarHeight:
+            kToolbarHeight * MediaQuery.textScalerOf(context).scale(1),
         leading: IconButton(
           tooltip: context.strings.backToDecks,
           onPressed: _saving ? null : _leave,
@@ -339,11 +345,11 @@ class _StudyScreenState extends State<StudyScreen> {
                     ),
                   ),
                 ],
-                SizedBox(height: _hard ? 12 : 20),
+                const SizedBox(height: 10),
                 if (_hard)
                   ..._typingContent(context)
                 else
-                  ..._flashcardContent(context, constraints.maxHeight),
+                  ..._flashcardContent(context),
               ],
             ),
           );
@@ -352,27 +358,9 @@ class _StudyScreenState extends State<StudyScreen> {
     ),
   );
 
-  List<Widget> _flashcardContent(BuildContext context, double height) {
+  List<Widget> _flashcardContent(BuildContext context) {
     final revealed = _session.phase == CardPhase.answer;
     return [
-      Text(
-        _session.isReviewing
-            ? context.strings.reviewCard
-            : revealed
-            ? context.strings.letItSinkIn
-            : context.strings.howDoYouSay,
-        style: Theme.of(context).textTheme.headlineMedium,
-      ),
-      const SizedBox(height: 8),
-      Text(
-        _session.isReviewing
-            ? context.strings.reviewHistoryHint
-            : revealed
-            ? context.strings.didYouRemember
-            : context.strings.sayBeforeFlip,
-        style: const TextStyle(color: Palette.muted),
-      ),
-      const SizedBox(height: 26),
       Semantics(
         button: !revealed,
         label: revealed ? null : context.strings.revealGreekAnswer,
@@ -388,11 +376,9 @@ class _StudyScreenState extends State<StudyScreen> {
                 ? null
                 : () => _saveChange(_session.reveal),
             child: ConstrainedBox(
-              constraints: BoxConstraints(
-                minHeight: (height - 330).clamp(270.0, 420.0),
-              ),
+              constraints: BoxConstraints(minHeight: 0),
               child: Padding(
-                padding: const EdgeInsets.all(24),
+                padding: const EdgeInsets.all(16),
                 child: AnimatedSwitcher(
                   duration: const Duration(milliseconds: 220),
                   child: revealed
@@ -516,8 +502,6 @@ class _StudyScreenState extends State<StudyScreen> {
     final answered = _session.phase == CardPhase.answer;
     final card = _session.current;
     return [
-      Eyebrow(context.strings.writeInGreek),
-      const SizedBox(height: 8),
       Text(
         context.localize(card.prompt),
         textAlign: TextAlign.center,
@@ -591,12 +575,6 @@ class _StudyScreenState extends State<StudyScreen> {
           CardExplanation(explanation: card.explanation!),
         ],
       ] else ...[
-        Text(
-          context.strings.inputHelp,
-          textAlign: TextAlign.center,
-          style: TextStyle(fontSize: 12, color: Palette.muted),
-        ),
-        const SizedBox(height: 8),
         if (_useGreekKeyboard) GreekKeyboard(controller: _answer),
       ],
     ];
@@ -644,18 +622,50 @@ class _ReviewAllProgress extends StatelessWidget {
           children: [
             Expanded(
               child: Text(
-                title,
-                style: const TextStyle(fontSize: 12, color: Palette.muted),
+                coverage,
+                style: const TextStyle(
+                  fontSize: 12,
+                  fontWeight: FontWeight.w600,
+                ),
               ),
             ),
             IconButton(
               tooltip: strings.sessionProgressHelp,
+              visualDensity: VisualDensity.compact,
               icon: const Icon(Icons.info_outline_rounded, size: 20),
               onPressed: () => showDialog<void>(
                 context: context,
                 builder: (context) => AlertDialog(
+                  scrollable: true,
                   title: Text(strings.sessionProgressHelp),
-                  content: Text(strings.sessionProgressExplanation),
+                  content: SingleChildScrollView(
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      mainAxisSize: MainAxisSize.min,
+                      children: [
+                        Text(title),
+                        const SizedBox(height: 12),
+                        if (session.style == SessionStyle.learning)
+                          Text(
+                            strings.progress(session.completed, session.total),
+                          ),
+                        Text(coverage),
+                        Text(strings.uncheckedCards(session.uncheckedCount)),
+                        Text(
+                          strings.followUpProgress(
+                            session.awaitingConfirmation,
+                            session.confirmationsRemaining,
+                          ),
+                        ),
+                        if (session.deferredCount > 0)
+                          Text(strings.deferredCount(session.deferredCount)),
+                        const SizedBox(height: 12),
+                        Text(strings.sessionProgressExplanation),
+                        const SizedBox(height: 12),
+                        Text(strings.inputHelp),
+                      ],
+                    ),
+                  ),
                   actions: [
                     TextButton(
                       onPressed: () => Navigator.pop(context),
@@ -669,28 +679,21 @@ class _ReviewAllProgress extends StatelessWidget {
             ),
           ],
         ),
-        if (session.style == SessionStyle.learning)
-          Text(strings.progress(session.completed, session.total)),
-        Text(coverage, style: const TextStyle(fontWeight: FontWeight.w600)),
-        const SizedBox(height: 6),
         LinearProgressIndicator(
           value: session.checkedCount / session.total,
           semanticsLabel: coverage,
         ),
-        const SizedBox(height: 6),
-        if (session.uncheckedCount > 0)
-          Text(strings.uncheckedCards(session.uncheckedCount)),
-        if (session.awaitingConfirmation > 0)
+        if (session.awaitingConfirmation > 0) ...[
+          const SizedBox(height: 4),
           Text(
             strings.followUpProgress(
               session.awaitingConfirmation,
               session.confirmationsRemaining,
             ),
-            style: const TextStyle(fontWeight: FontWeight.w600),
+            style: const TextStyle(fontSize: 12, fontWeight: FontWeight.w600),
           ),
-        if (session.deferredCount > 0)
-          Text(strings.deferredCount(session.deferredCount)),
-        const SizedBox(height: 6),
+        ],
+        const SizedBox(height: 4),
         Text(
           current,
           key: const ValueKey('current-review-purpose'),
@@ -710,7 +713,7 @@ class _QuestionCard extends StatelessWidget {
     mainAxisSize: MainAxisSize.min,
     children: [
       Eyebrow(context.strings.learningDirection),
-      const SizedBox(height: 24),
+      const SizedBox(height: 12),
       Text(
         context.localize(card.prompt),
         textAlign: TextAlign.center,
@@ -736,7 +739,7 @@ class _QuestionCard extends StatelessWidget {
           textAlign: TextAlign.center,
         ),
       ],
-      const SizedBox(height: 30),
+      const SizedBox(height: 14),
       Row(
         mainAxisSize: MainAxisSize.min,
         children: [
@@ -768,7 +771,7 @@ class _RevealedCard extends StatelessWidget {
         textAlign: TextAlign.center,
         style: const TextStyle(color: Palette.lime, fontSize: 15),
       ),
-      const SizedBox(height: 30),
+      const SizedBox(height: 14),
       Text(
         card.displayedAnswer,
         textAlign: TextAlign.center,
@@ -798,7 +801,7 @@ class _RevealedCard extends StatelessWidget {
         ),
       ],
       WordAudioButtons(card: card, color: Palette.lime),
-      const SizedBox(height: 28),
+      const SizedBox(height: 12),
       Text(
         context.strings.oneWordCloser,
         style: TextStyle(color: Color(0xFFB4C5B8), fontSize: 12),

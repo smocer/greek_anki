@@ -656,11 +656,6 @@
         "deckId": "words-descriptions",
         "cardId": "work-life-outside"
       },
-      "contextExample": {
-        "en": "Τα παιδιά παίζουν ___. — The children are playing outside.",
-        "ru": "Τα παιδιά είναι ___. — Дети на улице.",
-        "zh": "Τα παιδιά είναι ___. — 孩子们在外面。"
-      },
       "meaning": {
         "en": "Write the missing Greek word.",
         "ru": "Напишите только пропущенное слово.",
@@ -695,11 +690,6 @@
       "reviewIdentity": {
         "deckId": "words-descriptions",
         "cardId": "work-life-together"
-      },
-      "contextExample": {
-        "en": "Πάμε ___. — Let’s go together.",
-        "ru": "Πάμε ___. — Пойдём вместе.",
-        "zh": "Πάμε ___. — 我们一起去。"
       },
       "meaning": {
         "en": "Write the missing Greek word.",
@@ -736,11 +726,6 @@
       "reviewIdentity": {
         "deckId": "words-descriptions",
         "cardId": "work-life-okay"
-      },
-      "contextExample": {
-        "en": "Όλα είναι ___. — Everything is all right.",
-        "ru": "___, έρχομαι. — Ладно, я иду.",
-        "zh": "Όλα είναι ___. — 一切都没问题。"
       },
       "meaning": {
         "en": "Write the missing Greek word.",

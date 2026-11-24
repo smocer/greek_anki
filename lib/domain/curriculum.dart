@@ -3,6 +3,7 @@ import 'dart:math';
 import 'app_language.dart';
 import 'greek_text.dart';
 import 'vocabulary.dart';
+import 'word_frequency.dart';
 import 'vocabulary_category.dart';
 
 enum LearningSection {
@@ -88,7 +89,7 @@ class LearningCollection {
 }
 
 /// Sample before constructing a session; mistakes can repeat within that batch.
-enum CardOrder { random, alphabet, addedTime }
+enum CardOrder { random, frequency, addedTime }
 
 List<VocabularyCard> sessionBatch(
   List<VocabularyCard> cards, {
@@ -104,10 +105,10 @@ List<VocabularyCard> sessionBatch(
     return newestFirst(cards).take(limit).toList();
   }
   final indexed = cards.asMap().entries.toList();
-  String key(VocabularyCard card) =>
-      GreekText.searchKey(card.greek).replaceAll('\u0308', '');
   indexed.sort((a, b) {
-    final result = key(a.value).compareTo(key(b.value));
+    final result = WordFrequency.score(
+      b.value,
+    ).compareTo(WordFrequency.score(a.value));
     return result == 0 ? a.key.compareTo(b.key) : result;
   });
   return indexed.take(limit).map((entry) => entry.value).toList();

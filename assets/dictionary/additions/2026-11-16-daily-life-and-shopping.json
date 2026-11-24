@@ -839,16 +839,16 @@
     {
       "id": "nov18-small-bottle",
       "collection": "words-nouns",
-      "greek": "μπουκαλάκι",
+      "greek": "μπουκάλι",
       "prompt": {
-        "en": "Small bottle",
-        "ru": "Бутылочка",
-        "zh": "小瓶子"
+        "en": "Bottle",
+        "ru": "Бутылка",
+        "zh": "瓶子"
       },
       "pronunciation": {
-        "en": "bu-ka-LA-ki",
-        "ru": "бу-ка-ЛА-ки",
-        "zh": "bu-ka-LA-ki"
+        "en": "bu-KA-li",
+        "ru": "бу-КА-ли",
+        "zh": "bu-KA-li"
       },
       "labels": [
         "noun"
@@ -856,7 +856,12 @@
       "themes": [
         "food"
       ],
-      "answerDisplay": "το μπουκαλάκι"
+      "answerDisplay": "το μπουκάλι",
+      "explanation": {
+        "en": "A bottle, typically for water or another drink. Neuter: το μπουκάλι.",
+        "ru": "Бутылка, например для воды или другого напитка. В греческом среднего рода: το μπουκάλι.",
+        "zh": "瓶子，例如水瓶或饮料瓶。中性名词：το μπουκάλι。"
+      }
     },
     {
       "id": "nov18-water",
@@ -878,7 +883,16 @@
       "themes": [
         "food"
       ],
-      "answerDisplay": "το νερό"
+      "answerDisplay": "το νερό",
+      "reviewAliases": [
+        {
+          "deckId": "words-nouns",
+          "cardId": "diminutives.little-water"
+        }
+      ],
+      "aliases": [
+        "diminutives.little-water"
+      ]
     },
     {
       "id": "nov18-fridge",
@@ -3184,11 +3198,6 @@
         "ru": "Напишите только пропущенное слово.",
         "zh": "只填写空缺的词。"
       },
-      "contextExample": {
-        "en": "Μου αρέσουν τα φρούτα, ___ τα μήλα. — I like fruit, especially apples.",
-        "ru": "Μου αρέσουν τα φρούτα, ___ τα μήλα. — Мне нравятся фрукты, особенно яблоки.",
-        "zh": "Μου αρέσουν τα φρούτα, ___ τα μήλα. — 我喜欢水果，尤其是苹果。"
-      },
       "explanation": {
         "en": "Ειδικά singles out something in particular; it can also mean specifically or specially.",
         "ru": "Ειδικά выделяет что-то особо: «особенно». Также означает «специально, конкретно».",
@@ -3219,11 +3228,6 @@
         "en": "Write the missing Greek word.",
         "ru": "Напишите только пропущенное слово.",
         "zh": "只填写空缺的词。"
-      },
-      "contextExample": {
-        "en": "___ τρώω και μετά δουλεύω. — First I eat, then I work.",
-        "ru": "___ τρώω και μετά δουλεύω. — Сначала ем, потом работаю.",
-        "zh": "___ τρώω και μετά δουλεύω. — 我先吃饭，再工作。"
       },
       "explanation": {
         "en": "Πρώτα describes the order of actions. Πρώτος is the adjective first.",
@@ -3403,11 +3407,6 @@
         "ru": "Напишите только пропущенное слово.",
         "zh": "只填写空缺的词。"
       },
-      "contextExample": {
-        "en": "Τρώω και ___ πίνω καφέ. — I eat and then drink coffee.",
-        "ru": "Τρώω και ___ πίνω καφέ. — Я ем, а потом пью кофе.",
-        "zh": "Τρώω και ___ πίνω καφέ. — 我吃完饭，然后喝咖啡。"
-      },
       "explanation": {
         "en": "Ύστερα indicates a later action. Ύστερα από + accusative means after something.",
         "ru": "Ύστερα — «потом, затем». Ύστερα από с винительным падежом — «после чего-либо».",
@@ -3438,11 +3437,6 @@
         "en": "Write the missing Greek word.",
         "ru": "Напишите только пропущенное слово.",
         "zh": "只填写空缺的词。"
-      },
-      "contextExample": {
-        "en": "Το νερό είναι ___. — The water is free of charge.",
-        "ru": "Το νερό είναι ___. — Вода бесплатная.",
-        "zh": "Το νερό είναι ___. — 水是免费的。"
       },
       "explanation": {
         "en": "Δωρεάν means without payment and is invariable. It does not mean available or unoccupied.",
@@ -3475,11 +3469,6 @@
         "ru": "Напишите только пропущенное слово.",
         "zh": "只填写空缺的词。"
       },
-      "contextExample": {
-        "en": "Ξυπνάω ___ στις οχτώ. — I wake up at around eight.",
-        "ru": "Ξυπνάω ___ στις οχτώ. — Я просыпаюсь примерно в восемь.",
-        "zh": "Ξυπνάω ___ στις οχτώ. — 我大约八点醒来。"
-      },
       "explanation": {
         "en": "Γύρω means around. Γύρω στις + time means approximately at; γύρω από means around a place or object.",
         "ru": "Γύρω — «вокруг». Γύρω στις перед временем означает «примерно в», γύρω από — «вокруг чего-либо».",
@@ -3510,11 +3499,6 @@
         "en": "Write the missing Greek word.",
         "ru": "Напишите только пропущенное слово.",
         "zh": "只填写空缺的词。"
-      },
-      "contextExample": {
-        "en": "Το βιβλίο είναι ___ εδώ. — The book is somewhere here.",
-        "ru": "Το βιβλίο είναι ___ εδώ. — Книга где-то здесь.",
-        "zh": "Το βιβλίο είναι ___ εδώ. — 书就在这附近的某个地方。"
       },
       "explanation": {
         "en": "Κάπου is an indefinite place adverb. The expression κάπου κάπου means every now and then.",
@@ -3783,23 +3767,28 @@
     {
       "id": "nov18-one-moment",
       "collection": "phrases-everyday",
-      "greek": "Ένα λεπτάκι.",
+      "greek": "Ένα λεπτό.",
       "prompt": {
         "en": "Just a moment.",
         "ru": "Минутку.",
         "zh": "稍等一下。"
       },
       "pronunciation": {
-        "en": "E-na le-PTA-ki",
-        "ru": "Э-на лэ-ПТА-ки",
-        "zh": "E-na le-PTA-ki"
+        "en": "E-na lep-TO",
+        "ru": "Э-на леп-ТО",
+        "zh": "E-na lep-TO"
       },
       "labels": [
         "topic"
       ],
       "themes": [
         "conversation"
-      ]
+      ],
+      "explanation": {
+        "en": "Literally “one minute”; a common way to ask someone to wait a moment.",
+        "ru": "Буквально «одну минуту» — обычная просьба немного подождать.",
+        "zh": "字面意思是“一分钟”，常用于请对方稍等片刻。"
+      }
     },
     {
       "id": "nov18-available",

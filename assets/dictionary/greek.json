@@ -26007,35 +26007,36 @@
     "diminutives/little-dog": {
       "id": "little-dog",
       "prompt": {
-        "en": "The little dog / doggy (with article)",
-        "ru": "Собачка / пёсик (с артиклем)",
-        "zh": "小狗（带冠词）"
+        "en": "Dog",
+        "ru": "Собака / пёс",
+        "zh": "狗"
       },
       "meaning": {
-        "en": "Translate into Greek.",
-        "ru": "Переведите на греческий.",
-        "zh": "请翻译成希腊语。"
+        "en": "Include the article.",
+        "ru": "Напишите с артиклем.",
+        "zh": "请写出冠词。"
       },
-      "greek": "το σκυλάκι",
+      "greek": "ο σκύλος",
       "pronunciation": {
-        "en": "to ski-LA-ki",
-        "ru": "то ски-ЛА-ки"
+        "en": "o SKI-los",
+        "ru": "о СКИ-лос",
+        "zh": "o SKI-los"
       },
       "explanation": {
-        "en": "Σκύλος → σκυλάκι; the diminutive is neuter.",
-        "ru": "Как «пёс → пёсик», но род меняется: ο σκύλος → το σκυλάκι. Ударение на ά."
+        "en": "Σκύλος is masculine, even when translated as dog without specifying sex.",
+        "ru": "Русское «собака» женского рода, греческое ο σκύλος — мужского. Как русское «пёс».",
+        "zh": "Σκύλος 是阳性名词，也可泛指狗，无需说明动物的实际性别。"
       },
       "labels": [
-        "noun",
-        "article"
+        "noun"
       ],
       "addedWeek": "2026-09-28",
       "words": [
         {
-          "surface": "το",
+          "surface": "ο",
           "lemma": "ο",
           "start": 0,
-          "end": 2,
+          "end": 1,
           "labels": [
             "article"
           ],
@@ -26043,10 +26044,10 @@
           "addedWeek": "2026-09-28"
         },
         {
-          "surface": "σκυλάκι",
-          "lemma": "σκυλάκι",
-          "start": 3,
-          "end": 10,
+          "surface": "σκύλος",
+          "lemma": "σκύλος",
+          "start": 2,
+          "end": 8,
           "labels": [
             "noun"
           ],
@@ -26058,35 +26059,36 @@
     "diminutives/little-cat": {
       "id": "little-cat",
       "prompt": {
-        "en": "The kitten / little cat (with article)",
-        "ru": "Котёнок / кошечка (с артиклем)",
-        "zh": "小猫（带冠词）"
+        "en": "Cat",
+        "ru": "Кот / кошка",
+        "zh": "猫"
       },
       "meaning": {
-        "en": "Translate into Greek.",
-        "ru": "Переведите на греческий.",
-        "zh": "请翻译成希腊语。"
+        "en": "Include the article.",
+        "ru": "Напишите с артиклем.",
+        "zh": "请写出冠词。"
       },
-      "greek": "το γατάκι",
+      "greek": "η γάτα",
       "pronunciation": {
-        "en": "to gha-TA-ki",
-        "ru": "то га-ТА-ки"
+        "en": "i GHA-ta",
+        "ru": "и ГА-та",
+        "zh": "i GHA-ta"
       },
       "explanation": {
-        "en": "Γάτα → γατάκι; both small size and affection are possible.",
-        "ru": "Как «кошка → кошечка/котёнок»: η γάτα → το γατάκι. Маленькое животное не обязательно только детёныш."
+        "en": "Η γάτα can mean a female cat or a cat without specifying its sex. Ο γάτος specifically means a male cat.",
+        "ru": "Η γάτα — кошка: самка или животное без уточнения пола. Ο γάτος — кот, самец.",
+        "zh": "Η γάτα 可泛指猫，也可特指母猫；ο γάτος 指公猫。"
       },
       "labels": [
-        "noun",
-        "article"
+        "noun"
       ],
       "addedWeek": "2026-09-28",
       "words": [
         {
-          "surface": "το",
+          "surface": "η",
           "lemma": "ο",
           "start": 0,
-          "end": 2,
+          "end": 1,
           "labels": [
             "article"
           ],
@@ -26094,10 +26096,10 @@
           "addedWeek": "2026-09-28"
         },
         {
-          "surface": "γατάκι",
-          "lemma": "γατάκι",
-          "start": 3,
-          "end": 9,
+          "surface": "γάτα",
+          "lemma": "γάτα",
+          "start": 2,
+          "end": 6,
           "labels": [
             "noun"
           ],
@@ -26109,27 +26111,28 @@
     "diminutives/little-house": {
       "id": "little-house",
       "prompt": {
-        "en": "The little house (with article)",
-        "ru": "Домик (с артиклем)",
-        "zh": "小房子（带冠词）"
+        "en": "House / home",
+        "ru": "Дом",
+        "zh": "房子／家"
       },
       "meaning": {
-        "en": "Translate into Greek.",
-        "ru": "Переведите на греческий.",
-        "zh": "请翻译成希腊语。"
+        "en": "Include the article.",
+        "ru": "Напишите с артиклем.",
+        "zh": "请写出冠词。"
       },
-      "greek": "το σπιτάκι",
+      "greek": "το σπίτι",
       "pronunciation": {
-        "en": "to spi-TA-ki",
-        "ru": "то спи-ТА-ки"
+        "en": "to SPI-ti",
+        "ru": "то СПИ-ти",
+        "zh": "to SPI-ti"
       },
       "explanation": {
-        "en": "Σπίτι → σπιτάκι; stress moves to the suffix.",
-        "ru": "Как «дом → домик». Не пишем σπιτιάκι: учим целую форму σπιτάκι."
+        "en": "Σπίτι means a house or home. It is neuter: το σπίτι. Στο σπίτι means at home or to the house, depending on the verb.",
+        "ru": "Το σπίτι среднего рода. Русский перевод «дом» мужского рода не подсказывает артикль.",
+        "zh": "中性名词：το σπίτι，可表示房子或家。"
       },
       "labels": [
-        "noun",
-        "article"
+        "noun"
       ],
       "addedWeek": "2026-09-28",
       "words": [
@@ -26145,10 +26148,10 @@
           "addedWeek": "2026-09-28"
         },
         {
-          "surface": "σπιτάκι",
-          "lemma": "σπιτάκι",
+          "surface": "σπίτι",
+          "lemma": "σπίτι",
           "start": 3,
-          "end": 10,
+          "end": 8,
           "labels": [
             "noun"
           ],
@@ -26160,27 +26163,28 @@
     "diminutives/little-child": {
       "id": "little-child",
       "prompt": {
-        "en": "The little child (with article)",
-        "ru": "Ребёночек / малыш (с артиклем)",
-        "zh": "小孩子（带冠词）"
+        "en": "Child",
+        "ru": "Ребёнок",
+        "zh": "孩子"
       },
       "meaning": {
-        "en": "Translate into Greek.",
-        "ru": "Переведите на греческий.",
-        "zh": "请翻译成希腊语。"
+        "en": "Include the article.",
+        "ru": "Напишите с артиклем.",
+        "zh": "请写出冠词。"
       },
-      "greek": "το παιδάκι",
+      "greek": "το παιδί",
       "pronunciation": {
-        "en": "to pe-DHA-ki",
-        "ru": "то пэ-ДА-ки"
+        "en": "to pe-DHI",
+        "ru": "то пэ-ДИ",
+        "zh": "to pe-DHI"
       },
       "explanation": {
-        "en": "Παιδί → παιδάκι; a warm or size-related diminutive.",
-        "ru": "Как «ребёнок → ребёночек». Παιδί и παιδάκι оба среднего рода независимо от пола ребёнка."
+        "en": "Neuter regardless of the child’s actual sex.",
+        "ru": "Грамматически средний род независимо от пола ребёнка; αι читается «э».",
+        "zh": "Παιδί 的语法性别是中性，不取决于孩子的实际性别。"
       },
       "labels": [
-        "noun",
-        "article"
+        "noun"
       ],
       "addedWeek": "2026-09-28",
       "words": [
@@ -26196,10 +26200,10 @@
           "addedWeek": "2026-09-28"
         },
         {
-          "surface": "παιδάκι",
-          "lemma": "παιδάκι",
+          "surface": "παιδί",
+          "lemma": "παιδί",
           "start": 3,
-          "end": 10,
+          "end": 8,
           "labels": [
             "noun"
           ],
@@ -26210,30 +26214,26 @@
     },
     "diminutives/little-water": {
       "id": "little-water",
+      "greek": "το νερό",
       "prompt": {
-        "en": "Water (diminutive noun with article)",
-        "ru": "Водичка (уменьшительное, с артиклем)",
-        "zh": "水（指小形式，带冠词）"
+        "en": "Water",
+        "ru": "Вода",
+        "zh": "水"
       },
-      "meaning": {
-        "en": "Translate into Greek.",
-        "ru": "Переведите на греческий.",
-        "zh": "请翻译成希腊语。"
-      },
-      "greek": "το νεράκι",
       "pronunciation": {
-        "en": "to ne-RA-ki",
-        "ru": "то нэ-РА-ки"
-      },
-      "explanation": {
-        "en": "Νερό → νεράκι; often a friendly way to refer to water.",
-        "ru": "Как русское «водичка»: ласковый оттенок, не обязательно буквально маленький объём."
+        "en": "to ne-RO",
+        "ru": "то нэ-РО",
+        "zh": "to ne-RO"
       },
       "labels": [
-        "noun",
-        "article"
+        "noun"
       ],
       "addedWeek": "2026-09-28",
+      "meaning": {
+        "en": "Include the article.",
+        "ru": "Напишите с артиклем.",
+        "zh": "请写出冠词。"
+      },
       "words": [
         {
           "surface": "το",
@@ -26247,50 +26247,56 @@
           "addedWeek": "2026-09-28"
         },
         {
-          "surface": "νεράκι",
-          "lemma": "νεράκις",
+          "surface": "νερό",
+          "lemma": "νερό",
           "start": 3,
-          "end": 9,
+          "end": 7,
           "labels": [
             "noun"
           ],
-          "tag": "ADJ",
+          "tag": "NOUN",
           "addedWeek": "2026-09-28"
         }
-      ]
+      ],
+      "explanation": {
+        "en": "το is the definite article used with νερό.",
+        "ru": "το — определённый артикль при слове νερό.",
+        "zh": "νερό 前使用定冠词 το。"
+      }
     },
     "diminutives/little-coffee": {
       "id": "little-coffee",
       "prompt": {
-        "en": "Coffee (diminutive noun with article)",
-        "ru": "Кофеёк (уменьшительное, с артиклем)",
-        "zh": "咖啡（指小形式，带冠词）"
+        "en": "Coffee",
+        "ru": "Кофе",
+        "zh": "咖啡"
       },
       "meaning": {
-        "en": "Translate into Greek.",
-        "ru": "Переведите на греческий.",
-        "zh": "请翻译成希腊语。"
+        "en": "Include the article.",
+        "ru": "Напишите с артиклем.",
+        "zh": "请写出冠词。"
       },
-      "greek": "το καφεδάκι",
+      "greek": "ο καφές",
       "pronunciation": {
-        "en": "to ka-fe-DHA-ki",
-        "ru": "то ка-фэ-ДА-ки"
+        "en": "o ka-FES",
+        "ru": "о ка-ФЭС",
+        "zh": "o ka-FES"
       },
       "explanation": {
-        "en": "Καφές → καφεδάκι; note the δ in the derived form.",
-        "ru": "Как «кофе → кофеёк». Ο καφές становится το καφεδάκι; перед -άκι появляется δ, поэтому учим форму целиком."
+        "en": "Masculine, with final stress; compare the diminutive καφεδάκι.",
+        "ru": "Как нормативное русское «кофе», мужского рода. Ударение на конце: καφές; уменьшительное — καφεδάκι.",
+        "zh": "阳性名词：ο καφές，重音在末尾；指小形式为 καφεδάκι。"
       },
       "labels": [
-        "noun",
-        "article"
+        "noun"
       ],
       "addedWeek": "2026-09-28",
       "words": [
         {
-          "surface": "το",
+          "surface": "ο",
           "lemma": "ο",
           "start": 0,
-          "end": 2,
+          "end": 1,
           "labels": [
             "article"
           ],
@@ -26298,10 +26304,10 @@
           "addedWeek": "2026-09-28"
         },
         {
-          "surface": "καφεδάκι",
-          "lemma": "καφεδάκι",
-          "start": 3,
-          "end": 11,
+          "surface": "καφές",
+          "lemma": "καφές",
+          "start": 2,
+          "end": 7,
           "labels": [
             "noun"
           ],
@@ -30767,7 +30773,16 @@
         "noun"
       ],
       "addedWeek": "2026-09-28",
-      "answerDisplay": "το παιδί"
+      "answerDisplay": "το παιδί",
+      "reviewAliases": [
+        {
+          "deckId": "words-nouns",
+          "cardId": "diminutives.little-child"
+        }
+      ],
+      "aliases": [
+        "diminutives.little-child"
+      ]
     },
     "words-nouns/classroom-objects.example": {
       "id": "classroom-objects.example",
@@ -32034,222 +32049,6 @@
       "addedWeek": "2026-09-28",
       "answerDisplay": "το θέατρο"
     },
-    "words-nouns/diminutives.little-cat": {
-      "id": "diminutives.little-cat",
-      "prompt": {
-        "en": "Kitten / little cat",
-        "ru": "Котёнок / кошечка",
-        "zh": "小猫"
-      },
-      "meaning": {
-        "en": "Write the word.",
-        "ru": "Напишите слово.",
-        "zh": "写出单词。"
-      },
-      "greek": "γατάκι",
-      "pronunciation": {
-        "en": "gha-TA-ki",
-        "ru": "га-ТА-ки",
-        "zh": "gha-TA-ki"
-      },
-      "explanation": {
-        "en": "Γάτα → γατάκι; both small size and affection are possible.",
-        "ru": "Как «кошка → кошечка/котёнок»: η γάτα → το γατάκι. Маленькое животное не обязательно только детёныш.",
-        "zh": "Γάτα 的指小形式 γατάκι 可表示小猫，也可表达亲昵。"
-      },
-      "acceptedAnswers": [
-        "το γατάκι"
-      ],
-      "reviewIdentity": {
-        "deckId": "words-nouns",
-        "cardId": "diminutives.little-cat"
-      },
-      "labels": [
-        "noun"
-      ],
-      "addedWeek": "2026-09-28",
-      "answerDisplay": "το γατάκι"
-    },
-    "words-nouns/diminutives.little-child": {
-      "id": "diminutives.little-child",
-      "prompt": {
-        "en": "Little child",
-        "ru": "Ребёночек / малыш",
-        "zh": "小孩子"
-      },
-      "meaning": {
-        "en": "Write the word.",
-        "ru": "Напишите слово.",
-        "zh": "写出单词。"
-      },
-      "greek": "παιδάκι",
-      "pronunciation": {
-        "en": "pe-DHA-ki",
-        "ru": "пэ-ДА-ки",
-        "zh": "pe-DHA-ki"
-      },
-      "explanation": {
-        "en": "Παιδάκι is the neuter diminutive of παιδί. It refers to a small child or expresses affection.",
-        "ru": "Как «ребёнок → ребёночек». Παιδί и παιδάκι оба среднего рода независимо от пола ребёнка.",
-        "zh": "Παιδί 的指小形式 παιδάκι 可表示年幼的孩子，也可表达亲昵。"
-      },
-      "acceptedAnswers": [
-        "το παιδάκι"
-      ],
-      "reviewIdentity": {
-        "deckId": "words-nouns",
-        "cardId": "diminutives.little-child"
-      },
-      "labels": [
-        "noun"
-      ],
-      "addedWeek": "2026-09-28",
-      "answerDisplay": "το παιδάκι"
-    },
-    "words-nouns/diminutives.little-coffee": {
-      "id": "diminutives.little-coffee",
-      "prompt": {
-        "en": "A little coffee (affectionate diminutive)",
-        "ru": "Кофеёк (уменьшительное)",
-        "zh": "一杯咖啡（亲昵的说法）"
-      },
-      "meaning": {
-        "en": "Write the word.",
-        "ru": "Напишите слово.",
-        "zh": "写出单词。"
-      },
-      "greek": "καφεδάκι",
-      "pronunciation": {
-        "en": "ka-fe-DHA-ki",
-        "ru": "ка-фэ-ДА-ки",
-        "zh": "ka-fe-DHA-ki"
-      },
-      "explanation": {
-        "en": "Καφεδάκι is the neuter diminutive of καφές. It often makes an invitation sound friendly: Πάμε για καφεδάκι; — Shall we go for a coffee?",
-        "ru": "Как «кофе → кофеёк». Ο καφές становится το καφεδάκι; перед -άκι появляется δ, поэтому учим форму целиком.",
-        "zh": "Καφεδάκι 是 καφές 的指小形式，常用来亲切地说“一杯咖啡”，不一定表示容量小。"
-      },
-      "acceptedAnswers": [
-        "το καφεδάκι"
-      ],
-      "reviewIdentity": {
-        "deckId": "words-nouns",
-        "cardId": "diminutives.little-coffee"
-      },
-      "labels": [
-        "noun"
-      ],
-      "addedWeek": "2026-09-28",
-      "answerDisplay": "το καφεδάκι"
-    },
-    "words-nouns/diminutives.little-dog": {
-      "id": "diminutives.little-dog",
-      "prompt": {
-        "en": "Little dog / doggy",
-        "ru": "Собачка / пёсик",
-        "zh": "小狗"
-      },
-      "meaning": {
-        "en": "Write the word.",
-        "ru": "Напишите слово.",
-        "zh": "写出单词。"
-      },
-      "greek": "σκυλάκι",
-      "pronunciation": {
-        "en": "ski-LA-ki",
-        "ru": "ски-ЛА-ки",
-        "zh": "ski-LA-ki"
-      },
-      "explanation": {
-        "en": "Σκύλος → σκυλάκι; the diminutive is neuter.",
-        "ru": "Как «пёс → пёсик», но род меняется: ο σκύλος → το σκυλάκι. Ударение на ά.",
-        "zh": "Σκύλος 的指小形式为 σκυλάκι，是中性名词。"
-      },
-      "acceptedAnswers": [
-        "το σκυλάκι"
-      ],
-      "reviewIdentity": {
-        "deckId": "words-nouns",
-        "cardId": "diminutives.little-dog"
-      },
-      "labels": [
-        "noun"
-      ],
-      "addedWeek": "2026-09-28",
-      "answerDisplay": "το σκυλάκι"
-    },
-    "words-nouns/diminutives.little-house": {
-      "id": "diminutives.little-house",
-      "prompt": {
-        "en": "Little house",
-        "ru": "Домик",
-        "zh": "小房子"
-      },
-      "meaning": {
-        "en": "Write the word.",
-        "ru": "Напишите слово.",
-        "zh": "写出单词。"
-      },
-      "greek": "σπιτάκι",
-      "pronunciation": {
-        "en": "spi-TA-ki",
-        "ru": "спи-ТА-ки",
-        "zh": "spi-TA-ki"
-      },
-      "explanation": {
-        "en": "Σπίτι → σπιτάκι; stress moves to the suffix.",
-        "ru": "Как «дом → домик». Не пишем σπιτιάκι: учим целую форму σπιτάκι.",
-        "zh": "Σπίτι 的指小形式为 σπιτάκι，重音移到 -άκι 上。"
-      },
-      "acceptedAnswers": [
-        "το σπιτάκι"
-      ],
-      "reviewIdentity": {
-        "deckId": "words-nouns",
-        "cardId": "diminutives.little-house"
-      },
-      "labels": [
-        "noun"
-      ],
-      "addedWeek": "2026-09-28",
-      "answerDisplay": "το σπιτάκι"
-    },
-    "words-nouns/diminutives.little-water": {
-      "id": "diminutives.little-water",
-      "prompt": {
-        "en": "A little water (affectionate diminutive)",
-        "ru": "Водичка (уменьшительное)",
-        "zh": "水（亲昵的说法）"
-      },
-      "meaning": {
-        "en": "Write the word.",
-        "ru": "Напишите слово.",
-        "zh": "写出单词。"
-      },
-      "greek": "νεράκι",
-      "pronunciation": {
-        "en": "ne-RA-ki",
-        "ru": "нэ-РА-ки",
-        "zh": "ne-RA-ki"
-      },
-      "explanation": {
-        "en": "Νεράκι is the neuter diminutive of νερό. It is often a friendly way to offer or ask for some water.",
-        "ru": "Как русское «водичка»: ласковый оттенок, не обязательно буквально маленький объём.",
-        "zh": "Νεράκι 是 νερό 的指小形式，常用来亲切地说“水”或“一点水”。"
-      },
-      "acceptedAnswers": [
-        "το νεράκι"
-      ],
-      "reviewIdentity": {
-        "deckId": "words-nouns",
-        "cardId": "diminutives.little-water"
-      },
-      "labels": [
-        "noun"
-      ],
-      "addedWeek": "2026-09-28",
-      "answerDisplay": "το νεράκι"
-    },
     "words-nouns/everyday-nouns.bag": {
       "id": "everyday-nouns.bag",
       "prompt": {
@@ -32757,12 +32556,7 @@
         "noun"
       ],
       "addedWeek": "2026-09-28",
-      "answerDisplay": "η βιβλιοθήκη",
-      "contextExample": {
-        "en": "Η ___ είναι γεμάτη βιβλία. — The bookcase is full of books.",
-        "ru": "Η ___ είναι γεμάτη βιβλία. — Книжный шкаф полон книг.",
-        "zh": "Η ___ είναι γεμάτη βιβλία. — 书柜里装满了书。"
-      }
+      "answerDisplay": "η βιβλιοθήκη"
     },
     "words-nouns/everyday-nouns.lighter": {
       "id": "everyday-nouns.lighter",
@@ -33466,12 +33260,7 @@
         "noun"
       ],
       "addedWeek": "2026-09-28",
-      "answerDisplay": "η τράπεζα",
-      "contextExample": {
-        "en": "Η ___ ανοίγει στις οκτώ. — The bank opens at eight.",
-        "ru": "Η ___ ανοίγει στις οκτώ. — Банк открывается в восемь.",
-        "zh": "Η ___ ανοίγει στις οκτώ. — 银行八点开门。"
-      }
+      "answerDisplay": "η τράπεζα"
     },
     "words-nouns/everyday-places.supermarket": {
       "id": "everyday-places.supermarket",
@@ -34378,12 +34167,17 @@
         }
       ],
       "aliases": [
-        "pets-home.male-cat"
+        "pets-home.male-cat",
+        "diminutives.little-cat"
       ],
       "reviewAliases": [
         {
           "deckId": "words-nouns",
           "cardId": "pets-home.male-cat"
+        },
+        {
+          "deckId": "words-nouns",
+          "cardId": "diminutives.little-cat"
         }
       ]
     },
@@ -34421,7 +34215,16 @@
         "noun"
       ],
       "addedWeek": "2026-09-28",
-      "answerDisplay": "ο σκύλος"
+      "answerDisplay": "ο σκύλος",
+      "reviewAliases": [
+        {
+          "deckId": "words-nouns",
+          "cardId": "diminutives.little-dog"
+        }
+      ],
+      "aliases": [
+        "diminutives.little-dog"
+      ]
     },
     "words-nouns/pets-home.house": {
       "id": "pets-home.house",
@@ -34457,7 +34260,16 @@
         "noun"
       ],
       "addedWeek": "2026-09-28",
-      "answerDisplay": "το σπίτι"
+      "answerDisplay": "το σπίτι",
+      "reviewAliases": [
+        {
+          "deckId": "words-nouns",
+          "cardId": "diminutives.little-house"
+        }
+      ],
+      "aliases": [
+        "diminutives.little-house"
+      ]
     },
     "words-nouns/phone-conversations.phone-noun": {
       "id": "phone-conversations.phone-noun",
@@ -35227,7 +35039,16 @@
         "noun"
       ],
       "addedWeek": "2026-10-05",
-      "answerDisplay": "ο καφές"
+      "answerDisplay": "ο καφές",
+      "reviewAliases": [
+        {
+          "deckId": "words-nouns",
+          "cardId": "diminutives.little-coffee"
+        }
+      ],
+      "aliases": [
+        "diminutives.little-coffee"
+      ]
     },
     "words-nouns/october-lesson.mobile": {
       "id": "october-lesson.mobile",
@@ -36762,12 +36583,7 @@
           "tag": "ADV",
           "addedWeek": "2026-09-28"
         }
-      ],
-      "contextExample": {
-        "en": "___ κοστίζει; — How much does it cost?",
-        "ru": "___ κάνει; — Сколько это стоит?",
-        "zh": "___ κάνει; — 多少钱？"
-      }
+      ]
     },
     "words-pronouns/questions.what": {
       "id": "questions.what",
@@ -38246,12 +38062,7 @@
           "tag": "ADV",
           "addedWeek": "2026-09-28"
         }
-      ],
-      "contextExample": {
-        "en": "Μένω ___ από το κέντρο. — I live far from the centre.",
-        "ru": "Το σπίτι είναι ___. — Дом далеко.",
-        "zh": "Το σχολείο είναι ___. — 学校很远。"
-      }
+      ]
     },
     "words-descriptions/addresses-nearby.near": {
       "id": "addresses-nearby.near",
@@ -38296,12 +38107,7 @@
           "tag": "ADV",
           "addedWeek": "2026-09-28"
         }
-      ],
-      "contextExample": {
-        "en": "Μένω ___ στο κέντρο. — I live near the centre.",
-        "ru": "Το σπίτι είναι ___. — Дом рядом.",
-        "zh": "Το σχολείο είναι ___. — 学校就在附近。"
-      }
+      ]
     },
     "words-descriptions/how-are-you.fine": {
       "id": "how-are-you.fine",
@@ -38396,12 +38202,7 @@
           "tag": "ADV",
           "addedWeek": "2026-09-28"
         }
-      ],
-      "contextExample": {
-        "en": "Πίνω ___ καφέ το πρωί. — I always drink coffee in the morning.",
-        "ru": "___ πίνω καφέ. — Я всегда пью кофе.",
-        "zh": "Πίνω ___ καφέ το πρωί. — 我早上总是喝咖啡。"
-      }
+      ]
     },
     "words-descriptions/lesson-connectors.still-yet": {
       "id": "lesson-connectors.still-yet",
@@ -38704,12 +38505,7 @@
           "tag": "NUM",
           "addedWeek": "2026-09-28"
         }
-      ],
-      "contextExample": {
-        "en": "Είμαι ___. — I am fairly well.",
-        "ru": "Είμαι ___. — У меня дела неплохо.",
-        "zh": "Είμαι ___. — 我还可以。"
-      }
+      ]
     },
     "words-descriptions/small-talk-replies.terrible": {
       "id": "small-talk-replies.terrible",
@@ -38754,12 +38550,7 @@
           "tag": "NOUN",
           "addedWeek": "2026-09-28"
         }
-      ],
-      "contextExample": {
-        "en": "Είμαι ___. — I feel terrible.",
-        "ru": "Είμαι ___. — У меня всё ужасно.",
-        "zh": "Είμαι ___. — 我糟透了。"
-      }
+      ]
     },
     "words-descriptions/small-words.also": {
       "id": "small-words.also",
@@ -38804,12 +38595,7 @@
           "tag": "ADV",
           "addedWeek": "2026-09-28"
         }
-      ],
-      "contextExample": {
-        "en": "Μιλάω ___ γαλλικά. — I also speak French.",
-        "ru": "___ μιλάω αγγλικά. — Я также говорю по-английски.",
-        "zh": "Μιλάω ___ ελληνικά. — 我也说希腊语。"
-      }
+      ]
     },
     "words-descriptions/small-words.here": {
       "id": "small-words.here",
@@ -38854,12 +38640,7 @@
           "tag": "ADV",
           "addedWeek": "2026-09-28"
         }
-      ],
-      "contextExample": {
-        "en": "Μένω ___. — I live here.",
-        "ru": "Μένω ___. — Я живу здесь.",
-        "zh": "Είμαι ___. — 我在这里。"
-      }
+      ]
     },
     "words-descriptions/small-words.now": {
       "id": "small-words.now",
@@ -38904,12 +38685,7 @@
           "tag": "ADV",
           "addedWeek": "2026-09-28"
         }
-      ],
-      "contextExample": {
-        "en": "Φεύγω ___. — I am leaving now.",
-        "ru": "Φεύγω ___. — Я ухожу сейчас.",
-        "zh": "Φεύγω ___. — 我现在走。"
-      }
+      ]
     },
     "words-descriptions/small-words.there": {
       "id": "small-words.there",
@@ -38954,12 +38730,7 @@
           "tag": "ADV",
           "addedWeek": "2026-09-28"
         }
-      ],
-      "contextExample": {
-        "en": "Μένω ___. — I live there.",
-        "ru": "Μένω ___. — Я живу там.",
-        "zh": "Το σπίτι είναι ___. — 房子在那里。"
-      }
+      ]
     },
     "words-descriptions/small-words.today": {
       "id": "small-words.today",
@@ -39004,12 +38775,7 @@
           "tag": "ADV",
           "addedWeek": "2026-09-28"
         }
-      ],
-      "contextExample": {
-        "en": "Δουλεύω ___. — I am working today.",
-        "ru": "___ δουλεύω. — Сегодня я работаю.",
-        "zh": "___ είναι Δευτέρα. — 今天是星期一。"
-      }
+      ]
     },
     "words-descriptions/small-words.tomorrow": {
       "id": "small-words.tomorrow",
@@ -39054,12 +38820,7 @@
           "tag": "ADV",
           "addedWeek": "2026-09-28"
         }
-      ],
-      "contextExample": {
-        "en": "Φεύγω ___. — I am leaving tomorrow.",
-        "ru": "___ φεύγω. — Завтра я уезжаю.",
-        "zh": "Φεύγω ___. — 我明天走。"
-      }
+      ]
     },
     "words-descriptions/family-status-married-man": {
       "id": "family-status-married-man",
@@ -39352,12 +39113,7 @@
       "labels": [
         "adjective"
       ],
-      "addedWeek": "2026-10-05",
-      "contextExample": {
-        "en": "Αυτή είναι η ___ απάντηση. — This is the wrong answer.",
-        "ru": "Αυτή είναι η ___ απάντηση. — Это неправильный ответ.",
-        "zh": "Αυτή είναι η ___ απάντηση. — 这是错误的答案。"
-      }
+      "addedWeek": "2026-10-05"
     },
     "words-descriptions/correct": {
       "id": "correct",
@@ -39481,12 +39237,7 @@
             "zh": "PA-li"
           }
         }
-      ],
-      "contextExample": {
-        "en": "Θέλω να έρθω ___. — I want to come again.",
-        "ru": "Έλα ___. — Приходи снова.",
-        "zh": "Έλα ___. — 再来吧。"
-      }
+      ]
     },
     "words-descriptions/only": {
       "id": "only",
@@ -39820,12 +39571,7 @@
           "tag": "ADV",
           "addedWeek": "2026-09-28"
         }
-      ],
-      "contextExample": {
-        "en": "___, δεν θέλω. — No, I don’t want to.",
-        "ru": "___, δεν ξέρω. — Нет, я не знаю.",
-        "zh": "— Θέλεις καφέ; — ___, ευχαριστώ. — “你要咖啡吗？”“不，谢谢。”"
-      }
+      ]
     },
     "words-connectors/small-words.yes": {
       "id": "small-words.yes",
@@ -39870,12 +39616,7 @@
           "tag": "ADV",
           "addedWeek": "2026-09-28"
         }
-      ],
-      "contextExample": {
-        "en": "___, θέλω. — Yes, I want to.",
-        "ru": "___, το ξέρω. — Да, я это знаю.",
-        "zh": "— Θέλεις καφέ; — ___, ευχαριστώ. — “你要咖啡吗？”“好，谢谢。”"
-      }
+      ]
     },
     "words-connectors/family-for": {
       "id": "family-for",
@@ -61549,21 +61290,16 @@
     {
       "id": "diminutives",
       "title": {
-        "en": "Small things: -άκι",
-        "ru": "Уменьшительные: -άκι",
-        "zh": "小事物：-άκι"
+        "en": "Everyday nouns",
+        "ru": "Повседневные существительные",
+        "zh": "日常名词"
       },
       "subtitle": {
-        "en": "A little dog, house or child",
-        "ru": "Собачка, домик, ребёночек",
-        "zh": "小狗、小房子和小孩子"
+        "en": "Basic noun forms with articles",
+        "ru": "Основные формы с артиклями",
+        "zh": "名词基本形式与冠词"
       },
       "cover": "-άκι",
-      "note": {
-        "en": "The suffix -άκι often adds smallness or affection and creates a neuter noun. Learn the whole form, not a rule of adding άκι to any word.",
-        "ru": "Сравните русские -ик, -очк-, -ёнок: -άκι часто передаёт размер или ласку. Получается средний род с το; суффикс не просто дописывается к любому слову.",
-        "zh": "-άκι 常表示体积小或亲昵，构成中性名词。应记住完整词形，不是所有词都能直接加上 -άκι。"
-      },
       "cards": [
         "diminutives/little-dog",
         "diminutives/little-cat",
@@ -61739,12 +61475,6 @@
           "words-nouns/culture-dining.restaurant",
           "words-nouns/culture-dining.tavern",
           "words-nouns/culture-dining.theatre",
-          "words-nouns/diminutives.little-cat",
-          "words-nouns/diminutives.little-child",
-          "words-nouns/diminutives.little-coffee",
-          "words-nouns/diminutives.little-dog",
-          "words-nouns/diminutives.little-house",
-          "words-nouns/diminutives.little-water",
           "words-nouns/everyday-nouns.bag",
           "words-nouns/everyday-nouns.ball",
           "words-nouns/everyday-nouns.boy",
@@ -61899,24 +61629,6 @@
         ],
         "culture-dining.theatre": [
           "places"
-        ],
-        "diminutives.little-cat": [
-          "home"
-        ],
-        "diminutives.little-child": [
-          "home"
-        ],
-        "diminutives.little-coffee": [
-          "food"
-        ],
-        "diminutives.little-dog": [
-          "home"
-        ],
-        "diminutives.little-house": [
-          "home"
-        ],
-        "diminutives.little-water": [
-          "food"
         ],
         "everyday-nouns.bag": [
           "classroom"

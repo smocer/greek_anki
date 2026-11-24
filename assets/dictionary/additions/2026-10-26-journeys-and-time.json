@@ -590,11 +590,6 @@
       "labels": [
         "noun"
       ],
-      "contextExample": {
-        "en": "Θα φύγω σε ένα ___. — I will leave in a quarter of an hour.",
-        "ru": "Θα φύγω σε ένα ___. — Я уйду через четверть часа.",
-        "zh": "Θα φύγω σε ένα ___. — 我一刻钟后出发。"
-      },
       "meaning": {
         "en": "Write the missing Greek word.",
         "ru": "Напишите только пропущенное слово.",
@@ -720,11 +715,6 @@
         "deckId": "words-descriptions",
         "cardId": "journeys-everywhere"
       },
-      "contextExample": {
-        "en": "Σε ψάχνω ___. — I am looking for you everywhere.",
-        "ru": "Σε ψάχνω ___. — Я ищу тебя везде.",
-        "zh": "Σε ψάχνω ___. — 我到处找你。"
-      },
       "explanation": {
         "en": "Παντού means everywhere: Έχει κόσμο παντού — There are people everywhere.",
         "ru": "Παντού — «везде», «всюду»; при движении также «повсюду»: σε ψάχνω παντού — «я ищу тебя везде».",
@@ -765,11 +755,6 @@
         "deckId": "words-descriptions",
         "cardId": "journeys-nowhere"
       },
-      "contextExample": {
-        "en": "Δεν πάω ___. — I am not going anywhere.",
-        "ru": "Δεν πάω ___. — Я никуда не иду.",
-        "zh": "Δεν πάω ___. — 我哪儿也不去。"
-      },
       "meaning": {
         "en": "Write the missing Greek word.",
         "ru": "Напишите только пропущенное слово.",
@@ -799,11 +784,6 @@
       "reviewIdentity": {
         "deckId": "words-descriptions",
         "cardId": "journeys-approximately"
-      },
-      "contextExample": {
-        "en": "Θέλω ___ δέκα λεπτά. — I need about ten minutes.",
-        "ru": "Είναι ___ δέκα. — Сейчас примерно десять.",
-        "zh": "Είναι ___ πέντε η ώρα. — 现在大约五点。"
       },
       "explanation": {
         "en": "Περίπου means approximately or about when estimating an amount, time or number: περίπου δέκα — about ten.",
@@ -879,11 +859,6 @@
       "reviewIdentity": {
         "deckId": "words-descriptions",
         "cardId": "journeys-quickly"
-      },
-      "contextExample": {
-        "en": "Μιλάς πολύ ___. — You speak very quickly.",
-        "ru": "Μιλάει ___. — Он говорит быстро.",
-        "zh": "Έλα ___. — 快来。"
       },
       "explanation": {
         "en": "Γρήγορα is an adverb meaning quickly or fast. It does not change for gender: τρέχει γρήγορα — he or she runs fast.",

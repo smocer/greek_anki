@@ -3011,11 +3011,6 @@
         "deckId": "words-descriptions",
         "cardId": "languages-unfortunately"
       },
-      "contextExample": {
-        "en": "___, δεν μπορώ να έρθω. — Unfortunately, I can’t come.",
-        "ru": "___, δεν μπορώ. — К сожалению, я не могу.",
-        "zh": "___, δεν μπορώ να έρθω. — 遗憾的是，我来不了。"
-      },
       "explanation": {
         "en": "Δυστυχώς means unfortunately and comments on an unwelcome situation.",
         "ru": "Δυστυχώς — «к сожалению»: δυστυχώς, δεν μπορώ — «к сожалению, я не могу». Выражает сожаление о сообщаемом.",
@@ -3135,11 +3130,6 @@
       "reviewIdentity": {
         "deckId": "words-descriptions",
         "cardId": "languages-not-at-all"
-      },
-      "contextExample": {
-        "en": "Δεν μιλάω ___ ελληνικά. — I don’t speak Greek at all.",
-        "ru": "Δεν μιλάω ___ γερμανικά. — Я совсем не говорю по-немецки.",
-        "zh": "Δεν μιλάω ___ ελληνικά. — 我一点希腊语也不会说。"
       },
       "meaning": {
         "en": "Write the missing Greek word.",
