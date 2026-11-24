@@ -228,7 +228,12 @@
       "themes": [
         "conversation",
         "verbA"
-      ]
+      ],
+      "explanation": {
+        "ru": "Συνεχίζω — «продолжаю»: συνεχίζω το μάθημα — «продолжаю урок», συνεχίζω να διαβάζω — «продолжаю читать». Если продолжается действие, после να нужен глагол в личной форме.",
+        "en": "Συνεχίζω means I continue: συνεχίζω το μάθημα — I continue the lesson; συνεχίζω να διαβάζω — I continue reading. After να, Greek uses a personal verb form rather than an English infinitive or -ing form.",
+        "zh": "Συνεχίζω 表示继续：συνεχίζω το μάθημα（我继续上课）、συνεχίζω να διαβάζω（我继续读书）。接另一个动作时用 να，后面的动词仍要按执行动作的人变位；中文“继续读”中的“读”则不变形。"
+      }
     },
     {
       "id": "oct16-as",
@@ -536,9 +541,9 @@
         "zh": "Δεν πίνω ___ καφέ. — 我从不喝咖啡。"
       },
       "explanation": {
-        "en": "Ποτέ means never with a negative verb: Δεν πάω ποτέ — I never go. In a question it can mean ever: Έχεις πάει ποτέ; — Have you ever been?",
+        "en": "Ποτέ means never with a negative verb: Δεν πάω ποτέ — I never go. In a question it can mean ever: Έχεις πάει ποτέ; — Have you ever been? Greek normally combines these negative words with δεν in a full negative statement. This is one negative meaning, not two negatives cancelling each other as in some English constructions.",
         "ru": "Ποτέ с отрицанием означает «никогда»: δεν καπνίζω ποτέ — «я никогда не курю». В вопросе может означать «когда-нибудь»: πήγες ποτέ εκεί; — «ты когда-нибудь там был?» Не путайте с πότε — «когда?».",
-        "zh": "Ποτέ 在否定句中表示“从不”，在疑问句中可表示“曾经”。例如 Δεν πίνω ποτέ καφέ.（我从不喝咖啡。）"
+        "zh": "Ποτέ 配合 δεν 表示“从不”：δεν καπνίζω ποτέ（我从不抽烟）。这是常见的否定搭配，不是两个否定相互抵消。疑问句中也可表示“曾经”。重音在末尾；πότε 的重音在开头，表示“什么时候”。"
       },
       "meaning": {
         "en": "Write the missing Greek word.",

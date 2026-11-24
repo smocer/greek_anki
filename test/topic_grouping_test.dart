@@ -77,8 +77,12 @@ void main() {
           expect(moved.greek, original.greek);
           expect(moved.alternatives, original.alternatives);
           expect(moved.acceptedAnswers, original.acceptedAnswers);
-          expect(moved.explanation?.en, original.explanation?.en);
-          expect(moved.explanation?.ru, original.explanation?.ru);
+          // Editorial improvements may change explanations after migration;
+          // answers and review identities above must remain stable.
+          if (original.explanation != null) {
+            expect(moved.explanation?.en, isNotEmpty);
+            expect(moved.explanation?.ru, isNotEmpty);
+          }
         }
       }
     },

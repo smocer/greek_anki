@@ -216,7 +216,12 @@
       "themes": [
         "time"
       ],
-      "answerDisplay": "η Δευτέρα"
+      "answerDisplay": "η Δευτέρα",
+      "explanation": {
+        "en": "Δευτέρα means Monday. Its name is linked to second: in the traditional sequence beginning with Sunday, Monday is day two. Τρίτη, Τετάρτη and Πέμπτη continue the sequence with third, fourth and fifth. Τη Δευτέρα means on Monday.",
+        "ru": "Δευτέρα — понедельник. Название связано со словом «вторая»: в традиционном счёте недели от воскресенья понедельник — второй день. Τρίτη, Τετάρτη и Πέμπτη продолжают ряд: третий, четвёртый и пятый дни. Τη Δευτέρα — «в понедельник».",
+        "zh": "Δευτέρα 是星期一，名称与“第二”有关：按传统从星期日算起，它是第二天。Τρίτη、Τετάρτη、Πέμπτη 分别对应第三、第四、第五天。Τη Δευτέρα 表示“在星期一”。"
+      }
     },
     {
       "id": "nov05-tuesday",
@@ -282,7 +287,12 @@
       "themes": [
         "time"
       ],
-      "answerDisplay": "η Παρασκευή"
+      "answerDisplay": "η Παρασκευή",
+      "explanation": {
+        "en": "Παρασκευή means Friday. The name originally referred to preparation for the Sabbath, which follows on Saturday. The ordinary noun παρασκευή still means preparation. Capitalisation distinguishes the weekday name in writing.",
+        "ru": "Παρασκευή — пятница. Исторически название означало подготовку к субботе, дню покоя в еврейской традиции. Обычное существительное παρασκευή до сих пор означает «приготовление, подготовка». Название дня недели пишется с заглавной буквы.",
+        "zh": "Παρασκευή 是星期五，名称原指为次日安息日所做的“准备”。普通名词 παρασκευή 仍可表示准备、制作；作为星期名称时首字母大写。可以把星期五记成“准备迎接周六的日子”。"
+      }
     },
     {
       "id": "nov05-saturday",
@@ -629,7 +639,12 @@
       "themes": [
         "food"
       ],
-      "answerDisplay": "το μεσημεριανό"
+      "answerDisplay": "το μεσημεριανό",
+      "explanation": {
+        "ru": "Το μεσημεριανό — обед, дневной приём пищи. Без такого употребления μεσημεριανός / μεσημεριανή / μεσημεριανό — прилагательное «полуденный, дневной». Сравните το πρωινό «завтрак» и το βραδινό «ужин»: названия еды связаны с частями дня.",
+        "en": "Το μεσημεριανό is lunch, the midday meal. The adjective μεσημεριανός / μεσημεριανή / μεσημεριανό means midday or relating to midday. Greek also uses related neuter nouns for the other meals: το πρωινό, breakfast, and το βραδινό, dinner.",
+        "zh": "Το μεσημεριανό 是午餐，与 μεσημέρι（中午）有关。Μεσημεριανός／μεσημεριανή／μεσημεριανό 也可作形容词“中午的、白天的”；作餐名时用中性。类似的还有 το πρωινό（早餐）、το βραδινό（晚餐）。"
+      }
     },
     {
       "id": "nov05-dinner",
@@ -651,7 +666,12 @@
       "themes": [
         "food"
       ],
-      "answerDisplay": "το βραδινό"
+      "answerDisplay": "το βραδινό",
+      "explanation": {
+        "ru": "Το βραδινό — ужин. Прилагательное βραδινός / βραδινή / βραδινό означает «вечерний»; артикль и роль слова позволяют отличить название еды. Вечер — το βράδυ.",
+        "en": "Το βραδινό means dinner or the evening meal. It is the neuter form of the adjective βραδινός / βραδινή / βραδινό, evening, used as a noun. Compare το βράδυ, the evening itself. The article and sentence structure help distinguish the meal from the adjective.",
+        "zh": "Το βραδινό 是晚餐，与 το βράδυ（晚上）相关。Βραδινός／βραδινή／βραδινό 作形容词时表示“晚上的”；作为餐名则用中性。须结合冠词和句中作用，区分“晚餐”与“晚上的”。"
+      }
     },
     {
       "id": "nov05-drink",
@@ -1002,9 +1022,9 @@
         "conversation"
       ],
       "explanation": {
-        "en": "Τίποτα means nothing in a negative sentence, usually together with δεν: Δεν θέλω τίποτα — I don’t want anything. In questions it can mean anything: Θέλεις τίποτα; — Do you want anything?",
+        "en": "Τίποτα means nothing in a negative sentence, usually together with δεν: Δεν θέλω τίποτα — I don’t want anything. In questions it can mean anything: Θέλεις τίποτα; — Do you want anything? Greek normally combines these negative words with δεν in a full negative statement. This is one negative meaning, not two negatives cancelling each other as in some English constructions.",
         "ru": "Τίποτα с отрицанием означает «ничего»: δεν θέλω τίποτα — «я ничего не хочу». В вопросе может означать «что-нибудь»: θέλεις τίποτα; — «ты хочешь что-нибудь?»",
-        "zh": "Τίποτα 在否定句中表示“什么也没有”，通常与 δεν 连用；在疑问句中可表示“有什么”。Τίποτε 是另一种形式。"
+        "zh": "Τίποτα／τίποτε 在否定句中与 δεν 配合：δεν θέλω τίποτα（我什么也不要）。这不是中文逻辑中的“否定两次变肯定”。疑问句中它可指不确定的东西：θέλεις τίποτα;（你要点什么吗？）。"
       },
       "contextExample": {
         "en": "Δεν θέλω ___. — I don’t want anything.",
@@ -1646,7 +1666,7 @@
       "answerDisplay": "το μπάνιο",
       "explanation": {
         "en": "Το μπάνιο can mean a bath, a swim or a bathroom. Κάνω μπάνιο can mean I bathe or I go swimming; context makes the meaning clear.",
-        "ru": "Το μπάνιο может означать ванну, купание или ванную комнату. Κάνω μπάνιο — «я моюсь» или «я купаюсь»; значение зависит от ситуации.",
+        "ru": "Το μπάνιο — ванна, ванная комната или купание. Κάνω μπάνιο означает «моюсь / принимаю ванну» либо «купаюсь»; например, στη θάλασσα уточняет купание в море. Это шире русского названия комнаты.",
         "zh": "Το μπάνιο 可指洗澡、游泳或浴室。Κάνω μπάνιο 可表示“我洗澡”或“我游泳”，具体意思由语境决定。"
       },
       "meaning": {
@@ -2200,7 +2220,7 @@
       "answerDisplay": "η κοπέλα",
       "explanation": {
         "en": "A girl or young woman; can also mean girlfriend in context. Compare κορίτσι, often a child.",
-        "ru": "Девушка, молодая женщина; по контексту также девушка-партнёр. Κορίτσι часто означает девочку.",
+        "ru": "Η κοπέλα — молодая женщина, девушка. Η κοπέλα μου обычно означает «моя девушка» в романтическом смысле. Для ребёнка женского пола обычно говорят το κορίτσι: грамматический средний род не означает мужской пол или отсутствие пола.",
         "zh": "女孩或年轻女子；在语境中也可指女朋友。Κορίτσι 常指小女孩。"
       },
       "meaning": {
@@ -2674,7 +2694,12 @@
       "answerDisplay": "ο ΦΠΑ",
       "acceptedAnswers": [
         "Φ.Π.Α."
-      ]
+      ],
+      "explanation": {
+        "ru": "Ο ΦΠΑ — греческое сокращение Φόρος Προστιθέμενης Αξίας, «налог на добавленную стоимость». Это аналог русского НДС. На ценниках и чеках показывает, что речь о налоге, а не о скидке.",
+        "en": "Ο ΦΠΑ stands for Φόρος Προστιθέμενης Αξίας, value-added tax: the Greek equivalent of VAT. On a receipt or price label it refers to tax, not a discount.",
+        "zh": "ΦΠΑ 是 Φόρος Προστιθέμενης Αξίας 的缩写，意思是“增值税”，相当于英语 VAT。价签或收据上的 ΦΠΑ 指税款，不是折扣。缩写通常配阳性冠词 ο。"
+      }
     },
     {
       "id": "nov05-without",
@@ -2824,7 +2849,12 @@
       ],
       "themes": [
         "conversation"
-      ]
+      ],
+      "explanation": {
+        "ru": "Εξαρτώμαι από — «завишу от»: εξαρτώμαι από εσένα — «завишу от тебя». После από нужен винительный падеж, хотя русский предлог «от» требует родительного. Краткий ответ εξαρτάται — «зависит от обстоятельств».",
+        "en": "Εξαρτώμαι takes από: εξαρτώμαι από εσένα — I depend on you. English uses on, but Greek uses από followed by the accusative. The short answer Εξαρτάται means It depends. The -μαι ending does not mean that the English translation must be passive.",
+        "zh": "Εξαρτώμαι από 表示“我依赖于／取决于”：εξαρτώμαι από εσένα（我依赖你）。Από 后接宾格，代词使用强式 εσένα。单独回答 εξαρτάται 时常相当于中文“看情况”。"
+      }
     },
     {
       "id": "nov05-birthday",
@@ -2849,7 +2879,7 @@
       "answerDisplay": "τα γενέθλια",
       "explanation": {
         "en": "Τα γενέθλια means birthday and is always plural in this sense: Έχω γενέθλια σήμερα — It is my birthday today.",
-        "ru": "Τα γενέθλια — день рождения. В этом значении слово всегда стоит во множественном числе: έχω γενέθλια σήμερα — «у меня сегодня день рождения».",
+        "ru": "Τα γενέθλια — день рождения. По-гречески это множественное число: έχω γενέθλια — «у меня день рождения». В γενέθλιά μου появляется второй знак ударения: безударное μου примыкает к слову, и сочетанию нужен дополнительный акцент.",
         "zh": "Τα γενέθλια 表示生日，这个意思使用复数形式。Έχω γενέθλια σήμερα. 表示“今天是我的生日”。"
       }
     },
@@ -4432,7 +4462,12 @@
       },
       "themes": [
         "conversation"
-      ]
+      ],
+      "explanation": {
+        "ru": "Μαζί μου — «со мной». Μαζί сочетается со слабой формой родительного: μαζί σου — «с тобой», μαζί μας — «с нами». После самого предлога με нужна сильная форма: με εμένα. Нельзя механически заменять вместе с на одно и то же сочетание местоимения.",
+        "en": "Μαζί takes a short genitive pronoun: μαζί μου — with me; μαζί σου — with you; μαζί μας — with us. After the preposition με itself, use a strong object form: με εμένα. English me stays the same, but Greek chooses the form according to the construction.",
+        "zh": "Μαζί μου 表示“和我一起”。Μαζί 可接弱式属格代词：μαζί σου（和你一起）、μαζί μας（和我们一起）。若直接使用介词 με，则用强式，如 με εμένα（和我）；不能把两种结构中的代词机械互换。"
+      }
     },
     {
       "id": "nov05-practice-by-card",
@@ -4466,7 +4501,12 @@
       },
       "themes": [
         "conversation"
-      ]
+      ],
+      "explanation": {
+        "ru": "Устойчивое «процентов»: δέκα τοις εκατό — «десять процентов». Τοις — сохранившаяся в выражении древняя форма дательного множественного числа. Это не новая современная модель склонения, которую нужно переносить на другие слова.",
+        "en": "A fixed expression meaning percent: δέκα τοις εκατό — ten percent. Τοις preserves an ancient dative plural article. Modern Greek no longer has a productive dative case, so learn this expression as a unit rather than copying τοις into ordinary noun phrases.",
+        "zh": "Τοις εκατό 是表示百分比的固定说法，如 δέκα τοις εκατό（百分之十）。Τοῖς／τοις 是保留在这个表达里的古希腊语与格复数形式。现代初学者把整个短语一起记即可，不必据此给普通名词新增一种现代变格模式。"
+      }
     },
     {
       "id": "nov05-practice-never-mind",
@@ -4592,7 +4632,7 @@
       "explanation": {
         "en": "Γενέθλια is plural. Before the unstressed σου it takes an extra accent: γενέθλιά σου.",
         "ru": "Γενέθλια — множественное число. Перед безударным σου добавляется второе ударение: γενέθλιά σου.",
-        "zh": "Γενέθλια 是复数。在非重读的 σου 前要加第二个重音：γενέθλιά σου。"
+        "zh": "Γενέθλια 表示生日时用复数：τα γενέθλια。后接弱读的 σου 时写 γενέθλιά σου，多出的重音帮助整个词组满足希腊语重音规则；不是生日变成了另一种形式。"
       }
     },
     {
@@ -4627,7 +4667,12 @@
       },
       "themes": [
         "time"
-      ]
+      ],
+      "explanation": {
+        "en": "Literally how many do we have today? The understood feminine plural word is μέρες (days). It is a conventional way to ask for the date, not how many objects someone has. Τι μέρα είναι; asks which weekday it is.",
+        "ru": "Разговорный вопрос «какое сегодня число?». Буквально — «сколько у нас сегодня?», с подразумеваемыми днями месяца; поэтому πόσες имеет женскую форму. Ответом будет число месяца, а не день недели.",
+        "zh": "Πόσες έχουμε σήμερα; 是问“今天几号？”的惯用说法，字面近似“今天我们有多少？”，省略了“日子”μέρες，因此 πόσες 用阴性复数。回答月份中的日期；询问星期几通常说 τι μέρα είναι σήμερα;。"
+      }
     },
     {
       "id": "nov05-practice-long-duration",
@@ -4695,7 +4740,7 @@
       "explanation": {
         "en": "Age uses the genitive χρονών. Duration uses χρόνια: δύο χρόνια = for two years.",
         "ru": "Возраст: родительный падеж χρονών. Длительность: χρόνια — например, δύο χρόνια, «два года».",
-        "zh": "年龄用属格 χρονών；持续时间用 χρόνια，如 δύο χρόνια 表示两年。"
+        "zh": "Πόσων χρονών είσαι; 是“你几岁？”。年龄用属格 χρονών，例如 είμαι δέκα χρονών（我十岁）；描述持续时间通常用 χρόνια，如 δέκα χρόνια（十年）。中文同用数字，希腊语因结构不同而选不同的格。"
       }
     },
     {
@@ -4740,7 +4785,12 @@
       },
       "themes": [
         "time"
-      ]
+      ],
+      "explanation": {
+        "en": "Greek can express in January with the month in the accusative and its article: τον Ιανουάριο. No separate word for in is needed. The dictionary form is ο Ιανουάριος.",
+        "ru": "Τον Ιανουάριο — «в январе»: по-гречески для обозначения времени достаточно месяца в винительном падеже с артиклем, отдельный предлог не нужен. Словарная форма — ο Ιανουάριος; в винительном исчезает конечное -ς.",
+        "zh": "希腊语可直接用冠词加月份的宾格表示“在某月”：τον Ιανουάριο（一月）。不必另外加对应中文“在”的介词。词典中的主格是 ο Ιανουάριος，宾格去掉名词末尾的 ς。"
+      }
     },
     {
       "id": "nov05-practice-on-weekday",
@@ -4757,7 +4807,12 @@
       },
       "themes": [
         "time"
-      ]
+      ],
+      "explanation": {
+        "en": "Greek can express on Monday with the weekday in the accusative and its article: τη(ν) Δευτέρα. No separate word for on is needed. For a repeated schedule, τις Δευτέρες means on Mondays.",
+        "ru": "Την Δευτέρα — «в понедельник»: название дня стоит в винительном падеже с артиклем, без отдельного предлога. Для повторяющегося расписания используется множественное число: τις Δευτέρες — «по понедельникам».",
+        "zh": "Τη(ν) Δευτέρα 表示“在星期一”，使用冠词和星期名称的宾格，不必另加对应中文“在”的介词。表示反复的日程时，可用复数 τις Δευτέρες（每逢星期一）。"
+      }
     },
     {
       "id": "nov05-practice-nothing-negative",
@@ -4774,7 +4829,12 @@
       },
       "themes": [
         "conversation"
-      ]
+      ],
+      "explanation": {
+        "en": "Δεν and τίποτα work together to express one negation: I do not want anything / I want nothing. This is normal Greek, not an English-style double negative that reverses the meaning.",
+        "ru": "Как в русском «ничего не хочу», отрицательное слово τίποτα употребляется вместе с отрицанием перед глаголом: δεν θέλω τίποτα. Вместе они выражают одно отрицание. В вопросе τίποτα может означать «что-нибудь»: θέλεις τίποτα; — «хочешь что-нибудь?»",
+        "zh": "Δεν 和 τίποτα 共同表达一次否定：“我什么也不想要”。这是正常的希腊语结构，不是把两个否定抵消成肯定。可整体记作 δεν…τίποτα，对应中文“什么也不……”。"
+      }
     },
     {
       "id": "nov05-practice-thousands",

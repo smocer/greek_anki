@@ -24,7 +24,7 @@
       ],
       "explanation": {
         "en": "Feminine.",
-        "ru": "В греческом женский род.",
+        "ru": "Η μουσική — музыка. Слово связано с Музами, Μούσες, покровительницами искусств в древнегреческой традиции. Русское «музыка» — из той же семьи. Сравните μουσικός — «музыкальный» или «музыкант» по употреблению.",
         "zh": "阴性名词。"
       },
       "answerDisplay": "η μουσική"
@@ -190,9 +190,9 @@
         "noun"
       ],
       "explanation": {
-        "en": "Feminine.",
-        "ru": "В греческом женский род.",
-        "zh": "阴性名词。"
+        "en": "Φιλοσοφία is philosophy. Its ancient elements mean love of wisdom: φιλο- (loving) + σοφία (wisdom). English philosophy preserves the same Greek word, so the long spelling contains a familiar idea rather than an arbitrary sequence of sounds.",
+        "ru": "Η φιλοσοφία — философия. Исторический смысл слова — «любовь к мудрости»: φιλο- выражает любовь или склонность, σοφία — мудрость. В русском сохранилось почти то же слово, но греческие части делают его понятным: философ стремится к мудрости, а не объявляет себя всезнающим.",
+        "zh": "Φιλοσοφία 是“哲学”，源义可理解为“爱智慧”：φιλο- 表示喜爱，σοφία 表示智慧。与“朋友”φίλος 的词族有联系；英语 philosophy 也来自这个希腊词。"
       },
       "answerDisplay": "η φιλοσοφία"
     },
@@ -303,8 +303,8 @@
         "noun"
       ],
       "explanation": {
-        "en": "Feminine.",
-        "ru": "В греческом женский род.",
+        "en": "Η τηλεόραση is television, the medium or a TV set. Τηλε- means at a distance and όραση means sight: seeing at a distance. It shares τηλε- with τηλέφωνο. English television has the same idea, although its vision part is Latin rather than Greek.",
+        "ru": "Η τηλεόραση — телевидение или телевизор: βλέπω τηλεόραση — «смотрю телевизор». Τηλε- значит «на расстоянии», όραση — «зрение»: буквально получается видение на расстоянии. То же τηλε- узнаётся в τηλέφωνο и русском «телефон». По-гречески τηλεόραση женского рода.",
         "zh": "阴性名词。"
       },
       "answerDisplay": "η τηλεόραση"
@@ -542,9 +542,9 @@
         "verb"
       ],
       "explanation": {
-        "en": "The subject is whoever or whatever is liked. Σου αρέσω means you like me; μου αρέσει means I like it.",
+        "en": "Think of αρέσω as I appeal to someone. The liked person or thing is the grammatical subject: Σου αρέσω — You like me, literally I appeal to you. Μου αρέσει means I like it; μου identifies the person experiencing the feeling. English like normally puts that person in the subject position instead.",
         "ru": "Подлежащее — тот, кто нравится: σου αρέσω — «я тебе нравлюсь». «Мне нравится» — μου αρέσει.",
-        "zh": "主语是被喜欢的人或事物。Σου αρέσω 表示“你喜欢我”；μου αρέσει 表示“我喜欢它”。"
+        "zh": "Αρέσω 的语法主语是“被喜欢的对象”，可理解为“我令人喜欢”：σου αρέσω（你喜欢我）。Μου αρέσει η μουσική 是“音乐令我喜欢”；τα παιδιά 是复数，所以说 μου αρέσουν τα παιδιά。动词随被喜欢的对象变化，不随喜欢它的人数变化。"
       }
     },
     {
@@ -570,7 +570,7 @@
       "explanation": {
         "en": "Also προτιμάω. A noun naming what you prefer is an accusative object: προτιμώ τον καφέ.",
         "ru": "Также προτιμάω. Что предпочитаю? Дополнение в винительном: προτιμώ τον καφέ.",
-        "zh": "也可用 προτιμάω。表示更喜欢的对象时使用宾格：προτιμώ τον καφέ。"
+        "zh": "Προτιμώ／προτιμάω 表示“更喜欢、宁愿”，结构与中文相近：“我”作主语，偏爱的东西用宾格，如 προτιμώ τον καφέ。Αρέσει 的结构相反：μου αρέσει ο καφές 中咖啡是主语，μου 表示感受者。"
       },
       "alternatives": [
         "προτιμάω"
@@ -890,9 +890,9 @@
         "particle"
       ],
       "explanation": {
-        "en": "Να introduces a verb in constructions such as θέλω να φύγω — I want to leave. The following verb still changes for person: θέλεις να φύγεις — you want to leave. It is not a general translation of English to.",
-        "ru": "Να вводит глагол в личной форме: θέλω να διαβάσω — «я хочу почитать». Греческого инфинитива в такой конструкции нет: μου αρέσει να διαβάζω — «мне нравится читать», σου αρέσει να διαβάζεις — «тебе нравится читать».",
-        "zh": "Να 引出动词，常用于愿望、目的等结构。后面的动词仍需随人称变化：θέλω να διαβάζω（我想读书）、θέλεις να διαβάζεις（你想读书）。"
+        "en": "Να introduces a verb where English often uses to plus an infinitive: θέλω να φύγω — I want to leave. Modern Greek has no equivalent infinitive in this construction: the second verb still shows who acts. Θέλω να φύγεις means I want you to leave. Να is not a general translation of the English preposition to.",
+        "ru": "В современном греческом вместо русского инфинитива часто употребляется να с личной формой: θέλω να φύγω — «хочу уйти», θέλεις να φύγεις — «хочешь уйти». Меняются оба глагола, если меняется действующее лицо. Форма после να также различает процесс или привычку и действие как целое: να διαβάζω — «читать», να διαβάσω — «почитать / прочитать».",
+        "zh": "Να 引出一个动词结构，常用于愿望、目的等。后面的动词仍要变人称：θέλω να διαβάζω（我想读书），θέλεις να διαβάζεις（你想读书）。它不是一个可套用中文“去”的固定译词；διαβάζω 侧重过程／习惯，διαβάσω 把阅读看作一次整体动作。"
       },
       "contextExample": {
         "en": "Θέλω ___ φύγω. — I want to leave.",
@@ -926,9 +926,9 @@
         "pronoun"
       ],
       "explanation": {
-        "en": "Σου is the short genitive pronoun used as an indirect object: Σου δίνω το βιβλίο — I give you the book. With αρέσει it identifies who likes something. After a noun, the same form is possessive.",
-        "ru": "Σου при глаголе — слабая форма родительного падежа, часто соответствующая русскому «тебе»: σου αρέσει η μουσική — «тебе нравится музыка». После существительного та же форма выражает принадлежность: «твой».",
-        "zh": "Σου 作弱式间接宾语时表示“给你／对你”。Σου αρέσει η μουσική. 意为“你喜欢音乐”；放在名词后则表示“你的”。"
+        "en": "Σου is the short genitive form: Σου δίνω το βιβλίο — I give you the book. You are the recipient; the book is the direct object. Compare Σε βλέπω — I see you, where you is the direct object. After a noun, σου means your: το βιβλίο σου. Σου αρέσει means you like it, literally it appeals to you, with the same recipient-like pattern.",
+        "ru": "Σου при глаголе обычно соответствует «тебе»: σου μιλάω — «говорю тебе», σου αρέσει — «тебе нравится». Это слабая форма родительного падежа; не путайте с винительным σε «тебя». Сильное выделенное «тебе» можно передать σε εσένα. После существительного, например το βιβλίο σου, та же форма означает «твой».",
+        "zh": "Σου 是弱式间接宾语“给你／对你”：σου δίνω νερό（我给你水）。Μου／σου αρέσει 的结构可理解为“某物对我／你有吸引力”，所以 σου αρέσει η μουσική 是“你喜欢音乐”。直接宾语“你”用 σε，名词后的 σου 是“你的”。"
       },
       "senseKey": "indirect-object",
       "contextExample": {
@@ -965,7 +965,7 @@
       "explanation": {
         "en": "Του is the short genitive pronoun used as an indirect object: Του δίνω το βιβλίο — I give him the book. With αρέσει it identifies who likes something. After a noun, the same form is possessive.",
         "ru": "Του при глаголе — слабая форма родительного падежа, часто соответствующая русскому «ему»: του αρέσει η μουσική — «ему нравится музыка». После существительного та же форма выражает принадлежность: «его».",
-        "zh": "Του 作弱式间接宾语时表示“给他／对他”，也可指中性对象。Του αρέσει η μουσική. 意为“他喜欢音乐”。"
+        "zh": "Του 作弱式间接宾语，指“给他／对他”，也可指中性对象：του δίνω νερό（我给他水）。Του αρέσει η μουσική 可理解为“音乐令他喜欢”。直接宾语“他”用 τον；名词后的 του 表示所属。"
       },
       "senseKey": "indirect-object",
       "contextExample": {
@@ -1002,7 +1002,7 @@
       "explanation": {
         "en": "Της is the short genitive pronoun used as an indirect object: Της δίνω το βιβλίο — I give her the book. With αρέσει it identifies who likes something. After a noun, the same form is possessive.",
         "ru": "Της при глаголе — слабая форма родительного падежа, часто соответствующая русскому «ей»: της αρέσει η μουσική — «ей нравится музыка». После существительного та же форма выражает принадлежность: «её».",
-        "zh": "Της 作弱式间接宾语时表示“给她／对她”。Της αρέσει η μουσική. 意为“她喜欢音乐”；直接宾语“她”用 την。"
+        "zh": "Της 作弱式间接宾语“给她／对她”：της δίνω νερό（我给她水）。Της αρέσει η μουσική 是“她喜欢音乐”。直接宾语“她”用 την；名词后的 της 表示“她的”。"
       },
       "senseKey": "indirect-object",
       "contextExample": {
@@ -1037,13 +1037,13 @@
         "pronoun"
       ],
       "explanation": {
-        "en": "Μας is the short genitive pronoun used as an indirect object: Μας δίνω το βιβλίο — I give us the book. With αρέσει it identifies who likes something. After a noun, the same form is possessive.",
+        "en": "Μας can mean to us: Μας δίνει το βιβλίο — She gives us the book. It stands before the verb in an ordinary statement. The same spelling also means us as a direct object (Μας βλέπει — She sees us) or our after a noun (το βιβλίο μας). The sentence role, not the spelling alone, determines the meaning.",
         "ru": "Μας при глаголе — слабая форма родительного падежа, часто соответствующая русскому «нам»: μας αρέσει η μουσική — «нам нравится музыка». После существительного та же форма выражает принадлежность: «наш».",
-        "zh": "Μας 作弱式间接宾语时表示“给我们／对我们”。Μας αρέσει η μουσική. 意为“我们喜欢音乐”。"
+        "zh": "Μας 作弱式间接宾语，表示接受者“给我们／对我们”：μας δίνει νερό（他给我们水）。同一形式也可作直接宾语（μας βλέπει，看见我们）或名词后的所属语（το σπίτι μας，我们的家）。"
       },
       "senseKey": "indirect-object",
       "contextExample": {
-        "en": "___ δίνω το βιβλίο. — I give us the book.",
+        "en": "___ δίνει το βιβλίο. — She gives us the book.",
         "ru": "___ αρέσει η μουσική. — Нам нравится музыка.",
         "zh": "___ αρέσει η μουσική. — 我们喜欢音乐。"
       },
@@ -1076,7 +1076,7 @@
       "explanation": {
         "en": "Σας is the short genitive pronoun used as an indirect object: Σας δίνω το βιβλίο — I give you the book. With αρέσει it identifies who likes something. After a noun, the same form is possessive.",
         "ru": "Σας при глаголе — слабая форма родительного падежа, часто соответствующая русскому «вам»: σας αρέσει η μουσική — «вам нравится музыка». После существительного та же форма выражает принадлежность: «ваш».",
-        "zh": "Σας 作弱式间接宾语时表示“给你们／对你们”，也可礼貌地指一个人“您”。Σας αρέσει η μουσική. 意为“你们／您喜欢音乐”。"
+        "zh": "Σας 作弱式间接宾语，表示“给你们／对你们”，也可敬称一个人“您”：σας δίνω νερό（我给您水）。同形的 σας 也能作直接宾语或所属语，须按句中作用区分；不是每次都译成“给”。"
       },
       "senseKey": "indirect-object",
       "contextExample": {
@@ -1113,7 +1113,7 @@
       "explanation": {
         "en": "Τους is the short genitive pronoun used as an indirect object: Τους δίνω το βιβλίο — I give them the book. With αρέσει it identifies who likes something. After a noun, the same form is possessive.",
         "ru": "Τους при глаголе — слабая форма родительного падежа, часто соответствующая русскому «им»: τους αρέσει η μουσική — «им нравится музыка». После существительного та же форма выражает принадлежность: «их».",
-        "zh": "Τους 作弱式间接宾语时不区分性，表示“给他们／她们／它们”。Τους αρέσει η μουσική. 意为“他们喜欢音乐”。"
+        "zh": "Τους 作弱式间接宾语时，不区分男女：τους δίνω νερό（我给他们／她们水）。作直接宾语的 τους 则指阳性复数；名词后的 τους 表示“他们的／她们的／它们的”。"
       },
       "senseKey": "indirect-object",
       "contextExample": {
@@ -1148,8 +1148,8 @@
       ],
       "explanation": {
         "en": "A short conversational way to finish what you are saying.",
-        "ru": "Короткая реплика в конце рассказа: «вот и всё». Здесь это выражение целиком.",
-        "zh": "结束谈话内容时使用的简短表达。"
+        "ru": "Αυτά! — короткая реплика в конце рассказа: «вот и всё!» Буквально αυτά — «это / эти вещи» во множественном числе, но реплика выражает завершение сказанного.",
+        "zh": "Αυτά 是中性复数，可表示“这些、它们”，也可指 τα παιδιά（孩子们）。词形取决于被指代名词的语法性别，不是有无生命；中性复数主格和宾格相同。"
       }
     },
     {
@@ -1172,7 +1172,7 @@
         "verb"
       ],
       "explanation": {
-        "en": "Use αρέσει for one thing or an activity.",
+        "en": "Greek builds this like it pleases me: the liked thing is the subject, while μου identifies who likes it. Use αρέσει for one thing or an activity, αρέσουν for several things. Compare Μου αρέσει ο καφές — I like coffee; Μου αρέσουν τα παιδιά — I like children.",
         "ru": "Об одном предмете или действии: αρέσει.",
         "zh": "单个事物或活动使用 αρέσει。"
       }
@@ -1368,7 +1368,7 @@
       "explanation": {
         "en": "Βλέπω means watch here, as well as see in other contexts.",
         "ru": "Здесь βλέπω означает «смотрю». В других ситуациях — «вижу».",
-        "zh": "Βλέπω 在这里表示观看，在其他语境中也表示看见。"
+        "zh": "Βλέπω 既可表示“看见”，也可表示有意识地观看，如 βλέπω τηλεόραση（看电视）、βλέπω μια ταινία（看电影）。中文这两种意思通常分用“看见”和“看”。"
       },
       "acceptedAnswers": [
         "Εγώ βλέπω τηλεόραση."
@@ -1422,7 +1422,7 @@
         "verb"
       ],
       "explanation": {
-        "en": "The clitic identifies who likes it. Η μουσική is the singular subject, so the verb stays αρέσει.",
+        "en": "Think of the construction as music appeals to me/you/etc. Η μουσική is the grammatical subject, so the verb is singular αρέσει. The short pronoun identifies the person who likes it. Unlike English, Greek normally keeps the article when talking about music in general.",
         "ru": "Местоимение показывает, кому нравится музыка. Η μουσική — подлежащее в единственном числе, поэтому αρέσει не меняется.",
         "zh": "弱读代词表示谁喜欢。Η μουσική 是单数主语，因此动词保持 αρέσει。"
       },
@@ -1450,7 +1450,7 @@
         "verb"
       ],
       "explanation": {
-        "en": "The clitic identifies who likes it. Η μουσική is the singular subject, so the verb stays αρέσει.",
+        "en": "Think of the construction as music appeals to me/you/etc. Η μουσική is the grammatical subject, so the verb is singular αρέσει. The short pronoun identifies the person who likes it. Unlike English, Greek normally keeps the article when talking about music in general.",
         "ru": "Местоимение показывает, кому нравится музыка. Η μουσική — подлежащее в единственном числе, поэтому αρέσει не меняется.",
         "zh": "弱读代词表示谁喜欢。Η μουσική 是单数主语，因此动词保持 αρέσει。"
       },
@@ -1478,7 +1478,7 @@
         "verb"
       ],
       "explanation": {
-        "en": "The clitic identifies who likes it. Η μουσική is the singular subject, so the verb stays αρέσει.",
+        "en": "Think of the construction as music appeals to me/you/etc. Η μουσική is the grammatical subject, so the verb is singular αρέσει. The short pronoun identifies the person who likes it. Unlike English, Greek normally keeps the article when talking about music in general.",
         "ru": "Местоимение показывает, кому нравится музыка. Η μουσική — подлежащее в единственном числе, поэтому αρέσει не меняется.",
         "zh": "弱读代词表示谁喜欢。Η μουσική 是单数主语，因此动词保持 αρέσει。"
       },
@@ -1506,7 +1506,7 @@
         "verb"
       ],
       "explanation": {
-        "en": "The clitic identifies who likes it. Η μουσική is the singular subject, so the verb stays αρέσει.",
+        "en": "Think of the construction as music appeals to me/you/etc. Η μουσική is the grammatical subject, so the verb is singular αρέσει. The short pronoun identifies the person who likes it. Unlike English, Greek normally keeps the article when talking about music in general.",
         "ru": "Местоимение показывает, кому нравится музыка. Η μουσική — подлежащее в единственном числе, поэтому αρέσει не меняется.",
         "zh": "弱读代词表示谁喜欢。Η μουσική 是单数主语，因此动词保持 αρέσει。"
       },
@@ -1534,7 +1534,7 @@
         "verb"
       ],
       "explanation": {
-        "en": "The clitic identifies who likes it. Η μουσική is the singular subject, so the verb stays αρέσει.",
+        "en": "Think of the construction as music appeals to me/you/etc. Η μουσική is the grammatical subject, so the verb is singular αρέσει. The short pronoun identifies the person who likes it. Unlike English, Greek normally keeps the article when talking about music in general.",
         "ru": "Местоимение показывает, кому нравится музыка. Η μουσική — подлежащее в единственном числе, поэтому αρέσει не меняется.",
         "zh": "弱读代词表示谁喜欢。Η μουσική 是单数主语，因此动词保持 αρέσει。"
       },
@@ -1562,7 +1562,7 @@
         "verb"
       ],
       "explanation": {
-        "en": "The clitic identifies who likes it. Η μουσική is the singular subject, so the verb stays αρέσει.",
+        "en": "Think of the construction as music appeals to me/you/etc. Η μουσική is the grammatical subject, so the verb is singular αρέσει. The short pronoun identifies the person who likes it. Unlike English, Greek normally keeps the article when talking about music in general.",
         "ru": "Местоимение показывает, кому нравится музыка. Η μουσική — подлежащее в единственном числе, поэтому αρέσει не меняется.",
         "zh": "弱读代词表示谁喜欢。Η μουσική 是单数主语，因此动词保持 αρέσει。"
       },
@@ -1590,7 +1590,7 @@
         "verb"
       ],
       "explanation": {
-        "en": "The clitic identifies who likes it. Η μουσική is the singular subject, so the verb stays αρέσει.",
+        "en": "Think of the construction as music appeals to me/you/etc. Η μουσική is the grammatical subject, so the verb is singular αρέσει. The short pronoun identifies the person who likes it. Unlike English, Greek normally keeps the article when talking about music in general.",
         "ru": "Местоимение показывает, кому нравится музыка. Η μουσική — подлежащее в единственном числе, поэтому αρέσει не меняется.",
         "zh": "弱读代词表示谁喜欢。Η μουσική 是单数主语，因此动词保持 αρέσει。"
       },

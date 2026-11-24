@@ -484,7 +484,7 @@
         "ru": "гно-РИ-зо"
       },
       "explanation": {
-        "en": "Here, getting acquainted with someone. Γνωρίζω can also mean knowing a person or a fact, overlapping with ξέρω. Συναντάω focuses on meeting or encountering someone; σου γνωρίζω κάποιον means I introduce someone to you.",
+        "en": "Γνωρίζω can mean knowing someone or something, or becoming acquainted with someone. For a first meeting, γνωρίζω focuses on getting acquainted; συναντάω on encountering or meeting the person. Σου γνωρίζω τη Μαρία means I introduce Maria to you.",
         "ru": "Может значить «я знакомлюсь» или «я знаю, знаком с кем-то». Σου γνωρίζω κάποιον — «знакомлю тебя с кем-то»: значение зависит от того, кто кого знакомит.",
         "zh": "本卡练习“结识某人”。Γνωρίζω 也可表示已经认识某人或知道某事，与 ξέρω 有重叠。Συναντάω 侧重见面或遇见；σου γνωρίζω κάποιον 表示“我把某人介绍给你”。"
       },
@@ -537,7 +537,7 @@
       },
       "explanation": {
         "en": "First-person present. Compare μάγειρας / μαγείρισσα, “cook” as a profession.",
-        "ru": "Форма «я». Здесь «готовлю» именно еду. Профессия «повар» — μάγειρας / μαγείρισσα."
+        "ru": "Μαγειρεύω — готовлю еду, занимаюсь приготовлением пищи. Ετοιμάζω означает «подготавливаю» и может относиться к разным вещам, не только к еде. Повар — ο μάγειρας / η μαγείρισσα."
       },
       "themes": [
         "food",
@@ -617,7 +617,7 @@
       },
       "explanation": {
         "en": "First-person present. In an exercise heading, it asks the learner to choose an answer.",
-        "ru": "Форма «я». В заголовке упражнения это указание выбрать ответ."
+        "ru": "Διαλέγω — «выбираю» из вариантов: διαλέγω ένα βιβλίο — «выбираю книгу». Форма первого лица настоящего времени; в заголовках учебных заданий описывает действие ученика."
       },
       "themes": [
         "classroom",
@@ -827,14 +827,14 @@
       "prompt": {
         "en": "What do you do for work? (polite/plural)",
         "ru": "Кем вы работаете?",
-        "zh": "你做什么工作？（礼貌用语／复数）"
+        "zh": "您／你们做什么工作？（敬称一人／对多人）"
       },
       "pronunciation": {
         "en": "ti dhu-LIA KA-ne-te",
         "ru": "ти ду-ЛЯ КА-нэ-тэ"
       },
       "explanation": {
-        "en": "Κάνετε addresses several people or one person politely, like Russian вы.",
+        "en": "Κάνετε is the plural you form. Use it for several people or to address one person politely. English does not make this distinction in the verb.",
         "ru": "Κάνετε — обращение на «вы»: к нескольким людям или вежливо к одному. Буквально «какую работу вы делаете?»."
       },
       "themes": [
@@ -873,7 +873,7 @@
       "prompt": {
         "en": "Do you work? (polite/plural)",
         "ru": "Вы работаете?",
-        "zh": "你工作吗？（礼貌用语／复数）"
+        "zh": "您／你们工作吗？（敬称一人／对多人）"
       },
       "pronunciation": {
         "en": "dhu-LE-ve-te",
@@ -971,7 +971,7 @@
       },
       "explanation": {
         "en": "Με takes the accusative: η φίλη → την φίλη. Here φίλη means girlfriend; it can also mean a female friend.",
-        "ru": "После με — винительный: η φίλη → την φίλη. По-русски «с девушкой» — творительный. В этом контексте φίλη — девушка; в другом контексте может быть подругой."
+        "ru": "Με требует винительного: η φίλη → την φίλη. Φίλη может означать подругу или девушку-партнёра: сама фраза без ситуации не уточняет отношения. В русском после «с» стоит творительный, но греческий падеж выбирают по греческому предлогу."
       },
       "themes": [
         "family",

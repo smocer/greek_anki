@@ -9,7 +9,7 @@
       "prompt": {
         "en": "Drinking glass",
         "ru": "Стакан / бокал",
-        "zh": "玻璃杯"
+        "zh": "水杯／高脚杯"
       },
       "pronunciation": {
         "en": "po-TI-ri",
@@ -26,7 +26,7 @@
       "explanation": {
         "en": "Ποτήρι is a drinking glass, not a teacup.",
         "ru": "Ποτήρι — стакан или бокал, не чайная чашка.",
-        "zh": "Ποτήρι 指玻璃杯或高脚杯，不是茶杯。"
+        "zh": "Ποτήρι 指饮水杯、玻璃杯或高脚杯，不由材质决定，也可以是塑料杯。通常与带柄的茶杯 φλιτζάνι 区别；不要把它理解成“只能由玻璃制成的杯子”。"
       }
     },
     {
@@ -306,7 +306,12 @@
       "themes": [
         "home"
       ],
-      "answerDisplay": "το δώρο"
+      "answerDisplay": "το δώρο",
+      "explanation": {
+        "en": "Το δώρο is a gift. A memory link is the name Θεόδωρος (Theodore): θεός, god, plus ancient δῶρον, gift — God’s gift. Modern δώρο preserves the gift part. Δωρεάν (free of charge) is a useful related word: something supplied as a gift costs nothing.",
+        "ru": "Το δώρο — подарок. Древняя форма δῶρον сохранилась в составе имени Θεόδωρος: θεός «бог» + δῶρον «дар», то есть «дар бога». От этого имени происходят Теодор и Фёдор; по смыслу удобно сопоставить с именем Богдан. Родственное δωρεάν значит «бесплатно»: словно получаешь что-то в подарок.",
+        "zh": "Δώρο 是礼物，复数 δώρα。人名 Θεόδωρος（西奥多）由表示“神”的 θεός 和表示“礼物”的古希腊语 δῶρον 构成，可理解为“神赐的礼物”。这能帮助记住 δώρο 的词根；现代常用词是 δώρο，不是 θώρο。"
+      }
     },
     {
       "id": "nov18-sugar",
@@ -504,7 +509,12 @@
       "themes": [
         "conversation"
       ],
-      "answerDisplay": "η εφημερίδα"
+      "answerDisplay": "η εφημερίδα",
+      "explanation": {
+        "ru": "Η εφημερίδα — газета. Слово принадлежит к семье ημέρα / μέρα «день»: газета сообщает новости дня. Тот же узнаваемый элемент есть в καθημερινός «ежедневный» и καλημέρα «добрый день / доброе утро». Газета женского рода.",
+        "en": "Η εφημερίδα is a newspaper. It belongs to the word family of ημέρα / μέρα, day: think of the news of the day. The same day element appears in καθημερινός (daily) and καλημέρα (good morning). The noun is feminine.",
+        "zh": "Εφημερίδα 是阴性名词“报纸”，与 ημέρα／μέρα（天、日）属于同一词族，可以联想“报道当天的新闻”。Καθημερινός（每天的）和 καλημέρα（早上好）也含有与“日”相关的部分。"
+      }
     },
     {
       "id": "nov18-sport",
@@ -592,7 +602,12 @@
       "themes": [
         "classroom"
       ],
-      "answerDisplay": "το φροντιστήριο"
+      "answerDisplay": "το φροντιστήριο",
+      "explanation": {
+        "en": "A φροντιστήριο is a private teaching centre, often offering extra school subjects, exam preparation or languages. It is not an ordinary state school. The word names the institution, not just one tutoring session.",
+        "ru": "Το φροντιστήριο — учебный центр с дополнительными занятиями: подготовка к экзаменам, помощь по школьным предметам или языковые курсы. Это не обычная общеобразовательная школа и не обязательно индивидуальный репетитор. В греческой учебной жизни такие занятия очень распространены.",
+        "zh": "Φροντιστήριο 指私立补习或培训中心，常提供学校课程辅导、考试准备或语言课程。它不是普通公立学校，也不一定是一对一的家教；这个词指教学机构，不是单独一次辅导课。"
+      }
     },
     {
       "id": "nov18-pee",
@@ -939,7 +954,7 @@
       "answerDisplay": "τα ψιλά",
       "explanation": {
         "en": "Τα ψιλά is a plural noun for coins or small-denomination money; τα ρέστα is money returned after payment.",
-        "ru": "Τα ψιλά — мелкие деньги; употребляется во множественном числе. Τα ρέστα — сдача после оплаты.",
+        "ru": "Τα ψιλά — мелкие деньги, монеты; употребляется во множественном числе. Έχετε ψιλά; — «у вас есть мелочь?» Τα ρέστα — сдача после покупки. Не путайте ψιλά «мелочь» с ψηλά «высоко»: звучат одинаково, но пишутся по-разному.",
         "zh": "Τα ψιλά 是复数名词，指硬币或小额零钱；τα ρέστα 指付款后的找零。"
       }
     },
@@ -963,7 +978,12 @@
       "themes": [
         "conversation"
       ],
-      "answerDisplay": "τα ρέστα"
+      "answerDisplay": "τα ρέστα",
+      "explanation": {
+        "ru": "Τα ρέστα — сдача, которую возвращают после оплаты. Это средний род во множественном числе: τα ρέστα σας — «ваша сдача». Мелкие деньги сами по себе — ψιλά; они не обязательно являются сдачей.",
+        "en": "Τα ρέστα are the change returned after payment: τα ρέστα σας — your change. Unlike the English mass noun change, the Greek noun is neuter plural. Ψιλά means coins or small-denomination money, whether or not received as change.",
+        "zh": "Τα ρέστα 是付款后找回的钱，即“找零”，使用中性复数：τα ρέστα σας（找给您的钱）。Ψιλά 则是硬币或小额零钱，不一定来自商家找零。"
+      }
     },
     {
       "id": "nov18-match",
@@ -1183,7 +1203,12 @@
       "themes": [
         "food"
       ],
-      "answerDisplay": "το γιαούρτι"
+      "answerDisplay": "το γιαούρτι",
+      "explanation": {
+        "ru": "Το γιαούρτι — йогурт, средний род. Русский род не переносится в греческий: το γιαούρτι είναι καλό — «йогурт хороший», но καλό согласуется с греческим средним родом.",
+        "en": "Το γιαούρτι means yogurt and is grammatically neuter. An adjective describing it takes the neuter form: το γιαούρτι είναι καλό — the yogurt is good. English good stays unchanged, but Greek καλός / καλή / καλό agrees with the noun.",
+        "zh": "Γιαούρτι 是中性名词“酸奶”：το γιαούρτι。形容词也要配中性，如 το γιαούρτι είναι καλό（酸奶很好）。中文的“酸奶”和“好”不按性别变化，希腊语的冠词和形容词则要与名词配合。"
+      }
     },
     {
       "id": "nov18-juice",
@@ -1874,7 +1899,12 @@
       "themes": [
         "conversation",
         "verbA"
-      ]
+      ],
+      "explanation": {
+        "en": "Καθαρίζω means I clean or make clean. It belongs to the family of καθαρός (clean) and κάθαρση (cleansing/purification). English catharsis comes from κάθαρση: emotional release is pictured as a kind of cleansing. The everyday verb still simply means clean, not necessarily a spiritual act.",
+        "ru": "Καθαρίζω — чищу, убираю: καθαρίζω το σπίτι — «убираю дом». Связано с καθαρός «чистый» и κάθαρση «очищение». Знакомый русский «катарсис» — из этой же греческой семьи: в искусстве речь об очищении через переживания, а не о буквальной уборке. Можно запомнить образ: уборка — маленький катарсис для комнаты.",
+        "zh": "Καθαρίζω 是“打扫、清洁”，与 καθαρός（干净的）、καθαριότητα（清洁）同属一个词族。κάθαρση 也有“净化”的意思，英语 catharsis 借自这个词，常指情绪或心灵的净化；可把“清理房间”和“清理心绪”联系起来记。"
+      }
     },
     {
       "id": "nov18-enter",
@@ -2007,7 +2037,7 @@
       ],
       "explanation": {
         "en": "Σκέφτομαι describes thinking or reflecting. Νομίζω expresses an opinion or supposition.",
-        "ru": "Σκέφτομαι — размышляю, обдумываю. Νομίζω — думаю в значении «полагаю».",
+        "ru": "Σκέφτομαι — обдумываю, размышляю: σκέφτομαι το ταξίδι — «думаю о поездке». Νομίζω обычно выражает мнение: «думаю, полагаю». Окончание -μαι не требует русского -ся: греческая форма спрягается по другой модели, но её обычное значение — активное «думаю».",
         "zh": "Σκέφτομαι 指思考的过程；νομίζω 表示“我认为／猜想”。"
       }
     },
@@ -2017,7 +2047,7 @@
       "greek": "κλαίω",
       "prompt": {
         "en": "I cry / weep",
-        "ru": "Плачу",
+        "ru": "Пла́чу (слёзы)",
         "zh": "我哭"
       },
       "pronunciation": {
@@ -2187,7 +2217,12 @@
             "zh": "PRO-to"
           }
         }
-      ]
+      ],
+      "explanation": {
+        "zh": "Πρώτος／πρώτη／πρώτο 是序数“第一”，随名词的性、数、格变化，如 η πρώτη μέρα（第一天）。中文“第一”不变形；表示动作顺序“首先、先”则用副词 πρώτα。",
+        "en": "Πρώτος, πρώτη, πρώτο mean first and agree with the noun in gender, number and case: η πρώτη μέρα — the first day. English first stays unchanged. To describe the order of actions, use the adverb πρώτα: πρώτα τρώω — first I eat.",
+        "ru": "Πρώτος, πρώτη, πρώτο — «первый, первая, первое». Как и в русском, порядковое числительное согласуется с существительным: η πρώτη μέρα — «первый день». В греческом μέρα женского рода, поэтому πρώτη. Наречие «сначала» — πρώτα; оно не изменяется."
+      }
     },
     {
       "id": "nov18-last",
@@ -2299,7 +2334,12 @@
             "zh": "SKE-to"
           }
         }
-      ]
+      ],
+      "explanation": {
+        "en": "Σκέτος means plain or without anything added and agrees with the noun: σκέτος, σκέτη, σκέτο. When ordering coffee, σκέτος specifically asks for no sugar. Do not use δωρεάν: that means free of charge.",
+        "ru": "Σκέτος — без добавок, в чистом виде. При заказе кофе означает «без сахара»: έναν καφέ σκέτο — «кофе без сахара». Окончание согласуется с существительным и его падежом. Для других продуктов уточняйте, какую добавку исключают: слово не всегда означает именно отсутствие сахара.",
+        "zh": "Σκέτος／σκέτη／σκέτο 表示“不加东西的、纯的”，词尾随所描述的名词变化。点咖啡时 έναν καφέ σκέτο 指“不加糖的咖啡”；描述其他食品时，要按情境判断不加的是什么，不能一律译成“无糖”。"
+      }
     },
     {
       "id": "nov18-medium",
@@ -2355,7 +2395,12 @@
             "zh": "ME-tri-o"
           }
         }
-      ]
+      ],
+      "explanation": {
+        "en": "Μέτριος means moderate or middling. In a coffee order, μέτριος asks for a medium amount of sugar, not a medium cup size. Match the noun: μέτριος καφές. Γλυκός asks for sweet coffee; σκέτος for no sugar.",
+        "ru": "Μέτριος — средний, умеренный; об оценке качества может значить «посредственный». В заказе кофе καφές μέτριος означает умеренно сладкий кофе, не размер чашки. Для размера лучше отдельно назвать маленькую или большую порцию.",
+        "zh": "Μέτριος 表示“中等的、适中的”，评价质量时也可指“一般、平庸”。点咖啡时 καφές μέτριος 指糖量适中，不是中杯；γλυκός 是甜咖啡，σκέτος 是不加糖。杯量要另外说明。"
+      }
     },
     {
       "id": "nov18-sweet-adjective",
@@ -2411,7 +2456,12 @@
             "zh": "ghli-KO"
           }
         }
-      ]
+      ],
+      "explanation": {
+        "ru": "Γλυκός, γλυκιά, γλυκό — «сладкий / сладкая / сладкое». При заказе кофе это сладкий кофе. Το γλυκό как существительное означает «сладость / десерт»: наличие артикля и роль слова в предложении помогают понять употребление.",
+        "en": "Γλυκός, γλυκιά, γλυκό mean sweet and agree with the noun. In a coffee order, γλυκός asks for sweet coffee. As a noun, το γλυκό means a sweet or dessert; the article and the word’s role in the sentence help distinguish the uses.",
+        "zh": "Γλυκός／γλυκιά／γλυκό 是形容词“甜的”，词尾与名词的性、数、格配合。点咖啡时表示加糖、偏甜。Το γλυκό 也可作为名词“甜点”；要看它在句中的作用，不能只凭词尾判断词性。"
+      }
     },
     {
       "id": "nov18-classical",
@@ -2858,7 +2908,12 @@
             "zh": "e-li-ni-KO"
           }
         }
-      ]
+      ],
+      "explanation": {
+        "en": "Ελληνικός, ελληνική, ελληνικό describe something Greek and agree with the noun: ελληνικός καφές — Greek coffee. A Greek person is Έλληνας or Ελληνίδα; the language is ελληνικά. English uses Greek for all three, but Greek distinguishes them.",
+        "ru": "Ελληνικός, ελληνική, ελληνικό — «греческий» о предмете или явлении: ελληνική μουσική — «греческая музыка». Национальность человека — Έλληνας / Ελληνίδα, а название языка — ελληνικά. Эти формы не заменяют друг друга.",
+        "zh": "Ελληνικός／ελληνική／ελληνικό 修饰事物，表示“希腊的”，如 ελληνική μουσική（希腊音乐）。形容词词尾取决于所修饰名词；表示希腊人通常用 Έλληνας／Ελληνίδα，表示希腊语用 ελληνικά。"
+      }
     },
     {
       "id": "nov18-smyrna",
@@ -3266,9 +3321,9 @@
         "zh": "Δεν είναι ___ εδώ. — 这里没有人。"
       },
       "explanation": {
-        "en": "Κανείς or κανένας means nobody with negation, but anybody in questions. Feminine: καμία / καμιά; neuter: κανένα.",
+        "en": "Κανείς or κανένας means nobody with negation, but anybody in questions. Feminine: καμία / καμιά; neuter: κανένα. Greek normally combines these negative words with δεν in a full negative statement. This is one negative meaning, not two negatives cancelling each other as in some English constructions.",
         "ru": "Κανείς / κανένας с отрицанием означает «никто», в вопросе — «кто-нибудь». Женский род: καμία / καμιά, средний: κανένα.",
-        "zh": "Κανείς／κανένας 与否定词连用表示“没有人”，在疑问句中可表示“有人”。阴性为 καμία／καμιά，中性为 κανένα。"
+        "zh": "Κανείς／κανένας 在否定句中配 δεν，表示“没有人”：δεν είναι κανείς εδώ。两个词共同构成否定，不会变成肯定。在疑问句中可问“有人吗”。阴性 καμία／καμιά、中性 κανένα 还可修饰相应名词。"
       },
       "alternatives": [
         "κανένας"
@@ -3306,8 +3361,8 @@
       },
       "explanation": {
         "en": "Unstressed που introduces a relative clause and does not change for gender or case. Stressed πού asks where.",
-        "ru": "Безударное που вводит придаточное: «который, которую» и т. д.; само не изменяется. Πού с ударением — вопрос «где?».",
-        "zh": "不带重音的 που 引导关系从句，不随性、格变化。带重音的 πού 表示“哪里”。"
+        "ru": "Безударное που связывает существительное с его описанием: το βιβλίο που διαβάζω — «книга, которую я читаю». В отличие от русского «который / которую / которых», που не меняется по роду, числу и падежу. Πού со знаком ударения — вопросительное «где?» или «куда?».",
+        "zh": "Που 引导关系从句，本身不变形：το βιβλίο που διαβάζω（我正在读的书）。中文把“我正在读的”放在“书”前，希腊语把关系从句放在名词后。它不带重音；问地点“哪里”的 πού 带重音。"
       }
     },
     {
@@ -3379,7 +3434,7 @@
       "explanation": {
         "en": "Ό,τι is a relative pronoun meaning whatever or anything that. The comma distinguishes it from ότι, meaning that in “I know that…”.",
         "ru": "Ό,τι — «всё, что / что угодно». Запятая отличает его от союза ότι — «что» в «я знаю, что…».",
-        "zh": "Ό,τι 表示“无论什么／……的一切”；逗号将它与引出内容从句的 ότι 区分开。"
+        "zh": "Ό,τι 可表示“无论什么／……的一切”：πάρε ό,τι θέλεις（拿你想要的东西）。词内逗号是拼写的一部分，不表示停顿；ότι 没有逗号时通常引出所说、所想的内容，相当于“……这件事”。"
       }
     },
     {
@@ -3440,7 +3495,7 @@
       },
       "explanation": {
         "en": "Δωρεάν means without payment and is invariable. It does not mean available or unoccupied.",
-        "ru": "Δωρεάν — «без оплаты», неизменяемое слово. Не означает «свободный, незанятый».",
+        "ru": "Δωρεάν — бесплатно, без оплаты: δωρεάν είσοδος — «бесплатный вход». Не путайте со свободным временем или незанятым местом: там ελεύθερος. Связано с δώρο «подарок» и δωρεά «пожертвование, дар»: образ подарка помогает запомнить значение «без оплаты».",
         "zh": "Δωρεάν 表示“不收费”，词形不变；不表示“有空”或“自由”。"
       }
     },
@@ -3525,7 +3580,12 @@
       ],
       "themes": [
         "conversation"
-      ]
+      ],
+      "explanation": {
+        "en": "Πρέπει is impersonal: it stays the same regardless of who must act. The verb after να identifies the person: πρέπει να φύγω — I must leave; πρέπει να φύγεις — you must leave. Φύγω presents leaving as one event; the ordinary present is φεύγω.",
+        "ru": "Πρέπει — безличное «нужно»: форма не меняется в зависимости от того, кто должен действовать. Лицо показывает глагол после να: πρέπει να φύγω — «мне нужно уйти», πρέπει να φύγεις — «тебе нужно уйти». Φύγω представляет уход как целое; обычная форма настоящего времени — φεύγω.",
+        "zh": "Πρέπει 是无人称形式，不随执行动作的人变化：πρέπει να φύγω（我必须走）、πρέπει να φύγεις（你必须走）。人称由 να 后的动词表示。Φύγω 把离开看作一次整体动作；普通现在时形式是 φεύγω。"
+      }
     },
     {
       "id": "nov18-what-mean",
@@ -3610,7 +3670,12 @@
       "themes": [
         "home"
       ],
-      "answerDisplay": "το πλυντήριο πιάτων"
+      "answerDisplay": "το πλυντήριο πιάτων",
+      "explanation": {
+        "en": "Literally a washer of dishes. Πιάτων is the genitive plural of πιάτο and identifies what the appliance washes: πλυντήριο πιάτων. Compare πλυντήριο ρούχων, a clothes-washing machine. English usually forms these labels by putting a noun before washer.",
+        "ru": "Буквально «машина для мытья посуды». Πιάτων — родительный падеж множественного числа от πιάτο «тарелка»: он уточняет, что моет машина. Сравните πλυντήριο ρούχων — «стиральная машина», буквально «машина для стирки одежды».",
+        "zh": "Πλυντήριο πιάτων 是洗碗机，字面可理解为“洗餐具的机器”。Πιάτων 是 πιάτο 的复数属格，说明洗的对象；πλυντήριο ρούχων 则是洗衣机。中文把用途放在“机”前，希腊语把属格短语放在后面。"
+      }
     },
     {
       "id": "nov18-with-milk",
@@ -3694,7 +3759,12 @@
       ],
       "themes": [
         "conversation"
-      ]
+      ],
+      "explanation": {
+        "en": "Τα ρέστα are the money returned after paying. Σας means your and follows the noun: τα ρέστα σας. Use σας when addressing a customer politely or several people. Ψιλά instead means coins or small-denomination money.",
+        "ru": "Τα ρέστα — сдача после оплаты. Σας после существительного означает «ваша»: τα ρέστα σας. Так вежливо обращаются к одному покупателю или к нескольким людям. Мелкие деньги сами по себе — ψιλά; они не обязательно являются сдачей.",
+        "zh": "Τα ρέστα 是付款后的找零，σας 放在名词后表示“您的／你们的”。商家递回零钱时可说 τα ρέστα σας（这是找给您的钱）。Ψιλά 泛指零钱或硬币，不一定是找回的钱。"
+      }
     },
     {
       "id": "nov18-how-much-all",
@@ -3724,7 +3794,7 @@
       "prompt": {
         "en": "What would you like? (informal)",
         "ru": "Что бы ты хотел / хотела?",
-        "zh": "你想要什么？（非敬语）"
+        "zh": "你想要什么？（委婉，单数）"
       },
       "pronunciation": {
         "en": "ti tha I-the-les",
@@ -3740,7 +3810,7 @@
       "explanation": {
         "en": "Θα ήθελες is a polite conditional: “would you like”, not the future “will want”.",
         "ru": "Θα ήθελες — вежливое условное «ты бы хотел», а не будущее «будешь хотеть».",
-        "zh": "Θα ήθελες 是礼貌的条件表达“你想要……吗”，不是将来时“将会想要”。"
+        "zh": "Θα ήθελες 是委婉询问“你想要……吗”，不表示将来的“会想要”。动词用第二人称单数，适合熟人；对陌生人更礼貌或对多人说话时用 θα θέλατε。单数并不等于语气不礼貌。"
       }
     },
     {
@@ -3762,7 +3832,12 @@
       ],
       "themes": [
         "conversation"
-      ]
+      ],
+      "explanation": {
+        "en": "Literally may you be well. Να plus a personal verb can express a wish, not only an English to-infinitive. This is a warm way to thank someone or wish them well. For several people or polite address, say Να είστε καλά!",
+        "ru": "Буквально «будь здоров / будь благополучен». Να с личной формой глагола может выражать пожелание. Это тёплая благодарность или пожелание добра, а не только слова о здоровье. К нескольким людям или вежливо к одному: Να είστε καλά!",
+        "zh": "Να είσαι καλά 字面是“愿你安好”，可用于亲切地道谢或表达祝福。Να 加变位动词也能表达愿望，不只是连接两个动作。对多人或敬称一人时说 να είστε καλά。"
+      }
     },
     {
       "id": "nov18-one-moment",
@@ -3848,7 +3923,7 @@
       ],
       "explanation": {
         "en": "Ελεύθερος can describe someone who is not busy or time that is available. It can also mean single in relationship contexts. Δωρεάν means free of charge.",
-        "ru": "Ελεύθερος — незанятый человек или свободное время. В разговоре об отношениях — «неженатый». «Бесплатно» — δωρεάν.",
+        "ru": "Ελεύθερος — свободный: человек не занят, место не занято или нет ограничений. В разговоре об отношениях — «не в отношениях / неженатый». Это не всегда юридическое семейное положение. «Бесплатно» — δωρεάν: свободный вход и вход без оплаты по-гречески лучше различать по ситуации.",
         "zh": "Ελεύθερος 可指人有空或时间可支配；在感情语境中可指“单身”。“免费”是 δωρεάν。"
       }
     },
@@ -3879,9 +3954,9 @@
         "places"
       ],
       "explanation": {
-        "en": "In colloquial Greek, impersonal έχει + accusative means there is / there are. Έχει stays singular. The alternative υπάρχει / υπάρχουν takes a nominative subject.",
+        "en": "In colloquial Greek, impersonal έχει + accusative means there is / there are: έχει έναν γιατρό. There is no person doing the having, and έχει stays singular even with several people. With υπάρχει / υπάρχουν, the thing that exists is instead a nominative subject and the verb agrees in number.",
         "ru": "В разговорной речи безличное έχει с винительным падежом означает «есть, имеется». Έχει не меняется при множественном числе. Другая конструкция, υπάρχει / υπάρχουν, требует именительного падежа.",
-        "zh": "口语中，无人称 έχει 加宾格表示“有”，即使后接复数也不变。另一种结构 υπάρχει／υπάρχουν 后接主格主语。"
+        "zh": "口语的无人称 έχει 加宾格表示“有”，不随后面名词的数变化：έχει έναν γιατρό／δύο γιατρούς（有一位／两位医生）。另一结构用 υπάρχει／υπάρχουν，名词作主格主语，动词随单复数变化；不是“医院拥有医生”的所有关系。"
       }
     },
     {
@@ -3911,9 +3986,9 @@
         "places"
       ],
       "explanation": {
-        "en": "In colloquial Greek, impersonal έχει + accusative means there is / there are. Έχει stays singular. The alternative υπάρχει / υπάρχουν takes a nominative subject.",
+        "en": "Impersonal έχει stays singular: έχει δύο γιατρούς means there are two doctors, not he has two doctors unless the context supplies a person. Γιατρούς is accusative. With υπάρχουν, use a nominative plural: υπάρχουν δύο γιατροί. English there are has no matching noun-case change.",
         "ru": "В разговорной речи безличное έχει с винительным падежом означает «есть, имеется». Έχει не меняется при множественном числе. Другая конструкция, υπάρχει / υπάρχουν, требует именительного падежа.",
-        "zh": "口语中，无人称 έχει 加宾格表示“有”，即使后接复数也不变。另一种结构 υπάρχει／υπάρχουν 后接主格主语。"
+        "zh": "口语的无人称 έχει 加宾格表示“有”，即使有多人也不变：έχει δύο γιατρούς（有两位医生）。Υπάρχουν δύο γιατροί 也表示“有两位医生”，但医生是主格主语，动词须用复数。两种结构不能只替换动词而保留原格。"
       }
     },
     {
