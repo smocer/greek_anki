@@ -6,7 +6,7 @@ When changing flashcard or writing-practice UI, verify layout before finishing:
 - Never clip text, allow horizontal overflow, or use a fixed-height card that overflows when text wraps. Long explanations and unusually long prompts must scroll safely; do not shrink them to unreadable text.
 - Keep primary actions visible above safe areas and the device keyboard. Do not hide required actions below the on-screen Greek keyboard.
 - Run widget layout tests in English, Russian and Chinese, covering question, revealed answer, wrong answer, repeated-review/spacing, deferral and completion states. Include 320×568 and 390×700 portrait, 568×320 landscape, large text (at least 2×), and device-keyboard insets.
-- Check a representative browser layout visually as well as testing it. Verify no Flutter overflow exceptions and no clipped/unreachable controls. Report the exact configurations tested.
+- Check a representative browser layout visually as well as testing it. Verify no Flutter overflow exceptions and no clipped/unreachable controls. Check text truncation explicitly (for example `RenderParagraph.didExceedMaxLines`); absence of an overflow exception alone is not enough. Report the exact configurations tested.
 - If a requested design cannot fit these constraints, report the limitation and explain the safe scrolling or alternative layout used. Never claim it fits every possible viewport without evidence.
 
 # Content and review safety

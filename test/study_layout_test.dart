@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/rendering.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:greek_anki/data/dictionary.dart';
@@ -78,6 +79,14 @@ void main() {
                 ? find.byKey(const ValueKey('check-typing'))
                 : find.text(strings.revealAnswer);
             actionVisible(tester, questionAction, size.height);
+            final title = find.text(
+              mode == StudyMode.typing ? strings.hardMode : strings.flashcards,
+            );
+            expect(
+              tester.renderObject<RenderParagraph>(title).didExceedMaxLines,
+              isFalse,
+              reason: 'The toolbar title must not be clipped',
+            );
             await tester.tap(find.byTooltip(strings.sessionProgressHelp));
             await tester.pumpAndSettle();
             expect(

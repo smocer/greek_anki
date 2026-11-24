@@ -215,6 +215,8 @@ class _StudyScreenState extends State<StudyScreen> {
               kToolbarHeight * MediaQuery.textScalerOf(context).scale(1),
           title: Text(
             _hard ? context.strings.hardMode : context.strings.flashcards,
+            maxLines: 3,
+            textAlign: TextAlign.center,
           ),
         ),
         body: Center(
@@ -262,6 +264,8 @@ class _StudyScreenState extends State<StudyScreen> {
         ),
         title: Text(
           _hard ? context.strings.hardMode : context.strings.flashcards,
+          maxLines: 3,
+          textAlign: TextAlign.center,
         ),
         actions: [
           if (!_hard)
