@@ -79,7 +79,12 @@
       "themes": [
         "places"
       ],
-      "answerDisplay": "το αεροπλάνο"
+      "answerDisplay": "το αεροπλάνο",
+      "explanation": {
+        "en": "Borrowed from French aéroplane, with the Greek air element αερο-. English aeroplane is a close memory aid: this modern invention brought an old Greek element back into Greek through another language.",
+        "ru": "Знакомый «аэроплан» помогает узнать слово. В греческий оно пришло из французского aéroplane, а αερο- связано с воздухом: вспомните αέρας. Это название современной техники, хотя его элементы имеют греческие корни.",
+        "zh": "它借自法语 aéroplane，其中 αερο- 表示空气。这个词根也能在 αεροδρόμιο（机场）里认出来，把飞机和机场一起记很方便。"
+      }
     },
     {
       "id": "oct16-dentist",
@@ -688,7 +693,12 @@
       "themes": [
         "places"
       ],
-      "answerDisplay": "το αυτοκίνητο"
+      "answerDisplay": "το αυτοκίνητο",
+      "explanation": {
+        "en": "Its older adjective meant self-moving. That became a name for the car under the influence of French automobile. Picture a carriage that moves under its own power: self-moving here does not mean driverless.",
+        "ru": "Название буквально связано с идеей «движется само»: древнее αὐτοκίνητος означало «самодвижущийся». Автомобильное значение появилось под влиянием французского automobile. Представьте экипаж, которому не нужна лошадь: речь о собственном двигателе, а не об автопилоте.",
+        "zh": "名字沿用了古代表示“自己运动”的形容词，后来在法语 automobile 的影响下成为“汽车”的名称。可以想象不用马拉、自己能动的车；这里并不是说自动驾驶汽车。"
+      }
     },
     {
       "id": "oct16-red",

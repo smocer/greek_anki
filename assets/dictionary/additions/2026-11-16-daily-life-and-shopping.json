@@ -695,7 +695,12 @@
       "themes": [
         "conversation"
       ],
-      "answerDisplay": "η γυμναστική"
+      "answerDisplay": "η γυμναστική",
+      "explanation": {
+        "en": "Its word family goes back to γυμνός, naked, because ancient Greek athletes trained without clothes. The same history connects it with γυμναστήριο, gym, and the familiar English gym and gymnastics.",
+        "ru": "Название связано с γυμνός — «обнажённый»: в Древней Греции атлеты тренировались без одежды. Современное слово обозначает физические упражнения; тот же корень есть в γυμναστήριο — «спортзал».",
+        "zh": "它与 γυμνός（赤裸的）同源，源头与古希腊运动员裸体训练的习俗有关。Γυμναστήριο（健身房、体育馆）也属于这一词族。"
+      }
     },
     {
       "id": "nov18-party",
@@ -907,7 +912,12 @@
       ],
       "aliases": [
         "diminutives.little-water"
-      ]
+      ],
+      "explanation": {
+        "en": "The name grew out of an old phrase meaning fresh water, νηρόν ὕδωρ. The word for water dropped out, and the word meaning fresh took over its job. The older ὕδωρ survives in the hydro- of words such as hydroelectric.",
+        "ru": "История слова начинается с выражения νηρόν ὕδωρ — «свежая вода». Со временем существительное ὕδωρ перестали произносить, а бывшее прилагательное стало обычным названием воды. Старое ὕδωρ узнаётся в научном «гидро-», например в «гидрологии».",
+        "zh": "古代表示“新鲜的水”的词组中，用的是 ὕδωρ（水）和一个表示“新鲜”的形容词。后来“水”被省略，留下的形容词逐渐成了 νερό。旧的“水”词根仍见于 υδρο-，如 υδροηλεκτρικός（水力发电的）。"
+      }
     },
     {
       "id": "nov18-fridge",
@@ -1027,7 +1037,12 @@
       "themes": [
         "conversation"
       ],
-      "answerDisplay": "το περιοδικό"
+      "answerDisplay": "το περιοδικό",
+      "explanation": {
+        "en": "Think of English periodical: a magazine comes out at regular intervals. The Greek word belongs with περιοδικός, periodic or recurring, so the publishing rhythm helps you remember its name.",
+        "ru": "Название связано с περιοδικός — «периодический»: журнал выходит через определённые промежутки, например раз в неделю или месяц. Русская «периодика» подсказывает ту же идею регулярного выхода.",
+        "zh": "它与 περιοδικός（定期的、周期性的）有关；现代“杂志”的用法受法语影响。中文“期刊”恰好能帮忙理解：每周、每月按一定间隔出版的读物。"
+      }
     },
     {
       "id": "nov18-phonecard",
@@ -1205,9 +1220,9 @@
       ],
       "answerDisplay": "το γιαούρτι",
       "explanation": {
-        "ru": "Το γιαούρτι — йогурт, средний род. Русский род не переносится в греческий: το γιαούρτι είναι καλό — «йогурт хороший», но καλό согласуется с греческим средним родом.",
-        "en": "Το γιαούρτι means yogurt and is grammatically neuter. An adjective describing it takes the neuter form: το γιαούρτι είναι καλό — the yogurt is good. English good stays unchanged, but Greek καλός / καλή / καλό agrees with the noun.",
-        "zh": "Γιαούρτι 是中性名词“酸奶”：το γιαούρτι。形容词也要配中性，如 το γιαούρτι είναι καλό（酸奶很好）。中文的“酸奶”和“好”不按性别变化，希腊语的冠词和形容词则要与名词配合。"
+        "ru": "Το γιαούρτι — йогурт, средний род. Русский род не переносится в греческий: το γιαούρτι είναι καλό — «йогурт хороший», но καλό согласуется с греческим средним родом.\n\nСлово пришло из турецкого yoğurt. А греческая пословица говорит: обжёгшийся на каше дует даже на йогурт. Смысл знакомый — после неудачи человек осторожничает даже там, где уже безопасно.",
+        "en": "Το γιαούρτι means yogurt and is grammatically neuter. An adjective describing it takes the neuter form: το γιαούρτι είναι καλό — the yogurt is good. English good stays unchanged, but Greek καλός / καλή / καλό agrees with the noun.\n\nA Greek proverb pictures someone burned by porridge blowing even on yogurt: after a bad experience, you may be cautious even when there is no danger. It is a vivid cousin of “once bitten, twice shy”.",
+        "zh": "Γιαούρτι 是中性名词“酸奶”：το γιαούρτι。形容词也要配中性，如 το γιαούρτι είναι καλό（酸奶很好）。中文的“酸奶”和“好”不按性别变化，希腊语的冠词和形容词则要与名词配合。\n\n希腊语有句俗话：被热粥烫过的人，连酸奶都要吹一吹。意思近于“一朝被蛇咬，十年怕井绳”：受过教训后，面对本来安全的东西也格外谨慎。"
       }
     },
     {
@@ -1296,7 +1311,12 @@
       "themes": [
         "food"
       ],
-      "answerDisplay": "το πορτοκάλι"
+      "answerDisplay": "το πορτοκάλι",
+      "explanation": {
+        "en": "There is a country hidden in this fruit’s name: it came through Italian portogallo, a name for sweet oranges linked to Portugal. Think of oranges travelling through trade routes, not of Portugal as the fruit’s original homeland.",
+        "ru": "В названии апельсина сохранилась Португалия: слово связано с итальянским portogallo, названием сладкого апельсина. Это след истории торговли, а не указание на родину самого растения.",
+        "zh": "这个名字经意大利语传来，与“葡萄牙”的名称有关，留下了水果贸易的痕迹。可以用葡萄牙 Πορτογαλία 帮助记忆；这并不表示橙子最早产于葡萄牙。"
+      }
     },
     {
       "id": "nov18-door",
@@ -1318,7 +1338,12 @@
       "themes": [
         "home"
       ],
-      "answerDisplay": "η πόρτα"
+      "answerDisplay": "η πόρτα",
+      "explanation": {
+        "en": "Compare Italian porta, also door. The Greek word’s history includes Latin porta, a gate, and Italian porta, a house door: a familiar everyday word with a Latin connection.",
+        "ru": "Родственник латинского и итальянского porta: древнее заимствование обозначало ворота, а итальянское влияние связано с обычной дверью дома. Знакомое «порта» в итальянском и греческом — не случайное сходство.",
+        "zh": "它的历史与拉丁语和意大利语的 porta 有关，意为门或入口。希腊语 πόρτα 与意大利语 porta 几乎一听就能认出，跨语言记忆时很方便。"
+      }
     },
     {
       "id": "nov18-bread",
@@ -1340,7 +1365,12 @@
       "themes": [
         "food"
       ],
-      "answerDisplay": "το ψωμί"
+      "answerDisplay": "το ψωμί",
+      "explanation": {
+        "en": "Its history starts with a word for a morsel: ψωμός, then the diminutive ψωμίον. The meaning grew into bread in general, so today ψωμί is not limited to a little piece.",
+        "ru": "Предок слова, ψωμίον, когда-то был уменьшительным от ψωμός — «кусок, кусочек еды». Со временем это стало обычным названием хлеба. Сегодня ψωμί не означает, что хлеб обязательно маленький.",
+        "zh": "它来自古代 ψωμίον，原是表示“一口、一小块食物”的 ψωμός 的指小形式。后来它成了普通的“面包”，可以从掰下一小块面包的画面来记。"
+      }
     },
     {
       "id": "nov18-kilogram",
@@ -1428,7 +1458,12 @@
       "themes": [
         "food"
       ],
-      "answerDisplay": "το κρουασάν"
+      "answerDisplay": "το κρουασάν",
+      "explanation": {
+        "en": "Borrowed from French croissant, which also means crescent. The curved pastry gives you a little moon to remember the name by. In Greek it stays unchanged: το κρουασάν, τα κρουασάν.",
+        "ru": "Французское croissant означает не только выпечку, но и полумесяц: название напоминает о её изогнутой форме. В греческом слово не склоняется: το κρουασάν, τα κρουασάν.",
+        "zh": "借自法语 croissant；法语这个词也表示月牙，新月形正是这种面包的典型形状。希腊语中它是中性、不变格：το κρουασάν、τα κρουασάν。"
+      }
     },
     {
       "id": "nov18-bread-ring",
@@ -1516,7 +1551,12 @@
       "themes": [
         "food"
       ],
-      "answerDisplay": "το σάντουιτς"
+      "answerDisplay": "το σάντουιτς",
+      "explanation": {
+        "en": "An English loan whose name refers to the Earl of Sandwich. Greek keeps the word unchanged: το σάντουιτς, τα σάντουιτς.",
+        "ru": "Пришло из английского sandwich, названного по титулу графа Сэндвича. В греческом не склоняется: το σάντουιτς — один сэндвич, τα σάντουιτς — несколько. Само слово остаётся прежним.",
+        "zh": "这个词借自英语，名称与英国的三明治伯爵（Earl of Sandwich）有关。希腊语中它是中性、不变格：一个是 το σάντουιτς，多个是 τα σάντουιτς。"
+      }
     },
     {
       "id": "nov18-dessert",
@@ -1635,7 +1675,12 @@
       "themes": [
         "food"
       ],
-      "answerDisplay": "το τσάι"
+      "answerDisplay": "το τσάι",
+      "explanation": {
+        "en": "Borrowed from Turkish çay and ultimately connected to Chinese chá, tea. Despite the familiar chai-like sound, Greek τσάι means tea generally, not specifically a spiced drink.",
+        "ru": "По звучанию легко узнать русский «чай». В греческий слово пришло из турецкого çay, а его дальние корни — в китайском. Τσάι означает чай вообще, не только какой-то особый сорт.",
+        "zh": "它经土耳其语等语言辗转传来，最终可以追到汉语“茶”的读音。把 τσάι 和“茶”放在一起念很容易联想，但它并不是希腊语直接从汉语借来的词。"
+      }
     },
     {
       "id": "nov18-thing",
@@ -1723,7 +1768,12 @@
       "themes": [
         "food"
       ],
-      "answerDisplay": "η ντομάτα"
+      "answerDisplay": "η ντομάτα",
+      "explanation": {
+        "en": "This everyday Greek word has travelled a long way: through French tomate and Spanish, back to Nahuatl tomatl in Mexico. The resemblance to English tomato is a useful memory cue, not a coincidence.",
+        "ru": "Слово проделало длинный путь: греческое ντομάτα пришло из французского tomate, через испанский восходящего к tomatl в языке науатль. Знакомый «томат» помогает узнать того же путешественника.",
+        "zh": "它的名字经法语、西班牙语传来，最终可追到墨西哥纳瓦特尔语的 tomatl。英语 tomato 也来自这条词源线索，几种语言的读音保留了这段“旅行”的痕迹。"
+      }
     },
     {
       "id": "nov18-salad",
