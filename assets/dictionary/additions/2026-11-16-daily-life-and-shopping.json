@@ -308,9 +308,9 @@
       ],
       "answerDisplay": "το δώρο",
       "explanation": {
-        "en": "Το δώρο is a gift. A memory link is the name Θεόδωρος (Theodore): θεός, god, plus ancient δῶρον, gift — God’s gift. Modern δώρο preserves the gift part. Δωρεάν (free of charge) is a useful related word: something supplied as a gift costs nothing.",
-        "ru": "Το δώρο — подарок. Древняя форма δῶρον сохранилась в составе имени Θεόδωρος: θεός «бог» + δῶρον «дар», то есть «дар бога». От этого имени происходят Теодор и Фёдор; по смыслу удобно сопоставить с именем Богдан. Родственное δωρεάν значит «бесплатно»: словно получаешь что-то в подарок.",
-        "zh": "Δώρο 是礼物，复数 δώρα。人名 Θεόδωρος（西奥多）由表示“神”的 θεός 和表示“礼物”的古希腊语 δῶρον 构成，可理解为“神赐的礼物”。这能帮助记住 δώρο 的词根；现代常用词是 δώρο，不是 θώρο。"
+        "en": "Το δώρο is a gift. A memory link is the name Θεόδωρος (Theodore): θεός, god, plus ancient δῶρον, gift — God’s gift. Modern δώρο preserves the gift part. Δωρεάν (free of charge) is a useful related word: something supplied as a gift costs nothing.\n\nIn Hesiod’s myth, Pandora receives gifts from all the gods: her name recalls those gifts. She later opens a great jar and releases troubles, while Hope stays inside. The ancient story has a jar, not a box!",
+        "ru": "Το δώρο — подарок. Древняя форма δῶρον сохранилась в составе имени Θεόδωρος: θεός «бог» + δῶρον «дар», то есть «дар бога». От этого имени происходят Теодор и Фёдор; по смыслу удобно сопоставить с именем Богдан. Родственное δωρεάν значит «бесплатно»: словно получаешь что-то в подарок.\n\nВ мифе Гесиода боги одарили Пандору — её имя связывается со «всеми дарами». Потом она открыла большой сосуд, из которого разлетелись беды; внутри осталась Надежда. Знаменитый «ящик Пандоры» в этом тексте — вовсе не ящик!",
+        "zh": "Δώρο 是礼物，复数 δώρα。人名 Θεόδωρος（西奥多）由表示“神”的 θεός 和表示“礼物”的古希腊语 δῶρον 构成，可理解为“神赐的礼物”。这能帮助记住 δώρο 的词根；现代常用词是 δώρο，不是 θώρο。\n\n在赫西俄德的神话里，众神各给潘多拉一份礼物，她的名字便有“获赠一切”的意思。后来她打开大罐子，灾祸跑了出来，只有希望留下。常说的“潘多拉魔盒”，在这个古代版本里其实是罐子。"
       }
     },
     {
@@ -487,7 +487,12 @@
       "themes": [
         "food"
       ],
-      "answerDisplay": "το μέλι"
+      "answerDisplay": "το μέλι",
+      "explanation": {
+        "en": "Myth: baby Zeus was hidden in a cave on Crete, where nymphs fed him honey and milk. Picture the future ruler of the gods enjoying sweet μέλι.",
+        "ru": "По мифу, маленького Зевса прятали в пещере на Крите, а нимфы кормили его мёдом и молоком. Μέλι можно запомнить как сладкое угощение будущего царя богов.",
+        "zh": "神话里，小宙斯藏在克里特岛的山洞中，仙女用蜂蜜和奶喂养他。记 μέλι（蜂蜜），可以想起这位天神小时候的甜食。"
+      }
     },
     {
       "id": "nov18-newspaper",
@@ -1220,9 +1225,9 @@
       ],
       "answerDisplay": "το γιαούρτι",
       "explanation": {
-        "ru": "Το γιαούρτι — йогурт, средний род. Русский род не переносится в греческий: το γιαούρτι είναι καλό — «йогурт хороший», но καλό согласуется с греческим средним родом.\n\nСлово пришло из турецкого yoğurt. А греческая пословица говорит: обжёгшийся на каше дует даже на йогурт. Смысл знакомый — после неудачи человек осторожничает даже там, где уже безопасно.",
-        "en": "Το γιαούρτι means yogurt and is grammatically neuter. An adjective describing it takes the neuter form: το γιαούρτι είναι καλό — the yogurt is good. English good stays unchanged, but Greek καλός / καλή / καλό agrees with the noun.\n\nA Greek proverb pictures someone burned by porridge blowing even on yogurt: after a bad experience, you may be cautious even when there is no danger. It is a vivid cousin of “once bitten, twice shy”.",
-        "zh": "Γιαούρτι 是中性名词“酸奶”：το γιαούρτι。形容词也要配中性，如 το γιαούρτι είναι καλό（酸奶很好）。中文的“酸奶”和“好”不按性别变化，希腊语的冠词和形容词则要与名词配合。\n\n希腊语有句俗话：被热粥烫过的人，连酸奶都要吹一吹。意思近于“一朝被蛇咬，十年怕井绳”：受过教训后，面对本来安全的东西也格外谨慎。"
+        "ru": "Το γιαούρτι — йогурт, средний род. Русский род не переносится в греческий: το γιαούρτι είναι καλό — «йогурт хороший», но καλό согласуется с греческим средним родом.\n\nСлово пришло из турецкого yoğurt. Греческая пословица: «Όποιος καεί στο χυλό, φυσάει και το γιαούρτι.» — «Кто обжёгся на каше, дует и на йогурт». После неудачи человек осторожничает даже там, где уже безопасно.",
+        "en": "Το γιαούρτι means yogurt and is grammatically neuter. An adjective describing it takes the neuter form: το γιαούρτι είναι καλό — the yogurt is good. English good stays unchanged, but Greek καλός / καλή / καλό agrees with the noun.\n\nGreek proverb: «Όποιος καεί στο χυλό, φυσάει και το γιαούρτι.» — “Whoever gets burned by porridge blows even on yogurt.” After a bad experience, even something harmless can make you wary: “once bitten, twice shy”.",
+        "zh": "Γιαούρτι 是中性名词“酸奶”：το γιαούρτι。形容词也要配中性，如 το γιαούρτι είναι καλό（酸奶很好）。中文的“酸奶”和“好”不按性别变化，希腊语的冠词和形容词则要与名词配合。\n\n希腊谚语：Όποιος καεί στο χυλό, φυσάει και το γιαούρτι. ——“被热粥烫过的人，连酸奶都要吹一吹。”意思近于“一朝被蛇咬，十年怕井绳”：受过教训后，面对安全的东西也格外谨慎。"
       }
     },
     {
@@ -1460,9 +1465,9 @@
       ],
       "answerDisplay": "το κρουασάν",
       "explanation": {
-        "en": "Borrowed from French croissant, which also means crescent. The curved pastry gives you a little moon to remember the name by. In Greek it stays unchanged: το κρουασάν, τα κρουασάν.",
-        "ru": "Французское croissant означает не только выпечку, но и полумесяц: название напоминает о её изогнутой форме. В греческом слово не склоняется: το κρουασάν, τα κρουασάν.",
-        "zh": "借自法语 croissant；法语这个词也表示月牙，新月形正是这种面包的典型形状。希腊语中它是中性、不变格：το κρουασάν、τα κρουασάν。"
+        "en": "Borrowed from French croissant, which also means crescent. The curved pastry gives you a little moon to remember the name by. In Greek it stays unchanged: το κρουασάν, τα κρουασάν.\n\nAn unconfirmed legend says Viennese bakers celebrated victory over the Ottomans with a crescent-shaped kipferl, echoing the Ottoman flag. This story concerns a predecessor of the modern croissant.",
+        "ru": "Французское croissant означает не только выпечку, но и полумесяц: название напоминает о её изогнутой форме. В греческом слово не склоняется: το κρουασάν, τα κρουασάν.\n\nПо неподтверждённой легенде, венские пекари отметили победу над османами выпечкой в форме полумесяца — символа на османском знамени. Историю рассказывают о предке круассана, кипферле, который на самом деле существовал задолго до этой победы.",
+        "zh": "借自法语 croissant；法语这个词也表示月牙，新月形正是这种面包的典型形状。希腊语中它是中性、不变格：το κρουασάν、τα κρουασάν。\n\n有个未经证实的传说：维也纳面包师做出新月形的基普费尔面包，庆祝战胜奥斯曼军队，形状呼应对方旗帜上的新月。故事讲的是现代可颂的前身，不是已证实的发明经过。"
       }
     },
     {
@@ -1553,9 +1558,9 @@
       ],
       "answerDisplay": "το σάντουιτς",
       "explanation": {
-        "en": "An English loan whose name refers to the Earl of Sandwich. Greek keeps the word unchanged: το σάντουιτς, τα σάντουιτς.",
-        "ru": "Пришло из английского sandwich, названного по титулу графа Сэндвича. В греческом не склоняется: το σάντουιτς — один сэндвич, τα σάντουιτς — несколько. Само слово остаётся прежним.",
-        "zh": "这个词借自英语，名称与英国的三明治伯爵（Earl of Sandwich）有关。希腊语中它是中性、不变格：一个是 το σάντουιτς，多个是 τα σάντουιτς。"
+        "en": "An English loan whose name refers to the Earl of Sandwich. Greek keeps the word unchanged: το σάντουιτς, τα σάντουιτς.\n\nA popular but unconfirmed story has the Earl of Sandwich eating meat between slices of bread so he need not leave the gaming table. Picture playing cards in one hand and a sandwich in the other.",
+        "ru": "Пришло из английского sandwich, названного по титулу графа Сэндвича. В греческом не склоняется: το σάντουιτς — один сэндвич, τα σάντουιτς — несколько. Само слово остаётся прежним.\n\nПо популярной, но неподтверждённой истории, граф Сэндвич не хотел отходить от карточного стола и ел мясо между ломтями хлеба. Представьте: карты в одной руке, сэндвич в другой.",
+        "zh": "这个词借自英语，名称与英国的三明治伯爵（Earl of Sandwich）有关。希腊语中它是中性、不变格：一个是 το σάντουιτς，多个是 τα σάντουιτς。\n\n流传着一个未经证实的故事：三明治伯爵舍不得离开牌桌，就把肉夹在面包中吃。想象他一手打牌、一手拿三明治，很容易记住 σάντουιτς。"
       }
     },
     {
@@ -1746,7 +1751,12 @@
       "themes": [
         "food"
       ],
-      "answerDisplay": "το μήλο"
+      "answerDisplay": "το μήλο",
+      "explanation": {
+        "en": "Myth: Eris threw an apple as a beauty prize, setting Hera, Athena and Aphrodite quarrelling. The dispute led towards the Trojan War.\n\nThe expression «το μήλον της έριδος» means “the apple of discord”: something people quarrel over. It keeps the older, literary form μήλον; the everyday word is μήλο.",
+        "ru": "По мифу, Эрида бросила яблоко как приз самой красивой богине — и Гера, Афина и Афродита поссорились. Этот спор стал одним из событий, приведших к Троянской войне.\n\nОтсюда выражение «το μήλον της έριδος» — «яблоко раздора»: то, из-за чего спорят. Μήλον — старая, книжная форма обычного μήλο, сохранившаяся в этом выражении.",
+        "zh": "神话里，厄里斯抛出一个苹果，要送给最美的女神，赫拉、雅典娜和阿佛洛狄忒因此争吵起来。这场争执又牵出特洛伊战争的故事。\n\n惯用语 το μήλον της έριδος，直译“纷争的苹果”，指引起争夺的东西。Μήλον 是日常词 μήλο 的旧式书面形式，保留在这个说法中。"
+      }
     },
     {
       "id": "nov18-tomato",
