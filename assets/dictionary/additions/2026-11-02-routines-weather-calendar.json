@@ -1630,7 +1630,12 @@
       "themes": [
         "time"
       ],
-      "answerDisplay": "ο χειμώνας"
+      "answerDisplay": "ο χειμώνας",
+      "explanation": {
+        "en": "In the myth, Demeter’s grief over her daughter Persephone stopped crops from growing. That barren landscape can help you picture χειμώνας, winter. This is a memory association, not the word’s origin.",
+        "ru": "По мифу, Деметра горевала о дочери Персефоне, уведённой в подземный мир, и не давала земле плодоносить. Для χειμώνας представьте эту безжизненную землю: это образ для запоминания зимы, а не происхождение слова.",
+        "zh": "神话里，得墨忒耳因女儿被带到冥界而悲痛，让大地不再长出庄稼。记 χειμώνας（冬天），可以借这幅大地失去生机的画面；这是联想，不是词源。"
+      }
     },
     {
       "id": "nov05-spring",
@@ -1654,9 +1659,9 @@
       ],
       "answerDisplay": "η άνοιξη",
       "explanation": {
-        "en": "Its older meaning was opening, related to ανοίγω, I open. The season took its name from the weather opening up after winter: a helpful picture for remembering spring.",
-        "ru": "Древнее ἄνοιξις означало «открытие». Весеннее значение появилось позже: после зимы погода словно раскрывается. Связь с ανοίγω — «открываю» помогает запомнить название весны.",
-        "zh": "它与 ανοίγω（打开）同源，古代形式本来有“打开”的意思，后来用于冬天过后天气转好的时节。可以把春天想成天气重新“打开”了。"
+        "en": "Its older meaning was opening, related to ανοίγω, I open. The season took its name from the weather opening up after winter: a helpful picture for remembering spring.\n\nMyth: when Persephone returned to her mother Demeter, the earth became green and flowering again. Picture the whole world blooming for a mother and daughter’s reunion.",
+        "ru": "Древнее ἄνοιξις означало «открытие». Весеннее значение появилось позже: после зимы погода словно раскрывается. Связь с ανοίγω — «открываю» помогает запомнить название весны.\n\nПо мифу, когда Персефона вернулась к матери Деметре, земля снова покрылась цветами и зеленью. Представьте άνοιξη как радость встречи, от которой расцветает весь мир.",
+        "zh": "它与 ανοίγω（打开）同源，古代形式本来有“打开”的意思，后来用于冬天过后天气转好的时节。可以把春天想成天气重新“打开”了。\n\n神话里，珀耳塞福涅回到母亲得墨忒耳身边，大地重新长满花叶。把 άνοιξη（春天）想成母女重逢时，整个世界一起开花。"
       }
     },
     {

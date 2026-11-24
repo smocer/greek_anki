@@ -557,7 +557,12 @@
         "places",
         "travel"
       ],
-      "answerDisplay": "η Κρήτη"
+      "answerDisplay": "η Κρήτη",
+      "explanation": {
+        "en": "Myth: on Crete, Ariadne gave Theseus a thread before he entered the Minotaur’s labyrinth. After defeating the monster, he followed it back out. Picture an island with a maze and a lifesaving ball of thread.",
+        "ru": "По мифу, на Крите Тесей вошёл в лабиринт Минотавра с нитью Ариадны. Победив чудовище, он нашёл выход по этой нити. Крит можно запомнить как остров лабиринта и спасительного клубка.",
+        "zh": "神话里，忒修斯带着阿里阿德涅给的线团，进入克里特岛上的迷宫，战胜米诺陶洛斯后沿线找到出口。把 Κρήτη 想成“有迷宫，也有救命线团的岛”。"
+      }
     },
     {
       "id": "objects-call-out",
