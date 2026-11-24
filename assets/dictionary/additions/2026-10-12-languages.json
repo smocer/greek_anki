@@ -381,7 +381,7 @@
       ],
       "explanation": {
         "en": "Feminine.",
-        "ru": "Женский род.",
+        "ru": "Η γλώσσα — язык как орган и как средство общения: η ελληνική γλώσσα — «греческий язык». Оба значения есть и в русском. Для вопроса о языке используется τι γλώσσα μιλάς; — «на каком языке ты говоришь?» Название конкретного языка часто имеет форму множественного числа: τα ελληνικά.",
         "zh": "阴性名词。"
       },
       "answerDisplay": "η γλώσσα"
@@ -3011,11 +3011,6 @@
         "deckId": "words-descriptions",
         "cardId": "languages-unfortunately"
       },
-      "contextExample": {
-        "en": "___, δεν μπορώ να έρθω. — Unfortunately, I can’t come.",
-        "ru": "___, δεν μπορώ. — К сожалению, я не могу.",
-        "zh": "___, δεν μπορώ να έρθω. — 遗憾的是，我来不了。"
-      },
       "explanation": {
         "en": "Δυστυχώς means unfortunately and comments on an unwelcome situation.",
         "ru": "Δυστυχώς — «к сожалению»: δυστυχώς, δεν μπορώ — «к сожалению, я не могу». Выражает сожаление о сообщаемом.",
@@ -3135,11 +3130,6 @@
       "reviewIdentity": {
         "deckId": "words-descriptions",
         "cardId": "languages-not-at-all"
-      },
-      "contextExample": {
-        "en": "Δεν μιλάω ___ ελληνικά. — I don’t speak Greek at all.",
-        "ru": "Δεν μιλάω ___ γερμανικά. — Я совсем не говорю по-немецки.",
-        "zh": "Δεν μιλάω ___ ελληνικά. — 我一点希腊语也不会说。"
       },
       "meaning": {
         "en": "Write the missing Greek word.",
@@ -3324,7 +3314,7 @@
       "prompt": {
         "en": "Do you speak Greek? (polite or plural)",
         "ru": "Вы говорите по-гречески?",
-        "zh": "你会说希腊语吗？（礼貌用语／复数）"
+        "zh": "您／你们会说希腊语吗？（敬称一人／对多人）"
       },
       "pronunciation": {
         "en": "mi-LA-te e-li-ni-KA",
@@ -3730,7 +3720,7 @@
       "prompt": {
         "en": "Do you see the bank? (polite or plural)",
         "ru": "Вы видите банк?",
-        "zh": "您看见银行了吗？（礼貌用语／复数）"
+        "zh": "您看见银行了吗？（敬称一人／对多人）"
       },
       "pronunciation": {
         "en": "VLE-pe-te tin TRA-pe-za",
@@ -3750,7 +3740,7 @@
       "prompt": {
         "en": "What are you looking for? (polite or plural)",
         "ru": "Что вы ищете?",
-        "zh": "您在找什么？（礼貌用语／复数）"
+        "zh": "您在找什么？（敬称一人／对多人）"
       },
       "pronunciation": {
         "en": "ti PSAH-ne-te",
@@ -3770,7 +3760,7 @@
       "prompt": {
         "en": "Do you know the park? (polite or plural)",
         "ru": "Вы знаете этот парк?",
-        "zh": "您知道那个公园吗？（礼貌用语／复数）"
+        "zh": "您知道那个公园吗？（敬称一人／对多人）"
       },
       "pronunciation": {
         "en": "KSE-re-te to PAR-ko",

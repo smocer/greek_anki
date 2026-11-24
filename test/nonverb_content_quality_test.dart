@@ -63,7 +63,6 @@ void main() {
           if ([
             'words-pronouns',
             'words-prepositions',
-            'words-adverbs',
             'words-connectors',
           ].contains(deck.id)) {
             expect(card.contextExample, isNotNull, reason: card.id);

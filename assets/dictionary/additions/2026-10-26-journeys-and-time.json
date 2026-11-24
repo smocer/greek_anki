@@ -195,8 +195,8 @@
       ],
       "explanation": {
         "en": "The dictionary form is first-person singular. For a ticket, use κοστίζει: it costs.",
-        "ru": "Здесь форма первого лица. О цене билета говорят κοστίζει — «он стоит».",
-        "zh": "此处为第一人称单数。谈论票价时用 κοστίζει（它值）。"
+        "ru": "Κοστίζω — форма первого лица «стою / обхожусь» о цене. В разговоре о цене предмета обычно нужно третье лицо: το εισιτήριο κοστίζει δέκα ευρώ — «билет стоит десять евро». Русское «стоять» в значении находиться вертикально передаётся другим глаголом.",
+        "zh": "Κοστίζω 是第一人称单数“我需要花费……”。日常谈价格，更常以物品作主语：το εισιτήριο κοστίζει δέκα ευρώ（票价十欧元）；多张票用 κοστίζουν。不要把第一人称形式直接套在物品后。"
       }
     },
     {
@@ -484,7 +484,7 @@
       ],
       "explanation": {
         "en": "Το μεσημέρι also means at midday.",
-        "ru": "Το μεσημέρι также означает «в полдень, днём».",
+        "ru": "Το μεσημέρι — полдень и время около середины дня; не только точный момент 12:00. Το μεσημέρι также означает «днём / в обеденное время». Следующая часть дня — το απόγευμα, «после полудня». Границы зависят от бытового распорядка, а не от жёсткого правила часов.",
         "zh": "Το μεσημέρι 也表示“在中午”。"
       }
     },
@@ -511,7 +511,7 @@
       ],
       "explanation": {
         "en": "Το απόγευμα also means in the afternoon.",
-        "ru": "Το απόγευμα — «после полудня», время между μεσημέρι и βράδυ.",
+        "ru": "Το απόγευμα — часть дня после μεσημέρι и до βράδυ. По-русски это «после обеда», иногда «ближе к вечеру»: границы названий частей дня в двух языках не совпадают точно. Το απόγευμα также означает «во второй половине дня».",
         "zh": "Το απόγευμα 也表示“在下午”。"
       }
     },
@@ -590,11 +590,6 @@
       "labels": [
         "noun"
       ],
-      "contextExample": {
-        "en": "Θα φύγω σε ένα ___. — I will leave in a quarter of an hour.",
-        "ru": "Θα φύγω σε ένα ___. — Я уйду через четверть часа.",
-        "zh": "Θα φύγω σε ένα ___. — 我一刻钟后出发。"
-      },
       "meaning": {
         "en": "Write the missing Greek word.",
         "ru": "Напишите только пропущенное слово.",
@@ -720,11 +715,6 @@
         "deckId": "words-descriptions",
         "cardId": "journeys-everywhere"
       },
-      "contextExample": {
-        "en": "Σε ψάχνω ___. — I am looking for you everywhere.",
-        "ru": "Σε ψάχνω ___. — Я ищу тебя везде.",
-        "zh": "Σε ψάχνω ___. — 我到处找你。"
-      },
       "explanation": {
         "en": "Παντού means everywhere: Έχει κόσμο παντού — There are people everywhere.",
         "ru": "Παντού — «везде», «всюду»; при движении также «повсюду»: σε ψάχνω παντού — «я ищу тебя везде».",
@@ -757,18 +747,13 @@
         "adverb"
       ],
       "explanation": {
-        "en": "Πουθενά means nowhere with a negative verb: Δεν πάω πουθενά — I am not going anywhere. In a question it can mean anywhere: Πας πουθενά; — Are you going anywhere?",
+        "en": "Πουθενά means nowhere with a negative verb: Δεν πάω πουθενά — I am not going anywhere. In a question it can mean anywhere: Πας πουθενά; — Are you going anywhere? Greek normally combines these negative words with δεν in a full negative statement. This is one negative meaning, not two negatives cancelling each other as in some English constructions.",
         "ru": "Πουθενά с отрицанием означает «нигде» или «никуда»: δεν πάω πουθενά — «я никуда не иду». В вопросе может означать «куда-нибудь»: θα πας πουθενά; — «ты куда-нибудь пойдёшь?»",
-        "zh": "Πουθενά 在否定句中表示“哪里也不”，通常与 δεν 连用。疑问句中也可询问是否去过某处。"
+        "zh": "Πουθενά 在否定句中配 δεν 表示“哪儿也不”：δεν πάω πουθενά（我哪儿也不去）。疑问句中也可表示不确定的地点“哪儿”；它不能在所有句子里机械地译成“没有地方”。"
       },
       "reviewIdentity": {
         "deckId": "words-descriptions",
         "cardId": "journeys-nowhere"
-      },
-      "contextExample": {
-        "en": "Δεν πάω ___. — I am not going anywhere.",
-        "ru": "Δεν πάω ___. — Я никуда не иду.",
-        "zh": "Δεν πάω ___. — 我哪儿也不去。"
       },
       "meaning": {
         "en": "Write the missing Greek word.",
@@ -799,11 +784,6 @@
       "reviewIdentity": {
         "deckId": "words-descriptions",
         "cardId": "journeys-approximately"
-      },
-      "contextExample": {
-        "en": "Θέλω ___ δέκα λεπτά. — I need about ten minutes.",
-        "ru": "Είναι ___ δέκα. — Сейчас примерно десять.",
-        "zh": "Είναι ___ πέντε η ώρα. — 现在大约五点。"
       },
       "explanation": {
         "en": "Περίπου means approximately or about when estimating an amount, time or number: περίπου δέκα — about ten.",
@@ -880,11 +860,6 @@
         "deckId": "words-descriptions",
         "cardId": "journeys-quickly"
       },
-      "contextExample": {
-        "en": "Μιλάς πολύ ___. — You speak very quickly.",
-        "ru": "Μιλάει ___. — Он говорит быстро.",
-        "zh": "Έλα ___. — 快来。"
-      },
       "explanation": {
         "en": "Γρήγορα is an adverb meaning quickly or fast. It does not change for gender: τρέχει γρήγορα — he or she runs fast.",
         "ru": "Γρήγορα — наречие «быстро»: μιλάει γρήγορα — «он говорит быстро». Прилагательное «быстрый» — γρήγορος.",
@@ -952,7 +927,7 @@
         }
       ],
       "explanation": {
-        "en": "The form agrees with the noun: μισή ώρα, but μισό λεπτό.",
+        "en": "Μισός, μισή, μισό mean half and agree with the noun: μισή ώρα (half an hour), μισό λεπτό (half a minute). Clock expressions use και μισή because ώρα is feminine. English half stays the same in all these uses.",
         "ru": "Μισός, μισή, μισό обозначают половину и согласуются с существительным: μισή ώρα — «полчаса», μισό λεπτό — «полминуты». Для отвлечённого понятия «половина» используется το μισό.",
         "zh": "形式与名词的性一致：μισή ώρα，但 μισό λεπτό。"
       },
@@ -1049,9 +1024,9 @@
         "article"
       ],
       "explanation": {
-        "en": "Στις combines σε + τις, the feminine plural accusative article. It is used before feminine plural nouns and most clock hours: στις τρεις — at three. At one is στη μία.",
-        "ru": "Στις — слияние σε и τις, артикля женского рода во множественном числе: στις στάσεις — «на остановках». Также употребляется при указании времени: στις τρεις — «в три часа»; но «в час» — στη μία.",
-        "zh": "Στις 由 σε + τις 缩合而成，配合阴性复数宾格；报时也常用 στις，如 στις πέντε（在五点）。"
+        "en": "Στις combines σε + τις, the feminine plural accusative article. It means at/to the before feminine plural nouns. Clock hours behave as if ώρες (hours, feminine) were understood: στις τρεις — at three. For one hour use στη μία. English at has no gender distinction.",
+        "ru": "Στις = σε + τις, предлог с определённым артиклем женского рода во множественном числе: στις στάσεις — «на остановках». Во времени подразумеваются часы, οι ώρες, поэтому στις τρεις — «в три часа». Для одного часа используется единственное число: στη μία. Это не отдельный перевод русского «в» для любых ситуаций.",
+        "zh": "Στις 是 σε + τις 的缩合，后接阴性复数宾格，如 στις στάσεις（在各个车站）。报时的“小时”ώρα 是阴性，通常省略，故说 στις πέντε（在五点）；一点则用 στη μία。"
       },
       "reviewIdentity": {
         "deckId": "words-connectors",
@@ -1719,7 +1694,7 @@
       "explanation": {
         "en": "Μέχρι marks the endpoint. Ο σταθμός becomes τον σταθμό here.",
         "ru": "Μέχρι обозначает конечную точку. Здесь ο σταθμός меняется на τον σταθμό.",
-        "zh": "Μέχρι 表示终点；ο σταθμός 在这里变为 τον σταθμό。"
+        "zh": "Μέχρι 表示时间或空间的终点，后接宾格：μέχρι τον σταθμό（直到车站）。Ο σταθμός 是主格；作为 μέχρι 的补足语时，冠词和名词变为 τον σταθμό。"
       },
       "alternatives": [
         "Περπατώ μέχρι τον σταθμό."

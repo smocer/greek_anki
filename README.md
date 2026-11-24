@@ -34,19 +34,19 @@ Correct stress is required. Missing, misplaced or extra accents are incorrect. C
 
 **Clock drill:** read a random analog clock and type the time in Greek. Times use five-minute steps on a 12-hour face. Check your answer, see the correct wording, then choose **Next clock** for another time. Spoken forms with **και**, **παρά**, **τέταρτο** and **μισή**, as well as numeric minute wording, are accepted; **είναι** is optional. Accents and feminine hour forms still matter. This drill runs indefinitely, keeps no progress or scores, and exits with the back button.
 
-Choose **Learn & repeat** for unfamiliar material, or **Review all** to check every card in the current filtered group. Both work with Flashcards and Hard mode, and keep separate saved sessions. Choose random order (default), Greek alphabetical order, or newest additions first.
+Choose **Learn & repeat** for unfamiliar material, or **Review all** to check every card in the current filtered group. Both work with Flashcards and Hard mode, and keep separate saved sessions. Choose random order (default), most frequent words first, or newest additions first.
 
 **Learn & repeat:** choose a count (default **15**) from due/new cards, or **All** to include every selected card. The moving window contains three learning cards plus reviews: **3 + 1**, **2 + 2**, or **1 + 3**. Reviews favour recent mistakes, with one coverage pick in every five selections. Weights are capped and decrease with repeated appearances. Optional reviews normally wait for eight intervening answers; if all candidates are cooling down, the oldest available card fills the slot. Tiny batches use the available words.
 
 **Review all:** each easy word is checked once. Difficult words return between other cards, including at the end of the batch. This mode always includes every card in the current filter, even cards not yet due.
 
-The progress bar tracks the **first pass**, counting each card once. Below it, **Follow-up** shows how many words still need practice and how many successful spaced checks remain. Familiar cards used to separate difficult-word checks are labelled **Spacing review**, with a countdown that includes the current card. This makes the extra practice visible without promising a fixed finish count: another mistake can add checks. The info button explains these counters; deferred words are listed separately.
+The progress bar tracks the **first pass**, counting each card once. Below it, **Follow-up** shows how many words still need practice and how many successful spaced checks remain. Familiar cards used to separate difficult-word checks are labelled **Spacing review**, with a countdown that includes the current card. This makes the extra practice visible without promising a fixed finish count: another mistake can add checks. The info button opens the full breakdown, mastery count and input rules; deferred words are listed separately. Long explanations scroll while the answer buttons stay visible.
 
 After a mistake, a word needs **two successful recalls after a gap**. A quick correction after seeing the answer is useful practice but does not finish the word. The gap is eight other answers, reduced for smaller available pools. Recent difficulty from previous sessions also triggers confirmation. After three failures, **Leave for later** lets you finish the rest; deferred cards stay due and the summary lists them separately from remembered cards.
 
 Back and page reload preserve the selected batch, answers, confirmation steps and review rotation. Another round starts only after finishing the current one. Saved sessions from earlier versions remain usable.
 
-**English / Русский** switches the interface, translations, explanations and pronunciation guides together. Russian explanations compare familiar cases, ты/Вы, grammatical gender and word roots with their Greek counterparts. Pronunciation guides are approximate aids.
+**English / Русский / 中文** switches the interface, translations, explanations and pronunciation guides together. Russian explanations compare familiar cases, ты/Вы, grammatical gender and word roots with their Greek counterparts. Pronunciation guides are approximate aids.
 
 ## Progress
 
@@ -60,6 +60,7 @@ Progress is saved in the current browser or native app. It survives ordinary upd
 
 The website needs internet to open or update. When an update is available, the main menu offers **Refresh app**. Practice sessions are never refreshed automatically. The native Android app also works offline.
 
+- [Word-frequency source and method](docs/word-frequency.md)
 - [Learning guide](docs/curriculum.md)
 - [Vocabulary filters and weeks](docs/vocabulary_metadata.md)
 - [Update the JSON dictionary](docs/dictionary.md)

@@ -81,13 +81,13 @@ void main() {
       await tester.ensureVisible(order);
       await tester.tap(order);
       await tester.pumpAndSettle();
-      await tapText(tester, 'Alphabetical');
+      await tapText(tester, 'Most frequent first');
       await tapText(tester, 'Flashcards');
       final screen = tester.widget<StudyScreen>(find.byType(StudyScreen));
       expect(screen.cards.length, screen.deck.cards.length);
       expect(screen.sessionLimit, isNull);
       expect(totalText, '${screen.deck.cards.length}');
-      expect(screen.cardOrder, CardOrder.alphabet);
+      expect(screen.cardOrder, CardOrder.frequency);
     },
   );
 

@@ -1,3 +1,4 @@
+import 'app_language.dart';
 import 'curriculum.dart';
 import 'greek_text.dart';
 import 'vocabulary.dart';
@@ -19,8 +20,12 @@ class WordSearch {
             card.displayedAnswer,
             ...card.alternatives,
             ...card.acceptedAnswers,
+            for (final language in AppLanguage.values) ...[
+              card.prompt.resolve(language),
+              for (final sense in card.senses) sense.resolve(language),
+            ],
             for (final form in card.forms) ...[form.greek, form.answerDisplay],
-          }.map(GreekText.searchKey).toList(),
+          }.map(_searchKey).toList(),
         ));
       }
     }
@@ -36,7 +41,7 @@ class WordSearch {
   List<VocabularyCard> get cards => [for (final entry in _entries) entry.card];
 
   List<VocabularyCard> find(String query) {
-    final key = GreekText.searchKey(query);
+    final key = _searchKey(query);
     if (key.isEmpty) return [];
     return [
       for (final entry in _entries)
@@ -45,3 +50,6 @@ class WordSearch {
     ];
   }
 }
+
+String _searchKey(String text) =>
+    GreekText.searchKey(text).replaceAll('ё', 'е');

@@ -27,11 +27,12 @@ class AppStrings {
 
   String get reference => _pick('Reference', 'Справочник', '参考资料');
   String get wordSearch => _pick('Word search', 'Поиск слов', '查找单词');
-  String get greekWord => _pick('Greek word', 'Слово по-гречески', '希腊语单词');
+  String get greekWord =>
+      _pick('Word or translation', 'Слово или перевод', '单词或译文');
   String get wordSearchHint => _pick(
-    'Search words, phrases and grammar. Enter all or part of a word; accents are optional.',
-    'Слова, фразы и грамматика · Слово или его часть · Ударения необязательны.',
-    '搜索单词、短语和语法。输入单词或其中一部分；可不输入重音。',
+    'Search in Greek, English, Russian or Chinese. Enter a word or part of it; Greek accents are optional.',
+    'Ищите по-гречески, по-русски, по-английски или по-китайски. Можно ввести часть слова без ударений.',
+    '可用希腊语、英语、俄语或中文搜索，支持部分词语；希腊语可省略重音。',
   );
   String get clearSearch => _pick('Clear search', 'Очистить поиск', '清除搜索');
   String get noSearchResults =>
@@ -121,7 +122,11 @@ class AppStrings {
   String get cardOrder => _pick('Card order', 'Порядок карточек', '词卡抽取顺序');
   String cardOrderTitle(CardOrder order) => switch (order) {
     CardOrder.random => _pick('Random', 'Случайный', '随机'),
-    CardOrder.alphabet => _pick('Alphabetical', 'По алфавиту', '按字母顺序'),
+    CardOrder.frequency => _pick(
+      'Most frequent first',
+      'Сначала частые',
+      '常用词优先',
+    ),
     CardOrder.addedTime => _pick('Newest first', 'Сначала новые', '按时间（最新优先）'),
   };
   String get invalidSessionCount => _pick(

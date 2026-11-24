@@ -152,7 +152,7 @@ void main() {
         key(),
         key(mode: StudyMode.flashcards),
         key(limit: 15),
-        key(order: CardOrder.alphabet),
+        key(order: CardOrder.frequency),
         key(deck: withCards(verbs.cards.take(10).toList())),
       }, hasLength(5));
     },

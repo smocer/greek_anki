@@ -102,13 +102,18 @@ class _Key extends StatelessWidget {
       child: InkWell(
         onTap: onTap,
         child: SizedBox(
-          height: 44,
+          height: 44 * MediaQuery.textScalerOf(context).scale(1).clamp(1, 1.3),
           child: Center(
             child: ExcludeSemantics(
               child: icon != null
                   ? Icon(icon, size: 21)
                   : Text(
                       label,
+                      // Keyboard glyphs must remain inside their touch keys;
+                      // the answer field and lesson text still scale fully.
+                      textScaler: MediaQuery.textScalerOf(
+                        context,
+                      ).clamp(maxScaleFactor: 1.3),
                       style: TextStyle(
                         fontSize: label.runes.length == 1 ? 23 : 13,
                         fontWeight: FontWeight.w400,

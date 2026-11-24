@@ -168,11 +168,6 @@
         "ru": "Существительное το πρωινό — завтрак. Прилагательное πρωινός — утренний; его мужская и женская формы не означают завтрак.",
         "zh": "中性名词 το πρωινό 表示早餐。形容词 πρωινός 表示早晨的；其阳性和阴性形式不表示早餐。"
       },
-      "contextExample": {
-        "en": "Το ___ είναι έτοιμο. — Breakfast is ready.",
-        "ru": "Το ___ είναι έτοιμο. — Завтрак готов.",
-        "zh": "Το ___ είναι έτοιμο. — 早餐准备好了。"
-      },
       "meaning": {
         "en": "Write the missing Greek word.",
         "ru": "Напишите только пропущенное слово.",
@@ -221,7 +216,12 @@
       "themes": [
         "time"
       ],
-      "answerDisplay": "η Δευτέρα"
+      "answerDisplay": "η Δευτέρα",
+      "explanation": {
+        "en": "Δευτέρα means Monday. Its name is linked to second: in the traditional sequence beginning with Sunday, Monday is day two. Τρίτη, Τετάρτη and Πέμπτη continue the sequence with third, fourth and fifth. Τη Δευτέρα means on Monday.",
+        "ru": "Δευτέρα — понедельник. Название связано со словом «вторая»: в традиционном счёте недели от воскресенья понедельник — второй день. Τρίτη, Τετάρτη и Πέμπτη продолжают ряд: третий, четвёртый и пятый дни. Τη Δευτέρα — «в понедельник».",
+        "zh": "Δευτέρα 是星期一，名称与“第二”有关：按传统从星期日算起，它是第二天。Τρίτη、Τετάρτη、Πέμπτη 分别对应第三、第四、第五天。Τη Δευτέρα 表示“在星期一”。"
+      }
     },
     {
       "id": "nov05-tuesday",
@@ -287,7 +287,12 @@
       "themes": [
         "time"
       ],
-      "answerDisplay": "η Παρασκευή"
+      "answerDisplay": "η Παρασκευή",
+      "explanation": {
+        "en": "Παρασκευή means Friday. The name originally referred to preparation for the Sabbath, which follows on Saturday. The ordinary noun παρασκευή still means preparation. Capitalisation distinguishes the weekday name in writing.",
+        "ru": "Παρασκευή — пятница. Исторически название означало подготовку к субботе, дню покоя в еврейской традиции. Обычное существительное παρασκευή до сих пор означает «приготовление, подготовка». Название дня недели пишется с заглавной буквы.",
+        "zh": "Παρασκευή 是星期五，名称原指为次日安息日所做的“准备”。普通名词 παρασκευή 仍可表示准备、制作；作为星期名称时首字母大写。可以把星期五记成“准备迎接周六的日子”。"
+      }
     },
     {
       "id": "nov05-saturday",
@@ -357,11 +362,6 @@
         "deckId": "words-descriptions",
         "cardId": "nov05-early"
       },
-      "contextExample": {
-        "en": "Ξυπνάω ___. — I wake up early.",
-        "ru": "Φεύγω ___. — Я ухожу рано.",
-        "zh": "Ήρθα ___. — 我来早了。"
-      },
       "explanation": {
         "en": "Νωρίς means early: Φεύγω νωρίς — I leave early. The opposite, late, is αργά.",
         "ru": "Νωρίς — «рано»: φεύγω νωρίς — «я ухожу рано». Противоположное слово — αργά, «поздно».",
@@ -396,11 +396,6 @@
       "reviewIdentity": {
         "deckId": "words-descriptions",
         "cardId": "nov05-late"
-      },
-      "contextExample": {
-        "en": "Φεύγω πολύ ___. — I leave very late.",
-        "ru": "Φτάνω ___. — Я приезжаю поздно.",
-        "zh": "Ήρθα ___. — 我来晚了。"
       },
       "explanation": {
         "en": "Αργά can mean late in time or slowly in speed: φεύγω αργά — I leave late; μιλάω αργά — I speak slowly.",
@@ -437,11 +432,6 @@
         "deckId": "words-descriptions",
         "cardId": "nov05-almost"
       },
-      "contextExample": {
-        "en": "Είναι ___ έτοιμο. — It is almost ready.",
-        "ru": "Είναι ___ έτοιμο. — Это почти готово.",
-        "zh": "Είμαι ___ έτοιμος. — 我差不多准备好了。"
-      },
       "explanation": {
         "en": "Σχεδόν means almost or nearly: σχεδόν κάθε μέρα — almost every day.",
         "ru": "Σχεδόν — «почти»: σχεδόν έτοιμο — «почти готово».",
@@ -476,11 +466,6 @@
       "reviewIdentity": {
         "deckId": "words-descriptions",
         "cardId": "nov05-usually"
-      },
-      "contextExample": {
-        "en": "___ πίνω καφέ το πρωί. — I usually drink coffee in the morning.",
-        "ru": "___ πίνω καφέ. — Обычно я пью кофе.",
-        "zh": "___ πίνω καφέ το πρωί. — 我通常早上喝咖啡。"
       },
       "explanation": {
         "en": "Συνήθως means usually and describes what happens most of the time.",
@@ -517,11 +502,6 @@
         "deckId": "words-descriptions",
         "cardId": "nov05-often"
       },
-      "contextExample": {
-        "en": "Πηγαίνω ___ στο πάρκο. — I often go to the park.",
-        "ru": "Πάω ___ εκεί. — Я часто туда хожу.",
-        "zh": "Πάω ___ στο σινεμά. — 我经常去看电影。"
-      },
       "explanation": {
         "en": "Συχνά means often or frequently: Τα λέμε συχνά — We talk often.",
         "ru": "Συχνά — «часто»: πάω συχνά εκεί — «я часто туда хожу». Противоположное слово — σπάνια, «редко».",
@@ -556,11 +536,6 @@
       "reviewIdentity": {
         "deckId": "words-descriptions",
         "cardId": "nov05-rarely"
-      },
-      "contextExample": {
-        "en": "Πηγαίνω ___ στο θέατρο. — I rarely go to the theatre.",
-        "ru": "Πάω ___ εκεί. — Я редко туда хожу.",
-        "zh": "Πάω ___ στο σινεμά. — 我很少去看电影。"
       },
       "explanation": {
         "en": "Σπάνια means rarely or seldom as an adverb. It does not change for gender: Βγαίνω σπάνια — I rarely go out.",
@@ -664,7 +639,12 @@
       "themes": [
         "food"
       ],
-      "answerDisplay": "το μεσημεριανό"
+      "answerDisplay": "το μεσημεριανό",
+      "explanation": {
+        "ru": "Το μεσημεριανό — обед, дневной приём пищи. Без такого употребления μεσημεριανός / μεσημεριανή / μεσημεριανό — прилагательное «полуденный, дневной». Сравните το πρωινό «завтрак» и το βραδινό «ужин»: названия еды связаны с частями дня.",
+        "en": "Το μεσημεριανό is lunch, the midday meal. The adjective μεσημεριανός / μεσημεριανή / μεσημεριανό means midday or relating to midday. Greek also uses related neuter nouns for the other meals: το πρωινό, breakfast, and το βραδινό, dinner.",
+        "zh": "Το μεσημεριανό 是午餐，与 μεσημέρι（中午）有关。Μεσημεριανός／μεσημεριανή／μεσημεριανό 也可作形容词“中午的、白天的”；作餐名时用中性。类似的还有 το πρωινό（早餐）、το βραδινό（晚餐）。"
+      }
     },
     {
       "id": "nov05-dinner",
@@ -686,7 +666,12 @@
       "themes": [
         "food"
       ],
-      "answerDisplay": "το βραδινό"
+      "answerDisplay": "το βραδινό",
+      "explanation": {
+        "ru": "Το βραδινό — ужин. Прилагательное βραδινός / βραδινή / βραδινό означает «вечерний»; артикль и роль слова позволяют отличить название еды. Вечер — το βράδυ.",
+        "en": "Το βραδινό means dinner or the evening meal. It is the neuter form of the adjective βραδινός / βραδινή / βραδινό, evening, used as a noun. Compare το βράδυ, the evening itself. The article and sentence structure help distinguish the meal from the adjective.",
+        "zh": "Το βραδινό 是晚餐，与 το βράδυ（晚上）相关。Βραδινός／βραδινή／βραδινό 作形容词时表示“晚上的”；作为餐名则用中性。须结合冠词和句中作用，区分“晚餐”与“晚上的”。"
+      }
     },
     {
       "id": "nov05-drink",
@@ -740,11 +725,6 @@
         "en": "Φορά counts an occurrence: μία φορά — once; δύο φορές — twice. It does not mean time on a clock, which is ώρα.",
         "ru": "Φορά обозначает отдельный случай или повторение: μία φορά — «один раз», δύο φορές — «два раза». Время на часах — ώρα, а не φορά.",
         "zh": "Φορά 用来表示次数：μία φορά（一次）、δύο φορές（两次）。钟表上的时间用 ώρα。"
-      },
-      "contextExample": {
-        "en": "Είναι η πρώτη ___. — It is the first time.",
-        "ru": "Είναι η πρώτη ___. — Это первый раз.",
-        "zh": "Είναι η πρώτη ___. — 这是第一次。"
       },
       "meaning": {
         "en": "Write the missing Greek word.",
@@ -949,11 +929,6 @@
         "ru": "Παρέα — компания друзей или совместное времяпрепровождение: πάμε παρέα — «пойдём вместе». Компания в смысле фирмы — εταιρεία.",
         "zh": "Παρέα 可指一群朋友，也可表示有人陪伴。Πάμε παρέα. 表示“我们一起去吧。”商业意义上的公司用 εταιρεία。"
       },
-      "contextExample": {
-        "en": "Η ___ μου είναι εδώ. — My group of friends is here.",
-        "ru": "Η ___ μου είναι εδώ. — Моя компания здесь.",
-        "zh": "Η ___ μου είναι εδώ. — 我的朋友们在这里。"
-      },
       "meaning": {
         "en": "Write the missing Greek word.",
         "ru": "Напишите только пропущенное слово.",
@@ -1047,9 +1022,9 @@
         "conversation"
       ],
       "explanation": {
-        "en": "Τίποτα means nothing in a negative sentence, usually together with δεν: Δεν θέλω τίποτα — I don’t want anything. In questions it can mean anything: Θέλεις τίποτα; — Do you want anything?",
+        "en": "Τίποτα means nothing in a negative sentence, usually together with δεν: Δεν θέλω τίποτα — I don’t want anything. In questions it can mean anything: Θέλεις τίποτα; — Do you want anything? Greek normally combines these negative words with δεν in a full negative statement. This is one negative meaning, not two negatives cancelling each other as in some English constructions.",
         "ru": "Τίποτα с отрицанием означает «ничего»: δεν θέλω τίποτα — «я ничего не хочу». В вопросе может означать «что-нибудь»: θέλεις τίποτα; — «ты хочешь что-нибудь?»",
-        "zh": "Τίποτα 在否定句中表示“什么也没有”，通常与 δεν 连用；在疑问句中可表示“有什么”。Τίποτε 是另一种形式。"
+        "zh": "Τίποτα／τίποτε 在否定句中与 δεν 配合：δεν θέλω τίποτα（我什么也不要）。这不是中文逻辑中的“否定两次变肯定”。疑问句中它可指不确定的东西：θέλεις τίποτα;（你要点什么吗？）。"
       },
       "contextExample": {
         "en": "Δεν θέλω ___. — I don’t want anything.",
@@ -1085,11 +1060,6 @@
       "reviewIdentity": {
         "deckId": "words-descriptions",
         "cardId": "nov05-day-after-tomorrow"
-      },
-      "contextExample": {
-        "en": "Φεύγω ___. — I am leaving the day after tomorrow.",
-        "ru": "Φεύγω ___. — Я уезжаю послезавтра.",
-        "zh": "Θα έρθω ___. — 我后天会来。"
       },
       "explanation": {
         "en": "Μεθαύριο means the day after tomorrow, one day after αύριο.",
@@ -1223,11 +1193,6 @@
         "ru": "Η ζέστη — жара, тепло как состояние: κάνει ζέστη — «жарко». Прилагательное «горячий» или «тёплый» имеет формы ζεστός, ζεστή, ζεστό.",
         "zh": "Η ζέστη 是名词，表示炎热或热天气：Κάνει ζέστη.（天气很热。）表示“热的、温暖的”时用形容词 ζεστός、ζεστή、ζεστό。"
       },
-      "contextExample": {
-        "en": "Κάνει ___. — It is hot.",
-        "ru": "Κάνει ___. — Жарко.",
-        "zh": "Κάνει ___. — 天气很热。"
-      },
       "meaning": {
         "en": "Write the missing Greek word.",
         "ru": "Напишите только пропущенное слово.",
@@ -1259,11 +1224,6 @@
         "en": "Το κρύο is cold or cold weather: Κάνει κρύο — It is cold. To describe a noun, use the adjective κρύος, κρύα, κρύο.",
         "ru": "Το κρύο — холод: κάνει κρύο — «холодно». Чтобы описать предмет, используйте прилагательное «холодный»: κρύος, κρύα, κρύο по родам.",
         "zh": "Το κρύο 是名词，表示寒冷或冷天气：Κάνει κρύο.（天气很冷。）修饰名词时用形容词 κρύος、κρύα、κρύο。"
-      },
-      "contextExample": {
-        "en": "Κάνει ___. — It is cold.",
-        "ru": "Κάνει ___. — Холодно.",
-        "zh": "Κάνει ___. — 天气很冷。"
       },
       "meaning": {
         "en": "Write the missing Greek word.",
@@ -1706,13 +1666,8 @@
       "answerDisplay": "το μπάνιο",
       "explanation": {
         "en": "Το μπάνιο can mean a bath, a swim or a bathroom. Κάνω μπάνιο can mean I bathe or I go swimming; context makes the meaning clear.",
-        "ru": "Το μπάνιο может означать ванну, купание или ванную комнату. Κάνω μπάνιο — «я моюсь» или «я купаюсь»; значение зависит от ситуации.",
+        "ru": "Το μπάνιο — ванна, ванная комната или купание. Κάνω μπάνιο означает «моюсь / принимаю ванну» либо «купаюсь»; например, στη θάλασσα уточняет купание в море. Это шире русского названия комнаты.",
         "zh": "Το μπάνιο 可指洗澡、游泳或浴室。Κάνω μπάνιο 可表示“我洗澡”或“我游泳”，具体意思由语境决定。"
-      },
-      "contextExample": {
-        "en": "Το ___ είναι δίπλα στην κουζίνα. — The bathroom is next to the kitchen.",
-        "ru": "Το ___ είναι δίπλα στην κουζίνα. — Ванная комната рядом с кухней.",
-        "zh": "Το ___ είναι δίπλα στην κουζίνα. — 浴室在厨房旁边。"
       },
       "meaning": {
         "en": "Write the missing Greek word.",
@@ -1767,11 +1722,6 @@
         "en": "Ραντεβού is an indeclinable neuter noun for an arranged meeting, appointment or romantic date: Έχω ραντεβού — I have an appointment.",
         "ru": "Το ραντεβού — заранее назначенная встреча, приём у специалиста или романтическое свидание. Существительное среднего рода, не склоняется: έχω ραντεβού — «у меня назначена встреча».",
         "zh": "Ραντεβού 是中性不变格名词，可指约好的会面、预约或恋爱约会。Έχω ραντεβού. 表示“我有个约会／预约”。"
-      },
-      "contextExample": {
-        "en": "Έχω ___ με τον γιατρό. — I have an appointment with the doctor.",
-        "ru": "Έχω ___ με τον γιατρό. — У меня назначена встреча с врачом.",
-        "zh": "Έχω ___ με τον γιατρό. — 我约好了去看医生。"
       },
       "meaning": {
         "en": "Write the missing Greek word.",
@@ -1884,11 +1834,6 @@
         "deckId": "words-descriptions",
         "cardId": "nov05-tonight"
       },
-      "contextExample": {
-        "en": "Θα βγούμε ___. — We will go out tonight.",
-        "ru": "Θα έρθω ___. — Я приду сегодня вечером.",
-        "zh": "Θα έρθω ___. — 我今晚会来。"
-      },
       "explanation": {
         "en": "Απόψε means tonight or this evening: Τα λέμε απόψε — See you tonight.",
         "ru": "Απόψε — «сегодня вечером» или «сегодня ночью». Обозначает вечер или ночь, относящиеся к текущему дню.",
@@ -1923,11 +1868,6 @@
       "reviewIdentity": {
         "deckId": "words-descriptions",
         "cardId": "nov05-seriously"
-      },
-      "contextExample": {
-        "en": "Μιλάω ___. — I am speaking seriously.",
-        "ru": "Μιλάω ___. — Я говорю серьёзно.",
-        "zh": "Μιλάω ___. — 我是认真的。"
       },
       "explanation": {
         "en": "Σοβαρά is an adverb meaning seriously. As a question, Σοβαρά; means Really? The adjective serious changes gender: σοβαρός, σοβαρή, σοβαρό.",
@@ -2094,11 +2034,6 @@
         "ru": "Το πιάτο — тарелка или приготовленное блюдо. Ένα πιάτο σούπα — «тарелка супа». Множественное число — τα πιάτα.",
         "zh": "Πιάτο 可指盘子或一道菜，如 ένα πιάτο σούπα（一份汤）。复数为 τα πιάτα。"
       },
-      "contextExample": {
-        "en": "Το ___ είναι στο τραπέζι. — The plate is on the table.",
-        "ru": "Το ___ είναι στο τραπέζι. — Тарелка на столе.",
-        "zh": "Το ___ είναι στο τραπέζι. — 盘子在桌上。"
-      },
       "meaning": {
         "en": "Write the missing Greek word.",
         "ru": "Напишите только пропущенное слово.",
@@ -2190,11 +2125,6 @@
         "en": "Κουζίνα means a kitchen or a cuisine: ελληνική κουζίνα — Greek cuisine. It can also refer to a cooker.",
         "ru": "Η κουζίνα — кухня как помещение или кулинарная традиция: ελληνική κουζίνα — «греческая кухня». Также может означать кухонную плиту.",
         "zh": "Κουζίνα 可指厨房或菜系，如 ελληνική κουζίνα（希腊菜）；也可指炉灶。"
-      },
-      "contextExample": {
-        "en": "Η ___ είναι μικρή. — The kitchen is small.",
-        "ru": "Η ___ είναι μικρή. — Кухня маленькая.",
-        "zh": "Η ___ είναι μικρή. — 厨房很小。"
       },
       "meaning": {
         "en": "Write the missing Greek word.",
@@ -2290,13 +2220,8 @@
       "answerDisplay": "η κοπέλα",
       "explanation": {
         "en": "A girl or young woman; can also mean girlfriend in context. Compare κορίτσι, often a child.",
-        "ru": "Девушка, молодая женщина; по контексту также девушка-партнёр. Κορίτσι часто означает девочку.",
+        "ru": "Η κοπέλα — молодая женщина, девушка. Η κοπέλα μου обычно означает «моя девушка» в романтическом смысле. Для ребёнка женского пола обычно говорят το κορίτσι: грамматический средний род не означает мужской пол или отсутствие пола.",
         "zh": "女孩或年轻女子；在语境中也可指女朋友。Κορίτσι 常指小女孩。"
-      },
-      "contextExample": {
-        "en": "Αυτή είναι η ___ μου. — This is my girlfriend.",
-        "ru": "Αυτή είναι η ___ μου. — Это моя девушка.",
-        "zh": "Αυτή είναι η ___ μου. — 这是我的女朋友。"
       },
       "meaning": {
         "en": "Write the missing Greek word.",
@@ -2373,11 +2298,6 @@
         "ru": "Счёт к оплате или учётная запись / банковский счёт.",
         "zh": "应付账单，也可指账户。"
       },
-      "contextExample": {
-        "en": "Ο ___ είναι είκοσι ευρώ. — The bill is twenty euros.",
-        "ru": "Ο ___ είναι είκοσι ευρώ. — Счёт на двадцать евро.",
-        "zh": "Ο ___ είναι είκοσι ευρώ. — 账单金额是二十欧元。"
-      },
       "meaning": {
         "en": "Write the missing Greek word.",
         "ru": "Напишите только пропущенное слово.",
@@ -2450,11 +2370,6 @@
         "deckId": "words-descriptions",
         "cardId": "nov05-left"
       },
-      "contextExample": {
-        "en": "Στρίψε ___. — Turn left.",
-        "ru": "Στρίψε ___. — Поверни налево.",
-        "zh": "Στρίψε ___. — 向左转。"
-      },
       "explanation": {
         "en": "Αριστερά means left or to the left as an adverb: Στρίψε αριστερά — Turn left. It does not change for gender.",
         "ru": "Αριστερά означает и положение «слева», и направление «налево»: είναι αριστερά — «это слева», στρίψε αριστερά — «поверни налево».",
@@ -2490,11 +2405,6 @@
         "deckId": "words-descriptions",
         "cardId": "nov05-right"
       },
-      "contextExample": {
-        "en": "Στρίψε ___. — Turn right.",
-        "ru": "Στρίψε ___. — Поверни направо.",
-        "zh": "Στρίψε ___. — 向右转。"
-      },
       "explanation": {
         "en": "Δεξιά means right or to the right as an adverb: Στρίψε δεξιά — Turn right. It does not change for gender.",
         "ru": "Δεξιά означает и положение «справа», и направление «направо»: είναι δεξιά — «это справа», στρίψε δεξιά — «поверни направо».",
@@ -2529,11 +2439,6 @@
       "reviewIdentity": {
         "deckId": "words-descriptions",
         "cardId": "nov05-straight"
-      },
-      "contextExample": {
-        "en": "Πήγαινε ___. — Go straight ahead.",
-        "ru": "Πήγαινε ___. — Иди прямо.",
-        "zh": "Πήγαινε ___. — 一直向前走。"
       },
       "explanation": {
         "en": "Ευθεία means straight ahead when giving directions: Πήγαινε ευθεία — Go straight ahead. In this use it is an adverb.",
@@ -2789,7 +2694,12 @@
       "answerDisplay": "ο ΦΠΑ",
       "acceptedAnswers": [
         "Φ.Π.Α."
-      ]
+      ],
+      "explanation": {
+        "ru": "Ο ΦΠΑ — греческое сокращение Φόρος Προστιθέμενης Αξίας, «налог на добавленную стоимость». Это аналог русского НДС. На ценниках и чеках показывает, что речь о налоге, а не о скидке.",
+        "en": "Ο ΦΠΑ stands for Φόρος Προστιθέμενης Αξίας, value-added tax: the Greek equivalent of VAT. On a receipt or price label it refers to tax, not a discount.",
+        "zh": "ΦΠΑ 是 Φόρος Προστιθέμενης Αξίας 的缩写，意思是“增值税”，相当于英语 VAT。价签或收据上的 ΦΠΑ 指税款，不是折扣。缩写通常配阳性冠词 ο。"
+      }
     },
     {
       "id": "nov05-without",
@@ -2939,7 +2849,12 @@
       ],
       "themes": [
         "conversation"
-      ]
+      ],
+      "explanation": {
+        "ru": "Εξαρτώμαι από — «завишу от»: εξαρτώμαι από εσένα — «завишу от тебя». После από нужен винительный падеж, хотя русский предлог «от» требует родительного. Краткий ответ εξαρτάται — «зависит от обстоятельств».",
+        "en": "Εξαρτώμαι takes από: εξαρτώμαι από εσένα — I depend on you. English uses on, but Greek uses από followed by the accusative. The short answer Εξαρτάται means It depends. The -μαι ending does not mean that the English translation must be passive.",
+        "zh": "Εξαρτώμαι από 表示“我依赖于／取决于”：εξαρτώμαι από εσένα（我依赖你）。Από 后接宾格，代词使用强式 εσένα。单独回答 εξαρτάται 时常相当于中文“看情况”。"
+      }
     },
     {
       "id": "nov05-birthday",
@@ -2964,7 +2879,7 @@
       "answerDisplay": "τα γενέθλια",
       "explanation": {
         "en": "Τα γενέθλια means birthday and is always plural in this sense: Έχω γενέθλια σήμερα — It is my birthday today.",
-        "ru": "Τα γενέθλια — день рождения. В этом значении слово всегда стоит во множественном числе: έχω γενέθλια σήμερα — «у меня сегодня день рождения».",
+        "ru": "Τα γενέθλια — день рождения. По-гречески это множественное число: έχω γενέθλια — «у меня день рождения». В γενέθλιά μου появляется второй знак ударения: безударное μου примыкает к слову, и сочетанию нужен дополнительный акцент.",
         "zh": "Τα γενέθλια 表示生日，这个意思使用复数形式。Έχω γενέθλια σήμερα. 表示“今天是我的生日”。"
       }
     },
@@ -2996,11 +2911,6 @@
       "reviewIdentity": {
         "deckId": "words-descriptions",
         "cardId": "nov05-sometime"
-      },
-      "contextExample": {
-        "en": "Θα πάω εκεί ___. — I will go there sometime.",
-        "ru": "___ θα πάω εκεί. — Когда-нибудь я туда поеду.",
-        "zh": "___ έμενα στην Αθήνα. — 我曾经住在雅典。"
       },
       "meaning": {
         "en": "Write the missing Greek word.",
@@ -4552,7 +4462,12 @@
       },
       "themes": [
         "conversation"
-      ]
+      ],
+      "explanation": {
+        "ru": "Μαζί μου — «со мной». Μαζί сочетается со слабой формой родительного: μαζί σου — «с тобой», μαζί μας — «с нами». После самого предлога με нужна сильная форма: με εμένα. Нельзя механически заменять вместе с на одно и то же сочетание местоимения.",
+        "en": "Μαζί takes a short genitive pronoun: μαζί μου — with me; μαζί σου — with you; μαζί μας — with us. After the preposition με itself, use a strong object form: με εμένα. English me stays the same, but Greek chooses the form according to the construction.",
+        "zh": "Μαζί μου 表示“和我一起”。Μαζί 可接弱式属格代词：μαζί σου（和你一起）、μαζί μας（和我们一起）。若直接使用介词 με，则用强式，如 με εμένα（和我）；不能把两种结构中的代词机械互换。"
+      }
     },
     {
       "id": "nov05-practice-by-card",
@@ -4586,7 +4501,12 @@
       },
       "themes": [
         "conversation"
-      ]
+      ],
+      "explanation": {
+        "ru": "Устойчивое «процентов»: δέκα τοις εκατό — «десять процентов». Τοις — сохранившаяся в выражении древняя форма дательного множественного числа. Это не новая современная модель склонения, которую нужно переносить на другие слова.",
+        "en": "A fixed expression meaning percent: δέκα τοις εκατό — ten percent. Τοις preserves an ancient dative plural article. Modern Greek no longer has a productive dative case, so learn this expression as a unit rather than copying τοις into ordinary noun phrases.",
+        "zh": "Τοις εκατό 是表示百分比的固定说法，如 δέκα τοις εκατό（百分之十）。Τοῖς／τοις 是保留在这个表达里的古希腊语与格复数形式。现代初学者把整个短语一起记即可，不必据此给普通名词新增一种现代变格模式。"
+      }
     },
     {
       "id": "nov05-practice-never-mind",
@@ -4712,7 +4632,7 @@
       "explanation": {
         "en": "Γενέθλια is plural. Before the unstressed σου it takes an extra accent: γενέθλιά σου.",
         "ru": "Γενέθλια — множественное число. Перед безударным σου добавляется второе ударение: γενέθλιά σου.",
-        "zh": "Γενέθλια 是复数。在非重读的 σου 前要加第二个重音：γενέθλιά σου。"
+        "zh": "Γενέθλια 表示生日时用复数：τα γενέθλια。后接弱读的 σου 时写 γενέθλιά σου，多出的重音帮助整个词组满足希腊语重音规则；不是生日变成了另一种形式。"
       }
     },
     {
@@ -4747,7 +4667,12 @@
       },
       "themes": [
         "time"
-      ]
+      ],
+      "explanation": {
+        "en": "Literally how many do we have today? The understood feminine plural word is μέρες (days). It is a conventional way to ask for the date, not how many objects someone has. Τι μέρα είναι; asks which weekday it is.",
+        "ru": "Разговорный вопрос «какое сегодня число?». Буквально — «сколько у нас сегодня?», с подразумеваемыми днями месяца; поэтому πόσες имеет женскую форму. Ответом будет число месяца, а не день недели.",
+        "zh": "Πόσες έχουμε σήμερα; 是问“今天几号？”的惯用说法，字面近似“今天我们有多少？”，省略了“日子”μέρες，因此 πόσες 用阴性复数。回答月份中的日期；询问星期几通常说 τι μέρα είναι σήμερα;。"
+      }
     },
     {
       "id": "nov05-practice-long-duration",
@@ -4815,7 +4740,7 @@
       "explanation": {
         "en": "Age uses the genitive χρονών. Duration uses χρόνια: δύο χρόνια = for two years.",
         "ru": "Возраст: родительный падеж χρονών. Длительность: χρόνια — например, δύο χρόνια, «два года».",
-        "zh": "年龄用属格 χρονών；持续时间用 χρόνια，如 δύο χρόνια 表示两年。"
+        "zh": "Πόσων χρονών είσαι; 是“你几岁？”。年龄用属格 χρονών，例如 είμαι δέκα χρονών（我十岁）；描述持续时间通常用 χρόνια，如 δέκα χρόνια（十年）。中文同用数字，希腊语因结构不同而选不同的格。"
       }
     },
     {
@@ -4860,7 +4785,12 @@
       },
       "themes": [
         "time"
-      ]
+      ],
+      "explanation": {
+        "en": "Greek can express in January with the month in the accusative and its article: τον Ιανουάριο. No separate word for in is needed. The dictionary form is ο Ιανουάριος.",
+        "ru": "Τον Ιανουάριο — «в январе»: по-гречески для обозначения времени достаточно месяца в винительном падеже с артиклем, отдельный предлог не нужен. Словарная форма — ο Ιανουάριος; в винительном исчезает конечное -ς.",
+        "zh": "希腊语可直接用冠词加月份的宾格表示“在某月”：τον Ιανουάριο（一月）。不必另外加对应中文“在”的介词。词典中的主格是 ο Ιανουάριος，宾格去掉名词末尾的 ς。"
+      }
     },
     {
       "id": "nov05-practice-on-weekday",
@@ -4877,7 +4807,12 @@
       },
       "themes": [
         "time"
-      ]
+      ],
+      "explanation": {
+        "en": "Greek can express on Monday with the weekday in the accusative and its article: τη(ν) Δευτέρα. No separate word for on is needed. For a repeated schedule, τις Δευτέρες means on Mondays.",
+        "ru": "Την Δευτέρα — «в понедельник»: название дня стоит в винительном падеже с артиклем, без отдельного предлога. Для повторяющегося расписания используется множественное число: τις Δευτέρες — «по понедельникам».",
+        "zh": "Τη(ν) Δευτέρα 表示“在星期一”，使用冠词和星期名称的宾格，不必另加对应中文“在”的介词。表示反复的日程时，可用复数 τις Δευτέρες（每逢星期一）。"
+      }
     },
     {
       "id": "nov05-practice-nothing-negative",
@@ -4894,7 +4829,12 @@
       },
       "themes": [
         "conversation"
-      ]
+      ],
+      "explanation": {
+        "en": "Δεν and τίποτα work together to express one negation: I do not want anything / I want nothing. This is normal Greek, not an English-style double negative that reverses the meaning.",
+        "ru": "Как в русском «ничего не хочу», отрицательное слово τίποτα употребляется вместе с отрицанием перед глаголом: δεν θέλω τίποτα. Вместе они выражают одно отрицание. В вопросе τίποτα может означать «что-нибудь»: θέλεις τίποτα; — «хочешь что-нибудь?»",
+        "zh": "Δεν 和 τίποτα 共同表达一次否定：“我什么也不想要”。这是正常的希腊语结构，不是把两个否定抵消成肯定。可整体记作 δεν…τίποτα，对应中文“什么也不……”。"
+      }
     },
     {
       "id": "nov05-practice-thousands",
