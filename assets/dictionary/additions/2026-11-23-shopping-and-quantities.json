@@ -1725,7 +1725,8 @@
       ],
       "themes": [
         "conversation",
-        "verbB1"
+        "verbB1",
+        "verbB2"
       ],
       "alternatives": [
         "βοηθώ"
@@ -1903,6 +1904,9 @@
       ],
       "themes": [
         "time"
+      ],
+      "alternatives": [
+        "εφέτος"
       ]
     },
     {
@@ -2055,7 +2059,10 @@
       ],
       "alternatives": [
         "μοσχαρίσια",
-        "μοσχαρίσιο"
+        "μοσχαρίσιο",
+        "μοσχαρήσιος",
+        "μοσχαρήσια",
+        "μοσχαρήσιο"
       ]
     },
     {
@@ -2327,9 +2334,7 @@
         "conversation"
       ],
       "acceptedAnswers": [
-        "Μπορώ να σας μιλώ στον ενικό;",
-        "Μπορώ να σου μιλάω στον ενικό;",
-        "Μπορώ να σου μιλώ στον ενικό;"
+        "Μπορώ να σας μιλώ στον ενικό;"
       ]
     },
     {
@@ -2350,7 +2355,9 @@
         "food"
       ],
       "acceptedAnswers": [
-        "Πόσο καφέ θέλεις εσύ;"
+        "Πόσο καφέ θέλεις εσύ;",
+        "Πόσον καφέ θέλεις;",
+        "Πόσον καφέ θέλεις εσύ;"
       ]
     },
     {
@@ -2387,9 +2394,6 @@
       },
       "themes": [
         "food"
-      ],
-      "acceptedAnswers": [
-        "Πόσοι χυμοί έχει;"
       ]
     },
     {
@@ -2513,18 +2517,18 @@
       ]
     },
     {
-      "id": "nov25-plural-fast-students",
+      "id": "nov25-plural-fast-athletes",
       "collection": "grammar-gender",
-      "greek": "Βλέπω τους γρήγορους μαθητές.",
+      "greek": "Βλέπω τους γρήγορους αθλητές.",
       "prompt": {
-        "en": "I see the fast pupils. (male or mixed group)",
-        "ru": "Вижу быстрых учеников. (мужской род или смешанная группа)",
-        "zh": "我看见那些动作快的学生。（男性或男女混合）"
+        "en": "I see the fast athletes. (male or mixed group)",
+        "ru": "Вижу быстрых спортсменов. (мужчины или смешанная группа)",
+        "zh": "我看见那些速度快的运动员。（男性或男女混合）"
       },
       "pronunciation": {
-        "en": "VLE-po tus GHRI-gho-rus ma-thi-TES",
-        "ru": "ВЛЭ-по тус ГРИ-го-рус ма-ти-ТЭС",
-        "zh": "VLE-po tus GHRI-gho-rus ma-thi-TES"
+        "en": "VLE-po tus GHRI-gho-rus a-thli-TES",
+        "ru": "ВЛЭ-по тус ГРИ-го-рус а-тли-ТЭС",
+        "zh": "VLE-po tus GHRI-gho-rus a-thli-TES"
       },
       "themes": [
         "classroom"
