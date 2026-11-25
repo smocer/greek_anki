@@ -1,0 +1,3165 @@
+{
+  "schemaVersion": 1,
+  "addedWeek": "2026-11-23",
+  "words": [
+    {
+      "id": "nov25-human",
+      "collection": "words-nouns",
+      "greek": "άνθρωπος",
+      "prompt": {
+        "en": "Human being / person",
+        "ru": "Человек",
+        "zh": "人"
+      },
+      "pronunciation": {
+        "en": "AN-thro-pos",
+        "ru": "АН-тро-пос",
+        "zh": "AN-thro-pos"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "people"
+      ],
+      "answerDisplay": "ο άνθρωπος",
+      "explanation": {
+        "en": "Άνθρωπος means a human being, not specifically a man; its grammatical gender is masculine. The plural is άνθρωποι (people). Compare ανθρωπολογία (anthropology), the study of humans.",
+        "ru": "Άνθρωπος — человек любого пола; грамматический род слова мужской. В знакомом слове ανθρωπολογία — «антропология» — тот же корень ανθρωπο- со значением «человек».",
+        "zh": "Άνθρωπος 指“人”，不专指男性；语法上是阳性，所以用 ο άνθρωπος。复数 άνθρωποι 是“人们”，与表示“男人”的 άντρας 区分。"
+      }
+    },
+    {
+      "id": "nov25-flour",
+      "collection": "words-nouns",
+      "greek": "αλεύρι",
+      "prompt": {
+        "en": "Flour",
+        "ru": "Мука",
+        "zh": "面粉"
+      },
+      "pronunciation": {
+        "en": "a-LEV-ri",
+        "ru": "а-ЛЭВ-ри",
+        "zh": "a-LEV-ri"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "food"
+      ],
+      "answerDisplay": "το αλεύρι",
+      "explanation": {
+        "en": "Αλεύρι is flour, not a flower. A traditional rhyming joke goes «Πες αλεύρι, ο τάδε σε γυρεύει» — “Say flour; so-and-so is looking for you”. The rhyme αλεύρι / γυρεύει (flour / is looking for) makes the word memorable; this is wordplay, not its origin.",
+        "ru": "Обычно вещественное существительное: αλεύρι — «мука». В словаре записана шуточная рифма «Πες αλεύρι, ο τάδε σε γυρεύει» — «Скажи “мука”: такой-то тебя ищет»; вместо ο τάδε подставляют имя. Игра держится на созвучии αλεύρι — «мука» и γυρεύει — «ищет».",
+        "zh": "Αλεύρι 是做面包用的面粉，通常当作不可数的原料。希腊语有逗人玩的押韵说法 πες αλεύρι, ο τάδε σε γυρεύει（说“面粉”——某人在找你）；后半句可以换成人名。"
+      }
+    },
+    {
+      "id": "nov25-alcohol",
+      "collection": "words-nouns",
+      "greek": "αλκοόλ",
+      "prompt": {
+        "en": "Alcohol",
+        "ru": "Алкоголь",
+        "zh": "酒精／酒类"
+      },
+      "pronunciation": {
+        "en": "al-ko-OL",
+        "ru": "ал-ко-ОЛ",
+        "zh": "al-ko-OL"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "food"
+      ],
+      "answerDisplay": "το αλκοόλ",
+      "explanation": {
+        "en": "Αλκοόλ is a borrowed neuter noun whose ending does not change. It can mean alcohol itself or alcoholic drinks collectively; ποτό means a drink.",
+        "ru": "Το αλκοόλ — «алкоголь», слово не меняется по падежам. Знакомое русское «алкоголь» и греческое слово пришли через европейские языки из арабского al-kuhl; первоначально так называли порошок сурьмы для подведения глаз.",
+        "zh": "这是不变格的中性借词：το αλκοόλ（酒精），χωρίς αλκοόλ（不含酒精）。两个 ο 分开读，重音在最后一个音节；酒类的名称通常另用具体的酒名。"
+      }
+    },
+    {
+      "id": "nov25-detergent",
+      "collection": "words-nouns",
+      "greek": "απορρυπαντικό",
+      "prompt": {
+        "en": "Detergent",
+        "ru": "Моющее средство",
+        "zh": "洗涤剂"
+      },
+      "pronunciation": {
+        "en": "a-po-ri-pan-ti-KO",
+        "ru": "а-по-ри-пан-ти-КО",
+        "zh": "a-po-ri-pan-ti-KO"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "home"
+      ],
+      "answerDisplay": "το απορρυπαντικό",
+      "explanation": {
+        "en": "This long word becomes easier beside ρυπαίνω (I pollute/soil) and απορρύπανση (removing pollution): απορρυπαντικό is something that removes dirt. It can be washing powder, washing-up liquid or another cleaning product.",
+        "ru": "Связано с ρυπαίνω — «загрязняю» и απορρύπανση — «очистка от загрязнений»: название средства буквально напоминает о его задаче. Απορρυπαντικό για τα πιάτα — «средство для посуды»; для стирки добавляют για τα ρούχα — «для одежды».",
+        "zh": "Απορρυπαντικό 指洗衣、洗碗等用的洗涤剂。它与 ρυπαίνω（弄脏、污染）同族，前面的 απο- 表示去除，可以联想“把脏东西去掉”；双写的 ρ 不需要读两遍。"
+      }
+    },
+    {
+      "id": "nov25-result",
+      "collection": "words-nouns",
+      "greek": "αποτέλεσμα",
+      "prompt": {
+        "en": "Result",
+        "ru": "Результат",
+        "zh": "结果"
+      },
+      "pronunciation": {
+        "en": "a-po-TE-lez-ma",
+        "ru": "а-по-ТЭ-лэз-ма",
+        "zh": "a-po-TE-lez-ma"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "classroom"
+      ],
+      "answerDisplay": "το αποτέλεσμα",
+      "explanation": {
+        "en": "Το αποτέλεσμα means the result; plural τα αποτελέσματα. Notice -μα becoming -ματα, as in μάθημα → μαθήματα (lesson → lessons).",
+        "ru": "Το αποτέλεσμα — «результат», τα αποτελέσματα — «результаты»: у слов на -μα во множественном числе появляется -ματα. Родственное αποτελεσματικός — «эффективный», то есть дающий нужный результат.",
+        "zh": "Αποτέλεσμα 是“结果”，同族的 αποτελεσματικός 是“有效的”——能产生预期结果。复数 αποτελέσματα 常用于考试成绩、检验结果或比赛结果。"
+      }
+    },
+    {
+      "id": "nov25-receipt",
+      "collection": "words-nouns",
+      "greek": "απόδειξη",
+      "prompt": {
+        "en": "Receipt / proof",
+        "ru": "Чек / доказательство",
+        "zh": "收据／证明"
+      },
+      "pronunciation": {
+        "en": "a-PO-dhi-ksi",
+        "ru": "а-ПО-ди-кси",
+        "zh": "a-PO-dhi-ksi"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "conversation"
+      ],
+      "answerDisplay": "η απόδειξη",
+      "explanation": {
+        "en": "A receipt and a proof share one Greek word: απόδειξη. A receipt is written proof of a transaction; the related verb αποδεικνύω means “I prove”.",
+        "ru": "Απόδειξη — и «доказательство», и «чек»: чек подтверждает, что вы заплатили. Не путайте с λογαριασμός — «счёт», где указано, сколько нужно заплатить.",
+        "zh": "Απόδειξη 既指“证明、证据”，也指付款后拿到的“收据”：收据就是付过钱的证明。它与 αποδεικνύω（证明）同族；不要和 λογαριασμός（账单）混淆，账单告诉你该付多少，收据说明已经收款。"
+      }
+    },
+    {
+      "id": "nov25-egg",
+      "collection": "words-nouns",
+      "greek": "αυγό",
+      "prompt": {
+        "en": "Egg",
+        "ru": "Яйцо",
+        "zh": "蛋／鸡蛋"
+      },
+      "pronunciation": {
+        "en": "av-GHO",
+        "ru": "ав-ГО",
+        "zh": "av-GHO"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "food"
+      ],
+      "answerDisplay": "το αυγό",
+      "alternatives": [
+        "αβγό"
+      ],
+      "acceptedAnswers": [
+        "το αβγό"
+      ],
+      "explanation": {
+        "en": "Αυγό and αβγό are accepted spellings of the same word, pronounced alike. The plural αυγά means eggs; the article το marks the singular noun as neuter.",
+        "ru": "Το αυγό — «яйцо», τα αυγά — «яйца». Написание αβγό тоже правильное; сочетание αυ перед γ произносится как «ав».",
+        "zh": "单数 το αυγό（一个蛋），复数 τα αυγά（蛋）。在食品语境中通常指鸡蛋；还可联想 αυγολέμονο（蛋柠檬汁酱），由 αυγό（蛋）和 λεμόνι（柠檬）组成。"
+      }
+    },
+    {
+      "id": "nov25-pear",
+      "collection": "words-nouns",
+      "greek": "αχλάδι",
+      "prompt": {
+        "en": "Pear",
+        "ru": "Груша",
+        "zh": "梨"
+      },
+      "pronunciation": {
+        "en": "akh-LA-dhi",
+        "ru": "ах-ЛА-ди",
+        "zh": "akh-LA-dhi"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "food"
+      ],
+      "answerDisplay": "το αχλάδι",
+      "explanation": {
+        "en": "One pear is το αχλάδι; several pears are τα αχλάδια. The final -ι becomes -ια in the plural.",
+        "ru": "Το αχλάδι — «груша», τα αχλάδια — «груши». В греческом это средний род, хотя русское слово женского рода.",
+        "zh": "Το αχλάδι 是梨，复数 τα αχλάδια。词尾 -ι 属于中性名词的常见形式；记名词时可把冠词一起记住。"
+      }
+    },
+    {
+      "id": "nov25-shift",
+      "collection": "words-nouns",
+      "greek": "βάρδια",
+      "prompt": {
+        "en": "Work shift",
+        "ru": "Рабочая смена",
+        "zh": "工作班次"
+      },
+      "pronunciation": {
+        "en": "VAR-dhya",
+        "ru": "ВАР-дья",
+        "zh": "VAR-dhya"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "time"
+      ],
+      "answerDisplay": "η βάρδια",
+      "explanation": {
+        "en": "A βάρδια is a work shift or a watch on a ship. The word came from Venetian vardia: picture one group taking over when the previous group's watch ends.",
+        "ru": "Βάρδια — рабочая смена или вахта. Слово пришло из венецианского vardia: связь с караулом помогает запомнить и ночную вахту, и смену на работе. Нормальное сочетание: νυχτερινή βάρδια — «ночная смена».",
+        "zh": "Βάρδια 指工作或值守的“班”：νυχτερινή βάρδια 是“夜班”。它借自威尼斯语 vardia，与守卫、值守有关，所以可以想象按班轮换的守卫。"
+      }
+    },
+    {
+      "id": "nov25-apricot",
+      "collection": "words-nouns",
+      "greek": "βερίκοκο",
+      "prompt": {
+        "en": "Apricot",
+        "ru": "Абрикос",
+        "zh": "杏"
+      },
+      "pronunciation": {
+        "en": "ve-RI-ko-ko",
+        "ru": "вэ-РИ-ко-ко",
+        "zh": "ve-RI-ko-ko"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "food"
+      ],
+      "answerDisplay": "το βερίκοκο",
+      "explanation": {
+        "en": "An apricot is το βερίκοκο; a peach is το ροδάκινο. Keep the two fruit names separate even though both have a stone inside.",
+        "ru": "Το βερίκοκο — «абрикос», τα βερίκοκα — «абрикосы». Ударение в единственном числе на втором слоге.",
+        "zh": "Το βερίκοκο 是杏，复数 τα βερίκοκα。重音在 ρί；注意它与 ροδάκινο（桃）是两种不同水果。"
+      }
+    },
+    {
+      "id": "nov25-vodka",
+      "collection": "words-nouns",
+      "greek": "βότκα",
+      "prompt": {
+        "en": "Vodka",
+        "ru": "Водка",
+        "zh": "伏特加"
+      },
+      "pronunciation": {
+        "en": "VOT-ka",
+        "ru": "ВОТ-ка",
+        "zh": "VOT-ka"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "food"
+      ],
+      "answerDisplay": "η βότκα",
+      "explanation": {
+        "en": "Βότκα is easy to recognize from “vodka”, but Greek assigns it feminine gender: η βότκα. Compare neuter το ουίσκι (whisky).",
+        "ru": "Η βότκα — «водка»: знакомое заимствование, но в греческом пишется τκ, а не δκ. Слово женского рода.",
+        "zh": "Η βότκα 是伏特加，希腊语把这个借词作为阴性名词。这里的 τκ 连读，不要在两个辅音之间额外加元音。"
+      }
+    },
+    {
+      "id": "nov25-gram",
+      "collection": "words-nouns",
+      "greek": "γραμμάριο",
+      "prompt": {
+        "en": "Gram",
+        "ru": "Грамм",
+        "zh": "克（重量单位）"
+      },
+      "pronunciation": {
+        "en": "ghra-MA-ri-o",
+        "ru": "гра-МА-ри-о",
+        "zh": "ghra-MA-ri-o"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "food"
+      ],
+      "answerDisplay": "το γραμμάριο",
+      "explanation": {
+        "en": "A γραμμάριο is one gram; plural γραμμάρια. On a shopping list, διακόσια γραμμάρια means two hundred grams; the number agrees with a neuter plural noun.",
+        "ru": "Το γραμμάριο — «грамм», τα γραμμάρια — «граммы». На ценниках и упаковках обычно сокращают до γρ.; χίλια γραμμάρια — «тысяча граммов», то есть ένα κιλό — «килограмм».",
+        "zh": "Το γραμμάριο 是“克”，复数 τα γραμμάρια；χίλια γραμμάρια（1000克）就是 ένα κιλό（一千克）。购物时可说 διακόσια γραμμάρια τυρί（两百克奶酪）。"
+      }
+    },
+    {
+      "id": "nov25-aisle",
+      "collection": "words-nouns",
+      "greek": "διάδρομος",
+      "prompt": {
+        "en": "Corridor / aisle",
+        "ru": "Коридор / проход",
+        "zh": "走廊／过道"
+      },
+      "pronunciation": {
+        "en": "DHI-a-dhro-mos",
+        "ru": "ДИ-а-дро-мос",
+        "zh": "DHI-a-dhro-mos"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "places"
+      ],
+      "answerDisplay": "ο διάδρομος",
+      "explanation": {
+        "en": "Διάδρομος can be a corridor or the aisle between supermarket shelves. Compare δρόμος (road): both words suggest a route you can move along.",
+        "ru": "Διάδρομος — коридор, проход между магазинными полками, а также взлётно-посадочная полоса. Для памяти сравните δρόμος — «дорога»: в обоих словах есть идея пути, по которому движутся.",
+        "zh": "Διάδρομος 可以是楼里的走廊，也可以是超市或车厢中的过道。它与 δρόμος（路）同族，可以把过道想成建筑内部的小路；不是商品所在的货架本身。"
+      }
+    },
+    {
+      "id": "nov25-dialogue",
+      "collection": "words-nouns",
+      "greek": "διάλογος",
+      "prompt": {
+        "en": "Dialogue",
+        "ru": "Диалог",
+        "zh": "对话"
+      },
+      "pronunciation": {
+        "en": "DHI-a-lo-ghos",
+        "ru": "ДИ-а-ло-гос",
+        "zh": "DHI-a-lo-ghos"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "classroom"
+      ],
+      "answerDisplay": "ο διάλογος",
+      "explanation": {
+        "en": "Διάλογος is a conversation or dialogue; it need not involve exactly two speakers. The word begins with δια- (“through/between”), not δύο (“two”), and contains the λόγος (“speech”) family.",
+        "ru": "Διάλογος — разговор с обменом репликами, не обязательно ровно между двумя людьми. Для сравнения: μονόλογος — «монолог», речь одного человека. Начало δια- не означает «два».",
+        "zh": "Διάλογος 是对话，μονόλογος 是独白。对话不一定只有两个人：也可由两个群体或多个人轮流交谈，不要把开头误解成表示数字“二”。"
+      }
+    },
+    {
+      "id": "nov25-passport",
+      "collection": "words-nouns",
+      "greek": "διαβατήριο",
+      "prompt": {
+        "en": "Passport",
+        "ru": "Заграничный паспорт",
+        "zh": "护照"
+      },
+      "pronunciation": {
+        "en": "dhi-a-va-TI-ri-o",
+        "ru": "ди-а-ва-ТИ-ри-о",
+        "zh": "dhi-a-va-TI-ri-o"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "travel"
+      ],
+      "answerDisplay": "το διαβατήριο",
+      "explanation": {
+        "en": "Το διαβατήριο is a passport; η ταυτότητα is an identity card. Its history has a surprising border-crossing link: Ancient Greek τὰ διαβατήρια meant offerings made before crossing into foreign territory. That is a word-history connection, not a modern passport requirement.",
+        "ru": "Διαβατήριο — паспорт для пересечения государственных границ; ταυτότητα — удостоверение личности. У слова неожиданная история: древнегреческое τὰ διαβατήρια называло жертвоприношения перед переходом в чужую страну. Так древний обряд перед путешествием помогает запомнить современный документ.",
+        "zh": "Το διαβατήριο 是出国旅行用的护照，区别于 ταυτότητα（身份证）。有趣的是，古希腊语 τὰ διαβατήρια 原指进入外国领土前举行的祭献；如今同族词成了过境时要出示的证件。古代祭献与现代护照是不同事物，这里只是词义演变的联系。"
+      }
+    },
+    {
+      "id": "nov25-olive",
+      "collection": "words-nouns",
+      "greek": "ελιά",
+      "prompt": {
+        "en": "Olive / olive tree",
+        "ru": "Оливка / оливковое дерево",
+        "zh": "橄榄／橄榄树"
+      },
+      "pronunciation": {
+        "en": "e-LYA",
+        "ru": "э-ЛЬЯ",
+        "zh": "e-LYA"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "food"
+      ],
+      "answerDisplay": "η ελιά",
+      "explanation": {
+        "en": "Ελιά names both the olive and the olive tree. In the myth, Αθηνά (Athena) offered the city of Athens an ελιά, while Ποσειδώνας (Poseidon) produced salt water; Athena's gift won the contest.",
+        "ru": "Η ελιά означает и оливковое дерево, и оливку; ελαιόλαδο — «оливковое масло». По мифу, за покровительство над Афинами спорили Αθηνά — Афина — и Ποσειδώνας — Посейдон. Посейдон дал городу солёную воду, а Афина — ελιά, оливковое дерево; победил её дар.",
+        "zh": "Ελιά 既是橄榄果，也是橄榄树。神话中，Αθηνά（雅典娜）以橄榄树作为礼物，与 Ποσειδώνας（波塞冬）争夺雅典的守护权并获胜；这是神话中的文化联系，不是这个词的词源解释。"
+      }
+    },
+    {
+      "id": "nov25-singular",
+      "collection": "words-nouns",
+      "greek": "ενικός",
+      "prompt": {
+        "en": "Singular (grammar)",
+        "ru": "Единственное число",
+        "zh": "单数（语法）"
+      },
+      "pronunciation": {
+        "en": "e-ni-KOS",
+        "ru": "э-ни-КОС",
+        "zh": "e-ni-KOS"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "classroom"
+      ],
+      "answerDisplay": "ο ενικός",
+      "explanation": {
+        "en": "Ο ενικός means the singular in grammar. Μιλάω στον ενικό means “I use the informal singular form of address”; it describes choosing εσύ (informal you), even when speaking to an adult.",
+        "ru": "Полностью: ενικός αριθμός — «единственное число». В выражении μιλάω στον ενικό — «обращаюсь на “ты”» — речь об обращении к одному человеку без вежливого множественного числа; по-русски различие очень похоже на «ты» и «Вы».",
+        "zh": "Ενικός 是语法上的单数，与 πληθυντικός（复数）相对。Μιλάω στον ενικό 意为“用单数形式称呼对方”，通常就是熟悉、非敬称的说话方式；中文动词不变形，所以要留意希腊语代词和动词也会一起变化。"
+      }
+    },
+    {
+      "id": "nov25-adjective",
+      "collection": "words-nouns",
+      "greek": "επίθετο",
+      "prompt": {
+        "en": "Adjective",
+        "ru": "Прилагательное (часть речи)",
+        "zh": "形容词"
+      },
+      "pronunciation": {
+        "en": "e-PI-the-to",
+        "ru": "э-ПИ-тэ-то",
+        "zh": "e-PI-the-to"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "classroom"
+      ],
+      "answerDisplay": "το επίθετο",
+      "explanation": {
+        "en": "An επίθετο describes a noun and agrees with it in gender, number and case. For example, γρήγορο αυτοκίνητο means “a fast car”: both words are neuter singular.",
+        "ru": "Το επίθετο — «прилагательное»; в другом значении это же слово может означать «фамилия». Прилагательное согласуется с греческим существительным: καλός καφές — «хороший кофе», καλή μέρα — «хороший день», καλό νερό — «хорошая вода».",
+        "zh": "Το επίθετο 是形容词，例如 καλός（好的）。中文“好”不因名词改变，希腊语却要配合名词的性、数和格：καλός καφές（好咖啡），καλή μέρα（好的一天）；名词的语法性别不等于人的生理性别。"
+      }
+    },
+    {
+      "id": "nov25-smoking",
+      "collection": "words-nouns",
+      "greek": "κάπνισμα",
+      "prompt": {
+        "en": "Smoking",
+        "ru": "Курение",
+        "zh": "吸烟"
+      },
+      "pronunciation": {
+        "en": "KAP-ni-zma",
+        "ru": "КАП-ни-зма",
+        "zh": "KAP-ni-zma"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "conversation"
+      ],
+      "answerDisplay": "το κάπνισμα",
+      "explanation": {
+        "en": "Κάπνισμα names the activity “smoking”, whereas καπνίζω means “I smoke” and καπνός means “smoke”. The ending -μα often forms a noun for an action or its result.",
+        "ru": "Κάπνισμα — «курение», καπνίζω — «курю», καπνός — «дым / табак»: одна полезная семья слов. На табличке Απαγορεύεται το κάπνισμα написано «Курение запрещено».",
+        "zh": "Κάπνισμα 是表示行为的名词“吸烟”，与 καπνίζω（我吸烟）同族；词尾 -μα 常把一个动作变成名词。告示 Απαγορεύεται το κάπνισμα 意为“禁止吸烟”。"
+      }
+    },
+    {
+      "id": "nov25-coin",
+      "collection": "words-nouns",
+      "greek": "κέρμα",
+      "prompt": {
+        "en": "Coin",
+        "ru": "Монета",
+        "zh": "硬币"
+      },
+      "pronunciation": {
+        "en": "KER-ma",
+        "ru": "КЭР-ма",
+        "zh": "KER-ma"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "conversation"
+      ],
+      "answerDisplay": "το κέρμα",
+      "explanation": {
+        "en": "Το κέρμα is a coin; τα κέρματα means coins or loose change. Χρήματα is money in general, so it can include banknotes as well as coins.",
+        "ru": "Το κέρμα — одна монета, τα κέρματα — монеты или мелочь. Автомат с оплатой монетами легко связать со словом κερματοδέκτης — «монетоприёмник»: первая часть указывает на монеты.",
+        "zh": "Το κέρμα 是硬币，复数 τα κέρματα，词干中会出现 -τ-。可一起记 κερματοδέκτης（投币装置）：看到这个词就知道机器要收硬币。"
+      }
+    },
+    {
+      "id": "nov25-cocoa",
+      "collection": "words-nouns",
+      "greek": "κακάο",
+      "prompt": {
+        "en": "Cocoa",
+        "ru": "Какао",
+        "zh": "可可"
+      },
+      "pronunciation": {
+        "en": "ka-KA-o",
+        "ru": "ка-КА-о",
+        "zh": "ka-KA-o"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "food"
+      ],
+      "answerDisplay": "το κακάο",
+      "explanation": {
+        "en": "Κακάο is cocoa, not a ready-made chocolate bar. It is neuter and does not change its ending: το κακάο.",
+        "ru": "Το κακάο — «какао», несклоняемое слово среднего рода. Ударение на втором слоге: ка-КА-о.",
+        "zh": "Το κακάο 可指可可粉，也可指用它做的饮料。这是中性、不变格名词；三个元音各自成音节，重音在第二个音节。"
+      }
+    },
+    {
+      "id": "nov25-chair",
+      "collection": "words-nouns",
+      "greek": "καρέκλα",
+      "prompt": {
+        "en": "Chair",
+        "ru": "Стул",
+        "zh": "椅子"
+      },
+      "pronunciation": {
+        "en": "ka-RE-kla",
+        "ru": "ка-РЭ-кла",
+        "zh": "ka-RE-kla"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "home"
+      ],
+      "answerDisplay": "η καρέκλα",
+      "explanation": {
+        "en": "Καρέκλα is a word that travelled and came back: its history leads through Latin forms to Ancient Greek καθέδρα (seat). The modern everyday chair is η καρέκλα, while καθέδρα survives in more formal uses.",
+        "ru": "Καρέκλα — интересное «путешествующее» слово: его дальний источник — древнегреческое καθέδρα, «сиденье», но в греческий оно вернулось через латинскую и итальянскую языковую среду. С тем же древним словом связано русское «кафедра».",
+        "zh": "Καρέκλα 是椅子。这个词绕过一圈：古希腊语 καθέδρα（座位）进入拉丁语 cathedra，再经威尼斯语借回希腊语，变成今天的 καρέκλα；像一个出国后带着新口音回家的词。"
+      }
+    },
+    {
+      "id": "nov25-carrot",
+      "collection": "words-nouns",
+      "greek": "καρότο",
+      "prompt": {
+        "en": "Carrot",
+        "ru": "Морковь",
+        "zh": "胡萝卜"
+      },
+      "pronunciation": {
+        "en": "ka-RO-to",
+        "ru": "ка-РО-то",
+        "zh": "ka-RO-to"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "food"
+      ],
+      "answerDisplay": "το καρότο",
+      "explanation": {
+        "en": "One carrot is το καρότο; carrots are τα καρότα. The ending -ο becomes -α in this neuter plural.",
+        "ru": "Το καρότο — «морковь / одна морковка», τα καρότα — «морковки». Греческое слово среднего рода.",
+        "zh": "Το καρότο 是胡萝卜，复数 τα καρότα。中文说“几根胡萝卜”，希腊语通常直接用数字加复数名词，不需要另加“根”这样的量词。"
+      }
+    },
+    {
+      "id": "nov25-filter-coffee",
+      "collection": "words-nouns",
+      "greek": "καφές φίλτρου",
+      "prompt": {
+        "en": "Filter coffee",
+        "ru": "Фильтр-кофе",
+        "zh": "滴滤咖啡"
+      },
+      "pronunciation": {
+        "en": "ka-FES FIL-tru",
+        "ru": "ка-ФЭС ФИЛ-тру",
+        "zh": "ka-FES FIL-tru"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "food"
+      ],
+      "answerDisplay": "ο καφές φίλτρου",
+      "explanation": {
+        "en": "Καφές φίλτρου means coffee made through a filter. Φίλτρου is the genitive of φίλτρο (filter): the second noun specifies the kind of coffee.",
+        "ru": "Καφές φίλτρου — «фильтр-кофе»: φίλτρου — родительный падеж от φίλτρο, «фильтр». Так называют кофе, приготовленный фильтрацией, в отличие от ελληνικός καφές — «кофе по-гречески».",
+        "zh": "Καφές φίλτρου 是滤泡咖啡。Φίλτρου 是 φίλτρο（滤器）的属格，用来说明咖啡的制作方式；整个短语的中心词 καφές 是阳性。"
+      }
+    },
+    {
+      "id": "nov25-cherry",
+      "collection": "words-nouns",
+      "greek": "κεράσι",
+      "prompt": {
+        "en": "Cherry",
+        "ru": "Черешня",
+        "zh": "樱桃"
+      },
+      "pronunciation": {
+        "en": "ke-RA-si",
+        "ru": "кэ-РА-си",
+        "zh": "ke-RA-si"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "food"
+      ],
+      "answerDisplay": "το κεράσι",
+      "explanation": {
+        "en": "Το κεράσι is a sweet cherry; βύσσινο is the different word for a sour cherry. The plural κεράσια is common when buying fruit.",
+        "ru": "Το κεράσι — «черешня». Для кислой вишни обычно используют другое слово: το βύσσινο — «вишня».",
+        "zh": "Το κεράσι 一般指甜樱桃，酸樱桃另叫 βύσσινο。复数 κεράσια 的最后部分连读，重音仍在 ρά。"
+      }
+    },
+    {
+      "id": "nov25-mince",
+      "collection": "words-nouns",
+      "greek": "κιμάς",
+      "prompt": {
+        "en": "Minced meat",
+        "ru": "Фарш",
+        "zh": "肉末"
+      },
+      "pronunciation": {
+        "en": "ki-MAS",
+        "ru": "ки-МАС",
+        "zh": "ki-MAS"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "food"
+      ],
+      "answerDisplay": "ο κιμάς",
+      "explanation": {
+        "en": "Κιμάς means minced or ground meat, rather than a particular animal's meat. Μοσχαρίσιος κιμάς is beef/veal mince; χοιρινός κιμάς is pork mince.",
+        "ru": "Ο κιμάς — фарш; вид мяса уточняют прилагательным: μοσχαρίσιος κιμάς — «говяжий фарш», χοιρινός κιμάς — «свиной фарш».",
+        "zh": "Ο κιμάς 是肉末、绞肉，通常当作原料名，不是肉丸。可说 μοσχαρίσιος κιμάς（牛肉末）；形容词要跟阳性的 κιμάς 一致。"
+      }
+    },
+    {
+      "id": "nov25-chicken",
+      "collection": "words-nouns",
+      "greek": "κοτόπουλο",
+      "prompt": {
+        "en": "Chicken (bird or meat)",
+        "ru": "Курица / курятина",
+        "zh": "鸡／鸡肉"
+      },
+      "pronunciation": {
+        "en": "ko-TO-pu-lo",
+        "ru": "ко-ТО-пу-ло",
+        "zh": "ko-TO-pu-lo"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "food"
+      ],
+      "answerDisplay": "το κοτόπουλο",
+      "explanation": {
+        "en": "Το κοτόπουλο can name a chicken or its meat. Compare η κότα (hen); in a food order, κοτόπουλο normally means chicken to eat.",
+        "ru": "Το κοτόπουλο — и курица как еда, и молодая птица. Сравните η κότα — «курица, несушка»; на меню κοτόπουλο обычно означает курятину.",
+        "zh": "Κοτόπουλο 既可指鸡，也可指鸡肉；它与 κότα（母鸡）同族。购买食材时 το κοτόπουλο 通常就是鸡肉，不必另加 κρέας（肉）。"
+      }
+    },
+    {
+      "id": "nov25-cauliflower",
+      "collection": "words-nouns",
+      "greek": "κουνουπίδι",
+      "prompt": {
+        "en": "Cauliflower",
+        "ru": "Цветная капуста",
+        "zh": "花椰菜"
+      },
+      "pronunciation": {
+        "en": "ku-nu-PI-dhi",
+        "ru": "ку-ну-ПИ-ди",
+        "zh": "ku-nu-PI-dhi"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "food"
+      ],
+      "answerDisplay": "το κουνουπίδι",
+      "explanation": {
+        "en": "Το κουνουπίδι is cauliflower; το λάχανο is cabbage. They are different vegetables, even though their edible parts can look like a compact head.",
+        "ru": "Το κουνουπίδι — «цветная капуста». Это не обычная кочанная капуста: она называется λάχανο.",
+        "zh": "Το κουνουπίδι 是花椰菜，也叫菜花；不是 μπρόκολο（西兰花）。重音在 πί，词尾是中性名词常见的 -ι。"
+      }
+    },
+    {
+      "id": "nov25-oil",
+      "collection": "words-nouns",
+      "greek": "λάδι",
+      "prompt": {
+        "en": "Oil (especially olive oil)",
+        "ru": "Масло (растительное)",
+        "zh": "食用油（尤指橄榄油）"
+      },
+      "pronunciation": {
+        "en": "LA-dhi",
+        "ru": "ЛА-ди",
+        "zh": "LA-dhi"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "food"
+      ],
+      "answerDisplay": "το λάδι",
+      "explanation": {
+        "en": "Λάδι is oil, especially olive oil in everyday food talk. The expression «ρίχνω λάδι στη φωτιά» literally means “I pour oil on the fire”: I make a quarrel or tense situation worse.",
+        "ru": "Λάδι — масло, прежде всего растительное; на греческой кухне без уточнения часто подразумевается оливковое. Ελαιόλαδο — именно «оливковое масло», а βούτυρο — «сливочное масло».",
+        "zh": "Λάδι 是油，在希腊厨房里常默认橄榄油；明确说橄榄油可用 ελαιόλαδο。把 ελιά（橄榄）、λάδι（油）、ελαιόλαδο（橄榄油）连起来记，就能认出商品标签上的同一组词。"
+      }
+    },
+    {
+      "id": "nov25-cabbage",
+      "collection": "words-nouns",
+      "greek": "λάχανο",
+      "prompt": {
+        "en": "Cabbage",
+        "ru": "Капуста",
+        "zh": "卷心菜"
+      },
+      "pronunciation": {
+        "en": "LA-kha-no",
+        "ru": "ЛА-ха-но",
+        "zh": "LA-kha-no"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "food"
+      ],
+      "answerDisplay": "το λάχανο",
+      "explanation": {
+        "en": "Το λάχανο means cabbage; το λαχανικό means a vegetable in general. Their similar beginnings make a useful memory pair, but they are not interchangeable.",
+        "ru": "Το λάχανο — «капуста», а τα λαχανικά — «овощи». Слова родственны, но современное λάχανο не заменяет общее слово «овощ».",
+        "zh": "Λάχανο 是卷心菜，不是所有蔬菜的总称。希腊语口语 Σιγά τα λάχανα! 字面像“这些卷心菜有什么了不起”，实际表示“有什么大不了的！”；这是带轻蔑语气的惯用语。"
+      }
+    },
+    {
+      "id": "nov25-vegetable",
+      "collection": "words-nouns",
+      "greek": "λαχανικό",
+      "prompt": {
+        "en": "Vegetable",
+        "ru": "Овощ",
+        "zh": "蔬菜"
+      },
+      "pronunciation": {
+        "en": "la-kha-ni-KO",
+        "ru": "ла-ха-ни-КО",
+        "zh": "la-kha-ni-KO"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "food"
+      ],
+      "answerDisplay": "το λαχανικό",
+      "explanation": {
+        "en": "One vegetable is το λαχανικό; vegetables are τα λαχανικά. Compare το λάχανο (cabbage), one particular member of the group.",
+        "ru": "Το λαχανικό — один овощ; обычно в магазине вы встретите множественное τα λαχανικά — «овощи». Сравните родственное λάχανο — «капуста»: более узкое значение.",
+        "zh": "Το λαχανικό 指一种蔬菜，日常更常见复数 τα λαχανικά（蔬菜）。它与 λάχανο（卷心菜）同族，但范围更广，别把两者当成完全同义词。"
+      }
+    },
+    {
+      "id": "nov25-flower",
+      "collection": "words-nouns",
+      "greek": "λουλούδι",
+      "prompt": {
+        "en": "Flower",
+        "ru": "Цветок",
+        "zh": "花"
+      },
+      "pronunciation": {
+        "en": "lu-LU-dhi",
+        "ru": "лу-ЛУ-ди",
+        "zh": "lu-LU-dhi"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "home"
+      ],
+      "answerDisplay": "το λουλούδι",
+      "explanation": {
+        "en": "Το λουλούδι is a flower; τα λουλούδια means flowers. It is a neuter noun even when the flower is described as beautiful or delicate.",
+        "ru": "Το λουλούδι — «цветок», τα λουλούδια — «цветы». Даже если речь о розе, само общее слово остаётся среднего рода.",
+        "zh": "Το λουλούδι 是花，复数 τα λουλούδια。希腊语名词的中性不表示东西没有生命；花也可以用中性冠词 το。"
+      }
+    },
+    {
+      "id": "nov25-pasta",
+      "collection": "words-nouns",
+      "greek": "μακαρόνι",
+      "prompt": {
+        "en": "Piece of pasta / macaroni",
+        "ru": "Макароны / макаронина",
+        "zh": "意大利面（基本单数形式）"
+      },
+      "pronunciation": {
+        "en": "ma-ka-RO-ni",
+        "ru": "ма-ка-РО-ни",
+        "zh": "ma-ka-RO-ni"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "food"
+      ],
+      "answerDisplay": "το μακαρόνι",
+      "explanation": {
+        "en": "Μακαρόνι is one piece or strand of pasta; μακαρόνια is the usual plural when talking about a serving of pasta. English normally treats “pasta” as a mass noun, while this Greek word is usually plural in food talk.",
+        "ru": "Μακαρόνι — одна макаронина; еду обычно называют во множественном числе: τα μακαρόνια — «макароны». В карточке учим основную форму, а не отдельное слово для каждой формы числа.",
+        "zh": "谈一份食物“意大利面”时通常用复数 μακαρόνια；单数 μακαρόνι 可以指一根或一个面条。词卡保留单数基本形式，不另把复数当成新单词。"
+      }
+    },
+    {
+      "id": "nov25-hair",
+      "collection": "words-nouns",
+      "greek": "μαλλί",
+      "prompt": {
+        "en": "Hair (on the head) / wool",
+        "ru": "Волосы / шерсть",
+        "zh": "头发／羊毛"
+      },
+      "pronunciation": {
+        "en": "ma-LI",
+        "ru": "ма-ЛИ",
+        "zh": "ma-LI"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "people"
+      ],
+      "answerDisplay": "το μαλλί",
+      "explanation": {
+        "en": "Μαλλί can mean wool or hair; for someone's head of hair, Greek normally uses the plural μαλλιά. Τα μαλλιά μου means “my hair”, not necessarily separate hairs counted one by one.",
+        "ru": "Μαλλί может означать «шерсть» или волосы как массу; о волосах на голове обычно говорят τα μαλλιά. Μάλλινος — «шерстяной», например μάλλινο ρούχο — «шерстяная одежда». Отдельный волос — τρίχα.",
+        "zh": "Μαλλί 可以指羊毛，也可以谈头发；说一头头发常用复数 μαλλιά。它不是任何部位的“一根毛发”的通用说法，后者通常用 τρίχα。"
+      }
+    },
+    {
+      "id": "nov25-greengrocery",
+      "collection": "words-nouns",
+      "greek": "μανάβικο",
+      "prompt": {
+        "en": "Greengrocer’s shop",
+        "ru": "Овощная лавка",
+        "zh": "果蔬店"
+      },
+      "pronunciation": {
+        "en": "ma-NA-vi-ko",
+        "ru": "ма-НА-ви-ко",
+        "zh": "ma-NA-vi-ko"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "places"
+      ],
+      "answerDisplay": "το μανάβικο",
+      "explanation": {
+        "en": "Μανάβικο is the greengrocer's shop; μανάβης is the person who sells fruit and vegetables. Recognizing the shop/person pair makes the longer word easier to remember.",
+        "ru": "Μανάβικο — магазин овощей и фруктов, μανάβης — продавец овощей и фруктов. Окончание -ικο нередко помогает узнать название лавки или магазина.",
+        "zh": "Μανάβικο 是果蔬店，卖果蔬的人叫 μανάβης。可以把这两个词成对记：一个是店，一个是店里卖东西的人。"
+      }
+    },
+    {
+      "id": "nov25-mandarin",
+      "collection": "words-nouns",
+      "greek": "μανταρίνι",
+      "prompt": {
+        "en": "Mandarin orange",
+        "ru": "Мандарин",
+        "zh": "橘子"
+      },
+      "pronunciation": {
+        "en": "man-da-RI-ni",
+        "ru": "ман-да-РИ-ни",
+        "zh": "man-da-RI-ni"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "food"
+      ],
+      "answerDisplay": "το μανταρίνι",
+      "explanation": {
+        "en": "Το μανταρίνι is a mandarin orange; τα μανταρίνια means mandarins. Compare το πορτοκάλι, the ordinary word for an orange.",
+        "ru": "Το μανταρίνι — «мандарин», τα μανταρίνια — «мандарины». Греческое слово среднего рода.",
+        "zh": "Το μανταρίνι 是橘子或蜜橘，复数 τα μανταρίνια。它不是 πορτοκάλι（橙子）；两者通常会在果蔬店分开标价。"
+      }
+    },
+    {
+      "id": "nov25-lettuce",
+      "collection": "words-nouns",
+      "greek": "μαρούλι",
+      "prompt": {
+        "en": "Lettuce",
+        "ru": "Листовой салат",
+        "zh": "生菜"
+      },
+      "pronunciation": {
+        "en": "ma-RU-li",
+        "ru": "ма-РУ-ли",
+        "zh": "ma-RU-li"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "food"
+      ],
+      "answerDisplay": "το μαρούλι",
+      "explanation": {
+        "en": "Το μαρούλι is lettuce, the leafy vegetable. Η σαλάτα is a salad or prepared salad dish, not the name of this particular plant.",
+        "ru": "Το μαρούλι — листовой салат как растение. Готовое блюдо «салат» называется σαλάτα: σαλάτα με μαρούλι — «салат с листьями салата».",
+        "zh": "Το μαρούλι 是生菜；它是具体蔬菜，不是泛指一道沙拉。Σαλάτα 是“沙拉”，所以 σαλάτα με μαρούλι 就是“加生菜的沙拉”。"
+      }
+    },
+    {
+      "id": "nov25-banana",
+      "collection": "words-nouns",
+      "greek": "μπανάνα",
+      "prompt": {
+        "en": "Banana",
+        "ru": "Банан",
+        "zh": "香蕉"
+      },
+      "pronunciation": {
+        "en": "ba-NA-na",
+        "ru": "ба-НА-на",
+        "zh": "ba-NA-na"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "food"
+      ],
+      "answerDisplay": "η μπανάνα",
+      "explanation": {
+        "en": "Η μπανάνα is feminine; its plural is οι μπανάνες. The initial μπ represents a b sound, not two separately pronounced consonants.",
+        "ru": "Η μπανάνα — «банан», οι μπανάνες — «бананы». В греческом женский род; начальное μπ произносится как «б».",
+        "zh": "Η μπανάνα 是香蕉，复数 οι μπανάνες。开头 μπ 合起来读成接近 b 的音，不要拆成两个音节。"
+      }
+    },
+    {
+      "id": "nov25-steak",
+      "collection": "words-nouns",
+      "greek": "μπριζόλα",
+      "prompt": {
+        "en": "Steak / chop",
+        "ru": "Стейк / отбивная",
+        "zh": "肉排（牛排、猪排等）"
+      },
+      "pronunciation": {
+        "en": "bri-ZO-la",
+        "ru": "бри-ЗО-ла",
+        "zh": "bri-ZO-la"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "food"
+      ],
+      "answerDisplay": "η μπριζόλα",
+      "explanation": {
+        "en": "Μπριζόλα means a steak or chop, not necessarily beef. Χοιρινή μπριζόλα is a pork chop; μοσχαρίσια μπριζόλα is a beef/veal steak.",
+        "ru": "Μπριζόλα — порционный кусок мяса для жарки, стейк или отбивная, в том числе на кости. Χοιρινή μπριζόλα — «свиная отбивная», μοσχαρίσια μπριζόλα — «говяжий стейк».",
+        "zh": "Μπριζόλα 指一块适合煎烤的肉排，不一定是牛肉，也可以是猪排。Χοιρινή μπριζόλα 是猪排，μοσχαρίσια μπριζόλα 是牛排；两个形容词都配合阴性名词。"
+      }
+    },
+    {
+      "id": "nov25-toothpaste",
+      "collection": "words-nouns",
+      "greek": "οδοντόκρεμα",
+      "prompt": {
+        "en": "Toothpaste",
+        "ru": "Зубная паста",
+        "zh": "牙膏"
+      },
+      "pronunciation": {
+        "en": "o-dhon-DO-kre-ma",
+        "ru": "о-дон-ДО-крэ-ма",
+        "zh": "o-dhon-DO-kre-ma"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "home"
+      ],
+      "answerDisplay": "η οδοντόκρεμα",
+      "explanation": {
+        "en": "Οδοντόκρεμα combines οδοντο-, the tooth-related stem, with κρέμα (cream). Compare modern δόντι (tooth) and οδοντίατρος (dentist): the longer learned stem survives in compounds.",
+        "ru": "Οδοντόκρεμα состоит из οδοντο- — «зубной» и κρέμα — «крем»: буквально «крем для зубов». Тот же первый элемент в οδοντίατρος — «стоматолог»; обычное современное слово «зуб» — δόντι.",
+        "zh": "Οδοντόκρεμα 是牙膏：οδοντο- 是表示“牙齿”的构词成分，κρέμα 是“膏、霜”。同一词根还出现在 οδοντίατρος（牙医）里；日常单独说“牙齿”则用 δόντι。"
+      }
+    },
+    {
+      "id": "nov25-whisky",
+      "collection": "words-nouns",
+      "greek": "ουίσκι",
+      "prompt": {
+        "en": "Whisky",
+        "ru": "Виски",
+        "zh": "威士忌"
+      },
+      "pronunciation": {
+        "en": "u-I-ski",
+        "ru": "у-И-ски",
+        "zh": "u-I-ski"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "food"
+      ],
+      "answerDisplay": "το ουίσκι",
+      "explanation": {
+        "en": "Το ουίσκι is whisky; its ending stays the same. Pronounce the first two vowel sounds separately: u-I-ski, with the stress on Ι.",
+        "ru": "Το ουίσκι — «виски», несклоняемое слово среднего рода. Начальное ου даёт звук «у», а ударение стоит на ί: у-И-ски.",
+        "zh": "Το ουίσκι 是威士忌，不变格；两杯威士忌也说 δύο ουίσκι。开头 ου 读一个 u 音，后面的 ί 自成重读音节。"
+      }
+    },
+    {
+      "id": "nov25-noun",
+      "collection": "words-nouns",
+      "greek": "ουσιαστικό",
+      "prompt": {
+        "en": "Noun",
+        "ru": "Существительное (часть речи)",
+        "zh": "名词"
+      },
+      "pronunciation": {
+        "en": "u-si-a-sti-KO",
+        "ru": "у-си-а-сти-КО",
+        "zh": "u-si-a-sti-KO"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "classroom"
+      ],
+      "answerDisplay": "το ουσιαστικό",
+      "explanation": {
+        "en": "An ουσιαστικό names a person, thing, place or idea. Greek nouns have grammatical gender: masculine, feminine or neuter; that is why learning the article with the noun is useful.",
+        "ru": "Το ουσιαστικό — «существительное». В греческом у него есть грамматический род, даже когда это неодушевлённый предмет: ο καφές — «кофе» мужского рода, η καρέκλα — «стул» женского, το νερό — «вода» среднего.",
+        "zh": "Το ουσιαστικό 是“名词”，例如 σπίτι（房子）。希腊语名词有性、数、格，冠词和修饰它的形容词也要配合；这些变化承担了中文常靠词序或介词表达的一部分作用。"
+      }
+    },
+    {
+      "id": "nov25-ice",
+      "collection": "words-nouns",
+      "greek": "πάγος",
+      "prompt": {
+        "en": "Ice",
+        "ru": "Лёд",
+        "zh": "冰"
+      },
+      "pronunciation": {
+        "en": "PA-ghos",
+        "ru": "ПА-гос",
+        "zh": "PA-ghos"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "food"
+      ],
+      "answerDisplay": "ο πάγος",
+      "explanation": {
+        "en": "Πάγος is ice; παγάκι is an ice cube and παγωτό is ice cream. Greek also says «σπάζει ο πάγος» — “the ice breaks” — when an awkward, formal atmosphere becomes friendly.",
+        "ru": "Ο πάγος — «лёд», παγάκι — «кубик льда», παγωτό — «мороженое»: везде узнаётся παγ-. В разговоре «Σπάω τον πάγο» — «ломаю лёд» — можно понять и буквально, и как преодоление неловкости.",
+        "zh": "Ο πάγος 是冰，与 παγάκι（冰块）、παγωτό（冰淇淋）可以连着记。惯用语 σπάζει ο πάγος（冰破了）也可形容人们打破拘谨、开始熟络，和中文“破冰”很像。"
+      }
+    },
+    {
+      "id": "nov25-ice-cube",
+      "collection": "words-nouns",
+      "greek": "παγάκι",
+      "prompt": {
+        "en": "Ice cube",
+        "ru": "Кубик льда",
+        "zh": "冰块"
+      },
+      "pronunciation": {
+        "en": "pa-GHA-ki",
+        "ru": "па-ГА-ки",
+        "zh": "pa-GHA-ki"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "food"
+      ],
+      "answerDisplay": "το παγάκι",
+      "explanation": {
+        "en": "A παγάκι is an ice cube, from πάγος (ice) plus the small-item ending -άκι. This is an established everyday word: πάγος is the substance, while παγάκι is an individual piece put in a drink.",
+        "ru": "Παγάκι образовано от πάγος — «лёд», но обычно означает конкретный кубик или кусочек льда для напитка. Поэтому это полезное самостоятельное слово, а не просто ласковое «ледочек».",
+        "zh": "Παγάκι 来自 πάγος（冰）加小称词尾 -άκι，日常已成为“冰块”的普通叫法。Με παγάκια 是“加冰块”；这里保留它，是因为它与泛指冰的 πάγος 有实用区别。"
+      }
+    },
+    {
+      "id": "nov25-potato",
+      "collection": "words-nouns",
+      "greek": "πατάτα",
+      "prompt": {
+        "en": "Potato",
+        "ru": "Картофель / картофелина",
+        "zh": "土豆"
+      },
+      "pronunciation": {
+        "en": "pa-TA-ta",
+        "ru": "па-ТА-та",
+        "zh": "pa-TA-ta"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "food"
+      ],
+      "answerDisplay": "η πατάτα",
+      "explanation": {
+        "en": "Η πατάτα is a potato; οι πατάτες means potatoes. The ordinary singular is used for learning the word, even though potatoes are often bought or served in the plural.",
+        "ru": "Η πατάτα — «картофелина / картофель», οι πατάτες — «картофель, картофелины». Πατάτες τηγανητές — «жареная картошка / картофель фри».",
+        "zh": "Η πατάτα 是土豆，复数 οι πατάτες。菜单上的 τηγανητές πατάτες 是炸薯条：前面的形容词也用阴性复数。"
+      }
+    },
+    {
+      "id": "nov25-melon",
+      "collection": "words-nouns",
+      "greek": "πεπόνι",
+      "prompt": {
+        "en": "Melon",
+        "ru": "Дыня",
+        "zh": "甜瓜"
+      },
+      "pronunciation": {
+        "en": "pe-PO-ni",
+        "ru": "пэ-ПО-ни",
+        "zh": "pe-PO-ni"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "food"
+      ],
+      "answerDisplay": "το πεπόνι",
+      "explanation": {
+        "en": "Το πεπόνι is melon; το καρπούζι is watermelon. Greek uses different everyday words for the two fruits.",
+        "ru": "Το πεπόνι — «дыня». Не путайте с το καρπούζι — «арбуз»: у обоих слов средний род, но это разные плоды.",
+        "zh": "Το πεπόνι 是甜瓜，复数 τα πεπόνια。西瓜是另一种水果，叫 καρπούζι；买水果时不要把这两个词混用。"
+      }
+    },
+    {
+      "id": "nov25-pepper",
+      "collection": "words-nouns",
+      "greek": "πιπεριά",
+      "prompt": {
+        "en": "Pepper (vegetable)",
+        "ru": "Перец (овощ)",
+        "zh": "辣椒／甜椒"
+      },
+      "pronunciation": {
+        "en": "pi-pe-RYA",
+        "ru": "пи-пэ-РЬЯ",
+        "zh": "pi-pe-RYA"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "food"
+      ],
+      "answerDisplay": "η πιπεριά",
+      "explanation": {
+        "en": "Η πιπεριά is the vegetable, such as a sweet pepper or chilli. Το πιπέρι is pepper used as a seasoning; do not confuse the two when shopping.",
+        "ru": "Η πιπεριά — перец как овощ или растение. Молотая приправа «перец» — το πιπέρι; это другое существительное и другой род.",
+        "zh": "Πιπεριά 指辣椒或甜椒这种蔬菜；并不保证一定辣。调味用的胡椒是 πιπέρι，虽然词形接近，买菜时两者不能互换。"
+      }
+    },
+    {
+      "id": "nov25-plural",
+      "collection": "words-nouns",
+      "greek": "πληθυντικός",
+      "prompt": {
+        "en": "Plural (grammar)",
+        "ru": "Множественное число",
+        "zh": "复数（语法）"
+      },
+      "pronunciation": {
+        "en": "pli-thin-di-KOS",
+        "ru": "пли-тин-ди-КОС",
+        "zh": "pli-thin-di-KOS"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "classroom"
+      ],
+      "answerDisplay": "ο πληθυντικός",
+      "explanation": {
+        "en": "Ο πληθυντικός means the plural. Μιλάω στον πληθυντικό means “I use the polite form of address”: the same εσείς form used for several people can respectfully address just one person.",
+        "ru": "Полностью: πληθυντικός αριθμός — «множественное число». Μιλάω στον πληθυντικό — «обращаюсь на “Вы”»: греческие формы множественного числа служат и для вежливого обращения к одному человеку.",
+        "zh": "Πληθυντικός 是复数，与 ενικός（单数）相对。Μιλάω στον πληθυντικό 是“用复数形式称呼对方”，也可表示对一个人使用敬称；不像中文只换成“您”，希腊语动词通常也要变为第二人称复数。"
+      }
+    },
+    {
+      "id": "nov25-attention",
+      "collection": "words-nouns",
+      "greek": "προσοχή",
+      "prompt": {
+        "en": "Attention / care",
+        "ru": "Внимание / осторожность",
+        "zh": "注意／小心"
+      },
+      "pronunciation": {
+        "en": "pro-so-KHI",
+        "ru": "про-со-ХИ",
+        "zh": "pro-so-KHI"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "classroom"
+      ],
+      "answerDisplay": "η προσοχή",
+      "explanation": {
+        "en": "Προσοχή means attention or care; by itself, «Προσοχή!» means “Watch out!” or “Caution!”. Compare προσέχω, “I pay attention / take care”.",
+        "ru": "Προσοχή! — «Внимание! / Осторожно!» на предупреждении. Связанный глагол προσέχω значит «обращаю внимание / остерегаюсь»; само существительное женского рода.",
+        "zh": "Η προσοχή 是注意、留意；单独写 Προσοχή! 就像中文告示“注意！”或“小心！”。相关动词 προσέχω 表示“我注意、我小心”。"
+      }
+    },
+    {
+      "id": "nov25-president",
+      "collection": "words-nouns",
+      "greek": "πρόεδρος",
+      "prompt": {
+        "en": "President / chairperson",
+        "ru": "Президент / председатель",
+        "zh": "总统／主席"
+      },
+      "pronunciation": {
+        "en": "PRO-e-dhros",
+        "ru": "ПРО-э-дрос",
+        "zh": "PRO-e-dhros"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "people"
+      ],
+      "answerDisplay": "ο πρόεδρος / η πρόεδρος",
+      "wordGroup": "nov25-president",
+      "forms": [
+        {
+          "greek": "πρόεδρος",
+          "answerDisplay": "ο πρόεδρος",
+          "pronunciation": {
+            "en": "PRO-e-dhros",
+            "ru": "ПРО-э-дрос",
+            "zh": "PRO-e-dhros"
+          }
+        },
+        {
+          "greek": "πρόεδρος",
+          "answerDisplay": "η πρόεδρος",
+          "pronunciation": {
+            "en": "PRO-e-dhros",
+            "ru": "ПРО-э-дрос",
+            "zh": "PRO-e-dhros"
+          }
+        }
+      ],
+      "alternatives": [
+        "πρόεδρος"
+      ],
+      "explanation": {
+        "en": "Πρόεδρος can mean a president or the chair of a meeting or organization. The same word works for a man or woman: ο πρόεδρος, η πρόεδρος. In Ancient Greek, πρόεδρος described someone sitting in the front seat or presiding over an assembly.",
+        "ru": "Ο πρόεδρος — президент или председатель-мужчина, η πρόεδρος — женщина на той же должности: меняется артикль, не основная форма. Древнее πρόεδρος буквально означало человека, сидящего впереди; сравните προ- — «перед» и древнее ἕδρα — «сиденье».",
+        "zh": "Πρόεδρος 可指总统、主席或主持会议的人；男性用 ο πρόεδρος，女性可用 η πρόεδρος，名词本身不必换词尾。古希腊语中它指“坐在前列、主持集会的人”，可用“坐在前面主持”的画面记住它。"
+      }
+    },
+    {
+      "id": "nov25-peach",
+      "collection": "words-nouns",
+      "greek": "ροδάκινο",
+      "prompt": {
+        "en": "Peach",
+        "ru": "Персик",
+        "zh": "桃"
+      },
+      "pronunciation": {
+        "en": "ro-DHA-ki-no",
+        "ru": "ро-ДА-ки-но",
+        "zh": "ro-DHA-ki-no"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "food"
+      ],
+      "answerDisplay": "το ροδάκινο",
+      "explanation": {
+        "en": "Το ροδάκινο is a peach; τα ροδάκινα means peaches. A nectarine is νεκταρίνι, so do not use the same word for both when naming the fruit precisely.",
+        "ru": "Το ροδάκινο — «персик», τα ροδάκινα — «персики». Ударение на δά; слово среднего рода.",
+        "zh": "Το ροδάκινο 是桃，复数 τα ροδάκινα。词尾虽然看起来像小称 -άκι 的一部分，但这是完整的水果名称，不能随意删掉。"
+      }
+    },
+    {
+      "id": "nov25-garment",
+      "collection": "words-nouns",
+      "greek": "ρούχο",
+      "prompt": {
+        "en": "Garment / item of clothing",
+        "ru": "Предмет одежды",
+        "zh": "衣服"
+      },
+      "pronunciation": {
+        "en": "RU-kho",
+        "ru": "РУ-хо",
+        "zh": "RU-kho"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "home"
+      ],
+      "answerDisplay": "το ρούχο",
+      "explanation": {
+        "en": "Το ρούχο is one item of clothing; τα ρούχα is clothes. English “clothes” has no everyday singular, but Greek provides a straightforward one.",
+        "ru": "Το ρούχο — отдельная вещь, предмет одежды. Об одежде в целом обычно говорят во множественном числе: τα ρούχα — «одежда».",
+        "zh": "Το ρούχο 是一件衣服，复数 τα ρούχα 是衣服、衣物。中文通常用“一件”来数，希腊语可直接说 ένα ρούχο。"
+      }
+    },
+    {
+      "id": "nov25-rice",
+      "collection": "words-nouns",
+      "greek": "ρύζι",
+      "prompt": {
+        "en": "Rice",
+        "ru": "Рис",
+        "zh": "大米／米饭"
+      },
+      "pronunciation": {
+        "en": "RI-zi",
+        "ru": "РИ-зи",
+        "zh": "RI-zi"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "food"
+      ],
+      "answerDisplay": "το ρύζι",
+      "explanation": {
+        "en": "Το ρύζι means rice, whether uncooked or cooked. Like English “rice”, it is normally a mass noun; amounts are given by weight or portions.",
+        "ru": "Το ρύζι — рис и как крупа, и как готовая еда. Обычно это неисчисляемое вещество: ένα κιλό ρύζι — «килограмм риса».",
+        "zh": "Το ρύζι 可指生米，也可指煮熟的米饭，靠做饭或吃饭的语境区分。通常把它当作原料或食物整体，不按单粒使用复数。"
+      }
+    },
+    {
+      "id": "nov25-sauce",
+      "collection": "words-nouns",
+      "greek": "σάλτσα",
+      "prompt": {
+        "en": "Sauce",
+        "ru": "Соус",
+        "zh": "酱汁"
+      },
+      "pronunciation": {
+        "en": "SAL-tsa",
+        "ru": "САЛ-ца",
+        "zh": "SAL-tsa"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "food"
+      ],
+      "answerDisplay": "η σάλτσα",
+      "explanation": {
+        "en": "Η σάλτσα is sauce. Notice the τσ sound, as in English “cats”; the Greek word is not pronounced like Spanish “salsa”.",
+        "ru": "Η σάλτσα — «соус», например σάλτσα ντομάτας — «томатный соус». Буквы τσ дают звук «ц», поэтому произношение ближе к «салца».",
+        "zh": "Η σάλτσα 是烹调或搭配食物的酱汁。Σάλτσα ντομάτας 是番茄酱汁，ντομάτας 是 ντομάτα（番茄）的属格，用来说明酱汁的原料。"
+      }
+    },
+    {
+      "id": "nov25-salami",
+      "collection": "words-nouns",
+      "greek": "σαλάμι",
+      "prompt": {
+        "en": "Salami",
+        "ru": "Салями",
+        "zh": "萨拉米香肠"
+      },
+      "pronunciation": {
+        "en": "sa-LA-mi",
+        "ru": "са-ЛА-ми",
+        "zh": "sa-LA-mi"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "food"
+      ],
+      "answerDisplay": "το σαλάμι",
+      "explanation": {
+        "en": "Το σαλάμι is salami. This familiar international food name takes a Greek neuter article and has the plural σαλάμια for several sausages or kinds.",
+        "ru": "Το σαλάμι — салями, слово среднего рода. В магазине количество можно уточнить: φέτες σαλάμι — «ломтики салями».",
+        "zh": "Το σαλάμι 是萨拉米一类腌制香肠。与中文按“根、片”区分相似，购买时可说明 φέτες σαλάμι（几片萨拉米）；名词本身是中性。"
+      }
+    },
+    {
+      "id": "nov25-shampoo",
+      "collection": "words-nouns",
+      "greek": "σαμπουάν",
+      "prompt": {
+        "en": "Shampoo",
+        "ru": "Шампунь",
+        "zh": "洗发水"
+      },
+      "pronunciation": {
+        "en": "sa-bu-AN",
+        "ru": "са-бу-АН",
+        "zh": "sa-bu-AN"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "home"
+      ],
+      "answerDisplay": "το σαμπουάν",
+      "explanation": {
+        "en": "Το σαμπουάν means shampoo and keeps the same ending. In σαμπουάν για τα μαλλιά (“shampoo for the hair”), μαλλιά is plural even though English normally uses singular “hair”.",
+        "ru": "Το σαμπουάν — «шампунь», несклоняемое слово среднего рода. Для волос: σαμπουάν για τα μαλλιά — «шампунь для волос».",
+        "zh": "Σαμπουάν 是不变格的中性词“洗发水”。它经法语 shampooing 进入希腊语，再往前与英语 shampooing 及印度语言有关；这个日常洗浴用品的名字跨过了好几种语言。"
+      }
+    },
+    {
+      "id": "nov25-soap",
+      "collection": "words-nouns",
+      "greek": "σαπούνι",
+      "prompt": {
+        "en": "Soap",
+        "ru": "Мыло",
+        "zh": "肥皂"
+      },
+      "pronunciation": {
+        "en": "sa-PU-ni",
+        "ru": "са-ПУ-ни",
+        "zh": "sa-PU-ni"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "home"
+      ],
+      "answerDisplay": "το σαπούνι",
+      "explanation": {
+        "en": "Το σαπούνι is soap; το σαμπουάν is shampoo. The similar beginning is a handy shopping-list reminder, but the products have different names.",
+        "ru": "Το σαπούνι — «мыло», средний род. Слово узнаётся и в σαπουνόφουσκα — «мыльный пузырь»: σαπουνο- указывает на мыло.",
+        "zh": "Το σαπούνι 是肥皂，复数 τα σαπούνια。它指清洁用品，不是“洗澡”这个动作；液体皂也可以叫 υγρό σαπούνι（液体肥皂）。"
+      }
+    },
+    {
+      "id": "nov25-note",
+      "collection": "words-nouns",
+      "greek": "σημείωμα",
+      "prompt": {
+        "en": "Written note",
+        "ru": "Записка",
+        "zh": "便条"
+      },
+      "pronunciation": {
+        "en": "si-MI-o-ma",
+        "ru": "си-МИ-о-ма",
+        "zh": "si-MI-o-ma"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "classroom"
+      ],
+      "answerDisplay": "το σημείωμα",
+      "explanation": {
+        "en": "Σημείωμα is a short written note, not a musical note. Compare σημειώνω (I note down) and σημείο (point/sign): a note records something worth marking.",
+        "ru": "Το σημείωμα — короткая записка. Сравните σημειώνω — «записываю / отмечаю» и σημειωματάριο — «блокнот»: удобная цепочка «записать → записка → блокнот».",
+        "zh": "Σημείωμα 是简短的书面记录或留给人的便条，不是手机消息的专名。相关的 σημειωματάριο 是记事本，可把“写便条”和“装便条的本子”连起来记。"
+      }
+    },
+    {
+      "id": "nov25-grape",
+      "collection": "words-nouns",
+      "greek": "σταφύλι",
+      "prompt": {
+        "en": "Grape / bunch of grapes",
+        "ru": "Виноград / гроздь винограда",
+        "zh": "葡萄／一串葡萄"
+      },
+      "pronunciation": {
+        "en": "sta-FI-li",
+        "ru": "ста-ФИ-ли",
+        "zh": "sta-FI-li"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "food"
+      ],
+      "answerDisplay": "το σταφύλι",
+      "explanation": {
+        "en": "Το σταφύλι can refer to a bunch of grapes; τα σταφύλια is the usual word for grapes as fruit. For a single grape berry, Greek can say ρώγα.",
+        "ru": "Το σταφύλι может обозначать гроздь винограда; о винограде как еде часто говорят τα σταφύλια. Отдельная виноградина — η ρώγα, поэтому не каждое σταφύλι означает одну ягоду.",
+        "zh": "Σταφύλι 可以指葡萄果实，也可以指一串葡萄，日常谈这种水果常用复数 σταφύλια。若要特别强调一颗葡萄，通常会另用表示“粒”的说法，而不只靠单复数判断。"
+      }
+    },
+    {
+      "id": "nov25-ashtray",
+      "collection": "words-nouns",
+      "greek": "τασάκι",
+      "prompt": {
+        "en": "Ashtray",
+        "ru": "Пепельница",
+        "zh": "烟灰缸"
+      },
+      "pronunciation": {
+        "en": "ta-SA-ki",
+        "ru": "та-СА-ки",
+        "zh": "ta-SA-ki"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "home"
+      ],
+      "answerDisplay": "το τασάκι",
+      "explanation": {
+        "en": "Το τασάκι is an ashtray. Historically it is a diminutive of τάσι (a shallow bowl), but today it is the ordinary name for this specific object.",
+        "ru": "Τασάκι исторически уменьшительное от τάσι — «чаша, неглубокий сосуд». Но обычное современное значение — именно «пепельница»; заменять его словом «чаша» нельзя.",
+        "zh": "Το τασάκι 是烟灰缸，复数 τα τασάκια。它原是 τάσι（浅碗）的小称，但如今已经是烟灰缸的普通名称。"
+      }
+    },
+    {
+      "id": "nov25-identity",
+      "collection": "words-nouns",
+      "greek": "ταυτότητα",
+      "prompt": {
+        "en": "Identity / ID card",
+        "ru": "Удостоверение личности / идентичность",
+        "zh": "身份／身份证"
+      },
+      "pronunciation": {
+        "en": "taf-TO-ti-ta",
+        "ru": "таф-ТО-ти-та",
+        "zh": "taf-TO-ti-ta"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "travel"
+      ],
+      "answerDisplay": "η ταυτότητα",
+      "explanation": {
+        "en": "Ταυτότητα means identity and also an identity card. Η ταυτότητά μου means “my identity card”; the extra accent appears because the short possessive μου follows a word stressed on its third-last syllable.",
+        "ru": "Ταυτότητα — идентичность, а в повседневных просьбах предъявить документ — удостоверение личности. Корень связан с древним τὸ αὐτό — «то же самое»: документ подтверждает, что перед нами тот самый человек. Διαβατήριο — «заграничный паспорт».",
+        "zh": "Ταυτότητα 既指身份、特征，也指证明身份的证件；旅行时要与 διαβατήριο（护照）区分。古希腊语词源 ταὐτόν 表示“同一”，可联想证件证明“照片上的人与面前的人是同一个人”。"
+      }
+    },
+    {
+      "id": "nov25-toast-sandwich",
+      "collection": "words-nouns",
+      "greek": "τοστ",
+      "prompt": {
+        "en": "Toasted sandwich",
+        "ru": "Горячий сэндвич",
+        "zh": "烤三明治"
+      },
+      "pronunciation": {
+        "en": "tost",
+        "ru": "тост",
+        "zh": "tost"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "food"
+      ],
+      "answerDisplay": "το τοστ",
+      "explanation": {
+        "en": "In Greek food orders, τοστ usually means a toasted sandwich, often with cheese or ham. It does not usually mean a bare slice of toast as English “toast” does.",
+        "ru": "Το τοστ в Греции обычно означает горячий сэндвич из двух ломтиков хлеба, часто с сыром и ветчиной. Это не обязательно один поджаренный ломтик, как русский «тост».",
+        "zh": "希腊语 τοστ 通常指夹有奶酪、火腿等馅料的烤三明治，不只是白吐司面包片。它不变格：ένα τοστ（一个烤三明治），δύο τοστ（两个烤三明治）。"
+      }
+    },
+    {
+      "id": "nov25-tourist",
+      "collection": "words-nouns",
+      "greek": "τουρίστας",
+      "prompt": {
+        "en": "Tourist",
+        "ru": "Турист / туристка",
+        "zh": "游客"
+      },
+      "pronunciation": {
+        "en": "tu-RI-stas",
+        "ru": "ту-РИ-стас",
+        "zh": "tu-RI-stas"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "travel"
+      ],
+      "answerDisplay": "ο τουρίστας / η τουρίστρια",
+      "wordGroup": "nov25-tourist",
+      "forms": [
+        {
+          "greek": "τουρίστας",
+          "answerDisplay": "ο τουρίστας",
+          "pronunciation": {
+            "en": "tu-RI-stas",
+            "ru": "ту-РИ-стас",
+            "zh": "tu-RI-stas"
+          }
+        },
+        {
+          "greek": "τουρίστρια",
+          "answerDisplay": "η τουρίστρια",
+          "pronunciation": {
+            "en": "tu-RI-stri-a",
+            "ru": "ту-РИ-стри-а",
+            "zh": "tu-RI-stri-a"
+          }
+        }
+      ],
+      "alternatives": [
+        "τουρίστρια"
+      ],
+      "explanation": {
+        "en": "Ο τουρίστας is a male tourist; η τουρίστρια is a female tourist. Either form answers this vocabulary card; the endings identify gender without changing the basic meaning.",
+        "ru": "Ο τουρίστας — «турист», η τουρίστρια — «туристка»; обе формы подходят для карточки. Τουρισμός — «туризм»: та же узнаваемая основа.",
+        "zh": "男性游客是 ο τουρίστας，女性是 η τουρίστρια；两种形式都可回答本词卡。中文“游客”不区分性别，希腊语往往要通过词尾和冠词说明。"
+      }
+    },
+    {
+      "id": "nov25-foodstuff",
+      "collection": "words-nouns",
+      "greek": "τρόφιμο",
+      "prompt": {
+        "en": "Foodstuff",
+        "ru": "Продукт питания",
+        "zh": "食品"
+      },
+      "pronunciation": {
+        "en": "TRO-fi-mo",
+        "ru": "ТРО-фи-мо",
+        "zh": "TRO-fi-mo"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "food"
+      ],
+      "answerDisplay": "το τρόφιμο",
+      "explanation": {
+        "en": "Το τρόφιμο is a food product; τα τρόφιμα means foodstuffs or groceries intended for eating. Compare η τροφή (food/nourishment), the related general word.",
+        "ru": "Το τρόφιμο — отдельный продукт питания, τα τρόφιμα — «продукты питания». В отличие от φαγητό — «еда / приготовленное блюдо», это слово удобно для названия товарной группы.",
+        "zh": "Το τρόφιμο 是一种食品，购物时更常用复数 τα τρόφιμα（食品、食材）。可联想 τροφή（食物、营养）这一同族词；它不专指一盘做好的菜的名称。"
+      }
+    },
+    {
+      "id": "nov25-cheese",
+      "collection": "words-nouns",
+      "greek": "τυρί",
+      "prompt": {
+        "en": "Cheese",
+        "ru": "Сыр",
+        "zh": "奶酪"
+      },
+      "pronunciation": {
+        "en": "ti-RI",
+        "ru": "ти-РИ",
+        "zh": "ti-RI"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "food"
+      ],
+      "answerDisplay": "το τυρί",
+      "explanation": {
+        "en": "Τυρί is cheese; τυρόπιτα is a cheese pie. In Homer's Odyssey, the Cyclops Πολύφημος (Polyphemus) keeps cheeses in his cave and makes more from milk: a memorable mythical cheesemaker, not an account of cheese's invention.",
+        "ru": "Το τυρί — «сыр»; в τυρόπιτα — «пирог с сыром» — соединяются τυρο- и πίτα, «пирог / лепёшка». В мифическом сюжете девятой песни «Одиссеи» циклоп Πολύφημος — Полифем — хранит в пещере сыры и делает новые из молока. Получается запоминающийся сыровар-великан; это литературная история, а не рассказ об изобретении сыра.",
+        "zh": "Το τυρί 是奶酪，τυρόπιτα 是“奶酪馅饼”，能看到复合词里的 τυρο-。在《奥德赛》的故事中，独眼巨人 Πολύφημος（波吕斐摩斯）也制作奶酪；这是文学故事中的联系，不是说他发明了奶酪。"
+      }
+    },
+    {
+      "id": "nov25-luck",
+      "collection": "words-nouns",
+      "greek": "τύχη",
+      "prompt": {
+        "en": "Luck / fortune",
+        "ru": "Удача / судьба",
+        "zh": "运气／命运"
+      },
+      "pronunciation": {
+        "en": "TI-khi",
+        "ru": "ТИ-хи",
+        "zh": "TI-khi"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "conversation"
+      ],
+      "answerDisplay": "η τύχη",
+      "explanation": {
+        "en": "Τύχη means luck or fortune; ancient Greeks personified Fortune as the goddess Τύχη (Tyche). The same family helps with ευτυχώς (fortunately) and δυστυχώς (unfortunately).",
+        "ru": "Τύχη — «удача / судьба», τυχερός — «удачливый». В древнегреческой мифологии Τύχη была и богиней случая и судьбы: знакомое слово можно представить как её имя.",
+        "zh": "Η τύχη 指运气、机遇，也可指命运。希腊语会把命运人格化，说 Η Τύχη είναι τυφλή（命运是盲目的），表示好运与坏运气并不公平分配；这是传统说法，不是事实判断。"
+      }
+    },
+    {
+      "id": "nov25-health",
+      "collection": "words-nouns",
+      "greek": "υγεία",
+      "prompt": {
+        "en": "Health",
+        "ru": "Здоровье",
+        "zh": "健康"
+      },
+      "pronunciation": {
+        "en": "i-YI-a",
+        "ru": "и-ЙИ-а",
+        "zh": "i-YI-a"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "people"
+      ],
+      "answerDisplay": "η υγεία",
+      "explanation": {
+        "en": "Η υγεία means health. In Greek mythology, Υγεία (Hygieia) personifies health as a goddess. The familiar greeting γεια is a shortened form connected with υγεία: wishing someone well became an everyday hello.",
+        "ru": "Υγεία — «здоровье», а υγιεινή — «гигиена»: с этой семьёй связано и русское слово «гигиена». В греческой мифологии Υγεία — также богиня здоровья; это культурная ассоциация, а не медицинское правило.",
+        "zh": "Η υγεία 是健康；υγιής 表示“身体健康的”，υγιεινός 则常表示“有益健康的”。神话中的 Υγεία（许癸厄亚）也是健康女神的名字，可以把抽象的健康想成一个神话人物来记。"
+      }
+    },
+    {
+      "id": "nov25-envelope",
+      "collection": "words-nouns",
+      "greek": "φάκελος",
+      "prompt": {
+        "en": "Envelope / folder",
+        "ru": "Конверт / папка",
+        "zh": "信封／文件夹"
+      },
+      "pronunciation": {
+        "en": "FA-ke-los",
+        "ru": "ФА-кэ-лос",
+        "zh": "FA-ke-los"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "classroom"
+      ],
+      "answerDisplay": "ο φάκελος",
+      "explanation": {
+        "en": "Φάκελος can mean an envelope, a folder or a file of documents. The same word can name a folder on a computer, so context tells you which container is meant.",
+        "ru": "Φάκελος — «конверт», «папка», а также комплект документов по делу. Контекст уточняет предмет: φάκελος με γράμματα — «конверт с письмами», φάκελος με έγγραφα — «папка с документами».",
+        "zh": "Φάκελος 既可指装信的信封，也可指整理材料的文件夹或档案。电脑上的“文件夹”也用这个词，像把纸质容器搬到了屏幕里。"
+      }
+    },
+    {
+      "id": "nov25-feta",
+      "collection": "words-nouns",
+      "greek": "φέτα",
+      "prompt": {
+        "en": "Feta cheese / slice",
+        "ru": "Сыр фета / ломтик",
+        "zh": "菲达奶酪／切片"
+      },
+      "pronunciation": {
+        "en": "FE-ta",
+        "ru": "ФЭ-та",
+        "zh": "FE-ta"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "food"
+      ],
+      "answerDisplay": "η φέτα",
+      "explanation": {
+        "en": "Φέτα is both the cheese and the ordinary word for a slice. Its name is connected with slicing: μία φέτα ψωμί means “a slice of bread”, not bread containing feta cheese.",
+        "ru": "Φέτα — не только сыр фета, но и «ломтик»: μία φέτα ψωμί — «ломтик хлеба». Слово пришло из итальянского fetta, «ломтик»; поэтому название сыра легко связать с нарезкой.",
+        "zh": "Φέτα 一方面是菲达奶酪，另一方面是“切片”：μία φέτα ψωμί 是“一片面包”。它借自意大利语 fetta（切片）；这能帮助理解为什么奶酪名称和面包片用了同一个词。"
+      }
+    },
+    {
+      "id": "nov25-bean",
+      "collection": "words-nouns",
+      "greek": "φασόλι",
+      "prompt": {
+        "en": "Bean",
+        "ru": "Фасоль / фасолина",
+        "zh": "豆子"
+      },
+      "pronunciation": {
+        "en": "fa-SO-li",
+        "ru": "фа-СО-ли",
+        "zh": "fa-SO-li"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "food"
+      ],
+      "answerDisplay": "το φασόλι",
+      "explanation": {
+        "en": "Το φασόλι is a bean; τα φασόλια means beans. Compare φασολάδα (bean soup), a useful related dish name.",
+        "ru": "Το φασόλι — отдельная фасолина; еду обычно называют во множественном числе τα φασόλια — «фасоль». Φασολάδα — греческий фасолевый суп.",
+        "zh": "Το φασόλι 是一颗豆或一类豆，常见复数 τα φασόλια（豆子）。可连着记 φασολάδα（希腊豆汤），看到菜名时就能认出主料。"
+      }
+    },
+    {
+      "id": "nov25-strawberry",
+      "collection": "words-nouns",
+      "greek": "φράουλα",
+      "prompt": {
+        "en": "Strawberry",
+        "ru": "Клубника",
+        "zh": "草莓"
+      },
+      "pronunciation": {
+        "en": "FRA-u-la",
+        "ru": "ФРА-у-ла",
+        "zh": "FRA-u-la"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "food"
+      ],
+      "answerDisplay": "η φράουλα",
+      "explanation": {
+        "en": "Η φράουλα is a strawberry; οι φράουλες means strawberries. Notice the separate vowel sounds in FRA-u-la rather than an English “fraula” diphthong.",
+        "ru": "Η φράουλα — «клубника», οι φράουλες — «ягоды клубники». Название пришло через средневековый греческий из староитальянского fraola — родственника современного fragola, «клубника».",
+        "zh": "Η φράουλα 是草莓，复数 οι φράουλες。它经意大利语词形传来，与意大利语 fragola（草莓）相连；两个语言里的声音仍然很像。"
+      }
+    },
+    {
+      "id": "nov25-toilet-paper",
+      "collection": "words-nouns",
+      "greek": "χαρτί υγείας",
+      "prompt": {
+        "en": "Toilet paper",
+        "ru": "Туалетная бумага",
+        "zh": "卫生纸"
+      },
+      "pronunciation": {
+        "en": "khar-TI i-YI-as",
+        "ru": "хар-ТИ и-ЙИ-ас",
+        "zh": "khar-TI i-YI-as"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "home"
+      ],
+      "answerDisplay": "το χαρτί υγείας",
+      "explanation": {
+        "en": "Χαρτί υγείας literally combines χαρτί (paper) with υγείας (of health/hygiene). The phrase is the normal name for toilet paper, not medical paperwork.",
+        "ru": "Χαρτί υγείας буквально соединяет χαρτί — «бумага» и υγείας — «здоровья», родительный падеж от υγεία. Устойчивое значение всего сочетания — «туалетная бумага».",
+        "zh": "Χαρτί υγείας 是卫生纸，字面结构是“健康／卫生的纸”：χαρτί（纸）加 υγείας（υγεία“健康”的属格）。这里的属格用来说明用途，不是表示某个人拥有这张纸。"
+      }
+    },
+    {
+      "id": "nov25-napkin",
+      "collection": "words-nouns",
+      "greek": "χαρτοπετσέτα",
+      "prompt": {
+        "en": "Paper napkin",
+        "ru": "Бумажная салфетка",
+        "zh": "餐巾纸"
+      },
+      "pronunciation": {
+        "en": "khar-to-pe-TSE-ta",
+        "ru": "хар-то-пэ-ЦЭ-та",
+        "zh": "khar-to-pe-TSE-ta"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "food"
+      ],
+      "answerDisplay": "η χαρτοπετσέτα",
+      "explanation": {
+        "en": "Χαρτοπετσέτα combines χαρτί (paper) with πετσέτα (towel/napkin). Compare χαρτομάντιλο (paper tissue): a napkin belongs at the table, while a tissue is normally for your nose.",
+        "ru": "Χαρτοπετσέτα = χαρτί — «бумага» + πετσέτα — «полотенце / салфетка». Получается бумажная столовая салфетка; бумажный носовой платок — χαρτομάντιλο.",
+        "zh": "Χαρτοπετσέτα 由 χαρτί（纸）对应的构词成分 χαρτο- 与 πετσέτα（毛巾、餐巾）组成，就是“纸餐巾”。与擦鼻子常用的 χαρτομάντιλο（纸手帕、面巾纸）区分。"
+      }
+    },
+    {
+      "id": "nov25-pork",
+      "collection": "words-nouns",
+      "greek": "χοιρινό",
+      "prompt": {
+        "en": "Pork",
+        "ru": "Свинина",
+        "zh": "猪肉"
+      },
+      "pronunciation": {
+        "en": "khi-ri-NO",
+        "ru": "хи-ри-НО",
+        "zh": "khi-ri-NO"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "food"
+      ],
+      "answerDisplay": "το χοιρινό",
+      "explanation": {
+        "en": "Το χοιρινό is pork, the meat. It comes from using the neuter adjective χοιρινό (“pork/of a pig”) as a noun, with κρέας (meat) understood.",
+        "ru": "Το χοιρινό — «свинина» как существительное среднего рода. То же слово может быть формой прилагательного: χοιρινό κρέας — «свиное мясо»; мясо подразумевается, когда κρέας опускают.",
+        "zh": "Το χοιρινό 作中性名词指猪肉；它本来也是形容词 χοιρινός（猪肉的）的中性形式，可以理解为省略了 κρέας（肉）。例如 χοιρινή μπριζόλα（猪排）中要改为阴性，因为 μπριζόλα 是阴性。"
+      }
+    },
+    {
+      "id": "nov25-fish",
+      "collection": "words-nouns",
+      "greek": "ψάρι",
+      "prompt": {
+        "en": "Fish",
+        "ru": "Рыба",
+        "zh": "鱼"
+      },
+      "pronunciation": {
+        "en": "PSA-ri",
+        "ru": "ПСА-ри",
+        "zh": "PSA-ri"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "food"
+      ],
+      "answerDisplay": "το ψάρι",
+      "explanation": {
+        "en": "Ψάρι developed from Ancient Greek ὀψάριον, a small relish or side dish; fish was a favourite food eaten alongside bread. The everyday modern word is ψάρι, while ancient ἰχθύς (fish) survives in learned compounds.",
+        "ru": "История слова ведёт к древнегреческому ὄψον — «то, что едят с хлебом, закуска». Особенно любимой закуской была рыба, и значение сузилось; через уменьшительное ὀψάριον получилось современное ψάρι — «рыба».",
+        "zh": "Ψάρι 来自古希腊语 ὄψον（佐餐的小菜）经 ὀψάριον 演变而来；鱼很受欢迎，“小菜”的名称逐渐专指鱼。普通现代说法是 ψάρι，不要把古代词形直接当作日常用语。"
+      }
+    },
+    {
+      "id": "nov25-help",
+      "collection": "words-verbs",
+      "greek": "βοηθάω",
+      "prompt": {
+        "en": "I help",
+        "ru": "Помогаю",
+        "zh": "我帮助"
+      },
+      "pronunciation": {
+        "en": "vo-i-THA-o",
+        "ru": "во-и-ТА-о",
+        "zh": "vo-i-THA-o"
+      },
+      "labels": [
+        "verb"
+      ],
+      "themes": [
+        "conversation",
+        "verbB1",
+        "verbB2"
+      ],
+      "alternatives": [
+        "βοηθώ"
+      ],
+      "explanation": {
+        "en": "Βοηθάω and βοηθώ both mean “I help”. Compare η βοήθεια (help): «Βοήθεια!» is the cry “Help!”, whereas βοηθάω describes what the helper does.",
+        "ru": "Βοηθάω и βοηθώ — «помогаю». Βοήθεια! — «На помощь!»: родственная форма, полезная и для запоминания, и в реальной ситуации.",
+        "zh": "Βοηθάω／βοηθώ 都表示“我帮助”。可联想 βοήθεια（帮助）：在 Μπορώ να βοηθήσω;（我能帮忙吗？）里，βοηθήσω 是另一种动词形式，不是新的词。"
+      }
+    },
+    {
+      "id": "nov25-give",
+      "collection": "words-verbs",
+      "greek": "δίνω",
+      "prompt": {
+        "en": "I give",
+        "ru": "Даю",
+        "zh": "我给"
+      },
+      "pronunciation": {
+        "en": "DHI-no",
+        "ru": "ДИ-но",
+        "zh": "DHI-no"
+      },
+      "labels": [
+        "verb"
+      ],
+      "themes": [
+        "conversation",
+        "verbA"
+      ],
+      "explanation": {
+        "en": "Δίνω means “I give”. For “I give you”, the person receiving something is often a short pronoun: σου δίνω means “I give to you”.",
+        "ru": "Δίνω — «даю»: δίνω ένα βιβλίο — «даю книгу». Не путайте с παίρνω — «беру»; направление действия противоположное.",
+        "zh": "Δίνω 是“我给”，词尾已经说明主语是“我”，通常不用再加 εγώ。Δίνω το βιβλίο στη Μαρία 是“我把书给玛丽娅”；给出的东西作宾语，接受者可以用 σε 引出。"
+      }
+    },
+    {
+      "id": "nov25-treat",
+      "collection": "words-verbs",
+      "greek": "κερνάω",
+      "prompt": {
+        "en": "I treat someone (pay for their food or drink)",
+        "ru": "Угощаю (за свой счёт)",
+        "zh": "我请客"
+      },
+      "pronunciation": {
+        "en": "ker-NA-o",
+        "ru": "кэр-НА-о",
+        "zh": "ker-NA-o"
+      },
+      "labels": [
+        "verb"
+      ],
+      "themes": [
+        "food",
+        "verbB1"
+      ],
+      "alternatives": [
+        "κερνώ"
+      ],
+      "explanation": {
+        "en": "Κερνάω / κερνώ means treating someone to food or drink, usually paying for it: «Κερνάω εγώ!» — “It’s on me!”. It developed from Ancient Greek κεράννυμι, “I mix”, especially wine with water: serving a drink became treating someone.",
+        "ru": "Κερνάω / κερνώ — «угощаю за свой счёт»: Κερνάω εγώ! — «Я угощаю!» Исторически слово связано с древним κεράννυμι — «смешиваю», в частности вино с водой: от смешивания и подачи напитка — к угощению. Родственное κέρασμα означает «угощение».",
+        "zh": "Κερνάω／κερνώ 表示招待别人吃喝或替对方付钱：Κερνάω εγώ! 就是“我请客！”。它可追溯到古希腊语 κεράννυμι（混合，尤其把酒和水调在一起）；从“调酒”到“端上饮料、请客”，很好记。"
+      }
+    },
+    {
+      "id": "nov25-fit",
+      "collection": "words-verbs",
+      "greek": "ταιριάζω",
+      "prompt": {
+        "en": "I fit / suit / go well with",
+        "ru": "Подхожу / сочетаюсь",
+        "zh": "我相配／适合"
+      },
+      "pronunciation": {
+        "en": "te-RYA-zo",
+        "ru": "тэ-РЬЯ-зо",
+        "zh": "te-RYA-zo"
+      },
+      "labels": [
+        "verb"
+      ],
+      "themes": [
+        "conversation",
+        "verbA"
+      ],
+      "explanation": {
+        "en": "Ταιριάζω means fitting, suiting or going well with someone or something. Compare αντιστοιχίζω, which means matching corresponding items in an exercise; the two verbs are not interchangeable.",
+        "ru": "Ταιριάζω — «подхожу / сочетаюсь»: это соответствие по стилю, размеру или характеру. Антоним не нужен: δεν ταιριάζει — «не подходит»; задание «соединяю соответствующие элементы» обычно использует другой глагол, αντιστοιχίζω.",
+        "zh": "Ταιριάζω 表示相配、适合，或把相配的东西搭在一起。与 αντιστοιχίζω（把对应项目配对）不同，ταιριάζω 还可说颜色、衣服或两个人很合适。"
+      }
+    },
+    {
+      "id": "nov25-of-course",
+      "collection": "words-adverbs",
+      "greek": "βεβαίως",
+      "prompt": {
+        "en": "Of course / certainly",
+        "ru": "Конечно / безусловно",
+        "zh": "当然／肯定"
+      },
+      "pronunciation": {
+        "en": "ve-VE-os",
+        "ru": "вэ-ВЭ-ос",
+        "zh": "ve-VE-os"
+      },
+      "labels": [
+        "adverb"
+      ],
+      "themes": [
+        "conversation"
+      ],
+      "explanation": {
+        "en": "Βεβαίως is a confident “certainly / of course”. It answers a question or emphasizes agreement; it is not the name of an object or a verb form.",
+        "ru": "Βεβαίως — уверенное «конечно / безусловно». Сравните βέβαιος — «уверенный, несомненный»; это не слово для простой вероятности.",
+        "zh": "Βεβαίως 是肯定回答或表示确定的“当然、确实”。它与 βέβαιος（确定的）同族；副词本身不随说话人的性别改变。"
+      }
+    },
+    {
+      "id": "nov25-fortunately",
+      "collection": "words-adverbs",
+      "greek": "ευτυχώς",
+      "prompt": {
+        "en": "Fortunately",
+        "ru": "К счастью",
+        "zh": "幸好"
+      },
+      "pronunciation": {
+        "en": "ef-ti-KHOS",
+        "ru": "эф-ти-ХОС",
+        "zh": "ef-ti-KHOS"
+      },
+      "labels": [
+        "adverb"
+      ],
+      "themes": [
+        "conversation"
+      ],
+      "explanation": {
+        "en": "Ευτυχώς means fortunately; δυστυχώς means unfortunately. Both connect with τύχη (luck); the ancient prefix εὐ- means “well”, so the positive form is easy to remember as good fortune.",
+        "ru": "Ευτυχώς — «к счастью», δυστυχώς — «к сожалению», τύχη — «удача». Древний элемент εὐ- означает «хорошо»: противопоставление двух наречий помогает запомнить общую основу.",
+        "zh": "Ευτυχώς 是“幸好、幸运的是”，δυστυχώς 是“不幸的是”，都与 τύχη（运气）这一词族相连。它评价的是整件事情的结果，不表示一个人正感到高兴。"
+      }
+    },
+    {
+      "id": "nov25-below",
+      "collection": "words-adverbs",
+      "greek": "παρακάτω",
+      "prompt": {
+        "en": "Further down / below",
+        "ru": "Ниже / дальше",
+        "zh": "下面／往下"
+      },
+      "pronunciation": {
+        "en": "pa-ra-KA-to",
+        "ru": "па-ра-КА-то",
+        "zh": "pa-ra-KA-to"
+      },
+      "labels": [
+        "adverb"
+      ],
+      "themes": [
+        "classroom"
+      ],
+      "explanation": {
+        "en": "Παρακάτω means further down, below or later in a text. Compare κάτω (down/below): the longer word points to something a little farther on.",
+        "ru": "Παρακάτω — «дальше / ниже» по тексту или по пути. В учебнике οι παρακάτω λέξεις — «следующие, приведённые ниже слова»; сравните κάτω — «внизу».",
+        "zh": "Παρακάτω 可以是位置上“再往下”，也可以是文章中的“下文”。它保留了 κάτω（下方）的声音；在练习说明里常指接下来列出的内容。"
+      }
+    },
+    {
+      "id": "nov25-then",
+      "collection": "words-adverbs",
+      "greek": "τότε",
+      "prompt": {
+        "en": "Then / at that time",
+        "ru": "Тогда / в то время",
+        "zh": "那时／那么"
+      },
+      "pronunciation": {
+        "en": "TO-te",
+        "ru": "ТО-тэ",
+        "zh": "TO-te"
+      },
+      "labels": [
+        "adverb"
+      ],
+      "themes": [
+        "time"
+      ],
+      "explanation": {
+        "en": "Τότε points to that time or, in a conclusion, “in that case”. Μετά means “afterwards”; use τότε when referring back to a particular time rather than simply the next event.",
+        "ru": "Τότε указывает на тот момент: τότε ήμουν παιδί — «тогда я был ребёнком». В выводе значит «тогда, в таком случае»; μετά — «потом» — прежде всего указывает на последовательность событий.",
+        "zh": "Τότε 可指“那时”，也可在条件或推论中表示“那么”。Μετά（之后）强调先后顺序，τότε 强调某个时点或条件下的结果，二者不总能互换。"
+      }
+    },
+    {
+      "id": "nov25-this-year",
+      "collection": "words-adverbs",
+      "greek": "φέτος",
+      "prompt": {
+        "en": "This year",
+        "ru": "В этом году",
+        "zh": "今年"
+      },
+      "pronunciation": {
+        "en": "FE-tos",
+        "ru": "ФЭ-тос",
+        "zh": "FE-tos"
+      },
+      "labels": [
+        "adverb"
+      ],
+      "themes": [
+        "time"
+      ],
+      "alternatives": [
+        "εφέτος"
+      ],
+      "explanation": {
+        "en": "Φέτος means “this year” in one word; the longer form εφέτος is also used. It does not mean “every year”, which is κάθε χρόνο.",
+        "ru": "Φέτος — «в этом году», одно неизменяемое слово. Оно исторически связано с έτος — «год»; πέρσι — «в прошлом году», του χρόνου — «в следующем году».",
+        "zh": "Φέτος 一个词就表示“今年”，通常不用再加“在”或“年”。例如 Φέτος μαθαίνω ελληνικά. 是“我今年学希腊语”。"
+      }
+    },
+    {
+      "id": "nov25-fast",
+      "collection": "words-adjectives",
+      "greek": "γρήγορος",
+      "prompt": {
+        "en": "Fast / quick (describing a noun)",
+        "ru": "Быстрый",
+        "zh": "快的"
+      },
+      "pronunciation": {
+        "en": "GHRI-gho-ros",
+        "ru": "ГРИ-го-рос",
+        "zh": "GHRI-gho-ros"
+      },
+      "labels": [
+        "adjective"
+      ],
+      "themes": [
+        "conversation"
+      ],
+      "alternatives": [
+        "γρήγορη",
+        "γρήγορο"
+      ],
+      "explanation": {
+        "en": "Γρήγορος, γρήγορη and γρήγορο describe a fast person or thing. Γρήγορα is the adverb “quickly”: γρήγορο αυτοκίνητο means “fast car”, but οδηγώ γρήγορα means “I drive quickly”.",
+        "ru": "Γρήγορος, γρήγορη, γρήγορο — «быстрый», три рода прилагательного; принимается любой. Γρήγορα — «быстро» — наречие, когда описывает действие; оно также совпадает по написанию с формой прилагательного среднего рода множественного числа.",
+        "zh": "Γρήγορος／γρήγορη／γρήγορο 是阳性／阴性／中性单数形容词，都表示“快的”。修饰名词时要配合它的性；γρήγορα（快速地）则是副词，不能把形容词的任意词尾都当作副词使用。"
+      }
+    },
+    {
+      "id": "nov25-beautiful",
+      "collection": "words-adjectives",
+      "greek": "ωραίος",
+      "prompt": {
+        "en": "Beautiful / lovely",
+        "ru": "Красивый / прекрасный",
+        "zh": "漂亮的／美好的"
+      },
+      "pronunciation": {
+        "en": "o-RE-os",
+        "ru": "о-РЭ-ос",
+        "zh": "o-RE-os"
+      },
+      "labels": [
+        "adjective"
+      ],
+      "themes": [
+        "conversation"
+      ],
+      "alternatives": [
+        "ωραία",
+        "ωραίο"
+      ],
+      "explanation": {
+        "en": "Ωραίος, ωραία and ωραίο mean beautiful, lovely or pleasant. Ancient ὡραῖος could mean “in season / at the right time”, from ὥρα (season/time): beauty was linked with being in one's prime.",
+        "ru": "Ωραίος, ωραία, ωραίο — «красивый / приятный / хороший»; форма согласуется с греческим родом: ωραία μέρα — «прекрасный день». Древнее ὡραῖος означало также «своевременный, в расцвете» и связано с ὥρα — «пора, время». Красоту можно запомнить как человека или плод в пору своего расцвета.",
+        "zh": "Ωραίος／ωραία／ωραίο 可表示漂亮、美好，三个形式随名词的性改变；Ωραία! 单独说还常相当于“好啊！”。它来自古希腊语 ὡραῖος，原有“正当时、合时宜”的意思，与 ὥρα（时节）相连，后来发展出“美好、漂亮”的意思。可用“当季的东西正好最好”这个画面来记，但现代用法并不限定于季节。"
+      }
+    },
+    {
+      "id": "nov25-cheap",
+      "collection": "words-adjectives",
+      "greek": "φτηνός",
+      "prompt": {
+        "en": "Cheap / inexpensive",
+        "ru": "Дешёвый / недорогой",
+        "zh": "便宜的"
+      },
+      "pronunciation": {
+        "en": "fti-NOS",
+        "ru": "фти-НОС",
+        "zh": "fti-NOS"
+      },
+      "labels": [
+        "adjective"
+      ],
+      "themes": [
+        "conversation"
+      ],
+      "alternatives": [
+        "φτηνή",
+        "φτηνό",
+        "φθηνός",
+        "φθηνή",
+        "φθηνό"
+      ],
+      "explanation": {
+        "en": "Φτηνός, φτηνή and φτηνό mean inexpensive; the spellings φθηνός, φθηνή and φθηνό are also accepted. The opposite is ακριβός (expensive).",
+        "ru": "Φτηνός, φτηνή, φτηνό — «дешёвый / недорогой». Написание φθηνός с θ тоже правильное; антоним ακριβός — «дорогой».",
+        "zh": "Φτηνός／φτηνή／φτηνό 表示便宜；φθηνός／φθηνή／φθηνό 也是通行拼写。它说明价格低，并不自动表示品质差；与 ακριβός（贵的）相对。"
+      }
+    },
+    {
+      "id": "nov25-whole",
+      "collection": "words-adjectives",
+      "greek": "όλος",
+      "prompt": {
+        "en": "Whole / entire",
+        "ru": "Целый / весь",
+        "zh": "整个的"
+      },
+      "pronunciation": {
+        "en": "O-los",
+        "ru": "О-лос",
+        "zh": "O-los"
+      },
+      "labels": [
+        "adjective"
+      ],
+      "themes": [
+        "conversation"
+      ],
+      "alternatives": [
+        "όλη",
+        "όλο"
+      ],
+      "explanation": {
+        "en": "Όλος, όλη and όλο mean whole or entire when describing a singular noun: όλη η μέρα is “the whole day”. Plural όλοι, όλες and όλα mean “all”; the ending follows the noun's gender and number.",
+        "ru": "Όλος, όλη, όλο — «весь, целый»: όλη η μέρα — «весь день», όλο το σπίτι — «весь дом». Это описание целого предмета или промежутка; όλοι — «все» о людях — форма множественного числа, а не взаимозаменяемый ответ.",
+        "zh": "Όλος／όλη／όλο 表示整个、全部，跟着后面的名词变形。Όλη η μέρα 是“整天”；复数 όλοι／όλες／όλα 常指一组中的全部，与单数“整个”有关但用法不同。"
+      }
+    },
+    {
+      "id": "nov25-much",
+      "collection": "words-adjectives",
+      "greek": "πολύς",
+      "prompt": {
+        "en": "Much / many (describing a noun)",
+        "ru": "Много / многочисленный (при существительном)",
+        "zh": "很多的（修饰名词）"
+      },
+      "pronunciation": {
+        "en": "po-LIS",
+        "ru": "по-ЛИС",
+        "zh": "po-LIS"
+      },
+      "labels": [
+        "adjective"
+      ],
+      "themes": [
+        "food"
+      ],
+      "alternatives": [
+        "πολλή",
+        "πολύ"
+      ],
+      "explanation": {
+        "en": "Πολύς, πολλή and πολύ describe a large amount; plural πολλοί, πολλές and πολλά describe many items. Compare πολλή ζάχαρη (much sugar) with πολύ γλυκό (very sweet): the first agrees with a noun, while the adverb πολύ does not change.",
+        "ru": "Перед существительным слово меняется: πολύς καφές — «много кофе», πολλή ζάχαρη — «много сахара», πολύ νερό — «много воды». Во множественном числе: πολλοί, πολλές, πολλά — «многие / много». Русское «много» не согласуется по родам, а греческое прилагательное согласуется; наречие πολύ в πολύ καλός — «очень хороший» — другая роль.",
+        "zh": "Πολύς／πολλή／πολύ 修饰名词，分别配合阳性、阴性、中性单数，例如 πολύς κόσμος（很多人）、πολλή ζάχαρη（很多糖）、πολύ νερό（很多水）。注意阴性 πολλή 双写 λ；副词 πολύ（很、非常）不变形，不能把两类用法混为一谈。"
+      }
+    },
+    {
+      "id": "nov25-beef-adjective",
+      "collection": "words-adjectives",
+      "greek": "μοσχαρίσιος",
+      "prompt": {
+        "en": "Beef / veal (describing a food)",
+        "ru": "Говяжий / телячий",
+        "zh": "牛肉的／小牛肉的"
+      },
+      "pronunciation": {
+        "en": "mos-kha-RI-si-os",
+        "ru": "мос-ха-РИ-си-ос",
+        "zh": "mos-kha-RI-si-os"
+      },
+      "labels": [
+        "adjective"
+      ],
+      "themes": [
+        "food"
+      ],
+      "alternatives": [
+        "μοσχαρίσια",
+        "μοσχαρίσιο",
+        "μοσχαρήσιος",
+        "μοσχαρήσια",
+        "μοσχαρήσιο"
+      ],
+      "explanation": {
+        "en": "Μοσχαρίσιος, μοσχαρίσια and μοσχαρίσιο describe beef or veal. Compare μοσχάρι (calf): the adjective changes to match the food noun, as in μοσχαρίσιος κιμάς (beef/veal mince). The alternative spelling μοσχαρήσιος, with matching feminine and neuter endings, is also accepted.",
+        "ru": "Μοσχαρίσιος, μοσχαρίσια, μοσχαρίσιο — «говяжий / телячий», от μοσχάρι — «телёнок, молодое животное крупного рогатого скота». В магазине μοσχαρίσιο κρέας обычно переводят как «говядина»; слово само по себе не гарантирует именно нежную телятину.",
+        "zh": "Μοσχαρίσιος／μοσχαρίσια／μοσχαρίσιο 表示牛肉或小牛肉的，与 μοσχάρι（小牛、牛肉）有关。它要配合食品名称变形：μοσχαρίσιος κιμάς（牛肉末）、μοσχαρίσια μπριζόλα（牛排）。"
+      }
+    },
+    {
+      "id": "nov25-pork-adjective",
+      "collection": "words-adjectives",
+      "greek": "χοιρινός",
+      "prompt": {
+        "en": "Pork (describing a food)",
+        "ru": "Свиной",
+        "zh": "猪肉的"
+      },
+      "pronunciation": {
+        "en": "khi-ri-NOS",
+        "ru": "хи-ри-НОС",
+        "zh": "khi-ri-NOS"
+      },
+      "labels": [
+        "adjective"
+      ],
+      "themes": [
+        "food"
+      ],
+      "alternatives": [
+        "χοιρινή",
+        "χοιρινό"
+      ],
+      "explanation": {
+        "en": "Χοιρινός, χοιρινή and χοιρινό describe something made from pork. The ending agrees with the noun: χοιρινή μπριζόλα is a pork chop, whereas το χοιρινό on its own is pork as a meat.",
+        "ru": "Χοιρινός, χοιρινή, χοιρινό — «свиной»: χοιρινές μπριζόλες — «свиные отбивные». Если существительное опущено, το χοιρινό означает «свинина».",
+        "zh": "Χοιρινός／χοιρινή／χοιρινό 表示猪肉的，与 χοίρος（猪）同族。Χοιρινή μπριζόλα 是猪排；加中性冠词的 το χοιρινό 则可直接表示猪肉。"
+      }
+    },
+    {
+      "id": "nov25-masculine",
+      "collection": "words-adjectives",
+      "greek": "αρσενικός",
+      "prompt": {
+        "en": "Masculine / male",
+        "ru": "Мужского рода / мужской",
+        "zh": "阳性的／男性的"
+      },
+      "pronunciation": {
+        "en": "ar-se-ni-KOS",
+        "ru": "ар-сэ-ни-КОС",
+        "zh": "ar-se-ni-KOS"
+      },
+      "labels": [
+        "adjective"
+      ],
+      "themes": [
+        "classroom"
+      ],
+      "alternatives": [
+        "αρσενική",
+        "αρσενικό"
+      ],
+      "explanation": {
+        "en": "Αρσενικός means male or masculine; in grammar it names a noun's gender. Grammatical gender is not biological sex: ο καφές (coffee) is masculine even though it is not a living creature.",
+        "ru": "Αρσενικός означает «мужского рода» в грамматике и «мужской, самец» при описании пола. Род слова — не пол предмета: ο καφές, «кофе», мужского рода; формы прилагательного — αρσενικός, αρσενική, αρσενικό.",
+        "zh": "在语法里，αρσενικός 表示阳性的；αρσενικό ουσιαστικό 是“阳性名词”，词尾变成中性是因为 ουσιαστικό（名词）本身为中性。语法性别是词的分类，不能据此推断物品或人的性别。"
+      }
+    },
+    {
+      "id": "nov25-feminine",
+      "collection": "words-adjectives",
+      "greek": "θηλυκός",
+      "prompt": {
+        "en": "Feminine / female",
+        "ru": "Женского рода / женский",
+        "zh": "阴性的／女性的"
+      },
+      "pronunciation": {
+        "en": "thi-li-KOS",
+        "ru": "ти-ли-КОС",
+        "zh": "thi-li-KOS"
+      },
+      "labels": [
+        "adjective"
+      ],
+      "themes": [
+        "classroom"
+      ],
+      "alternatives": [
+        "θηλυκή",
+        "θηλυκό"
+      ],
+      "explanation": {
+        "en": "Θηλυκός means female or feminine. In grammar, θηλυκό ουσιαστικό means a feminine noun: the word θηλυκό agrees with neuter ουσιαστικό (noun), while naming the noun's grammatical category.",
+        "ru": "Θηλυκός означает «женского рода» в грамматике и «женский, самка» при описании пола. Грамматический род не обязан совпадать с русским: η καρέκλα — «стул», но в греческом женского рода; формы — θηλυκός, θηλυκή, θηλυκό.",
+        "zh": "在语法里，θηλυκός 表示阴性的；θηλυκό ουσιαστικό 是“阴性名词”。即使讨论阴性类别，这个形容词也要与被修饰的词一致；所以跟中性的 ουσιαστικό 搭配时用 θηλυκό。"
+      }
+    },
+    {
+      "id": "nov25-neuter",
+      "collection": "words-adjectives",
+      "greek": "ουδέτερος",
+      "prompt": {
+        "en": "Neuter / neutral",
+        "ru": "Среднего рода / нейтральный",
+        "zh": "中性的"
+      },
+      "pronunciation": {
+        "en": "u-DHE-te-ros",
+        "ru": "у-ДЭ-тэ-рос",
+        "zh": "u-DHE-te-ros"
+      },
+      "labels": [
+        "adjective"
+      ],
+      "themes": [
+        "classroom"
+      ],
+      "alternatives": [
+        "ουδέτερη",
+        "ουδέτερο"
+      ],
+      "explanation": {
+        "en": "Ουδέτερος means neutral, and in grammar “neuter”. A neuter noun often takes το, but neuter does not mean inanimate: το παιδί (child) is neuter too.",
+        "ru": "Ουδέτερος — «нейтральный»; в грамматике ουδέτερο γένος — «средний род». Например, το παιδί — «ребёнок» среднего рода независимо от пола ребёнка; формы прилагательного — ουδέτερος, ουδέτερη, ουδέτερο.",
+        "zh": "Ουδέτερος／ουδέτερη／ουδέτερο 可表示中性或中立。语法中的 ουδέτερο ουσιαστικό 是“中性名词”；中性不是没有语法性别，而是希腊语三种性别之一。"
+      }
+    },
+    {
+      "id": "nov25-super",
+      "collection": "words-adjectives",
+      "greek": "σούπερ",
+      "prompt": {
+        "en": "Super / great",
+        "ru": "Супер / отличный",
+        "zh": "超棒的"
+      },
+      "pronunciation": {
+        "en": "SU-per",
+        "ru": "СУ-пэр",
+        "zh": "SU-per"
+      },
+      "labels": [
+        "adjective"
+      ],
+      "themes": [
+        "conversation"
+      ],
+      "explanation": {
+        "en": "Σούπερ is a borrowed, informal “super / great”. It stays unchanged when describing masculine, feminine or neuter nouns, unlike most Greek adjectives.",
+        "ru": "Σούπερ — разговорное «супер / отличный», несклоняемое заимствование. В сочетании σούπερ μάρκετ — «супермаркет» — это часть названия магазина, а не оценка его качества.",
+        "zh": "Σούπερ 是口语里的“超棒、特别好”，不随名词的性、数或格改变。在 σούπερ μάρκετ（超市）这个固定组合中，它又是名称的一部分。"
+      }
+    },
+    {
+      "id": "nov25-cypriot",
+      "collection": "words-names",
+      "greek": "Κύπριος",
+      "prompt": {
+        "en": "Cypriot (person)",
+        "ru": "Киприот / киприотка",
+        "zh": "塞浦路斯人"
+      },
+      "pronunciation": {
+        "en": "KI-pri-os",
+        "ru": "КИ-при-ос",
+        "zh": "KI-pri-os"
+      },
+      "labels": [
+        "noun"
+      ],
+      "themes": [
+        "people"
+      ],
+      "wordGroup": "nov25-cypriot",
+      "forms": [
+        {
+          "greek": "Κύπριος",
+          "answerDisplay": "ο Κύπριος",
+          "pronunciation": {
+            "en": "KI-pri-os",
+            "ru": "КИ-при-ос",
+            "zh": "KI-pri-os"
+          }
+        },
+        {
+          "greek": "Κύπρια",
+          "answerDisplay": "η Κύπρια",
+          "pronunciation": {
+            "en": "KI-pri-a",
+            "ru": "КИ-при-а",
+            "zh": "KI-pri-a"
+          }
+        }
+      ],
+      "answerDisplay": "ο Κύπριος / η Κύπρια",
+      "alternatives": [
+        "Κύπρια"
+      ],
+      "explanation": {
+        "en": "Ο Κύπριος is a male Cypriot; η Κύπρια is a female Cypriot. Both nationality forms start with a capital letter; η Κύπρος is the country, Cyprus.",
+        "ru": "Ο Κύπριος — «киприот», η Κύπρια — «киприотка», от Κύπρος — «Кипр». Названия национальностей в греческом пишут с заглавной буквы; обе формы подходят для ответа.",
+        "zh": "男性塞浦路斯人是 ο Κύπριος，女性是 η Κύπρια；两种形式均可回答。国籍名词的首字母大写；国家名称是 Κύπρος（塞浦路斯）。"
+      }
+    },
+    {
+      "id": "nov25-therefore",
+      "collection": "words-connectors",
+      "greek": "γι’ αυτό",
+      "prompt": {
+        "en": "That is why / for that reason",
+        "ru": "Поэтому / по этой причине",
+        "zh": "因此／所以"
+      },
+      "pronunciation": {
+        "en": "yi af-TO",
+        "ru": "йи аф-ТО",
+        "zh": "yi af-TO"
+      },
+      "labels": [
+        "conjunction"
+      ],
+      "themes": [
+        "conversation"
+      ],
+      "alternatives": [
+        "γι' αυτό",
+        "για αυτό"
+      ],
+      "contextExample": {
+        "en": "Δεν έχω λεφτά, ___ δεν αγοράζω τίποτα. — I have no money, so I am not buying anything.",
+        "ru": "Δεν έχω λεφτά, ___ δεν αγοράζω τίποτα. — У меня нет денег, поэтому я ничего не покупаю.",
+        "zh": "Δεν έχω λεφτά, ___ δεν αγοράζω τίποτα. — 我没钱，所以什么也不买。"
+      },
+      "explanation": {
+        "en": "Γι’ αυτό / για αυτό means “for that reason / that is why”, linking a reason to its consequence. The spelling with the apostrophe shows that the final α of για has been dropped before αυτό.",
+        "ru": "Γι’ αυτό — «поэтому»: вся фраза связывает причину и результат. Это сокращённое για αυτό; без такого контекста те же слова могут буквально значить «для этого», поэтому здесь дано целое предложение.",
+        "zh": "Γι’ αυτό 在因果关系中表示“所以、因此”，指向前面说出的原因。它也可能字面表示“为了这个”，所以要看上下文；γι’ 是 για 在元音前省音的写法。"
+      }
+    },
+    {
+      "id": "nov25-can-help",
+      "collection": "phrases-everyday",
+      "greek": "Μπορώ να βοηθήσω;",
+      "prompt": {
+        "en": "Can I help?",
+        "ru": "Могу помочь?",
+        "zh": "我能帮忙吗？"
+      },
+      "pronunciation": {
+        "en": "bo-RO na vo-i-THI-so",
+        "ru": "бо-РО на во-и-ТИ-со",
+        "zh": "bo-RO na vo-i-THI-so"
+      },
+      "themes": [
+        "conversation"
+      ],
+      "explanation": {
+        "en": "Βοηθήσω after να presents helping as a single action or offer. It is not the ordinary present form βοηθάω (“I help”); μπορώ να introduces what you can do.",
+        "ru": "После μπορώ — «могу» — нужен глагол с να, а не русский инфинитив. Να βοηθήσω — «помочь» в конкретной ситуации; помогает запомнить различие с βοηθάω — «помогаю» вообще или регулярно.",
+        "zh": "Μπορώ（我能）后接 να 和动词；这里 βοηθήσω 表示一次具体的帮忙。Βοηθάω（我帮助）是同一个动词的现在时形式，不需要把它当成两个互不相关的词。"
+      }
+    },
+    {
+      "id": "nov25-bill-please",
+      "collection": "phrases-everyday",
+      "greek": "Τον λογαριασμό, παρακαλώ.",
+      "prompt": {
+        "en": "The bill, please.",
+        "ru": "Счёт, пожалуйста.",
+        "zh": "请结账。"
+      },
+      "pronunciation": {
+        "en": "ton lo-gha-ria-ZMO pa-ra-ka-LO",
+        "ru": "тон ло-га-рья-ЗМО па-ра-ка-ЛО",
+        "zh": "ton lo-gha-ria-ZMO pa-ra-ka-LO"
+      },
+      "themes": [
+        "food"
+      ],
+      "explanation": {
+        "en": "The noun is in the accusative: τον λογαριασμό, as though saying “I would like the bill”. The polite request is complete without adding a verb.",
+        "ru": "Τον λογαριασμό — винительный падеж: подразумевается просьба «принесите счёт». Παρακαλώ смягчает просьбу, как русское «пожалуйста»; полный глагол в такой фразе не нужен.",
+        "zh": "向服务员要账单时可以省略“请给我”，直接说“账单，请”。因此 λογαριασμό 用宾格，冠词也变成 τον；不是独立介绍一个名词时的 ο λογαριασμός。"
+      }
+    },
+    {
+      "id": "nov25-next-time",
+      "collection": "phrases-everyday",
+      "greek": "Την επόμενη φορά.",
+      "prompt": {
+        "en": "Next time.",
+        "ru": "В следующий раз.",
+        "zh": "下次。"
+      },
+      "pronunciation": {
+        "en": "tin e-PO-me-ni fo-RA",
+        "ru": "тин э-ПО-мэ-ни фо-РА",
+        "zh": "tin e-PO-me-ni fo-RA"
+      },
+      "themes": [
+        "time"
+      ],
+      "explanation": {
+        "en": "Την επόμενη φορά is an accusative time expression: “next time”. Greek needs no separate word for “on” in this phrase; both the article and adjective agree with feminine φορά.",
+        "ru": "Την επόμενη φορά — «в следующий раз»: выражение времени стоит в винительном падеже без предлога. Прилагательное επόμενη, «следующая», согласуется с φορά — словом женского рода.",
+        "zh": "时间短语 Την επόμενη φορά 表示“下一次”，不一定要另加一个“在”。Επόμενη 和 φορά 都是阴性单数宾格，冠词用 την；中文词序类似，但希腊语还要在词尾上配合。"
+      }
+    },
+    {
+      "id": "nov25-informal-address",
+      "collection": "phrases-social",
+      "greek": "Μπορώ να σας μιλάω στον ενικό;",
+      "prompt": {
+        "en": "May I address you informally?",
+        "ru": "Можно обращаться к вам на «ты»?",
+        "zh": "我可以不用敬称来称呼您吗？"
+      },
+      "pronunciation": {
+        "en": "bo-RO na sas mi-LA-o ston e-ni-KO",
+        "ru": "бо-РО на сас ми-ЛА-о стон э-ни-КО",
+        "zh": "bo-RO na sas mi-LA-o ston e-ni-KO"
+      },
+      "themes": [
+        "conversation"
+      ],
+      "acceptedAnswers": [
+        "Μπορώ να σας μιλώ στον ενικό;"
+      ],
+      "explanation": {
+        "en": "Σας is polite “you”; στον ενικό literally means “in the singular”. You are asking permission to switch to informal εσύ forms, a distinction that modern English normally leaves to tone and choice of name.",
+        "ru": "Σας — вежливое «вам / вас», а στον ενικό буквально значит «в единственном числе». Так спрашивают разрешения перейти на «ты»; противоположное στον πληθυντικό — «во множественном числе», то есть «на Вы». Μιλάω и μιλώ — варианты одного глагола.",
+        "zh": "字面是“我可以用单数形式跟您说话吗？”。Σας 是礼貌的“您”，στον ενικό 表示改用单数、较熟悉的称呼；征求同意时先保留敬称，就像中文问“我可以直接叫你的名字吗？”。"
+      }
+    },
+    {
+      "id": "nov25-quantity-coffee",
+      "collection": "grammar-questions",
+      "greek": "Πόσο καφέ θέλεις;",
+      "prompt": {
+        "en": "How much coffee do you want? (informal)",
+        "ru": "Сколько кофе ты хочешь?",
+        "zh": "你想要多少咖啡？"
+      },
+      "pronunciation": {
+        "en": "PO-so ka-FE THE-lis",
+        "ru": "ПО-со ка-ФЭ ТЭ-лис",
+        "zh": "PO-so ka-FE THE-lis"
+      },
+      "themes": [
+        "food"
+      ],
+      "acceptedAnswers": [
+        "Πόσο καφέ θέλεις εσύ;",
+        "Πόσον καφέ θέλεις;",
+        "Πόσον καφέ θέλεις εσύ;"
+      ],
+      "explanation": {
+        "en": "Καφές is masculine, but as the thing wanted it takes the accusative καφέ; πόσο agrees with it. English distinguishes “how much” from “how many”, while Greek also changes the ending for gender and case.",
+        "ru": "Ο καφές — мужского рода; после θέλεις — «ты хочешь» — нужен винительный падеж καφέ. Поэтому πόσο, не πόσος: Πόσο καφέ θέλεις; — «Сколько кофе ты хочешь?» Русское «сколько» не меняется по родам, а греческое вопросительное слово согласуется с существительным.",
+        "zh": "Καφές 是阳性；作“想要”的宾语时变成 καφέ，问数量的词也用宾格 πόσο。虽然中文只说“多少”，希腊语要同时考虑名词的性和它在句中的作用。"
+      }
+    },
+    {
+      "id": "nov25-quantity-crowd",
+      "collection": "grammar-questions",
+      "greek": "Πόσος κόσμος είναι έξω;",
+      "prompt": {
+        "en": "How many people are outside? (people as a crowd)",
+        "ru": "Сколько народу снаружи?",
+        "zh": "外面有多少人？"
+      },
+      "pronunciation": {
+        "en": "PO-sos KO-zmos I-ne E-kso",
+        "ru": "ПО-сос КО-змос И-нэ Э-ксо",
+        "zh": "PO-sos KO-zmos I-ne E-kso"
+      },
+      "themes": [
+        "people"
+      ],
+      "explanation": {
+        "en": "Κόσμος means people collectively, but is grammatically masculine singular. That is why Greek uses πόσος and είναι, even though English says “how many people are”.",
+        "ru": "Ο κόσμος — собирательное «люди, народ», грамматически единственное число мужского рода. Поэтому πόσος κόσμος и глагол είναι: по-русски «сколько людей», но греческая конструкция устроена как «сколько народу».",
+        "zh": "Κόσμος 在这里是集合名词“人群”，语法上是阳性单数，所以用 πόσος 和单数 είναι。中文“多少人”容易让人想到复数，但希腊语是在问“多大一群人”。"
+      }
+    },
+    {
+      "id": "nov25-quantity-juice",
+      "collection": "grammar-questions",
+      "greek": "Πόσοι χυμοί υπάρχουν;",
+      "prompt": {
+        "en": "How many portions of juice are there?",
+        "ru": "Сколько порций сока есть?",
+        "zh": "有多少份果汁？"
+      },
+      "pronunciation": {
+        "en": "PO-si khi-MI i-PAR-khun",
+        "ru": "ПО-си хи-МИ и-ПАР-хун",
+        "zh": "PO-si khi-MI i-PAR-khun"
+      },
+      "themes": [
+        "food"
+      ],
+      "explanation": {
+        "en": "Χυμοί is masculine plural and is the subject of υπάρχουν (“there are”), so the question begins πόσοι. It counts portions or kinds of juice, like ordering “two juices” in English.",
+        "ru": "Χυμοί — «соки» во множественном числе мужского рода; здесь это подлежащее, поэтому πόσοι, а не πόσους. В контексте заказа речь о порциях или упаковках сока; υπάρχουν значит «имеются».",
+        "zh": "Χυμοί 是 χυμός（果汁）的阳性复数，把饮料当作可数的若干份。它是“存在”的主语，所以用主格 πόσοι，动词也用复数 υπάρχουν；句子本身没有指定杯子或瓶子。"
+      }
+    },
+    {
+      "id": "nov25-quantity-teachers",
+      "collection": "grammar-questions",
+      "greek": "Πόσους καθηγητές βλέπεις;",
+      "prompt": {
+        "en": "How many teachers do you see? (male or mixed group, informal)",
+        "ru": "Сколько преподавателей ты видишь? (мужчины или смешанная группа)",
+        "zh": "你看见几位老师？（男性或男女混合）"
+      },
+      "pronunciation": {
+        "en": "PO-sus ka-thi-yi-TES VLE-pis",
+        "ru": "ПО-сус ка-ти-йи-ТЭС ВЛЭ-пис",
+        "zh": "PO-sus ka-thi-yi-TES VLE-pis"
+      },
+      "themes": [
+        "classroom"
+      ],
+      "acceptedAnswers": [
+        "Πόσους καθηγητές βλέπεις εσύ;"
+      ],
+      "explanation": {
+        "en": "The teachers are the object of βλέπεις (“you see”), so masculine plural πόσοι becomes πόσους. Compare πόσοι καθηγητές (how many teachers, as subject) with πόσους καθηγητές (as object).",
+        "ru": "Καθηγητές — «преподаватели», здесь объект глагола βλέπεις — «ты видишь». Поэтому винительный падеж множественного числа πόσους; если бы преподаватели были подлежащим, было бы πόσοι καθηγητές — «сколько преподавателей».",
+        "zh": "Καθηγητές（老师们）是 βλέπεις（你看见）的宾语，所以问“多少”要用阳性复数宾格 πόσους。若老师们作主语，则用主格 πόσοι；中文没有这组词形变化。"
+      }
+    },
+    {
+      "id": "nov25-quantity-sugar",
+      "collection": "grammar-questions",
+      "greek": "Πόση ζάχαρη θέλεις;",
+      "prompt": {
+        "en": "How much sugar do you want? (informal)",
+        "ru": "Сколько сахара ты хочешь?",
+        "zh": "你想要多少糖？"
+      },
+      "pronunciation": {
+        "en": "PO-si ZA-kha-ri THE-lis",
+        "ru": "ПО-си ЗА-ха-ри ТЭ-лис",
+        "zh": "PO-si ZA-kha-ri THE-lis"
+      },
+      "themes": [
+        "food"
+      ],
+      "acceptedAnswers": [
+        "Πόση ζάχαρη θέλεις εσύ;"
+      ],
+      "explanation": {
+        "en": "Ζάχαρη is feminine singular, so “how much” is πόση. English leaves “how much” unchanged, but Greek must match the noun's gender.",
+        "ru": "Η ζάχαρη — слово женского рода, поэтому πόση ζάχαρη — «сколько сахара». Русский «сахар» мужского рода не подсказывает греческую форму: согласуем по греческому существительному.",
+        "zh": "Ζάχαρη（糖）是阴性单数名词，即使说很多糖，通常也按一种原料处理，因此用 πόση。它与中文“多少”意思相同，但词尾必须配合糖在希腊语里的语法性别。"
+      }
+    },
+    {
+      "id": "nov25-quantity-chairs",
+      "collection": "grammar-questions",
+      "greek": "Πόσες καρέκλες υπάρχουν;",
+      "prompt": {
+        "en": "How many chairs are there?",
+        "ru": "Сколько стульев есть?",
+        "zh": "有几把椅子？"
+      },
+      "pronunciation": {
+        "en": "PO-ses ka-RE-kles i-PAR-khun",
+        "ru": "ПО-сэс ка-РЭ-клэс и-ПАР-хун",
+        "zh": "PO-ses ka-RE-kles i-PAR-khun"
+      },
+      "themes": [
+        "home"
+      ],
+      "acceptedAnswers": [
+        "Πόσες καρέκλες έχει;"
+      ],
+      "explanation": {
+        "en": "Καρέκλες is feminine plural, so the question uses πόσες. For this feminine form, nominative and accusative look the same; that is not true for every gender.",
+        "ru": "Καρέκλες — «стулья», женский род множественного числа, поэтому πόσες. Υπάρχουν — «имеются» — тоже во множественном числе. Русское «стулья» не сохраняет различие родов, а греческое πόσες его показывает.",
+        "zh": "Καρέκλες（椅子）是阴性复数，所以用 πόσες；“存在”的动词也用复数 υπάρχουν。中文需要量词“把”，希腊语这里直接用疑问词加复数名词。"
+      }
+    },
+    {
+      "id": "nov25-quantity-water",
+      "collection": "grammar-questions",
+      "greek": "Πόσο νερό θέλεις;",
+      "prompt": {
+        "en": "How much water do you want? (informal)",
+        "ru": "Сколько воды ты хочешь?",
+        "zh": "你想要多少水？"
+      },
+      "pronunciation": {
+        "en": "PO-so ne-RO THE-lis",
+        "ru": "ПО-со нэ-РО ТЭ-лис",
+        "zh": "PO-so ne-RO THE-lis"
+      },
+      "themes": [
+        "food"
+      ],
+      "acceptedAnswers": [
+        "Πόσο νερό θέλεις εσύ;"
+      ],
+      "explanation": {
+        "en": "Νερό is neuter singular, so “how much” is πόσο. Compare πόση ζάχαρη (how much sugar): the meaning is the same kind of question, but the grammatical gender changes its ending.",
+        "ru": "Το νερό — слово среднего рода; вопрос о его количестве — πόσο νερό. В отличие от русского «сколько», πόσο здесь показывает род и число существительного; вода рассматривается как вещество, не отдельные предметы.",
+        "zh": "Νερό（水）是中性单数，通常当作不可数的物质，所以用 πόσο。中性单数的主格和宾格形式相同，但这不代表所有名词都不需要区分格。"
+      }
+    },
+    {
+      "id": "nov25-plural-fast-cars",
+      "collection": "grammar-gender",
+      "greek": "Τα γρήγορα αυτοκίνητα.",
+      "prompt": {
+        "en": "The fast cars.",
+        "ru": "Быстрые машины (с артиклем).",
+        "zh": "那些速度快的汽车（带定冠词）。"
+      },
+      "pronunciation": {
+        "en": "ta GHRI-gho-ra af-to-KI-ni-ta",
+        "ru": "та ГРИ-го-ра аф-то-КИ-ни-та",
+        "zh": "ta GHRI-gho-ra af-to-KI-ni-ta"
+      },
+      "themes": [
+        "travel"
+      ],
+      "explanation": {
+        "en": "The article, adjective and noun are all neuter plural: τα γρήγορα αυτοκίνητα. Here γρήγορα describes cars; the identical spelling can mean “quickly” when used as an adverb elsewhere.",
+        "ru": "Το αυτοκίνητο — «машина», среднего рода; во множественном числе τα αυτοκίνητα. Прилагательное согласуется: γρήγορο → γρήγορα, «быстрая → быстрые»; ударение остаётся на γρή-.",
+        "zh": "Αυτοκίνητα 是中性复数，所以冠词用 τα，形容词用 γρήγορα。中文“快”不变形；希腊语要让冠词、形容词、名词三个部分在性和数上保持一致。"
+      }
+    },
+    {
+      "id": "nov25-plural-beautiful-seas",
+      "collection": "grammar-gender",
+      "greek": "Οι ωραίες θάλασσες.",
+      "prompt": {
+        "en": "The beautiful seas.",
+        "ru": "Красивые моря (с артиклем).",
+        "zh": "那些美丽的海（带定冠词）。"
+      },
+      "pronunciation": {
+        "en": "i o-RE-es THA-la-ses",
+        "ru": "и о-РЭ-эс ТА-ла-сэс",
+        "zh": "i o-RE-es THA-la-ses"
+      },
+      "themes": [
+        "travel"
+      ],
+      "explanation": {
+        "en": "Θάλασσα (sea) is feminine, so its plural takes οι ωραίες θάλασσες. Unlike English “beautiful”, the Greek adjective changes with the noun; its stress stays on the same syllable.",
+        "ru": "Η θάλασσα — «море», женского рода, поэтому множественное οι ωραίες θάλασσες. Не переносите русский средний род на греческое слово; ωραίες — форма женского рода множественного числа от ωραίος, «красивый».",
+        "zh": "Θάλασσα（海）是阴性，复数 θάλασσες 要配合 οι 和 ωραίες。不要因为中文把海想成某种性别来推测希腊语的性；它是每个词自带的语法分类。"
+      }
+    },
+    {
+      "id": "nov25-plural-fast-athletes",
+      "collection": "grammar-gender",
+      "greek": "Βλέπω τους γρήγορους αθλητές.",
+      "prompt": {
+        "en": "I see the fast athletes. (male or mixed group)",
+        "ru": "Вижу быстрых спортсменов. (мужчины или смешанная группа)",
+        "zh": "我看见那些速度快的运动员。（男性或男女混合）"
+      },
+      "pronunciation": {
+        "en": "VLE-po tus GHRI-gho-rus a-thli-TES",
+        "ru": "ВЛЭ-по тус ГРИ-го-рус а-тли-ТЭС",
+        "zh": "VLE-po tus GHRI-gho-rus a-thli-TES"
+      },
+      "themes": [
+        "classroom"
+      ],
+      "explanation": {
+        "en": "After βλέπω (I see), this masculine plural object uses τους γρήγορους αθλητές. Compare the subject forms οι γρήγοροι αθλητές: the article and adjective change as well as the sentence role.",
+        "ru": "После βλέπω — «вижу» — объект в винительном падеже: τους αθλητές — «спортсменов». Прилагательное тоже меняет форму: ο γρήγορος αθλητής — «быстрый спортсмен», τους γρήγορους αθλητές — «быстрых спортсменов». Ударение в γρήγορους не сдвигается.",
+        "zh": "Αθλητές（运动员）是“我看见”的宾语，属于阳性复数，冠词用 τους，形容词用 γρήγορους。和主语形式 οι γρήγοροι αθλητές（那些速度快的运动员）相比，冠词与形容词都变化了。"
+      }
+    },
+    {
+      "id": "nov25-plural-teacher-stress",
+      "collection": "grammar-nouns",
+      "greek": "Βλέπω τους δασκάλους.",
+      "prompt": {
+        "en": "I see the primary-school teachers. (male or mixed group)",
+        "ru": "Вижу учителей начальных классов. (мужчины или смешанная группа)",
+        "zh": "我看见那些小学老师。（男性或男女混合）"
+      },
+      "pronunciation": {
+        "en": "VLE-po tus dha-SKA-lus",
+        "ru": "ВЛЭ-по тус да-СКА-лус",
+        "zh": "VLE-po tus dha-SKA-lus"
+      },
+      "themes": [
+        "classroom"
+      ],
+      "acceptedAnswers": [
+        "Βλέπω τους δάσκαλους."
+      ],
+      "explanation": {
+        "en": "The masculine plural object is τους δασκάλους, with the stress moving one syllable later than in δάσκαλος. The variant δάσκαλους also occurs; the exercise accepts either correct pattern.",
+        "ru": "Ο δάσκαλος — «учитель»; в винительном падеже множественного числа допустимы τους δασκάλους и τους δάσκαλους — «учителей». В первом варианте ударение сдвигается; это не универсальное правило для всех слов на -ος.",
+        "zh": "阳性复数宾格需要 τους；δάσκαλος 的常用复数宾格为 δασκάλους，重音移到了 σκάλ。口语中也能见到保留原重音的 δάσκαλους；本题接受两种形式。"
+      }
+    },
+    {
+      "id": "nov25-milk-portions",
+      "collection": "grammar-nouns",
+      "greek": "Δύο γάλατα, παρακαλώ.",
+      "prompt": {
+        "en": "Two milks, please. (two portions)",
+        "ru": "Два молока, пожалуйста. (две порции)",
+        "zh": "请给我两份牛奶。"
+      },
+      "pronunciation": {
+        "en": "DHI-o GHA-la-ta pa-ra-ka-LO",
+        "ru": "ДИ-о ГА-ла-та па-ра-ка-ЛО",
+        "zh": "DHI-o GHA-la-ta pa-ra-ka-LO"
+      },
+      "themes": [
+        "food"
+      ],
+      "explanation": {
+        "en": "Γάλα is normally a mass noun, but δύο γάλατα counts two portions or containers of milk. English can similarly say “two coffees”; the Greek plural adds -τα rather than simply replacing the last vowel.",
+        "ru": "Γάλα — «молоко» как вещество, но γάλατα — отдельные порции, пакеты или виды молока. Это похоже на русское разговорное «два молока» при заказе: единицу измерения подсказывает ситуация.",
+        "zh": "Γάλα 通常是不可数的牛奶，但点餐时 γάλατα 可指若干杯、瓶或份牛奶。中文通过量词说明份数，希腊语也可以让原本表示物质的名词变为复数；这里不是说两种不同的牛奶。"
+      }
+    },
+    {
+      "id": "nov25-no-smoking",
+      "collection": "grammar-verbs",
+      "greek": "Απαγορεύεται το κάπνισμα.",
+      "prompt": {
+        "en": "Smoking is prohibited.",
+        "ru": "Курение запрещено.",
+        "zh": "禁止吸烟。"
+      },
+      "pronunciation": {
+        "en": "a-pa-gho-RE-ve-te to KAP-ni-zma",
+        "ru": "а-па-го-РЭ-вэ-тэ то КАП-ни-зма",
+        "zh": "a-pa-gho-RE-ve-te to KAP-ni-zma"
+      },
+      "themes": [
+        "conversation"
+      ],
+      "explanation": {
+        "en": "Απαγορεύεται means “is prohibited”; το κάπνισμα is the activity that is prohibited. The whole phrase is a common sign, not a first-person verb saying what the learner does.",
+        "ru": "Απαγορεύεται — «запрещается», форма третьего лица; поэтому она находится в грамматике, а не среди глаголов «я делаю». Το κάπνισμα — «курение», название действия с артиклем; вместе получается обычная надпись о запрете.",
+        "zh": "Κάπνισμα 是“吸烟”这一行为的中性名词，在句中作主语。Απαγορεύεται 是第三人称单数被动形式“被禁止”，整句相当于“吸烟被禁止”；无需加一个“谁禁止”的主语。"
+      }
+    }
+  ]
+}
