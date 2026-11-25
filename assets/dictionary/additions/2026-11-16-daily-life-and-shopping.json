@@ -331,7 +331,8 @@
         "noun"
       ],
       "themes": [
-        "food"
+        "food",
+        "supermarket"
       ],
       "answerDisplay": "η ζάχαρη"
     },
@@ -353,7 +354,9 @@
         "noun"
       ],
       "themes": [
-        "food"
+        "food",
+        "kiosk",
+        "supermarket"
       ],
       "answerDisplay": "το γάλα"
     },
@@ -512,7 +515,8 @@
         "noun"
       ],
       "themes": [
-        "conversation"
+        "conversation",
+        "kiosk"
       ],
       "answerDisplay": "η εφημερίδα",
       "explanation": {
@@ -879,7 +883,8 @@
         "noun"
       ],
       "themes": [
-        "food"
+        "food",
+        "supermarket"
       ],
       "answerDisplay": "το μπουκάλι",
       "explanation": {
@@ -906,7 +911,9 @@
         "noun"
       ],
       "themes": [
-        "food"
+        "food",
+        "kiosk",
+        "supermarket"
       ],
       "answerDisplay": "το νερό",
       "reviewAliases": [
@@ -1018,7 +1025,8 @@
         "noun"
       ],
       "themes": [
-        "home"
+        "home",
+        "kiosk"
       ],
       "answerDisplay": "το σπίρτο"
     },
@@ -1040,7 +1048,8 @@
         "noun"
       ],
       "themes": [
-        "conversation"
+        "conversation",
+        "kiosk"
       ],
       "answerDisplay": "το περιοδικό",
       "explanation": {
@@ -1067,7 +1076,8 @@
         "noun"
       ],
       "themes": [
-        "phone"
+        "phone",
+        "kiosk"
       ],
       "answerDisplay": "η τηλεκάρτα"
     },
@@ -1089,7 +1099,8 @@
         "noun"
       ],
       "themes": [
-        "conversation"
+        "conversation",
+        "kiosk"
       ],
       "answerDisplay": "το γραμματόσημο"
     },
@@ -1111,7 +1122,9 @@
         "noun"
       ],
       "themes": [
-        "home"
+        "home",
+        "kiosk",
+        "supermarket"
       ],
       "answerDisplay": "το χαρτομάντιλο"
     },
@@ -1133,7 +1146,8 @@
         "noun"
       ],
       "themes": [
-        "food"
+        "food",
+        "kiosk"
       ],
       "answerDisplay": "η καραμέλα"
     },
@@ -1155,7 +1169,8 @@
         "noun"
       ],
       "themes": [
-        "food"
+        "food",
+        "kiosk"
       ],
       "answerDisplay": "η τσίχλα"
     },
@@ -1177,7 +1192,9 @@
         "noun"
       ],
       "themes": [
-        "food"
+        "food",
+        "kiosk",
+        "supermarket"
       ],
       "answerDisplay": "τα πατατάκια"
     },
@@ -1199,7 +1216,9 @@
         "noun"
       ],
       "themes": [
-        "food"
+        "food",
+        "kiosk",
+        "supermarket"
       ],
       "answerDisplay": "το αναψυκτικό"
     },
@@ -1221,7 +1240,9 @@
         "noun"
       ],
       "themes": [
-        "food"
+        "food",
+        "kiosk",
+        "supermarket"
       ],
       "answerDisplay": "το γιαούρτι",
       "explanation": {
@@ -1248,7 +1269,9 @@
         "noun"
       ],
       "themes": [
-        "food"
+        "food",
+        "kiosk",
+        "supermarket"
       ],
       "answerDisplay": "ο χυμός"
     },
@@ -1270,7 +1293,8 @@
         "noun"
       ],
       "themes": [
-        "home"
+        "home",
+        "supermarket"
       ],
       "answerDisplay": "το πακέτο"
     },
@@ -1292,7 +1316,8 @@
         "noun"
       ],
       "themes": [
-        "home"
+        "home",
+        "supermarket"
       ],
       "answerDisplay": "το κουτί"
     },
@@ -1314,7 +1339,9 @@
         "noun"
       ],
       "themes": [
-        "food"
+        "food",
+        "streetMarket",
+        "supermarket"
       ],
       "answerDisplay": "το πορτοκάλι",
       "explanation": {
@@ -1368,7 +1395,9 @@
         "noun"
       ],
       "themes": [
-        "food"
+        "food",
+        "bakery",
+        "supermarket"
       ],
       "answerDisplay": "το ψωμί",
       "explanation": {
@@ -1395,7 +1424,8 @@
         "noun"
       ],
       "themes": [
-        "food"
+        "food",
+        "supermarket"
       ],
       "answerDisplay": "το κιλό"
     },
@@ -1417,7 +1447,9 @@
         "noun"
       ],
       "themes": [
-        "food"
+        "food",
+        "bakery",
+        "supermarket"
       ],
       "answerDisplay": "το βούτημα"
     },
@@ -1439,7 +1471,8 @@
         "noun"
       ],
       "themes": [
-        "food"
+        "food",
+        "bakery"
       ],
       "answerDisplay": "η σπανακόπιτα"
     },
@@ -1461,7 +1494,9 @@
         "noun"
       ],
       "themes": [
-        "food"
+        "food",
+        "bakery",
+        "supermarket"
       ],
       "answerDisplay": "το κρουασάν",
       "explanation": {
@@ -1488,7 +1523,8 @@
         "noun"
       ],
       "themes": [
-        "food"
+        "food",
+        "bakery"
       ],
       "answerDisplay": "το κουλούρι"
     },
@@ -1510,7 +1546,8 @@
         "noun"
       ],
       "themes": [
-        "food"
+        "food",
+        "bakery"
       ],
       "answerDisplay": "το κριτσίνι"
     },
@@ -1532,7 +1569,8 @@
         "noun"
       ],
       "themes": [
-        "food"
+        "food",
+        "bakery"
       ],
       "answerDisplay": "η φρυγανιά"
     },
@@ -1554,7 +1592,8 @@
         "noun"
       ],
       "themes": [
-        "food"
+        "food",
+        "bakery"
       ],
       "answerDisplay": "το σάντουιτς",
       "explanation": {
@@ -1581,7 +1620,8 @@
         "noun"
       ],
       "themes": [
-        "food"
+        "food",
+        "bakery"
       ],
       "answerDisplay": "το γλυκό",
       "explanation": {
@@ -1630,7 +1670,8 @@
         "noun"
       ],
       "themes": [
-        "places"
+        "places",
+        "supermarket"
       ],
       "answerDisplay": "το μίνι μάρκετ",
       "alternatives": [
@@ -1678,7 +1719,8 @@
         "noun"
       ],
       "themes": [
-        "food"
+        "food",
+        "supermarket"
       ],
       "answerDisplay": "το τσάι",
       "explanation": {
@@ -1727,7 +1769,8 @@
         "noun"
       ],
       "themes": [
-        "people"
+        "people",
+        "streetMarket"
       ],
       "answerDisplay": "ο μανάβης"
     },
@@ -1749,7 +1792,9 @@
         "noun"
       ],
       "themes": [
-        "food"
+        "food",
+        "streetMarket",
+        "supermarket"
       ],
       "answerDisplay": "το μήλο",
       "explanation": {
@@ -1776,7 +1821,9 @@
         "noun"
       ],
       "themes": [
-        "food"
+        "food",
+        "streetMarket",
+        "supermarket"
       ],
       "answerDisplay": "η ντομάτα",
       "explanation": {
@@ -1825,7 +1872,9 @@
         "noun"
       ],
       "themes": [
-        "food"
+        "food",
+        "streetMarket",
+        "supermarket"
       ],
       "answerDisplay": "το αγγούρι"
     },
@@ -1847,7 +1896,8 @@
         "noun"
       ],
       "themes": [
-        "food"
+        "food",
+        "streetMarket"
       ],
       "answerDisplay": "το κρεμμύδι"
     },
@@ -1869,7 +1919,9 @@
         "noun"
       ],
       "themes": [
-        "food"
+        "food",
+        "streetMarket",
+        "supermarket"
       ],
       "answerDisplay": "το φρούτο"
     },

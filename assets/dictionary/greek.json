@@ -61705,16 +61705,21 @@
           "people"
         ],
         "everyday-nouns.cake": [
-          "food"
+          "food",
+          "bakery"
         ],
         "everyday-nouns.cheese-pie": [
-          "food"
+          "food",
+          "bakery"
         ],
         "everyday-nouns.chocolate": [
-          "food"
+          "food",
+          "kiosk",
+          "supermarket"
         ],
         "everyday-nouns.cigarette": [
-          "home"
+          "home",
+          "kiosk"
         ],
         "everyday-nouns.class": [
           "classroom"
@@ -61727,7 +61732,8 @@
           "people"
         ],
         "everyday-nouns.ice-cream": [
-          "food"
+          "food",
+          "kiosk"
         ],
         "everyday-nouns.lesson": [
           "classroom"
@@ -61736,10 +61742,12 @@
           "home"
         ],
         "everyday-nouns.lighter": [
-          "home"
+          "home",
+          "kiosk"
         ],
         "everyday-nouns.map": [
-          "home"
+          "home",
+          "kiosk"
         ],
         "everyday-nouns.marker": [
           "classroom"
@@ -61758,7 +61766,8 @@
           "places"
         ],
         "everyday-nouns.watermelon": [
-          "food"
+          "food",
+          "streetMarket"
         ],
         "everyday-places.airport": [
           "places"
@@ -61767,7 +61776,8 @@
           "places"
         ],
         "everyday-places.supermarket": [
-          "places"
+          "places",
+          "supermarket"
         ],
         "everyday-places.university": [
           "places"
@@ -61800,7 +61810,8 @@
           "phone"
         ],
         "shops-services.bakery": [
-          "places"
+          "places",
+          "bakery"
         ],
         "shops-services.hospital": [
           "places"
@@ -61809,7 +61820,8 @@
           "places"
         ],
         "shops-services.kiosk": [
-          "places"
+          "places",
+          "kiosk"
         ],
         "shops-services.pharmacy": [
           "places"
@@ -61862,10 +61874,13 @@
           "conversation"
         ],
         "october-lesson.beer": [
-          "food"
+          "food",
+          "kiosk",
+          "supermarket"
         ],
         "october-lesson.coffee": [
-          "food"
+          "food",
+          "supermarket"
         ],
         "october-lesson.mobile": [
           "phone"

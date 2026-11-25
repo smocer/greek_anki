@@ -16,6 +16,20 @@ enum LearningSection {
 }
 
 enum LearningTheme {
+  bakery(LocalizedText(en: 'At the bakery', ru: 'В пекарне', zh: '在面包店')),
+  kiosk(
+    LocalizedText(
+      en: 'At the kiosk (περίπτερο)',
+      ru: 'В киоске (περίπτερο)',
+      zh: '在街边售货亭（περίπτερο）',
+    ),
+  ),
+  streetMarket(
+    LocalizedText(en: 'At the street market', ru: 'На рынке', zh: '在露天集市'),
+  ),
+  supermarket(
+    LocalizedText(en: 'At the supermarket', ru: 'В супермаркете', zh: '在超市'),
+  ),
   verbA(LocalizedText(en: 'A', ru: 'A', zh: 'A')),
   verbB1(LocalizedText(en: 'B1', ru: 'B1', zh: 'B1')),
   verbB2(LocalizedText(en: 'B2', ru: 'B2', zh: 'B2')),

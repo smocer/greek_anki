@@ -2,7 +2,9 @@
 
 **To add new words, submit a new JSON file in `assets/dictionary/additions/`.**
 For example: `assets/dictionary/additions/2026-10-12-food.json`.
-There is no need to edit `greek.json`, Dart code, `pubspec.yaml`, or a file manifest.
+There is no need to edit `greek.json`, `pubspec.yaml`, or a file manifest.
+For new nouns and adjectives, also maintain the reviewed plural metadata described
+in [Standalone grammar drills](grammar-drills.md); catalog-wide tests enforce coverage.
 One file can contain one or more words, phrases, or grammar exercises.
 
 The app discovers all `.json` files in the directory, sorts them by filename,
@@ -66,6 +68,9 @@ Multiple collections can reference one definition to avoid maintaining duplicate
 `words-names`, `words-verbs`, `words-pronouns`, `words-adjectives`, `words-adverbs`, `words-prepositions`, `words-connectors`,
 `phrases-social`, `phrases-classroom`, or `phrases-everyday`.
 The former `words-numbers` collection is archived and not offered for learning. Do not add number/date/time examples there; the random number, date and clock drills cover them.
+Shopping themes `bakery`, `kiosk`, `streetMarket` and `supermarket` can overlap.
+Tag existing cards rather than duplicating them. See [Standalone grammar drills](grammar-drills.md)
+for the product-only quantity pool and its case forms.
 For grammar exercises, use a `grammar-*` collection ID from the base dictionary.
 Unknown collection IDs produce an error.
 

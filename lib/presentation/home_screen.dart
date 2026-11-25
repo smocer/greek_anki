@@ -12,6 +12,8 @@ import 'alphabet_screen.dart';
 import 'app_strings.dart';
 import 'clock_drill_screen.dart';
 import 'random_drill_screen.dart';
+import 'grammar_drill_screen.dart';
+import '../domain/grammar_drill.dart';
 import 'grammar_screen.dart';
 import 'language_switch.dart';
 import 'labeled_field.dart';
@@ -323,6 +325,37 @@ class _HomeScreenState extends State<HomeScreen> with WidgetsBindingObserver {
                     kind == RandomDrillKind.number
                         ? context.strings.numberDrillDescription
                         : context.strings.dateDrillDescription,
+                    textAlign: TextAlign.center,
+                    style: const TextStyle(fontSize: 12, color: Palette.muted),
+                  ),
+                ],
+                for (final kind in GrammarDrillKind.values) ...[
+                  const SizedBox(height: 12),
+                  OutlinedButton.icon(
+                    key: ValueKey('${kind.name}-drill'),
+                    onPressed: () => Navigator.of(context).push(
+                      MaterialPageRoute<void>(
+                        builder: (_) => GrammarDrillScreen(
+                          kind: kind,
+                          collections: widget.collections,
+                        ),
+                      ),
+                    ),
+                    icon: Icon(
+                      kind == GrammarDrillKind.quantity
+                          ? Icons.shopping_basket_outlined
+                          : Icons.translate_rounded,
+                    ),
+                    label: Text(
+                      grammarDrillTitle(context.strings, kind),
+                      textAlign: TextAlign.center,
+                    ),
+                  ),
+                  const SizedBox(height: 6),
+                  Text(
+                    kind == GrammarDrillKind.quantity
+                        ? context.strings.quantityDrillDescription
+                        : context.strings.pluralDrillDescription,
                     textAlign: TextAlign.center,
                     style: const TextStyle(fontSize: 12, color: Palette.muted),
                   ),

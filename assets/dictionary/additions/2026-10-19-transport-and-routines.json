@@ -130,7 +130,8 @@
         "zh": "KRE-as"
       },
       "themes": [
-        "food"
+        "food",
+        "supermarket"
       ],
       "labels": [
         "noun"
@@ -441,7 +442,8 @@
         "zh": "i-si-TI-ri-o"
       },
       "themes": [
-        "travel"
+        "travel",
+        "kiosk"
       ],
       "labels": [
         "noun"
@@ -468,7 +470,8 @@
         "zh": "pe-rip-te-RAS"
       },
       "themes": [
-        "people"
+        "people",
+        "kiosk"
       ],
       "labels": [
         "noun"
@@ -587,7 +590,8 @@
       },
       "themes": [
         "places",
-        "food"
+        "food",
+        "streetMarket"
       ],
       "labels": [
         "noun"

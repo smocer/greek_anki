@@ -240,6 +240,52 @@ class AppStrings {
   String get hardMode => _pick('Writing practice', 'Письменный ответ', '默写模式');
   String get clockDrill => _pick('Clock drill', 'Время на часах', '时钟练习');
   String get numberDrill => _pick('Number drill', 'Тренировка чисел', '数字练习');
+  String get nounPluralDrill =>
+      _pick('Noun plurals', 'Множественное число: существительные', '名词复数');
+  String get adjectivePluralDrill => _pick(
+    'Adjective plurals',
+    'Множественное число: прилагательные',
+    '形容词复数',
+  );
+  String get quantityDrill => _pick(
+    'Πόσος / πόση / πόσο',
+    'Πόσος / πόση / πόσο',
+    'Πόσος / πόση / πόσο',
+  );
+  String get pluralDrillDescription => _pick(
+    'Write the plural, including its article.',
+    'Напишите форму множественного числа с артиклем.',
+    '写出复数形式，带上定冠词。',
+  );
+  String get quantityDrillDescription => _pick(
+    'How much or how many? Practise with shopping vocabulary.',
+    'Сколько? Выберите нужную форму на примерах покупок.',
+    '用购物词汇练习“多少”的不同形式。',
+  );
+  String get pluralDrillInstructions => _pick(
+    'Write the word or short phrase in the nominative plural, with its article (οι or τα) and all accents. For adjectives, keep the gender shown. Some nouns have an irregular plural, such as ο χρόνος → τα χρόνια. Words already plural and words without a usual plural in their taught meaning are left out. The next question changes the gender or singular ending. Practise as long as you like; progress is not saved.',
+    'Напишите слово или короткую фразу в именительном падеже множественного числа с артиклем οι или τα и правильными ударениями. Для прилагательных сохраните род из задания. У существительных бывают исключения: ο χρόνος → τα χρόνια. Слова, которые уже стоят во множественном числе или обычно не имеют его в изучаемом значении, не используются. В следующем задании изменится род или окончание единственного числа. Результаты не сохраняются.',
+    '把词语或短语改为主格复数，写上定冠词 οι 或 τα 和正确重音。形容词要保留题目中的语法性别；有些名词的复数不规则，如 ο χρόνος → τα χρόνια。已是复数的词，以及在所学词义中通常不用复数的词，不会出题。相邻两题的性别或单数词尾不会相同。本练习不计分，也不保存进度。',
+  );
+  String get quantityDrillInstructions => _pick(
+    'Type only the missing word. With υπάρχει / υπάρχουν (“there is / are”), use the nominative: πόσος / πόσοι for masculine nouns. With θέλεις (“you want”), use the accusative: πόσο(ν) / πόσους. Feminine πόση / πόσες and neuter πόσο / πόσα stay the same in both cases. Match the noun’s gender and number; the number label also helps with words whose spelling does not change. Each next question needs a different answer form.',
+    'Впишите только пропущенное слово. В русском «сколько» не меняется по роду и числу, а греческая форма зависит от рода, числа и падежа существительного. В вопросах с υπάρχει / υπάρχουν («есть, имеется / имеются») нужен именительный падеж: для мужского рода πόσος / πόσοι. С θέλεις («хочешь») — винительный: πόσο(ν) / πόσους. В женском роде πόση / πόσες и в среднем πόσο / πόσα совпадают в обоих падежах. Выбирайте форму по роду и числу существительного; подпись с числом помогает с несклоняемыми словами. В следующем задании потребуется другая форма.',
+    '只填写空缺的词。υπάρχει / υπάρχουν 表示“有”，名词作主语，用主格：阳性单数 πόσος、复数 πόσοι。θέλεις 表示“你想要”，名词作宾语，用宾格：阳性单数 πόσο(ν)、复数 πόσους。阴性 πόση / πόσες、中性 πόσο / πόσα 在这两个格中的形式相同。根据名词的性和数选择；单复数标签也能帮助判断词形不变的词。下一题需要的答案形式一定不同。',
+  );
+  String get singularNoun => _pick('Singular', 'Единственное число', '单数');
+  String get pluralNoun => _pick('Plural', 'Множественное число', '复数');
+  String get missingWord => _pick('Missing word', 'Пропущенное слово', '填入的词');
+  String get pluralAnswer => _pick(
+    'Plural with article',
+    'Множественное число с артиклем',
+    '复数形式（含定冠词）',
+  );
+  String get pluralInputHelp => _pick(
+    'Article and accents required.',
+    'Артикль и ударения обязательны.',
+    '定冠词和重音都不能省略。',
+  );
+
   String get dateDrill => _pick('Date & time drill', 'Дата и время', '日期与时间练习');
   String get numberDrillDescription => _pick(
     'Random numbers from 0 to 10,000 · Practise as long as you like',
