@@ -99,7 +99,7 @@ class _GrammarDrillScreenState extends State<GrammarDrillScreen> {
             onPressed: () => showDialog<void>(
               context: context,
               builder: (context) => AlertDialog(
-                title: Text(title),
+                title: Text(strings.drillHelp),
                 content: SingleChildScrollView(
                   child: Text(
                     _quantity

@@ -95,6 +95,15 @@ void main() {
               );
               await tester.pumpAndSettle();
               layout(tester, check, size, 0);
+              await tap(tester, find.byTooltip(AppStrings(language).drillHelp));
+              expect(tester.takeException(), isNull);
+              for (final richText in find.byType(RichText).evaluate()) {
+                expect(
+                  (richText.renderObject! as RenderParagraph).didExceedMaxLines,
+                  isFalse,
+                );
+              }
+              await tap(tester, find.text(AppStrings(language).close));
               expect(tester.widget<FilledButton>(check).onPressed, isNull);
               tester.widget<TextField>(answer).controller!.text =
                   'λάθος απάντηση';
